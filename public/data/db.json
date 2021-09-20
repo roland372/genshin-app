@@ -1,0 +1,45 @@
+{
+  "characters":[
+    {
+      "id":1,
+      "name":"Zhongli",
+      "rarity":5,
+      "weapon": "Spear",
+      "element": "Geo"
+    },  {
+      "id":2,
+      "name":"Amber",
+      "rarity":4,
+      "weapon": "Bow",
+      "element": "Pyro"
+    },
+    {
+      "id":3,
+      "name":"Fischl",
+      "rarity":4,
+      "weapon": "Bow",
+      "element": "Electro"
+    },
+    {
+      "id":4,
+      "name":"Barbara",
+      "rarity":4,
+      "weapon": "Catalyst",
+      "element": "Hydro"
+    },
+    {
+      "id":5,
+      "name":"Kaeya",
+      "rarity":4,
+      "weapon": "Sword",
+      "element": "Cryo"
+    },
+    {
+      "id":6,
+      "name":"Venti",
+      "rarity":5,
+      "weapon": "Bow",
+      "element": "Anemo"
+    }
+  ]
+}
