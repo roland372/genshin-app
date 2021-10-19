@@ -1,0 +1,79 @@
+{
+  "name": "",
+  "title": "",
+  "rarity": 0,
+  "element": "",
+  "weapon": "",
+  "sex": "",
+  "birthday": "",
+  "constellation": "",
+  "nation": "",
+  "affiliation": "",
+  "specialDish": "",
+  "description": "",
+  "talentBook": "",
+  "ascensionMaterials": ["","","",""],
+  "skillTalents": [
+    {
+      "name": "",
+      "type": "Normal Attack",
+      "description": ""
+    },
+    {
+      "name": "",
+      "type": "Elemental Skill",
+      "description": ""
+    },
+    {
+      "name": "",
+      "type": "Elemental Burst",
+      "description": ""
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "",
+      "description": ""
+    },
+    {
+      "name": "",
+      "description": ""
+    },
+    {
+      "name": "",
+      "description": ""
+    }
+  ],
+  "constellations": [
+    {
+      "level": 1,
+      "name": "",
+      "description": ""
+    },
+    {
+      "level": 2,
+      "name": "",
+      "description": ""
+    },
+    {
+      "level": 3,
+      "name": "",
+      "description": ""
+    },
+    {
+      "level": 4,
+      "name": "",
+      "description": ""
+    },
+    {
+      "level": 5,
+      "name": "",
+      "description": ""
+    },
+    {
+      "level": 6,
+      "name": "",
+      "description": ""
+    }
+  ]
+}

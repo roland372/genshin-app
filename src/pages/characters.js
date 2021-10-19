@@ -1,11 +1,11 @@
 import React from 'react';
-import Characters from '../components/Characters';
-import Character from '../components/Character';
+import Characters from '../components/Characters/Characters';
+import Amber from '../components/Characters/Character/Amber/Amber';
 
 const characters = () => {
 	return (
 		// <Characters />
-		<Character />
+		<Amber />
 	);
 };
 

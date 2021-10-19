@@ -1,7 +1,8 @@
 import React from 'react';
+import Changelog from '../components/Changelog/Changelog';
 
 const changelog = () => {
-	return <div>changelog</div>;
+	return <Changelog />;
 };
 
 export default changelog;

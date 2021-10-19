@@ -24,8 +24,8 @@ const NavigationBar = () => {
 							</NavLink>
 						</li>
 						<li className='nav-item'>
-							<NavLink className='nav-link' to='farming-schedule'>
-								Farming Schedule
+							<NavLink className='nav-link' to='farming-planner'>
+								Farming Planner
 							</NavLink>
 						</li>
 						<li className='nav-item'>

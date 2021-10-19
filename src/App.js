@@ -9,7 +9,7 @@ import NotFound from './pages/NotFound';
 import characters from './pages/characters';
 import events from './pages/events';
 import artifacts from './pages/artifacts';
-import farmingSchedule from './pages/farmingSchedule';
+import farmingPlanner from './pages/farmingPlanner';
 import teamBuilder from './pages/teamBuilder';
 import calculator from './pages/calculator';
 import banners from './pages/banners';
@@ -32,7 +32,7 @@ function App() {
 						<Route exact path='/banners' render={banners} />
 						<Route exact path='/events' render={events} />
 						<Route exact path='/artifacts' render={artifacts} />
-						<Route exact path='/farming-schedule' render={farmingSchedule} />
+						<Route exact path='/farming-planner' render={farmingPlanner} />
 						<Route exact path='/team-builder' render={teamBuilder} />
 						<Route exact path='/calculator' render={calculator} />
 						<Route exact path='/database' render={database} />

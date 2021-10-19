@@ -1,5 +1,5 @@
 import React from 'react';
-import Achievements from '../components/Achievements';
+import Achievements from '../components/Database/Achievements/Achievements';
 
 const achievements = () => {
 	return <Achievements />;

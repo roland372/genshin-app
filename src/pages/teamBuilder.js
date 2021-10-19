@@ -1,7 +1,8 @@
 import React from 'react';
+import TeamBuilder from '../components/TeamBuilder/TeamBuilder';
 
 const teamBuilder = () => {
-	return <div>team bulder</div>;
+	return <TeamBuilder />;
 };
 
 export default teamBuilder;
