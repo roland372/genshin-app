@@ -3,10 +3,10 @@ import React from 'react';
 const Ascension = props => {
 	return (
 		<tr>
-			<th>{props.ascensionPhase}</th>
+			<th scope='row'>{props.ascensionPhase}</th>
 			<td>{props.level}</td>
-			<td>
-				<div className='d-flex align-items-center justify-content-around ms-3 text-start'>
+			<td className='text-start'>
+				<div className='d-flex align-items-center ms-3'>
 					<img src={props.ascensionMaterialImage} width='64px' alt='' />
 					<span>{props.ascensionMaterialName}</span>
 					<span className='rounded p-2 ms-2'>
@@ -15,14 +15,14 @@ const Ascension = props => {
 				</div>
 			</td>
 			<td>
-				<div className='d-flex align-items-center justify-content-around ms-3 text-start'>
+				<div className='d-flex align-items-center ms-3'>
 					<img src={props.bossMaterialImage} width='64px' alt='' />
 					<span>{props.bossMaterialName}</span>
 					<span className='rounded p-2 ms-2'>{props.bossMaterialAmount}</span>
 				</div>
 			</td>
 			<td>
-				<div className='d-flex align-items-center justify-content-around ms-3 text-start'>
+				<div className='d-flex align-items-center ms-3'>
 					<img src={props.localSpecialityImage} width='64px' alt='' />
 					<span>{props.localSpecialityName}</span>
 					<span className='rounded p-2 ms-2'>
@@ -31,7 +31,7 @@ const Ascension = props => {
 				</div>
 			</td>
 			<td>
-				<div className='d-flex align-items-center justify-content-around ms-3 text-start'>
+				<div className='d-flex align-items-center ms-3'>
 					<img src={props.commonMaterialImage} width='64px' alt='' />
 					<span>{props.commonMaterialName}</span>
 					<span className='rounded p-2 ms-2'>{props.commonMaterialAmount}</span>

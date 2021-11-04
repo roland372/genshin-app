@@ -31,53 +31,53 @@ const Sidebar = () => {
 					<Offcanvas.Body>
 						<ul className='nav-item'>
 							<li className='nav-item'>
-								<NavLink className='nav-link' to='characters'>
+								<NavLink className='nav-link' to='/characters'>
 									Characters
 								</NavLink>
 							</li>
 							<li className='nav-item'>
-								<NavLink className='nav-link' to='banners'>
+								<NavLink className='nav-link' to='/banners'>
 									Banners
 								</NavLink>
 							</li>
 							<li className='nav-item'>
-								<NavLink className='nav-link' to='events'>
+								<NavLink className='nav-link' to='/events'>
 									Events
 								</NavLink>
 							</li>
 							<li className='nav-item'>
-								<NavLink className='nav-link' to='artifacts'>
+								<NavLink className='nav-link' to='/artifacts'>
 									Artifacts
 								</NavLink>
 							</li>
 							<li className='nav-item'>
-								<NavLink className='nav-link' to='farming-planner'>
+								<NavLink className='nav-link' to='/farming-planner'>
 									Farming Planner
 								</NavLink>
 							</li>
 							<li className='nav-item'>
-								<NavLink className='nav-link' to='team-builder'>
+								<NavLink className='nav-link' to='/team-builder'>
 									Team Builder
 								</NavLink>
 							</li>
 							<li className='nav-item'>
-								<NavLink className='nav-link' to='calculator'>
+								<NavLink className='nav-link' to='/calculator'>
 									Calculator
 								</NavLink>
 							</li>
 
 							<li className='nav-item'>
-								<NavLink className='nav-link' to='database'>
+								<NavLink className='nav-link' to='/database'>
 									Database - TODO make it dropdown
 								</NavLink>
 							</li>
 							<li className='nav-item'>
-								<NavLink className='nav-link' to='changelog'>
+								<NavLink className='nav-link' to='/changelog'>
 									Changelog
 								</NavLink>
 							</li>
 							<li className='nav-item'>
-								<NavLink className='nav-link' to='achievements'>
+								<NavLink className='nav-link' to='/achievements'>
 									Achievements
 								</NavLink>
 							</li>

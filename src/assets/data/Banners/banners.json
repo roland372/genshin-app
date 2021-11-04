@@ -1,0 +1,33 @@
+{
+  "currentBanners":[
+    {
+      "characterBannerName": "Ballad in Goblets",
+      "characterBannerImage": "images/Banners/character/Wish_Ballad_in_Goblets_2020-09-28.jpg",
+      "characterBannerLink": "https://twitter.com/GenshinImpact/status/1309704246971990017",
+      "weaponBannerName": "Epitome Invocation",
+      "weaponBannerImage": "images/Banners/weapon/Wish_Epitome_Invocation_2020-09-28.jpg",
+      "weaponBannerLink": "https://genshin-impact.fandom.com/wiki/Epitome_Invocation/2020-09-28",
+      "duration": "September 28, 2020 ~ October 18, 2020 (Version 1.0)"
+    }
+  ],
+  "pastBanners": [
+    {
+      "characterBannerName": "Sparkling Steps",
+      "characterBannerImage": "images/Banners/character/Wish_Sparkling_Steps_2020-10-20.jpg",
+      "characterBannerLink": "https://twitter.com/GenshinImpact/status/1317676780250038273",
+      "weaponBannerName": "Epitome Invocation",
+      "weaponBannerImage": "images/Banners/weapon/Wish_Epitome_Invocation_2020-10-20.jpg",
+      "weaponBannerLink": "https://genshin-impact.fandom.com/wiki/Epitome_Invocation/2020-10-20",
+      "duration": "October 20, 2020 ~ November 9, 2020 (Version 1.0)"
+    },
+    {
+      "characterBannerName": "Ballad in Goblets",
+      "characterBannerImage": "images/Banners/character/Wish_Ballad_in_Goblets_2020-09-28.jpg",
+      "characterBannerLink": "https://twitter.com/GenshinImpact/status/1309704246971990017",
+      "weaponBannerName": "Epitome Invocation",
+      "weaponBannerImage": "images/Banners/weapon/Wish_Epitome_Invocation_2020-09-28.jpg",
+      "weaponBannerLink": "https://genshin-impact.fandom.com/wiki/Epitome_Invocation/2020-09-28",
+      "duration": "September 28, 2020 ~ October 18, 2020 (Version 1.0)"
+    }
+  ]
+}

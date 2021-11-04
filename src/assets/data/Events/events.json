@@ -1,0 +1,56 @@
+{
+  "currentEvents": [
+    {
+      "name": "Thunder Sojourn",
+      "link": "https://www.hoyolab.com/article/573692",
+      "image": "/images/Events/2.0/Thunder_Sojourn.png",
+      "version": 2.0,
+      "startDate": "July 22, 2021",
+      "endDate": "August 9, 2021"
+    }
+  ],
+  "upcomingEvents": [
+    {
+      "name": "Thunder Sojourn",
+      "link": "https://www.hoyolab.com/article/573692",
+      "image": "/images/Events/2.0/Thunder_Sojourn.png",
+      "version": 2.0,
+      "startDate": "July 22, 2021",
+      "endDate": "August 9, 2021"
+    }
+  ],
+  "pastEvents": [
+    {
+      "name": "Thunder Sojourn",
+      "link": "https://www.hoyolab.com/article/573692",
+      "image": "/images/Events/2.0/Thunder_Sojourn.png",
+      "version": 2.0,
+      "startDate": "July 22, 2021",
+      "endDate": "August 9, 2021"
+    }, 
+    {
+      "name": "Thunder Sojourn",
+      "link": "https://www.hoyolab.com/article/573692",
+      "image": "/images/Events/2.0/Thunder_Sojourn.png",
+      "version": 2.0,
+      "startDate": "July , 2021",
+      "endDate": "August 9, 2021"
+    }, 
+    {
+      "name": "Thunder Sojourn",
+      "link": "https://www.hoyolab.com/article/573692",
+      "image": "/images/Events/2.0/Thunder_Sojourn.png",
+      "version": 2.0,
+      "startDate": " 22, 2021",
+      "endDate": "August 9, 2021"
+    }, 
+    {
+      "name": "Thunder Sojourn",
+      "link": "https://www.hoyolab.com/article/573692",
+      "image": "/images/Events/2.0/Thunder_Sojourn.png",
+      "version": 2.0,
+      "startDate": "July 22, 2021",
+      "endDate": " 9, 2021"
+    }
+  ]
+}

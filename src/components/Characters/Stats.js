@@ -1,9 +1,7 @@
 import React from 'react';
 import CardComponent from '../Layout/CardComponent';
-import data from '../../assets/data/Characters/Amber.json';
 
 const CharacterStats = props => {
-	let ascensionStat = data.ascensionStat;
 	return (
 		<CardComponent title='Stats'>
 			<div className='table-responsive mx-2'>
@@ -20,7 +18,7 @@ const CharacterStats = props => {
 							<th scope='col'>Base DEF</th>
 							<th scope='col'>CRIT Rate</th>
 							<th scope='col'>CRIT DMG</th>
-							<th scope='col'>{ascensionStat}</th>
+							<th scope='col'>{props.ascensionStat}</th>
 						</tr>
 					</thead>
 					<tbody>

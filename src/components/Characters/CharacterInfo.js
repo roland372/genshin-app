@@ -10,7 +10,7 @@ const CharacterInfo = props => {
 				<tbody>
 					<tr>
 						<td rowSpan='15'>
-							<img src={props.image} width='200px' className='me-2' alt='' />
+							<img src={props.avatar} width='200px' className='me-2' alt='' />
 						</td>
 					</tr>
 					<tr>
@@ -20,7 +20,7 @@ const CharacterInfo = props => {
 					<tr>
 						<td>Rarity</td>
 						<td>
-							<img src={props.rarity} width='60px' alt='' />
+							<img src={props.rarity} width='64px' alt='' />
 						</td>
 					</tr>
 					<tr>
@@ -66,16 +66,16 @@ const CharacterInfo = props => {
 					<tr>
 						<td>Talent Book</td>
 						<td>
-							<img src={props.talentBook} width='70px' alt='' />
+							<img src={props.talentBook} width='64px' alt='' />
 						</td>
 					</tr>
 					<tr>
 						<td>Ascension Materials</td>
 						<td>
-							<img src={props.ascensionMaterial1} width='50px' alt='' />
-							<img src={props.ascensionMaterial2} width='50px' alt='' />
-							<img src={props.ascensionMaterial3} width='50px' alt='' />
-							<img src={props.ascensionMaterial4} width='50px' alt='' />
+							<img src={props.ascensionMaterial1} width='64px' alt='' />
+							<img src={props.ascensionMaterial2} width='64px' alt='' />
+							<img src={props.ascensionMaterial3} width='64px' alt='' />
+							<img src={props.ascensionMaterial4} width='64px' alt='' />
 						</td>
 					</tr>
 				</tbody>

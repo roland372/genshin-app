@@ -3,7 +3,10 @@ import React from 'react';
 const Event = props => {
 	return (
 		<div className='table-responsive mx-3'>
-			<table className='table table-dark' style={{ minWidth: '700px' }}>
+			<table
+				className='table table-dark table-striped'
+				style={{ minWidth: '700px' }}
+			>
 				<thead>
 					<tr>
 						<th scope='col'>Image</th>

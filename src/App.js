@@ -1,7 +1,12 @@
 // <--- React --->
 import { React, Fragment } from 'react';
 // import Layout from './components/Layout/Layout';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {
+	BrowserRouter as Router,
+	Route,
+	Switch,
+	useRouteMatch,
+} from 'react-router-dom';
 
 // <--- Pages --->
 import home from './pages/home';
@@ -22,6 +27,8 @@ import Layout from './components/Layout/Layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+	const { url } = useRouteMatch;
+	console.log('url', url);
 	return (
 		<Fragment>
 			<Router>
@@ -38,7 +45,7 @@ function App() {
 						<Route exact path='/database' render={database} />
 						<Route exact path='/changelog' render={changelog} />
 						<Route exact path='/achievements' render={achievements} />
-						<Route component={NotFound} />
+						<Route render={NotFound} />
 					</Switch>
 				</Layout>
 			</Router>

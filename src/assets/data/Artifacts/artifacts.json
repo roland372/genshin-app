@@ -1,0 +1,25 @@
+{
+  "artifacts":[
+    {
+      "name":"Adventurer",
+      "max_rarity":"3★",
+      "image":"images/Artifacts/Artifact_Adventurer's_Flower.png",
+      "2-piece_bonus":"Max HP increased by 1,000.",
+      "4-piece_bonus":"Opening chest regenerates 30% Max HP over 5s."
+    },
+    {
+      "name":"Archaic Petra",
+      "max_rarity":"5★",
+      "image":"images/Artifacts/Artifact_Flower_of_Creviced_Cliff.png",
+      "2-piece_bonus":"Gain a 15% Geo DMG Bonus.",
+      "4-piece_bonus":"Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain a 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
+    },
+    {
+      "name":"Berserker",
+      "max_rarity":"5★",
+      "image":"images/Artifacts/Artifact_Berserker's_Rose.png",
+      "2-piece_bonus":"CRIT Rate +12%",
+      "4-piece_bonus":"When HP is below 70%, CRIT Rate increases by an additional 24%."
+    }
+  ]
+}

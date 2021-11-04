@@ -10,20 +10,19 @@ import TalentMaterials from '../../TalentMaterials';
 import Constellations from './Constellations';
 import Ascensions from './Ascensions';
 
-// <----- character images ----->
-import CharacterImage from '../../../../assets/Character_Amber_Avatar.png';
-import Rarity from '../../../../assets/Icon_5_Stars.png';
-import Element from '../../../../assets/Element_Anemo.png';
-import WeaponIcon from '../../../../assets/Weapon-class-sword-icon.png';
-import TalentBook from '../../../../assets/Item_Teachings_of_Freedom.png';
-
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Amber.json';
 
 const Amber = () => {
+	// const path = process.env.PUBLIC_URL;
+
 	const {
 		name,
+		avatar,
 		title,
+		rarityImage,
+		elementImage,
+		weaponImage,
 		sex,
 		birthday,
 		constellation,
@@ -31,16 +30,24 @@ const Amber = () => {
 		affiliation,
 		specialDish,
 		description,
+		talentBookImage,
+		ascensionMaterial1,
+		ascensionMaterial2,
+		ascensionMaterial3,
+		ascensionMaterial4,
+		skillTalents,
+		passiveTalents,
+		constellations,
 	} = data;
 	return (
 		<Container>
 			<CardComponent title={name}>
 				<CharacterInfo
-					image={CharacterImage}
+					avatar={avatar}
 					title={title}
-					rarity={Rarity}
-					element={Element}
-					weapon={WeaponIcon}
+					rarity={rarityImage}
+					element={elementImage}
+					weapon={weaponImage}
 					sex={sex}
 					birthday={birthday}
 					constellation={constellation}
@@ -48,53 +55,34 @@ const Amber = () => {
 					affiliation={affiliation}
 					specialDish={specialDish}
 					description={description}
-					talentBook={TalentBook}
-					ascensionMaterial1={WeaponIcon}
-					ascensionMaterial2={WeaponIcon}
-					ascensionMaterial3={WeaponIcon}
-					ascensionMaterial4={WeaponIcon}
+					talentBook={talentBookImage}
+					ascensionMaterial1={ascensionMaterial1}
+					ascensionMaterial2={ascensionMaterial2}
+					ascensionMaterial3={ascensionMaterial3}
+					ascensionMaterial4={ascensionMaterial4}
 				/>
 			</CardComponent>
-			<Stats data={data} />
+			<Stats data={data} ascensionStat={data.ascensionStat} />
 			<Talents
-				normalAttackImage={TalentBook}
-				elementalSkillImage={TalentBook}
-				elementalBurstImage={TalentBook}
-				passiveTalent1Image={TalentBook}
-				passiveTalent2Image={TalentBook}
-				passiveTalent3Image={TalentBook}
-			/>
-			<TalentMaterials
-				talentBookImageBronze={TalentBook}
-				talentBookImageSilver={TalentBook}
-				talentBookImageGold={TalentBook}
-				commonMaterialImageTier1={TalentBook}
-				commonMaterialImageTier2={TalentBook}
-				commonMaterialImageTier3={TalentBook}
-				bossMaterialImage={TalentBook}
-				crownImage={TalentBook}
-				moraImage={TalentBook}
-			/>
-			<Constellations
-				constellation1Image={TalentBook}
-				constellation2Image={TalentBook}
-				constellation3Image={TalentBook}
-				constellation4Image={TalentBook}
-				constellation5Image={TalentBook}
-				constellation6Image={TalentBook}
-			/>
-			<Ascensions
 				data={data}
-				ascensionMaterial1Image={TalentBook}
-				ascensionMaterial2Image={TalentBook}
-				ascensionMaterial3Image={TalentBook}
-				ascensionMaterial4Image={TalentBook}
-				bossMaterialImage={TalentBook}
-				localSpecialityImage={TalentBook}
-				commonMaterial1Image={TalentBook}
-				commonMaterial2Image={TalentBook}
-				commonMaterial3Image={TalentBook}
+				normalAttackImage={skillTalents[0].image}
+				elementalSkillImage={skillTalents[1].image}
+				elementalBurstImage={skillTalents[2].image}
+				passiveTalent1Image={passiveTalents[0].image}
+				passiveTalent2Image={passiveTalents[1].image}
+				passiveTalent3Image={passiveTalents[2].image}
 			/>
+			<TalentMaterials data={data} />
+			<Constellations
+				data={data}
+				constellation1Image={constellations[0].image}
+				constellation2Image={constellations[1].image}
+				constellation3Image={constellations[2].image}
+				constellation4Image={constellations[3].image}
+				constellation5Image={constellations[4].image}
+				constellation6Image={constellations[5].image}
+			/>
+			<Ascensions data={data} />
 		</Container>
 	);
 };

@@ -4,16 +4,11 @@ const Artifact = props => {
 	return (
 		<tr>
 			<th scope='row'>{props.name}</th>
-			<td>4-5★</td>
+			<td>{props.rarity}</td>
 			<td>
-				<img
-					className='img-thumbnail border-0 bg-secondary'
-					src={props.image}
-					width='64px'
-					alt=''
-				/>
+				<img className='img-fluid' src={props.image} width='100px' alt='' />
 			</td>
-			<td>
+			<td className='text-start'>
 				<div>
 					<b>2 Piece: </b>
 					{props.bonus1}

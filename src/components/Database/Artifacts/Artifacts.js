@@ -1,8 +1,8 @@
 import React from 'react';
-import ArtifactImage from '../../../assets/Item_Adventurers_Flower.png';
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
 import Artifact from './Artifact';
+import data from '../../../assets/data/Artifacts/artifacts.json';
 
 const Artifacts = () => {
 	return (
@@ -10,7 +10,7 @@ const Artifacts = () => {
 			<CardComponent title='Artifacts'>
 				<div className='table-responsive mx-3'>
 					<table
-						className='table table-hover table-dark align-middle'
+						className='table table-dark align-middle'
 						style={{ minWidth: '650px' }}
 					>
 						<thead>
@@ -22,7 +22,18 @@ const Artifacts = () => {
 							</tr>
 						</thead>
 						<tbody>
-							<Artifact
+							{data.artifacts.map(artifact => {
+								return (
+									<Artifact
+										name={artifact.name}
+										rarity={artifact.max_rarity}
+										image={artifact.image}
+										bonus1={artifact['2-piece_bonus']}
+										bonus2={artifact['4-piece_bonus']}
+									/>
+								);
+							})}
+							{/* <Artifact
 								name='Adventurer'
 								image={ArtifactImage}
 								bonus1='Electro DMG Bonus +15%'
@@ -48,7 +59,7 @@ const Artifacts = () => {
 								Electro-Charged and Superconduct by 40%. Triggering such
 								effects decreases Elemental Skill CD by 1s. Can only occur
 								once every 0.8s.'
-							/>
+							/> */}
 						</tbody>
 					</table>
 				</div>

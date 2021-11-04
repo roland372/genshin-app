@@ -20,14 +20,14 @@ const Constellations = props => {
 							<Constellation
 								level='1'
 								image={props.constellation1Image}
-								name='One Arrow to Rule Them All'
+								name={props.data.constellations[0].name}
 								description="Fires 2 arrows per Aimed Shot. The second arrow deals 20% of
             the first arrow's DMG."
 							/>
 							<Constellation
 								level='2'
 								image={props.constellation2Image}
-								name='Bunny Triggered'
+								name={props.data.constellations[1].name}
 								description={
 									<div>
 										<div>
@@ -43,7 +43,7 @@ const Constellations = props => {
 							<Constellation
 								level='3'
 								image={props.constellation3Image}
-								name='It Burns!'
+								name={props.data.constellations[2].name}
 								description={
 									<div>
 										<div>Increases the Level of Fiery Rain by 3.</div>
@@ -54,13 +54,13 @@ const Constellations = props => {
 							<Constellation
 								level='4'
 								image={props.constellation4Image}
-								name="It's Not Just Any Doll..."
+								name={props.data.constellations[3].name}
 								description="Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge."
 							/>
 							<Constellation
 								level='5'
 								image={props.constellation5Image}
-								name="It's Baron Bunny!"
+								name={props.data.constellations[4].name}
 								description={
 									<div>
 										<div>Increases the Level of Explosive Puppet by 3.</div>
@@ -71,7 +71,7 @@ const Constellations = props => {
 							<Constellation
 								level='6'
 								image={props.constellation6Image}
-								name='Wildfire'
+								name={props.data.constellations[5].name}
 								description="Fiery Rain increases all party members' Movement SPD by 15% and ATK by 15% for 10s."
 							/>
 							{props.children}

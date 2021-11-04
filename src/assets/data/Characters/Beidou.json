@@ -1,0 +1,852 @@
+{
+  "name":"Beidou",
+  "avatar": "images/Characters/liyue/Beidou/images/Character_Beidou_Avatar.png",
+  "title":"Uncrowned Lord of the Ocean",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Electro",
+  "elementImage": "images/Elements/Element_Electro.png",
+  "weapon":"Claymore",
+  "weaponImage": "images/Weapon icons/Weapon-class-claymore-icon.png",
+  "sex":"Female",
+  "birthday":"February 14th",
+  "constellation":"Victor Mare",
+  "nation":"Liyue",
+  "affiliation":"Crux Fleet",
+  "specialDish":"Flash-Fried Filet",
+  "description":"Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
+  "talentBook":"Teachings of Gold",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Gold/Item_Teachings_of_Gold.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Liyue/Item_Noctilucous_Jade.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+  "ascensionStat": "Electro DMG Bonus",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Noctilucous Jade",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Noctilucous_Jade.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Treasure Hoarder Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+      "name": "Noctilucous Jade",
+      "image": "images/Materials/Local Specialties/Liyue/Item_Noctilucous_Jade.png",
+      "amount": 10
+     },
+     "commonMaterial": {
+      "name": "Treasure Hoarder Insignia",
+      "image": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+      "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+      "name": "Vajrada Amethyst Fragment",
+      "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
+      "amount": 6
+     },
+     "bossMaterial": {
+      "name": "Lightning Prism",
+      "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+      "amount": 4
+     },
+     "localSpeciality": {
+      "name": "Noctilucous Jade",
+      "image": "images/Materials/Local Specialties/Liyue/Item_Noctilucous_Jade.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Silver Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+      "name": "Vajrada Amethyst Chunk",
+      "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+      "name": "Lightning Prism",
+      "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+      "name": "Noctilucous Jade",
+      "image": "images/Materials/Local Specialties/Liyue/Item_Noctilucous_Jade.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+      "name": "Silver Raven Insignia",
+      "image": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+      "name": "Vajrada Amethyst Chunk",
+      "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+      "name": "Lightning Prism",
+      "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+      "name": "Noctilucous Jade",
+      "image": "images/Materials/Local Specialties/Liyue/Item_Noctilucous_Jade.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+      "name": "Golden Raven Insignia",
+      "image": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+      "name": "Vajrada Amethyst Gemstone",
+      "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+      "name": "Lightning Prism",
+      "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+      "name": "Noctilucous Jade",
+      "image": "images/Materials/Local Specialties/Liyue/Item_Noctilucous_Jade.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+      "name": "Golden Raven Insignia",
+      "image": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1094,
+      "ATK": 19,
+      "DEF": 54,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2811,
+      "ATK": 48,
+      "DEF": 140,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3628,
+      "ATK": 63,
+      "DEF": 180,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 5435,
+      "ATK": 94,
+      "DEF": 270,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 6015,
+      "ATK": 104,
+      "DEF": 299,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 6919,
+      "ATK": 119,
+      "DEF": 344,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 7694,
+      "ATK": 133,
+      "DEF": 382,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 8597,
+      "ATK": 148,
+      "DEF": 427,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 9178,
+      "ATK": 158,
+      "DEF": 456,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 10081,
+      "ATK": 174,
+      "DEF": 501,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 10662,
+      "ATK": 184,
+      "DEF": 530,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 11565,
+      "ATK": 200,
+      "DEF": 575,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 12146,
+      "ATK": 210,
+      "DEF": 603,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 13050,
+      "ATK": 225,
+      "DEF": 648,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Oceanborne",
+      "image": "images/Characters/liyue/Beidou/talents/Talent_Oceanborne.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "71.10%",
+          "2": "76.90%",
+          "3": "82.70%",
+          "4": "91%",
+          "5": "96.80%",
+          "6": "103.40%",
+          "7": "112.50%",
+          "8": "121.60%",
+          "9": "130.70%",
+          "10": "140.60%",
+          "11": "152%",
+          "12": "165.30%",
+          "13": "178.70%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "70.90%",
+          "2": "76.60%",
+          "3": "82.40%",
+          "4": "90.60%",
+          "5": "96.40%",
+          "6": "103%",
+          "7": "112.10%",
+          "8": "121.10%",
+          "9": "130.20%",
+          "10": "140.10%",
+          "11": "151.40%",
+          "12": "164.70%",
+          "13": "178.10%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "88.30%",
+          "2": "95.50%",
+          "3": "102.70%",
+          "4": "113%",
+          "5": "120.20%",
+          "6": "128.40%",
+          "7": "139.70%",
+          "8": "151%",
+          "9": "162.30%",
+          "10": "174.60%",
+          "11": "188.70%",
+          "12": "205.30%",
+          "13": "221.90%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "86.50%",
+          "2": "93.60%",
+          "3": "100.60%",
+          "4": "110.70%",
+          "5": "117.70%",
+          "6": "125.80%",
+          "7": "136.80%",
+          "8": "147.90%",
+          "9": "158.90%",
+          "10": "171%",
+          "11": "184.90%",
+          "12": "201.10%",
+          "13": "217.40%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "112%",
+          "2": "121%",
+          "3": "130%",
+          "4": "143%",
+          "5": "153%",
+          "6": "163%",
+          "7": "177%",
+          "8": "192%",
+          "9": "206%",
+          "10": "222%",
+          "11": "240%",
+          "12": "261%",
+          "13": "282%"
+        },
+        {
+          "LVL": "Charged Attack Spinning DMG",
+          "1": "56.20%",
+          "2": "60.80%",
+          "3": "65.40%",
+          "4": "71.90%",
+          "5": "76.50%",
+          "6": "81.70%",
+          "7": "88.90%",
+          "8": "96.10%",
+          "9": "103.30%",
+          "10": "111.20%",
+          "11": "120.20%",
+          "12": "130.70%",
+          "13": "141.30%"
+        },
+        {
+          "LVL": "Charged Attack Final DMG",
+          "1": "102%",
+          "2": "110%",
+          "3": "118%",
+          "4": "130%",
+          "5": "139%",
+          "6": "148%",
+          "7": "161%",
+          "8": "174%",
+          "9": "187%",
+          "10": "201%",
+          "11": "218%",
+          "12": "237%",
+          "13": "256%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "40/s",
+          "2": "40/s",
+          "3": "40/s",
+          "4": "40/s",
+          "5": "40/s",
+          "6": "40/s",
+          "7": "40/s",
+          "8": "40/s",
+          "9": "40/s",
+          "10": "40/s",
+          "11": "40/s",
+          "12": "40/s",
+          "13": "40/s"
+        },
+        {
+          "LVL": "Max Duration",
+          "1": "5s",
+          "2": "5s",
+          "3": "5s",
+          "4": "5s",
+          "5": "5s",
+          "6": "5s",
+          "7": "5s",
+          "8": "5s",
+          "9": "5s",
+          "10": "5s",
+          "11": "5s",
+          "12": "5s",
+          "13": "5s"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "74.60%",
+          "2": "80.70%",
+          "3": "86.70%",
+          "4": "95.40%",
+          "5": "101.50%",
+          "6": "108.40%",
+          "7": "118%",
+          "8": "127.50%",
+          "9": "137%",
+          "10": "147.40%",
+          "11": "157.80%",
+          "12": "168.30%",
+          "13": "178.70%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "149% /186%",
+          "2": "161% /201%",
+          "3": "173% /217%",
+          "4": "191% /238%",
+          "5": "203% /253%",
+          "6": "217% /271%",
+          "7": "236% /295%",
+          "8": "255% /318%",
+          "9": "274% /342%",
+          "10": "295% /368%",
+          "11": "316% /394%",
+          "12": "336% /420%",
+          "13": "357% /446%"
+        }
+       ]
+    },
+    {
+      "name":"Tidecaller",
+      "image": "images/Characters/liyue/Beidou/talents/Talent_Tidecaller.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Shield DMG Absorption",
+          "1": "14.4% Max HP +1386",
+          "2": "15.5% Max HP +1525",
+          "3": "16.6% Max HP +1675",
+          "4": "18% Max HP +1837",
+          "5": "19.1% Max HP +2010",
+          "6": "20.2% Max HP +2195",
+          "7": "21.6% Max HP +2392",
+          "8": "23% Max HP +2600",
+          "9": "24.5% Max HP +2819",
+          "10": "25.9% Max HP +3050",
+          "11": "27.4% Max HP +3293",
+          "12": "28.8% Max HP +3547",
+          "13": "30.6% Max HP +3813"
+        },
+        {
+          "LVL": "Base DMG",
+          "1": "122.00%",
+          "2": "131.00%",
+          "3": "140.00%",
+          "4": "152.00%",
+          "5": "161.00%",
+          "6": "170%",
+          "7": "182.00%",
+          "8": "195.00%",
+          "9": "207.00%",
+          "10": "219.00%",
+          "11": "231.00%",
+          "12": "243.00%",
+          "13": "258.00%"
+        },
+        {
+          "LVL": "DMG Bonus on Hit Taken",
+          "1": "160.00%",
+          "2": "172.00%",
+          "3": "184.00%",
+          "4": "200%",
+          "5": "212.00%",
+          "6": "224.00%",
+          "7": "240.00%",
+          "8": "256%",
+          "9": "272.00%",
+          "10": "288.00%",
+          "11": "304.00%",
+          "12": "320.00%",
+          "13": "340.00%"
+        },
+        {
+          "LVL": "CD",
+          "1": "7.5s",
+          "2": "7.5s",
+          "3": "7.5s",
+          "4": "7.5s",
+          "5": "7.5s",
+          "6": "7.5s",
+          "7": "7.5s",
+          "8": "7.5s",
+          "9": "7.5s",
+          "10": "7.5s",
+          "11": "7.5s",
+          "12": "7.5s",
+          "13": "7.5s"
+        }
+       ]
+    },
+    {
+      "name":"Stormbreaker",
+      "image": "images/Characters/liyue/Beidou/talents/Talent_Stormbreaker.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "122%",
+          "2": "131%",
+          "3": "140%",
+          "4": "152%",
+          "5": "161%",
+          "6": "170%",
+          "7": "182%",
+          "8": "195%",
+          "9": "207%",
+          "10": "219%",
+          "11": "231%",
+          "12": "243%",
+          "13": "258%"
+        },
+        {
+          "LVL": "Lightning DMG",
+          "1": "96.00%",
+          "2": "103.20%",
+          "3": "110.40%",
+          "4": "120.00%",
+          "5": "127.20%",
+          "6": "134%",
+          "7": "144.00%",
+          "8": "153.60%",
+          "9": "163.20%",
+          "10": "172.80%",
+          "11": "182.40%",
+          "12": "192.00%",
+          "13": "204.00%"
+        },
+        {
+          "LVL": "DMG Reduction",
+          "1": "20.00%",
+          "2": "21.00%",
+          "3": "22.00%",
+          "4": "24%",
+          "5": "25.00%",
+          "6": "26.00%",
+          "7": "28.00%",
+          "8": "30%",
+          "9": "32.00%",
+          "10": "34.00%",
+          "11": "35.00%",
+          "12": "36.00%",
+          "13": "37.00%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "80",
+          "2": "80",
+          "3": "80",
+          "4": "80",
+          "5": "80",
+          "6": "80",
+          "7": "80",
+          "8": "80",
+          "9": "80",
+          "10": "80",
+          "11": "80",
+          "12": "80",
+          "13": "80"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Retribution",
+      "image": "images/Characters/liyue/Beidou/talents/Talent_Retribution.png",
+      "description":""
+    },
+    {
+      "name":"Lightning Storm",
+      "image": "images/Characters/liyue/Beidou/talents/Talent_Lightning_Storm.png",
+      "description":""
+    },
+    {
+      "name":"Conqueror of Tides",
+      "image": "images/Characters/liyue/Beidou/talents/Talent_Conqueror_of_Tides.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Teachings_of_Gold.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Sea Beast's Scourge",
+      "image": "images/Characters/liyue/Beidou/constellations/Constellation_Sea_Beast's_Scourge.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Upon the Turbulent Sea, the Thunder Arises",
+      "image": "images/Characters/liyue/Beidou/constellations/Constellation_Upon_the_Turbulent_Sea,_the_Thunder_Arises.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Summoner of Storm",
+      "image": "images/Characters/liyue/Beidou/constellations/Constellation_Summoner_of_Storm.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Stunning Revenge",
+      "image": "images/Characters/liyue/Beidou/constellations/Constellation_Stunning_Revenge.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Crimson Tidewalker",
+      "image": "images/Characters/liyue/Beidou/constellations/Constellation_Crimson_Tidewalker.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Bane of Evil",
+      "image": "images/Characters/liyue/Beidou/constellations/Constellation_Bane_of_Evil.png",
+      "description":""
+    }
+  ]
+}
