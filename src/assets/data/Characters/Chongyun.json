@@ -1,0 +1,790 @@
+{
+  "name":"Chongyun",
+  "avatar": "images/Characters/Liyue/Chongyun/images/Character_Chongyun_Avatar.png",
+  "title":"Frozen Ardor",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Cryo",
+  "elementImage": "images/Elements/Element_Cryo.png",
+  "weapon":"Claymore",
+  "weaponImage": "images/Weapon icons/Weapon-class-claymore-icon.png",
+  "sex":"Male",
+  "birthday":"September 7th",
+  "constellation":"Nubis Caesor",
+  "nation":"Liyue",
+  "affiliation":"Liyue Harbor",
+  "specialDish":"Cold Noodles with Mountain Delicacies",
+  "description":"A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",
+  "talentBook":"Teachings of Diligence",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Diligence/Item_Teachings_of_Diligence.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+  "ascensionStat": "ATK%",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 921,
+      "ATK": 19,
+      "DEF": 54,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2366,
+      "ATK": 48,
+      "DEF": 140,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3054,
+      "ATK": 62,
+      "DEF": 180,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 4574,
+      "ATK": 93,
+      "DEF": 270,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5063,
+      "ATK": 103,
+      "DEF": 299,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5824,
+      "ATK": 118,
+      "DEF": 344,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 6475,
+      "ATK": 131,
+      "DEF": 382,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 7236,
+      "ATK": 147,
+      "DEF": 427,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 7725,
+      "ATK": 157,
+      "DEF": 456,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 8485,
+      "ATK": 172,
+      "DEF": 501,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 8974,
+      "ATK": 182,
+      "DEF": 530,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 9734,
+      "ATK": 198,
+      "DEF": 575,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 10223,
+      "ATK": 208,
+      "DEF": 603,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 10984,
+      "ATK": 223,
+      "DEF": 648,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Demonbane",
+      "image": "images/Characters/Liyue/Chongyun/talents/Talent_Demonbane.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "70%",
+          "2": "75.7%",
+          "3": "81.4%",
+          "4": "89.5%",
+          "5": "95.2%",
+          "6": "101.8%",
+          "7": "110.7%",
+          "8": "119.70%",
+          "9": "128.60%",
+          "10": "138.40%",
+          "11": "148.10%",
+          "12": "157.90%",
+          "13": "167.70%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "63.10%",
+          "2": "68.3%",
+          "3": "73.4%",
+          "4": "80.7%",
+          "5": "85.9%",
+          "6": "91.8%",
+          "7": "99.8%",
+          "8": "107.90%",
+          "9": "116%",
+          "10": "124.80%",
+          "11": "133.60%",
+          "12": "142.40%",
+          "13": "151.20%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "80.3%",
+          "2": "86.9%",
+          "3": "93.4%",
+          "4": "102.7%",
+          "5": "109.3%",
+          "6": "116.8%",
+          "7": "127%",
+          "8": "137%",
+          "9": "148%",
+          "10": "159%",
+          "11": "170%",
+          "12": "181%",
+          "13": "192%"
+        },
+        {
+          "LVL": "4-hit DMG",
+          "1": "101%",
+          "2": "109%",
+          "3": "118%",
+          "4": "129%",
+          "5": "138%",
+          "6": "147%",
+          "7": "160%",
+          "8": "173%",
+          "9": "186%",
+          "10": "200%",
+          "11": "214%",
+          "12": "228%",
+          "13": "242%"
+        },
+        {
+          "LVL": "Charged Attack Spinning DMG",
+          "1": "56.3%",
+          "2": "60.9%",
+          "3": "65.4%",
+          "4": "72%",
+          "5": "76.6%",
+          "6": "81.8%",
+          "7": "89%",
+          "8": "96.20%",
+          "9": "103.40%",
+          "10": "111.30%",
+          "11": "119.10%",
+          "12": "127%",
+          "13": "134.80%"
+        },
+        {
+          "LVL": "Charged Attack Final DMG",
+          "1": "102%",
+          "2": "110%",
+          "3": "118%",
+          "4": "130%",
+          "5": "138%",
+          "6": "148%",
+          "7": "161%",
+          "8": "174%",
+          "9": "187%",
+          "10": "201%",
+          "11": "215%",
+          "12": "230%",
+          "13": "244%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "40/s",
+          "2": "40/s",
+          "3": "40/s",
+          "4": "40/s",
+          "5": "40/s",
+          "6": "40/s",
+          "7": "40/s",
+          "8": "40/s",
+          "9": "40/s",
+          "10": "40/s",
+          "11": "40/s",
+          "12": "40/s",
+          "13": "40/s"
+        },
+        {
+          "LVL": "Max Duration",
+          "1": "5s",
+          "2": "5s",
+          "3": "5s",
+          "4": "5s",
+          "5": "5s",
+          "6": "5s",
+          "7": "5s",
+          "8": "5s",
+          "9": "5s",
+          "10": "5s",
+          "11": "5s",
+          "12": "5s",
+          "13": "5s"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "74.6%",
+          "2": "80.7%",
+          "3": "86.7%",
+          "4": "95.4%",
+          "5": "101.5%",
+          "6": "108.4%",
+          "7": "118%",
+          "8": "127.50%",
+          "9": "137%",
+          "10": "147.40%",
+          "11": "157.80%",
+          "12": "168.30%",
+          "13": "178.70%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "149% /186%",
+          "2": "161% /201%",
+          "3": "173% /217%",
+          "4": "191% /238%",
+          "5": "203% /253%",
+          "6": "217% /271%",
+          "7": "236% /295%",
+          "8": "255% /318%",
+          "9": "274% /342%",
+          "10": "295% /368%",
+          "11": "316% /394%",
+          "12": "336% /420%",
+          "13": "357% /446%"
+        }
+       ]
+    },
+    {
+      "name":"Spirit Blade: Chonghua's Layered Frost",
+      "image": "images/Characters/Liyue/Chongyun/talents/Talent_Spirit_Blade_Chonghua's_Layered_Frost.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "172%",
+          "2": "185%",
+          "3": "198%",
+          "4": "215%",
+          "5": "228%",
+          "6": "241%",
+          "7": "258%",
+          "8": "275.00%",
+          "9": "292.00%",
+          "10": "310.00%",
+          "11": "327.00%",
+          "12": "344.00%",
+          "13": "366.00%"
+        },
+        {
+          "LVL": "Infusion Duration",
+          "1": "2s",
+          "2": "2.1s",
+          "3": "2.2s",
+          "4": "2.3s",
+          "5": "2.4s",
+          "6": "2.5s",
+          "7": "2.6s",
+          "8": "2.7s",
+          "9": "2.8s",
+          "10": "2.9s",
+          "11": "3s",
+          "12": "3s",
+          "13": "3s"
+        },
+        {
+          "LVL": "Field Duration",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        },
+        {
+          "LVL": "CD",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        }
+       ]
+    },
+    {
+      "name":"Spirit Blade: Cloud-Parting Star",
+      "image": "images/Characters/Liyue/Chongyun/talents/Talent_Spirit_Blade_Cloud-Parting_Star.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "142%",
+          "2": "153%",
+          "3": "164%",
+          "4": "178%",
+          "5": "189%",
+          "6": "199%",
+          "7": "214%",
+          "8": "228.00%",
+          "9": "242.00%",
+          "10": "256.00%",
+          "11": "271.00%",
+          "12": "285.00%",
+          "13": "303.00%"
+        },
+        {
+          "LVL": "CD",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "40",
+          "2": "40",
+          "3": "40",
+          "4": "40",
+          "5": "40",
+          "6": "40",
+          "7": "40",
+          "8": "40",
+          "9": "40",
+          "10": "40",
+          "11": "40",
+          "12": "40",
+          "13": "40"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Steady Breathing",
+      "image": "images/Characters/Liyue/Chongyun/talents/Talent_Steady_Breathing.png",
+      "description":""
+    },
+    {
+      "name":"Rimechaser Blade",
+      "image": "images/Characters/Liyue/Chongyun/talents/Talent_Rimechaser_Blade.png",
+      "description":""
+    },
+    {
+      "name":"Gallant Journey",
+      "image": "images/Characters/Liyue/Chongyun/talents/Talent_Gallant_Journey.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Teachings_of_Diligence.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Ice Unleashed",
+      "image": "images/Characters/Liyue/Chongyun/constellations/Constellation_Ice_Unleashed.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Atmospheric Revolution",
+      "image": "images/Characters/Liyue/Chongyun/constellations/Constellation_Atmospheric_Revolution.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Cloudburst",
+      "image": "images/Characters/Liyue/Chongyun/constellations/Constellation_Cloudburst.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Frozen Skies",
+      "image": "images/Characters/Liyue/Chongyun/constellations/Constellation_Frozen_Skies.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"The True Path",
+      "image": "images/Characters/Liyue/Chongyun/constellations/Constellation_The_True_Path.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Rally of Four Blades",
+      "image": "images/Characters/Liyue/Chongyun/constellations/Constellation_Rally_of_Four_Blades.png",
+      "description":""
+    }
+  ]
+}
+
+

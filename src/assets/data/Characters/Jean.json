@@ -1,0 +1,822 @@
+{
+  "name":"Jean",
+  "avatar": "images/Characters/mondstadt/Jean/images/Character_Jean_Avatar.png",
+  "title":"Dandelion Knight",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Anemo",
+  "elementImage": "images/Elements/Element_Anemo.png",
+  "weapon":"Sword",
+  "weaponImage": "images/Weapon icons/Weapon-class-sword-icon.png",
+  "sex":"Female",
+  "birthday":"March 14th",
+  "constellation":"Leo Minor",
+  "nation":"Mondstadt",
+  "affiliation":"Knights of Favonius, Four Winds, Gunnhildr Clan",
+  "specialDish":"Invigorating Pizza",
+  "description":"The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius.",
+  "talentBook":"Teachings of Resistance",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Resistance/Item_Teachings_of_Resistance.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Mondstadt/Item_Dandelion_Seed.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+  "ascensionStat": "Healing Bonus",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Dandelion Seed",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Dandelion_Seed.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Hurricane Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Dandelion Seed",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Dandelion_Seed.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hurricane Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Dandelion Seed",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Dandelion_Seed.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Hurricane Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Dandelion Seed",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Dandelion_Seed.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hurricane Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Dandelion Seed",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Dandelion_Seed.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hurricane Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Dandelion Seed",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Dandelion_Seed.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1144,
+      "ATK": 19,
+      "DEF": 60,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2967,
+      "ATK": 48,
+      "DEF": 155,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3948,
+      "ATK": 64,
+      "DEF": 206,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 5908,
+      "ATK": 96,
+      "DEF": 309,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 6605,
+      "ATK": 108,
+      "DEF": 345,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "5.54%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 7599,
+      "ATK": 124,
+      "DEF": 397,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "5.54%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 8528,
+      "ATK": 139,
+      "DEF": 446,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "11.08%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 9533,
+      "ATK": 155,
+      "DEF": 499,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "11.08%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 10230,
+      "ATK": 166,
+      "DEF": 535,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "11.08%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 11243,
+      "ATK": 183,
+      "DEF": 588,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "11.08%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 11940,
+      "ATK": 194,
+      "DEF": 624,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "16.62%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 12965,
+      "ATK": 211,
+      "DEF": 678,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "16.62%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 13662,
+      "ATK": 222,
+      "DEF": 715,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "22.15%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 14695,
+      "ATK": 239,
+      "DEF": 769,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "22.15%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Favonius Bladework",
+      "image": "images/Characters/mondstadt/Jean/talents/Talent_Favonius_Bladework.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "48.3%",
+          "2": "52.3%",
+          "3": "56.2%",
+          "4": "61.8%",
+          "5": "65.8%",
+          "6": "70.2%",
+          "7": "76.4%",
+          "8": "83%",
+          "9": "89%",
+          "10": "96%",
+          "11": "103%",
+          "12": "112%",
+          "13": "121%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "45.60%",
+          "2": "49.30%",
+          "3": "53%",
+          "4": "58.30%",
+          "5": "62%",
+          "6": "66%",
+          "7": "72%",
+          "8": "78%",
+          "9": "84%",
+          "10": "90%",
+          "11": "97%",
+          "12": "106%",
+          "13": "115%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "60.3%",
+          "2": "65.2%",
+          "3": "70.1%",
+          "4": "77.1%",
+          "5": "82%",
+          "6": "87.6%",
+          "7": "95.3%",
+          "8": "103%",
+          "9": "110.80%",
+          "10": "119.20%",
+          "11": "128.80%",
+          "12": "140.10%",
+          "13": "151.50%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "65.90%",
+          "2": "71.20%",
+          "3": "76.60%",
+          "4": "84.30%",
+          "5": "90%",
+          "6": "96%",
+          "7": "104%",
+          "8": "112.60%",
+          "9": "121%",
+          "10": "130.20%",
+          "11": "140.80%",
+          "12": "153.10%",
+          "13": "165.50%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "79.2%",
+          "2": "85.7%",
+          "3": "92.1%",
+          "4": "101.3%",
+          "5": "107.8%",
+          "6": "115.1%",
+          "7": "125.3%",
+          "8": "135.40%",
+          "9": "145.50%",
+          "10": "156.60%",
+          "11": "169.20%",
+          "12": "184.10%",
+          "13": "199%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "162%",
+          "2": "175%",
+          "3": "188%",
+          "4": "207%",
+          "5": "220%",
+          "6": "236%",
+          "7": "256%",
+          "8": "277%",
+          "9": "298%",
+          "10": "320%",
+          "11": "346%",
+          "12": "377%",
+          "13": "407%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "20",
+          "2": "20",
+          "3": "20",
+          "4": "20",
+          "5": "20",
+          "6": "20",
+          "7": "20",
+          "8": "20",
+          "9": "20",
+          "10": "20",
+          "11": "20",
+          "12": "20",
+          "13": "20"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "63.90%",
+          "2": "69.10%",
+          "3": "74.30%",
+          "4": "81.80%",
+          "5": "87%",
+          "6": "93%",
+          "7": "101.1%",
+          "8": "109.30%",
+          "9": "117.50%",
+          "10": "126.40%",
+          "11": "135.30%",
+          "12": "144.20%",
+          "13": "153.10%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "128% /160%",
+          "2": "138% /173%",
+          "3": "149% /186%",
+          "4": "164% /204%",
+          "5": "174% /217%",
+          "6": "186% /232%",
+          "7": "202% /253%",
+          "8": "219% /273%",
+          "9": "235% /293%",
+          "10": "253% /316%",
+          "11": "271% /338%",
+          "12": "288% /360%",
+          "13": "306% /382%"
+        }
+       ]
+    },
+    {
+      "name":"Gale Blade",
+      "image": "images/Characters/mondstadt/Jean/talents/Talent_Gale_Blade.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "292%",
+          "2": "314%",
+          "3": "336%",
+          "4": "365%",
+          "5": "387%",
+          "6": "409%",
+          "7": "438%",
+          "8": "467%",
+          "9": "496%",
+          "10": "526%",
+          "11": "555%",
+          "12": "584%",
+          "13": "620%"
+        },
+        {
+          "LVL": "Stamina Consumption",
+          "1": "20 Per Second",
+          "2": "20 Per Second",
+          "3": "20 Per Second",
+          "4": "20 Per Second",
+          "5": "20 Per Second",
+          "6": "20 Per Second",
+          "7": "20 Per Second",
+          "8": "20 Per Second",
+          "9": "20 Per Second",
+          "10": "20 Per Second",
+          "11": "20 Per Second",
+          "12": "20 Per Second",
+          "13": "20 Per Second"
+        },
+        {
+          "LVL": "Max Duration",
+          "1": "5s",
+          "2": "5s",
+          "3": "5s",
+          "4": "5s",
+          "5": "5s",
+          "6": "5s",
+          "7": "5s",
+          "8": "5s",
+          "9": "5s",
+          "10": "5s",
+          "11": "5s",
+          "12": "5s",
+          "13": "5s"
+        },
+        {
+          "LVL": "CD",
+          "1": "6s",
+          "2": "6s",
+          "3": "6s",
+          "4": "6s",
+          "5": "6s",
+          "6": "6s",
+          "7": "6s",
+          "8": "6s",
+          "9": "6s",
+          "10": "6s",
+          "11": "6s",
+          "12": "6s",
+          "13": "6s"
+        }
+       ]
+    },
+    {
+      "name":"Dandelion Breeze",
+      "image": "images/Characters/mondstadt/Jean/talents/Talent_Dandelion_Breeze.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Elemental Burst DMG",
+          "1": "425%",
+          "2": "457%",
+          "3": "489%",
+          "4": "531%",
+          "5": "563%",
+          "6": "595%",
+          "7": "637%",
+          "8": "680%",
+          "9": "722%",
+          "10": "765%",
+          "11": "807%",
+          "12": "850%",
+          "13": "903%"
+        },
+        {
+          "LVL": "Field Entering/Exiting DMG",
+          "1": "78.40%",
+          "2": "84.30%",
+          "3": "90.20%",
+          "4": "98%",
+          "5": "103.90%",
+          "6": "109.80%",
+          "7": "117.60%",
+          "8": "125.40%",
+          "9": "133.30%",
+          "10": "141.10%",
+          "11": "149%",
+          "12": "156.80%",
+          "13": "166.60%"
+        },
+        {
+          "LVL": "Field Activation Healing",
+          "1": "251% ATK +1540",
+          "2": "270% ATK +1694",
+          "3": "289% ATK +1861",
+          "4": "314% ATK +2041",
+          "5": "333% ATK +2234",
+          "6": "352% ATK +2439",
+          "7": "377% ATK +2657",
+          "8": "402% ATK +2888",
+          "9": "427% ATK +3132",
+          "10": "452% ATK +3389",
+          "11": "477% ATK +3659",
+          "12": "502% ATK +3941",
+          "13": "534% ATK +4236"
+        },
+        {
+          "LVL": "Continuous Regeneration",
+          "1": "25.12% ATK +154",
+          "2": "27% ATK +169",
+          "3": "28.89% ATK +186",
+          "4": "31.4% ATK +204",
+          "5": "33.28% ATK +223",
+          "6": "35.17% ATK +244",
+          "7": "37.68% ATK +266",
+          "8": "40.19% ATK +289",
+          "9": "42.7% ATK +313",
+          "10": "45.22% ATK +339",
+          "11": "47.73% ATK +366",
+          "12": "50.24% ATK +394",
+          "13": "53.38% ATK +424"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "80",
+          "2": "80",
+          "3": "80",
+          "4": "80",
+          "5": "80",
+          "6": "80",
+          "7": "80",
+          "8": "80",
+          "9": "80",
+          "10": "80",
+          "11": "80",
+          "12": "80",
+          "13": "80"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Wind Companion",
+      "image": "images/Characters/mondstadt/Jean/talents/Talent_Wind_Companion.png",
+      "description":""
+    },
+    {
+      "name":"Let the Wind Lead",
+      "image": "images/Characters/mondstadt/Jean/talents/Talent_Let_the_Wind_Lead.png",
+      "description":""
+    },
+    {
+      "name":"Guiding Breeze",
+      "image": "images/Characters/mondstadt/Jean/talents/Talent_Guiding_Breeze.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Teachings_of_Resistance.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Plume.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Plume.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Plume.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Plume.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Spiraling Tempest",
+      "image": "images/Characters/mondstadt/Jean/constellations/Constellation_Spiraling_Tempest.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"People's Aegis",
+      "image": "images/Characters/mondstadt/Jean/constellations/Constellation_People's_Aegis.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"When the West Wind Arises",
+      "image": "images/Characters/mondstadt/Jean/constellations/Constellation_When_the_West_Wind_Arises.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Lands of Dandelion",
+      "image": "images/Characters/mondstadt/Jean/constellations/Constellation_Lands_of_Dandelion.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Outbursting Gust",
+      "image": "images/Characters/mondstadt/Jean/constellations/Constellation_Outbursting_Gust.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Lion's Fang, Fair Protector of Mondstadt",
+      "image": "images/Characters/mondstadt/Jean/constellations/Constellation_Lion's_Fang,_Fair_Protector_of_Mondstadt.png",
+      "description":""
+    }
+  ]
+}
+
+

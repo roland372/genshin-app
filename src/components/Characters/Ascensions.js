@@ -1,6 +1,6 @@
 import React from 'react';
-import CardComponent from '../../../Layout/CardComponent';
-import Ascension from '../../Ascension';
+import CardComponent from '../Layout/CardComponent';
+import Ascension from './Ascension';
 
 const Ascensions = props => {
 	return (

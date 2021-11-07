@@ -1,0 +1,788 @@
+{
+  "name":"Albedo",
+  "avatar": "images/Characters/mondstadt/Albedo/images/Character_Albedo_Avatar.png",
+  "title":"Kreideprinz",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Geo",
+  "elementImage": "images/Elements/Element_Geo.png",
+  "weapon":"Sword",
+  "weaponImage": "images/Weapon icons/Weapon-class-sword-icon.png",
+  "sex":"Male",
+  "birthday":"September 13th",
+  "constellation":"Princeps Cretaceus",
+  "nation":"Mondstadt",
+  "affiliation":"Knights of Favonius",
+  "specialDish":"Woodland Dream",
+  "description":"A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
+  "talentBook":"Philosophies of Ballad",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Ballad/Item_Teachings_of_Ballad.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Mondstadt/Item_Cecilia.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
+  "ascensionStat": "Geo DMG Bonus",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Cecilia",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Cecilia.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Divining Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Cecilia",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Cecilia.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Divining Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+      "name": "Basalt Pillar",
+      "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Cecilia",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Cecilia.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Sealed Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+      "name": "Basalt Pillar",
+      "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Cecilia",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Cecilia.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Sealed Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+      "name": "Basalt Pillar",
+      "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Cecilia",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Cecilia.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Forbidden Curse Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+      "name": "Basalt Pillar",
+      "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Cecilia",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Cecilia.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Forbidden Curse Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1030,
+      "ATK": 20,
+      "DEF": 68,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2671,
+      "ATK": 51,
+      "DEF": 177,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3554,
+      "ATK": 67,
+      "DEF": 235,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 5317,
+      "ATK": 101,
+      "DEF": 352,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5944,
+      "ATK": 113,
+      "DEF": 394,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "7.2%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 6839,
+      "ATK": 130,
+      "DEF": 453,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "7.2%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 7675,
+      "ATK": 146,
+      "DEF": 508,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 8579,
+      "ATK": 163,
+      "DEF": 568,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.4%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 9207,
+      "ATK": 175,
+      "DEF": 610,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.4%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 10119,
+      "ATK": 192,
+      "DEF": 670,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.4%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 10746,
+      "ATK": 204,
+      "DEF": 712,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "21.6%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 11669,
+      "ATK": 222,
+      "DEF": 773,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "21.6%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 12296,
+      "ATK": 233,
+      "DEF": 815,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "28.8%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 13226,
+      "ATK": 251,
+      "DEF": 876,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "28.8%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Favonius Bladework - Weiss",
+      "image": "images/Characters/mondstadt/Albedo/talents/Talent_Favonius_Bladework_-_Weiss.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "36.7%",
+          "2": "39.7%",
+          "3": "42.7%",
+          "4": "47%",
+          "5": "50%",
+          "6": "53.4%",
+          "7": "58.1%",
+          "8": "63%",
+          "9": "68%",
+          "10": "73%",
+          "11": "79%",
+          "12": "85%",
+          "13": "92%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "36.7%",
+          "2": "39.7%",
+          "3": "42.7%",
+          "4": "47%",
+          "5": "50%",
+          "6": "53.4%",
+          "7": "58.1%",
+          "8": "62.80%",
+          "9": "67.50%",
+          "10": "72.60%",
+          "11": "78.50%",
+          "12": "85.40%",
+          "13": "92.30%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "47.5%",
+          "2": "51.3%",
+          "3": "55.2%",
+          "4": "60.7%",
+          "5": "64.6%",
+          "6": "69%",
+          "7": "75%",
+          "8": "81%",
+          "9": "87.20%",
+          "10": "93.80%",
+          "11": "101.40%",
+          "12": "110.30%",
+          "13": "119.20%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "49.8%",
+          "2": "53.8%",
+          "3": "57.8%",
+          "4": "63.6%",
+          "5": "67.7%",
+          "6": "72.3%",
+          "7": "78.7%",
+          "8": "85%",
+          "9": "91.40%",
+          "10": "98.30%",
+          "11": "106.30%",
+          "12": "115.70%",
+          "13": "125%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "62.1%",
+          "2": "67.1%",
+          "3": "72.2%",
+          "4": "79.4%",
+          "5": "84.4%",
+          "6": "90.2%",
+          "7": "98.2%",
+          "8": "106.10%",
+          "9": "114%",
+          "10": "122.70%",
+          "11": "132.60%",
+          "12": "144.30%",
+          "13": "156%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "47.3% +60.2%",
+          "2": "51.2% +65.1%",
+          "3": "55% +70%",
+          "4": "60.5% +77%",
+          "5": "64.3% +81.9%",
+          "6": "68.8% +87.5%",
+          "7": "74.8% +95.2%",
+          "8": "80.8% +102.9%",
+          "9": "86.9% +110.6%",
+          "10": "93.5% +119%",
+          "11": "101.1% +128.6%",
+          "12": "110% +139.9%",
+          "13": "118.8% +151.3%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "20",
+          "2": "20",
+          "3": "20",
+          "4": "20",
+          "5": "20",
+          "6": "20",
+          "7": "20",
+          "8": "20",
+          "9": "20",
+          "10": "20",
+          "11": "20",
+          "12": "20",
+          "13": "20"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "63.9%",
+          "2": "69.1%",
+          "3": "74.3%",
+          "4": "81.8%",
+          "5": "87%",
+          "6": "92.9%",
+          "7": "101.1%",
+          "8": "109.30%",
+          "9": "117.50%",
+          "10": "126.40%",
+          "11": "135.30%",
+          "12": "144.20%",
+          "13": "153.10%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "128% /160%",
+          "2": "138% /173%",
+          "3": "149% /186%",
+          "4": "164% /204%",
+          "5": "174% /217%",
+          "6": "186% /232%",
+          "7": "202% /253%",
+          "8": "219% /273%",
+          "9": "235% /293%",
+          "10": "253% /316%",
+          "11": "271% /338%",
+          "12": "288% /360%",
+          "13": "306% /382%"
+        }
+       ]
+    },
+    {
+      "name":"Abiogenesis: Solar Isotoma",
+      "image": "images/Characters/mondstadt/Albedo/talents/Talent_Abiogenesis_Solar_Isotoma.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "130%",
+          "2": "140%",
+          "3": "150%",
+          "4": "163%",
+          "5": "173%",
+          "6": "183%",
+          "7": "196%",
+          "8": "209%",
+          "9": "222%",
+          "10": "235%",
+          "11": "248%",
+          "12": "261%",
+          "13": "277%"
+        },
+        {
+          "LVL": "Transient Blossom DMG",
+          "1": "134% DEF",
+          "2": "144% DEF",
+          "3": "154% DEF",
+          "4": "167% DEF",
+          "5": "177% DEF",
+          "6": "187% DEF",
+          "7": "200% DEF",
+          "8": "214% DEF",
+          "9": "227% DEF",
+          "10": "240% DEF",
+          "11": "254% DEF",
+          "12": "267% DEF",
+          "13": "284% DEF"
+        },
+        {
+          "LVL": "Duration",
+          "1": "30s",
+          "2": "30s",
+          "3": "30s",
+          "4": "30s",
+          "5": "30s",
+          "6": "30s",
+          "7": "30s",
+          "8": "30s",
+          "9": "30s",
+          "10": "30s",
+          "11": "30s",
+          "12": "30s",
+          "13": "30s"
+        },
+        {
+          "LVL": "Skill CD",
+          "1": "4s",
+          "2": "4s",
+          "3": "4s",
+          "4": "4s",
+          "5": "4s",
+          "6": "4s",
+          "7": "4s",
+          "8": "4s",
+          "9": "4s",
+          "10": "4s",
+          "11": "4s",
+          "12": "4s",
+          "13": "4s"
+        }
+       ]
+    },
+    {
+      "name":"Rite of Progeniture: Tectonic Tide",
+      "image": "images/Characters/mondstadt/Albedo/talents/Talent_Rite_of_Progeniture_Tectonic_Tide.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Elemental Burst DMG",
+          "1": "367%",
+          "2": "395%",
+          "3": "422%",
+          "4": "459%",
+          "5": "487%",
+          "6": "514%",
+          "7": "551%",
+          "8": "588%",
+          "9": "624%",
+          "10": "661%",
+          "11": "698%",
+          "12": "734%",
+          "13": "780%"
+        },
+        {
+          "LVL": "Fatal Blossom DMG",
+          "1": "72% each",
+          "2": "77.4% each",
+          "3": "82.8% each",
+          "4": "90% each",
+          "5": "95.4% each",
+          "6": "100.8% each",
+          "7": "108% each",
+          "8": "115.2% each",
+          "9": "122.4% each",
+          "10": "129.6% each",
+          "11": "136.8% each",
+          "12": "144% each",
+          "13": "153% each"
+        },
+        {
+          "LVL": "CD",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "40",
+          "2": "40",
+          "3": "40",
+          "4": "40",
+          "5": "40",
+          "6": "40",
+          "7": "40",
+          "8": "40",
+          "9": "40",
+          "10": "40",
+          "11": "40",
+          "12": "40",
+          "13": "40"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Calcite Might",
+      "image": "images/Characters/mondstadt/Albedo/talents/Talent_Calcite_Might.png",
+      "description":""
+    },
+    {
+      "name":"Homuncular Nature",
+      "image": "images/Characters/mondstadt/Albedo/talents/Talent_Homuncular_Nature.png",
+      "description":""
+    },
+    {
+      "name":"Flash of Genius (Albedo)",
+      "image": "images/Characters/mondstadt/Albedo/talents/Talent_Flash_of_Genius_(Albedo).png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Teachings_of_Ballad.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tusk_of_Monoceros_Caeli.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tusk_of_Monoceros_Caeli.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tusk_of_Monoceros_Caeli.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tusk_of_Monoceros_Caeli.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Flower of Eden",
+      "image": "images/Characters/mondstadt/Albedo/constellations/Constellation_Flower_of_Eden.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Opening of Phanerozoic",
+      "image": "images/Characters/mondstadt/Albedo/constellations/Constellation_Opening_of_Phanerozoic.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Grace of Helios",
+      "image": "images/Characters/mondstadt/Albedo/constellations/Constellation_Grace_of_Helios.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Descent of Divinity",
+      "image": "images/Characters/mondstadt/Albedo/constellations/Constellation_Descent_of_Divinity.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Tide of Hadean",
+      "image": "images/Characters/mondstadt/Albedo/constellations/Constellation_Tide_of_Hadean.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Dust of Purification",
+      "image": "images/Characters/mondstadt/Albedo/constellations/Constellation_Dust_of_Purification.png",
+      "description":""
+    }
+  ]
+}

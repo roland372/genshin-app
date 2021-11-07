@@ -8,7 +8,7 @@ import Stats from '../../Stats';
 import Talents from './Talents';
 import TalentMaterials from '../../TalentMaterials';
 import Constellations from './Constellations';
-import Ascensions from './Ascensions';
+import Ascensions from '../../Ascensions';
 
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Beidou.json';

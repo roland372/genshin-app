@@ -4,16 +4,16 @@ import CardComponent from '../../../Layout/CardComponent';
 
 // <----- character components ----->
 import CharacterInfo from '../../CharacterInfo';
-import Stats from '../../../Characters/Stats';
+import Stats from '../../Stats';
 import Talents from './Talents';
 import TalentMaterials from '../../TalentMaterials';
 import Constellations from './Constellations';
 import Ascensions from '../../Ascensions';
 
 // <----- character data ----->
-import data from '../../../../assets/data/Characters/Amber.json';
+import data from '../../../../assets/data/Characters/Diona.json';
 
-const Amber = () => {
+const Diona = () => {
 	// const path = process.env.PUBLIC_URL;
 
 	const {
@@ -87,4 +87,4 @@ const Amber = () => {
 	);
 };
 
-export default Amber;
+export default Diona;

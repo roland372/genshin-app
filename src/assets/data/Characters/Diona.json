@@ -1,0 +1,838 @@
+{
+  "name":"Diona",
+  "avatar": "images/Characters/mondstadt/Diona/images/Character_Diona_Avatar.png",
+  "title":"Kätzlein Cocktail",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Cryo",
+  "elementImage": "images/Elements/Element_Cryo.png",
+  "weapon":"Bow",
+  "weaponImage": "images/Weapon icons/Weapon-class-bow-icon.png",
+  "sex":"Female",
+  "birthday":"January 18th",
+  "constellation":"Feles",
+  "nation":"Mondstadt",
+  "affiliation":"Cat's Tail, Kätzlein Family",
+  "specialDish":"Definitely Not Bar Food!",
+  "description":"A young lady who has inherited trace amounts of non-human blood. She is the incredible popular bartender of the Cat's Tail tavern.",
+  "talentBook":"Teachings of Freedom",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Freedom/Item_Teachings_of_Freedom.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Mondstadt/Item_Calla_Lily.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
+  "ascensionStat": "Cryo DMG Bonus",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Calla Lily",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Calla_Lily.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Firm Arrowhead",
+       "image": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Calla Lily",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Calla_Lily.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Firm Arrowhead",
+       "image": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Calla Lily",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Calla_Lily.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Sharp Arrowhead",
+       "image": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Calla Lily",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Calla_Lily.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Sharp Arrowhead",
+       "image": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Calla Lily",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Calla_Lily.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Weathered Arrowhead",
+       "image": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Calla Lily",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Calla_Lily.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Weathered Arrowhead",
+       "image": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 802,
+      "ATK": 18,
+      "DEF": 50,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2061,
+      "ATK": 46,
+      "DEF": 129,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2661,
+      "ATK": 59,
+      "DEF": 167,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 3985,
+      "ATK": 88,
+      "DEF": 250,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4411,
+      "ATK": 98,
+      "DEF": 277,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5074,
+      "ATK": 113,
+      "DEF": 318,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 5642,
+      "ATK": 125,
+      "DEF": 354,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 6305,
+      "ATK": 140,
+      "DEF": 396,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 6731,
+      "ATK": 149,
+      "DEF": 422,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 7393,
+      "ATK": 164,
+      "DEF": 464,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 7818,
+      "ATK": 174,
+      "DEF": 491,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 8481,
+      "ATK": 188,
+      "DEF": 532,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 8907,
+      "ATK": 198,
+      "DEF": 559,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 9570,
+      "ATK": 212,
+      "DEF": 601,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Kätzlein Style",
+      "image": "images/Characters/mondstadt/Diona/talents/Talent_Kätzlein_Style.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "36.1%",
+          "2": "39.1%",
+          "3": "42%",
+          "4": "46.2%",
+          "5": "49.1%",
+          "6": "52.5%",
+          "7": "57.1%",
+          "8": "61.70%",
+          "9": "66.40%",
+          "10": "71.40%",
+          "11": "77.20%",
+          "12": "84.00%",
+          "13": "90.80%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "33.50%",
+          "2": "36.30%",
+          "3": "39%",
+          "4": "42.9%",
+          "5": "45.6%",
+          "6": "48.8%",
+          "7": "53%",
+          "8": "57.30%",
+          "9": "62%",
+          "10": "66.30%",
+          "11": "71.70%",
+          "12": "78.00%",
+          "13": "84.30%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "45.6%",
+          "2": "49.3%",
+          "3": "53%",
+          "4": "58.3%",
+          "5": "62%",
+          "6": "66.3%",
+          "7": "72.1%",
+          "8": "77.90%",
+          "9": "83.70%",
+          "10": "90.10%",
+          "11": "97.40%",
+          "12": "106.00%",
+          "13": "114.50%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "43%",
+          "2": "46.50%",
+          "3": "50%",
+          "4": "55%",
+          "5": "58.5%",
+          "6": "62.5%",
+          "7": "68%",
+          "8": "73.50%",
+          "9": "79%",
+          "10": "85%",
+          "11": "91.90%",
+          "12": "100%",
+          "13": "108%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "53.8%",
+          "2": "58.1%",
+          "3": "62.5%",
+          "4": "68.8%",
+          "5": "73.1%",
+          "6": "78.1%",
+          "7": "85%",
+          "8": "91.90%",
+          "9": "98.80%",
+          "10": "106.30%",
+          "11": "114.80%",
+          "12": "125%",
+          "13": "135.10%"
+        },
+        {
+          "LVL": "Aimed Shot",
+          "1": "43.90%",
+          "2": "47.40%",
+          "3": "51%",
+          "4": "56.1%",
+          "5": "59.7%",
+          "6": "63.7%",
+          "7": "69.4%",
+          "8": "75%",
+          "9": "80.60%",
+          "10": "86.70%",
+          "11": "93.70%",
+          "12": "102%",
+          "13": "110.20%"
+        },
+        {
+          "LVL": "Fully-Charged Aimed Shot",
+          "1": "124%",
+          "2": "133%",
+          "3": "143%",
+          "4": "155%",
+          "5": "164%",
+          "6": "174%",
+          "7": "186%",
+          "8": "198%",
+          "9": "211%",
+          "10": "223%",
+          "11": "236%",
+          "12": "253%",
+          "13": "270%"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "56.80%",
+          "2": "61.50%",
+          "3": "66.10%",
+          "4": "72.7%",
+          "5": "77.3%",
+          "6": "82.6%",
+          "7": "89.9%",
+          "8": "97.10%",
+          "9": "104.40%",
+          "10": "112.30%",
+          "11": "120.30%",
+          "12": "128.20%",
+          "13": "136.10%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "114% /142%",
+          "2": "123% /153%",
+          "3": "132% /165%",
+          "4": "145% /182%",
+          "5": "155% /193%",
+          "6": "165% /206%",
+          "7": "180% /224%",
+          "8": "194% /243%",
+          "9": "209% /261%",
+          "10": "225% /281%",
+          "11": "240% /300%",
+          "12": "256% /320%",
+          "13": "272% /340%"
+        }
+       ]
+    },
+    {
+      "name":"Icy Paws",
+      "image": "images/Characters/mondstadt/Diona/talents/Talent_Icy_Paws.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Icy Paw DMG",
+          "1": "41.9% per Paw",
+          "2": "45.1% per Paw",
+          "3": "48.2% per Paw",
+          "4": "52.4% per Paw",
+          "5": "55.5% per Paw",
+          "6": "58.7% per Paw",
+          "7": "62.9% per Paw",
+          "8": "67.1% per Paw",
+          "9": "71.3% per Paw",
+          "10": "75.5% per Paw",
+          "11": "79.6% per Paw",
+          "12": "83.8% per Paw",
+          "13": "89.1% per Paw"
+        },
+        {
+          "LVL": "Base Shield DMG Absorption",
+          "1": "7.2% Max HP +693",
+          "2": "7.7% Max HP +762",
+          "3": "8.3% Max HP +837",
+          "4": "9% Max HP +918",
+          "5": "9.5% Max HP +1005",
+          "6": "10.1% Max HP +1097",
+          "7": "10.8% Max HP +1195",
+          "8": "11.5% Max HP +1299",
+          "9": "12.2% Max HP +1409",
+          "10": "13% Max HP +1524",
+          "11": "13.7% Max HP +1646",
+          "12": "14.4% Max HP +1773",
+          "13": "15.3% Max HP +1905"
+        },
+        {
+          "LVL": "Duration",
+          "1": "1.8s per Claw",
+          "2": "1.9s per Claw",
+          "3": "2s per Claw",
+          "4": "2.1s per Claw",
+          "5": "2.2s per Claw",
+          "6": "2.3s per Claw",
+          "7": "2.4s per Claw",
+          "8": "2.4s per Claw",
+          "9": "2.4s per Claw",
+          "10": "2.4s per Claw",
+          "11": "2.4s per Claw",
+          "12": "2.4s per Claw",
+          "13": "2.4s per Claw"
+        },
+        {
+          "LVL": "Press CD",
+          "1": "6s",
+          "2": "6s",
+          "3": "6s",
+          "4": "6s",
+          "5": "6s",
+          "6": "6s",
+          "7": "6s",
+          "8": "6s",
+          "9": "6s",
+          "10": "6s",
+          "11": "6s",
+          "12": "6s",
+          "13": "6s"
+        },
+        {
+          "LVL": "Holding CD",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        }
+       ]
+    },
+    {
+      "name":"Signature Mix",
+      "image": "images/Characters/mondstadt/Diona/talents/Talent_Signature_Mix.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "80%",
+          "2": "86%",
+          "3": "92%",
+          "4": "100%",
+          "5": "106%",
+          "6": "112%",
+          "7": "120%",
+          "8": "128%",
+          "9": "136%",
+          "10": "144%",
+          "11": "152%",
+          "12": "160%",
+          "13": "170%"
+        },
+        {
+          "LVL": "Continuous Field DMG",
+          "1": "52.60%",
+          "2": "56.60%",
+          "3": "60.50%",
+          "4": "65.8%",
+          "5": "69.7%",
+          "6": "73.7%",
+          "7": "79%",
+          "8": "84.20%",
+          "9": "89.50%",
+          "10": "94.80%",
+          "11": "100%",
+          "12": "105.30%",
+          "13": "111.90%"
+        },
+        {
+          "LVL": "HP Regeneration Over Time",
+          "1": "5.34% Max HP +513",
+          "2": "5.74% Max HP +565",
+          "3": "6.14% Max HP +620",
+          "4": "6.67% Max HP +680",
+          "5": "7.07% Max HP +744",
+          "6": "7.47% Max HP +813",
+          "7": "8% Max HP +885",
+          "8": "8.54% Max HP +962",
+          "9": "9.07% Max HP +1044",
+          "10": "9.6% Max HP +1129",
+          "11": "10.14% Max HP +1219",
+          "12": "10.67% Max HP +1313",
+          "13": "11.34% Max HP +1411"
+        },
+        {
+          "LVL": "Duration",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "80",
+          "2": "80",
+          "3": "80",
+          "4": "80",
+          "5": "80",
+          "6": "80",
+          "7": "80",
+          "8": "80",
+          "9": "80",
+          "10": "80",
+          "11": "80",
+          "12": "80",
+          "13": "80"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Cat's Tail Secret Menu",
+      "image": "images/Characters/mondstadt/Diona/talents/Talent_Cat's_Tail_Secret_Menu.png",
+      "description":""
+    },
+    {
+      "name":"Drunkards' Farce",
+      "image": "images/Characters/mondstadt/Diona/talents/Talent_Drunkards'_Farce.png",
+      "description":""
+    },
+    {
+      "name":"Complimentary Bar Food",
+      "image": "images/Characters/mondstadt/Diona/talents/Talent_Complimentary_Bar_Food.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Teachings_of_Freedom.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shard_of_a_Foul_Legacy.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shard_of_a_Foul_Legacy.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shard_of_a_Foul_Legacy.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shard_of_a_Foul_Legacy.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"A Lingering Flavor",
+      "image": "images/Characters/mondstadt/Diona/constellations/Constellation_A_Lingering_Flavor.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Shaken, Not Purred",
+      "image": "images/Characters/mondstadt/Diona/constellations/Constellation_Shaken,_Not_Purred.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"A-Another Round?",
+      "image": "images/Characters/mondstadt/Diona/constellations/Constellation_A-Another_Round_.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Wine Industry Slayer",
+      "image": "images/Characters/mondstadt/Diona/constellations/Constellation_Wine_Industry_Slayer.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Double Shot, On The Rocks",
+      "image": "images/Characters/mondstadt/Diona/constellations/Constellation_Double_Shot,_On_The_Rocks.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Cat's Tail Closing Time",
+      "image": "images/Characters/mondstadt/Diona/constellations/Constellation_Cat's_Tail_Closing_Time.png",
+      "description":""
+    }
+  ]
+}
+
+

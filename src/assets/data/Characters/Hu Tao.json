@@ -1,0 +1,856 @@
+{
+  "name":"Hu Tao",
+  "avatar": "images/Characters/Liyue/Hu Tao/images/Character_Hu_Tao_Avatar.png",
+  "title":"Fragrance in Thaw",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Pyro",
+  "elementImage": "images/Elements/Element_Pyro.png",
+  "weapon":"Polearm",
+  "weaponImage": "images/Weapon icons/Weapon-class-polearm-icon.png",
+  "sex":"Female",
+  "birthday":"July 15th",
+  "constellation":"Papilio Charontis",
+  "nation":"Liyue",
+  "affiliation":"Wangsheng Funeral Parlor",
+  "specialDish":"Ghostly March",
+  "description":"The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
+  "talentBook":"Teachings of Diligence",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Diligence/Item_Teachings_of_Diligence.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Liyue/Item_Silk_Flower.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+  "ascensionStat": "",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Silk Flower",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Silk_Flower.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Whopperflower Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Silk Flower",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Silk_Flower.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Whopperflower Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Silk Flower",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Silk_Flower.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Shimmering Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Silk Flower",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Silk_Flower.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Shimmering Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Silk Flower",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Silk_Flower.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Energy Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Silk Flower",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Silk_Flower.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Energy Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1211,
+      "ATK": 8,
+      "DEF": 68,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 3141,
+      "ATK": 21,
+      "DEF": 177,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 4179,
+      "ATK": 29,
+      "DEF": 235,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 6253,
+      "ATK": 43,
+      "DEF": 352,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 6990,
+      "ATK": 48,
+      "DEF": 394,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "59.6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 8042,
+      "ATK": 55,
+      "DEF": 453,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "59.6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 9026,
+      "ATK": 62,
+      "DEF": 508,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 10089,
+      "ATK": 69,
+      "DEF": 568,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 10826,
+      "ATK": 74,
+      "DEF": 610,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 11899,
+      "ATK": 81,
+      "DEF": 670,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 12637,
+      "ATK": 86,
+      "DEF": 712,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "78.8%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 13721,
+      "ATK": 94,
+      "DEF": 773,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "78.8%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 14459,
+      "ATK": 99,
+      "DEF": 815,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "88.4%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 15552,
+      "ATK": 106,
+      "DEF": 876,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "88.4%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Secret Spear of Wangsheng",
+      "image": "images/Characters/Liyue/Hu Tao/talents/Talent_Secret_Spear_of_Wangsheng.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "46.9%",
+          "2": "50.1%",
+          "3": "53.3%",
+          "4": "57.5%",
+          "5": "60.7%",
+          "6": "64.5%",
+          "7": "69.3%",
+          "8": "74%",
+          "9": "79%",
+          "10": "84%",
+          "11": "88%",
+          "12": "93%",
+          "13": "98%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "48.30%",
+          "2": "51.50%",
+          "3": "54.80%",
+          "4": "59.20%",
+          "5": "63%",
+          "6": "66%",
+          "7": "71.3%",
+          "8": "76.20%",
+          "9": "81.20%",
+          "10": "86.10%",
+          "11": "91%",
+          "12": "96%",
+          "13": "100.90%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "61%",
+          "2": "65.2%",
+          "3": "69.4%",
+          "4": "74.9%",
+          "5": "79.1%",
+          "6": "83.9%",
+          "7": "90.2%",
+          "8": "96.40%",
+          "9": "102.70%",
+          "10": "108.90%",
+          "11": "115.20%",
+          "12": "121.40%",
+          "13": "127.60%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "65.60%",
+          "2": "70.10%",
+          "3": "74.60%",
+          "4": "80.60%",
+          "5": "85%",
+          "6": "90%",
+          "7": "97%",
+          "8": "103.70%",
+          "9": "110.40%",
+          "10": "117.10%",
+          "11": "123.80%",
+          "12": "130.50%",
+          "13": "137.20%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "33.3% +35.2%",
+          "2": "35.5% +37.6%",
+          "3": "37.8% +40%",
+          "4": "40.8% +43.2%",
+          "5": "43.1% +45.6%",
+          "6": "45.8% +48.4%",
+          "7": "49.2% +52%",
+          "8": "52.6% +55.6%",
+          "9": "56% +59.2%",
+          "10": "59.4% +62.8%",
+          "11": "62.8% +66.4%",
+          "12": "66.2% +70%",
+          "13": "69.6% +73.6%"
+        },
+        {
+          "LVL": "6-Hit DMG",
+          "1": "86%",
+          "2": "91.80%",
+          "3": "97.70%",
+          "4": "105.50%",
+          "5": "111%",
+          "6": "118.2%",
+          "7": "127%",
+          "8": "136%",
+          "9": "144.60%",
+          "10": "153.40%",
+          "11": "162.10%",
+          "12": "170.90%",
+          "13": "179.70%"
+        },
+        {
+          "LVL": "Charged Attack",
+          "1": "136%",
+          "2": "145.2%",
+          "3": "154.5%",
+          "4": "166.9%",
+          "5": "176.1%",
+          "6": "186.9%",
+          "7": "200.9%",
+          "8": "215%",
+          "9": "229%",
+          "10": "243%",
+          "11": "257%",
+          "12": "270%",
+          "13": "284%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "25",
+          "2": "25",
+          "3": "25",
+          "4": "25",
+          "5": "25",
+          "6": "25",
+          "7": "25",
+          "8": "25",
+          "9": "25",
+          "10": "25",
+          "11": "25",
+          "12": "25",
+          "13": "25"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "65.4%",
+          "2": "69.9%",
+          "3": "74.3%",
+          "4": "80.3%",
+          "5": "84.7%",
+          "6": "90%",
+          "7": "96.6%",
+          "8": "103%",
+          "9": "110%",
+          "10": "117%",
+          "11": "123%",
+          "12": "130%",
+          "13": "137%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "131% /163%",
+          "2": "140% /175%",
+          "3": "149% /186%",
+          "4": "161% /201%",
+          "5": "169% /212%",
+          "6": "180% /225%",
+          "7": "193% /241%",
+          "8": "207% /258%",
+          "9": "220% /275%",
+          "10": "233% /292%",
+          "11": "247% /308%",
+          "12": "260% /325%",
+          "13": "274% /342%"
+        }
+       ]
+    },
+    {
+      "name":"Guide to Afterlife",
+      "image": "images/Characters/Liyue/Hu Tao/talents/Talent_Guide_to_Afterlife.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Activation Cost",
+          "1": "30% Current HP",
+          "2": "30% Current HP",
+          "3": "30% Current HP",
+          "4": "30% Current HP",
+          "5": "30% Current HP",
+          "6": "30% Current HP",
+          "7": "30% Current HP",
+          "8": "30% Current HP",
+          "9": "30% Current HP",
+          "10": "30% Current HP",
+          "11": "30% Current HP",
+          "12": "30% Current HP",
+          "13": "30% Current HP"
+        },
+        {
+          "LVL": "ATK Increase",
+          "1": "3.84% Max HP",
+          "2": "4.07% Max HP",
+          "3": "4.3% Max HP",
+          "4": "4.6% Max HP",
+          "5": "4.83% Max HP",
+          "6": "5.06% Max HP",
+          "7": "5.36% Max HP",
+          "8": "5.66% Max HP",
+          "9": "5.96% Max HP",
+          "10": "6.26% Max HP",
+          "11": "6.55% Max HP",
+          "12": "6.85% Max HP",
+          "13": "7.15% Max HP"
+        },
+        {
+          "LVL": "Blood Blossom DMG",
+          "1": "64%",
+          "2": "69%",
+          "3": "74%",
+          "4": "80%",
+          "5": "85%",
+          "6": "90%",
+          "7": "96%",
+          "8": "102.00%",
+          "9": "109.00%",
+          "10": "115.00%",
+          "11": "122.00%",
+          "12": "128.00%",
+          "13": "136.00%"
+        },
+        {
+          "LVL": "Blood Blossom Duration",
+          "1": "8s",
+          "2": "8s",
+          "3": "8s",
+          "4": "8s",
+          "5": "8s",
+          "6": "8s",
+          "7": "8s",
+          "8": "8s",
+          "9": "8s",
+          "10": "8s",
+          "11": "8s",
+          "12": "8s",
+          "13": "8s"
+        },
+        {
+          "LVL": "Duration",
+          "1": "9s",
+          "2": "9s",
+          "3": "9s",
+          "4": "9s",
+          "5": "9s",
+          "6": "9s",
+          "7": "9s",
+          "8": "9s",
+          "9": "9s",
+          "10": "9s",
+          "11": "9s",
+          "12": "9s",
+          "13": "9s"
+        },
+        {
+          "LVL": "CD",
+          "1": "16s",
+          "2": "16s",
+          "3": "16s",
+          "4": "16s",
+          "5": "16s",
+          "6": "16s",
+          "7": "16s",
+          "8": "16s",
+          "9": "16s",
+          "10": "16s",
+          "11": "16s",
+          "12": "16s",
+          "13": "16s"
+        }
+       ]
+    },
+    {
+      "name":"Spirit Soother",
+      "image": "images/Characters/Liyue/Hu Tao/talents/Talent_Spirit_Soother.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "303%",
+          "2": "321%",
+          "3": "340%",
+          "4": "363%",
+          "5": "381%",
+          "6": "400%",
+          "7": "423%",
+          "8": "447%",
+          "9": "470%",
+          "10": "494%",
+          "11": "518%",
+          "12": "541%",
+          "13": "565%"
+        },
+        {
+          "LVL": "Low HP Skill DMG",
+          "1": "379%",
+          "2": "402%",
+          "3": "424%",
+          "4": "454%",
+          "5": "477%",
+          "6": "499%",
+          "7": "529%",
+          "8": "558%",
+          "9": "588%",
+          "10": "617%",
+          "11": "647%",
+          "12": "676%",
+          "13": "706%"
+        },
+        {
+          "LVL": "Skill HP Regeneration",
+          "1": "6.26% Max HP",
+          "2": "6.64% Max HP",
+          "3": "7.01% Max HP",
+          "4": "7.5% Max HP",
+          "5": "7.87% Max HP",
+          "6": "8.25% Max HP",
+          "7": "8.74% Max HP",
+          "8": "9.22% Max HP",
+          "9": "9.71% Max HP",
+          "10": "10.2% Max HP",
+          "11": "10.69% Max HP",
+          "12": "11.17% Max HP",
+          "13": "11.66% Max HP"
+        },
+        {
+          "LVL": "Low HP Skill Regeneration",
+          "1": "8.35% Max HP",
+          "2": "8.85% Max HP",
+          "3": "9.35% Max HP",
+          "4": "10% Max HP",
+          "5": "10.5% Max HP",
+          "6": "11% Max HP",
+          "7": "11.65% Max HP",
+          "8": "12.3% Max HP",
+          "9": "12.95% Max HP",
+          "10": "13.6% Max HP",
+          "11": "14.25% Max HP",
+          "12": "14.9% Max HP",
+          "13": "15.55% Max HP"
+        },
+        {
+          "LVL": "CD",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "60",
+          "2": "60",
+          "3": "60",
+          "4": "60",
+          "5": "60",
+          "6": "60",
+          "7": "60",
+          "8": "60",
+          "9": "60",
+          "10": "60",
+          "11": "60",
+          "12": "60",
+          "13": "60"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Flutter By",
+      "image": "images/Characters/Liyue/Hu Tao/talents/Talent_Flutter_By.png",
+      "description":""
+    },
+    {
+      "name":"Sanguine Rouge",
+      "image": "images/Characters/Liyue/Hu Tao/talents/Talent_Sanguine_Rouge.png",
+      "description":""
+    },
+    {
+      "name":"The More the Merrier",
+      "image": "images/Characters/Liyue/Hu Tao/talents/Talent_The_More_the_Merrier.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Teachings_of_Diligence.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shard_of_a_Foul_Legacy.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shard_of_a_Foul_Legacy.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shard_of_a_Foul_Legacy.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shard_of_a_Foul_Legacy.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Crimson Bouquet",
+      "image": "images/Characters/Liyue/Hu Tao/constellations/Constellation_Crimson_Bouquet.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Ominous Rainfall",
+      "image": "images/Characters/Liyue/Hu Tao/constellations/Constellation_Ominous_Rainfall.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Lingering Carmine",
+      "image": "images/Characters/Liyue/Hu Tao/constellations/Constellation_Lingering_Carmine.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Garden of Eternal Rest",
+      "image": "images/Characters/Liyue/Hu Tao/constellations/Constellation_Garden_of_Eternal_Rest.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Floral Incense",
+      "image": "images/Characters/Liyue/Hu Tao/constellations/Constellation_Floral_Incense.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Butterfly's Embrace",
+      "image": "images/Characters/Liyue/Hu Tao/constellations/Constellation_Butterfly's_Embrace.png",
+      "description":""
+    }
+  ]
+}
+
+

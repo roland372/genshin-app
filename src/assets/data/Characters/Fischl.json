@@ -1,0 +1,774 @@
+{
+  "name":"Fischl",
+  "avatar": "images/Characters/mondstadt/Fischl/images/Character_Fischl_Avatar.png",
+  "title":"Prinzessin der Verurteilung",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Electro",
+  "elementImage": "images/Elements/Element_Electro.png",
+  "weapon":"Bow",
+  "weaponImage": "images/Weapon icons/Weapon-class-bow-icon.png",
+  "sex":"Female",
+  "birthday":"May 27th",
+  "constellation":"Corvus",
+  "nation":"Mondstadt",
+  "affiliation":"Adventurers' Guild",
+  "specialDish":"Die Heilige Sinfonie",
+  "description":"A mysterious girl who calls herself Prinzessin der Verurteilung and travels with a night raven named Oz.",
+  "talentBook":"Teachings of Ballad",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Ballad/Item_Teachings_of_Ballad.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
+  "ascensionStat": "ATK%",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Small Lamp Grass",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Firm Arrowhead",
+       "image": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Small Lamp Grass",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Firm Arrowhead",
+       "image": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Small Lamp Grass",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Sharp Arrowhead",
+       "image": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Small Lamp Grass",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Sharp Arrowhead",
+       "image": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Small Lamp Grass",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Weathered Arrowhead",
+       "image": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Small Lamp Grass",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Weathered Arrowhead",
+       "image": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 770,
+      "ATK": 20,
+      "DEF": 50,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 1979,
+      "ATK": 53,
+      "DEF": 128,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2555,
+      "ATK": 68,
+      "DEF": 165,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 3827,
+      "ATK": 102,
+      "DEF": 247,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4236,
+      "ATK": 113,
+      "DEF": 274,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 4872,
+      "ATK": 130,
+      "DEF": 315,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 5418,
+      "ATK": 144,
+      "DEF": 350,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 6054,
+      "ATK": 161,
+      "DEF": 391,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 6463,
+      "ATK": 172,
+      "DEF": 418,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 7099,
+      "ATK": 189,
+      "DEF": 459,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 7508,
+      "ATK": 200,
+      "DEF": 485,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 8144,
+      "ATK": 216,
+      "DEF": 526,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 8553,
+      "ATK": 227,
+      "DEF": 553,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 9189,
+      "ATK": 244,
+      "DEF": 594,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Bolts of Downfall",
+      "image": "images/Characters/mondstadt/Fischl/talents/Talent_Bolts_of_Downfall.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "44.1%",
+          "2": "47.7%",
+          "3": "51.3%",
+          "4": "56.4%",
+          "5": "60%",
+          "6": "64.1%",
+          "7": "69.8%",
+          "8": "75%",
+          "9": "81%",
+          "10": "87%",
+          "11": "93%",
+          "12": "100%",
+          "13": "106%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "46.80%",
+          "2": "50.60%",
+          "3": "54.40%",
+          "4": "59.80%",
+          "5": "63.60%",
+          "6": "68%",
+          "7": "74%",
+          "8": "80.00%",
+          "9": "86.00%",
+          "10": "92.50%",
+          "11": "99%",
+          "12": "105.50%",
+          "13": "112.10%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "58.1%",
+          "2": "62.9%",
+          "3": "67.6%",
+          "4": "74.4%",
+          "5": "79.1%",
+          "6": "84.5%",
+          "7": "91.9%",
+          "8": "99%",
+          "9": "107%",
+          "10": "115%",
+          "11": "123%",
+          "12": "131%",
+          "13": "139%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "57.70%",
+          "2": "62.40%",
+          "3": "67.10%",
+          "4": "73.80%",
+          "5": "79%",
+          "6": "83.9%",
+          "7": "91.3%",
+          "8": "98.60%",
+          "9": "106%",
+          "10": "114.10%",
+          "11": "122.10%",
+          "12": "130.20%",
+          "13": "138.20%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "72.1%",
+          "2": "77.9%",
+          "3": "83.8%",
+          "4": "92.2%",
+          "5": "98%",
+          "6": "104.8%",
+          "7": "114%",
+          "8": "123.20%",
+          "9": "132.40%",
+          "10": "142.50%",
+          "11": "152.50%",
+          "12": "162.60%",
+          "13": "172.60%"
+        },
+        {
+          "LVL": "Aimed Shot",
+          "1": "43.90%",
+          "2": "47.40%",
+          "3": "51%",
+          "4": "56.10%",
+          "5": "60%",
+          "6": "63.7%",
+          "7": "69.4%",
+          "8": "75%",
+          "9": "80.60%",
+          "10": "86.70%",
+          "11": "92.80%",
+          "12": "98.90%",
+          "13": "105.10%"
+        },
+        {
+          "LVL": "Fully-Charged Aimed Shot",
+          "1": "124%",
+          "2": "133%",
+          "3": "143%",
+          "4": "155%",
+          "5": "164%",
+          "6": "174%",
+          "7": "186%",
+          "8": "198%",
+          "9": "211%",
+          "10": "223%",
+          "11": "236%",
+          "12": "248%",
+          "13": "263%"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "56.80%",
+          "2": "61.50%",
+          "3": "66.10%",
+          "4": "72.70%",
+          "5": "77%",
+          "6": "82.6%",
+          "7": "89.9%",
+          "8": "97.10%",
+          "9": "104.40%",
+          "10": "112.30%",
+          "11": "120.30%",
+          "12": "128.20%",
+          "13": "136.10%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "114% /142%",
+          "2": "123% /153%",
+          "3": "132% /165%",
+          "4": "145% /182%",
+          "5": "155% /193%",
+          "6": "165% /206%",
+          "7": "180% /224%",
+          "8": "194% /243%",
+          "9": "209% /261%",
+          "10": "225% /281%",
+          "11": "240% /300%",
+          "12": "256% /320%",
+          "13": "272% /340%"
+        }
+       ]
+    },
+    {
+      "name":"Nightrider",
+      "image": "images/Characters/mondstadt/Fischl/talents/Talent_Nightrider.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Oz's ATK DMG",
+          "1": "88.8%",
+          "2": "95.5%",
+          "3": "102.1%",
+          "4": "111%",
+          "5": "117.7%",
+          "6": "124.3%",
+          "7": "133.2%",
+          "8": "142%",
+          "9": "151%",
+          "10": "160%",
+          "11": "169%",
+          "12": "178%",
+          "13": "189%"
+        },
+        {
+          "LVL": "Summoning DMG",
+          "1": "115.00%",
+          "2": "124.00%",
+          "3": "133.00%",
+          "4": "144.00%",
+          "5": "153.00%",
+          "6": "162%",
+          "7": "173%",
+          "8": "185.00%",
+          "9": "196.00%",
+          "10": "208.00%",
+          "11": "219%",
+          "12": "231.00%",
+          "13": "245.00%"
+        },
+        {
+          "LVL": "Oz's Duration",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        },
+        {
+          "LVL": "CD",
+          "1": "25s",
+          "2": "25s",
+          "3": "25s",
+          "4": "25s",
+          "5": "25s",
+          "6": "25s",
+          "7": "25s",
+          "8": "25s",
+          "9": "25s",
+          "10": "25s",
+          "11": "25s",
+          "12": "25s",
+          "13": "25s"
+        }
+       ]
+    },
+    {
+      "name":"Midnight Phantasmagoria",
+      "image": "images/Characters/mondstadt/Fischl/talents/Talent_Midnight_Phantasmagoria.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Falling Thunder DMG",
+          "1": "208%",
+          "2": "224%",
+          "3": "239%",
+          "4": "260%",
+          "5": "276%",
+          "6": "291%",
+          "7": "312%",
+          "8": "333%",
+          "9": "354%",
+          "10": "374%",
+          "11": "395%",
+          "12": "416%",
+          "13": "442%"
+        },
+        {
+          "LVL": "CD",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "60",
+          "2": "60",
+          "3": "60",
+          "4": "60",
+          "5": "60",
+          "6": "60",
+          "7": "60",
+          "8": "60",
+          "9": "60",
+          "10": "60",
+          "11": "60",
+          "12": "60",
+          "13": "60"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Stellar Predator",
+      "image": "images/Characters/mondstadt/Fischl/talents/Talent_Stellar_Predator.png",
+      "description":""
+    },
+    {
+      "name":"Undone Be Thy Sinful Hex",
+      "image": "images/Characters/mondstadt/Fischl/talents/Talent_Undone_Be_Thy_Sinful_Hex.png",
+      "description":""
+    },
+    {
+      "name":"Mein Hausgarten",
+      "image": "images/Characters/mondstadt/Fischl/talents/Talent_Mein_Hausgarten.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Teachings_of_Ballad.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Gaze of the Deep",
+      "image": "images/Characters/mondstadt/Fischl/constellations/Constellation_Gaze_of_the_Deep.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Devourer of All Sins",
+      "image": "images/Characters/mondstadt/Fischl/constellations/Constellation_Devourer_of_All_Sins.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Wings of Nightmare",
+      "image": "images/Characters/mondstadt/Fischl/constellations/Constellation_Wings_of_Nightmare.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Her Pilgrimage of Bleak",
+      "image": "images/Characters/mondstadt/Fischl/constellations/Constellation_Her_Pilgrimage_of_Bleak.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Against the Fleeing Light",
+      "image": "images/Characters/mondstadt/Fischl/constellations/Constellation_Against_the_Fleeing_Light.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Evernight Raven",
+      "image": "images/Characters/mondstadt/Fischl/constellations/Constellation_Evernight_Raven.png",
+      "description":""
+    }
+  ]
+}
+
+

@@ -1,0 +1,820 @@
+{
+  "name":"Aloy",
+  "avatar": "images/Characters/outlander/Aloy/images/Character_Aloy_Avatar.png",
+  "title":"Savior From Another World",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Cryo",
+  "elementImage": "images/Elements/Element_Cryo.png",
+  "weapon":"Bow",
+  "weaponImage": "images/Weapon icons/Weapon-class-bow-icon.png",
+  "sex":"Female",
+  "birthday":"April 4th",
+  "constellation":"Nora Fortis",
+  "nation":"Outlander",
+  "affiliation":"Wandering Heroine",
+  "specialDish":"Satiety Gel",
+  "description":"An agile hunter from the Nora tribe. With bow in hand, she's always ready to protect the innocent.",
+  "talentBook":"Philosophies of Freedom",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Freedom/Item_Teachings_of_Freedom.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Crystalline_Bloom.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Inazuma/Item_Crystal_Marrow.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Spectral_Husk.png",
+  "ascensionStat": "Cryo DMG Bonus",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+      "name": "Crystal Marrow",
+      "image": "images/Materials/Local Specialties/Inazuma/Item_Crystal_Marrow.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Spectral Husk",
+       "image": "images/Materials/Common Ascension Materials/Item_Spectral_Husk.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Crystalline Bloom",
+       "image": "images/Materials/Character Materials/Ascension/Item_Crystalline_Bloom.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+      "name": "Crystal Marrow",
+      "image": "images/Materials/Local Specialties/Inazuma/Item_Crystal_Marrow.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+      "name": "Spectral Husk",
+      "image": "images/Materials/Common Ascension Materials/Item_Spectral_Husk.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+      "name": "Shivada Jade Fragment",
+      "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+      "name": "Crystalline Bloom",
+      "image": "images/Materials/Character Materials/Ascension/Item_Crystalline_Bloom.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Crystal Marrow",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Crystal_Marrow.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Spectral Heart",
+       "image": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+      "name": "Crystalline Bloom",
+      "image": "images/Materials/Character Materials/Ascension/Item_Crystalline_Bloom.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+      "name": "Crystal Marrow",
+      "image": "images/Materials/Local Specialties/Inazuma/Item_Crystal_Marrow.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+      "name": "Spectral Heart",
+      "image": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+      "name": "Shivada Jade Chunk",
+      "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+      "name": "Crystalline Bloom",
+      "image": "images/Materials/Character Materials/Ascension/Item_Crystalline_Bloom.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+      "name": "Crystal Marrow",
+      "image": "images/Materials/Local Specialties/Inazuma/Item_Crystal_Marrow.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Spectral_Nucleus",
+       "image": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+      "name": "Crystalline Bloom",
+      "image": "images/Materials/Character Materials/Ascension/Item_Crystalline_Bloom.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+      "name": "Crystal Marrow",
+      "image": "images/Materials/Local Specialties/Inazuma/Item_Crystal_Marrow.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+      "name": "Spectral_Nucleus",
+      "image": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 848,
+      "ATK": 18,
+      "DEF": 53,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2201,
+      "ATK": 47,
+      "DEF": 137,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2928,
+      "ATK": 63,
+      "DEF": 182,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 4382,
+      "ATK": 94,
+      "DEF": 272,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4899,
+      "ATK": 105,
+      "DEF": 304,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "7.20%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5636,
+      "ATK": 121,
+      "DEF": 350,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "7.20%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 6325,
+      "ATK": 136,
+      "DEF": 393,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.40%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 7070,
+      "ATK": 152,
+      "DEF": 439,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.40%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 7587,
+      "ATK": 163,
+      "DEF": 471,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.40%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 8339,
+      "ATK": 179,
+      "DEF": 517,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.40%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 8856,
+      "ATK": 190,
+      "DEF": 550,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "21.60%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 9616,
+      "ATK": 206,
+      "DEF": 597,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "21.60%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 10133,
+      "ATK": 217,
+      "DEF": 629,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "28.80%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 10899,
+      "ATK": 234,
+      "DEF": 676,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "28.80%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Rapid Fire",
+      "image": "images/Characters/outlander/Aloy/talents/Talent_Rapid_Fire.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "21.1% +23.8%",
+          "2": "22.6% +25.4%",
+          "3": "24% +27%",
+          "4": "25.9% +29.2%",
+          "5": "27.4% +30.8%",
+          "6": "29% +32.7%",
+          "7": "31.2% +35.1%",
+          "8": "33.4% +37.5%",
+          "9": "35.5% +40%",
+          "10": "37.7% +42.4%",
+          "11": "39.8% +44.8%",
+          "12": "42% +47.2%",
+          "13": "44.2% +49.7%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "43.10%",
+          "2": "46.10%",
+          "3": "49%",
+          "4": "52.90%",
+          "5": "56%",
+          "6": "59%",
+          "7": "64%",
+          "8": "68.10%",
+          "9": "72.50%",
+          "10": "76.90%",
+          "11": "81.30%",
+          "12": "85.80%",
+          "13": "90.20%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "52.80%",
+          "2": "56.40%",
+          "3": "60%",
+          "4": "64.80%",
+          "5": "68%",
+          "6": "73%",
+          "7": "78%",
+          "8": "83.40%",
+          "9": "88.80%",
+          "10": "94.20%",
+          "11": "99.60%",
+          "12": "105%",
+          "13": "110.40%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "65.60%",
+          "2": "70.10%",
+          "3": "74.60%",
+          "4": "80.60%",
+          "5": "85%",
+          "6": "90%",
+          "7": "97%",
+          "8": "103.70%",
+          "9": "110.40%",
+          "10": "117.10%",
+          "11": "123.80%",
+          "12": "130.60%",
+          "13": "137.30%"
+        },
+        {
+          "LVL": "Aimed Shot",
+          "1": "43.90%",
+          "2": "47.40%",
+          "3": "51%",
+          "4": "56.10%",
+          "5": "60%",
+          "6": "64%",
+          "7": "69.40%",
+          "8": "75%",
+          "9": "80.60%",
+          "10": "86.70%",
+          "11": "92.80%",
+          "12": "98.90%",
+          "13": "105.10%"
+        },
+        {
+          "LVL": "Fully-Charged Aimed Shot",
+          "1": "124%",
+          "2": "133%",
+          "3": "143%",
+          "4": "155%",
+          "5": "164%",
+          "6": "174%",
+          "7": "186.00%",
+          "8": "198%",
+          "9": "211%",
+          "10": "223%",
+          "11": "236%",
+          "12": "248%",
+          "13": "263%"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "56.80%",
+          "2": "61.50%",
+          "3": "66.10%",
+          "4": "72.70%",
+          "5": "77%",
+          "6": "83%",
+          "7": "89.90%",
+          "8": "97.10%",
+          "9": "104.40%",
+          "10": "112.30%",
+          "11": "120.30%",
+          "12": "128.20%",
+          "13": "136.10%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "114% /142%",
+          "2": "123% /153%",
+          "3": "132% /165%",
+          "4": "145% /182%",
+          "5": "155% /193%",
+          "6": "165% /206%",
+          "7": "180% /224%",
+          "8": "194% /243%",
+          "9": "209% /261%",
+          "10": "225% /281%",
+          "11": "240% /300%",
+          "12": "256% /320%",
+          "13": "272% /340%"
+        }
+       ]
+    },
+    {
+      "name":"Frozen Wilds",
+      "image": "images/Characters/outlander/Aloy/talents/Talent_Frozen_Wilds.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Freeze Bomb DMG",
+          "1": "178%",
+          "2": "191%",
+          "3": "204%",
+          "4": "222%",
+          "5": "235%",
+          "6": "249%",
+          "7": "266%",
+          "8": "284%",
+          "9": "302%",
+          "10": "320%",
+          "11": "337%",
+          "12": "355%",
+          "13": "377%"
+        },
+        {
+          "LVL": "Chillwater Bomblets",
+          "1": "40%",
+          "2": "43%",
+          "3": "46%",
+          "4": "50%",
+          "5": "53%",
+          "6": "56%",
+          "7": "60%",
+          "8": "64%",
+          "9": "68%",
+          "10": "72%",
+          "11": "76%",
+          "12": "80%",
+          "13": "85%"
+        },
+        {
+          "LVL": "ATK Decrease",
+          "1": "12%",
+          "2": "12%",
+          "3": "12%",
+          "4": "13%",
+          "5": "13%",
+          "6": "13%",
+          "7": "14%",
+          "8": "14%",
+          "9": "14%",
+          "10": "15%",
+          "11": "15%",
+          "12": "15%",
+          "13": "15%"
+        },
+        {
+          "LVL": "ATK Decrease Duration",
+          "1": "6s",
+          "2": "6s",
+          "3": "6s",
+          "4": "6s",
+          "5": "6s",
+          "6": "6s",
+          "7": "6s",
+          "8": "6s",
+          "9": "6s",
+          "10": "6s",
+          "11": "6s",
+          "12": "6s",
+          "13": "6s"
+        },
+        {
+          "LVL": "Coil Normal Attack DMG Bonus",
+          "1": "5.8% /11.7% /17.5%",
+          "2": "6.2% /12.4% /18.6%",
+          "3": "6.5% /13.1% /19.6%",
+          "4": "7% /14% /21%",
+          "5": "7.3% /14.7% /22.1%",
+          "6": "7.7% /15.4% /23.1%",
+          "7": "8.2% /16.3% /24.5%",
+          "8": "8.6% /17.2% /25.8%",
+          "9": "9.1% /18.1% /27.2%",
+          "10": "9.5% /19% /28.6%",
+          "11": "10% /19.9% /29.9%",
+          "12": "10.4% /20.9% /31.3%",
+          "13": "10.9% /21.8% /32.7%"
+        },
+        {
+          "LVL": "Rushing Ice Normal Attack DMG Bonus",
+          "1": "29.2%",
+          "2": "31%",
+          "3": "32.7%",
+          "4": "35%",
+          "5": "36.8%",
+          "6": "38.5%",
+          "7": "40.8%",
+          "8": "43.1%",
+          "9": "45.3%",
+          "10": "47.6%",
+          "11": "49.9%",
+          "12": "52.1%",
+          "13": "54.4%"
+        },
+        {
+          "LVL": "Rushing Ice Duration",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        }
+       ]
+    },
+    {
+      "name":"Prophecies of Dawn",
+      "image": "images/Characters/outlander/Aloy/talents/Talent_Prophecies_of_Dawn.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "359%",
+          "2": "386%",
+          "3": "413%",
+          "4": "449%",
+          "5": "476%",
+          "6": "503%",
+          "7": "539%",
+          "8": "575%",
+          "9": "611%",
+          "10": "647%",
+          "11": "682%",
+          "12": "718%",
+          "13": "763%"
+        },
+        {
+          "LVL": "CD",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "40",
+          "2": "40",
+          "3": "40",
+          "4": "40",
+          "5": "40",
+          "6": "40",
+          "7": "40",
+          "8": "40",
+          "9": "40",
+          "10": "40",
+          "11": "40",
+          "12": "40",
+          "13": "40"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Combat Overridet",
+      "image": "images/Characters/outlander/Aloy/talents/Talent_Combat_Override.png",
+      "description":""
+    },
+    {
+      "name":"Strong Strike",
+      "image": "images/Characters/outlander/Aloy/talents/Talent_Strong_Strike.png",
+      "description":""
+    },
+    {
+      "name":"Easy Does It",
+      "image": "images/Characters/outlander/Aloy/talents/Talent_Easy_Does_It.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Teachings_of_Freedom.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Husk.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Molten_Moment.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Molten_Moment.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Molten_Moment.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Molten_Moment.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Star of Another World",
+      "image": "images/Characters/outlander/Aloy/constellations/Constellation_Star_of_Another_World.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Star of Another World",
+      "image": "images/Characters/outlander/Aloy/constellations/Constellation_Star_of_Another_World.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Star of Another World",
+      "image": "images/Characters/outlander/Aloy/constellations/Constellation_Star_of_Another_World.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Star of Another World",
+      "image": "images/Characters/outlander/Aloy/constellations/Constellation_Star_of_Another_World.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Star of Another World",
+      "image": "images/Characters/outlander/Aloy/constellations/Constellation_Star_of_Another_World.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Star of Another World",
+      "image": "images/Characters/outlander/Aloy/constellations/Constellation_Star_of_Another_World.png",
+      "description":""
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import FarmingPlanner from '../components/Farming/FarmingPlanner';
+import FarmingPlanner from '../components/FarmingPlanner/FarmingPlanner';
 
 const farmingPlanner = () => {
 	return <FarmingPlanner />;

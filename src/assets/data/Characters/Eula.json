@@ -1,0 +1,936 @@
+{
+  "name":"Eula",
+  "avatar": "images/Characters/mondstadt/Eula/images/Character_Eula_Avatar.png",
+  "title":"Dance of the Shimmering Wave",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Cryo",
+  "elementImage": "images/Elements/Element_Cryo.png",
+  "weapon":"Claymore",
+  "weaponImage": "images/Weapon icons/Weapon-class-claymore-icon.png",
+  "sex":"Female",
+  "birthday":"October 25th",
+  "constellation":"Aphros Delos",
+  "nation":"Mondstadt",
+  "affiliation":"Knights of Favonius, Lawrence Clan",
+  "specialDish":"Stormcrest Pie",
+  "description":"The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
+  "talentBook":"Teachings of Resistance",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Resistance/Item_Teachings_of_Resistance.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Crystalline_Bloom.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Mondstadt/Item_Dandelion_Seed.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+  "ascensionStat": "",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Dandelion Seed",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Dandelion_Seed.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Crystalline Bloom",
+       "image": "images/Materials/Character Materials/Ascension/Item_Crystalline_Bloom.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Dandelion Seed",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Dandelion_Seed.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Crystalline Bloom",
+       "image": "images/Materials/Character Materials/Ascension/Item_Crystalline_Bloom.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Dandelion Seed",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Dandelion_Seed.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Crystalline Bloom",
+       "image": "images/Materials/Character Materials/Ascension/Item_Crystalline_Bloom.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Dandelion Seed",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Dandelion_Seed.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Crystalline Bloom",
+       "image": "images/Materials/Character Materials/Ascension/Item_Crystalline_Bloom.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Dandelion Seed",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Dandelion_Seed.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Crystalline Bloom",
+       "image": "images/Materials/Character Materials/Ascension/Item_Crystalline_Bloom.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Dandelion Seed",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Dandelion_Seed.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1030,
+      "ATK": 27,
+      "DEF": 58,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2671,
+      "ATK": 69,
+      "DEF": 152,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3554,
+      "ATK": 92,
+      "DEF": 202,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 5317,
+      "ATK": 138,
+      "DEF": 302,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5944,
+      "ATK": 154,
+      "DEF": 337,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "59.6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 6839,
+      "ATK": 177,
+      "DEF": 388,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "59.6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 7675,
+      "ATK": 198,
+      "DEF": 436,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 8579,
+      "ATK": 222,
+      "DEF": 487,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 9207,
+      "ATK": 238,
+      "DEF": 523,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 10119,
+      "ATK": 262,
+      "DEF": 574,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 10746,
+      "ATK": 278,
+      "DEF": 610,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "78.8%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 11669,
+      "ATK": 302,
+      "DEF": 662,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "78.8%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 12296,
+      "ATK": 318,
+      "DEF": 698,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "88.4%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 13226,
+      "ATK": 342,
+      "DEF": 751,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "88.4%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Favonius Bladework - Edel",
+      "image": "images/Characters/mondstadt/Eula/talents/Talent_Favonius_Bladework_-_Edel.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "89.7%",
+          "2": "97%",
+          "3": "104.3%",
+          "4": "114.8%",
+          "5": "122.1%",
+          "6": "130.4%",
+          "7": "141.9%",
+          "8": "153%",
+          "9": "165%",
+          "10": "177%",
+          "11": "192%",
+          "12": "209%",
+          "13": "226%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "93.60%",
+          "2": "101.20%",
+          "3": "108.80%",
+          "4": "119.70%",
+          "5": "127.3%",
+          "6": "136%",
+          "7": "147.9%",
+          "8": "159.90%",
+          "9": "171.90%",
+          "10": "184.90%",
+          "11": "200%",
+          "12": "217.50%",
+          "13": "235.10%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "56.8% +56.8%",
+          "2": "61.4% +61.4%",
+          "3": "66% +66%",
+          "4": "72.6% +72.6%",
+          "5": "77.3% +77.3%",
+          "6": "82.6% +82.6%",
+          "7": "89.8% +89.8%",
+          "8": "97.1% +97.1%",
+          "9": "104.4% +104.4%",
+          "10": "112.3% +112.3%",
+          "11": "121.4% +121.4%",
+          "12": "132% +132%",
+          "13": "142.7% +142.7%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "112.60%",
+          "2": "121.80%",
+          "3": "131%",
+          "4": "144.10%",
+          "5": "153.2%",
+          "6": "163.7%",
+          "7": "178.1%",
+          "8": "192.50%",
+          "9": "206.90%",
+          "10": "222.70%",
+          "11": "240.70%",
+          "12": "261.90%",
+          "13": "283%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "71.8% +71.8%",
+          "2": "77.7% +77.7%",
+          "3": "83.5% +83.5%",
+          "4": "91.9% +91.9%",
+          "5": "97.7% +97.7%",
+          "6": "104.4% +104.4%",
+          "7": "113.6% +113.6%",
+          "8": "122.8% +122.8%",
+          "9": "132% +132%",
+          "10": "142% +142%",
+          "11": "153.5% +153.5%",
+          "12": "167% +167%",
+          "13": "180.5% +180.5%"
+        },
+        {
+          "LVL": "Charged Attack Spinning DMG",
+          "1": "68.80%",
+          "2": "74.40%",
+          "3": "80%",
+          "4": "88%",
+          "5": "93.6%",
+          "6": "100%",
+          "7": "108.8%",
+          "8": "117.60%",
+          "9": "126.40%",
+          "10": "136%",
+          "11": "147%",
+          "12": "159.90%",
+          "13": "172.90%"
+        },
+        {
+          "LVL": "Charged Attack Final DMG",
+          "1": "124%",
+          "2": "135%",
+          "3": "145%",
+          "4": "159%",
+          "5": "169%",
+          "6": "181%",
+          "7": "197%",
+          "8": "213%",
+          "9": "229%",
+          "10": "246%",
+          "11": "266%",
+          "12": "289%",
+          "13": "313%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "40/s",
+          "2": "40/s",
+          "3": "40/s",
+          "4": "40/s",
+          "5": "40/s",
+          "6": "40/s",
+          "7": "40/s",
+          "8": "40/s",
+          "9": "40/s",
+          "10": "40/s",
+          "11": "40/s",
+          "12": "40/s",
+          "13": "40/s"
+        },
+        {
+          "LVL": "Max Duration",
+          "1": "5s",
+          "2": "5s",
+          "3": "5s",
+          "4": "5s",
+          "5": "5s",
+          "6": "5s",
+          "7": "5s",
+          "8": "5s",
+          "9": "5s",
+          "10": "5s",
+          "11": "5s",
+          "12": "5s",
+          "13": "5s"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "74.60%",
+          "2": "80.70%",
+          "3": "86.70%",
+          "4": "95.40%",
+          "5": "101.5%",
+          "6": "108.4%",
+          "7": "118%",
+          "8": "127.50%",
+          "9": "137%",
+          "10": "147.40%",
+          "11": "159.40%",
+          "12": "173.40%",
+          "13": "187.40%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "149% /186%",
+          "2": "161% /201%",
+          "3": "173% /217%",
+          "4": "191% /238%",
+          "5": "203% /253%",
+          "6": "217% /271%",
+          "7": "236% /295%",
+          "8": "255% /318%",
+          "9": "274% /342%",
+          "10": "295% /368%",
+          "11": "319% /398%",
+          "12": "347% /433%",
+          "13": "375% /468%"
+        }
+       ]
+    },
+    {
+      "name":"Icetide Vortex",
+      "image": "images/Characters/mondstadt/Eula/talents/Talent_Icetide_Vortex.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Press DMG",
+          "1": "146%",
+          "2": "157%",
+          "3": "168%",
+          "4": "183%",
+          "5": "194%",
+          "6": "205%",
+          "7": "220%",
+          "8": "234%",
+          "9": "249%",
+          "10": "264%",
+          "11": "278%",
+          "12": "293%",
+          "13": "311%"
+        },
+        {
+          "LVL": "Hold DMG",
+          "1": "246.00%",
+          "2": "264.00%",
+          "3": "282.00%",
+          "4": "307.00%",
+          "5": "325%",
+          "6": "344%",
+          "7": "368%",
+          "8": "393.00%",
+          "9": "418.00%",
+          "10": "442.00%",
+          "11": "467%",
+          "12": "491.00%",
+          "13": "522.00%"
+        },
+        {
+          "LVL": "Icewhirl Brand DMG",
+          "1": "96%",
+          "2": "103%",
+          "3": "110%",
+          "4": "120%",
+          "5": "127%",
+          "6": "134%",
+          "7": "144%",
+          "8": "154%",
+          "9": "163%",
+          "10": "173%",
+          "11": "182%",
+          "12": "192%",
+          "13": "204%"
+        },
+        {
+          "LVL": "DEF Bonus",
+          "1": "30% Per Stack",
+          "2": "30% Per Stack",
+          "3": "30% Per Stack",
+          "4": "30% Per Stack",
+          "5": "30% Per Stack",
+          "6": "30% Per Stack",
+          "7": "30% Per Stack",
+          "8": "30% Per Stack",
+          "9": "30% Per Stack",
+          "10": "30% Per Stack",
+          "11": "30% Per Stack",
+          "12": "30% Per Stack",
+          "13": "30% Per Stack"
+        },
+        {
+          "LVL": "Grimheart Duration",
+          "1": "18s",
+          "2": "18s",
+          "3": "18s",
+          "4": "18s",
+          "5": "18s",
+          "6": "18s",
+          "7": "18s",
+          "8": "18s",
+          "9": "18s",
+          "10": "18s",
+          "11": "18s",
+          "12": "18s",
+          "13": "18s"
+        },
+        {
+          "LVL": "Physical RES Decrease",
+          "1": "16.00%",
+          "2": "17.00%",
+          "3": "18%",
+          "4": "19%",
+          "5": "20%",
+          "6": "21%",
+          "7": "22%",
+          "8": "23.00%",
+          "9": "24.00%",
+          "10": "25%",
+          "11": "25%",
+          "12": "25.00%",
+          "13": "25.00%"
+        },
+        {
+          "LVL": "Cryo RES Decrease",
+          "1": "16%",
+          "2": "17%",
+          "3": "18%",
+          "4": "19%",
+          "5": "20%",
+          "6": "21%",
+          "7": "22%",
+          "8": "23%",
+          "9": "24%",
+          "10": "25%",
+          "11": "25%",
+          "12": "25%",
+          "13": "25%"
+        },
+        {
+          "LVL": "RES Decrease Duration",
+          "1": "7s",
+          "2": "7s",
+          "3": "7s",
+          "4": "7s",
+          "5": "7s",
+          "6": "7s",
+          "7": "7s",
+          "8": "7s",
+          "9": "7s",
+          "10": "7s",
+          "11": "7s",
+          "12": "7s",
+          "13": "7s"
+        },
+        {
+          "LVL": "Press CD",
+          "1": "4s",
+          "2": "4s",
+          "3": "4s",
+          "4": "4s",
+          "5": "4s",
+          "6": "4s",
+          "7": "4s",
+          "8": "4s",
+          "9": "4s",
+          "10": "4s",
+          "11": "4s",
+          "12": "4s",
+          "13": "4s"
+        },
+        {
+          "LVL": "CD (hold)",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        }
+       ]
+    },
+    {
+      "name":"Glacial Illumination",
+      "image": "images/Characters/mondstadt/Eula/talents/Talent_Glacial_Illumination.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "246%",
+          "2": "264%",
+          "3": "282%",
+          "4": "307%",
+          "5": "325%",
+          "6": "344%",
+          "7": "368%",
+          "8": "393%",
+          "9": "418%",
+          "10": "442%",
+          "11": "467%",
+          "12": "491%",
+          "13": "522%"
+        },
+        {
+          "LVL": "Lightfall Sword Base DMG",
+          "1": "367.00%",
+          "2": "396.90%",
+          "3": "426.80%",
+          "4": "469.50%",
+          "5": "499.4%",
+          "6": "533.5%",
+          "7": "580.4%",
+          "8": "627.40%",
+          "9": "674.30%",
+          "10": "725.60%",
+          "11": "784%",
+          "12": "853.30%",
+          "13": "922.30%"
+        },
+        {
+          "LVL": "DMG Per Stack",
+          "1": "75%",
+          "2": "81.1%",
+          "3": "87.2%",
+          "4": "95.9%",
+          "5": "102%",
+          "6": "109%",
+          "7": "118.6%",
+          "8": "128%",
+          "9": "138%",
+          "10": "148%",
+          "11": "160%",
+          "12": "174%",
+          "13": "188%"
+        },
+        {
+          "LVL": "Maximum Stacks",
+          "1": "30",
+          "2": "30",
+          "3": "30",
+          "4": "30",
+          "5": "30",
+          "6": "30",
+          "7": "30",
+          "8": "30",
+          "9": "30",
+          "10": "30",
+          "11": "30",
+          "12": "30",
+          "13": "30"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "80",
+          "2": "80",
+          "3": "80",
+          "4": "80",
+          "5": "80",
+          "6": "80",
+          "7": "80",
+          "8": "80",
+          "9": "80",
+          "10": "80",
+          "11": "80",
+          "12": "80",
+          "13": "80"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Roiling Rime",
+      "image": "images/Characters/mondstadt/Eula/talents/Talent_Roiling_Rime.png",
+      "description":""
+    },
+    {
+      "name":"Wellspring of War-Lust",
+      "image": "images/Characters/mondstadt/Eula/talents/Talent_Wellspring_of_War-Lust.png",
+      "description":""
+    },
+    {
+      "name":"Aristocratic Introspection",
+      "image": "images/Characters/mondstadt/Eula/talents/Talent_Aristocratic_Introspection.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Teachings_of_Resistance.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dragon_Lord's_Crown.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dragon_Lord's_Crown.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dragon_Lord's_Crown.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dragon_Lord's_Crown.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Tidal Illusion",
+      "image": "images/Characters/mondstadt/Eula/constellations/Constellation_Tidal_Illusion.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Lady of Seafoam",
+      "image": "images/Characters/mondstadt/Eula/constellations/Constellation_Lady_of_Seafoam.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Lawrence Pedigree",
+      "image": "images/Characters/mondstadt/Eula/constellations/Constellation_Lawrence_Pedigree.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"The Obstinacy of One's Inferiors",
+      "image": "images/Characters/mondstadt/Eula/constellations/Constellation_The_Obstinacy_of_One's_Inferiors.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Chivalric Quality",
+      "image": "images/Characters/mondstadt/Eula/constellations/Constellation_Chivalric_Quality.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Noble Obligation",
+      "image": "images/Characters/mondstadt/Eula/constellations/Constellation_Noble_Obligation.png",
+      "description":""
+    }
+  ]
+}
+
+

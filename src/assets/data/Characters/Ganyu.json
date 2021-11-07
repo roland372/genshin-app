@@ -1,0 +1,824 @@
+{
+  "name":"Ganyu",
+  "avatar": "images/Characters/Liyue/Ganyu/images/Character_Ganyu_Avatar.png",
+  "title":"Plenilune Gaze",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Cryo",
+  "elementImage": "images/Elements/Element_Cryo.png",
+  "weapon":"Bow",
+  "weaponImage": "images/Weapon icons/Weapon-class-bow-icon.png",
+  "sex":"Female",
+  "birthday":"December 2nd",
+  "constellation":"Sinae Unicornis",
+  "nation":"Liyue",
+  "affiliation":"Yuehai Pavilion, Liyue Qixing, Adepti",
+  "specialDish":"Prosperous Peace",
+  "description":"The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+  "talentBook":"Teachings of Diligence",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Diligence/Item_Teachings_of_Diligence.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+  "ascensionStat": "",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Whopperflower Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Whopperflower Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Shimmering Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Shimmering Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Energy Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Energy Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 763,
+      "ATK": 26,
+      "DEF": 49,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 1978,
+      "ATK": 68,
+      "DEF": 127,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2632,
+      "ATK": 90,
+      "DEF": 169,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 3939,
+      "ATK": 135,
+      "DEF": 253,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4403,
+      "ATK": 151,
+      "DEF": 283,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "59.6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5066,
+      "ATK": 173,
+      "DEF": 326,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "59.6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 5686,
+      "ATK": 194,
+      "DEF": 366,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 6355,
+      "ATK": 217,
+      "DEF": 409,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 6820,
+      "ATK": 233,
+      "DEF": 439,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 7495,
+      "ATK": 256,
+      "DEF": 482,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 7960,
+      "ATK": 272,
+      "DEF": 512,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "78.8%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 8643,
+      "ATK": 295,
+      "DEF": 556,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "78.8%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 9108,
+      "ATK": 311,
+      "DEF": 586,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "88.4%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 9797,
+      "ATK": 335,
+      "DEF": 630,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "88.4%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Liutian Archery",
+      "image": "images/Characters/Liyue/Ganyu/talents/Talent_Liutian_Archery.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "31.7%",
+          "2": "34.3%",
+          "3": "36.9%",
+          "4": "40.6%",
+          "5": "43.2%",
+          "6": "46.1%",
+          "7": "50.2%",
+          "8": "54%",
+          "9": "58%",
+          "10": "63%",
+          "11": "68%",
+          "12": "74%",
+          "13": "80%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "35.60%",
+          "2": "38.50%",
+          "3": "41.40%",
+          "4": "45.50%",
+          "5": "48%",
+          "6": "51.7%",
+          "7": "56.3%",
+          "8": "60.90%",
+          "9": "65.40%",
+          "10": "70.40%",
+          "11": "76.10%",
+          "12": "82.80%",
+          "13": "89.50%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "45.5%",
+          "2": "49.2%",
+          "3": "52.9%",
+          "4": "58.2%",
+          "5": "61.9%",
+          "6": "66.1%",
+          "7": "71.9%",
+          "8": "77.80%",
+          "9": "83.60%",
+          "10": "89.90%",
+          "11": "97.20%",
+          "12": "105.80%",
+          "13": "114.30%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "45.50%",
+          "2": "49.20%",
+          "3": "52.90%",
+          "4": "58.20%",
+          "5": "62%",
+          "6": "66.1%",
+          "7": "71.9%",
+          "8": "77.80%",
+          "9": "83.60%",
+          "10": "89.90%",
+          "11": "97.20%",
+          "12": "105.80%",
+          "13": "114.30%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "48.2%",
+          "2": "52.2%",
+          "3": "56.1%",
+          "4": "61.7%",
+          "5": "65.6%",
+          "6": "70.1%",
+          "7": "76.3%",
+          "8": "82.50%",
+          "9": "88.60%",
+          "10": "95.40%",
+          "11": "103.10%",
+          "12": "112.20%",
+          "13": "121.20%"
+        },
+        {
+          "LVL": "6-Hit DMG",
+          "1": "57.60%",
+          "2": "62.30%",
+          "3": "67%",
+          "4": "73.70%",
+          "5": "78%",
+          "6": "83.7%",
+          "7": "91.1%",
+          "8": "99%",
+          "9": "105.90%",
+          "10": "113.90%",
+          "11": "123.10%",
+          "12": "133.90%",
+          "13": "144.80%"
+        },
+        {
+          "LVL": "Aimed Shot",
+          "1": "43.9%",
+          "2": "47.4%",
+          "3": "51%",
+          "4": "56.1%",
+          "5": "59.7%",
+          "6": "63.7%",
+          "7": "69.4%",
+          "8": "75%",
+          "9": "81%",
+          "10": "87%",
+          "11": "93%",
+          "12": "99%",
+          "13": "105%"
+        },
+        {
+          "LVL": "Aimed Shot Charge Level 1",
+          "1": "124%",
+          "2": "133%",
+          "3": "143%",
+          "4": "155%",
+          "5": "164%",
+          "6": "174%",
+          "7": "186%",
+          "8": "198.00%",
+          "9": "211.00%",
+          "10": "223.00%",
+          "11": "236.00%",
+          "12": "248.00%",
+          "13": "263.00%"
+        },
+        {
+          "LVL": "Frostflake Arrow DMG",
+          "1": "128%",
+          "2": "138%",
+          "3": "147%",
+          "4": "160%",
+          "5": "170%",
+          "6": "179%",
+          "7": "192%",
+          "8": "205%",
+          "9": "218%",
+          "10": "230%",
+          "11": "243%",
+          "12": "256%",
+          "13": "272%"
+        },
+        {
+          "LVL": "Frostflake Arrow Bloom DMG",
+          "1": "218%",
+          "2": "234%",
+          "3": "250%",
+          "4": "272%",
+          "5": "288%",
+          "6": "305%",
+          "7": "326%",
+          "8": "348%",
+          "9": "370%",
+          "10": "392%",
+          "11": "413%",
+          "12": "435%",
+          "13": "462%"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "56.8%",
+          "2": "61.5%",
+          "3": "66.1%",
+          "4": "72.7%",
+          "5": "77.3%",
+          "6": "82.6%",
+          "7": "89.9%",
+          "8": "97.10%",
+          "9": "104.40%",
+          "10": "112.30%",
+          "11": "120.30%",
+          "12": "128.20%",
+          "13": "136.10%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "114% /142%",
+          "2": "123% /153%",
+          "3": "132% /165%",
+          "4": "145% /182%",
+          "5": "155% /193%",
+          "6": "165% /206%",
+          "7": "180% /224%",
+          "8": "194% /243%",
+          "9": "209% /261%",
+          "10": "225% /281%",
+          "11": "240% /300%",
+          "12": "256% /320%",
+          "13": "272% /340%"
+        }
+       ]
+    },
+    {
+      "name":"Trail of the Qilin",
+      "image": "images/Characters/Liyue/Ganyu/talents/Talent_Trail_of_the_Qilin.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Inherited HP",
+          "1": "120%",
+          "2": "129%",
+          "3": "138%",
+          "4": "150%",
+          "5": "159%",
+          "6": "168%",
+          "7": "180%",
+          "8": "192%",
+          "9": "204%",
+          "10": "216%",
+          "11": "228%",
+          "12": "240%",
+          "13": "255%"
+        },
+        {
+          "LVL": "Skill DMG",
+          "1": "132.00%",
+          "2": "142.00%",
+          "3": "152.00%",
+          "4": "165.00%",
+          "5": "175%",
+          "6": "185%",
+          "7": "198%",
+          "8": "211.00%",
+          "9": "224.00%",
+          "10": "238.00%",
+          "11": "251.00%",
+          "12": "264.00%",
+          "13": "281.00%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "6s",
+          "2": "6s",
+          "3": "6s",
+          "4": "6s",
+          "5": "6s",
+          "6": "6s",
+          "7": "6s",
+          "8": "6s",
+          "9": "6s",
+          "10": "6s",
+          "11": "6s",
+          "12": "6s",
+          "13": "6s"
+        },
+        {
+          "LVL": "CD",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        }
+       ]
+    },
+    {
+      "name":"Celestial Shower",
+      "image": "images/Characters/Liyue/Ganyu/talents/Talent_Celestial_Shower.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Ice Shard DMG",
+          "1": "70%",
+          "2": "76%",
+          "3": "81%",
+          "4": "88%",
+          "5": "93%",
+          "6": "98%",
+          "7": "105%",
+          "8": "112%",
+          "9": "119%",
+          "10": "126%",
+          "11": "134%",
+          "12": "141%",
+          "13": "149%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "CD",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "60",
+          "2": "60",
+          "3": "60",
+          "4": "60",
+          "5": "60",
+          "6": "60",
+          "7": "60",
+          "8": "60",
+          "9": "60",
+          "10": "60",
+          "11": "60",
+          "12": "60",
+          "13": "60"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Undivided Heart",
+      "image": "images/Characters/Liyue/Ganyu/talents/Talent_Undivided_Heart.png",
+      "description":""
+    },
+    {
+      "name":"Harmony between Heaven and Earth",
+      "image": "images/Characters/Liyue/Ganyu/talents/Talent_Harmony_between_Heaven_and_Earth.png",
+      "description":""
+    },
+    {
+      "name":"Preserved for the Hunt",
+      "image": "images/Characters/Liyue/Ganyu/talents/Talent_Preserved_for_the_Hunt.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Teachings_of_Diligence.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shadow_of_the_Warrior.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shadow_of_the_Warrior.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shadow_of_the_Warrior.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shadow_of_the_Warrior.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Dew-Drinker",
+      "image": "images/Characters/Liyue/Ganyu/constellations/Constellation_Dew-Drinker.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"The Auspicious",
+      "image": "images/Characters/Liyue/Ganyu/constellations/Constellation_The_Auspicious.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Cloud-Strider",
+      "image": "images/Characters/Liyue/Ganyu/constellations/Constellation_Cloud-Strider.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Westward Sojourn",
+      "image": "images/Characters/Liyue/Ganyu/constellations/Constellation_Westward_Sojourn.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"The Merciful",
+      "image": "images/Characters/Liyue/Ganyu/constellations/Constellation_The_Merciful.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"The Clement",
+      "image": "images/Characters/Liyue/Ganyu/constellations/Constellation_The_Clement.png",
+      "description":""
+    }
+  ]
+}
+
+

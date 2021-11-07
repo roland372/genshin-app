@@ -1,0 +1,824 @@
+{
+  "name":"Diluc",
+  "avatar": "images/Characters/mondstadt/Diluc/images/Character_Diluc_Avatar.png",
+  "title":"The Dark Side of Dawn",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Pyro",
+  "elementImage": "images/Elements/Element_Pyro.png",
+  "weapon":"Claymore",
+  "weaponImage": "images/Weapon icons/Weapon-class-claymore-icon.png",
+  "sex":"Male",
+  "birthday":"April 30th",
+  "constellation":"Noctua",
+  "nation":"Mondstadt",
+  "affiliation":"Dawn Winery",
+  "specialDish":"Once Upon a Time in Mondstadt",
+  "description":"The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
+  "talentBook":"Teachings of Resistance",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Resistance/Item_Teachings_of_Resistance.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Recruit's_Insignia.png",
+  "ascensionStat": "",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Small Lamp Grass",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Recruit's Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Recruit's_Insignia.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Small Lamp Grass",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Recruit's Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Recruit's_Insignia.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Small Lamp Grass",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Sergeant's Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Sergeant's_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Small Lamp Grass",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Sergeant's Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Sergeant's_Insignia.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Small Lamp Grass",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Lieutenant's Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Lieutenant's_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Small Lamp Grass",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Lieutenant's Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Lieutenant's_Insignia.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1011,
+      "ATK": 26,
+      "DEF": 61,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2621,
+      "ATK": 68,
+      "DEF": 158,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3488,
+      "ATK": 90,
+      "DEF": 211,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 5219,
+      "ATK": 135,
+      "DEF": 315,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5834,
+      "ATK": 151,
+      "DEF": 352,
+      "CRIT Rate": "9.8%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 6712,
+      "ATK": 173,
+      "DEF": 405,
+      "CRIT Rate": "9.8%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 7533,
+      "ATK": 194,
+      "DEF": 455,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 8421,
+      "ATK": 217,
+      "DEF": 509,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 9036,
+      "ATK": 233,
+      "DEF": 546,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 9932,
+      "ATK": 256,
+      "DEF": 600,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 10547,
+      "ATK": 272,
+      "DEF": 637,
+      "CRIT Rate": "19.4%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 11453,
+      "ATK": 295,
+      "DEF": 692,
+      "CRIT Rate": "19.4%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 12068,
+      "ATK": 311,
+      "DEF": 729,
+      "CRIT Rate": "24.2%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 12981,
+      "ATK": 335,
+      "DEF": 784,
+      "CRIT Rate": "24.2%",
+      "CRIT DMG": "50%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Tempered Sword",
+      "image": "images/Characters/mondstadt/Diluc/talents/Talent_Tempered_Sword.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "89.7%",
+          "2": "97%",
+          "3": "104.3%",
+          "4": "114.7%",
+          "5": "122%",
+          "6": "130.4%",
+          "7": "141.8%",
+          "8": "153.30%",
+          "9": "164.80%",
+          "10": "177.30%",
+          "11": "191.70%",
+          "12": "208.50%",
+          "13": "225.40%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "87.60%",
+          "2": "94.80%",
+          "3": "101.9%",
+          "4": "112.1%",
+          "5": "119.2%",
+          "6": "127.4%",
+          "7": "138.6%",
+          "8": "149.80%",
+          "9": "161%",
+          "10": "173.20%",
+          "11": "187.20%",
+          "12": "203.70%",
+          "13": "220.20%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "98.8%",
+          "2": "106.9%",
+          "3": "114.9%",
+          "4": "126.4%",
+          "5": "134.4%",
+          "6": "143.6%",
+          "7": "156.3%",
+          "8": "168.90%",
+          "9": "181.50%",
+          "10": "195.30%",
+          "11": "211.10%",
+          "12": "229.70%",
+          "13": "248.30%"
+        },
+        {
+          "LVL": "4-hit DMG",
+          "1": "134%",
+          "2": "145%",
+          "3": "156%",
+          "4": "171%",
+          "5": "182%",
+          "6": "195%",
+          "7": "212%",
+          "8": "229%",
+          "9": "246%",
+          "10": "265%",
+          "11": "286%",
+          "12": "311%",
+          "13": "337%"
+        },
+        {
+          "LVL": "Charged Attack Spinning DMG",
+          "1": "68.8%",
+          "2": "74.4%",
+          "3": "80%",
+          "4": "88%",
+          "5": "93.6%",
+          "6": "100%",
+          "7": "108.8%",
+          "8": "117.60%",
+          "9": "126.40%",
+          "10": "136.00%",
+          "11": "147.00%",
+          "12": "160%",
+          "13": "172.90%"
+        },
+        {
+          "LVL": "Charged Attack Final DMG",
+          "1": "125%",
+          "2": "135%",
+          "3": "145%",
+          "4": "160%",
+          "5": "170%",
+          "6": "181%",
+          "7": "197%",
+          "8": "213%",
+          "9": "229%",
+          "10": "246%",
+          "11": "266%",
+          "12": "290%",
+          "13": "313%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "40/s",
+          "2": "40/s",
+          "3": "40/s",
+          "4": "40/s",
+          "5": "40/s",
+          "6": "40/s",
+          "7": "40/s",
+          "8": "40/s",
+          "9": "40/s",
+          "10": "40/s",
+          "11": "40/s",
+          "12": "40/s",
+          "13": "40/s"
+        },
+        {
+          "LVL": "Max Duration",
+          "1": "5s",
+          "2": "5s",
+          "3": "5s",
+          "4": "5s",
+          "5": "5s",
+          "6": "5s",
+          "7": "5s",
+          "8": "5s",
+          "9": "5s",
+          "10": "5s",
+          "11": "5s",
+          "12": "5s",
+          "13": "5s"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "89.5%",
+          "2": "96.8%",
+          "3": "104.1%",
+          "4": "114.5%",
+          "5": "121.8%",
+          "6": "130.1%",
+          "7": "141.5%",
+          "8": "153.00%",
+          "9": "164%",
+          "10": "176.90%",
+          "11": "189.40%",
+          "12": "201.90%",
+          "13": "214.40%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "179% /224%",
+          "2": "194% /242%",
+          "3": "208% /260%",
+          "4": "229% /286%",
+          "5": "243% /304%",
+          "6": "260% /325%",
+          "7": "283% /354%",
+          "8": "306% /382%",
+          "9": "329% /411%",
+          "10": "354% /442%",
+          "11": "379% /473%",
+          "12": "404% /504%",
+          "13": "429% /535%"
+        }
+       ]
+    },
+    {
+      "name":"Searing Onslaught",
+      "image": "images/Characters/mondstadt/Diluc/talents/Talent_Searing_Onslaught.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "94.4%",
+          "2": "101.5%",
+          "3": "108.6%",
+          "4": "118%",
+          "5": "125.1%",
+          "6": "132.2%",
+          "7": "141.6%",
+          "8": "151.00%",
+          "9": "160.50%",
+          "10": "169.90%",
+          "11": "179.40%",
+          "12": "188.80%",
+          "13": "200.60%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "97.60%",
+          "2": "104.90%",
+          "3": "112.2%",
+          "4": "122%",
+          "5": "129.3%",
+          "6": "136.6%",
+          "7": "146.4%",
+          "8": "156.20%",
+          "9": "166%",
+          "10": "175.70%",
+          "11": "185.40%",
+          "12": "195.20%",
+          "13": "207.40%"
+        },
+        {
+          "LVL": "3-hit DMG",
+          "1": "129%",
+          "2": "138%",
+          "3": "148%",
+          "4": "161%",
+          "5": "171%",
+          "6": "180%",
+          "7": "193%",
+          "8": "206.00%",
+          "9": "219.00%",
+          "10": "232.00%",
+          "11": "245.00%",
+          "12": "258.00%",
+          "13": "274.00%"
+        },
+        {
+          "LVL": "CD",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        }
+       ]
+    },
+    {
+      "name":"Dawn",
+      "image": "images/Characters/mondstadt/Diluc/talents/Talent_Dawn.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Slashing DMG",
+          "1": "204%",
+          "2": "219%",
+          "3": "235%",
+          "4": "255%",
+          "5": "270%",
+          "6": "286%",
+          "7": "306%",
+          "8": "326.00%",
+          "9": "347.00%",
+          "10": "367.00%",
+          "11": "388.00%",
+          "12": "408.00%",
+          "13": "434.00%"
+        },
+        {
+          "LVL": "DoT",
+          "1": "60.00%",
+          "2": "64.50%",
+          "3": "69%",
+          "4": "75%",
+          "5": "79.5%",
+          "6": "84%",
+          "7": "90%",
+          "8": "96.00%",
+          "9": "102%",
+          "10": "108.00%",
+          "11": "114.00%",
+          "12": "120.00%",
+          "13": "127.50%"
+        },
+        {
+          "LVL": "Explosion DMG",
+          "1": "204%",
+          "2": "219%",
+          "3": "235%",
+          "4": "255%",
+          "5": "270%",
+          "6": "286%",
+          "7": "306%",
+          "8": "326.00%",
+          "9": "347.00%",
+          "10": "367.00%",
+          "11": "388.00%",
+          "12": "408.00%",
+          "13": "434.00%"
+        },
+        {
+          "LVL": "CD",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        },
+        {
+          "LVL": "Infusion Duration",
+          "1": "8s",
+          "2": "8s",
+          "3": "8s",
+          "4": "8s",
+          "5": "8s",
+          "6": "8s",
+          "7": "8s",
+          "8": "8s",
+          "9": "8s",
+          "10": "8s",
+          "11": "8s",
+          "12": "8s",
+          "13": "8s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "40",
+          "2": "40",
+          "3": "40",
+          "4": "40",
+          "5": "40",
+          "6": "40",
+          "7": "40",
+          "8": "40",
+          "9": "40",
+          "10": "40",
+          "11": "40",
+          "12": "40",
+          "13": "40"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Relentless",
+      "image": "images/Characters/mondstadt/Diluc/talents/Talent_Relentless.png",
+      "description":""
+    },
+    {
+      "name":"Blessing of Phoenix",
+      "image": "images/Characters/mondstadt/Diluc/talents/Talent_Blessing_of_Phoenix.png",
+      "description":""
+    },
+    {
+      "name":"Tradition of the Dawn Knight",
+      "image": "images/Characters/mondstadt/Diluc/talents/Talent_Tradition_of_the_Dawn_Knight.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Teachings_of_Resistance.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Recruit's_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sergeant's_Insignia.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sergeant's_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sergeant's_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sergeant's_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Lieutenant's_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Plume.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Lieutenant's_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Plume.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Lieutenant's_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Plume.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Lieutenant's_Insignia.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Plume.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Conviction",
+      "image": "images/Characters/mondstadt/Diluc/constellations/Constellation_Conviction.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Searing Ember",
+      "image": "images/Characters/mondstadt/Diluc/constellations/Constellation_Searing_Ember.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Fire and Steel",
+      "image": "images/Characters/mondstadt/Diluc/constellations/Constellation_Fire_and_Steel.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Flowing Flame",
+      "image": "images/Characters/mondstadt/Diluc/constellations/Constellation_Flowing_Flame.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Phoenix, Harbinger of Dawn",
+      "image": "images/Characters/mondstadt/Diluc/constellations/Constellation_Phoenix,_Harbinger_of_Dawn.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Flaming Sword, Nemesis of the Dark",
+      "image": "images/Characters/mondstadt/Diluc/constellations/Constellation_Flaming_Sword,_Nemesis_of_the_Dark.png",
+      "description":""
+    }
+  ]
+}
+
+
