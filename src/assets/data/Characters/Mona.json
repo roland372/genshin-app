@@ -1,0 +1,795 @@
+{
+  "name":"Mona",
+  "avatar": "images/Characters/mondstadt/Mona/images/Character_Mona_Avatar.png",
+  "title":"Astral Reflection",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Hydro",
+  "elementImage": "images/Elements/Element_Hydro.png",
+  "weapon":"Catalyst",
+  "weaponImage": "images/Weapon icons/Weapon-class-catalyst-icon.png",
+  "sex":"Female",
+  "birthday":"August 31st",
+  "constellation":"Astrolabos",
+  "nation":"Mondstadt",
+  "affiliation":"Hexenzirkel, The Steambird",
+  "specialDish":"Der Weisheit Letzter Schluss (Life)",
+  "description":"A mysterious young astrologer who proclaims herself to be Astrologist Mona Megistus, and who possesses abilities to match the title. Erudite, but prideful.",
+  "talentBook":"Teachings of Resistance",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Resistance/Item_Teachings_of_Resistance.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Cleansing_Heart.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Mondstadt/Item_Philanemo_Mushroom.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+  "ascensionStat": "Energy Recharge",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Philanemo Mushroom",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Philanemo_Mushroom.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Whopperflower Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Cleansing Heart",
+       "image": "images/Materials/Character Materials/Ascension/Item_Cleansing_Heart.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Philanemo Mushroom",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Philanemo_Mushroom.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Whopperflower Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Cleansing Heart",
+       "image": "images/Materials/Character Materials/Ascension/Item_Cleansing_Heart.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Philanemo Mushroom",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Philanemo_Mushroom.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Shimmering Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Cleansing Heart",
+       "image": "images/Materials/Character Materials/Ascension/Item_Cleansing_Heart.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Philanemo Mushroom",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Philanemo_Mushroom.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Shimmering Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Cleansing Heart",
+       "image": "images/Materials/Character Materials/Ascension/Item_Cleansing_Heart.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Philanemo Mushroom",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Philanemo_Mushroom.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Energy Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Cleansing Heart",
+       "image": "images/Materials/Character Materials/Ascension/Item_Cleansing_Heart.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Philanemo Mushroom",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Philanemo_Mushroom.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Energy Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 810,
+      "ATK": 22,
+      "DEF": 51,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2102,
+      "ATK": 58,
+      "DEF": 132,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2797,
+      "ATK": 77,
+      "DEF": 176,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 4185,
+      "ATK": 115,
+      "DEF": 263,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4678,
+      "ATK": 129,
+      "DEF": 294,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "8%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5383,
+      "ATK": 148,
+      "DEF": 338,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "8%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 6041,
+      "ATK": 167,
+      "DEF": 379,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "16%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 6752,
+      "ATK": 186,
+      "DEF": 424,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "16%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 7246,
+      "ATK": 200,
+      "DEF": 455,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "16%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 7964,
+      "ATK": 220,
+      "DEF": 500,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "16%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 8458,
+      "ATK": 233,
+      "DEF": 531,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 9184,
+      "ATK": 253,
+      "DEF": 576,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 9677,
+      "ATK": 267,
+      "DEF": 607,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "32%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 10409,
+      "ATK": 287,
+      "DEF": 653,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "32%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Ripple of Fate",
+      "image": "images/Characters/mondstadt/Mona/talents/Talent_Ripple_of_Fate.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "37.6%",
+          "2": "40.4%",
+          "3": "43.2%",
+          "4": "47%",
+          "5": "49.8%",
+          "6": "52.6%",
+          "7": "56.4%",
+          "8": "60%",
+          "9": "64%",
+          "10": "68%",
+          "11": "71%",
+          "12": "75%",
+          "13": "80%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "36%",
+          "2": "38.70%",
+          "3": "41.40%",
+          "4": "45%",
+          "5": "48%",
+          "6": "50.4%",
+          "7": "54%",
+          "8": "57.60%",
+          "9": "61.20%",
+          "10": "64.80%",
+          "11": "68.40%",
+          "12": "72%",
+          "13": "76.50%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "44.8%",
+          "2": "48.2%",
+          "3": "51.5%",
+          "4": "56%",
+          "5": "59.4%",
+          "6": "62.7%",
+          "7": "67.2%",
+          "8": "71.70%",
+          "9": "76.20%",
+          "10": "80.60%",
+          "11": "85.10%",
+          "12": "89.60%",
+          "13": "95.20%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "56.20%",
+          "2": "60.40%",
+          "3": "64.60%",
+          "4": "70.20%",
+          "5": "74%",
+          "6": "78.6%",
+          "7": "84.2%",
+          "8": "89.90%",
+          "9": "95.50%",
+          "10": "101.10%",
+          "11": "106.70%",
+          "12": "112.30%",
+          "13": "119.30%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "150%",
+          "2": "161%",
+          "3": "172%",
+          "4": "187%",
+          "5": "198%",
+          "6": "210%",
+          "7": "225%",
+          "8": "240.00%",
+          "9": "255.00%",
+          "10": "269.00%",
+          "11": "285.00%",
+          "12": "305.00%",
+          "13": "326%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "50",
+          "2": "50",
+          "3": "50",
+          "4": "50",
+          "5": "50",
+          "6": "50",
+          "7": "50",
+          "8": "50",
+          "9": "50",
+          "10": "50",
+          "11": "50",
+          "12": "50",
+          "13": "50"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "56.8%",
+          "2": "61.5%",
+          "3": "66.1%",
+          "4": "72.7%",
+          "5": "77.3%",
+          "6": "82.6%",
+          "7": "89.9%",
+          "8": "97.10%",
+          "9": "104.40%",
+          "10": "112.30%",
+          "11": "120.30%",
+          "12": "128.20%",
+          "13": "136.10%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "114% /142%",
+          "2": "123% /153%",
+          "3": "132% /165%",
+          "4": "145% /182%",
+          "5": "155% /193%",
+          "6": "165% /206%",
+          "7": "180% /224%",
+          "8": "194% /243%",
+          "9": "209% /261%",
+          "10": "225% /281%",
+          "11": "240% /300%",
+          "12": "256% /320%",
+          "13": "272% /340%"
+        }
+       ]
+    },
+    {
+      "name":"Mirror Reflection of Doom",
+      "image": "images/Characters/mondstadt/Mona/talents/Talent_Mirror_Reflection_of_Doom.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "DoT",
+          "1": "32%",
+          "2": "34.4%",
+          "3": "36.8%",
+          "4": "40%",
+          "5": "42.4%",
+          "6": "44.8%",
+          "7": "48%",
+          "8": "51%",
+          "9": "54%",
+          "10": "58%",
+          "11": "61%",
+          "12": "64%",
+          "13": "68%"
+        },
+        {
+          "LVL": "Explosion DMG",
+          "1": "133%",
+          "2": "143.00%",
+          "3": "153.00%",
+          "4": "166%",
+          "5": "176%",
+          "6": "186%",
+          "7": "199%",
+          "8": "212.00%",
+          "9": "226.00%",
+          "10": "239.00%",
+          "11": "252.00%",
+          "12": "266%",
+          "13": "282.00%"
+        },
+        {
+          "LVL": "CD",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        }
+       ]
+    },
+    {
+      "name":"Stellaris Phantasm",
+      "image": "images/Characters/mondstadt/Mona/talents/Talent_Stellaris_Phantasm.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Illusory Bubble Duration",
+          "1": "8s",
+          "2": "8s",
+          "3": "8s",
+          "4": "8s",
+          "5": "8s",
+          "6": "8s",
+          "7": "8s",
+          "8": "8s",
+          "9": "8s",
+          "10": "8s",
+          "11": "8s",
+          "12": "8s",
+          "13": "8s"
+        },
+        {
+          "LVL": "Illusory Bubble Explosion DMG",
+          "1": "442%",
+          "2": "476.00%",
+          "3": "509.00%",
+          "4": "553%",
+          "5": "586%",
+          "6": "619%",
+          "7": "664%",
+          "8": "708.00%",
+          "9": "752.00%",
+          "10": "796.00%",
+          "11": "841.00%",
+          "12": "885%",
+          "13": "940.00%"
+        },
+        {
+          "LVL": "DMG Bonus",
+          "1": "42%",
+          "2": "44%",
+          "3": "46%",
+          "4": "48%",
+          "5": "50%",
+          "6": "52%",
+          "7": "54%",
+          "8": "56%",
+          "9": "58%",
+          "10": "60%",
+          "11": "60%",
+          "12": "60%",
+          "13": "60%"
+        },
+        {
+          "LVL": "Omen Duration",
+          "1": "4s",
+          "2": "4s",
+          "3": "4s",
+          "4": "4.5s",
+          "5": "4.5s",
+          "6": "4.5s",
+          "7": "5s",
+          "8": "5s",
+          "9": "5s",
+          "10": "5s",
+          "11": "5s",
+          "12": "5s",
+          "13": "5s"
+        },
+        {
+          "LVL": "CD",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "60",
+          "2": "60",
+          "3": "60",
+          "4": "60",
+          "5": "60",
+          "6": "60",
+          "7": "60",
+          "8": "60",
+          "9": "60",
+          "10": "60",
+          "11": "60",
+          "12": "60",
+          "13": "60"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Illusory Torrent",
+      "image": "images/Characters/mondstadt/Mona/talents/Talent_Illusory_Torrent.png",
+      "description":""
+    },
+    {
+      "name":"Come 'n' Get Me, Hag!",
+      "image": "images/Characters/mondstadt/Mona/talents/Talent_Come_'n'_Get_Me,_Hag!.png",
+      "description":""
+    },
+    {
+      "name":"Waterborne Destiny",
+      "image": "images/Characters/mondstadt/Mona/talents/Talent_Waterborne_Destiny.png",
+      "description":""
+    },
+    {
+      "name":"Principium of Astrology",
+      "image": "images/Characters/mondstadt/Mona/talents/Talent_Principium_of_Astrology.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Teachings_of_Resistance.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ring_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ring_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ring_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ring_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Prophecy of Submersion",
+      "image": "images/Characters/mondstadt/Mona/constellations/Constellation_Prophecy_of_Submersion.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Lunar Chain",
+      "image": "images/Characters/mondstadt/Mona/constellations/Constellation_Lunar_Chain.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Restless Revolution",
+      "image": "images/Characters/mondstadt/Mona/constellations/Constellation_Restless_Revolution.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Prophecy of Oblivion",
+      "image": "images/Characters/mondstadt/Mona/constellations/Constellation_Prophecy_of_Oblivion.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Mockery of Fortuna",
+      "image": "images/Characters/mondstadt/Mona/constellations/Constellation_Mockery_of_Fortuna.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Rhetorics of Calamitas",
+      "image": "images/Characters/mondstadt/Mona/constellations/Constellation_Rhetorics_of_Calamitas.png",
+      "description":""
+    }
+  ]
+}
+
+

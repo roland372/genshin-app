@@ -1,0 +1,792 @@
+{
+  "name":"Keqing",
+  "avatar": "images/Characters/Liyue/Keqing/images/Character_Keqing_Avatar.png",
+  "title":"Driving Thunder",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Electro",
+  "elementImage": "images/Elements/Element_Electro.png",
+  "weapon":"Sword",
+  "weaponImage": "images/Weapon icons/Weapon-class-sword-icon.png",
+  "sex":"Female",
+  "birthday":"November 20th",
+  "constellation":"Trulla Cementarii",
+  "nation":"Liyue",
+  "affiliation":"Liyue Qixing",
+  "specialDish":"Survival Grilled Fish",
+  "description":"The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue — but in truth, gods admire skeptics such as her quite a lot.",
+  "talentBook":"Teachings of Prosperity",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Prosperity/Item_Teachings_of_Prosperity.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+  "ascensionStat": "",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Whopperflower Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Whopperflower Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Shimmering Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Shimmering Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Energy Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Energy Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1020,
+      "ATK": 25,
+      "DEF": 62,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2646,
+      "ATK": 65,
+      "DEF": 161,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3521,
+      "ATK": 87,
+      "DEF": 215,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 5268,
+      "ATK": 130,
+      "DEF": 321,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5889,
+      "ATK": 145,
+      "DEF": 359,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "59.6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 6776,
+      "ATK": 167,
+      "DEF": 413,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "59.6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 7604,
+      "ATK": 187,
+      "DEF": 464,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 8500,
+      "ATK": 209,
+      "DEF": 519,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 9121,
+      "ATK": 225,
+      "DEF": 556,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 10025,
+      "ATK": 247,
+      "DEF": 612,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 10647,
+      "ATK": 262,
+      "DEF": 649,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "78.8%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 11561,
+      "ATK": 285,
+      "DEF": 705,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "78.8%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 12182,
+      "ATK": 300,
+      "DEF": 743,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "88.4%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 13103,
+      "ATK": 323,
+      "DEF": 799,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "88.4%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Yunlai Swordsmanship",
+      "image": "images/Characters/Liyue/Keqing/talents/Talent_Yunlai_Swordsmanship.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "41%",
+          "2": "44.4%",
+          "3": "47.7%",
+          "4": "52.5%",
+          "5": "55.8%",
+          "6": "59.6%",
+          "7": "64.9%",
+          "8": "70%",
+          "9": "75%",
+          "10": "81%",
+          "11": "87%",
+          "12": "93%",
+          "13": "98%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "41%",
+          "2": "44.40%",
+          "3": "47.70%",
+          "4": "52.50%",
+          "5": "56%",
+          "6": "59.6%",
+          "7": "65%",
+          "8": "70%",
+          "9": "75%",
+          "10": "81%",
+          "11": "87%",
+          "12": "93%",
+          "13": "98%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "54.4%",
+          "2": "58.9%",
+          "3": "63.3%",
+          "4": "69.6%",
+          "5": "74.1%",
+          "6": "79.1%",
+          "7": "86.1%",
+          "8": "93.10%",
+          "9": "100%",
+          "10": "107.60%",
+          "11": "115.20%",
+          "12": "122.80%",
+          "13": "130.40%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "31.5% +34.4%",
+          "2": "34% +37.2%",
+          "3": "36.6% +40%",
+          "4": "40.3% +44%",
+          "5": "42.8% +46.8%",
+          "6": "45.8% +50%",
+          "7": "49.8% +54.4%",
+          "8": "53.8% +58.8%",
+          "9": "57.8% +63.2%",
+          "10": "62.2% +68%",
+          "11": "66.6% +72.8%",
+          "12": "71% +77.6%",
+          "13": "75.4% +82.4%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "67%",
+          "2": "72.4%",
+          "3": "77.9%",
+          "4": "85.7%",
+          "5": "91.1%",
+          "6": "97.4%",
+          "7": "105.9%",
+          "8": "114.50%",
+          "9": "123.10%",
+          "10": "132.40%",
+          "11": "141.80%",
+          "12": "151.10%",
+          "13": "160.50%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "76.8% +86%",
+          "2": "83% +93%",
+          "3": "89.3% +100%",
+          "4": "98.2% +110%",
+          "5": "104.5% +117%",
+          "6": "111.6% +125%",
+          "7": "121.4% +136%",
+          "8": "131.3% +147%",
+          "9": "141.1% +158%",
+          "10": "151.8% +170%",
+          "11": "162.5% +182%",
+          "12": "173.2% +194%",
+          "13": "184% +206%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "25",
+          "2": "25",
+          "3": "25",
+          "4": "25",
+          "5": "25",
+          "6": "25",
+          "7": "25",
+          "8": "25",
+          "9": "25",
+          "10": "25",
+          "11": "25",
+          "12": "25",
+          "13": "25"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "63.90%",
+          "2": "69.10%",
+          "3": "74.30%",
+          "4": "81.80%",
+          "5": "87%",
+          "6": "92.9%",
+          "7": "101.10%",
+          "8": "109.30%",
+          "9": "117.50%",
+          "10": "126.40%",
+          "11": "135.30%",
+          "12": "144.20%",
+          "13": "153.10%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "128% /160%",
+          "2": "138% /173%",
+          "3": "149% /186%",
+          "4": "164% /204%",
+          "5": "174% /217%",
+          "6": "186% /232%",
+          "7": "202% /253%",
+          "8": "219% /273%",
+          "9": "235% /293%",
+          "10": "253% /316%",
+          "11": "271% /338%",
+          "12": "288% /360%",
+          "13": "306% /382%"
+        }
+       ]
+    },
+    {
+      "name":"Stellar Restoration",
+      "image": "images/Characters/Liyue/Keqing/talents/Talent_Stellar_Restoration.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Lightning Stiletto DMG",
+          "1": "50.4%",
+          "2": "54.2%",
+          "3": "58%",
+          "4": "63%",
+          "5": "66.8%",
+          "6": "70.6%",
+          "7": "75.6%",
+          "8": "81%",
+          "9": "86%",
+          "10": "91%",
+          "11": "96%",
+          "12": "101%",
+          "13": "107%"
+        },
+        {
+          "LVL": "Slashing DMG",
+          "1": "168%",
+          "2": "181.00%",
+          "3": "193.00%",
+          "4": "210.00%",
+          "5": "223%",
+          "6": "235%",
+          "7": "252%",
+          "8": "269%",
+          "9": "286%",
+          "10": "302%",
+          "11": "319%",
+          "12": "336%",
+          "13": "357%"
+        },
+        {
+          "LVL": "Thunderclap Slash DMG",
+          "1": "84%×2",
+          "2": "90.3%×2",
+          "3": "96.6%×2",
+          "4": "105%×2",
+          "5": "111.3%×2",
+          "6": "117.6%×2",
+          "7": "126%×2",
+          "8": "134.4%×2",
+          "9": "142.8%×2",
+          "10": "151.2%×2",
+          "11": "159.6%×2",
+          "12": "168%×2",
+          "13": "178.5%×2"
+        },
+        {
+          "LVL": "CD",
+          "1": "7.5s",
+          "2": "7.5s",
+          "3": "7.5s",
+          "4": "7.5s",
+          "5": "7.5s",
+          "6": "7.5s",
+          "7": "7.5s",
+          "8": "7.5s",
+          "9": "7.5s",
+          "10": "7.5s",
+          "11": "7.5s",
+          "12": "7.5s",
+          "13": "7.5s"
+        }
+       ]
+    },
+    {
+      "name":"Starward Sword",
+      "image": "images/Characters/Liyue/Keqing/talents/Talent_Starward_Sword.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "88%",
+          "2": "94.6%",
+          "3": "101.2%",
+          "4": "110%",
+          "5": "116.6%",
+          "6": "123.2%",
+          "7": "132%",
+          "8": "141%",
+          "9": "150%",
+          "10": "158%",
+          "11": "167%",
+          "12": "176%",
+          "13": "187%"
+        },
+        {
+          "LVL": "Consecutive Slash DMG",
+          "1": "24%*8",
+          "2": "25.8%*8",
+          "3": "27.6%*8",
+          "4": "30%*8",
+          "5": "31.8%*8",
+          "6": "33.6%*8",
+          "7": "36%*8",
+          "8": "38.4%*8",
+          "9": "40.8%*8",
+          "10": "43.2%*8",
+          "11": "45.6%*8",
+          "12": "48%*8",
+          "13": "51%*8"
+        },
+        {
+          "LVL": "Last Attack DMG",
+          "1": "189%",
+          "2": "203%",
+          "3": "217%",
+          "4": "236%",
+          "5": "250%",
+          "6": "264%",
+          "7": "283%",
+          "8": "302%",
+          "9": "321%",
+          "10": "340%",
+          "11": "359%",
+          "12": "378%",
+          "13": "401%"
+        },
+        {
+          "LVL": "CD",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "40",
+          "2": "40",
+          "3": "40",
+          "4": "40",
+          "5": "40",
+          "6": "40",
+          "7": "40",
+          "8": "40",
+          "9": "40",
+          "10": "40",
+          "11": "40",
+          "12": "40",
+          "13": "40"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Thundering Penance",
+      "image": "images/Characters/Liyue/Keqing/talents/Talent_Thundering_Penance.png",
+      "description":""
+    },
+    {
+      "name":"Aristocratic Dignity",
+      "image": "images/Characters/Liyue/Keqing/talents/Talent_Aristocratic_Dignity.png",
+      "description":""
+    },
+    {
+      "name":"Land's Overseer",
+      "image": "images/Characters/Liyue/Keqing/talents/Talent_Land's_Overseer.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Teachings_of_Prosperity.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ring_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ring_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ring_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ring_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Thundering Might",
+      "image": "images/Characters/Liyue/Keqing/constellations/Constellation_Thundering_Might.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Keen Extraction",
+      "image": "images/Characters/Liyue/Keqing/constellations/Constellation_Keen_Extraction.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Foreseen Reformation",
+      "image": "images/Characters/Liyue/Keqing/constellations/Constellation_Foreseen_Reformation.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Attunement",
+      "image": "images/Characters/Liyue/Keqing/constellations/Constellation_Attunement.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Beckoning Stars",
+      "image": "images/Characters/Liyue/Keqing/constellations/Constellation_Beckoning_Stars.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Tenacious Star",
+      "image": "images/Characters/Liyue/Keqing/constellations/Constellation_Tenacious_Star.png",
+      "description":""
+    }
+  ]
+}
+
+

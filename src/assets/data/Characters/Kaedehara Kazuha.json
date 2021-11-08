@@ -1,0 +1,821 @@
+{
+  "name":"Kaedehara Kazuha",
+  "avatar": "images/Characters/Inazuma/Kaedehara Kazuha/images/Character_Kaedehara_Kazuha_Avatar.png",
+  "title":"Scarlet Leaves Pursue Wild Waves",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Anemo",
+  "elementImage": "images/Elements/Element_Anemo.png",
+  "weapon":"Sword",
+  "weaponImage": "images/Weapon icons/Weapon-class-sword-icon.png",
+  "sex":"Male",
+  "birthday":"October 29th",
+  "constellation":"Acer Palmatum",
+  "nation":"Inazuma",
+  "affiliation":"The Crux",
+  "specialDish":"All-Weather Beauty",
+  "description":"A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.",
+  "talentBook":"Teachings of Diligence",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Diligence/Item_Teachings_of_Diligence.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Marionette_Core.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Inazuma/Item_Sea_Ganoderma.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+  "ascensionStat": "Elemental Mastery",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Sea Ganoderma",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sea_Ganoderma.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Treasure Hoarder Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Marionette Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Marionette_Core.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Sea Ganoderma",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sea_Ganoderma.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Treasure Hoarder Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Marionette Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Marionette_Core.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Sea Ganoderma",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sea_Ganoderma.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Silver Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Marionette Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Marionette_Core.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Sea Ganoderma",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sea_Ganoderma.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Silver Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Marionette Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Marionette_Core.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Sea Ganoderma",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sea_Ganoderma.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Golden Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Marionette Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Marionette_Core.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Sea Ganoderma",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sea_Ganoderma.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Golden Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1039,
+      "ATK": 23,
+      "DEF": 63,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 0
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2695,
+      "ATK": 60,
+      "DEF": 163,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 0
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3586,
+      "ATK": 80,
+      "DEF": 217,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 0
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 5366,
+      "ATK": 119,
+      "DEF": 324,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 0
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5999,
+      "ATK": 133,
+      "DEF": 363,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 28.8
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 6902,
+      "ATK": 153,
+      "DEF": 417,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 28.8
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 7747,
+      "ATK": 172,
+      "DEF": 468,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 57.6
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 8659,
+      "ATK": 192,
+      "DEF": 523,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 57.6
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 9292,
+      "ATK": 206,
+      "DEF": 562,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 57.6
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 10213,
+      "ATK": 227,
+      "DEF": 617,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 57.6
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 10846,
+      "ATK": 241,
+      "DEF": 656,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 86.4
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 11777,
+      "ATK": 262,
+      "DEF": 712,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 86.4
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 12410,
+      "ATK": 276,
+      "DEF": 750,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 115.2
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 13348,
+      "ATK": 297,
+      "DEF": 807,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 115.2
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Garyuu Bladework",
+      "image": "images/Characters/Inazuma/Kaedehara Kazuha/talents/Talent_Garyuu_Bladework.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "45%",
+          "2": "48.6%",
+          "3": "52.3%",
+          "4": "57.5%",
+          "5": "61.2%",
+          "6": "65.4%",
+          "7": "71.1%",
+          "8": "77%",
+          "9": "83%",
+          "10": "89%",
+          "11": "96%",
+          "12": "105%",
+          "13": "113%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "45.20%",
+          "2": "48.90%",
+          "3": "52.60%",
+          "4": "57.90%",
+          "5": "61.5%",
+          "6": "65.8%",
+          "7": "71.50%",
+          "8": "77.30%",
+          "9": "83.10%",
+          "10": "89.40%",
+          "11": "97%",
+          "12": "105.20%",
+          "13": "113.70%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "25.8% +31%",
+          "2": "27.9% +33.5%",
+          "3": "30% +36%",
+          "4": "33% +39.6%",
+          "5": "35.1% +42.1%",
+          "6": "37.5% +45%",
+          "7": "40.8% +49%",
+          "8": "44.1% +52.9%",
+          "9": "47.4% +56.9%",
+          "10": "51% +61.2%",
+          "11": "55.1% +66.1%",
+          "12": "60% +72%",
+          "13": "64.8% +77.8%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "60.70%",
+          "2": "65.70%",
+          "3": "70.60%",
+          "4": "77.70%",
+          "5": "82.6%",
+          "6": "88.2%",
+          "7": "96%",
+          "8": "103.80%",
+          "9": "111.50%",
+          "10": "120%",
+          "11": "129.70%",
+          "12": "141.10%",
+          "13": "152.60%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "25.4%×3",
+          "2": "27.4%×3",
+          "3": "29.5%×3",
+          "4": "32.4%×3",
+          "5": "34.5%×3",
+          "6": "36.9%×3",
+          "7": "40.1%×3",
+          "8": "43.4%×3",
+          "9": "46.6%×3",
+          "10": "50.2%×3",
+          "11": "54.2%×3",
+          "12": "59%×3",
+          "13": "63.7%×3"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "43% +74.6%",
+          "2": "46.5% +80.7%",
+          "3": "50% +86.8%",
+          "4": "55% +95.5%",
+          "5": "58.5% +101.6%",
+          "6": "62.5% +108.5%",
+          "7": "68% +118%",
+          "8": "73.5% +127.6%",
+          "9": "79% +137.1%",
+          "10": "85% +147.6%",
+          "11": "91.9% +159.5%",
+          "12": "100% +173.5%",
+          "13": "108% +187.6%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "20",
+          "2": "20",
+          "3": "20",
+          "4": "20",
+          "5": "20",
+          "6": "20",
+          "7": "20",
+          "8": "20",
+          "9": "20",
+          "10": "20",
+          "11": "20",
+          "12": "20",
+          "13": "20"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "81.80%",
+          "2": "88.50%",
+          "3": "95.20%",
+          "4": "104.70%",
+          "5": "111.3%",
+          "6": "118.9%",
+          "7": "129.40%",
+          "8": "139.90%",
+          "9": "150.30%",
+          "10": "161.80%",
+          "11": "173.20%",
+          "12": "184.60%",
+          "13": "196.00%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "164% /204%",
+          "2": "177% /221%",
+          "3": "190% /238%",
+          "4": "209% /261%",
+          "5": "223% /278%",
+          "6": "238% /297%",
+          "7": "259% /323%",
+          "8": "280% /349%",
+          "9": "301% /375%",
+          "10": "323% /404%",
+          "11": "346% /433%",
+          "12": "369% /461%",
+          "13": "392% /490%"
+        }
+       ]
+    },
+    {
+      "name":"Chihayaburu",
+      "image": "images/Characters/Inazuma/Kaedehara Kazuha/talents/Talent_Chihayaburu.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Press Skill DMG",
+          "1": "192%",
+          "2": "206%",
+          "3": "221%",
+          "4": "240%",
+          "5": "254%",
+          "6": "269%",
+          "7": "288%",
+          "8": "307%",
+          "9": "326%",
+          "10": "346%",
+          "11": "365%",
+          "12": "384%",
+          "13": "408%"
+        },
+        {
+          "LVL": "Press CD",
+          "1": "6s",
+          "2": "6s",
+          "3": "6s",
+          "4": "6s",
+          "5": "6s",
+          "6": "6s",
+          "7": "6s",
+          "8": "6s",
+          "9": "6s",
+          "10": "6s",
+          "11": "6s",
+          "12": "6s",
+          "13": "6s"
+        },
+        {
+          "LVL": "Hold Skill DMG",
+          "1": "261%",
+          "2": "280%",
+          "3": "300%",
+          "4": "326%",
+          "5": "346%",
+          "6": "365%",
+          "7": "391%",
+          "8": "417%",
+          "9": "443%",
+          "10": "469%",
+          "11": "496%",
+          "12": "522%",
+          "13": "554%"
+        },
+        {
+          "LVL": "CD (hold)",
+          "1": "9s",
+          "2": "9s",
+          "3": "9s",
+          "4": "9s",
+          "5": "9s",
+          "6": "9s",
+          "7": "9s",
+          "8": "9s",
+          "9": "9s",
+          "10": "9s",
+          "11": "9s",
+          "12": "9s",
+          "13": "9s"
+        }
+       ]
+    },
+    {
+      "name":"Kazuha Slash",
+      "image": "images/Characters/Inazuma/Kaedehara Kazuha/talents/Talent_Kazuha_Slash.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Slashing DMG",
+          "1": "262%",
+          "2": "282%",
+          "3": "302%",
+          "4": "328%",
+          "5": "348%",
+          "6": "367%",
+          "7": "394%",
+          "8": "420%",
+          "9": "446%",
+          "10": "472%",
+          "11": "499%",
+          "12": "525%",
+          "13": "558%"
+        },
+        {
+          "LVL": "DoT",
+          "1": "120%",
+          "2": "129%",
+          "3": "138%",
+          "4": "150%",
+          "5": "159%",
+          "6": "168%",
+          "7": "180%",
+          "8": "192%",
+          "9": "204%",
+          "10": "216%",
+          "11": "228%",
+          "12": "240%",
+          "13": "255%"
+        },
+        {
+          "LVL": "Additional Elemental DMG",
+          "1": "36%",
+          "2": "39%",
+          "3": "41%",
+          "4": "45%",
+          "5": "48%",
+          "6": "50%",
+          "7": "54%",
+          "8": "58%",
+          "9": "61%",
+          "10": "65%",
+          "11": "68%",
+          "12": "72%",
+          "13": "76%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "8s",
+          "2": "8s",
+          "3": "8s",
+          "4": "8s",
+          "5": "8s",
+          "6": "8s",
+          "7": "8s",
+          "8": "8s",
+          "9": "8s",
+          "10": "8s",
+          "11": "8s",
+          "12": "8s",
+          "13": "8s"
+        },
+        {
+          "LVL": "CD",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "60",
+          "2": "60",
+          "3": "60",
+          "4": "60",
+          "5": "60",
+          "6": "60",
+          "7": "60",
+          "8": "60",
+          "9": "60",
+          "10": "60",
+          "11": "60",
+          "12": "60",
+          "13": "60"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Soumon Swordsmanship",
+      "image": "images/Characters/Inazuma/Kaedehara Kazuha/talents/Talent_Soumon_Swordsmanship.png",
+      "description":""
+    },
+    {
+      "name":"Poetics of Fuubutsu",
+      "image": "images/Characters/Inazuma/Kaedehara Kazuha/talents/Talent_Poetics_of_Fuubutsu.png",
+      "description":""
+    },
+    {
+      "name":"Cloud Strider",
+      "image": "images/Characters/Inazuma/Kaedehara Kazuha/talents/Talent_Cloud_Strider.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Teachings_of_Diligence.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Gilded_Scale.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Gilded_Scale.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Gilded_Scale.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Gilded_Scale.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Scarlet Hills",
+      "image": "images/Characters/Inazuma/Kaedehara Kazuha/constellations/Constellation_Scarlet_Hills.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Yamaarashi Tailwind",
+      "image": "images/Characters/Inazuma/Kaedehara Kazuha/constellations/Constellation_Yamaarashi_Tailwind.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Maple Monogatari",
+      "image": "images/Characters/Inazuma/Kaedehara Kazuha/constellations/Constellation_Maple_Monogatari.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Oozora Genpou",
+      "image": "images/Characters/Inazuma/Kaedehara Kazuha/constellations/Constellation_Oozora_Genpou.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Wisdom of Bansei",
+      "image": "images/Characters/Inazuma/Kaedehara Kazuha/constellations/Constellation_Wisdom_of_Bansei.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Crimson Momiji",
+      "image": "images/Characters/Inazuma/Kaedehara Kazuha/constellations/Constellation_Crimson_Momiji.png",
+      "description":""
+    }
+  ]
+}
+

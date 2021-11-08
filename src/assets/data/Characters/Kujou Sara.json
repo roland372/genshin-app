@@ -1,0 +1,790 @@
+{
+  "name":"Kujou Sara",
+  "avatar": "images/Characters/Inazuma/Kujou Sara/images/Character_Kujou_Sara_Avatar.png",
+  "title":"Crowfeather Kaburayan",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Electro",
+  "elementImage": "images/Elements/Element_Electro.png",
+  "weapon":"Bow",
+  "weaponImage": "images/Weapon icons/Weapon-class-bow-icon.png",
+  "sex":"Female",
+  "birthday":"July 14th",
+  "constellation":"Lepus",
+  "nation":"Flabellum",
+  "affiliation":"Tenryou Commission, Tengu",
+  "specialDish":"Faith Eternal",
+  "description":"A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",
+  "talentBook":"Teachings of Elegance",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Elegance/Item_Teachings_of_Elegance.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Storm_Beads.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Inazuma/Item_Dendrobium.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+  "ascensionStat": "ATK%",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Dendrobium",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Dendrobium.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Storm Beads",
+       "image": "images/Materials/Character Materials/Ascension/Item_Storm_Beads.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Dendrobium",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Dendrobium.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Storm Beads",
+       "image": "images/Materials/Character Materials/Ascension/Item_Storm_Beads.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Dendrobium",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Dendrobium.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Storm Beads",
+       "image": "images/Materials/Character Materials/Ascension/Item_Storm_Beads.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Dendrobium",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Dendrobium.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Storm Beads",
+       "image": "images/Materials/Character Materials/Ascension/Item_Storm_Beads.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Dendrobium",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Dendrobium.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Storm Beads",
+       "image": "images/Materials/Character Materials/Ascension/Item_Storm_Beads.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Dendrobium",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Dendrobium.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 802,
+      "ATK": 16,
+      "DEF": 53,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2061,
+      "ATK": 42,
+      "DEF": 135,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2661,
+      "ATK": 54,
+      "DEF": 175,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 3985,
+      "ATK": 81,
+      "DEF": 262,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4411,
+      "ATK": 90,
+      "DEF": 289,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5074,
+      "ATK": 104,
+      "DEF": 333,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 5642,
+      "ATK": 115,
+      "DEF": 370,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 6305,
+      "ATK": 129,
+      "DEF": 414,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 6731,
+      "ATK": 137,
+      "DEF": 442,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 7393,
+      "ATK": 151,
+      "DEF": 485,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 7818,
+      "ATK": 160,
+      "DEF": 513,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 8481,
+      "ATK": 173,
+      "DEF": 556,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 8907,
+      "ATK": 182,
+      "DEF": 584,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 9570,
+      "ATK": 195,
+      "DEF": 628,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Tengu Bowmanship",
+      "image": "images/Characters/Inazuma/Kujou Sara/talents/Talent_Tengu_Bowmanship.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "36.9%",
+          "2": "39.9%",
+          "3": "42.9%",
+          "4": "47.2%",
+          "5": "50.2%",
+          "6": "53.6%",
+          "7": "58.3%",
+          "8": "63%",
+          "9": "68%",
+          "10": "73%",
+          "11": "78%",
+          "12": "83%",
+          "13": "88%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "38.70%",
+          "2": "41.90%",
+          "3": "45%",
+          "4": "49.50%",
+          "5": "52.6%",
+          "6": "56%",
+          "7": "61%",
+          "8": "66.10%",
+          "9": "71.10%",
+          "10": "76.50%",
+          "11": "81.90%",
+          "12": "87.30%",
+          "13": "92.70%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "48.5%",
+          "2": "52.5%",
+          "3": "56.4%",
+          "4": "62%",
+          "5": "66%",
+          "6": "70.5%",
+          "7": "76.7%",
+          "8": "82.90%",
+          "9": "89.10%",
+          "10": "95.90%",
+          "11": "102.60%",
+          "12": "109.40%",
+          "13": "116.20%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "50.40%",
+          "2": "54.50%",
+          "3": "58.60%",
+          "4": "64.50%",
+          "5": "68.6%",
+          "6": "73%",
+          "7": "80%",
+          "8": "86.10%",
+          "9": "92.60%",
+          "10": "99.60%",
+          "11": "106.70%",
+          "12": "113.70%",
+          "13": "120.70%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "58.1%",
+          "2": "62.8%",
+          "3": "67.5%",
+          "4": "74.3%",
+          "5": "79%",
+          "6": "84.4%",
+          "7": "91.8%",
+          "8": "99.20%",
+          "9": "106.60%",
+          "10": "114.80%",
+          "11": "122.90%",
+          "12": "130.90%",
+          "13": "139%"
+        },
+        {
+          "LVL": "Aimed Shot",
+          "1": "43.90%",
+          "2": "47.40%",
+          "3": "51%",
+          "4": "56.10%",
+          "5": "59.7%",
+          "6": "64%",
+          "7": "69%",
+          "8": "75.00%",
+          "9": "80.60%",
+          "10": "86.70%",
+          "11": "92.80%",
+          "12": "98.90%",
+          "13": "105.10%"
+        },
+        {
+          "LVL": "Fully-Charged Aimed Shot",
+          "1": "124%",
+          "2": "133%",
+          "3": "143%",
+          "4": "155%",
+          "5": "164%",
+          "6": "174%",
+          "7": "186%",
+          "8": "198%",
+          "9": "211%",
+          "10": "223%",
+          "11": "236%",
+          "12": "248%",
+          "13": "263%"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "56.80%",
+          "2": "61.50%",
+          "3": "66.10%",
+          "4": "72.70%",
+          "5": "77.3%",
+          "6": "82.6%",
+          "7": "90%",
+          "8": "97.10%",
+          "9": "104.40%",
+          "10": "112.30%",
+          "11": "120.30%",
+          "12": "128.20%",
+          "13": "136.10%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "114% /142%",
+          "2": "123% /153%",
+          "3": "132% /165%",
+          "4": "145% /182%",
+          "5": "155% /193%",
+          "6": "165% /206%",
+          "7": "180% /224%",
+          "8": "194% /243%",
+          "9": "209% /261%",
+          "10": "225% /281%",
+          "11": "240% /300%",
+          "12": "256% /320%",
+          "13": "272% /340%"
+        }
+       ]
+    },
+    {
+      "name":"Tengu Stormcall",
+      "image": "images/Characters/Inazuma/Kujou Sara/talents/Talent_Tengu_Stormcall.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Tengu Juurai: Ambush DMG",
+          "1": "125.8%",
+          "2": "135.2%",
+          "3": "144.6%",
+          "4": "157.2%",
+          "5": "166.6%",
+          "6": "176.1%",
+          "7": "188.6%",
+          "8": "201%",
+          "9": "214%",
+          "10": "226%",
+          "11": "239%",
+          "12": "252%",
+          "13": "267%"
+        },
+        {
+          "LVL": "ATK Bonus Ratio",
+          "1": "43.00%",
+          "2": "46.00%",
+          "3": "49%",
+          "4": "54.00%",
+          "5": "57%",
+          "6": "60%",
+          "7": "64%",
+          "8": "69.00%",
+          "9": "73.00%",
+          "10": "77.00%",
+          "11": "82.00%",
+          "12": "86.00%",
+          "13": "91.00%"
+        },
+        {
+          "LVL": "ATK Bonus Duration",
+          "1": "6s",
+          "2": "6s",
+          "3": "6s",
+          "4": "6s",
+          "5": "6s",
+          "6": "6s",
+          "7": "6s",
+          "8": "6s",
+          "9": "6s",
+          "10": "6s",
+          "11": "6s",
+          "12": "6s",
+          "13": "6s"
+        },
+        {
+          "LVL": "CD",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        }
+       ]
+    },
+    {
+      "name":"Subjugation: Koukou Sendou",
+      "image": "images/Characters/Inazuma/Kujou Sara/talents/Talent_Subjugation_Koukou_Sendou.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Tengu Juurai: Titanbreaker DMG",
+          "1": "409.6%",
+          "2": "440.3%",
+          "3": "471%",
+          "4": "512%",
+          "5": "542.7%",
+          "6": "573.4%",
+          "7": "614.4%",
+          "8": "655%",
+          "9": "696%",
+          "10": "737%",
+          "11": "778%",
+          "12": "819%",
+          "13": "870%"
+        },
+        {
+          "LVL": "Tengu Juurai: Stormcluster DMG",
+          "1": "34.10%",
+          "2": "36.70%",
+          "3": "39%",
+          "4": "42.60%",
+          "5": "45.2%",
+          "6": "48%",
+          "7": "51%",
+          "8": "54.60%",
+          "9": "58.00%",
+          "10": "61.40%",
+          "11": "64.80%",
+          "12": "68.20%",
+          "13": "72.50%"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "80",
+          "2": "80",
+          "3": "80",
+          "4": "80",
+          "5": "80",
+          "6": "80",
+          "7": "80",
+          "8": "80",
+          "9": "80",
+          "10": "80",
+          "11": "80",
+          "12": "80",
+          "13": "80"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Immovable Will",
+      "image": "images/Characters/Inazuma/Kujou Sara/talents/Talent_Immovable_Will.png",
+      "description":""
+    },
+    {
+      "name":"Decorum",
+      "image": "images/Characters/Inazuma/Kujou Sara/talents/Talent_Decorum.png",
+      "description":""
+    },
+    {
+      "name":"Land Survey",
+      "image": "images/Characters/Inazuma/Kujou Sara/talents/Talent_Land_Survey.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Teachings_of_Elegance.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Guide_to_Elegance.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Guide_to_Elegance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Guide_to_Elegance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Guide_to_Elegance.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Philosophies_of_Elegance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ashen_Heart.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Philosophies_of_Elegance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ashen_Heart.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Philosophies_of_Elegance.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ashen_Heart.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Philosophies_of_Elegance.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ashen_Heart.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Crow's Eye",
+      "image": "images/Characters/Inazuma/Kujou Sara/constellations/Constellation_Crow's_Eye.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Dark Wings",
+      "image": "images/Characters/Inazuma/Kujou Sara/constellations/Constellation_Dark_Wings.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"The War Within",
+      "image": "images/Characters/Inazuma/Kujou Sara/constellations/Constellation_The_War_Within.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Conclusive Proof",
+      "image": "images/Characters/Inazuma/Kujou Sara/constellations/Constellation_Conclusive_Proof.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Spellsinger",
+      "image": "images/Characters/Inazuma/Kujou Sara/constellations/Constellation_Spellsinger.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Sin of Pride",
+      "image": "images/Characters/Inazuma/Kujou Sara/constellations/Constellation_Sin_of_Pride.png",
+      "description":""
+    }
+  ]
+}
+
+

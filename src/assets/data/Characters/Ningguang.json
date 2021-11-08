@@ -1,0 +1,710 @@
+{
+  "name":"Ningguang",
+  "avatar": "images/Characters/Liyue/Ningguang/images/Character_Ningguang_Avatar.png",
+  "title":"Eclipsing Star",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Geo",
+  "elementImage": "images/Elements/Element_Geo.png",
+  "weapon":"Catalyst",
+  "weaponImage": "images/Weapon icons/Weapon-class-catalyst-icon.png",
+  "sex":"Female",
+  "birthday":"August 26th",
+  "constellation":"Opus Aequilibrium",
+  "nation":"Liyue",
+  "affiliation":"Liyue Qixing",
+  "specialDish":"Qiankun Mora Meat",
+  "description":"Always enenergetic and full of life, Ningguang's the best - albeit only - Outrider of the Knights of Favonius.",
+  "talentBook":"Teachings of Prosperity",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Prosperity/Item_Teachings_of_Prosperity.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Liyue/Item_Glaze_Lily.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Recruit's_Insignia.png",
+  "ascensionStat": "Geo DMG Bonus",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Glaze Lily",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Glaze_Lily.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Recruit's Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Recruit's_Insignia.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Glaze Lily",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Glaze_Lily.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Recruit's Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Recruit's_Insignia.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Glaze Lily",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Glaze_Lily.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Sergeant's Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Sergeant's_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Glaze Lily",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Glaze_Lily.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Sergeant's Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Sergeant's_Insignia.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Glaze Lily",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Glaze_Lily.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Lieutenant's Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Lieutenant's_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Glaze Lily",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Glaze_Lily.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Lieutenant's Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Lieutenant's_Insignia.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 821,
+      "ATK": 18,
+      "DEF": 48,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2108,
+      "ATK": 46,
+      "DEF": 123,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2721,
+      "ATK": 59,
+      "DEF": 159,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 4076,
+      "ATK": 88,
+      "DEF": 239,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4512,
+      "ATK": 98,
+      "DEF": 264,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5189,
+      "ATK": 113,
+      "DEF": 304,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 5770,
+      "ATK": 125,
+      "DEF": 338,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 6448,
+      "ATK": 140,
+      "DEF": 378,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 6884,
+      "ATK": 149,
+      "DEF": 403,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 7561,
+      "ATK": 164,
+      "DEF": 443,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 7996,
+      "ATK": 174,
+      "DEF": 468,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 8674,
+      "ATK": 188,
+      "DEF": 508,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 9110,
+      "ATK": 198,
+      "DEF": 534,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 9787,
+      "ATK": 212,
+      "DEF": 573,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Sparkling Scatter",
+      "image": "images/Characters/Liyue/Ningguang/talents/Talent_Sparkling_Scatter.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "Normal Attack DMG",
+          "1": "28%",
+          "2": "30.1%",
+          "3": "32.2%",
+          "4": "35%",
+          "5": "37.1%",
+          "6": "39.2%",
+          "7": "42%",
+          "8": "44.80%",
+          "9": "47.60%",
+          "10": "50.40%",
+          "11": "53.30%",
+          "12": "57.10%",
+          "13": "60.90%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "174%",
+          "2": "187%",
+          "3": "200%",
+          "4": "218%",
+          "5": "231%",
+          "6": "244%",
+          "7": "261%",
+          "8": "279.00%",
+          "9": "296.00%",
+          "10": "313.00%",
+          "11": "331.00%",
+          "12": "355%",
+          "13": "379.00%"
+        },
+        {
+          "LVL": "DMG per Star Jade",
+          "1": "49.6%",
+          "2": "53.3%",
+          "3": "57%",
+          "4": "62%",
+          "5": "65.7%",
+          "6": "69.4%",
+          "7": "74.4%",
+          "8": "79%",
+          "9": "84%",
+          "10": "89%",
+          "11": "94%",
+          "12": "101%",
+          "13": "108%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "50",
+          "2": "50",
+          "3": "50",
+          "4": "50",
+          "5": "50",
+          "6": "50",
+          "7": "50",
+          "8": "50",
+          "9": "50",
+          "10": "50",
+          "11": "50",
+          "12": "50",
+          "13": "50"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "56.8%",
+          "2": "61.5%",
+          "3": "66.1%",
+          "4": "72.7%",
+          "5": "77.3%",
+          "6": "82.6%",
+          "7": "89.9%",
+          "8": "97.10%",
+          "9": "104.40%",
+          "10": "112.30%",
+          "11": "120.30%",
+          "12": "128.20%",
+          "13": "136.10%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "114% /142%",
+          "2": "123% /153%",
+          "3": "132% /165%",
+          "4": "145% /182%",
+          "5": "155% /193%",
+          "6": "165% /206%",
+          "7": "180% /224%",
+          "8": "194% /243%",
+          "9": "209% /261%",
+          "10": "225% /281%",
+          "11": "240% /300%",
+          "12": "256% /320%",
+          "13": "272% /340%"
+        }
+       ]
+    },
+    {
+      "name":"Jade Screen",
+      "image": "images/Characters/Liyue/Ningguang/talents/Talent_Jade_Screen.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Inherited HP",
+          "1": "50.1%",
+          "2": "53.1%",
+          "3": "56.1%",
+          "4": "60%",
+          "5": "63%",
+          "6": "66%",
+          "7": "69.9%",
+          "8": "73.80%",
+          "9": "77.70%",
+          "10": "81.60%",
+          "11": "85.50%",
+          "12": "89.40%",
+          "13": "93.30%"
+        },
+        {
+          "LVL": "Skill DMG",
+          "1": "230%",
+          "2": "248%",
+          "3": "265%",
+          "4": "288%",
+          "5": "305%",
+          "6": "323%",
+          "7": "346%",
+          "8": "369.00%",
+          "9": "392.00%",
+          "10": "415.00%",
+          "11": "438.00%",
+          "12": "461%",
+          "13": "490.00%"
+        },
+        {
+          "LVL": "CD",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        }
+       ]
+    },
+    {
+      "name":"Starshatter",
+      "image": "images/Characters/Liyue/Ningguang/talents/Talent_Starshatter.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "DMG Per Gem",
+          "1": "87%",
+          "2": "93.5%",
+          "3": "100%",
+          "4": "108.7%",
+          "5": "115.2%",
+          "6": "121.7%",
+          "7": "130.4%",
+          "8": "139.10%",
+          "9": "147.80%",
+          "10": "156.50%",
+          "11": "165.20%",
+          "12": "173.90%",
+          "13": "184.80%"
+        },
+        {
+          "LVL": "CD",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "40",
+          "2": "40",
+          "3": "40",
+          "4": "40",
+          "5": "40",
+          "6": "40",
+          "7": "40",
+          "8": "40",
+          "9": "40",
+          "10": "40",
+          "11": "40",
+          "12": "40",
+          "13": "40"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Backup Plan",
+      "image": "images/Characters/Liyue/Ningguang/talents/Talent_Backup_Plan.png",
+      "description":""
+    },
+    {
+      "name":"Strategic Reserve",
+      "image": "images/Characters/Liyue/Ningguang/talents/Talent_Strategic_Reserve.png",
+      "description":""
+    },
+    {
+      "name":"Trove of Marvelous Treasures",
+      "image": "images/Characters/Liyue/Ningguang/talents/Talent_Trove_of_Marvelous_Treasures.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Teachings_of_Prosperity.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Recruit's_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sergeant's_Insignia.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sergeant's_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sergeant's_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sergeant's_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Lieutenant's_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Lieutenant's_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Lieutenant's_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Lieutenant's_Insignia.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Piercing Fragments",
+      "image": "images/Characters/Liyue/Ningguang/constellations/Constellation_Piercing_Fragments.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Shock Effect",
+      "image": "images/Characters/Liyue/Ningguang/constellations/Constellation_Shock_Effect.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Majesty be the Array of Stars",
+      "image": "images/Characters/Liyue/Ningguang/constellations/Constellation_Majesty_be_the_Array_of_Stars.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Exquisite be the Jade, Outshining All Beneath",
+      "image": "images/Characters/Liyue/Ningguang/constellations/Constellation_Exquisite_be_the_Jade,_Outshining_All_Beneath.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Invincible be the Jade Screen",
+      "image": "images/Characters/Liyue/Ningguang/constellations/Constellation_Invincible_be_the_Jade_Screen.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Grandeur be the Seven Stars",
+      "image": "images/Characters/Liyue/Ningguang/constellations/Constellation_Grandeur_be_the_Seven_Stars.png",
+      "description":""
+    }
+  ]
+}
+
+
