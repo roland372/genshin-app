@@ -1,0 +1,829 @@
+{
+  "name":"Sangonomiya Kokomi",
+  "avatar": "images/Characters/Inazuma/Sangonomiya Kokomi/images/Character_Sangonomiya_Kokomi_Avatar.png",
+  "title":"Pearl of Wisdom",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Hydro",
+  "elementImage": "images/Elements/Element_Hydro.png",
+  "weapon":"Catalyst",
+  "weaponImage": "images/Weapon icons/Weapon-class-catalyst-icon.png",
+  "sex":"Female",
+  "birthday":"February 22nd",
+  "constellation":"Dracaena Somnolenta",
+  "nation":"Inazuma",
+  "affiliation":"Watatsumi Island, Sangonomiya Clan, Watatsumi Army",
+  "specialDish":"A Stunning Stratagem",
+  "description":"The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips.",
+  "talentBook":"Teachings of Transience",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Transience/Item_Teachings_of_Transience.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Dew_of_Repudiation.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Inazuma/Item_Sango_Pearl.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Spectral_Husk.png",
+  "ascensionStat": "Hydro DMG Bonus",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Sango Pearl",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sango_Pearl.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Spectral Husk",
+       "image": "images/Materials/Common Ascension Materials/Item_Spectral_Husk.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Dew of Repudiation",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dew_of_Repudiation.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Sango Pearl",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sango_Pearl.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Spectral Husk",
+       "image": "images/Materials/Common Ascension Materials/Item_Spectral_Husk.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Dew of Repudiation",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dew_of_Repudiation.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Sango Pearl",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sango_Pearl.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Spectral Heart",
+       "image": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Dew of Repudiation",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dew_of_Repudiation.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Sango Pearl",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sango_Pearl.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Spectral Heart",
+       "image": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Dew of Repudiation",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dew_of_Repudiation.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Sango Pearl",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sango_Pearl.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Spectral Nucleus",
+       "image": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Dew of Repudiation",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dew_of_Repudiation.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Sango Pearl",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sango_Pearl.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Spectral Nucleus",
+       "image": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1049,
+      "ATK": 18,
+      "DEF": 51,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2720,
+      "ATK": 47,
+      "DEF": 133,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3619,
+      "ATK": 63,
+      "DEF": 177,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 5416,
+      "ATK": 94,
+      "DEF": 264,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 6055,
+      "ATK": 105,
+      "DEF": 295,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "7.2%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 6966,
+      "ATK": 121,
+      "DEF": 340,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "7.2%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 7818,
+      "ATK": 136,
+      "DEF": 381,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.4%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 8738,
+      "ATK": 152,
+      "DEF": 426,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.4%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 9377,
+      "ATK": 163,
+      "DEF": 457,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.4%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 10306,
+      "ATK": 179,
+      "DEF": 503,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.4%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 10945,
+      "ATK": 190,
+      "DEF": 534,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "21.6%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 11885,
+      "ATK": 207,
+      "DEF": 580,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "21.6%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 12524,
+      "ATK": 218,
+      "DEF": 611,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "28.8%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 13471,
+      "ATK": 234,
+      "DEF": 657,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "28.8%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"The Shape of Water",
+      "image": "images/Characters/Inazuma/Sangonomiya Kokomi/talents/Talent_The_Shape_of_Water.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "68.4%",
+          "2": "73.5%",
+          "3": "78.6%",
+          "4": "85.5%",
+          "5": "90.6%",
+          "6": "95.7%",
+          "7": "102.6%",
+          "8": "109.40%",
+          "9": "116.20%",
+          "10": "123.10%",
+          "11": "129.90%",
+          "12": "136.80%",
+          "13": "145.30%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "61.50%",
+          "2": "66.20%",
+          "3": "70.80%",
+          "4": "76.90%",
+          "5": "82%",
+          "6": "86%",
+          "7": "92%",
+          "8": "99%",
+          "9": "105%",
+          "10": "111%",
+          "11": "117%",
+          "12": "123%",
+          "13": "131%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "94.3%",
+          "2": "101.4%",
+          "3": "108.5%",
+          "4": "117.9%",
+          "5": "125%",
+          "6": "132%",
+          "7": "141.5%",
+          "8": "150.90%",
+          "9": "160.30%",
+          "10": "169.80%",
+          "11": "179.20%",
+          "12": "188.60%",
+          "13": "200.40%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "148%",
+          "2": "159%",
+          "3": "171%",
+          "4": "185%",
+          "5": "197%",
+          "6": "208%",
+          "7": "222%",
+          "8": "237%",
+          "9": "252%",
+          "10": "267%",
+          "11": "282%",
+          "12": "297%",
+          "13": "315%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "50",
+          "2": "50",
+          "3": "50",
+          "4": "50",
+          "5": "50",
+          "6": "50",
+          "7": "50",
+          "8": "50",
+          "9": "50",
+          "10": "50",
+          "11": "50",
+          "12": "50",
+          "13": "50"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "56.80%",
+          "2": "61.50%",
+          "3": "66.10%",
+          "4": "72.70%",
+          "5": "77%",
+          "6": "83%",
+          "7": "89.9%",
+          "8": "97%",
+          "9": "104%",
+          "10": "112%",
+          "11": "120%",
+          "12": "128%",
+          "13": "136%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "114% /142%",
+          "2": "123% /153%",
+          "3": "132% /165%",
+          "4": "145% /182%",
+          "5": "155% /193%",
+          "6": "165% /206%",
+          "7": "180% /224%",
+          "8": "194% /243%",
+          "9": "209% /261%",
+          "10": "225% /281%",
+          "11": "240% /300%",
+          "12": "256% /320%",
+          "13": "272% /340%"
+        }
+       ]
+    },
+    {
+      "name":"Kurage's Oath",
+      "image": "images/Characters/Inazuma/Sangonomiya Kokomi/talents/Talent_Kurage's_Oath.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Regeneration",
+          "1": "4.4% Max HP +424",
+          "2": "4.7% Max HP +466",
+          "3": "5.1% Max HP +512",
+          "4": "5.5% Max HP +561",
+          "5": "5.8% Max HP +614",
+          "6": "6.2% Max HP +671",
+          "7": "6.6% Max HP +731",
+          "8": "7% Max HP +795",
+          "9": "7.5% Max HP +862",
+          "10": "7.9% Max HP +932",
+          "11": "8.4% Max HP +1006",
+          "12": "8.8% Max HP +1084",
+          "13": "9.4% Max HP +1165"
+        },
+        {
+          "LVL": "Ripple DMG",
+          "1": "109.20%",
+          "2": "117.40%",
+          "3": "125.60%",
+          "4": "136.50%",
+          "5": "145%",
+          "6": "153%",
+          "7": "164%",
+          "8": "175%",
+          "9": "186%",
+          "10": "197%",
+          "11": "208%",
+          "12": "218%",
+          "13": "232%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        }
+       ]
+    },
+    {
+      "name":"Nereid's Ascension",
+      "image": "images/Characters/Inazuma/Sangonomiya Kokomi/talents/Talent_Nereid's_Ascension.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "10.4% Max HP",
+          "2": "11.2% Max HP",
+          "3": "12% Max HP",
+          "4": "13% Max HP",
+          "5": "13.8% Max HP",
+          "6": "14.6% Max HP",
+          "7": "15.6% Max HP",
+          "8": "16.7% Max HP",
+          "9": "17.7% Max HP",
+          "10": "18.7% Max HP",
+          "11": "19.8% Max HP",
+          "12": "20.8% Max HP",
+          "13": "22.1% Max HP"
+        },
+        {
+          "LVL": "Normal Attack DMG Bonus",
+          "1": "4.8% Max HP",
+          "2": "5.2% Max HP",
+          "3": "5.6% Max HP",
+          "4": "6% Max HP",
+          "5": "6.4% Max HP",
+          "6": "6.8% Max HP",
+          "7": "7.3% Max HP",
+          "8": "7.7% Max HP",
+          "9": "8.2% Max HP",
+          "10": "8.7% Max HP",
+          "11": "9.2% Max HP",
+          "12": "9.7% Max HP",
+          "13": "10.3% Max HP"
+        },
+        {
+          "LVL": "Charged Attack DMG Bonus",
+          "1": "6.8% Max HP",
+          "2": "7.3% Max HP",
+          "3": "7.8% Max HP",
+          "4": "8.5% Max HP",
+          "5": "9% Max HP",
+          "6": "9.5% Max HP",
+          "7": "10.2% Max HP",
+          "8": "10.8% Max HP",
+          "9": "11.5% Max HP",
+          "10": "12.2% Max HP",
+          "11": "12.9% Max HP",
+          "12": "13.6% Max HP",
+          "13": "14.4% Max HP"
+        },
+        {
+          "LVL": "Bake-Kurage DMG Bonus",
+          "1": "7.1% Max HP",
+          "2": "7.6% Max HP",
+          "3": "8.2% Max HP",
+          "4": "8.9% Max HP",
+          "5": "9.4% Max HP",
+          "6": "9.9% Max HP",
+          "7": "10.6% Max HP",
+          "8": "11.4% Max HP",
+          "9": "12.1% Max HP",
+          "10": "12.8% Max HP",
+          "11": "13.5% Max HP",
+          "12": "14.2% Max HP",
+          "13": "15.1% Max HP"
+        },
+        {
+          "LVL": "HP Regeneration Per Hit",
+          "1": "0.81% Max HP +77",
+          "2": "0.87% Max HP +85",
+          "3": "0.93% Max HP +93",
+          "4": "1.01% Max HP +102",
+          "5": "1.07% Max HP +112",
+          "6": "1.13% Max HP +122",
+          "7": "1.21% Max HP +133",
+          "8": "1.29% Max HP +144",
+          "9": "1.37% Max HP +157",
+          "10": "1.45% Max HP +169",
+          "11": "1.54% Max HP +183",
+          "12": "1.62% Max HP +197",
+          "13": "1.72% Max HP +212"
+        },
+        {
+          "LVL": "Duration",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        },
+        {
+          "LVL": "CD",
+          "1": "18s",
+          "2": "18s",
+          "3": "18s",
+          "4": "18s",
+          "5": "18s",
+          "6": "18s",
+          "7": "18s",
+          "8": "18s",
+          "9": "18s",
+          "10": "18s",
+          "11": "18s",
+          "12": "18s",
+          "13": "18s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "70",
+          "2": "70",
+          "3": "70",
+          "4": "70",
+          "5": "70",
+          "6": "70",
+          "7": "70",
+          "8": "70",
+          "9": "70",
+          "10": "70",
+          "11": "70",
+          "12": "70",
+          "13": "70"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Tamanooya's Casket",
+      "image": "images/Characters/Inazuma/Sangonomiya Kokomi/talents/Talent_Tamanooya's_Casket.png",
+      "description":""
+    },
+    {
+      "name":"Song of Pearls",
+      "image": "images/Characters/Inazuma/Sangonomiya Kokomi/talents/Talent_Song_of_Pearls.png",
+      "description":""
+    },
+    {
+      "name":"Flawless Strategy",
+      "image": "images/Characters/Inazuma/Sangonomiya Kokomi/talents/Talent_Flawless_Strategy.png",
+      "description":""
+    },
+    {
+      "name":"Princess of Watatsumi",
+      "image": "images/Characters/Inazuma/Sangonomiya Kokomi/talents/Talent_Princess_of_Watatsumi.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Teachings_of_Transience.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Husk.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Guide_to_Transience.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Guide_to_Transience.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Guide_to_Transience.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Guide_to_Transience.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Philosophies_of_Transience.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Hellfire_Butterfly.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Philosophies_of_Transience.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Hellfire_Butterfly.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Philosophies_of_Transience.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Hellfire_Butterfly.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Philosophies_of_Transience.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Hellfire_Butterfly.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"At Water's Edge",
+      "image": "images/Characters/Inazuma/Sangonomiya Kokomi/constellations/Constellation_At_Water's_Edge.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"The Clouds Like Waves Rippling",
+      "image": "images/Characters/Inazuma/Sangonomiya Kokomi/constellations/Constellation_The_Clouds_Like_Waves_Rippling.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"The Moon, A Ship O'er the Seas",
+      "image": "images/Characters/Inazuma/Sangonomiya Kokomi/constellations/Constellation_The_Moon,_A_Ship_O'er_the_Seas.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"The Moon Overlooks the Waters",
+      "image": "images/Characters/Inazuma/Sangonomiya Kokomi/constellations/Constellation_The_Moon_Overlooks_the_Waters.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"All Streams Flow to the Sea",
+      "image": "images/Characters/Inazuma/Sangonomiya Kokomi/constellations/Constellation_All_Streams_Flow_to_the_Sea.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Sango Isshin",
+      "image": "images/Characters/Inazuma/Sangonomiya Kokomi/constellations/Constellation_Sango_Isshin.png",
+      "description":""
+    }
+  ]
+}
+
+
+
+

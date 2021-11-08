@@ -1,0 +1,902 @@
+{
+  "name":"Sayu",
+  "avatar": "images/Characters/Inazuma/Sayu/images/Character_Sayu_Avatar.png",
+  "title":"Mujina Ninja",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Anemo",
+  "elementImage": "images/Elements/Element_Anemo.png",
+  "weapon":"Claymore",
+  "weaponImage": "images/Weapon icons/Weapon-class-claymore-icon.png",
+  "sex":"Female",
+  "birthday":"October 19th",
+  "constellation":"Nyctereutes Minor",
+  "nation":"Inazuma",
+  "affiliation":"Shuumatsuban",
+  "specialDish":"Dizziness-Be-Gone no Jutsu Version 2.0",
+  "description":"A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.",
+  "talentBook":"Teachings of Light",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Light/Item_Teachings_of_Light.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Marionette_Core.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Inazuma/Item_Crystal_Marrow.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+  "ascensionStat": "Elemental Mastery",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Crystal Marrow",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Crystal_Marrow.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Whopperflower Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Marionette Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Marionette_Core.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Crystal Marrow",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Crystal_Marrow.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Whopperflower Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Marionette Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Marionette_Core.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Crystal Marrow",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Crystal_Marrow.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Shimmering Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Marionette Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Marionette_Core.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Crystal Marrow",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Crystal_Marrow.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Shimmering Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Marionette Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Marionette_Core.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Crystal Marrow",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Crystal_Marrow.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Energy Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Marionette Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Marionette_Core.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Crystal Marrow",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Crystal_Marrow.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Energy Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 994,
+      "ATK": 20,
+      "DEF": 62,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 0
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2553,
+      "ATK": 53,
+      "DEF": 160,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 0
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3296,
+      "ATK": 68,
+      "DEF": 207,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 0
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 4937,
+      "ATK": 102,
+      "DEF": 310,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 0
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5464,
+      "ATK": 113,
+      "DEF": 343,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 24
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 6285,
+      "ATK": 130,
+      "DEF": 395,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 24
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 6988,
+      "ATK": 144,
+      "DEF": 439,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 48
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 7809,
+      "ATK": 161,
+      "DEF": 491,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 48
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 8337,
+      "ATK": 172,
+      "DEF": 524,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 48
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 9157,
+      "ATK": 189,
+      "DEF": 575,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 48
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 9684,
+      "ATK": 200,
+      "DEF": 608,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 72
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 10505,
+      "ATK": 216,
+      "DEF": 660,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 72
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 11033,
+      "ATK": 227,
+      "DEF": 693,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 96
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 11854,
+      "ATK": 244,
+      "DEF": 745,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 96
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Shuumatsuban Ninja Blade",
+      "image": "images/Characters/Inazuma/Sayu/talents/Talent_Shuumatsuban_Ninja_Blade.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "72.2%",
+          "2": "78.1%",
+          "3": "84%",
+          "4": "92.4%",
+          "5": "98.3%",
+          "6": "105%",
+          "7": "114.2%",
+          "8": "123.50%",
+          "9": "132.70%",
+          "10": "142.80%",
+          "11": "154.30%",
+          "12": "167.90%",
+          "13": "181.50%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "71.40%",
+          "2": "77.20%",
+          "3": "83%",
+          "4": "91.30%",
+          "5": "97%",
+          "6": "104%",
+          "7": "112.90%",
+          "8": "122%",
+          "9": "131.10%",
+          "10": "141.10%",
+          "11": "152.50%",
+          "12": "165.90%",
+          "13": "179.40%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "43.4% +43.4%",
+          "2": "47% +47%",
+          "3": "50.5% +50.5%",
+          "4": "55.5% +55.5%",
+          "5": "59.1% +59.1%",
+          "6": "63.1% +63.1%",
+          "7": "68.7% +68.7%",
+          "8": "74.2% +74.2%",
+          "9": "79.8% +79.8%",
+          "10": "85.9% +85.9%",
+          "11": "92.8% +92.8%",
+          "12": "101% +101%",
+          "13": "109.1% +109.1%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "98.10%",
+          "2": "106.10%",
+          "3": "114.10%",
+          "4": "125.50%",
+          "5": "134%",
+          "6": "143%",
+          "7": "155.20%",
+          "8": "167.70%",
+          "9": "180.30%",
+          "10": "194%",
+          "11": "209.70%",
+          "12": "228.10%",
+          "13": "246.60%"
+        },
+        {
+          "LVL": "Charged Attack Spinning DMG",
+          "1": "62.5%",
+          "2": "67.6%",
+          "3": "72.7%",
+          "4": "80%",
+          "5": "85.1%",
+          "6": "90.9%",
+          "7": "98.9%",
+          "8": "106.90%",
+          "9": "114.90%",
+          "10": "123.60%",
+          "11": "133.60%",
+          "12": "145.40%",
+          "13": "157.20%"
+        },
+        {
+          "LVL": "Charged Attack Final DMG",
+          "1": "113%",
+          "2": "122%",
+          "3": "132%",
+          "4": "145%",
+          "5": "154%",
+          "6": "164%",
+          "7": "179%",
+          "8": "193%",
+          "9": "208%",
+          "10": "224%",
+          "11": "242%",
+          "12": "263%",
+          "13": "284%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "40/s",
+          "2": "40/s",
+          "3": "40/s",
+          "4": "40/s",
+          "5": "40/s",
+          "6": "40/s",
+          "7": "40/s",
+          "8": "40/s",
+          "9": "40/s",
+          "10": "40/s",
+          "11": "40/s",
+          "12": "40/s",
+          "13": "40/s"
+        },
+        {
+          "LVL": "Max Duration",
+          "1": "5s",
+          "2": "5s",
+          "3": "5s",
+          "4": "5s",
+          "5": "5s",
+          "6": "5s",
+          "7": "5s",
+          "8": "5s",
+          "9": "5s",
+          "10": "5s",
+          "11": "5s",
+          "12": "5s",
+          "13": "5s"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "74.6%",
+          "2": "80.7%",
+          "3": "86.7%",
+          "4": "95.4%",
+          "5": "101.5%",
+          "6": "108.4%",
+          "7": "118%",
+          "8": "127.50%",
+          "9": "137%",
+          "10": "147.40%",
+          "11": "157.80%",
+          "12": "168.30%",
+          "13": "178.70%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "149% /186%",
+          "2": "161% /201%",
+          "3": "173% /217%",
+          "4": "191% /238%",
+          "5": "203% /253%",
+          "6": "217% /271%",
+          "7": "236% /295%",
+          "8": "255% /318%",
+          "9": "274% /342%",
+          "10": "295% /368%",
+          "11": "316% /394%",
+          "12": "336% /420%",
+          "13": "357% /446%"
+        }
+       ]
+    },
+    {
+      "name":"Yoohoo Art: Fuuin Dash",
+      "image": "images/Characters/Inazuma/Sayu/talents/Talent_Yoohoo_Art_Fuuin_Dash.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Fuufuu Windwheel DMG",
+          "1": "36%",
+          "2": "38.7%",
+          "3": "41.4%",
+          "4": "45%",
+          "5": "47.7%",
+          "6": "50.4%",
+          "7": "54%",
+          "8": "57.60%",
+          "9": "61.20%",
+          "10": "64.80%",
+          "11": "68.40%",
+          "12": "72.00%",
+          "13": "76.50%"
+        },
+        {
+          "LVL": "Fuufuu Whirlwind Kick Press DMG",
+          "1": "158.40%",
+          "2": "170.30%",
+          "3": "182%",
+          "4": "198.00%",
+          "5": "210%",
+          "6": "222%",
+          "7": "237.60%",
+          "8": "253%",
+          "9": "269.30%",
+          "10": "285.10%",
+          "11": "301.00%",
+          "12": "316.80%",
+          "13": "336.60%"
+        },
+        {
+          "LVL": "Fuufuu Whirlwind Kick Hold DMG",
+          "1": "217.6%",
+          "2": "233.9%",
+          "3": "250.2%",
+          "4": "272%",
+          "5": "288.3%",
+          "6": "304.6%",
+          "7": "326.4%",
+          "8": "348.20%",
+          "9": "369.90%",
+          "10": "391.70%",
+          "11": "413.40%",
+          "12": "435.20%",
+          "13": "462.40%"
+        },
+        {
+          "LVL": "Fuufuu Windwheel Elemental DMG",
+          "1": "16.80%",
+          "2": "18.10%",
+          "3": "19.30%",
+          "4": "21.00%",
+          "5": "22%",
+          "6": "24%",
+          "7": "25.20%",
+          "8": "26.90%",
+          "9": "28.60%",
+          "10": "30%",
+          "11": "31.90%",
+          "12": "33.60%",
+          "13": "35.70%"
+        },
+        {
+          "LVL": "Fuufuu Whirlwind Kick Elemental DMG",
+          "1": "76.2%",
+          "2": "81.9%",
+          "3": "87.6%",
+          "4": "95.2%",
+          "5": "100.9%",
+          "6": "106.6%",
+          "7": "114.2%",
+          "8": "121.90%",
+          "9": "129.50%",
+          "10": "137.10%",
+          "11": "144.70%",
+          "12": "152.30%",
+          "13": "161.80%"
+        },
+        {
+          "LVL": "Max Duration (Hold)",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        },
+        {
+          "LVL": "CD",
+          "1": "6 to 11s",
+          "2": "6 to 11s",
+          "3": "6 to 11s",
+          "4": "6 to 11s",
+          "5": "6 to 11s",
+          "6": "6 to 11s",
+          "7": "6 to 11s",
+          "8": "6 to 11s",
+          "9": "6 to 11s",
+          "10": "6 to 11s",
+          "11": "6 to 11s",
+          "12": "6 to 11s",
+          "13": "6 to 11s"
+        }
+       ]
+    },
+    {
+      "name":"Yoohoo Art: Mujina Flurry",
+      "image": "images/Characters/Inazuma/Sayu/talents/Talent_Yoohoo_Art_Mujina_Flurry.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill Activation DMG",
+          "1": "117%",
+          "2": "126%",
+          "3": "134%",
+          "4": "146%",
+          "5": "155%",
+          "6": "164%",
+          "7": "175%",
+          "8": "187.00%",
+          "9": "199.00%",
+          "10": "210.00%",
+          "11": "222.00%",
+          "12": "234.00%",
+          "13": "248.00%"
+        },
+        {
+          "LVL": "Skill Activation Healing",
+          "1": "92.2% ATK +577",
+          "2": "99.1% ATK +635",
+          "3": "106% ATK +698",
+          "4": "115.2% ATK +765",
+          "5": "122.1% ATK +837",
+          "6": "129% ATK +914",
+          "7": "138.2% ATK +996",
+          "8": "147.5% ATK +1083",
+          "9": "156.7% ATK +1174",
+          "10": "165.9% ATK +1270",
+          "11": "175.1% ATK +1371",
+          "12": "184.3% ATK +1477",
+          "13": "195.8% ATK +1588"
+        },
+        {
+          "LVL": "Muji-Muji Daruma DMG",
+          "1": "52%",
+          "2": "56%",
+          "3": "60%",
+          "4": "65%",
+          "5": "69%",
+          "6": "73%",
+          "7": "78%",
+          "8": "83.00%",
+          "9": "88.00%",
+          "10": "94.00%",
+          "11": "99.00%",
+          "12": "104.00%",
+          "13": "111.00%"
+        },
+        {
+          "LVL": "Muji-Muji Daruma Healing",
+          "1": "79.9% ATK +500",
+          "2": "85.9% ATK +550",
+          "3": "91.9% ATK +605",
+          "4": "99.8% ATK +663",
+          "5": "105.8% ATK +726",
+          "6": "111.8% ATK +792",
+          "7": "119.8% ATK +863",
+          "8": "127.8% ATK +938",
+          "9": "135.8% ATK +1017",
+          "10": "143.8% ATK +1101",
+          "11": "151.8% ATK +1188",
+          "12": "159.7% ATK +1280",
+          "13": "169.7% ATK +1376"
+        },
+        {
+          "LVL": "Duration",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "80",
+          "2": "80",
+          "3": "80",
+          "4": "80",
+          "5": "80",
+          "6": "80",
+          "7": "80",
+          "8": "80",
+          "9": "80",
+          "10": "80",
+          "11": "80",
+          "12": "80",
+          "13": "80"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Someone More Capable",
+      "image": "images/Characters/Inazuma/Sayu/talents/Talent_Someone_More_Capable.png",
+      "description":""
+    },
+    {
+      "name":"No Work Today!",
+      "image": "images/Characters/Inazuma/Sayu/talents/Talent_No_Work_Today!.png",
+      "description":""
+    },
+    {
+      "name":"Yoohoo Art: Silencer's Secret",
+      "image": "images/Characters/Inazuma/Sayu/talents/Talent_Yoohoo_Art_Silencer's_Secret.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Teachings_of_Light.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Guide_to_Light.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Guide_to_Light.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Guide_to_Light.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Guide_to_Light.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Philosophies_of_Light.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Gilded_Scale.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Philosophies_of_Light.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Gilded_Scale.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Philosophies_of_Light.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Gilded_Scale.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Philosophies_of_Light.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Gilded_Scale.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Multi-Task no Jutsu",
+      "image": "images/Characters/Inazuma/Sayu/constellations/Constellation_Multi-Task_no_Jutsu.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Egress Prep",
+      "image": "images/Characters/Inazuma/Sayu/constellations/Constellation_Egress_Prep.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Eh, the Bunshin Can Handle It",
+      "image": "images/Characters/Inazuma/Sayu/constellations/Constellation_Eh,_the_Bunshin_Can_Handle_It.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Skiving: New and Improved",
+      "image": "images/Characters/Inazuma/Sayu/constellations/Constellation_Skiving_New_and_Improved.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Speed Comes First",
+      "image": "images/Characters/Inazuma/Sayu/constellations/Constellation_Speed_Comes_First.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Sleep O'Clock",
+      "image": "images/Characters/Inazuma/Sayu/constellations/Constellation_Sleep_O'Clock.png",
+      "description":""
+    }
+  ]
+}
+
+

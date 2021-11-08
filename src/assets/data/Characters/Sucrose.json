@@ -1,0 +1,758 @@
+{
+  "name":"Sucrose",
+  "avatar": "images/Characters/mondstadt/Sucrose/images/Character_Sucrose_Avatar.png",
+  "title":"Harmless Sweetie",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Anemo",
+  "elementImage": "images/Elements/Element_Anemo.png",
+  "weapon":"Catalyst",
+  "weaponImage": "images/Weapon icons/Weapon-class-catalyst-icon.png",
+  "sex":"Female",
+  "birthday":"November 26th",
+  "constellation":"Ampulla",
+  "nation":"Mondstadt",
+  "affiliation":"Knights of Favonius",
+  "specialDish":"Nutritious Meal (V. 593)",
+  "description":"An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+  "talentBook":"Teachings of Freedom",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Freedom/Item_Teachings_of_Freedom.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Mondstadt/Item_Windwheel_Aster.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+  "ascensionStat": "Anemo DMG Bonus",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Windwheel Aster",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Windwheel_Aster.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Whopperflower Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Hurricane Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Windwheel Aster",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Windwheel_Aster.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Whopperflower Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hurricane Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Windwheel Aster",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Windwheel_Aster.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Shimmering Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Hurricane Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Windwheel Aster",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Windwheel_Aster.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Shimmering Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hurricane Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Windwheel Aster",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Windwheel_Aster.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Energy Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hurricane Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Windwheel Aster",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Windwheel_Aster.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Energy Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 775,
+      "ATK": 14,
+      "DEF": 59,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 1991,
+      "ATK": 37,
+      "DEF": 151,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2570,
+      "ATK": 47,
+      "DEF": 195,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 3850,
+      "ATK": 71,
+      "DEF": 293,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4261,
+      "ATK": 78,
+      "DEF": 324,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 4901,
+      "ATK": 90,
+      "DEF": 373,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 5450,
+      "ATK": 100,
+      "DEF": 414,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 6090,
+      "ATK": 112,
+      "DEF": 463,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 6501,
+      "ATK": 120,
+      "DEF": 494,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 7141,
+      "ATK": 131,
+      "DEF": 543,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 7552,
+      "ATK": 139,
+      "DEF": 574,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 8192,
+      "ATK": 151,
+      "DEF": 623,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 8604,
+      "ATK": 158,
+      "DEF": 654,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 9244,
+      "ATK": 170,
+      "DEF": 703,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Wind Spirit Creation",
+      "image": "images/Characters/mondstadt/Sucrose/talents/Talent_Wind_Spirit_Creation.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "33.5%",
+          "2": "36%",
+          "3": "38.5%",
+          "4": "41.8%",
+          "5": "44.3%",
+          "6": "46.8%",
+          "7": "50.2%",
+          "8": "53.50%",
+          "9": "56.90%",
+          "10": "60.20%",
+          "11": "63.60%",
+          "12": "66.90%",
+          "13": "71.10%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "30.60%",
+          "2": "32.90%",
+          "3": "35.20%",
+          "4": "38.30%",
+          "5": "41%",
+          "6": "43%",
+          "7": "46%",
+          "8": "49%",
+          "9": "52%",
+          "10": "55.10%",
+          "11": "58.20%",
+          "12": "61.20%",
+          "13": "65.10%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "38.4%",
+          "2": "41.3%",
+          "3": "44.2%",
+          "4": "48.1%",
+          "5": "50.9%",
+          "6": "53.8%",
+          "7": "57.7%",
+          "8": "61.50%",
+          "9": "65.40%",
+          "10": "69.20%",
+          "11": "73.10%",
+          "12": "76.90%",
+          "13": "81.70%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "47.90%",
+          "2": "51.50%",
+          "3": "55.10%",
+          "4": "59.90%",
+          "5": "64%",
+          "6": "67%",
+          "7": "72%",
+          "8": "76.70%",
+          "9": "81.50%",
+          "10": "86.30%",
+          "11": "91%",
+          "12": "95.80%",
+          "13": "101.80%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "120%",
+          "2": "129%",
+          "3": "138%",
+          "4": "150%",
+          "5": "159%",
+          "6": "168%",
+          "7": "180%",
+          "8": "192%",
+          "9": "204%",
+          "10": "216%",
+          "11": "228%",
+          "12": "240%",
+          "13": "255%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "50",
+          "2": "50",
+          "3": "50",
+          "4": "50",
+          "5": "50",
+          "6": "50",
+          "7": "50",
+          "8": "50",
+          "9": "50",
+          "10": "50",
+          "11": "50",
+          "12": "50",
+          "13": "50"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "56.8%",
+          "2": "61.5%",
+          "3": "66.1%",
+          "4": "72.7%",
+          "5": "77.3%",
+          "6": "82.6%",
+          "7": "89.9%",
+          "8": "97.10%",
+          "9": "104.40%",
+          "10": "112.30%",
+          "11": "120.30%",
+          "12": "128.20%",
+          "13": "136.10%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "114% /142%",
+          "2": "123% /153%",
+          "3": "132% /165%",
+          "4": "145% /182%",
+          "5": "155% /193%",
+          "6": "165% /206%",
+          "7": "180% /224%",
+          "8": "194% /243%",
+          "9": "209% /261%",
+          "10": "225% /281%",
+          "11": "240% /300%",
+          "12": "256% /320%",
+          "13": "272% /340%"
+        }
+       ]
+    },
+    {
+      "name":"Astable Anemohypostasis Creation - 6308",
+      "image": "images/Characters/mondstadt/Sucrose/talents/Talent_Astable_Anemohypostasis_Creation_-_6308.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "211%",
+          "2": "227%",
+          "3": "243%",
+          "4": "264%",
+          "5": "280%",
+          "6": "296%",
+          "7": "317%",
+          "8": "338.00%",
+          "9": "359.00%",
+          "10": "380.00%",
+          "11": "401.00%",
+          "12": "422.00%",
+          "13": "449.00%"
+        },
+        {
+          "LVL": "CD",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        }
+       ]
+    },
+    {
+      "name":"Forbidden Creation - Isomer 75 / Type II",
+      "image": "images/Characters/mondstadt/Sucrose/talents/Talent_Forbidden_Creation_-_Isomer_75_Type_II.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "DoT",
+          "1": "148%",
+          "2": "159%",
+          "3": "170%",
+          "4": "185%",
+          "5": "196%",
+          "6": "207%",
+          "7": "222%",
+          "8": "237.00%",
+          "9": "252.00%",
+          "10": "266.00%",
+          "11": "281.00%",
+          "12": "296.00%",
+          "13": "314.00%"
+        },
+        {
+          "LVL": "Additional Elemental DMG",
+          "1": "44%",
+          "2": "47.30%",
+          "3": "50.60%",
+          "4": "55%",
+          "5": "58.30%",
+          "6": "61.60%",
+          "7": "66%",
+          "8": "70.40%",
+          "9": "74.80%",
+          "10": "79.20%",
+          "11": "83.60%",
+          "12": "88%",
+          "13": "93.50%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "6s",
+          "2": "6s",
+          "3": "6s",
+          "4": "6s",
+          "5": "6s",
+          "6": "6s",
+          "7": "6s",
+          "8": "6s",
+          "9": "6s",
+          "10": "6s",
+          "11": "6s",
+          "12": "6s",
+          "13": "6s"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "80",
+          "2": "80",
+          "3": "80",
+          "4": "80",
+          "5": "80",
+          "6": "80",
+          "7": "80",
+          "8": "80",
+          "9": "80",
+          "10": "80",
+          "11": "80",
+          "12": "80",
+          "13": "80"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Catalyst Conversion",
+      "image": "images/Characters/mondstadt/Sucrose/talents/Talent_Catalyst_Conversion.png",
+      "description":""
+    },
+    {
+      "name":"Mollis Favonius",
+      "image": "images/Characters/mondstadt/Sucrose/talents/Talent_Mollis_Favonius.png",
+      "description":""
+    },
+    {
+      "name":"Astable Invention",
+      "image": "images/Characters/mondstadt/Sucrose/talents/Talent_Astable_Invention.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Teachings_of_Freedom.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Clustered Vacuum Field",
+      "image": "images/Characters/mondstadt/Sucrose/constellations/Constellation_Clustered_Vacuum_Field.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Beth: Unbound Form",
+      "image": "images/Characters/mondstadt/Sucrose/constellations/Constellation_Beth_Unbound_Form.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Flawless Alchemistress",
+      "image": "images/Characters/mondstadt/Sucrose/constellations/Constellation_Flawless_Alchemistress.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Alchemania",
+      "image": "images/Characters/mondstadt/Sucrose/constellations/Constellation_Alchemania.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Caution: Standard Flask",
+      "image": "images/Characters/mondstadt/Sucrose/constellations/Constellation_Caution_Standard_Flask.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Chaotic Entropy",
+      "image": "images/Characters/mondstadt/Sucrose/constellations/Constellation_Chaotic_Entropy.png",
+      "description":""
+    }
+  ]
+}
+
+

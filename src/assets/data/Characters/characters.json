@@ -706,7 +706,7 @@
     },
     {
       "name": "Traveler Anemo",
-      "url": "Traveler",
+      "url": "Traveler_Anemo",
       "rarity": 5,
       "rarityImage": "/images/Rarity icons/Icon_5_Stars.png",
       "element": "Sword",
@@ -728,7 +728,7 @@
     },
     {
       "name": "Traveler Geo",
-      "url": "Traveler",
+      "url": "Traveler_Geo",
       "rarity": 5,
       "rarityImage": "/images/Rarity icons/Icon_5_Stars.png",
       "element": "Sword",
@@ -750,7 +750,7 @@
     },
     {
       "name": "Traveler Electro",
-      "url": "Traveler",
+      "url": "Traveler_Electro",
       "rarity": 5,
       "rarityImage": "/images/Rarity icons/Icon_5_Stars.png",
       "element": "Sword",

@@ -36,6 +36,13 @@ import Qiqi from '../components/Characters/Character/Qiqi/Qiqi';
 import RaidenShogun from '../components/Characters/Character/Raiden Shogun/RaidenShogun';
 import Razor from '../components/Characters/Character/Razor/Razor';
 import Rosaria from '../components/Characters/Character/Rosaria/Rosaria';
+import SangonomiyaKokomi from '../components/Characters/Character/Sangonomiya Kokomi/SangonomiyaKokomi';
+import Sayu from '../components/Characters/Character/Sayu/Sayu';
+import Sucrose from '../components/Characters/Character/Sucrose/Sucrose';
+import Tartaglia from '../components/Characters/Character/Tartaglia/Tartaglia';
+import TravelerAnemo from '../components/Characters/Character/Traveler/Anemo/TravelerAnemo';
+import TravelerGeo from '../components/Characters/Character/Traveler/Geo/TravelerGeo';
+import TravelerElectro from '../components/Characters/Character/Traveler/Electro/TravelerElectro';
 
 const characters = () => {
 	// const { url, path } = useRouteMatch;
@@ -83,6 +90,25 @@ const characters = () => {
 				/>
 				<Route exact path='/characters/Razor' component={Razor} />
 				<Route exact path='/characters/Rosaria' component={Rosaria} />
+				<Route
+					exact
+					path='/characters/Sangonomiya_Kokomi'
+					component={SangonomiyaKokomi}
+				/>
+				<Route exact path='/characters/Sayu' component={Sayu} />
+				<Route exact path='/characters/Sucrose' component={Sucrose} />
+				<Route exact path='/characters/Tartaglia' component={Tartaglia} />
+				<Route
+					exact
+					path='/characters/Traveler_Anemo'
+					component={TravelerAnemo}
+				/>
+				<Route exact path='/characters/Traveler_Geo' component={TravelerGeo} />
+				<Route
+					exact
+					path='/characters/Traveler_Electro'
+					component={TravelerElectro}
+				/>
 			</Switch>
 		</Router>
 	);
