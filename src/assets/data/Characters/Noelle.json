@@ -1,0 +1,870 @@
+{
+  "name":"Noelle",
+  "avatar": "images/Characters/mondstadt/Noelle/images/Character_Noelle_Avatar.png",
+  "title":"Chivalric Blossom",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Geo",
+  "elementImage": "images/Elements/Element_Geo.png",
+  "weapon":"Claymore",
+  "weaponImage": "images/Weapon icons/Weapon-class-claymore-icon.png",
+  "sex":"Female",
+  "birthday":"March 21st",
+  "constellation":"Parma Cordis",
+  "nation":"Mondstadt",
+  "affiliation":"Knights of Favonius",
+  "specialDish":"Lighter-Than-Air Pancake",
+  "description":"A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
+  "talentBook":"Teachings of Resistance",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Resistance/Item_Teachings_of_Resistance.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Mondstadt/Item_Valberry.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+  "ascensionStat": "DEF%",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Valberry",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Valberry.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Valberry",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Valberry.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Valberry",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Valberry.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Valberry",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Valberry.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Valberry",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Valberry.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Valberry",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Valberry.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1012,
+      "ATK": 16,
+      "DEF": 67,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2600,
+      "ATK": 41,
+      "DEF": 172,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3356,
+      "ATK": 53,
+      "DEF": 222,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 5027,
+      "ATK": 80,
+      "DEF": 333,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5564,
+      "ATK": 88,
+      "DEF": 368,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "7.5%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 6400,
+      "ATK": 101,
+      "DEF": 423,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "7.5%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 7117,
+      "ATK": 113,
+      "DEF": 471,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "15%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 7953,
+      "ATK": 126,
+      "DEF": 526,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "15%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 8490,
+      "ATK": 134,
+      "DEF": 562,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "15%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 9325,
+      "ATK": 148,
+      "DEF": 617,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "15%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 9862,
+      "ATK": 156,
+      "DEF": 652,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "22.5%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 10698,
+      "ATK": 169,
+      "DEF": 708,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "22.5%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 11235,
+      "ATK": 178,
+      "DEF": 743,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "30%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 12071,
+      "ATK": 191,
+      "DEF": 799,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "30%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Favonius Bladework - Maid",
+      "image": "images/Characters/mondstadt/Noelle/talents/Talent_Favonius_Bladework_-_Maid.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "79.1%",
+          "2": "85.6%",
+          "3": "92%",
+          "4": "101.2%",
+          "5": "107.6%",
+          "6": "115%",
+          "7": "125.1%",
+          "8": "135.20%",
+          "9": "145.40%",
+          "10": "156.40%",
+          "11": "167.40%",
+          "12": "178.50%",
+          "13": "189.50%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "73.40%",
+          "2": "79.30%",
+          "3": "85.30%",
+          "4": "93.80%",
+          "5": "100%",
+          "6": "107%",
+          "7": "116%",
+          "8": "125.40%",
+          "9": "134.80%",
+          "10": "145%",
+          "11": "155.20%",
+          "12": "165.50%",
+          "13": "175.70%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "86.3%",
+          "2": "93.3%",
+          "3": "100.3%",
+          "4": "110.3%",
+          "5": "117.4%",
+          "6": "125.4%",
+          "7": "136.4%",
+          "8": "147.40%",
+          "9": "158.50%",
+          "10": "170.50%",
+          "11": "182.50%",
+          "12": "194.60%",
+          "13": "206.60%"
+        },
+        {
+          "LVL": "4-hit DMG",
+          "1": "113%",
+          "2": "123%",
+          "3": "132%",
+          "4": "145%",
+          "5": "154%",
+          "6": "165%",
+          "7": "179%",
+          "8": "194%",
+          "9": "208%",
+          "10": "224%",
+          "11": "240%",
+          "12": "256%",
+          "13": "272%"
+        },
+        {
+          "LVL": "Charged Attack Spinning DMG",
+          "1": "50.7%",
+          "2": "54.9%",
+          "3": "59%",
+          "4": "64.9%",
+          "5": "69%",
+          "6": "73.8%",
+          "7": "80.2%",
+          "8": "86.70%",
+          "9": "93.20%",
+          "10": "100.30%",
+          "11": "107.40%",
+          "12": "114.50%",
+          "13": "121.50%"
+        },
+        {
+          "LVL": "Charged Attack Final DMG",
+          "1": "90.50%",
+          "2": "97.80%",
+          "3": "105.20%",
+          "4": "115.70%",
+          "5": "123%",
+          "6": "132%",
+          "7": "143.1%",
+          "8": "154.60%",
+          "9": "166.20%",
+          "10": "178.80%",
+          "11": "191.50%",
+          "12": "204.10%",
+          "13": "216.70%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "40/s",
+          "2": "40/s",
+          "3": "40/s",
+          "4": "40/s",
+          "5": "40/s",
+          "6": "40/s",
+          "7": "40/s",
+          "8": "40/s",
+          "9": "40/s",
+          "10": "40/s",
+          "11": "40/s",
+          "12": "40/s",
+          "13": "40/s"
+        },
+        {
+          "LVL": "Max Duration",
+          "1": "5s",
+          "2": "5s",
+          "3": "5s",
+          "4": "5s",
+          "5": "5s",
+          "6": "5s",
+          "7": "5s",
+          "8": "5s",
+          "9": "5s",
+          "10": "5s",
+          "11": "5s",
+          "12": "5s",
+          "13": "5s"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "74.6%",
+          "2": "80.7%",
+          "3": "86.7%",
+          "4": "95.4%",
+          "5": "101.5%",
+          "6": "108.4%",
+          "7": "118%",
+          "8": "127.50%",
+          "9": "137%",
+          "10": "147.40%",
+          "11": "157.80%",
+          "12": "168.30%",
+          "13": "178.70%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "149% /186%",
+          "2": "161% /201%",
+          "3": "173% /217%",
+          "4": "191% /238%",
+          "5": "203% /253%",
+          "6": "217% /271%",
+          "7": "236% /295%",
+          "8": "255% /318%",
+          "9": "274% /342%",
+          "10": "295% /368%",
+          "11": "316% /394%",
+          "12": "336% /420%",
+          "13": "357% /446%"
+        }
+       ]
+    },
+    {
+      "name":"Breastplate",
+      "image": "images/Characters/mondstadt/Noelle/talents/Talent_Breastplate.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "120% DEF",
+          "2": "129% DEF",
+          "3": "138% DEF",
+          "4": "150% DEF",
+          "5": "159% DEF",
+          "6": "168% DEF",
+          "7": "180% DEF",
+          "8": "192% DEF",
+          "9": "204% DEF",
+          "10": "216% DEF",
+          "11": "228% DEF",
+          "12": "240% DEF",
+          "13": "255% DEF"
+        },
+        {
+          "LVL": "DMG Absorption",
+          "1": "160% DEF +770",
+          "2": "172% DEF +847",
+          "3": "184% DEF +930",
+          "4": "200% DEF +1020",
+          "5": "212% DEF +1116",
+          "6": "224% DEF +1219",
+          "7": "240% DEF +1328",
+          "8": "256% DEF +1443",
+          "9": "272% DEF +1565",
+          "10": "288% DEF +1694",
+          "11": "304% DEF +1828",
+          "12": "320% DEF +1970",
+          "13": "340% DEF +2117"
+        },
+        {
+          "LVL": "Healing",
+          "1": "21.3% DEF +103",
+          "2": "22.9% DEF +113",
+          "3": "24.5% DEF +124",
+          "4": "26.6% DEF +136",
+          "5": "28.2% DEF +149",
+          "6": "29.8% DEF +163",
+          "7": "31.9% DEF +177",
+          "8": "34% DEF +193",
+          "9": "36.2% DEF +209",
+          "10": "38.3% DEF +226",
+          "11": "40.4% DEF +244",
+          "12": "42.6% DEF +263",
+          "13": "45.2% DEF +282"
+        },
+        {
+          "LVL": "Healing Triggering Chance",
+          "1": "50%",
+          "2": "51%",
+          "3": "52%",
+          "4": "53%",
+          "5": "54%",
+          "6": "55%",
+          "7": "56%",
+          "8": "57%",
+          "9": "58%",
+          "10": "59%",
+          "11": "59%",
+          "12": "60%",
+          "13": "60%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        },
+        {
+          "LVL": "CD",
+          "1": "24s",
+          "2": "24s",
+          "3": "24s",
+          "4": "24s",
+          "5": "24s",
+          "6": "24s",
+          "7": "24s",
+          "8": "24s",
+          "9": "24s",
+          "10": "24s",
+          "11": "24s",
+          "12": "24s",
+          "13": "24s"
+        }
+       ]
+    },
+    {
+      "name":"Sweeping Time",
+      "image": "images/Characters/mondstadt/Noelle/talents/Talent_Sweeping_Time.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Burst DMG",
+          "1": "67.2%",
+          "2": "72.2%",
+          "3": "77.3%",
+          "4": "84%",
+          "5": "89%",
+          "6": "94.1%",
+          "7": "100.8%",
+          "8": "107.50%",
+          "9": "114.20%",
+          "10": "121%",
+          "11": "127.70%",
+          "12": "134.40%",
+          "13": "142.80%"
+        },
+        {
+          "LVL": "Skill DMG",
+          "1": "92.80%",
+          "2": "99.80%",
+          "3": "106.70%",
+          "4": "116%",
+          "5": "123%",
+          "6": "129.90%",
+          "7": "139.20%",
+          "8": "148.50%",
+          "9": "157.80%",
+          "10": "167%",
+          "11": "176.30%",
+          "12": "185.60%",
+          "13": "197.20%"
+        },
+        {
+          "LVL": "ATK Bonus",
+          "1": "40% DEF",
+          "2": "43% DEF",
+          "3": "46% DEF",
+          "4": "50% DEF",
+          "5": "53% DEF",
+          "6": "56% DEF",
+          "7": "60% DEF",
+          "8": "64% DEF",
+          "9": "68% DEF",
+          "10": "72% DEF",
+          "11": "76% DEF",
+          "12": "80% DEF",
+          "13": "85% DEF"
+        },
+        {
+          "LVL": "Duration",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "CD",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "60",
+          "2": "60",
+          "3": "60",
+          "4": "60",
+          "5": "60",
+          "6": "60",
+          "7": "60",
+          "8": "60",
+          "9": "60",
+          "10": "60",
+          "11": "60",
+          "12": "60",
+          "13": "60"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Devotion",
+      "image": "images/Characters/mondstadt/Noelle/talents/Talent_Devotion.png",
+      "description":""
+    },
+    {
+      "name":"Nice and Clean",
+      "image": "images/Characters/mondstadt/Noelle/talents/Talent_Nice_and_Clean.png",
+      "description":""
+    },
+    {
+      "name":"Maid's Knighthood",
+      "image": "images/Characters/mondstadt/Noelle/talents/Talent_Maid's_Knighthood.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Teachings_of_Resistance.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Claw.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Claw.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Claw.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Claw.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"I Got Your Back",
+      "image": "images/Characters/mondstadt/Noelle/constellations/Constellation_I_Got_Your_Back.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Combat Maid",
+      "image": "images/Characters/mondstadt/Noelle/constellations/Constellation_Combat_Maid.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Invulnerable Maid",
+      "image": "images/Characters/mondstadt/Noelle/constellations/Constellation_Invulnerable_Maid.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"To Be Cleaned",
+      "image": "images/Characters/mondstadt/Noelle/constellations/Constellation_To_Be_Cleaned.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Favonius Sweeper Master",
+      "image": "images/Characters/mondstadt/Noelle/constellations/Constellation_Favonius_Sweeper_Master.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Must Be Spotless",
+      "image": "images/Characters/mondstadt/Noelle/constellations/Constellation_Must_Be_Spotless.png",
+      "description":""
+    }
+  ]
+}
+
+

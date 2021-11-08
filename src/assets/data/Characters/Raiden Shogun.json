@@ -1,0 +1,998 @@
+{
+  "name":"Raiden Shogun",
+  "avatar": "images/Characters/Inazuma/Raiden Shogun/images/Character_Raiden_Shogun_Avatar.png",
+  "title":"Plane of Euthymia",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Electro",
+  "elementImage": "images/Elements/Element_Electro.png",
+  "weapon":"Polearm",
+  "weaponImage": "images/Weapon icons/Weapon-class-polearm-icon.png",
+  "sex":"Female",
+  "birthday":"June 26th",
+  "constellation":"Imperatrix Umbrosa",
+  "nation":"Inazuma",
+  "affiliation":"Inazuma City, Inazuma Shogunate, Archons",
+  "specialDish":"None",
+  "description":"Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity",
+  "talentBook":"Teachings of Light",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Light/Item_Teachings_of_Light.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Storm_Beads.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Inazuma/Item_Amakumo_Fruit.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
+  "ascensionStat": "Energy Recharge",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Amakumo Fruit",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Amakumo_Fruit.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Old Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Storm Beads",
+       "image": "images/Materials/Character Materials/Ascension/Item_Storm_Beads.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Amakumo Fruit",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Amakumo_Fruit.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Old Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Storm Beads",
+       "image": "images/Materials/Character Materials/Ascension/Item_Storm_Beads.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Amakumo Fruit",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Amakumo_Fruit.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Kageuchi Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Storm Beads",
+       "image": "images/Materials/Character Materials/Ascension/Item_Storm_Beads.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Amakumo Fruit",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Amakumo_Fruit.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Kageuchi Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Storm Beads",
+       "image": "images/Materials/Character Materials/Ascension/Item_Storm_Beads.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Amakumo Fruit",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Amakumo_Fruit.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Famed Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Storm Beads",
+       "image": "images/Materials/Character Materials/Ascension/Item_Storm_Beads.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Amakumo Fruit",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Amakumo_Fruit.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Famed Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1005,
+      "ATK": 26,
+      "DEF": 61,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2606,
+      "ATK": 68,
+      "DEF": 159,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3468,
+      "ATK": 91,
+      "DEF": 212,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 5189,
+      "ATK": 136,
+      "DEF": 317,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5801,
+      "ATK": 152,
+      "DEF": 355,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "8%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 6675,
+      "ATK": 174,
+      "DEF": 408,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "8%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 7491,
+      "ATK": 196,
+      "DEF": 458,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "16%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 8373,
+      "ATK": 219,
+      "DEF": 512,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "16%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 8985,
+      "ATK": 235,
+      "DEF": 549,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "16%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 9875,
+      "ATK": 258,
+      "DEF": 604,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "16%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 10487,
+      "ATK": 274,
+      "DEF": 641,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 11388,
+      "ATK": 298,
+      "DEF": 696,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 12000,
+      "ATK": 314,
+      "DEF": 734,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "32%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 12907,
+      "ATK": 337,
+      "DEF": 789,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "32%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Origin",
+      "image": "images/Characters/Inazuma/Raiden Shogun/talents/Talent_Origin.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "39.6%",
+          "2": "42.9%",
+          "3": "46.1%",
+          "4": "50.7%",
+          "5": "53.9%",
+          "6": "57.6%",
+          "7": "62.7%",
+          "8": "67.80%",
+          "9": "72.80%",
+          "10": "78%",
+          "11": "84.70%",
+          "12": "92.20%",
+          "13": "99.60%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "39.70%",
+          "2": "43%",
+          "3": "46.20%",
+          "4": "50.80%",
+          "5": "54%",
+          "6": "58%",
+          "7": "63%",
+          "8": "67.90%",
+          "9": "73%",
+          "10": "78.50%",
+          "11": "84.90%",
+          "12": "92.40%",
+          "13": "99.80%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "49.9%",
+          "2": "53.9%",
+          "3": "58%",
+          "4": "63.8%",
+          "5": "67.9%",
+          "6": "72.5%",
+          "7": "78.9%",
+          "8": "85.30%",
+          "9": "91.60%",
+          "10": "98.60%",
+          "11": "106.60%",
+          "12": "116%",
+          "13": "125.30%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "29% +29%",
+          "2": "31.3% +31.3%",
+          "3": "33.7% +33.7%",
+          "4": "37.1% +37.1%",
+          "5": "39.4% +39.4%",
+          "6": "42.1% +42.1%",
+          "7": "45.8% +45.8%",
+          "8": "49.5% +49.5%",
+          "9": "53.2% +53.2%",
+          "10": "57.3% +57.3%",
+          "11": "61.9% +61.9%",
+          "12": "67.4% +67.4%",
+          "13": "72.8% +72.8%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "65.4%",
+          "2": "70.8%",
+          "3": "76.1%",
+          "4": "83.7%",
+          "5": "89%",
+          "6": "95.1%",
+          "7": "103.5%",
+          "8": "111.90%",
+          "9": "120.20%",
+          "10": "129.40%",
+          "11": "139.80%",
+          "12": "152.10%",
+          "13": "164.40%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "99.60%",
+          "2": "107.70%",
+          "3": "115.80%",
+          "4": "127.40%",
+          "5": "136%",
+          "6": "145%",
+          "7": "158%",
+          "8": "170.20%",
+          "9": "183%",
+          "10": "196.90%",
+          "11": "212.80%",
+          "12": "231.50%",
+          "13": "250.20%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "25",
+          "2": "25",
+          "3": "25",
+          "4": "25",
+          "5": "25",
+          "6": "25",
+          "7": "25",
+          "8": "25",
+          "9": "25",
+          "10": "25",
+          "11": "25",
+          "12": "25",
+          "13": "25"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "63.90%",
+          "2": "69.10%",
+          "3": "74.30%",
+          "4": "81.80%",
+          "5": "87%",
+          "6": "93%",
+          "7": "101%",
+          "8": "109.30%",
+          "9": "117.50%",
+          "10": "126.40%",
+          "11": "135.30%",
+          "12": "144.20%",
+          "13": "153.10%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "128% /160%",
+          "2": "138% /173%",
+          "3": "149% /186%",
+          "4": "164% /204%",
+          "5": "174% /217%",
+          "6": "186% /232%",
+          "7": "202% /253%",
+          "8": "219% /273%",
+          "9": "235% /293%",
+          "10": "253% /316%",
+          "11": "271% /338%",
+          "12": "288% /360%",
+          "13": "306% /382%"
+        }
+       ]
+    },
+    {
+      "name":"Transcendence: Baleful Omen",
+      "image": "images/Characters/Inazuma/Raiden Shogun/talents/Talent_Transcendence_Baleful_Omen.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "117.2%",
+          "2": "126%",
+          "3": "134.8%",
+          "4": "146.5%",
+          "5": "155.3%",
+          "6": "164.1%",
+          "7": "175.8%",
+          "8": "187.50%",
+          "9": "199.20%",
+          "10": "211%",
+          "11": "222.70%",
+          "12": "234.40%",
+          "13": "249.00%"
+        },
+        {
+          "LVL": "Coordinated ATK DMG",
+          "1": "42.00%",
+          "2": "45%",
+          "3": "48.30%",
+          "4": "52.50%",
+          "5": "56%",
+          "6": "59%",
+          "7": "63%",
+          "8": "67.20%",
+          "9": "71%",
+          "10": "75.60%",
+          "11": "79.80%",
+          "12": "84.00%",
+          "13": "89.20%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "25s",
+          "2": "25s",
+          "3": "25s",
+          "4": "25s",
+          "5": "25s",
+          "6": "25s",
+          "7": "25s",
+          "8": "25s",
+          "9": "25s",
+          "10": "25s",
+          "11": "25s",
+          "12": "25s",
+          "13": "25s"
+        },
+        {
+          "LVL": "Elemental Burst DMG Bonus",
+          "1": "0.22% Per Energy",
+          "2": "0.23% Per Energy",
+          "3": "0.24% Per Energy",
+          "4": "0.25% Per Energy",
+          "5": "0.26% Per Energy",
+          "6": "0.27% Per Energy",
+          "7": "0.28% Per Energy",
+          "8": "0.29% Per Energy",
+          "9": "0.3% Per Energy",
+          "10": "0.3% Per Energy",
+          "11": "0.3% Per Energy",
+          "12": "0.3% Per Energy",
+          "13": "0.3% Per Energy"
+        },
+        {
+          "LVL": "CD",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        }
+       ]
+    },
+    {
+      "name":"Secret Art: Musou Shinsetsu",
+      "image": "images/Characters/Inazuma/Raiden Shogun/talents/Talent_Secret_Art_Musou_Shinsetsu.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Musou no Hitotachi Base DMG",
+          "1": "401%",
+          "2": "431%",
+          "3": "461%",
+          "4": "501%",
+          "5": "531%",
+          "6": "561%",
+          "7": "601%",
+          "8": "641.00%",
+          "9": "681.00%",
+          "10": "721%",
+          "11": "762.00%",
+          "12": "802.00%",
+          "13": "852.00%"
+        },
+        {
+          "LVL": "Resolve Bonus",
+          "1": "3.89% Initial /0.73% ATK DMG Per Stack",
+          "2": "4.18% Initial /0.78% ATK DMG Per Stack",
+          "3": "4.47% Initial /0.84% ATK DMG Per Stack",
+          "4": "4.86% Initial /0.91% ATK DMG Per Stack",
+          "5": "5.15% Initial /0.96% ATK DMG Per Stack",
+          "6": "5.44% Initial /1.02% ATK DMG Per Stack",
+          "7": "5.83% Initial /1.09% ATK DMG Per Stack",
+          "8": "6.22% Initial /1.16% ATK DMG Per Stack",
+          "9": "6.61% Initial /1.23% ATK DMG Per Stack",
+          "10": "7% Initial /1.31% ATK DMG Per Stack",
+          "11": "7.39% Initial /1.38% ATK DMG Per Stack",
+          "12": "7.78% Initial /1.45% ATK DMG Per Stack",
+          "13": "8.26% Initial /1.54% ATK DMG Per Stack"
+        },
+        {
+          "LVL": "Resolve Stacks Gained",
+          "1": "0.15 Per Energy Consumed",
+          "2": "0.16 Per Energy Consumed",
+          "3": "0.16 Per Energy Consumed",
+          "4": "0.17 Per Energy Consumed",
+          "5": "0.17 Per Energy Consumed",
+          "6": "0.18 Per Energy Consumed",
+          "7": "0.18 Per Energy Consumed",
+          "8": "0.19 Per Energy Consumed",
+          "9": "0.19 Per Energy Consumed",
+          "10": "0.2 Per Energy Consumed",
+          "11": "0.2 Per Energy Consumed",
+          "12": "0.2 Per Energy Consumed",
+          "13": "0.2 Per Energy Consumed"
+        },
+        {
+          "LVL": "1-Hit DMG",
+          "1": "44.70%",
+          "2": "47.80%",
+          "3": "50.80%",
+          "4": "54.90%",
+          "5": "58%",
+          "6": "61.50%",
+          "7": "66.10%",
+          "8": "70.70%",
+          "9": "75.20%",
+          "10": "79.80%",
+          "11": "84.40%",
+          "12": "89%",
+          "13": "93.50%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "44%",
+          "2": "47%",
+          "3": "50%",
+          "4": "53.9%",
+          "5": "56.9%",
+          "6": "60.4%",
+          "7": "64.9%",
+          "8": "69.40%",
+          "9": "73.90%",
+          "10": "78.40%",
+          "11": "82.90%",
+          "12": "87.40%",
+          "13": "91.90%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "53.80%",
+          "2": "57.50%",
+          "3": "61.20%",
+          "4": "66.10%",
+          "5": "70%",
+          "6": "74%",
+          "7": "80%",
+          "8": "85.00%",
+          "9": "91%",
+          "10": "96.00%",
+          "11": "101.50%",
+          "12": "107.00%",
+          "13": "112.50%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "30.9% +31%",
+          "2": "33% +33.1%",
+          "3": "35.1% +35.2%",
+          "4": "37.9% +38%",
+          "5": "40% +40.1%",
+          "6": "42.5% +42.6%",
+          "7": "45.6% +45.8%",
+          "8": "48.8% +48.9%",
+          "9": "51.9% +52.1%",
+          "10": "55.1% +55.3%",
+          "11": "58.3% +58.4%",
+          "12": "61.4% +61.6%",
+          "13": "64.6% +64.8%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "73.90%",
+          "2": "79.00%",
+          "3": "84.00%",
+          "4": "90.70%",
+          "5": "95.8%",
+          "6": "102%",
+          "7": "109%",
+          "8": "116.80%",
+          "9": "124.40%",
+          "10": "131.90%",
+          "11": "139.50%",
+          "12": "147.00%",
+          "13": "154.60%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "61.6% +74.4%",
+          "2": "65.8% +79.4%",
+          "3": "70% +84.5%",
+          "4": "75.6% +91.3%",
+          "5": "79.8% +96.3%",
+          "6": "84.7% +102.2%",
+          "7": "91% +109.9%",
+          "8": "97.3% +117.5%",
+          "9": "103.6% +125.1%",
+          "10": "109.9% +132.7%",
+          "11": "116.2% +140.3%",
+          "12": "122.5% +147.9%",
+          "13": "128.8% +155.5%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "20",
+          "2": "20",
+          "3": "20",
+          "4": "20",
+          "5": "20",
+          "6": "20",
+          "7": "20",
+          "8": "20",
+          "9": "20",
+          "10": "20",
+          "11": "20",
+          "12": "20",
+          "13": "20"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "63.9%",
+          "2": "69.1%",
+          "3": "74.3%",
+          "4": "81.8%",
+          "5": "87%",
+          "6": "92.9%",
+          "7": "101.1%",
+          "8": "109.30%",
+          "9": "117.50%",
+          "10": "126.40%",
+          "11": "135.30%",
+          "12": "144.20%",
+          "13": "153.10%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "128% /160%",
+          "2": "138% /173%",
+          "3": "149% /186%",
+          "4": "164% /204%",
+          "5": "174% /217%",
+          "6": "186% /232%",
+          "7": "202% /253%",
+          "8": "219% /273%",
+          "9": "235% /293%",
+          "10": "253% /316%",
+          "11": "271% /338%",
+          "12": "288% /360%",
+          "13": "306% /382%"
+        },
+        {
+          "LVL": "Musou Isshin Energy Restoration",
+          "1": "1.6",
+          "2": "1.7",
+          "3": "1.8",
+          "4": "1.9",
+          "5": "2",
+          "6": "2.1",
+          "7": "2.2",
+          "8": "2.3",
+          "9": "2.4",
+          "10": "2.5",
+          "11": "2.5",
+          "12": "2.5",
+          "13": "2.5"
+        },
+        {
+          "LVL": "Musou Isshin Duration",
+          "1": "7s",
+          "2": "7s",
+          "3": "7s",
+          "4": "7s",
+          "5": "7s",
+          "6": "7s",
+          "7": "7s",
+          "8": "7s",
+          "9": "7s",
+          "10": "7s",
+          "11": "7s",
+          "12": "7s",
+          "13": "7s"
+        },
+        {
+          "LVL": "CD",
+          "1": "18s",
+          "2": "18s",
+          "3": "18s",
+          "4": "18s",
+          "5": "18s",
+          "6": "18s",
+          "7": "18s",
+          "8": "18s",
+          "9": "18s",
+          "10": "18s",
+          "11": "18s",
+          "12": "18s",
+          "13": "18s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "90",
+          "2": "90",
+          "3": "90",
+          "4": "90",
+          "5": "90",
+          "6": "90",
+          "7": "90",
+          "8": "90",
+          "9": "90",
+          "10": "90",
+          "11": "90",
+          "12": "90",
+          "13": "90"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Wishes Unnumbered",
+      "image": "images/Characters/Inazuma/Raiden Shogun/talents/Talent_Wishes_Unnumbered.png",
+      "description":""
+    },
+    {
+      "name":"Enlightened One",
+      "image": "images/Characters/Inazuma/Raiden Shogun/talents/Talent_Enlightened_One.png",
+      "description":""
+    },
+    {
+      "name":"All-Preserver",
+      "image": "images/Characters/Inazuma/Raiden Shogun/talents/Talent_All-Preserver.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Teachings_of_Light.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Guide_to_Light.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Guide_to_Light.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Guide_to_Light.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Guide_to_Light.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Philosophies_of_Light.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Molten_Moment.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Philosophies_of_Light.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Molten_Moment.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Philosophies_of_Light.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Molten_Moment.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Philosophies_of_Light.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Molten_Moment.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Ominous Inscription",
+      "image": "images/Characters/Inazuma/Raiden Shogun/constellations/Constellation_Ominous_Inscription.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Steelbreaker",
+      "image": "images/Characters/Inazuma/Raiden Shogun/constellations/Constellation_Steelbreaker.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Shinkage Bygones",
+      "image": "images/Characters/Inazuma/Raiden Shogun/constellations/Constellation_Shinkage_Bygones.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Pledge of Propriety",
+      "image": "images/Characters/Inazuma/Raiden Shogun/constellations/Constellation_Pledge_of_Propriety.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Shogun's Descent",
+      "image": "images/Characters/Inazuma/Raiden Shogun/constellations/Constellation_Shogun's_Descent.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Wishbearer",
+      "image": "images/Characters/Inazuma/Raiden Shogun/constellations/Constellation_Wishbearer.png",
+      "description":""
+    }
+  ]
+}
+
+

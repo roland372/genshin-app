@@ -1,0 +1,902 @@
+{
+  "name":"Razor",
+  "avatar": "images/Characters/mondstadt/Razor/images/Character_Razor_Avatar.png",
+  "title":"Wolf Boy",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Electro",
+  "elementImage": "images/Elements/Element_Electro.png",
+  "weapon":"Claymore",
+  "weaponImage": "images/Weapon icons/Weapon-class-claymore-icon.png",
+  "sex":"Male",
+  "birthday":"September 9th",
+  "constellation":"Lupus Minor",
+  "nation":"Mondstadt",
+  "affiliation":"Wolvendom (Andrius)",
+  "specialDish":"Puppy-Paw Hash Brown",
+  "description":"A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+  "talentBook":"Teachings of Resistance",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Resistance/Item_Teachings_of_Resistance.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Mondstadt/Item_Wolfhook.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+  "ascensionStat": "Physical DMG Bonus",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Wolfhook",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Wolfhook.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Wolfhook",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Wolfhook.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Wolfhook",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Wolfhook.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Wolfhook",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Wolfhook.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Wolfhook",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Wolfhook.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Lightning Prism",
+       "image": "images/Materials/Character Materials/Ascension/Item_Lightning_Prism.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Wolfhook",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Wolfhook.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1003,
+      "ATK": 20,
+      "DEF": 63,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2577,
+      "ATK": 50,
+      "DEF": 162,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3326,
+      "ATK": 65,
+      "DEF": 209,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 4982,
+      "ATK": 97,
+      "DEF": 313,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5514,
+      "ATK": 108,
+      "DEF": 346,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "7.5%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 6343,
+      "ATK": 124,
+      "DEF": 398,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "7.5%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 7052,
+      "ATK": 138,
+      "DEF": 443,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "15%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 7881,
+      "ATK": 154,
+      "DEF": 495,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "15%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 8413,
+      "ATK": 164,
+      "DEF": 528,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "15%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 9241,
+      "ATK": 180,
+      "DEF": 580,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "15%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 9773,
+      "ATK": 191,
+      "DEF": 613,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "22.5%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 10602,
+      "ATK": 207,
+      "DEF": 665,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "22.5%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 11134,
+      "ATK": 217,
+      "DEF": 699,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "30%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 11962,
+      "ATK": 234,
+      "DEF": 751,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "30%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Steel Fang",
+      "image": "images/Characters/mondstadt/Razor/talents/Talent_Steel_Fang.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "95.9%",
+          "2": "102.5%",
+          "3": "109%",
+          "4": "117.7%",
+          "5": "124.3%",
+          "6": "131.9%",
+          "7": "141.7%",
+          "8": "151.50%",
+          "9": "161.30%",
+          "10": "171%",
+          "11": "180.90%",
+          "12": "190.80%",
+          "13": "200.60%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "82.60%",
+          "2": "88.30%",
+          "3": "93.90%",
+          "4": "101.40%",
+          "5": "107%",
+          "6": "114%",
+          "7": "122%",
+          "8": "130.50%",
+          "9": "139%",
+          "10": "147.40%",
+          "11": "155.90%",
+          "12": "164.30%",
+          "13": "172.80%"
+        },
+        {
+          "LVL": "3-hit DMG",
+          "1": "103%",
+          "2": "110%",
+          "3": "117%",
+          "4": "127%",
+          "5": "134%",
+          "6": "142%",
+          "7": "153%",
+          "8": "163%",
+          "9": "174%",
+          "10": "184%",
+          "11": "195%",
+          "12": "205%",
+          "13": "216%"
+        },
+        {
+          "LVL": "4-hit DMG",
+          "1": "136%",
+          "2": "145%",
+          "3": "155%",
+          "4": "167%",
+          "5": "176%",
+          "6": "187%",
+          "7": "201%",
+          "8": "215.00%",
+          "9": "229.00%",
+          "10": "243.00%",
+          "11": "257.00%",
+          "12": "271%",
+          "13": "284.00%"
+        },
+        {
+          "LVL": "Charged Attack Spinning DMG",
+          "1": "62.5%",
+          "2": "67.6%",
+          "3": "72.7%",
+          "4": "80%",
+          "5": "85.1%",
+          "6": "90.9%",
+          "7": "98.9%",
+          "8": "106.90%",
+          "9": "114.90%",
+          "10": "123.60%",
+          "11": "132.40%",
+          "12": "141.10%",
+          "13": "149.80%"
+        },
+        {
+          "LVL": "Charged Attack Final DMG",
+          "1": "113%",
+          "2": "122%",
+          "3": "132%",
+          "4": "145%",
+          "5": "154%",
+          "6": "164%",
+          "7": "179%",
+          "8": "193.00%",
+          "9": "208%",
+          "10": "224.00%",
+          "11": "239.00%",
+          "12": "255.00%",
+          "13": "271.00%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "40/s",
+          "2": "40/s",
+          "3": "40/s",
+          "4": "40/s",
+          "5": "40/s",
+          "6": "40/s",
+          "7": "40/s",
+          "8": "40/s",
+          "9": "40/s",
+          "10": "40/s",
+          "11": "40/s",
+          "12": "40/s",
+          "13": "40/s"
+        },
+        {
+          "LVL": "Max Duration",
+          "1": "5s",
+          "2": "5s",
+          "3": "5s",
+          "4": "5s",
+          "5": "5s",
+          "6": "5s",
+          "7": "5s",
+          "8": "5s",
+          "9": "5s",
+          "10": "5s",
+          "11": "5s",
+          "12": "5s",
+          "13": "5s"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "82%",
+          "2": "88.7%",
+          "3": "95.4%",
+          "4": "104.9%",
+          "5": "111.6%",
+          "6": "119.3%",
+          "7": "129.7%",
+          "8": "140.20%",
+          "9": "150.70%",
+          "10": "162.20%",
+          "11": "173.60%",
+          "12": "185.10%",
+          "13": "196.50%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "164% /205%",
+          "2": "177% /222%",
+          "3": "191% /238%",
+          "4": "210% /262%",
+          "5": "223% /279%",
+          "6": "238% /298%",
+          "7": "259% /324%",
+          "8": "280% /350%",
+          "9": "301% /376%",
+          "10": "324% /405%",
+          "11": "347% /434%",
+          "12": "370% /462%",
+          "13": "393% /491%"
+        }
+       ]
+    },
+    {
+      "name":"Claw and Thunder",
+      "image": "images/Characters/mondstadt/Razor/talents/Talent_Claw_and_Thunder.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Press Skill DMG",
+          "1": "199%",
+          "2": "214%",
+          "3": "229%",
+          "4": "249%",
+          "5": "264%",
+          "6": "279%",
+          "7": "299%",
+          "8": "319.00%",
+          "9": "339.00%",
+          "10": "359%",
+          "11": "378.00%",
+          "12": "398.00%",
+          "13": "423.00%"
+        },
+        {
+          "LVL": "Hold Skill DMG",
+          "1": "295.00%",
+          "2": "317.00%",
+          "3": "339.00%",
+          "4": "369.00%",
+          "5": "391%",
+          "6": "413%",
+          "7": "443%",
+          "8": "472.00%",
+          "9": "502%",
+          "10": "531.00%",
+          "11": "561.00%",
+          "12": "590.00%",
+          "13": "627.00%"
+        },
+        {
+          "LVL": "Energy Recharge Bonus",
+          "1": "20% per Electro Sigil",
+          "2": "20% per Electro Sigil",
+          "3": "20% per Electro Sigil",
+          "4": "20% per Electro Sigil",
+          "5": "20% per Electro Sigil",
+          "6": "20% per Electro Sigil",
+          "7": "20% per Electro Sigil",
+          "8": "20% per Electro Sigil",
+          "9": "20% per Electro Sigil",
+          "10": "20% per Electro Sigil",
+          "11": "20% per Electro Sigil",
+          "12": "20% per Electro Sigil",
+          "13": "20% per Electro Sigil"
+        },
+        {
+          "LVL": "Energy Regenerated",
+          "1": "5 per Electro Sigil Absorbed",
+          "2": "5 per Electro Sigil Absorbed",
+          "3": "5 per Electro Sigil Absorbed",
+          "4": "5 per Electro Sigil Absorbed",
+          "5": "5 per Electro Sigil Absorbed",
+          "6": "5 per Electro Sigil Absorbed",
+          "7": "5 per Electro Sigil Absorbed",
+          "8": "5 per Electro Sigil Absorbed",
+          "9": "5 per Electro Sigil Absorbed",
+          "10": "5 per Electro Sigil Absorbed",
+          "11": "5 per Electro Sigil Absorbed",
+          "12": "5 per Electro Sigil Absorbed",
+          "13": "5 per Electro Sigil Absorbed"
+        },
+        {
+          "LVL": "Electro Sigil duration",
+          "1": "18s",
+          "2": "18s",
+          "3": "18s",
+          "4": "18s",
+          "5": "18s",
+          "6": "18s",
+          "7": "18s",
+          "8": "18s",
+          "9": "18s",
+          "10": "18s",
+          "11": "18s",
+          "12": "18s",
+          "13": "18s"
+        },
+        {
+          "LVL": "Press CD",
+          "1": "6s",
+          "2": "6s",
+          "3": "6s",
+          "4": "6s",
+          "5": "6s",
+          "6": "6s",
+          "7": "6s",
+          "8": "6s",
+          "9": "6s",
+          "10": "6s",
+          "11": "6s",
+          "12": "6s",
+          "13": "6s"
+        },
+        {
+          "LVL": "CD (hold)",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        }
+       ]
+    },
+    {
+      "name":"Lightning Fang",
+      "image": "images/Characters/mondstadt/Razor/talents/Talent_Lightning_Fang.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Elemental Burst DMG",
+          "1": "160%",
+          "2": "172%",
+          "3": "184%",
+          "4": "200%",
+          "5": "212%",
+          "6": "224%",
+          "7": "240%",
+          "8": "256.00%",
+          "9": "272.00%",
+          "10": "288%",
+          "11": "304.00%",
+          "12": "320.00%",
+          "13": "340.00%"
+        },
+        {
+          "LVL": "Soul Companion DMG",
+          "1": "24% Normal Attack DMG",
+          "2": "25.8% Normal Attack DMG",
+          "3": "27.6% Normal Attack DMG",
+          "4": "30% Normal Attack DMG",
+          "5": "31.8% Normal Attack DMG",
+          "6": "33.6% Normal Attack DMG",
+          "7": "36% Normal Attack DMG",
+          "8": "38.4% Normal Attack DMG",
+          "9": "40.8% Normal Attack DMG",
+          "10": "43.2% Normal Attack DMG",
+          "11": "45.6% Normal Attack DMG",
+          "12": "48% Normal Attack DMG",
+          "13": "51% Normal Attack DMG"
+        },
+        {
+          "LVL": "Normal ATK SPD Bonus",
+          "1": "26%",
+          "2": "28%",
+          "3": "30%",
+          "4": "32%",
+          "5": "34%",
+          "6": "36%",
+          "7": "37%",
+          "8": "38%",
+          "9": "39%",
+          "10": "40%",
+          "11": "40%",
+          "12": "40%",
+          "13": "40%"
+        },
+        {
+          "LVL": "Electro RES Bonus",
+          "1": "80%",
+          "2": "80%",
+          "3": "80%",
+          "4": "80%",
+          "5": "80%",
+          "6": "80%",
+          "7": "80%",
+          "8": "80%",
+          "9": "80%",
+          "10": "80%",
+          "11": "80%",
+          "12": "80%",
+          "13": "80%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "80",
+          "2": "80",
+          "3": "80",
+          "4": "80",
+          "5": "80",
+          "6": "80",
+          "7": "80",
+          "8": "80",
+          "9": "80",
+          "10": "80",
+          "11": "80",
+          "12": "80",
+          "13": "80"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Awakening",
+      "image": "images/Characters/mondstadt/Razor/talents/Talent_Awakening.png",
+      "description":""
+    },
+    {
+      "name":"Hunger",
+      "image": "images/Characters/mondstadt/Razor/talents/Talent_Hunger.png",
+      "description":""
+    },
+    {
+      "name":"Wolvensprint",
+      "image": "images/Characters/mondstadt/Razor/talents/Talent_Wolvensprint.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Teachings_of_Resistance.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Claw.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Claw.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Claw.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Claw.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Wolf's Instinct",
+      "image": "images/Characters/mondstadt/Razor/constellations/Constellation_Wolf's_Instinct.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Suppression",
+      "image": "images/Characters/mondstadt/Razor/constellations/Constellation_Suppression.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Soul Companion",
+      "image": "images/Characters/mondstadt/Razor/constellations/Constellation_Soul_Companion.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Bite",
+      "image": "images/Characters/mondstadt/Razor/constellations/Constellation_Bite.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Sharpened Claws",
+      "image": "images/Characters/mondstadt/Razor/constellations/Constellation_Sharpened_Claws.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Lupus Fulguris",
+      "image": "images/Characters/mondstadt/Razor/constellations/Constellation_Lupus_Fulguris.png",
+      "description":""
+    }
+  ]
+}
+
+

@@ -705,28 +705,6 @@
       "image": "/images/Characters/snezhnaya/Tartaglia/images/Character_Tartaglia_Thumb.png"
     },
     {
-      "name": "Tartaglia",
-      "url": "Tartaglia",
-      "rarity": 5,
-      "rarityImage": "/images/Rarity icons/Icon_5_Stars.png",
-      "element": "Hydro",
-      "elementImage": "/images/Elements/Element_Hydro.png",
-      "weapon": "Bow",
-      "weaponImage": "/images/Weapon icons/Weapon-class-bow-icon.png",
-      "sex": "Male",
-      "nation": "Snezhnaya",
-      "HP": 13103,
-      "ATK": 301,
-      "DEF": 815,
-      "ascension": "Hydro DMG Bonus",
-      "talentBook": "Freedom",
-      "ascensionMaterial": "Varunada Lazurite",
-      "bossMaterial": "Cleansing Heart",
-      "localSpeciality": "Starconch",
-      "commonMaterial": "Recruit's Insignia",
-      "image": "/images/Characters/snezhnaya/Tartaglia/images/Character_Tartaglia_Thumb.png"
-    },
-    {
       "name": "Traveler Anemo",
       "url": "Traveler",
       "rarity": 5,

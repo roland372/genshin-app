@@ -31,6 +31,11 @@ import KujouSara from '../components/Characters/Character/Kujou Sara/KujouSara';
 import Lisa from '../components/Characters/Character/Lisa/Lisa';
 import Mona from '../components/Characters/Character/Mona/Mona';
 import Ningguang from '../components/Characters/Character/Ningguang/Ningguang';
+import Noelle from '../components/Characters/Character/Noelle/Noelle';
+import Qiqi from '../components/Characters/Character/Qiqi/Qiqi';
+import RaidenShogun from '../components/Characters/Character/Raiden Shogun/RaidenShogun';
+import Razor from '../components/Characters/Character/Razor/Razor';
+import Rosaria from '../components/Characters/Character/Rosaria/Rosaria';
 
 const characters = () => {
 	// const { url, path } = useRouteMatch;
@@ -69,6 +74,15 @@ const characters = () => {
 				<Route exact path='/characters/Lisa' component={Lisa} />
 				<Route exact path='/characters/Mona' component={Mona} />
 				<Route exact path='/characters/Ningguang' component={Ningguang} />
+				<Route exact path='/characters/Noelle' component={Noelle} />
+				<Route exact path='/characters/Qiqi' component={Qiqi} />
+				<Route
+					exact
+					path='/characters/Raiden_Shogun'
+					component={RaidenShogun}
+				/>
+				<Route exact path='/characters/Razor' component={Razor} />
+				<Route exact path='/characters/Rosaria' component={Rosaria} />
 			</Switch>
 		</Router>
 	);
