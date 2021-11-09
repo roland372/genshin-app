@@ -1,0 +1,790 @@
+{
+  "name":"Xingqiu",
+  "avatar": "images/Characters/Liyue/Xingqiu/images/Character_Xingqiu_Avatar.png",
+  "title":"Juvenile Galant",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Hydro",
+  "elementImage": "images/Elements/Element_Hydro.png",
+  "weapon":"Sword",
+  "weaponImage": "images/Weapon icons/Weapon-class-sword-icon.png",
+  "sex":"Male",
+  "birthday":"October 9th",
+  "constellation":"Fabulae Textile",
+  "nation":"Liyue",
+  "affiliation":"Feiyun Commerce Guild, Guhua Clan",
+  "specialDish":"All-Delicacy Parcels",
+  "description":"A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.",
+  "talentBook":"Teachings of Gold",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Gold/Item_Teachings_of_Gold.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Cleansing_Heart.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Liyue/Item_Silk_Flower.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+  "ascensionStat": "ATK%",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Silk Flower",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Silk_Flower.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Cleansing Heart",
+       "image": "images/Materials/Character Materials/Ascension/Item_Cleansing_Heart.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Silk Flower",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Silk_Flower.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Cleansing Heart",
+       "image": "images/Materials/Character Materials/Ascension/Item_Cleansing_Heart.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Silk Flower",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Silk_Flower.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Cleansing Heart",
+       "image": "images/Materials/Character Materials/Ascension/Item_Cleansing_Heart.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Silk Flower",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Silk_Flower.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Cleansing Heart",
+       "image": "images/Materials/Character Materials/Ascension/Item_Cleansing_Heart.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Silk Flower",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Silk_Flower.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Cleansing Heart",
+       "image": "images/Materials/Character Materials/Ascension/Item_Cleansing_Heart.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Silk Flower",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Silk_Flower.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 857,
+      "ATK": 17,
+      "DEF": 64,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2202,
+      "ATK": 43,
+      "DEF": 163,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2842,
+      "ATK": 56,
+      "DEF": 211,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 4257,
+      "ATK": 84,
+      "DEF": 316,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4712,
+      "ATK": 93,
+      "DEF": 349,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5420,
+      "ATK": 107,
+      "DEF": 402,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 6027,
+      "ATK": 119,
+      "DEF": 447,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 6735,
+      "ATK": 133,
+      "DEF": 499,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 7190,
+      "ATK": 142,
+      "DEF": 533,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 7897,
+      "ATK": 156,
+      "DEF": 585,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 8352,
+      "ATK": 165,
+      "DEF": 619,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 9060,
+      "ATK": 179,
+      "DEF": 671,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 9514,
+      "ATK": 188,
+      "DEF": 705,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 10222,
+      "ATK": 202,
+      "DEF": 758,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Guhua Style",
+      "image": "images/Characters/Liyue/Xingqiu/talents/Talent_Guhua_Style.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "46.6%",
+          "2": "50.4%",
+          "3": "54.2%",
+          "4": "59.6%",
+          "5": "63.4%",
+          "6": "67.8%",
+          "7": "73.7%",
+          "8": "79.7%",
+          "9": "85.6%",
+          "10": "92.1%",
+          "11": "99.6%",
+          "12": "108.4%",
+          "13": "117.1%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "47.6%",
+          "2": "51.5%",
+          "3": "55.4%",
+          "4": "60.9%",
+          "5": "64.8%",
+          "6": "69.2%",
+          "7": "75.3%",
+          "8": "81.4%",
+          "9": "87.5%",
+          "10": "94.2%",
+          "11": "101.8%",
+          "12": "110.8%",
+          "13": "119.7%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "28.6% +28.6%",
+          "2": "30.9% +30.9%",
+          "3": "33.2% +33.2%",
+          "4": "36.5% +36.5%",
+          "5": "38.8% +38.8%",
+          "6": "41.5% +41.5%",
+          "7": "45.2% +45.2%",
+          "8": "48.8% +48.8%",
+          "9": "52.5% +52.5%",
+          "10": "56.4% +56.4%",
+          "11": "61% +61%",
+          "12": "66.4% +66.4%",
+          "13": "71.7% +71.7%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "56%",
+          "2": "60.5%",
+          "3": "65.1%",
+          "4": "71.6%",
+          "5": "76.2%",
+          "6": "81.4%",
+          "7": "88.5%",
+          "8": "95.7%",
+          "9": "102.9%",
+          "10": "110.7%",
+          "11": "119.6%",
+          "12": "130.1%",
+          "13": "140.7%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "35.9% +35.9%",
+          "2": "38.8% +38.8%",
+          "3": "41.7% +41.7%",
+          "4": "45.9% +45.9%",
+          "5": "48.8% +48.8%",
+          "6": "52.1% +52.1%",
+          "7": "56.7% +56.7%",
+          "8": "61.3% +61.3%",
+          "9": "65.9% +65.9%",
+          "10": "70.9% +70.9%",
+          "11": "76.6% +76.6%",
+          "12": "83.4% +83.4%",
+          "13": "90.1% +90.1%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "47.3% +56.2%",
+          "2": "51.2% +60.7%",
+          "3": "55% +65.3%",
+          "4": "60.5% +71.8%",
+          "5": "64.3% +76.4%",
+          "6": "68.8% +81.6%",
+          "7": "74.8% +88.8%",
+          "8": "80.8% +96%",
+          "9": "86.9% +103.2%",
+          "10": "93.5% +111%",
+          "11": "101.1% +120%",
+          "12": "110% +130.5%",
+          "13": "118.8% +141.1%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "20",
+          "2": "20",
+          "3": "20",
+          "4": "20",
+          "5": "20",
+          "6": "20",
+          "7": "20",
+          "8": "20",
+          "9": "20",
+          "10": "20",
+          "11": "20",
+          "12": "20",
+          "13": "20"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "63.9%",
+          "2": "69.1%",
+          "3": "74.3%",
+          "4": "81.8%",
+          "5": "87%",
+          "6": "92.9%",
+          "7": "101.1%",
+          "8": "109.3%",
+          "9": "117.5%",
+          "10": "126.4%",
+          "11": "135.3%",
+          "12": "144.2%",
+          "13": "153.1%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "128% /160%",
+          "2": "138% /173%",
+          "3": "149% /186%",
+          "4": "164% /204%",
+          "5": "174% /217%",
+          "6": "186% /232%",
+          "7": "202% /253%",
+          "8": "219% /273%",
+          "9": "235% /293%",
+          "10": "253% /316%",
+          "11": "271% /338%",
+          "12": "288% /360%",
+          "13": "306% /382%"
+        }
+       ]
+    },
+    {
+      "name":"Guhua Sword: Fatal Rainscreen",
+      "image": "images/Characters/Liyue/Xingqiu/talents/Talent_Guhua_Sword_Fatal_Rainscreen.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "168% +191%",
+          "2": "181% +206%",
+          "3": "193% +220%",
+          "4": "210% +239%",
+          "5": "223% +253%",
+          "6": "235% +268%",
+          "7": "252% +287%",
+          "8": "269% +306%",
+          "9": "286% +325%",
+          "10": "302% +344%",
+          "11": "319% +363%",
+          "12": "336% +382%",
+          "13": "357% +406%"
+        },
+        {
+          "LVL": "Damage Reduction Ratio",
+          "1": "20%",
+          "2": "21%",
+          "3": "22%",
+          "4": "23%",
+          "5": "24%",
+          "6": "25%",
+          "7": "26%",
+          "8": "27%",
+          "9": "28%",
+          "10": "29%",
+          "11": "29%",
+          "12": "29%",
+          "13": "29%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "CD",
+          "1": "21s",
+          "2": "21s",
+          "3": "21s",
+          "4": "21s",
+          "5": "21s",
+          "6": "21s",
+          "7": "21s",
+          "8": "21s",
+          "9": "21s",
+          "10": "21s",
+          "11": "21s",
+          "12": "21s",
+          "13": "21s"
+        }
+       ]
+    },
+    {
+      "name":"Guhua Sword: Raincutter",
+      "image": "images/Characters/Liyue/Xingqiu/talents/Talent_Guhua_Sword_Raincutter.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Sword Rain DMG",
+          "1": "54.3%",
+          "2": "58.3%",
+          "3": "62.4%",
+          "4": "67.8%",
+          "5": "71.9%",
+          "6": "76%",
+          "7": "81.4%",
+          "8": "86.8%",
+          "9": "92.3%",
+          "10": "97.7%",
+          "11": "103.1%",
+          "12": "108.5%",
+          "13": "115.3%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "80",
+          "2": "80",
+          "3": "80",
+          "4": "80",
+          "5": "80",
+          "6": "80",
+          "7": "80",
+          "8": "80",
+          "9": "80",
+          "10": "80",
+          "11": "80",
+          "12": "80",
+          "13": "80"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Hydropathic",
+      "image": "images/Characters/Liyue/Xingqiu/talents/Talent_Hydropathic.png",
+      "description":""
+    },
+    {
+      "name":"Blades Amidst Raindrops",
+      "image": "images/Characters/Liyue/Xingqiu/talents/Talent_Blades_Amidst_Raindrops.png",
+      "description":""
+    },
+    {
+      "name":"Flash of Genius",
+      "image": "images/Characters/Liyue/Xingqiu/talents/Talent_Flash_of_Genius.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Teachings_of_Gold.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tail_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tail_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tail_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tail_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"The Scent Remained",
+      "image": "images/Characters/Liyue/Xingqiu/constellations/Constellation_The_Scent_Remained.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Rainbow Upon the Azure Sky",
+      "image": "images/Characters/Liyue/Xingqiu/constellations/Constellation_Rainbow_Upon_the_Azure_Sky.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Weaver of Verses",
+      "image": "images/Characters/Liyue/Xingqiu/constellations/Constellation_Weaver_of_Verses.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Evilsoother",
+      "image": "images/Characters/Liyue/Xingqiu/constellations/Constellation_Evilsoother.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Embrace of Rain",
+      "image": "images/Characters/Liyue/Xingqiu/constellations/Constellation_Embrace_of_Rain.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Hence, Call Them My Own Verses",
+      "image": "images/Characters/Liyue/Xingqiu/constellations/Constellation_Hence,_Call_Them_My_Own_Verses.png",
+      "description":""
+    }
+  ]
+}
+
+

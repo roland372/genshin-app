@@ -1,0 +1,776 @@
+{
+  "name":"Xiao",
+  "avatar": "images/Characters/Liyue/Xiao/images/Character_Xiao_Avatar.png",
+  "title":"Vigilant Yaksha",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Anemo",
+  "elementImage": "images/Elements/Element_Anemo.png",
+  "weapon":"Polearm",
+  "weaponImage": "images/Weapon icons/Weapon-class-polearm-icon.png",
+  "sex":"Male",
+  "birthday":"April 17th",
+  "constellation":"Alatus Nemeseos",
+  "nation":"Liyue",
+  "affiliation":"Adepti, Yaksha",
+  "specialDish":"Sweet Dream",
+  "description":"A yaksha adeptus who defends Liyue. Also heralded as the Conqueror of Demons and Vigilant Yaksha.",
+  "talentBook":"Teachings of Prosperity",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Prosperity/Item_Teachings_of_Prosperity.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Juvenile_Jade.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+  "ascensionStat": "",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Slime Condensate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Juvenile Jade",
+       "image": "images/Materials/Character Materials/Ascension/Item_Juvenile_Jade.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Slime Condensate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Juvenile Jade",
+       "image": "images/Materials/Character Materials/Ascension/Item_Juvenile_Jade.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Slime Secretions",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Juvenile Jade",
+       "image": "images/Materials/Character Materials/Ascension/Item_Juvenile_Jade.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Slime Secretions",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Juvenile Jade",
+       "image": "images/Materials/Character Materials/Ascension/Item_Juvenile_Jade.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Slime Concentrate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Juvenile Jade",
+       "image": "images/Materials/Character Materials/Ascension/Item_Juvenile_Jade.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Slime Concentrate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 991,
+      "ATK": 27,
+      "DEF": 62,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2572,
+      "ATK": 71,
+      "DEF": 161,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3422,
+      "ATK": 94,
+      "DEF": 215,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 5120,
+      "ATK": 140,
+      "DEF": 321,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5724,
+      "ATK": 157,
+      "DEF": 359,
+      "CRIT Rate": "9.8%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 6586,
+      "ATK": 181,
+      "DEF": 413,
+      "CRIT Rate": "9.8%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 7391,
+      "ATK": 203,
+      "DEF": 464,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 8262,
+      "ATK": 227,
+      "DEF": 519,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 8866,
+      "ATK": 243,
+      "DEF": 556,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 9744,
+      "ATK": 267,
+      "DEF": 612,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 10348,
+      "ATK": 284,
+      "DEF": 649,
+      "CRIT Rate": "19.4%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 11236,
+      "ATK": 308,
+      "DEF": 705,
+      "CRIT Rate": "19.4%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 11840,
+      "ATK": 325,
+      "DEF": 743,
+      "CRIT Rate": "24.2%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 12736,
+      "ATK": 349,
+      "DEF": 799,
+      "CRIT Rate": "24.2%",
+      "CRIT DMG": "50%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Whirlwind Thrust",
+      "image": "images/Characters/Liyue/Xiao/talents/Talent_Whirlwind_Thrust.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "27.5% +27.5%",
+          "2": "29.4% +29.4%",
+          "3": "31.3% +31.3%",
+          "4": "33.8% +33.8%",
+          "5": "35.7% +35.7%",
+          "6": "37.9% +37.9%",
+          "7": "40.7% +40.7%",
+          "8": "43.5% +43.5%",
+          "9": "46.3% +46.3%",
+          "10": "49.1% +49.1%",
+          "11": "52% +52%",
+          "12": "54.8% +54.8%",
+          "13": "57.6% +57.6%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "56.9%",
+          "2": "60.8%",
+          "3": "64.7%",
+          "4": "69.9%",
+          "5": "73.8%",
+          "6": "78.3%",
+          "7": "84.1%",
+          "8": "89.9%",
+          "9": "95.8%",
+          "10": "101.6%",
+          "11": "107.4%",
+          "12": "113.2%",
+          "13": "119%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "68.6%",
+          "2": "73.2%",
+          "3": "77.9%",
+          "4": "84.1%",
+          "5": "88.8%",
+          "6": "94.3%",
+          "7": "101.3%",
+          "8": "108.3%",
+          "9": "115.3%",
+          "10": "122.3%",
+          "11": "129.3%",
+          "12": "136.3%",
+          "13": "143.3%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "37.7% +37.7%",
+          "2": "40.2% +40.2%",
+          "3": "42.8% +42.8%",
+          "4": "46.2% +46.2%",
+          "5": "48.8% +48.8%",
+          "6": "51.8% +51.8%",
+          "7": "55.6% +55.6%",
+          "8": "59.5% +59.5%",
+          "9": "63.3% +63.3%",
+          "10": "67.2% +67.2%",
+          "11": "71% +71%",
+          "12": "74.9% +74.9%",
+          "13": "78.8% +78.8%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "71.5%",
+          "2": "76.4%",
+          "3": "81.3%",
+          "4": "87.8%",
+          "5": "92.7%",
+          "6": "98.4%",
+          "7": "105.7%",
+          "8": "113%",
+          "9": "120.3%",
+          "10": "127.6%",
+          "11": "135%",
+          "12": "142.3%",
+          "13": "149.6%"
+        },
+        {
+          "LVL": "6-Hit DMG",
+          "1": "95.8%",
+          "2": "102.4%",
+          "3": "108.9%",
+          "4": "117.6%",
+          "5": "124.1%",
+          "6": "131.8%",
+          "7": "141.6%",
+          "8": "151.4%",
+          "9": "161.2%",
+          "10": "171%",
+          "11": "180.8%",
+          "12": "190.6%",
+          "13": "200.4%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "121%",
+          "2": "129%",
+          "3": "138%",
+          "4": "149%",
+          "5": "157%",
+          "6": "166%",
+          "7": "179%",
+          "8": "191%",
+          "9": "204%",
+          "10": "216%",
+          "11": "228%",
+          "12": "241%",
+          "13": "253%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "25",
+          "2": "25",
+          "3": "25",
+          "4": "25",
+          "5": "25",
+          "6": "25",
+          "7": "25",
+          "8": "25",
+          "9": "25",
+          "10": "25",
+          "11": "25",
+          "12": "25",
+          "13": "25"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "82%",
+          "2": "88%",
+          "3": "95%",
+          "4": "105%",
+          "5": "111%",
+          "6": "119%",
+          "7": "129%",
+          "8": "140%",
+          "9": "150%",
+          "10": "162%",
+          "11": "173%",
+          "12": "185%",
+          "13": "196%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "164% /204%",
+          "2": "177% /221%",
+          "3": "190% /238%",
+          "4": "209% /261%",
+          "5": "223% /278%",
+          "6": "238% /297%",
+          "7": "259% /323%",
+          "8": "280% /349%",
+          "9": "301% /375%",
+          "10": "323% /404%",
+          "11": "346% /433%",
+          "12": "369% /461%",
+          "13": "392% /490%"
+        }
+       ]
+    },
+    {
+      "name":"Lemniscatic Wind Cycling",
+      "image": "images/Characters/Liyue/Xiao/talents/Talent_Lemniscatic_Wind_Cycling.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "253%",
+          "2": "272%",
+          "3": "291%",
+          "4": "316%",
+          "5": "335%",
+          "6": "354%",
+          "7": "379%",
+          "8": "404%",
+          "9": "430%",
+          "10": "455%",
+          "11": "480%",
+          "12": "506%",
+          "13": "537%"
+        },
+        {
+          "LVL": "CD",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        }
+       ]
+    },
+    {
+      "name":"Bane of All Evil",
+      "image": "images/Characters/Liyue/Xiao/talents/Talent_Bane_of_All_Evil.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Normal Attack/Charged Attack/Plunging Attack DMG Bonus",
+          "1": "58.5%",
+          "2": "61.9%",
+          "3": "65.5%",
+          "4": "70%",
+          "5": "73.5%",
+          "6": "77%",
+          "7": "81.6%",
+          "8": "86.1%",
+          "9": "90.6%",
+          "10": "95.2%",
+          "11": "99.8%",
+          "12": "104.3%",
+          "13": "108.9%"
+        },
+        {
+          "LVL": "Life Drain",
+          "1": "3% Current HP Per Second",
+          "2": "3% Current HP Per Second",
+          "3": "3% Current HP Per Second",
+          "4": "2.5% Current HP Per Second",
+          "5": "2.5% Current HP Per Second",
+          "6": "2.5% Current HP Per Second",
+          "7": "2% Current HP Per Second",
+          "8": "2% Current HP Per Second",
+          "9": "2% Current HP Per Second",
+          "10": "2% Current HP Per Second",
+          "11": "2% Current HP Per Second",
+          "12": "2% Current HP Per Second",
+          "13": "2% Current HP Per Second"
+        },
+        {
+          "LVL": "Duration",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "CD",
+          "1": "18s",
+          "2": "18s",
+          "3": "18s",
+          "4": "18s",
+          "5": "18s",
+          "6": "18s",
+          "7": "18s",
+          "8": "18s",
+          "9": "18s",
+          "10": "18s",
+          "11": "18s",
+          "12": "18s",
+          "13": "18s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "70",
+          "2": "70",
+          "3": "70",
+          "4": "70",
+          "5": "70",
+          "6": "70",
+          "7": "70",
+          "8": "70",
+          "9": "70",
+          "10": "70",
+          "11": "70",
+          "12": "70",
+          "13": "70"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Conqueror of Evil: Tamer of Demons",
+      "image": "images/Characters/Liyue/Xiao/talents/Talent_Conqueror_of_Evil_Tamer_of_Demons.png",
+      "description":""
+    },
+    {
+      "name":"Dissolution Eon: Heaven Fall",
+      "image": "images/Characters/Liyue/Xiao/talents/Talent_Dissolution_Eon_Heaven_Fall.png",
+      "description":""
+    },
+    {
+      "name":"Transcension: Gravity Defier",
+      "image": "images/Characters/Liyue/Xiao/talents/Talent_Transcension_Gravity_Defier.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Teachings_of_Prosperity.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shadow_of_the_Warrior.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shadow_of_the_Warrior.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shadow_of_the_Warrior.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Shadow_of_the_Warrior.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Dissolution Eon: Destroyer of Worlds",
+      "image": "images/Characters/Liyue/Xiao/constellations/Constellation_Dissolution_Eon_-_Destroyer_of_Worlds.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Annihilation Eon: Blossom of Kaleidos",
+      "image": "images/Characters/Liyue/Xiao/constellations/Constellation_Annihilation_Eon_-_Blossom_of_Kaleidos.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Conqueror of Evil: Wrath Deity",
+      "image": "images/Characters/Liyue/Xiao/constellations/Constellation_Conqueror_of_Evil_-_Wrath_Deity.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Transcension: Extinction of Suffering",
+      "image": "images/Characters/Liyue/Xiao/constellations/Constellation_Transcension_-_Extinction_of_Suffering.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Evolution Eon: Origin of Ignorance",
+      "image": "images/Characters/Liyue/Xiao/constellations/Constellation_Evolution_Eon_-_Origin_of_Ignorance.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Conqueror of Evil: Guardian Yaksha",
+      "image": "images/Characters/Liyue/Xiao/constellations/Constellation_Conqueror_of_Evil_-_Guardian_Yaksha.png",
+      "description":""
+    }
+  ]
+}
+
+

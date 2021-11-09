@@ -1,0 +1,806 @@
+{
+  "name":"Xiangling",
+  "avatar": "images/Characters/Liyue/Xiangling/images/Character_Xiangling_Avatar.png",
+  "title":"Exquisite Delicacy",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Pyro",
+  "elementImage": "images/Elements/Element_Pyro.png",
+  "weapon":"Polearm",
+  "weaponImage": "images/Weapon icons/Weapon-class-polearm-icon.png",
+  "sex":"Female",
+  "birthday":"November 2nd",
+  "constellation":"Trulla",
+  "nation":"Liyue",
+  "affiliation":"Wanmin Restaurant, Crux Fleet",
+  "specialDish":"Wanmin Restaurant's Boiled Fish",
+  "description":"A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
+  "talentBook":"Teachings of Diligence",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Diligence/Item_Teachings_of_Diligence.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Liyue/Item_Jueyun_Chili.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+  "ascensionStat": "Elemental Mastery",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Jueyun Chili",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Jueyun_Chili.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Slime Condensate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Jueyun Chili",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Jueyun_Chili.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Slime Condensate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Jueyun Chili",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Jueyun_Chili.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Slime Secretions",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Jueyun Chili",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Jueyun_Chili.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Slime Secretions",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Jueyun Chili",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Jueyun_Chili.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Slime Concentrate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Jueyun Chili",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Jueyun_Chili.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Slime Concentrate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 912,
+      "ATK": 19,
+      "DEF": 56,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 0
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2342,
+      "ATK": 48,
+      "DEF": 144,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 0
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3024,
+      "ATK": 63,
+      "DEF": 186,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 0
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 4529,
+      "ATK": 94,
+      "DEF": 279,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 0
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5013,
+      "ATK": 104,
+      "DEF": 308,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 24
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5766,
+      "ATK": 119,
+      "DEF": 355,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 24
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 6411,
+      "ATK": 133,
+      "DEF": 394,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 48
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 7164,
+      "ATK": 148,
+      "DEF": 441,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 48
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 7648,
+      "ATK": 158,
+      "DEF": 470,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 48
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 8401,
+      "ATK": 174,
+      "DEF": 517,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 48
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 8885,
+      "ATK": 184,
+      "DEF": 546,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 72
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 9638,
+      "ATK": 200,
+      "DEF": 593,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 72
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 10122,
+      "ATK": 210,
+      "DEF": 623,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 96
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 10875,
+      "ATK": 225,
+      "DEF": 669,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": 96
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Dough-Fu",
+      "image": "images/Characters/Liyue/Xiangling/talents/Talent_Dough-Fu.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "42.1%",
+          "2": "45.5%",
+          "3": "48.9%",
+          "4": "53.8%",
+          "5": "57.2%",
+          "6": "61.1%",
+          "7": "66.5%",
+          "8": "71.9%",
+          "9": "77.3%",
+          "10": "83.1%",
+          "11": "89.9%",
+          "12": "97.8%",
+          "13": "105.7%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "42.1%",
+          "2": "45.6%",
+          "3": "49%",
+          "4": "53.9%",
+          "5": "57.3%",
+          "6": "61.3%",
+          "7": "66.6%",
+          "8": "72%",
+          "9": "77.4%",
+          "10": "83.3%",
+          "11": "90%",
+          "12": "98%",
+          "13": "105.9%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "26.1% +26.1%",
+          "2": "28.2% +28.2%",
+          "3": "30.3% +30.3%",
+          "4": "33.3% +33.3%",
+          "5": "35.5% +35.5%",
+          "6": "37.9% +37.9%",
+          "7": "41.2% +41.2%",
+          "8": "44.5% +44.5%",
+          "9": "47.9% +47.9%",
+          "10": "51.5% +51.5%",
+          "11": "55.7% +55.7%",
+          "12": "60.6% +60.6%",
+          "13": "65.5% +65.5%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "14.1%*4",
+          "2": "15.3%*4",
+          "3": "16.4%*4",
+          "4": "18%*4",
+          "5": "19.2%*4",
+          "6": "20.5%*4",
+          "7": "22.3%*4",
+          "8": "24.1%*4",
+          "9": "25.9%*4",
+          "10": "27.9%*4",
+          "11": "30.1%*4",
+          "12": "32.8%*4",
+          "13": "35.4%*4"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "71%",
+          "2": "76.8%",
+          "3": "82.6%",
+          "4": "90.9%",
+          "5": "96.6%",
+          "6": "103.3%",
+          "7": "112.3%",
+          "8": "121.4%",
+          "9": "130.5%",
+          "10": "140.4%",
+          "11": "151.8%",
+          "12": "165.1%",
+          "13": "178.5%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "122%",
+          "2": "132%",
+          "3": "141%",
+          "4": "156%",
+          "5": "166%",
+          "6": "177%",
+          "7": "192%",
+          "8": "208%",
+          "9": "224%",
+          "10": "241%",
+          "11": "260%",
+          "12": "283%",
+          "13": "306%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "25",
+          "2": "25",
+          "3": "25",
+          "4": "25",
+          "5": "25",
+          "6": "25",
+          "7": "25",
+          "8": "25",
+          "9": "25",
+          "10": "25",
+          "11": "25",
+          "12": "25",
+          "13": "25"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "63.9%",
+          "2": "69.1%",
+          "3": "74.3%",
+          "4": "81.8%",
+          "5": "87%",
+          "6": "92.9%",
+          "7": "101.1%",
+          "8": "109.3%",
+          "9": "117.5%",
+          "10": "126.4%",
+          "11": "135.3%",
+          "12": "144.2%",
+          "13": "153.1%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "128% /160%",
+          "2": "138% /173%",
+          "3": "149% /186%",
+          "4": "164% /204%",
+          "5": "174% /217%",
+          "6": "186% /232%",
+          "7": "202% /253%",
+          "8": "219% /273%",
+          "9": "235% /293%",
+          "10": "253% /316%",
+          "11": "271% /338%",
+          "12": "288% /360%",
+          "13": "306% /382%"
+        }
+       ]
+    },
+    {
+      "name":"Guoba Attack",
+      "image": "images/Characters/Liyue/Xiangling/talents/Talent_Guoba_Attack.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Flame DMG",
+          "1": "111%",
+          "2": "120%",
+          "3": "128%",
+          "4": "139%",
+          "5": "147%",
+          "6": "156%",
+          "7": "167%",
+          "8": "178%",
+          "9": "189%",
+          "10": "200%",
+          "11": "211%",
+          "12": "223%",
+          "13": "236%"
+        },
+        {
+          "LVL": "CD",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        }
+       ]
+    },
+    {
+      "name":"Pyronado",
+      "image": "images/Characters/Liyue/Xiangling/talents/Talent_Pyronado.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit Swing DMG",
+          "1": "72%",
+          "2": "77.4%",
+          "3": "82.8%",
+          "4": "90%",
+          "5": "95.4%",
+          "6": "100.8%",
+          "7": "108%",
+          "8": "115.2%",
+          "9": "122.4%",
+          "10": "129.6%",
+          "11": "136.8%",
+          "12": "144%",
+          "13": "153%"
+        },
+        {
+          "LVL": "2-Hit Swing DMG",
+          "1": "88%",
+          "2": "94.6%",
+          "3": "101.2%",
+          "4": "110%",
+          "5": "116.6%",
+          "6": "123.2%",
+          "7": "132%",
+          "8": "140.8%",
+          "9": "149.6%",
+          "10": "158.4%",
+          "11": "167.2%",
+          "12": "176%",
+          "13": "187%"
+        },
+        {
+          "LVL": "3-Hit Swing DMG",
+          "1": "110%",
+          "2": "118%",
+          "3": "126%",
+          "4": "137%",
+          "5": "145%",
+          "6": "153%",
+          "7": "164%",
+          "8": "175%",
+          "9": "186%",
+          "10": "197%",
+          "11": "208%",
+          "12": "219%",
+          "13": "233%"
+        },
+        {
+          "LVL": "Pyronado DMG",
+          "1": "112%",
+          "2": "120%",
+          "3": "129%",
+          "4": "140%",
+          "5": "148%",
+          "6": "157%",
+          "7": "168%",
+          "8": "179%",
+          "9": "190%",
+          "10": "202%",
+          "11": "213%",
+          "12": "224%",
+          "13": "238%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "80",
+          "2": "80",
+          "3": "80",
+          "4": "80",
+          "5": "80",
+          "6": "80",
+          "7": "80",
+          "8": "80",
+          "9": "80",
+          "10": "80",
+          "11": "80",
+          "12": "80",
+          "13": "80"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Crossfire",
+      "image": "images/Characters/Liyue/Xiangling/talents/Talent_Crossfire.png",
+      "description":""
+    },
+    {
+      "name":"Beware, It's Super Hot!",
+      "image": "images/Characters/Liyue/Xiangling/talents/Talent_Beware,_It's_Super_Hot!.png",
+      "description":""
+    },
+    {
+      "name":"Chef de Cuisine",
+      "image": "images/Characters/Liyue/Xiangling/talents/Talent_Chef_de_Cuisine.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Teachings_of_Diligence.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Claw.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Claw.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Claw.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Claw.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Crispy Outside, Tender Inside",
+      "image": "images/Characters/Liyue/Xiangling/constellations/Constellation_Crispy_Outside,_Tender_Inside.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Oil Meets Fire",
+      "image": "images/Characters/Liyue/Xiangling/constellations/Constellation_Oil_Meets_Fire.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Deepfry",
+      "image": "images/Characters/Liyue/Xiangling/constellations/Constellation_Deepfry.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Slowbake",
+      "image": "images/Characters/Liyue/Xiangling/constellations/Constellation_Slowbake.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Guoba Mad",
+      "image": "images/Characters/Liyue/Xiangling/constellations/Constellation_Guoba_Mad.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Condensed Pyronado",
+      "image": "images/Characters/Liyue/Xiangling/constellations/Constellation_Condensed_Pyronado.png",
+      "description":""
+    }
+  ]
+}
+
+

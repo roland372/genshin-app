@@ -43,6 +43,14 @@ import Tartaglia from '../components/Characters/Character/Tartaglia/Tartaglia';
 import TravelerAnemo from '../components/Characters/Character/Traveler/Anemo/TravelerAnemo';
 import TravelerGeo from '../components/Characters/Character/Traveler/Geo/TravelerGeo';
 import TravelerElectro from '../components/Characters/Character/Traveler/Electro/TravelerElectro';
+import Venti from '../components/Characters/Character/Venti/Venti';
+import Xiangling from '../components/Characters/Character/Xiangling/Xiangling';
+import Xiao from '../components/Characters/Character/Xiao/Xiao';
+import Xingqiu from '../components/Characters/Character/Xingqiu/Xingqiu';
+import Xinyan from '../components/Characters/Character/Xinyan/Xinyan';
+import Yanfei from '../components/Characters/Character/Yanfei/Yanfei';
+import Yoimiya from '../components/Characters/Character/Yoimiya/Yoimiya';
+import Zhongli from '../components/Characters/Character/Zhongli/Zhongli';
 
 const characters = () => {
 	// const { url, path } = useRouteMatch;
@@ -109,6 +117,14 @@ const characters = () => {
 					path='/characters/Traveler_Electro'
 					component={TravelerElectro}
 				/>
+				<Route exact path='/characters/Venti' component={Venti} />
+				<Route exact path='/characters/Xiangling' component={Xiangling} />
+				<Route exact path='/characters/Xiao' component={Xiao} />
+				<Route exact path='/characters/Xingqiu' component={Xingqiu} />
+				<Route exact path='/characters/Xinyan' component={Xinyan} />
+				<Route exact path='/characters/Yanfei' component={Yanfei} />
+				<Route exact path='/characters/Yoimiya' component={Yoimiya} />
+				<Route exact path='/characters/Zhongli' component={Zhongli} />
 			</Switch>
 		</Router>
 	);

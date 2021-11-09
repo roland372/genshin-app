@@ -1,0 +1,870 @@
+{
+  "name":"Xinyan",
+  "avatar": "images/Characters/Liyue/Xinyan/images/Character_Xinyan_Avatar.png",
+  "title":"Blazing Riff",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Pyro",
+  "elementImage": "images/Elements/Element_Pyro.png",
+  "weapon":"Claymore",
+  "weaponImage": "images/Weapon icons/Weapon-class-claymore-icon.png",
+  "sex":"Female",
+  "birthday":"October 16th",
+  "constellation":"Fila Ignium",
+  "nation":"Liyue",
+  "affiliation":"Liyue Harbor",
+  "specialDish":"Rockin' Riffin' Chicken!",
+  "description":"Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",
+  "talentBook":"Teachings of Gold",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Gold/Item_Teachings_of_Gold.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Liyue/Item_Violetgrass.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+  "ascensionStat": "ATK%",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Violetgrass",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Violetgrass.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Treasure Hoarder Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Violetgrass",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Violetgrass.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Treasure Hoarder Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Violetgrass",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Violetgrass.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Silver Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Violetgrass",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Violetgrass.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Silver Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Violetgrass",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Violetgrass.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Golden Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Everflame Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Violetgrass",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Violetgrass.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Golden Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 939,
+      "ATK": 21,
+      "DEF": 67,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2413,
+      "ATK": 54,
+      "DEF": 172,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3114,
+      "ATK": 69,
+      "DEF": 222,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 4665,
+      "ATK": 103,
+      "DEF": 333,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5163,
+      "ATK": 115,
+      "DEF": 368,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5939,
+      "ATK": 132,
+      "DEF": 423,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 6604,
+      "ATK": 147,
+      "DEF": 471,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 7379,
+      "ATK": 164,
+      "DEF": 526,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 7878,
+      "ATK": 175,
+      "DEF": 562,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 8653,
+      "ATK": 192,
+      "DEF": 617,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 9151,
+      "ATK": 203,
+      "DEF": 652,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 9927,
+      "ATK": 220,
+      "DEF": 708,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 10425,
+      "ATK": 231,
+      "DEF": 743,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 11201,
+      "ATK": 249,
+      "DEF": 799,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Dance on Fire",
+      "image": "images/Characters/Liyue/Xinyan/talents/Talent_Dance_on_Fire.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "76.5%",
+          "2": "82.8%",
+          "3": "89%",
+          "4": "97.9%",
+          "5": "104.1%",
+          "6": "111.2%",
+          "7": "121%",
+          "8": "130.8%",
+          "9": "140.6%",
+          "10": "151.3%",
+          "11": "162%",
+          "12": "172.7%",
+          "13": "183.3%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "74%",
+          "2": "80%",
+          "3": "86%",
+          "4": "94.6%",
+          "5": "100.6%",
+          "6": "107.5%",
+          "7": "117%",
+          "8": "126.4%",
+          "9": "135.9%",
+          "10": "146.2%",
+          "11": "156.5%",
+          "12": "166.8%",
+          "13": "177.2%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "95.5%",
+          "2": "103.2%",
+          "3": "111%",
+          "4": "122.1%",
+          "5": "129.9%",
+          "6": "138.8%",
+          "7": "151%",
+          "8": "163.2%",
+          "9": "175.4%",
+          "10": "188.7%",
+          "11": "202%",
+          "12": "215.3%",
+          "13": "228.7%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "115.8%",
+          "2": "125.3%",
+          "3": "134.7%",
+          "4": "148.2%",
+          "5": "157.6%",
+          "6": "168.4%",
+          "7": "183.2%",
+          "8": "198%",
+          "9": "212.8%",
+          "10": "229%",
+          "11": "245.2%",
+          "12": "261.3%",
+          "13": "277.5%"
+        },
+        {
+          "LVL": "Charged Attack Spinning DMG",
+          "1": "62.5%",
+          "2": "67.6%",
+          "3": "72.7%",
+          "4": "80%",
+          "5": "85.1%",
+          "6": "90.9%",
+          "7": "98.9%",
+          "8": "106.9%",
+          "9": "114.9%",
+          "10": "123.6%",
+          "11": "132.4%",
+          "12": "141.1%",
+          "13": "149.8%"
+        },
+        {
+          "LVL": "Charged Attack Final DMG",
+          "1": "113%",
+          "2": "122%",
+          "3": "132%",
+          "4": "145%",
+          "5": "154%",
+          "6": "164%",
+          "7": "179%",
+          "8": "193%",
+          "9": "208%",
+          "10": "224%",
+          "11": "239%",
+          "12": "255%",
+          "13": "271%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "40/s",
+          "2": "40/s",
+          "3": "40/s",
+          "4": "40/s",
+          "5": "40/s",
+          "6": "40/s",
+          "7": "40/s",
+          "8": "40/s",
+          "9": "40/s",
+          "10": "40/s",
+          "11": "40/s",
+          "12": "40/s",
+          "13": "40/s"
+        },
+        {
+          "LVL": "Max Duration",
+          "1": "5s",
+          "2": "5s",
+          "3": "5s",
+          "4": "5s",
+          "5": "5s",
+          "6": "5s",
+          "7": "5s",
+          "8": "5s",
+          "9": "5s",
+          "10": "5s",
+          "11": "5s",
+          "12": "5s",
+          "13": "5s"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "74.6%",
+          "2": "80.7%",
+          "3": "86.7%",
+          "4": "95.4%",
+          "5": "101.5%",
+          "6": "108.4%",
+          "7": "118%",
+          "8": "127.5%",
+          "9": "137%",
+          "10": "147.4%",
+          "11": "157.8%",
+          "12": "168.3%",
+          "13": "178.7%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "149% /186%",
+          "2": "161% /201%",
+          "3": "173% /217%",
+          "4": "191% /238%",
+          "5": "203% /253%",
+          "6": "217% /271%",
+          "7": "236% /295%",
+          "8": "255% /318%",
+          "9": "274% /342%",
+          "10": "295% /368%",
+          "11": "316% /394%",
+          "12": "336% /420%",
+          "13": "357% /446%"
+        }
+       ]
+    },
+    {
+      "name":"Sweeping Fervor",
+      "image": "images/Characters/Liyue/Xinyan/talents/Talent_Sweeping_Fervor.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Swing DMG",
+          "1": "170%",
+          "2": "182%",
+          "3": "195%",
+          "4": "212%",
+          "5": "225%",
+          "6": "237%",
+          "7": "254%",
+          "8": "271%",
+          "9": "288%",
+          "10": "305%",
+          "11": "322%",
+          "12": "339%",
+          "13": "360%"
+        },
+        {
+          "LVL": "Shield Level 1 DMG Absorption",
+          "1": "104% DEF +501",
+          "2": "111.8% DEF +551",
+          "3": "119.6% DEF +605",
+          "4": "130.1% DEF +663",
+          "5": "137.9% DEF +726",
+          "6": "145.7% DEF +793",
+          "7": "156.1% DEF +864",
+          "8": "166.5% DEF +939",
+          "9": "176.9% DEF +1018",
+          "10": "187.3% DEF +1101",
+          "11": "197.7% DEF +1189",
+          "12": "208.1% DEF +1281",
+          "13": "221.1% DEF +1377"
+        },
+        {
+          "LVL": "Shield Level 2 DMG Absorption",
+          "1": "122.4% DEF +589",
+          "2": "131.6% DEF +648",
+          "3": "140.8% DEF +712",
+          "4": "153% DEF +780",
+          "5": "162.2% DEF +854",
+          "6": "171.4% DEF +932",
+          "7": "183.6% DEF +1016",
+          "8": "195.8% DEF +1104",
+          "9": "208.1% DEF +1197",
+          "10": "220.3% DEF +1296",
+          "11": "232.6% DEF +1399",
+          "12": "244.8% DEF +1507",
+          "13": "260.1% DEF +1620"
+        },
+        {
+          "LVL": "Shield Level 3 DMG Absorption",
+          "1": "144% DEF +693",
+          "2": "154.8% DEF +762",
+          "3": "165.6% DEF +837",
+          "4": "180% DEF +918",
+          "5": "190.8% DEF +1005",
+          "6": "201.6% DEF +1097",
+          "7": "216% DEF +1195",
+          "8": "230.4% DEF +1299",
+          "9": "244.8% DEF +1409",
+          "10": "259.2% DEF +1524",
+          "11": "273.6% DEF +1646",
+          "12": "288% DEF +1773",
+          "13": "306% DEF +1905"
+        },
+        {
+          "LVL": "DoT",
+          "1": "33.6%",
+          "2": "36.1%",
+          "3": "38.6%",
+          "4": "42%",
+          "5": "44.5%",
+          "6": "47%",
+          "7": "50.4%",
+          "8": "53.8%",
+          "9": "57.1%",
+          "10": "60.5%",
+          "11": "63.8%",
+          "12": "67.2%",
+          "13": "71.4%"
+        },
+        {
+          "LVL": "Shield Duration",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        },
+        {
+          "LVL": "CD",
+          "1": "18s",
+          "2": "18s",
+          "3": "18s",
+          "4": "18s",
+          "5": "18s",
+          "6": "18s",
+          "7": "18s",
+          "8": "18s",
+          "9": "18s",
+          "10": "18s",
+          "11": "18s",
+          "12": "18s",
+          "13": "18s"
+        }
+       ]
+    },
+    {
+      "name":"Riff Revolution",
+      "image": "images/Characters/Liyue/Xinyan/talents/Talent_Riff_Revolution.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "341%",
+          "2": "366%",
+          "3": "392%",
+          "4": "426%",
+          "5": "452%",
+          "6": "477%",
+          "7": "511%",
+          "8": "545%",
+          "9": "579%",
+          "10": "613%",
+          "11": "648%",
+          "12": "682%",
+          "13": "724%"
+        },
+        {
+          "LVL": "Pyro DoT",
+          "1": "40%",
+          "2": "43%",
+          "3": "46%",
+          "4": "50%",
+          "5": "53%",
+          "6": "56%",
+          "7": "60%",
+          "8": "64%",
+          "9": "68%",
+          "10": "72%",
+          "11": "76%",
+          "12": "80%",
+          "13": "85%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "2s",
+          "2": "2s",
+          "3": "2s",
+          "4": "2s",
+          "5": "2s",
+          "6": "2s",
+          "7": "2s",
+          "8": "2s",
+          "9": "2s",
+          "10": "2s",
+          "11": "2s",
+          "12": "2s",
+          "13": "2s"
+        },
+        {
+          "LVL": "CD",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "60",
+          "2": "60",
+          "3": "60",
+          "4": "60",
+          "5": "60",
+          "6": "60",
+          "7": "60",
+          "8": "60",
+          "9": "60",
+          "10": "60",
+          "11": "60",
+          "12": "60",
+          "13": "60"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"The Show Goes On, Even Without an Audience...",
+      "image": "images/Characters/Liyue/Xinyan/talents/Talent__The_Show_Goes_On,_Even_Without_an_Audience..._.png",
+      "description":""
+    },
+    {
+      "name":"...Now That's Rock 'N' Roll!",
+      "image": "images/Characters/Liyue/Xinyan/talents/Talent__...Now_That's_Rock_'N'_Roll!_.png",
+      "description":""
+    },
+    {
+      "name":"A Rad Recipe",
+      "image": "images/Characters/Liyue/Xinyan/talents/Talent_A_Rad_Recipe.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Teachings_of_Gold.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tusk_of_Monoceros_Caeli.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tusk_of_Monoceros_Caeli.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tusk_of_Monoceros_Caeli.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tusk_of_Monoceros_Caeli.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Fatal Acceleration",
+      "image": "images/Characters/Liyue/Xinyan/constellations/Constellation_Fatal_Acceleration.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Impromptu Opening",
+      "image": "images/Characters/Liyue/Xinyan/constellations/Constellation_Impromptu_Opening.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Double-Stop",
+      "image": "images/Characters/Liyue/Xinyan/constellations/Constellation_Double-Stop.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Wildfire Rhythm",
+      "image": "images/Characters/Liyue/Xinyan/constellations/Constellation_Wildfire_Rhythm.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Screamin' for an Encore",
+      "image": "images/Characters/Liyue/Xinyan/constellations/Constellation_Screamin'_for_an_Encore.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Rockin' in a Flaming World",
+      "image": "images/Characters/Liyue/Xinyan/constellations/Constellation_Rockin'_in_a_Flaming_World.png",
+      "description":""
+    }
+  ]
+}
+
+

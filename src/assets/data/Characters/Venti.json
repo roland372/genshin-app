@@ -1,0 +1,822 @@
+{
+  "name":"Venti",
+  "avatar": "images/Characters/mondstadt/Venti/images/Character_Venti_Avatar.png",
+  "title":"Windborne Bard",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Anemo",
+  "elementImage": "images/Elements/Element_Anemo.png",
+  "weapon":"Bow",
+  "weaponImage": "images/Weapon icons/Weapon-class-bow-icon.png",
+  "sex":"Male",
+  "birthday":"June 16th",
+  "constellation":"Carmen Dei",
+  "nation":"Mondstadt",
+  "affiliation":"City of Mondstadt, Archons",
+  "specialDish":"A Buoyant Breeze",
+  "description":"One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
+  "talentBook":"Teachings of Ballad",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Ballad/Item_Teachings_of_Ballad.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Mondstadt/Item_Cecilia.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+  "ascensionStat": "Energy Recharge",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Cecilia",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Cecilia.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Slime Condensate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Hurricane Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Cecilia",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Cecilia.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Slime Condensate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hurricane Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Cecilia",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Cecilia.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Slime Secretions",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Hurricane Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Cecilia",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Cecilia.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Slime Secretions",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hurricane Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Cecilia",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Cecilia.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Slime Concentrate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hurricane Seed",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hurricane_Seed.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Cecilia",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Cecilia.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Slime Concentrate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 820,
+      "ATK": 20,
+      "DEF": 52,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2127,
+      "ATK": 53,
+      "DEF": 135,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2830,
+      "ATK": 71,
+      "DEF": 180,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 4234,
+      "ATK": 106,
+      "DEF": 269,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4734,
+      "ATK": 118,
+      "DEF": 301,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "8%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5446,
+      "ATK": 136,
+      "DEF": 346,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "8%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 6112,
+      "ATK": 153,
+      "DEF": 388,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "16%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 6832,
+      "ATK": 171,
+      "DEF": 434,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "16%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 7331,
+      "ATK": 183,
+      "DEF": 465,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "16%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 8058,
+      "ATK": 201,
+      "DEF": 512,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "16%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 8557,
+      "ATK": 214,
+      "DEF": 543,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 9292,
+      "ATK": 232,
+      "DEF": 590,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 9791,
+      "ATK": 245,
+      "DEF": 622,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "32%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 10531,
+      "ATK": 263,
+      "DEF": 669,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "32%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Divine Marksmanship",
+      "image": "images/Characters/mondstadt/Venti/talents/Talent_Divine_Marksmanship.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "20.4% +20.4%",
+          "2": "22% +22%",
+          "3": "23.7% +23.7%",
+          "4": "26.1% +26.1%",
+          "5": "27.7% +27.7%",
+          "6": "29.6% +29.6%",
+          "7": "32.2% +32.2%",
+          "8": "34.8% +34.8%",
+          "9": "37.4% +37.4%",
+          "10": "40.3% +40.3%",
+          "11": "43.5% +43.5%",
+          "12": "47.4% +47.4%",
+          "13": "51.2% +51.2%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "44.4%",
+          "2": "48%",
+          "3": "51.6%",
+          "4": "56.8%",
+          "5": "60.4%",
+          "6": "64.5%",
+          "7": "70.2%",
+          "8": "75.9%",
+          "9": "81.5%",
+          "10": "87.7%",
+          "11": "94.8%",
+          "12": "103.2%",
+          "13": "111.5%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "52.4%",
+          "2": "56.6%",
+          "3": "60.9%",
+          "4": "67%",
+          "5": "71.3%",
+          "6": "76.1%",
+          "7": "82.8%",
+          "8": "89.5%",
+          "9": "96.2%",
+          "10": "103.5%",
+          "11": "111.9%",
+          "12": "121.8%",
+          "13": "131.6%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "26.1% +26.1%",
+          "2": "28.2% +28.2%",
+          "3": "30.3% +30.3%",
+          "4": "33.3% +33.3%",
+          "5": "35.5% +35.5%",
+          "6": "37.9% +37.9%",
+          "7": "41.2% +41.2%",
+          "8": "44.5% +44.5%",
+          "9": "47.9% +47.9%",
+          "10": "51.5% +51.5%",
+          "11": "55.7% +55.7%",
+          "12": "60.6% +60.6%",
+          "13": "65.5% +65.5%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "50.7%",
+          "2": "54.8%",
+          "3": "58.9%",
+          "4": "64.8%",
+          "5": "68.9%",
+          "6": "73.6%",
+          "7": "80.1%",
+          "8": "86.6%",
+          "9": "93.1%",
+          "10": "100.1%",
+          "11": "108.2%",
+          "12": "117.8%",
+          "13": "127.3%"
+        },
+        {
+          "LVL": "6-Hit DMG",
+          "1": "71%",
+          "2": "76.7%",
+          "3": "82.5%",
+          "4": "90.8%",
+          "5": "96.5%",
+          "6": "103.1%",
+          "7": "112.2%",
+          "8": "121.3%",
+          "9": "130.4%",
+          "10": "140.3%",
+          "11": "151.6%",
+          "12": "164.9%",
+          "13": "178.3%"
+        },
+        {
+          "LVL": "Aimed Shot",
+          "1": "43.9%",
+          "2": "47.4%",
+          "3": "51%",
+          "4": "56.1%",
+          "5": "59.7%",
+          "6": "63.7%",
+          "7": "69.4%",
+          "8": "75%",
+          "9": "80.6%",
+          "10": "86.7%",
+          "11": "93.7%",
+          "12": "102%",
+          "13": "110.2%"
+        },
+        {
+          "LVL": "Fully-Charged Aimed Shot",
+          "1": "124%",
+          "2": "133%",
+          "3": "143%",
+          "4": "155%",
+          "5": "164%",
+          "6": "174%",
+          "7": "186%",
+          "8": "198%",
+          "9": "211%",
+          "10": "223%",
+          "11": "236%",
+          "12": "253%",
+          "13": "270%"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "56.8%",
+          "2": "61.5%",
+          "3": "66.1%",
+          "4": "72.7%",
+          "5": "77.3%",
+          "6": "82.6%",
+          "7": "89.9%",
+          "8": "97.1%",
+          "9": "104.4%",
+          "10": "112.3%",
+          "11": "120.3%",
+          "12": "128.2%",
+          "13": "136.1%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "114% /142%",
+          "2": "123% /153%",
+          "3": "132% /165%",
+          "4": "145% /182%",
+          "5": "155% /193%",
+          "6": "165% /206%",
+          "7": "180% /224%",
+          "8": "194% /243%",
+          "9": "209% /261%",
+          "10": "225% /281%",
+          "11": "240% /300%",
+          "12": "256% /320%",
+          "13": "272% /340%"
+        }
+       ]
+    },
+    {
+      "name":"Skyward Sonnet",
+      "image": "images/Characters/mondstadt/Venti/talents/Talent_Skyward_Sonnet.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Press DMG",
+          "1": "276%",
+          "2": "297%",
+          "3": "317%",
+          "4": "345%",
+          "5": "366%",
+          "6": "386%",
+          "7": "414%",
+          "8": "442%",
+          "9": "469%",
+          "10": "497%",
+          "11": "524%",
+          "12": "552%",
+          "13": "586%"
+        },
+        {
+          "LVL": "Press CD",
+          "1": "6s",
+          "2": "6s",
+          "3": "6s",
+          "4": "6s",
+          "5": "6s",
+          "6": "6s",
+          "7": "6s",
+          "8": "6s",
+          "9": "6s",
+          "10": "6s",
+          "11": "6s",
+          "12": "6s",
+          "13": "6s"
+        },
+        {
+          "LVL": "Hold DMG",
+          "1": "380%",
+          "2": "409%",
+          "3": "437%",
+          "4": "475%",
+          "5": "503%",
+          "6": "532%",
+          "7": "570%",
+          "8": "608%",
+          "9": "646%",
+          "10": "684%",
+          "11": "722%",
+          "12": "760%",
+          "13": "807%"
+        },
+        {
+          "LVL": "CD (hold)",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        }
+       ]
+    },
+    {
+      "name":"Wind's Grand Ode",
+      "image": "images/Characters/mondstadt/Venti/talents/Talent_Wind's_Grand_Ode.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "DoT",
+          "1": "37.6%",
+          "2": "40.4%",
+          "3": "43.2%",
+          "4": "47%",
+          "5": "49.8%",
+          "6": "52.6%",
+          "7": "56.4%",
+          "8": "60.2%",
+          "9": "63.9%",
+          "10": "67.7%",
+          "11": "71.4%",
+          "12": "75.2%",
+          "13": "79.9%"
+        },
+        {
+          "LVL": "Additional Elemental DMG",
+          "1": "18.8%",
+          "2": "20.2%",
+          "3": "21.6%",
+          "4": "23.5%",
+          "5": "24.9%",
+          "6": "26.3%",
+          "7": "28.2%",
+          "8": "30.1%",
+          "9": "32%",
+          "10": "33.8%",
+          "11": "35.7%",
+          "12": "37.6%",
+          "13": "40%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "8s",
+          "2": "8s",
+          "3": "8s",
+          "4": "8s",
+          "5": "8s",
+          "6": "8s",
+          "7": "8s",
+          "8": "8s",
+          "9": "8s",
+          "10": "8s",
+          "11": "8s",
+          "12": "8s",
+          "13": "8s"
+        },
+        {
+          "LVL": "CD",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "60",
+          "2": "60",
+          "3": "60",
+          "4": "60",
+          "5": "60",
+          "6": "60",
+          "7": "60",
+          "8": "60",
+          "9": "60",
+          "10": "60",
+          "11": "60",
+          "12": "60",
+          "13": "60"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Embrace of Winds",
+      "image": "images/Characters/mondstadt/Venti/talents/Talent_Embrace_of_Winds.png",
+      "description":""
+    },
+    {
+      "name":"Stormeye",
+      "image": "images/Characters/mondstadt/Venti/talents/Talent_Stormeye.png",
+      "description":""
+    },
+    {
+      "name":"Windrider",
+      "image": "images/Characters/mondstadt/Venti/talents/Talent_Windrider.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Teachings_of_Ballad.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tail_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tail_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tail_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tail_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Splitting Gales",
+      "image": "images/Characters/mondstadt/Venti/constellations/Constellation_Splitting_Gales.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Breeze of Reminiscence",
+      "image": "images/Characters/mondstadt/Venti/constellations/Constellation_Breeze_of_Reminiscence.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Ode to Thousand Winds",
+      "image": "images/Characters/mondstadt/Venti/constellations/Constellation_Ode_to_Thousand_Winds.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Hurricane of Freedom",
+      "image": "images/Characters/mondstadt/Venti/constellations/Constellation_Hurricane_of_Freedom.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Concerto dal Cielo",
+      "image": "images/Characters/mondstadt/Venti/constellations/Constellation_Concerto_dal_Cielo.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Storm of Defiance",
+      "image": "images/Characters/mondstadt/Venti/constellations/Constellation_Storm_of_Defiance.png",
+      "description":""
+    }
+  ]
+}
+
+

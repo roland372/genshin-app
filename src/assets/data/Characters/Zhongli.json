@@ -1,0 +1,856 @@
+{
+  "name":"Zhongli",
+  "avatar": "images/Characters/Liyue/Zhongli/images/Character_Zhongli_Avatar.png",
+  "title":"Vago Mundo",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Geo",
+  "elementImage": "images/Elements/Element_Geo.png",
+  "weapon":"Polearm",
+  "weaponImage": "images/Weapon icons/Weapon-class-polearm-icon.png",
+  "sex":"Male",
+  "birthday":"December 31st",
+  "constellation":"Lapis Dei",
+  "nation":"Liyue",
+  "affiliation":"Liyue Harbor, Wangsheng Funeral Parlor, Archons, Adepti",
+  "specialDish":"Slow-Cooked Bamboo Shoot Soup",
+  "description":"A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+  "talentBook":"Teachings of Gold",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Gold/Item_Teachings_of_Gold.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+  "ascensionStat": "Geo DMG Bonus",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Slime Condensate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Slime Condensate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Slime Secretions",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Slime Secretions",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Slime Concentrate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Basalt Pillar",
+       "image": "images/Materials/Character Materials/Ascension/Item_Basalt_Pillar.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Cor Lapis",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Cor_Lapis.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Slime Concentrate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1144,
+      "ATK": 20,
+      "DEF": 57,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2967,
+      "ATK": 51,
+      "DEF": 149,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3948,
+      "ATK": 67,
+      "DEF": 198,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 5908,
+      "ATK": 101,
+      "DEF": 297,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 6605,
+      "ATK": 113,
+      "DEF": 332,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "7.2%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 7599,
+      "ATK": 130,
+      "DEF": 382,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "7.2%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 8528,
+      "ATK": 146,
+      "DEF": 428,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.4%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 9533,
+      "ATK": 163,
+      "DEF": 479,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.4%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 10230,
+      "ATK": 175,
+      "DEF": 514,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.4%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 11243,
+      "ATK": 192,
+      "DEF": 564,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.4%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 11940,
+      "ATK": 204,
+      "DEF": 599,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "21.6%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 12965,
+      "ATK": 222,
+      "DEF": 651,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "21.6%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 13662,
+      "ATK": 233,
+      "DEF": 686,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "28.8%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 14695,
+      "ATK": 251,
+      "DEF": 738,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "28.8%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Rain of Stone",
+      "image": "images/Characters/Liyue/Zhongli/talents/Talent_Rain_of_Stone.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "30.8%",
+          "2": "33.3%",
+          "3": "35.8%",
+          "4": "39.4%",
+          "5": "41.9%",
+          "6": "44.7%",
+          "7": "48.7%",
+          "8": "52.6%",
+          "9": "56.5%",
+          "10": "60.8%",
+          "11": "65.7%",
+          "12": "71.5%",
+          "13": "77.3%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "31.2%",
+          "2": "33.7%",
+          "3": "36.2%",
+          "4": "39.8%",
+          "5": "42.4%",
+          "6": "45.3%",
+          "7": "49.3%",
+          "8": "53.2%",
+          "9": "57.2%",
+          "10": "61.6%",
+          "11": "66.6%",
+          "12": "72.4%",
+          "13": "78.3%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "38.6%",
+          "2": "41.7%",
+          "3": "44.9%",
+          "4": "49.3%",
+          "5": "52.5%",
+          "6": "56.1%",
+          "7": "61%",
+          "8": "65.9%",
+          "9": "70.9%",
+          "10": "76.3%",
+          "11": "82.4%",
+          "12": "89.7%",
+          "13": "96.9%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "42.9%",
+          "2": "46.4%",
+          "3": "49.9%",
+          "4": "54.9%",
+          "5": "58.4%",
+          "6": "62.4%",
+          "7": "67.9%",
+          "8": "73.4%",
+          "9": "78.9%",
+          "10": "84.9%",
+          "11": "91.7%",
+          "12": "99.8%",
+          "13": "107.9%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "10.8%×4",
+          "2": "11.6%×4",
+          "3": "12.5%×4",
+          "4": "13.8%×4",
+          "5": "14.6%×4",
+          "6": "15.6%×4",
+          "7": "17%×4",
+          "8": "18.4%×4",
+          "9": "19.8%×4",
+          "10": "21.3%×4",
+          "11": "23%×4",
+          "12": "25%×4",
+          "13": "27%×4"
+        },
+        {
+          "LVL": "6-Hit DMG",
+          "1": "54.5%",
+          "2": "58.9%",
+          "3": "63.4%",
+          "4": "69.7%",
+          "5": "74.1%",
+          "6": "79.2%",
+          "7": "86.2%",
+          "8": "93.2%",
+          "9": "100.1%",
+          "10": "107.7%",
+          "11": "116.4%",
+          "12": "126.7%",
+          "13": "136.9%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "111%",
+          "2": "120%",
+          "3": "129%",
+          "4": "142%",
+          "5": "151%",
+          "6": "161%",
+          "7": "176%",
+          "8": "190%",
+          "9": "204%",
+          "10": "219%",
+          "11": "237%",
+          "12": "258%",
+          "13": "279%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "25",
+          "2": "25",
+          "3": "25",
+          "4": "25",
+          "5": "25",
+          "6": "25",
+          "7": "25",
+          "8": "25",
+          "9": "25",
+          "10": "25",
+          "11": "25",
+          "12": "25",
+          "13": "25"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "63.9%",
+          "2": "69.1%",
+          "3": "74.3%",
+          "4": "81.8%",
+          "5": "87%",
+          "6": "92.9%",
+          "7": "101.1%",
+          "8": "109.3%",
+          "9": "117.5%",
+          "10": "126.4%",
+          "11": "135.3%",
+          "12": "144.2%",
+          "13": "153.1%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "128% /160%",
+          "2": "138% /173%",
+          "3": "149% /186%",
+          "4": "164% /204%",
+          "5": "174% /217%",
+          "6": "186% /232%",
+          "7": "202% /253%",
+          "8": "219% /273%",
+          "9": "235% /293%",
+          "10": "253% /316%",
+          "11": "271% /338%",
+          "12": "288% /360%",
+          "13": "306% /382%"
+        }
+       ]
+    },
+    {
+      "name":"Dominus Lapidis",
+      "image": "images/Characters/Liyue/Zhongli/talents/Talent_Dominus_Lapidis.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Stone Stele/Resonance DMG",
+          "1": "16% /32%",
+          "2": "17.2% /34.4%",
+          "3": "18.4% /36.8%",
+          "4": "20% /40%",
+          "5": "21.2% /42.4%",
+          "6": "22.4% /44.8%",
+          "7": "24% /48%",
+          "8": "25.6% /51.2%",
+          "9": "27.2% /54.4%",
+          "10": "28.8% /57.6%",
+          "11": "30.4% /60.8%",
+          "12": "32% /64%",
+          "13": "34% /68%"
+        },
+        {
+          "LVL": "Press CD",
+          "1": "4s",
+          "2": "4s",
+          "3": "4s",
+          "4": "4s",
+          "5": "4s",
+          "6": "4s",
+          "7": "4s",
+          "8": "4s",
+          "9": "4s",
+          "10": "4s",
+          "11": "4s",
+          "12": "4s",
+          "13": "4s"
+        },
+        {
+          "LVL": "Hold DMG",
+          "1": "80%",
+          "2": "86%",
+          "3": "92%",
+          "4": "100%",
+          "5": "106%",
+          "6": "112%",
+          "7": "120%",
+          "8": "128%",
+          "9": "136%",
+          "10": "144%",
+          "11": "152%",
+          "12": "160%",
+          "13": "170%"
+        },
+        {
+          "LVL": "Shield Base Absorption",
+          "1": "1232",
+          "2": "1356",
+          "3": "1489",
+          "4": "1633",
+          "5": "1787",
+          "6": "1951",
+          "7": "2126",
+          "8": "2311",
+          "9": "2506",
+          "10": "2712",
+          "11": "2927",
+          "12": "3153",
+          "13": "3389"
+        },
+        {
+          "LVL": "Additional Shield Absorption",
+          "1": "12.8% Max HP",
+          "2": "13.8% Max HP",
+          "3": "14.7% Max HP",
+          "4": "16% Max HP",
+          "5": "17% Max HP",
+          "6": "17.9% Max HP",
+          "7": "19.2% Max HP",
+          "8": "20.5% Max HP",
+          "9": "21.8% Max HP",
+          "10": "23% Max HP",
+          "11": "24.3% Max HP",
+          "12": "25.6% Max HP",
+          "13": "27.2% Max HP"
+        },
+        {
+          "LVL": "Shield Duration",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        },
+        {
+          "LVL": "CD (hold)",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        }
+       ]
+    },
+    {
+      "name":"Planet Befall",
+      "image": "images/Characters/Liyue/Zhongli/talents/Talent_Planet_Befall.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "401%",
+          "2": "444%",
+          "3": "488%",
+          "4": "542%",
+          "5": "591%",
+          "6": "640%",
+          "7": "705%",
+          "8": "770%",
+          "9": "835%",
+          "10": "900%",
+          "11": "965%",
+          "12": "1030%",
+          "13": "1084%"
+        },
+        {
+          "LVL": "Petrification Duration",
+          "1": "3.1s",
+          "2": "3.2s",
+          "3": "3.3s",
+          "4": "3.4s",
+          "5": "3.5s",
+          "6": "3.6s",
+          "7": "3.7s",
+          "8": "3.8s",
+          "9": "3.9s",
+          "10": "4s",
+          "11": "4s",
+          "12": "4s",
+          "13": "4s"
+        },
+        {
+          "LVL": "CD",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "40",
+          "2": "40",
+          "3": "40",
+          "4": "40",
+          "5": "40",
+          "6": "40",
+          "7": "40",
+          "8": "40",
+          "9": "40",
+          "10": "40",
+          "11": "40",
+          "12": "40",
+          "13": "40"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Resonant Waves",
+      "image": "images/Characters/Liyue/Zhongli/talents/Talent_Resonant_Waves.png",
+      "description":""
+    },
+    {
+      "name":"Dominance of Earth",
+      "image": "images/Characters/Liyue/Zhongli/talents/Talent_Dominance_of_Earth.png",
+      "description":""
+    },
+    {
+      "name":"Arcanum of Crystal",
+      "image": "images/Characters/Liyue/Zhongli/talents/Talent_Arcanum_of_Crystal.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Teachings_of_Gold.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tusk_of_Monoceros_Caeli.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tusk_of_Monoceros_Caeli.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tusk_of_Monoceros_Caeli.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tusk_of_Monoceros_Caeli.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Rock, the Backbone of Earth",
+      "image": "images/Characters/Liyue/Zhongli/constellations/Constellation_Rock,_the_Backbone_of_Earth.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Stone, the Cradle of Jade",
+      "image": "images/Characters/Liyue/Zhongli/constellations/Constellation_Stone,_the_Cradle_of_Jade.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Jade, Shimmering through Darkness",
+      "image": "images/Characters/Liyue/Zhongli/constellations/Constellation_Jade,_Shimmering_through_Darkness.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Topaz, Unbreakable and Fearless",
+      "image": "images/Characters/Liyue/Zhongli/constellations/Constellation_Topaz,_Unbreakable_and_Fearless.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Lazuli, Herald of the Order",
+      "image": "images/Characters/Liyue/Zhongli/constellations/Constellation_Lazuli,_Herald_of_the_Order.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Chrysos, Bounty of Dominator",
+      "image": "images/Characters/Liyue/Zhongli/constellations/Constellation_Chrysos,_Bounty_of_Dominator.png",
+      "description":""
+    }
+  ]
+}
+
+
+
+

@@ -1,0 +1,792 @@
+{
+  "name":"Yoimiya",
+  "avatar": "images/Characters/Inazuma/Yoimiya/images/Character_Yoimiya_Avatar.png",
+  "title":"Frolicking Flames",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Pyro",
+  "elementImage": "images/Elements/Element_Pyro.png",
+  "weapon":"Bow",
+  "weaponImage": "images/Weapon icons/Weapon-class-bow-icon.png",
+  "sex":"Female",
+  "birthday":"June 21st",
+  "constellation":"Carassius Auratus",
+  "nation":"Inazuma",
+  "affiliation":"Naganohara Fireworks",
+  "specialDish":"Summer Festival Fish",
+  "description":"Owner of Naganohara Fireworks. Known as Queen of the Summer Festival, she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+  "talentBook":"Teachings of Transience",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Transience/Item_Teachings_of_Transience.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Smoldering_Pearl.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Inazuma/Item_Naku_Weed.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
+  "ascensionStat": "",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Naku Weed",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Naku_Weed.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Divining Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Smoldering Pearl",
+       "image": "images/Materials/Character Materials/Ascension/Item_Smoldering_Pearl.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Naku Weed",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Naku_Weed.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Divining Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Smoldering Pearl",
+       "image": "images/Materials/Character Materials/Ascension/Item_Smoldering_Pearl.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Naku Weed",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Naku_Weed.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Sealed Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Smoldering Pearl",
+       "image": "images/Materials/Character Materials/Ascension/Item_Smoldering_Pearl.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Naku Weed",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Naku_Weed.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Sealed Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Smoldering Pearl",
+       "image": "images/Materials/Character Materials/Ascension/Item_Smoldering_Pearl.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Naku Weed",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Naku_Weed.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Forbidden Curse Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Smoldering Pearl",
+       "image": "images/Materials/Character Materials/Ascension/Item_Smoldering_Pearl.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Naku Weed",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Naku_Weed.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Forbidden Curse Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 791,
+      "ATK": 25,
+      "DEF": 48,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2053,
+      "ATK": 65,
+      "DEF": 124,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2731,
+      "ATK": 87,
+      "DEF": 165,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 4086,
+      "ATK": 130,
+      "DEF": 247,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4568,
+      "ATK": 145,
+      "DEF": 276,
+      "CRIT Rate": "9.8%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5256,
+      "ATK": 167,
+      "DEF": 318,
+      "CRIT Rate": "9.8%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 5899,
+      "ATK": 187,
+      "DEF": 357,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 6593,
+      "ATK": 209,
+      "DEF": 399,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 7075,
+      "ATK": 225,
+      "DEF": 428,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 7777,
+      "ATK": 247,
+      "DEF": 470,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 8259,
+      "ATK": 262,
+      "DEF": 500,
+      "CRIT Rate": "19.4%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 8968,
+      "ATK": 285,
+      "DEF": 542,
+      "CRIT Rate": "19.4%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 9450,
+      "ATK": 300,
+      "DEF": 572,
+      "CRIT Rate": "24.2%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 10164,
+      "ATK": 323,
+      "DEF": 615,
+      "CRIT Rate": "24.2%",
+      "CRIT DMG": "50%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Firework Flare-Up",
+      "image": "images/Characters/Inazuma/Yoimiya/talents/Talent_Firework_Flare-Up.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "35.6%×2",
+          "2": "38.1%×2",
+          "3": "40.5%×2",
+          "4": "43.7%×2",
+          "5": "46.2%×2",
+          "6": "49%×2",
+          "7": "52.6%×2",
+          "8": "56.3%×2",
+          "9": "59.9%×2",
+          "10": "63.6%×2",
+          "11": "67.2%×2",
+          "12": "70.9%×2",
+          "13": "74.5%×2"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "68.4%",
+          "2": "73%",
+          "3": "77.7%",
+          "4": "83.9%",
+          "5": "88.6%",
+          "6": "94%",
+          "7": "101%",
+          "8": "108%",
+          "9": "115%",
+          "10": "122%",
+          "11": "129%",
+          "12": "136%",
+          "13": "143%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "88.9%",
+          "2": "94.9%",
+          "3": "101%",
+          "4": "109.1%",
+          "5": "115.2%",
+          "6": "122.2%",
+          "7": "131.3%",
+          "8": "140.4%",
+          "9": "149.5%",
+          "10": "158.6%",
+          "11": "167.7%",
+          "12": "176.8%",
+          "13": "185.9%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "46.4%×2",
+          "2": "49.6%×2",
+          "3": "52.7%×2",
+          "4": "57%×2",
+          "5": "60.1%×2",
+          "6": "63.8%×2",
+          "7": "68.6%×2",
+          "8": "73.3%×2",
+          "9": "78.1%×2",
+          "10": "82.8%×2",
+          "11": "87.6%×2",
+          "12": "92.3%×2",
+          "13": "97.1%×2"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "105.9%",
+          "2": "113.1%",
+          "3": "120.3%",
+          "4": "129.9%",
+          "5": "137.1%",
+          "6": "145.6%",
+          "7": "156.4%",
+          "8": "167.2%",
+          "9": "178%",
+          "10": "188.9%",
+          "11": "199.7%",
+          "12": "210.5%",
+          "13": "221.4%"
+        },
+        {
+          "LVL": "Aimed Shot",
+          "1": "43.9%",
+          "2": "47.4%",
+          "3": "51%",
+          "4": "56.1%",
+          "5": "59.7%",
+          "6": "63.7%",
+          "7": "69.4%",
+          "8": "75%",
+          "9": "80.6%",
+          "10": "86.7%",
+          "11": "92.8%",
+          "12": "98.9%",
+          "13": "105.1%"
+        },
+        {
+          "LVL": "Fully-Charged Aimed Shot",
+          "1": "124%",
+          "2": "133%",
+          "3": "143%",
+          "4": "155%",
+          "5": "164%",
+          "6": "174%",
+          "7": "186%",
+          "8": "198%",
+          "9": "211%",
+          "10": "223%",
+          "11": "236%",
+          "12": "248%",
+          "13": "263%"
+        },
+        {
+          "LVL": "Kindling Arrow DMG",
+          "1": "16%",
+          "2": "18%",
+          "3": "19%",
+          "4": "20%",
+          "5": "22%",
+          "6": "23%",
+          "7": "25%",
+          "8": "26%",
+          "9": "28%",
+          "10": "30%",
+          "11": "31%",
+          "12": "33%",
+          "13": "35%"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "56.8%",
+          "2": "61.5%",
+          "3": "66.1%",
+          "4": "72.7%",
+          "5": "77.3%",
+          "6": "82.6%",
+          "7": "89.9%",
+          "8": "97.1%",
+          "9": "104.4%",
+          "10": "112.3%",
+          "11": "120.3%",
+          "12": "128.2%",
+          "13": "136.1%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "114% /142%",
+          "2": "123% /153%",
+          "3": "132% /165%",
+          "4": "145% /182%",
+          "5": "155% /193%",
+          "6": "165% /206%",
+          "7": "180% /224%",
+          "8": "194% /243%",
+          "9": "209% /261%",
+          "10": "225% /281%",
+          "11": "240% /300%",
+          "12": "256% /320%",
+          "13": "272% /340%"
+        }
+       ]
+    },
+    {
+      "name":"Niwabi Fire-Dance",
+      "image": "images/Characters/Inazuma/Yoimiya/talents/Talent_Niwabi_Fire-Dance.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Blazing Arrow DMG",
+          "1": "137.9% Normal Attack DMG",
+          "2": "140.2% Normal Attack DMG",
+          "3": "142.4% Normal Attack DMG",
+          "4": "145.4% Normal Attack DMG",
+          "5": "147.7% Normal Attack DMG",
+          "6": "149.9% Normal Attack DMG",
+          "7": "152.9% Normal Attack DMG",
+          "8": "155.8% Normal Attack DMG",
+          "9": "158.8% Normal Attack DMG",
+          "10": "161.7% Normal Attack DMG",
+          "11": "164.7% Normal Attack DMG",
+          "12": "167.6% Normal Attack DMG",
+          "13": "170.6% Normal Attack DMG"
+        },
+        {
+          "LVL": "Duration",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        },
+        {
+          "LVL": "CD",
+          "1": "18s",
+          "2": "18s",
+          "3": "18s",
+          "4": "18s",
+          "5": "18s",
+          "6": "18s",
+          "7": "18s",
+          "8": "18s",
+          "9": "18s",
+          "10": "18s",
+          "11": "18s",
+          "12": "18s",
+          "13": "18s"
+        }
+       ]
+    },
+    {
+      "name":"Ryuukin Saxifrage",
+      "image": "images/Characters/Inazuma/Yoimiya/talents/Talent_Ryuukin_Saxifrage.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "127%",
+          "2": "137%",
+          "3": "146%",
+          "4": "159%",
+          "5": "169%",
+          "6": "178%",
+          "7": "191%",
+          "8": "204%",
+          "9": "216%",
+          "10": "229%",
+          "11": "242%",
+          "12": "254%",
+          "13": "270%"
+        },
+        {
+          "LVL": "Aurous Blaze Explosion DMG",
+          "1": "122%",
+          "2": "131%",
+          "3": "140%",
+          "4": "152%",
+          "5": "162%",
+          "6": "171%",
+          "7": "183%",
+          "8": "195%",
+          "9": "207%",
+          "10": "220%",
+          "11": "232%",
+          "12": "244%",
+          "13": "259%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        },
+        {
+          "LVL": "CD",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "60",
+          "2": "60",
+          "3": "60",
+          "4": "60",
+          "5": "60",
+          "6": "60",
+          "7": "60",
+          "8": "60",
+          "9": "60",
+          "10": "60",
+          "11": "60",
+          "12": "60",
+          "13": "60"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Tricks of the Trouble-Maker",
+      "image": "images/Characters/Inazuma/Yoimiya/talents/Talent_Tricks_of_the_Trouble-Maker.png",
+      "description":""
+    },
+    {
+      "name":"Summer Night's Dawn",
+      "image": "images/Characters/Inazuma/Yoimiya/talents/Talent_Summer_Night's_Dawn.png",
+      "description":""
+    },
+    {
+      "name":"Blazing Match",
+      "image": "images/Characters/Inazuma/Yoimiya/talents/Talent_Blazing_Match.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Teachings_of_Transience.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Guide_to_Transience.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Guide_to_Transience.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Guide_to_Transience.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Guide_to_Transience.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Philosophies_of_Transience.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dragon_Lord's_Crown.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Philosophies_of_Transience.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dragon_Lord's_Crown.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Philosophies_of_Transience.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dragon_Lord's_Crown.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Philosophies_of_Transience.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dragon_Lord's_Crown.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Agate Ryuukin",
+      "image": "images/Characters/Inazuma/Yoimiya/constellations/Constellation_Agate_Ryuukin.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"A Procession of Bonfires",
+      "image": "images/Characters/Inazuma/Yoimiya/constellations/Constellation_A_Procession_of_Bonfires.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Trickster's Flare",
+      "image": "images/Characters/Inazuma/Yoimiya/constellations/Constellation_Trickster's_Flare.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Pyrotechnic Professional",
+      "image": "images/Characters/Inazuma/Yoimiya/constellations/Constellation_Pyrotechnic_Professional.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"A Summer Festival's Eve",
+      "image": "images/Characters/Inazuma/Yoimiya/constellations/Constellation_A_Summer_Festival's_Eve.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Naganohara Meteor Swarm",
+      "image": "images/Characters/Inazuma/Yoimiya/constellations/Constellation_Naganohara_Meteor_Swarm.png",
+      "description":""
+    }
+  ]
+}
+
+

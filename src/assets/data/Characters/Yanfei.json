@@ -1,0 +1,790 @@
+{
+  "name":"Yanfei",
+  "avatar": "images/Characters/Liyue/Yanfei/images/Character_Yanfei_Avatar.png",
+  "title":"Wise Innocence",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Pyro",
+  "elementImage": "images/Elements/Element_Pyro.png",
+  "weapon":"Catalyst",
+  "weaponImage": "images/Weapon icons/Weapon-class-catalyst-icon.png",
+  "sex":"Female",
+  "birthday":"July 28th",
+  "constellation":"Bestia Iustitia",
+  "nation":"Liyue",
+  "affiliation":"Liyue Harbor, Adepti",
+  "specialDish":"My Way",
+  "description":"Always enenergetic and full of life, Yanfei's the best - albeit only - Outrider of the Knights of Favonius.",
+  "talentBook":"Teachings of Gold",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Gold/Item_Teachings_of_Gold.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Juvenile_Jade.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Liyue/Item_Noctilucous_Jade.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+  "ascensionStat": "Pyro DMG Bonus",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Noctilucous Jade",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Noctilucous_Jade.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Treasure Hoarder Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Juvenile Jade",
+       "image": "images/Materials/Character Materials/Ascension/Item_Juvenile_Jade.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Noctilucous Jade",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Noctilucous_Jade.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Treasure Hoarder Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Juvenile Jade",
+       "image": "images/Materials/Character Materials/Ascension/Item_Juvenile_Jade.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Noctilucous Jade",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Noctilucous_Jade.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Silver Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Juvenile Jade",
+       "image": "images/Materials/Character Materials/Ascension/Item_Juvenile_Jade.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Noctilucous Jade",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Noctilucous_Jade.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Silver Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Juvenile Jade",
+       "image": "images/Materials/Character Materials/Ascension/Item_Juvenile_Jade.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Noctilucous Jade",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Noctilucous_Jade.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Golden Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Agnidus Agate Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Juvenile Jade",
+       "image": "images/Materials/Character Materials/Ascension/Item_Juvenile_Jade.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Noctilucous Jade",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Noctilucous_Jade.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Golden Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 784,
+      "ATK": 20,
+      "DEF": 49,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2014,
+      "ATK": 52,
+      "DEF": 126,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2600,
+      "ATK": 67,
+      "DEF": 163,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 3895,
+      "ATK": 100,
+      "DEF": 244,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4311,
+      "ATK": 111,
+      "DEF": 271,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 4959,
+      "ATK": 127,
+      "DEF": 311,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 5514,
+      "ATK": 141,
+      "DEF": 346,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 6161,
+      "ATK": 158,
+      "DEF": 387,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 6578,
+      "ATK": 169,
+      "DEF": 413,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 7225,
+      "ATK": 185,
+      "DEF": 453,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 7641,
+      "ATK": 196,
+      "DEF": 480,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 8289,
+      "ATK": 213,
+      "DEF": 520,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 8705,
+      "ATK": 223,
+      "DEF": 546,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 9352,
+      "ATK": 240,
+      "DEF": 587,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Seal of Approval",
+      "image": "images/Characters/Liyue/Yanfei/talents/Talent_Seal_of_Approval.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "58%",
+          "2": "63%",
+          "3": "67%",
+          "4": "73%",
+          "5": "77%",
+          "6": "82%",
+          "7": "88%",
+          "8": "93%",
+          "9": "99%",
+          "10": "105%",
+          "11": "111%",
+          "12": "117%",
+          "13": "124%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "52%",
+          "2": "56%",
+          "3": "60%",
+          "4": "65%",
+          "5": "69%",
+          "6": "73%",
+          "7": "78%",
+          "8": "83%",
+          "9": "89%",
+          "10": "94%",
+          "11": "99%",
+          "12": "104%",
+          "13": "111%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "76%",
+          "2": "82%",
+          "3": "87%",
+          "4": "95%",
+          "5": "101%",
+          "6": "106%",
+          "7": "114%",
+          "8": "122%",
+          "9": "129%",
+          "10": "137%",
+          "11": "144%",
+          "12": "152%",
+          "13": "162%"
+        },
+        {
+          "LVL": "Charged Attack",
+          "1": "98% /116% /133% /150% /168%",
+          "2": "104% /122% /141% /159% /178%",
+          "3": "110% /129% /149% /168% /188%",
+          "4": "118% /138% /159% /180% /201%",
+          "5": "124% /145% /167% /189% /211%",
+          "6": "129% /152% /175% /198% /221%",
+          "7": "137% /161% /185% /210% /234%",
+          "8": "145% /170% /196% /221% /247%",
+          "9": "152% /179% /206% /233% /260%",
+          "10": "160% /188% /216% /245% /273%",
+          "11": "168% /197% /227% /256% /286%",
+          "12": "175% /206% /237% /268% /299%",
+          "13": "183% /215% /247% /280% /312%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "50",
+          "2": "50",
+          "3": "50",
+          "4": "50",
+          "5": "50",
+          "6": "50",
+          "7": "50",
+          "8": "50",
+          "9": "50",
+          "10": "50",
+          "11": "50",
+          "12": "50",
+          "13": "50"
+        },
+        {
+          "LVL": "Scarlet Seal Stamina Consumption Decrease",
+          "1": "15% Per Seal",
+          "2": "15% Per Seal",
+          "3": "15% Per Seal",
+          "4": "15% Per Seal",
+          "5": "15% Per Seal",
+          "6": "15% Per Seal",
+          "7": "15% Per Seal",
+          "8": "15% Per Seal",
+          "9": "15% Per Seal",
+          "10": "15% Per Seal",
+          "11": "15% Per Seal",
+          "12": "15% Per Seal",
+          "13": "15% Per Seal"
+        },
+        {
+          "LVL": "Scarlet Seal Duration",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "56.8%",
+          "2": "61.5%",
+          "3": "66.1%",
+          "4": "72.7%",
+          "5": "77.3%",
+          "6": "82.6%",
+          "7": "89.9%",
+          "8": "97.1%",
+          "9": "104.4%",
+          "10": "112.3%",
+          "11": "120.3%",
+          "12": "128.2%",
+          "13": "136.1%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "114% /142%",
+          "2": "123% /153%",
+          "3": "132% /165%",
+          "4": "145% /182%",
+          "5": "155% /193%",
+          "6": "165% /206%",
+          "7": "180% /224%",
+          "8": "194% /243%",
+          "9": "209% /261%",
+          "10": "225% /281%",
+          "11": "240% /300%",
+          "12": "256% /320%",
+          "13": "272% /340%"
+        }
+       ]
+    },
+    {
+      "name":"Signed Edict",
+      "image": "images/Characters/Liyue/Yanfei/talents/Talent_Signed_Edict.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "170%",
+          "2": "182%",
+          "3": "195%",
+          "4": "212%",
+          "5": "225%",
+          "6": "237%",
+          "7": "254%",
+          "8": "271%",
+          "9": "288%",
+          "10": "305%",
+          "11": "322%",
+          "12": "339%",
+          "13": "360%"
+        },
+        {
+          "LVL": "CD",
+          "1": "9s",
+          "2": "9s",
+          "3": "9s",
+          "4": "9s",
+          "5": "9s",
+          "6": "9s",
+          "7": "9s",
+          "8": "9s",
+          "9": "9s",
+          "10": "9s",
+          "11": "9s",
+          "12": "9s",
+          "13": "9s"
+        }
+       ]
+    },
+    {
+      "name":"Done Deal",
+      "image": "images/Characters/Liyue/Yanfei/talents/Talent_Done_Deal.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "182%",
+          "2": "196%",
+          "3": "210%",
+          "4": "228%",
+          "5": "242%",
+          "6": "255%",
+          "7": "274%",
+          "8": "292%",
+          "9": "310%",
+          "10": "328%",
+          "11": "347%",
+          "12": "365%",
+          "13": "388%"
+        },
+        {
+          "LVL": "Scarlet Seal Grant Interval",
+          "1": "1s",
+          "2": "1s",
+          "3": "1s",
+          "4": "1s",
+          "5": "1s",
+          "6": "1s",
+          "7": "1s",
+          "8": "1s",
+          "9": "1s",
+          "10": "1s",
+          "11": "1s",
+          "12": "1s",
+          "13": "1s"
+        },
+        {
+          "LVL": "Charged Attack DMG Bonus",
+          "1": "33%",
+          "2": "35%",
+          "3": "37%",
+          "4": "40%",
+          "5": "42%",
+          "6": "44%",
+          "7": "47%",
+          "8": "49%",
+          "9": "52%",
+          "10": "54%",
+          "11": "57%",
+          "12": "60%",
+          "13": "62%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "80",
+          "2": "80",
+          "3": "80",
+          "4": "80",
+          "5": "80",
+          "6": "80",
+          "7": "80",
+          "8": "80",
+          "9": "80",
+          "10": "80",
+          "11": "80",
+          "12": "80",
+          "13": "80"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Proviso",
+      "image": "images/Characters/Liyue/Yanfei/talents/Talent_Proviso.png",
+      "description":""
+    },
+    {
+      "name":"Blazing Eye",
+      "image": "images/Characters/Liyue/Yanfei/talents/Talent_Blazing_Eye.png",
+      "description":""
+    },
+    {
+      "name":"Encyclopedic Expertise",
+      "image": "images/Characters/Liyue/Yanfei/talents/Talent_Encyclopedic_Expertise.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Teachings_of_Gold.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Bloodjade_Branch.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Bloodjade_Branch.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Bloodjade_Branch.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Bloodjade_Branch.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"The Law Knows No Kindness",
+      "image": "images/Characters/Liyue/Yanfei/constellations/Constellation_The_Law_Knows_No_Kindness.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Right of Final Interpretation",
+      "image": "images/Characters/Liyue/Yanfei/constellations/Constellation_Right_of_Final_Interpretation.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Samadhi Fire-Forged",
+      "image": "images/Characters/Liyue/Yanfei/constellations/Constellation_Samadhi_Fire-Forged.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Supreme Amnesty",
+      "image": "images/Characters/Liyue/Yanfei/constellations/Constellation_Supreme_Amnesty.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Abiding Affidavit",
+      "image": "images/Characters/Liyue/Yanfei/constellations/Constellation_Abiding_Affidavit.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Extra Clause",
+      "image": "images/Characters/Liyue/Yanfei/constellations/Constellation_Extra_Clause.png",
+      "description":""
+    }
+  ]
+}
+
+
