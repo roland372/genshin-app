@@ -1,0 +1,757 @@
+{
+  "name":"Kaeya",
+  "avatar": "images/Characters/mondstadt/Kaeya/images/Character_Kaeya_Avatar.png",
+  "title":"Frostwind Swordsman",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Cryo",
+  "elementImage": "images/Elements/Element_Cryo.png",
+  "weapon":"Sword",
+  "weaponImage": "images/Weapon icons/Weapon-class-sword-icon.png",
+  "sex":"Male",
+  "birthday":"November 30th",
+  "constellation":"Pavo Ocellus",
+  "nation":"Mondstadt, Khaenri'ah",
+  "affiliation":"Knights of Favonius, Khaenri'ah",
+  "specialDish":"Fruity Skewers",
+  "description":"An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
+  "talentBook":"Teachings of Ballad",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Ballad/Item_Teachings_of_Ballad.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Mondstadt/Item_Calla_Lily.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+  "ascensionStat": "Energy Recharge",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Calla Lily",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Calla_Lily.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Treasure Hoarder Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Calla Lily",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Calla_Lily.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Treasure Hoarder Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Calla Lily",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Calla_Lily.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Silver Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Calla Lily",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Calla_Lily.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Silver Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Calla Lily",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Calla_Lily.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Golden Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Hoarfrost Core",
+       "image": "images/Materials/Character Materials/Ascension/Item_Hoarfrost_Core.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Calla Lily",
+       "image": "images/Materials/Local Specialties/Mondstadt/Item_Calla_Lily.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Golden Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 976,
+      "ATK": 19,
+      "DEF": 66,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2506,
+      "ATK": 48,
+      "DEF": 171,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3235,
+      "ATK": 62,
+      "DEF": 220,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 4846,
+      "ATK": 93,
+      "DEF": 330,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5364,
+      "ATK": 103,
+      "DEF": 365,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6.67%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 6170,
+      "ATK": 118,
+      "DEF": 420,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6.67%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 6860,
+      "ATK": 131,
+      "DEF": 467,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "13.33%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 7666,
+      "ATK": 147,
+      "DEF": 522,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "13.33%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 8184,
+      "ATK": 157,
+      "DEF": 557,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "13.33%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 8989,
+      "ATK": 172,
+      "DEF": 612,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "13.33%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 9507,
+      "ATK": 182,
+      "DEF": 647,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "20%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 10312,
+      "ATK": 198,
+      "DEF": 702,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "20%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 10830,
+      "ATK": 208,
+      "DEF": 737,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "26.67%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 11636,
+      "ATK": 223,
+      "DEF": 792,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "26.67%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Ceremonial Bladework",
+      "image": "images/Characters/mondstadt/Kaeya/talents/Talent_Ceremonial_Bladework.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "53.8%",
+          "2": "58.1%",
+          "3": "62.5%",
+          "4": "68.8%",
+          "5": "73.1%",
+          "6": "78.1%",
+          "7": "85%",
+          "8": "91.9%",
+          "9": "98.8%",
+          "10": "106.3%",
+          "11": "114.8%",
+          "12": "125%",
+          "13": "135.1%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "51.7%",
+          "2": "55.9%",
+          "3": "60.1%",
+          "4": "66.1%",
+          "5": "70.3%",
+          "6": "75.1%",
+          "7": "81.7%",
+          "8": "88.3%",
+          "9": "95%",
+          "10": "102.2%",
+          "11": "110.4%",
+          "12": "120.2%",
+          "13": "129.9%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "65.3%",
+          "2": "70.6%",
+          "3": "75.9%",
+          "4": "83.5%",
+          "5": "88.8%",
+          "6": "94.9%",
+          "7": "103.2%",
+          "8": "111.6%",
+          "9": "119.9%",
+          "10": "129%",
+          "11": "139.5%",
+          "12": "151.7%",
+          "13": "164%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "70.9%",
+          "2": "76.6%",
+          "3": "82.4%",
+          "4": "90.6%",
+          "5": "96.4%",
+          "6": "103%",
+          "7": "112.1%",
+          "8": "121.1%",
+          "9": "130.2%",
+          "10": "140.1%",
+          "11": "151.4%",
+          "12": "164.7%",
+          "13": "178.1%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "88.2%",
+          "2": "95.4%",
+          "3": "102.6%",
+          "4": "112.9%",
+          "5": "120%",
+          "6": "128.3%",
+          "7": "139.5%",
+          "8": "150.8%",
+          "9": "162.1%",
+          "10": "174.4%",
+          "11": "188.5%",
+          "12": "205.1%",
+          "13": "221.7%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "55% +73.1%",
+          "2": "59.5% +79%",
+          "3": "64% +85%",
+          "4": "70.4% +93.5%",
+          "5": "74.9% +99.4%",
+          "6": "80% +106.3%",
+          "7": "87% +115.6%",
+          "8": "94.1% +125%",
+          "9": "101.1% +134.3%",
+          "10": "108.8% +144.5%",
+          "11": "117.6% +156.2%",
+          "12": "127.9% +169.9%",
+          "13": "138.3% +183.7%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "20",
+          "2": "20",
+          "3": "20",
+          "4": "20",
+          "5": "20",
+          "6": "20",
+          "7": "20",
+          "8": "20",
+          "9": "20",
+          "10": "20",
+          "11": "20",
+          "12": "20",
+          "13": "20"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "63.9%",
+          "2": "69.1%",
+          "3": "74.3%",
+          "4": "81.8%",
+          "5": "87%",
+          "6": "92.9%",
+          "7": "101.1%",
+          "8": "109.3%",
+          "9": "117.5%",
+          "10": "126.4%",
+          "11": "135.3%",
+          "12": "144.2%",
+          "13": "153.1%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "128% /160%",
+          "2": "138% /173%",
+          "3": "149% /186%",
+          "4": "164% /204%",
+          "5": "174% /217%",
+          "6": "186% /232%",
+          "7": "202% /253%",
+          "8": "219% /273%",
+          "9": "235% /293%",
+          "10": "253% /316%",
+          "11": "271% /338%",
+          "12": "288% /360%",
+          "13": "306% /382%"
+        }
+       ]
+    },
+    {
+      "name":"Frostgnaw",
+      "image": "images/Characters/mondstadt/Kaeya/talents/Talent_Frostgnaw.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "191%",
+          "2": "206%",
+          "3": "220%",
+          "4": "239%",
+          "5": "253%",
+          "6": "268%",
+          "7": "287%",
+          "8": "306%",
+          "9": "325%",
+          "10": "344%",
+          "11": "363%",
+          "12": "382%",
+          "13": "406%"
+        },
+        {
+          "LVL": "CD",
+          "1": "6s",
+          "2": "6s",
+          "3": "6s",
+          "4": "6s",
+          "5": "6s",
+          "6": "6s",
+          "7": "6s",
+          "8": "6s",
+          "9": "6s",
+          "10": "6s",
+          "11": "6s",
+          "12": "6s",
+          "13": "6s"
+        }
+       ]
+    },
+    {
+      "name":"Glacial Waltz",
+      "image": "images/Characters/mondstadt/Kaeya/talents/Talent_Glacial_Waltz.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "77.6%",
+          "2": "83.4%",
+          "3": "89.2%",
+          "4": "97%",
+          "5": "102.8%",
+          "6": "108.6%",
+          "7": "116.4%",
+          "8": "124.2%",
+          "9": "131.9%",
+          "10": "139.7%",
+          "11": "147.4%",
+          "12": "155.2%",
+          "13": "164.9%"
+        },
+        {
+          "LVL": "CD",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "Duration",
+          "1": "8s",
+          "2": "8s",
+          "3": "8s",
+          "4": "8s",
+          "5": "8s",
+          "6": "8s",
+          "7": "8s",
+          "8": "8s",
+          "9": "8s",
+          "10": "8s",
+          "11": "8s",
+          "12": "8s",
+          "13": "8s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "60",
+          "2": "60",
+          "3": "60",
+          "4": "60",
+          "5": "60",
+          "6": "60",
+          "7": "60",
+          "8": "60",
+          "9": "60",
+          "10": "60",
+          "11": "60",
+          "12": "60",
+          "13": "60"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Cold-Blooded Strike",
+      "image": "images/Characters/mondstadt/Kaeya/talents/Talent_Cold-Blooded_Strike.png",
+      "description":""
+    },
+    {
+      "name":"Glacial Heart",
+      "image": "images/Characters/mondstadt/Kaeya/talents/Talent_Glacial_Heart.png",
+      "description":""
+    },
+    {
+      "name":"Hidden Strength",
+      "image": "images/Characters/mondstadt/Kaeya/talents/Talent_Hidden_Strength.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Teachings_of_Ballad.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Spirit_Locket_of_Boreas.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Excellent Blood",
+      "image": "images/Characters/mondstadt/Kaeya/constellations/Constellation_Excellent_Blood.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Never-Ending Performance",
+      "image": "images/Characters/mondstadt/Kaeya/constellations/Constellation_Never-Ending_Performance.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Dance of Frost",
+      "image": "images/Characters/mondstadt/Kaeya/constellations/Constellation_Dance_of_Frost.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Frozen Kiss",
+      "image": "images/Characters/mondstadt/Kaeya/constellations/Constellation_Frozen_Kiss.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Frostbiting Embrace",
+      "image": "images/Characters/mondstadt/Kaeya/constellations/Constellation_Frostbiting_Embrace.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Glacial Whirlwind",
+      "image": "images/Characters/mondstadt/Kaeya/constellations/Constellation_Glacial_Whirlwind.png",
+      "description":""
+    }
+  ]
+}
+

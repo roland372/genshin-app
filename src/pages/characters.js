@@ -24,6 +24,7 @@ import Ganyu from '../components/Characters/Character/Ganyu/Ganyu';
 import HuTao from '../components/Characters/Character/Hu Tao/HuTao';
 import Jean from '../components/Characters/Character/Jean/Jean';
 import KaedeharaKazuha from '../components/Characters/Character/Kaedehara Kazuha/KaedeharaKazuha';
+import Kaeya from '../components/Characters/Character/Kaeya/Kaeya';
 import KamisatoAyaka from '../components/Characters/Character/Kamisato Ayaka/KamisatoAyaka';
 import Keqing from '../components/Characters/Character/Keqing/Keqing';
 import Klee from '../components/Characters/Character/Klee/Klee';
@@ -78,6 +79,7 @@ const characters = () => {
 					path='/characters/Kaedehara_Kazuha'
 					component={KaedeharaKazuha}
 				/>
+				<Route exact path='/characters/Kaeya' component={Kaeya} />
 				<Route
 					exact
 					path='/characters/Kamisato_Ayaka'
