@@ -1,8 +1,9 @@
 import React from 'react';
 import Homepage from '../components/Homepage/Homepage';
+import bannersData from '../assets/data/Banners/banners.json';
 
 const home = () => {
-	return <Homepage />;
+	return <Homepage bannersData={bannersData} />;
 };
 
 export default home;

@@ -1,20 +1,27 @@
 import React from 'react';
-import CardComponent from '../Layout/CardComponent';
-import CharacterBanner from '../../assets/Wish_Adrift_in_the_Harbor_2021-01-12.jpg';
-import WeaponBanner from '../../assets/Wish_Epitome_Invocation_2020-09-28.jpg';
 
-const Banners = () => {
+import CardComponent from '../Layout/CardComponent';
+import Banner from '../Banners/Banner';
+
+const Banners = props => {
 	return (
 		<CardComponent title='Current Banners'>
 			<div className='d-xl-flex'>
-				<section className='p-3'>
-					<img src={CharacterBanner} alt='' className='img-fluid' />
-					<h4 className='pt-2'>September 01, 2021 ~ September 21, 2021</h4>
-				</section>
-				<section className='p-3'>
-					<img src={WeaponBanner} alt='' className='img-fluid' />
-					<h4 className='pt-2'>September 01, 2021 ~ September 21, 2021</h4>
-				</section>
+				{props.bannersData.currentBanners.map((banner, index) => {
+					return (
+						<Banner
+							key={index}
+							bannersData={props.bannersData}
+							characterBannerName={banner.characterBannerName}
+							characterBannerImage={banner.characterBannerImage}
+							characterBannerLink={banner.characterBannerLink}
+							weaponBannerName={banner.weaponBannerName}
+							weaponBannerImage={banner.weaponBannerImage}
+							weaponBannerLink={banner.weaponBannerLink}
+							duration={banner.duration}
+						/>
+					);
+				})}
 			</div>
 		</CardComponent>
 	);

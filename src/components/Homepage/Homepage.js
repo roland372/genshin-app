@@ -6,11 +6,11 @@ import Events from './Events';
 import Domains from './Domains';
 import Links from './Links';
 
-const Homepage = () => {
+const Homepage = props => {
 	return (
 		<Container>
 			<GeneralInfo />
-			<Banners />
+			<Banners bannersData={props.bannersData} />
 			<Events />
 			<Domains />
 			<Links />
