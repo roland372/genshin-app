@@ -11,7 +11,7 @@ const Homepage = props => {
 		<Container>
 			<GeneralInfo />
 			<Banners bannersData={props.bannersData} />
-			<Events />
+			<Events eventsData={props.eventsData} />
 			<Domains />
 			<Links />
 		</Container>

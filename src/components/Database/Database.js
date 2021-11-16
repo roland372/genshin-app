@@ -1,7 +1,4 @@
 import React from 'react';
-import TalentImage from '../../assets/Item_Teachings_of_Freedom.png';
-import CharacterAmber from '../../assets/Character_Amber_Thumb.png';
-import WeaponSkywardHarp from '../../assets/Weapon_Skyward_Harp_2nd.png';
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
 import Weapons from './Weapons/Weapons';
@@ -31,18 +28,78 @@ const database = () => {
 									</h6>
 								</td>
 								<td>
-									<img src={TalentImage} width='80px' alt='' />
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
 								</td>
 								<td>
-									<img src={CharacterAmber} width='80px' alt='' />
-									<img src={CharacterAmber} width='80px' alt='' />
-									<img src={CharacterAmber} width='80px' alt='' />
-									<img src={CharacterAmber} width='80px' alt='' />
-									<img src={CharacterAmber} width='80px' alt='' />
-									<img src={CharacterAmber} width='80px' alt='' />
-									<img src={CharacterAmber} width='80px' alt='' />
-									<img src={CharacterAmber} width='80px' alt='' />
-									<img src={CharacterAmber} width='80px' alt='' />
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
 								</td>
 							</tr>
 						</tbody>
@@ -70,11 +127,29 @@ const database = () => {
 									</h6>
 								</td>
 								<td>
-									<img src={TalentImage} width='80px' alt='' />
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
 								</td>
 								<td>
-									<img src={WeaponSkywardHarp} width='80px' alt='' />
-									<img src={WeaponSkywardHarp} width='80px' alt='' />
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
 								</td>
 							</tr>
 							<tr>
@@ -84,11 +159,29 @@ const database = () => {
 									</h6>
 								</td>
 								<td>
-									<img src={TalentImage} width='80px' alt='' />
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
 								</td>
 								<td>
-									<img src={WeaponSkywardHarp} width='80px' alt='' />
-									<img src={WeaponSkywardHarp} width='80px' alt='' />
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
 								</td>
 							</tr>
 							<tr>
@@ -98,11 +191,29 @@ const database = () => {
 									</h6>
 								</td>
 								<td>
-									<img src={TalentImage} width='80px' alt='' />
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
 								</td>
 								<td>
-									<img src={WeaponSkywardHarp} width='80px' alt='' />
-									<img src={WeaponSkywardHarp} width='80px' alt='' />
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
+									<img
+										src={
+											'/images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png'
+										}
+										width='80px'
+										alt=''
+									/>
 								</td>
 							</tr>
 						</tbody>
