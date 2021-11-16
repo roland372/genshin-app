@@ -4,7 +4,7 @@ const Banner = props => {
 	return (
 		<section className='border border-primary rounded m-2 p-2'>
 			<h5 className='mx-1'>{props.duration}</h5>
-			<div className='d-md-flex'>
+			<div className='d-lg-flex'>
 				<section className='p-1'>
 					<img src={props.characterBannerImage} alt='' className='img-fluid' />
 					<h5 className='pt-1'>
