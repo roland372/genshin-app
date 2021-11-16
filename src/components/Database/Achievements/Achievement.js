@@ -10,7 +10,7 @@ const Achievement = props => {
 				</div>
 				<div className='form-check'>
 					<input
-						class='form-check-input p-3'
+						className='form-check-input p-3'
 						type='checkbox'
 						value=''
 						id='flexCheckDefault'

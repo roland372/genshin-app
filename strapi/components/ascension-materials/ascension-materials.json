@@ -1,0 +1,83 @@
+{
+  "collectionName": "components_ascension_materials_ascension_materials",
+  "info": {
+    "name": "character_ascension_materials",
+    "icon": "angle-double-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ascension_gems": {
+      "type": "enumeration",
+      "enum": [
+        "Brilliant_Diamond",
+        "Vayuda_Turquoise",
+        "Shivada_Jade",
+        "Vajrada_Amethyst",
+        "Prithiva_Topaz",
+        "Varunada_Lazurite",
+        "Agnidus_Agate"
+      ],
+      "required": true
+    },
+    "normal_boss_materials": {
+      "type": "enumeration",
+      "enum": [
+        "Basalt_Pillar",
+        "Cleansing_Heart",
+        "Crystalline_Bloom",
+        "Everflame_Seed",
+        "Hoarfrost_Core",
+        "Hurricane_Seed",
+        "Juvenile_Jade",
+        "Lightning_Prism",
+        "Marionette_Core",
+        "Perpetual_Heart",
+        "Smoldering_Pearl"
+      ],
+      "required": true
+    },
+    "local_specialities": {
+      "type": "enumeration",
+      "enum": [
+        "Calla_Lily",
+        "Cecilia",
+        "Cor_Lapis",
+        "Crystal_Marrow",
+        "Dandelion_Seed",
+        "Dendrobium",
+        "Glaze_Lily",
+        "Jueyun_Chili",
+        "Naku_Weed",
+        "Noctilucous_Jade",
+        "Onikabuto",
+        "Philanemo_Mushroom",
+        "Qingxin",
+        "Sakura_Bloom",
+        "Sea_Ganoderma",
+        "Silk_Flower",
+        "Small_Lamp_Grass",
+        "Starconch",
+        "Valberry",
+        "Violetgrass",
+        "Windwheel_Aster",
+        "Wolfhook"
+      ],
+      "required": true
+    },
+    "common_ascension_material": {
+      "type": "enumeration",
+      "enum": [
+        "Slime",
+        "Hilichurl_Masks",
+        "Hilichurl_Arrowheads",
+        "Samachurl_Scrolls",
+        "Treasure_Hoarder_Insignias",
+        "Fatui_Insignia",
+        "Whopperflower_Nectar",
+        "Nobushi_Handguards"
+      ],
+      "required": true
+    }
+  }
+}

@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-	BrowserRouter as Router,
-	Switch,
-	Route,
-	Link,
-	useRouteMatch,
-	path,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Characters from '../components/Characters/Characters';
 import Albedo from '../components/Characters/Character/Albedo/Albedo';

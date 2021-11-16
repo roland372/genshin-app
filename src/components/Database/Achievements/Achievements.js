@@ -1,6 +1,4 @@
 import React from 'react';
-import { Accordion } from 'react-bootstrap';
-import AchievementImage from '../../../assets/Achievement_Domains_and_Spiral_Abyss_Series_I.png';
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
 import Category from './Category';

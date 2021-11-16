@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_ascension_materials_weapon_common_ascension_materials",
+  "info": {
+    "name": "Weapon_ascension_materials",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "common_ascension_material_1": {
+      "type": "enumeration",
+      "enum": [
+        "Hilichurl_Horns",
+        "Ley_Lines",
+        "Bone_Shards",
+        "Mist_Grass",
+        "Sacrificial_Knifes",
+        "Prisms",
+        "Chaos_Parts",
+        "Different_Chaos_Parts"
+      ],
+      "required": true
+    },
+    "common_ascension_material_2": {
+      "type": "enumeration",
+      "enum": [
+        "Slime",
+        "Hilichurl_Masks",
+        "Hilichurl_Arrowheads",
+        "Samachurl_Scrolls",
+        "Treasure_Hoarder_Insignias",
+        "Fatui_Insignia",
+        "Whopperflower_Nectar",
+        "Nobushi_Handguards"
+      ],
+      "required": true
+    },
+    "ascension_material": {
+      "type": "enumeration",
+      "enum": [
+        "Decarabian",
+        "Wolfs_Tooth",
+        "Dandelion_Gladiator",
+        "Guyun",
+        "Mist_Elixir",
+        "Aerosiderite",
+        "Branch_of_a_Distant_Sea",
+        "Narukami",
+        "Mask"
+      ],
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artifacts",
+  "info": {
+    "name": "artifact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "artifact_name": {
+      "type": "string",
+      "required": true
+    },
+    "max_rarity": {
+      "type": "integer",
+      "required": true
+    },
+    "two_piece_bonus": {
+      "type": "string",
+      "required": true
+    },
+    "four_piece_bonus": {
+      "type": "string",
+      "required": true
+    },
+    "artifact_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

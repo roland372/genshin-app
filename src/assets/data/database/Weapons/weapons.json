@@ -1,0 +1,291 @@
+{
+  "weapons": [
+   {
+     "swords": [
+       {
+         "image": "/images/Weapons/Swords/Weapon_Mistsplitter_Reforged_2nd.png",
+         "name": "Mistsplitter Reforged",
+         "rarity": 5,
+         "baseAtk": 48,
+         "maxAtk": 674,
+         "2ndStat": "CRIT DMG 9.6%",
+         "max2ndStat": "44.1%",
+         "description": "",
+         "description2": ""
+       },
+       {
+         "image": "",
+         "name": "Aquila Favonia",
+         "rarity": 5,
+         "baseAtk": 48,
+         "maxAtk": 674,
+         "2ndStat": "Physical DMG Bonus 9%",
+         "max2ndStat": "41.3%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Summit Shaper",
+         "rarity": 5,
+         "baseAtk": 46,
+         "maxAtk": 608,
+         "2ndStat": "ATK 10.8%",
+         "max2ndStat": "49.6%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Skyward Blade",
+         "rarity": 5,
+         "baseAtk": 46,
+         "maxAtk": 608,
+         "2ndStat": "Energy Recharge 12%",
+         "max2ndStat": "55.1%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Freedom-Sworn",
+         "rarity": 5,
+         "baseAtk": 46,
+         "maxAtk": 608,
+         "2ndStat": "Elemental Mastery 43",
+         "max2ndStat": "198",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Primordial Jade Cutter",
+         "rarity": 5,
+         "baseAtk": 44,
+         "maxAtk": 542,
+         "2ndStat": "CRIT Rate 9.6%",
+         "max2ndStat": "44.1%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "The Flute",
+         "rarity": 4,
+         "baseAtk": 42,
+         "maxAtk": 510,
+         "2ndStat": "ATK 9%",
+         "max2ndStat": "41.3%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "The Black Sword",
+         "rarity": 4,
+         "baseAtk": 42,
+         "maxAtk": 510,
+         "2ndStat": "CRIT Rate 6%",
+         "max2ndStat": "27.6%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "The Alley Flash",
+         "rarity": 4,
+         "baseAtk": 45,
+         "maxAtk": 620,
+         "2ndStat": "Elemental Mastery 12",
+         "max2ndStat": "55",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Sword of Descension",
+         "rarity": 4,
+         "baseAtk": 39,
+         "maxAtk": 440,
+         "2ndStat": "ATK 7.7%",
+         "max2ndStat": "35.2%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Sacrificial Sword",
+         "rarity": 4,
+         "baseAtk": 41,
+         "maxAtk": 454,
+         "2ndStat": "Energy Recharge 13.3%",
+         "max2ndStat": "61.3%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Royal Longsword",
+         "rarity": 4,
+         "baseAtk": 42,
+         "maxAtk": 510,
+         "2ndStat": "ATK 9%",
+         "max2ndStat": "41.3%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Prototype Rancour",
+         "rarity": 4,
+         "baseAtk": 44,
+         "maxAtk": 565,
+         "2ndStat": "Physical DMG Bonus 7.5%",
+         "max2ndStat": "34.5%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Amenoma Kageuchi",
+         "rarity": 4,
+         "baseAtk": 41,
+         "maxAtk": 454,
+         "2ndStat": "ATK 12%",
+         "max2ndStat": "55.1%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Lion's Roar",
+         "rarity": 4,
+         "baseAtk": 42,
+         "maxAtk": 510,
+         "2ndStat": "ATK 9%",
+         "max2ndStat": "41.3%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Festering Desire",
+         "rarity": 4,
+         "baseAtk": 42,
+         "maxAtk": 510,
+         "2ndStat": "Energy Recharge 10.0%",
+         "max2ndStat": "45.9%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Favonius Sword",
+         "rarity": 4,
+         "baseAtk": 41,
+         "maxAtk": 454,
+         "2ndStat": "Energy Recharge 13.3%",
+         "max2ndStat": "61.3%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Cinnabar Spindle",
+         "rarity": 4,
+         "baseAtk": null,
+         "maxAtk": null,
+         "2ndStat": "",
+         "max2ndStat": "",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Blackcliff Longsword",
+         "rarity": 4,
+         "baseAtk": 44,
+         "maxAtk": 565,
+         "2ndStat": "CRIT DMG 8%",
+         "max2ndStat": "36.8%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Harbinger of Dawn",
+         "rarity": 3,
+         "baseAtk": 39,
+         "maxAtk": 401,
+         "2ndStat": "CRIT DMG 10.2%",
+         "max2ndStat": "46.9%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Fillet Blade",
+         "rarity": 3,
+         "baseAtk": 39,
+         "maxAtk": 401,
+         "2ndStat": "ATK 7.7%",
+         "max2ndStat": "35.2%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Skyrider Sword",
+         "rarity": 3,
+         "baseAtk": 38,
+         "maxAtk": 354,
+         "2ndStat": "Energy Recharge 11.3%",
+         "max2ndStat": "51.7%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Dark Iron Sword",
+         "rarity": 3,
+         "baseAtk": 39,
+         "maxAtk": 401,
+         "2ndStat": "Elemental Mastery 31",
+         "max2ndStat": "141",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Cool Steel",
+         "rarity": 3,
+         "baseAtk": 39,
+         "maxAtk": 401,
+         "2ndStat": "ATK 7.7%",
+         "max2ndStat": "35.2%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Traveler's Handy Sword",
+         "rarity": 3,
+         "baseAtk": 40,
+         "maxAtk": 448,
+         "2ndStat": "DEF 6.4%",
+         "max2ndStat": "27.5%",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Silver Sword",
+         "rarity": 2,
+         "baseAtk": 33,
+         "maxAtk": null,
+         "2ndStat": "None",
+         "max2ndStat": "",
+         "description": ""
+       },
+       {
+         "image": "",
+         "name": "Dull Blade",
+         "rarity": 1,
+         "baseAtk": 23,
+         "maxAtk": null,
+         "2ndStat": "None",
+         "max2ndStat": "",
+         "description": ""
+       }
+     ],
+     "claymores": [
+       {
+        "image": "",
+        "name": "Wolf's Gravestone",
+        "rarity": 5,
+        "baseAtk": 46,
+        "maxAtk": 608,
+        "2ndStat": "ATK 10.8%",
+        "max2ndStat": "49.6%",
+        "description": ""
+       }
+     ]
+   }
+  ]
+}

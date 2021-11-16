@@ -5,7 +5,7 @@ import {
 	BrowserRouter as Router,
 	Route,
 	Switch,
-	useRouteMatch,
+	// useRouteMatch,
 } from 'react-router-dom';
 
 // <--- Pages --->
@@ -27,8 +27,8 @@ import Layout from './components/Layout/Layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-	const { url } = useRouteMatch;
-	console.log('url', url);
+	// const { url } = useRouteMatch;
+	// console.log('url', url);
 	return (
 		<Fragment>
 			<Router>

@@ -1,0 +1,139 @@
+{
+  "kind": "collectionType",
+  "collectionName": "characters",
+  "info": {
+    "name": "character",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "character_name": {
+      "type": "string",
+      "required": true
+    },
+    "character_avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "rarity": {
+      "type": "integer",
+      "required": true
+    },
+    "weapon_type": {
+      "type": "enumeration",
+      "enum": [
+        "Bow",
+        "Catalyst",
+        "Claymore",
+        "Polearm",
+        "Sword"
+      ],
+      "required": true
+    },
+    "vision": {
+      "type": "enumeration",
+      "enum": [
+        "Anemo",
+        "Cryo",
+        "Dendro",
+        "Electro",
+        "Geo",
+        "Hydro",
+        "Pyro"
+      ],
+      "required": true
+    },
+    "release_date": {
+      "type": "date",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "talent_book": {
+      "type": "enumeration",
+      "enum": [
+        "Freedom",
+        "Resistance",
+        "Ballad",
+        "Prosperity",
+        "Diligence",
+        "Gold",
+        "Transience",
+        "Elegance",
+        "Light"
+      ],
+      "required": true
+    },
+    "boss_material": {
+      "type": "enumeration",
+      "enum": [
+        "Tail_of_Boreas",
+        "Ring_of_Boreas",
+        "Spirit_Locket_of_Boreas",
+        "Dvalins_Plume",
+        "Dvalins_Claw",
+        "Dvalins_Sigh",
+        "Tusk_of_Monoceros_Caeli",
+        "Shard_of_a_Foul_Legacy",
+        "Shadow_of_the_Warrior",
+        "Dragon_Lords_Crown",
+        "Bloodjade_Branch",
+        "Gilded_Scale"
+      ],
+      "required": true
+    },
+    "character_ascension_materials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ascension-materials.ascension-materials",
+      "required": true
+    },
+    "nation": {
+      "type": "enumeration",
+      "enum": [
+        "Monstadt",
+        "Liyue",
+        "Inazuma",
+        "Sumeru",
+        "Fontaine",
+        "Natlan",
+        "Snezhnaya"
+      ],
+      "required": true
+    },
+    "affiliation": {
+      "type": "string",
+      "required": true
+    },
+    "special_dish": {
+      "type": "string",
+      "required": true
+    },
+    "constellation": {
+      "type": "string",
+      "required": true
+    },
+    "birthday": {
+      "type": "string",
+      "required": true
+    },
+    "talent_TODO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "talents.talents"
+    }
+  }
+}

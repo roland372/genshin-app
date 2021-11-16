@@ -22,9 +22,10 @@ const Artifacts = () => {
 							</tr>
 						</thead>
 						<tbody>
-							{data.artifacts.map(artifact => {
+							{data.artifacts.map((artifact, index) => {
 								return (
 									<Artifact
+										key={index}
 										name={artifact.name}
 										rarity={artifact.max_rarity}
 										image={artifact.image}

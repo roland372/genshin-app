@@ -8,9 +8,10 @@ const Banners = () => {
 	return (
 		<Container>
 			<CardComponent title='Current Banners'>
-				{data.currentBanners.map(banner => {
+				{data.currentBanners.map((banner, index) => {
 					return (
 						<Banner
+							key={index}
 							characterBannerName={banner.characterBannerName}
 							characterBannerImage={banner.characterBannerImage}
 							characterBannerLink={banner.characterBannerLink}
@@ -30,9 +31,10 @@ const Banners = () => {
 				/>
 			</CardComponent> */}
 			<CardComponent title='Past Banners'>
-				{data.pastBanners.map(banner => {
+				{data.pastBanners.map((banner, index) => {
 					return (
 						<Banner
+							key={index}
 							characterBannerName={banner.characterBannerName}
 							characterBannerImage={banner.characterBannerImage}
 							characterBannerLink={banner.characterBannerLink}

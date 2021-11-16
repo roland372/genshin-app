@@ -1,6 +1,5 @@
 import React from 'react';
 import { Accordion } from 'react-bootstrap';
-import Achievement from './Achievement';
 
 const Category = props => {
 	return (

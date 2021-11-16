@@ -1,17 +1,8 @@
 import React from 'react';
-import {
-	BrowserRouter as Router,
-	Switch,
-	Route,
-	Link,
-	useRouteMatch,
-} from 'react-router-dom';
 
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
 import SingleCharacter from './SingleCharacter';
-import Amber from './Character/Amber/Amber';
-import Beidou from './Character/Beidou/Beidou';
 
 import data from '../../assets/data/Characters/characters.json';
 
@@ -46,6 +37,7 @@ const Characters = props => {
 							{data.characters.map((character, index) => {
 								return (
 									<SingleCharacter
+										key={index}
 										index={index + 1}
 										icon={character.image}
 										name={character.name}

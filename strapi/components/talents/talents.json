@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_talents_talents",
+  "info": {
+    "name": "talents",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "normal_attack_name": {
+      "type": "string"
+    }
+  }
+}

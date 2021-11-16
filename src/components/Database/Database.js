@@ -4,10 +4,12 @@ import CharacterAmber from '../../assets/Character_Amber_Thumb.png';
 import WeaponSkywardHarp from '../../assets/Weapon_Skyward_Harp_2nd.png';
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
+import Weapons from './Weapons/Weapons';
 
 const database = () => {
 	return (
 		<Container>
+			<Weapons />
 			<CardComponent title='Character Talents Materials'>
 				<div className='table-responsive mx-3'>
 					<table
