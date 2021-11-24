@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
+import { Button, CloseButton } from 'react-bootstrap';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
 const Sidebar = () => {
@@ -9,7 +9,7 @@ const Sidebar = () => {
 	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
 	return (
-		<nav className='navbar navbar-expand-xl navbar-dark bg-dark'>
+		<nav className='navbar navbar-dark sticky-top bg-dark'>
 			<div className='container'>
 				<NavLink className='navbar-brand' exact to='/'>
 					GenshinApp
@@ -22,62 +22,67 @@ const Sidebar = () => {
 				>
 					<span className='navbar-toggler-icon'></span>
 				</Button>
-				<Offcanvas show={show} onHide={handleClose} placement='end'>
-					<Offcanvas.Header closeButton>
-						<NavLink exact to='/' className='nav-link text-black'>
+				<Offcanvas
+					show={show}
+					onHide={handleClose}
+					placement='end'
+					className='bg-secondary'
+				>
+					<Offcanvas.Header className='bg-primary'>
+						<NavLink exact to='/' className='nav-link text-light ms-3'>
 							<Offcanvas.Title>Home</Offcanvas.Title>
 						</NavLink>
+						<CloseButton variant='secondary' className='me-2' />
 					</Offcanvas.Header>
 					<Offcanvas.Body>
-						<ul className='nav-item'>
-							<li className='nav-item'>
-								<NavLink className='nav-link' to='/characters'>
+						<ul className='list-group text-start'>
+							<li className='list-group-item bg-dark'>
+								<NavLink className='nav-link link-light' to='/characters'>
 									Characters
 								</NavLink>
 							</li>
-							<li className='nav-item'>
-								<NavLink className='nav-link' to='/banners'>
+							<li className='list-group-item bg-dark'>
+								<NavLink className='nav-link link-light' to='/banners'>
 									Banners
 								</NavLink>
 							</li>
-							<li className='nav-item'>
-								<NavLink className='nav-link' to='/events'>
+							<li className='list-group-item bg-dark'>
+								<NavLink className='nav-link link-light' to='/events'>
 									Events
 								</NavLink>
 							</li>
-							<li className='nav-item'>
-								<NavLink className='nav-link' to='/artifacts'>
+							<li className='list-group-item bg-dark'>
+								<NavLink className='nav-link link-light' to='/artifacts'>
 									Artifacts
 								</NavLink>
 							</li>
-							<li className='nav-item'>
-								<NavLink className='nav-link' to='/farming-planner'>
+							<li className='list-group-item bg-dark'>
+								<NavLink className='nav-link link-light' to='/farming-planner'>
 									Farming Planner
 								</NavLink>
 							</li>
-							<li className='nav-item'>
-								<NavLink className='nav-link' to='/team-builder'>
+							<li className='list-group-item bg-dark'>
+								<NavLink className='nav-link link-light' to='/team-builder'>
 									Team Builder
 								</NavLink>
 							</li>
-							<li className='nav-item'>
-								<NavLink className='nav-link' to='/calculator'>
+							<li className='list-group-item bg-dark'>
+								<NavLink className='nav-link link-light' to='/calculator'>
 									Calculator
 								</NavLink>
 							</li>
-
-							<li className='nav-item'>
-								<NavLink className='nav-link' to='/database'>
+							<li className='list-group-item bg-dark'>
+								<NavLink className='nav-link link-light' to='/database'>
 									Database - TODO make it dropdown
 								</NavLink>
 							</li>
-							<li className='nav-item'>
-								<NavLink className='nav-link' to='/changelog'>
+							<li className='list-group-item bg-dark'>
+								<NavLink className='nav-link link-light' to='/changelog'>
 									Changelog
 								</NavLink>
 							</li>
-							<li className='nav-item'>
-								<NavLink className='nav-link' to='/achievements'>
+							<li className='list-group-item bg-dark'>
+								<NavLink className='nav-link link-light' to='/achievements'>
 									Achievements
 								</NavLink>
 							</li>
