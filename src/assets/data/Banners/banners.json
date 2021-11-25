@@ -1,33 +1,348 @@
 {
-  "currentBanners":[
+  "currentBanners": [
     {
-      "characterBannerName": "Ballad in Goblets",
-      "characterBannerImage": "images/Banners/character/Wish_Ballad_in_Goblets_2020-09-28.jpg",
-      "characterBannerLink": "https://twitter.com/GenshinImpact/status/1309704246971990017",
-      "weaponBannerName": "Epitome Invocation",
-      "weaponBannerImage": "images/Banners/weapon/Wish_Epitome_Invocation_2020-09-28.jpg",
-      "weaponBannerLink": "https://genshin-impact.fandom.com/wiki/Epitome_Invocation/2020-09-28",
-      "duration": "September 28, 2020 ~ October 18, 2020"
-    }
-  ],
-  "pastBanners": [
-    {
-      "characterBannerName": "Sparkling Steps",
-      "characterBannerImage": "images/Banners/character/Wish_Sparkling_Steps_2020-10-20.jpg",
-      "characterBannerLink": "https://twitter.com/GenshinImpact/status/1317676780250038273",
-      "weaponBannerName": "Epitome Invocation",
-      "weaponBannerImage": "images/Banners/weapon/Wish_Epitome_Invocation_2020-10-20.jpg",
-      "weaponBannerLink": "https://genshin-impact.fandom.com/wiki/Epitome_Invocation/2020-10-20",
-      "duration": "October 20, 2020 ~ November 9, 2020 (Version 1.0)"
+      "name": "Born of Ocean Swell",
+      "link": "https://genshin.mihoyo.com/en/news/detail/17165",
+      "image": "images/Banners/character/Wish_Born_of_Ocean_Swell_2021-11-24.png",
+      "startDate": "November 24, 2021",
+      "endDate": "December 14, 2021"
     },
     {
-      "characterBannerName": "Ballad in Goblets",
-      "characterBannerImage": "images/Banners/character/Wish_Ballad_in_Goblets_2020-09-28.jpg",
-      "characterBannerLink": "https://twitter.com/GenshinImpact/status/1309704246971990017",
-      "weaponBannerName": "Epitome Invocation",
-      "weaponBannerImage": "images/Banners/weapon/Wish_Epitome_Invocation_2020-09-28.jpg",
-      "weaponBannerLink": "https://genshin-impact.fandom.com/wiki/Epitome_Invocation/2020-09-28",
-      "duration": "September 28, 2020 ~ October 18, 2020 (Version 1.0)"
+      "name": "Secretum Secretorum",
+      "link": "https://genshin.mihoyo.com/en/news/detail/17164",
+      "image": "images/Banners/character/Wish_Secretum_Secretorum_2021-11-24.png",
+      "startDate": "November 24, 2021",
+      "endDate": "December 14, 2021"
+    },
+    {
+      "name": "Epitome Invocation",
+      "link": "https://genshin.mihoyo.com/en/news/detail/17166",
+      "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-11-24.png",
+      "startDate": "November 24, 2021",
+      "endDate": "December 14, 2021"
     }
-  ]
+  ],
+  "pastBanners": {
+    "version 2.2" : [
+      {
+        "name": "Farewell of Snezhnaya",
+        "link": "https://genshin.mihoyo.com/en/news/detail/16388",
+        "image": "images/Banners/character/Wish_Farewell_of_Snezhnaya_2021-10-13.png",
+        "startDate": "October 13, 2021",
+        "endDate": "November 2, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/16391",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-10-13.png",
+        "startDate": "October 13, 2021",
+        "endDate": "November 2, 2021"
+      },
+      {
+        "name": "Moment of Bloom",
+        "link": "https://genshin.mihoyo.com/en/news/detail/16822",
+        "image": "images/Banners/character/Wish_Moment_of_Bloom_2021-11-02.png",
+        "startDate": "November 2, 2021",
+        "endDate": "November 23, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/16821",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-11-02.png",
+        "startDate": "November 2, 2021",
+        "endDate": "November 23, 2021"
+      }
+    ],
+    "version 2.1" : [
+      {
+        "name": "Reign of Serenity",
+        "link": "https://genshin.mihoyo.com/en/news/detail/15391",
+        "image": "images/Banners/character/Wish_Reign_of_Serenity_2021-09-01.png",
+        "startDate": "September 1, 2021",
+        "endDate": "September 21, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/15390",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-09-01.png",
+        "startDate": "September 1, 2021",
+        "endDate": "September 21, 2021"
+      },
+      {
+        "name": "Drifting Luminescence",
+        "link": "https://genshin.mihoyo.com/en/news/detail/15990",
+        "image": "images/Banners/character/Wish_Drifting_Luminescence_2021-09-21.png",
+        "startDate": "September 21, 2021",
+        "endDate": "October 12, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/15991",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-09-21.png",
+        "startDate": "September 21, 2021",
+        "endDate": "October 12, 2021"
+      }
+    ],
+    "version 2.0" : [
+      {
+        "name": "The Heron's Court",
+        "link": "https://genshin.mihoyo.com/en/news/detail/14330",
+        "image": "images/Banners/character/Wish_The_Herons_Court_2021-07-21.png",
+        "startDate": "July 21, 2021",
+        "endDate": "August 10, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/14329",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-07-21.png",
+        "startDate": "July 21, 2021",
+        "endDate": "August 10, 2021"
+      },
+      {
+        "name": "Tapestry of Golden Flames",
+        "link": "https://genshin.mihoyo.com/en/news/detail/14773",
+        "image": "images/Banners/character/Wish_Tapestry_of_Golden_Flames_2021-08-10.png",
+        "startDate": "August 10, 2021",
+        "endDate": "August 31, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://www.hoyolab.com/article/661045",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-08-10.png",
+        "startDate": "August 10, 2021",
+        "endDate": "August 31, 2021"
+      }
+    ],
+    "version 1.6" : [
+      {
+        "name": "Sparkling Steps",
+        "link": "https://genshin.mihoyo.com/en/news/detail/13294",
+        "image": "images/Banners/character/Wish_Sparkling_Steps_2021-06-09.png",
+        "startDate": "June 9, 2021",
+        "endDate": "June 29, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/13295",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-06-09.png",
+        "startDate": "June 9, 2021",
+        "endDate": "June 29, 2021"
+      },
+      {
+        "name": "Leaves in the Wind",
+        "link": "https://genshin.mihoyo.com/en/news/detail/13657",
+        "image": "images/Banners/character/Wish_Leaves_in_the_Wind_2021-06-29.png",
+        "startDate": "June 29, 2021",
+        "endDate": "July 20, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/13666",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-06-29.png",
+        "startDate": "June 29, 2021",
+        "endDate": "July 20, 2021"
+      }
+    ],
+    "version 1.5" : [
+      {
+        "name": "Gentry of Hermitage",
+        "link": "https://genshin.mihoyo.com/en/news/detail/12265",
+        "image": "images/Banners/character/Wish_Gentry_of_Hermitage_2021-04-28.png",
+        "startDate": "April 28, 2021",
+        "endDate": "May 18, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://www.hoyolab.com/article/324040",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-04-28.png",
+        "startDate": "April 28, 2021",
+        "endDate": "May 18, 2021"
+      },
+      {
+        "name": "Born of Ocean Swell",
+        "link": "https://genshin.mihoyo.com/en/news/detail/12736",
+        "image": "images/Banners/character/Wish_Born_of_Ocean_Swell_2021-05-18.png",
+        "startDate": "May 18, 2021",
+        "endDate": "June 8, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/12749",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-05-18.png",
+        "startDate": "May 18, 2021",
+        "endDate": "June 8, 2021"
+      }
+    ],
+    "version 1.4" : [
+      {
+        "name": "Ballad in Goblets",
+        "link": "https://genshin.mihoyo.com/en/news/detail/9269",
+        "image": "images/Banners/character/Wish_Ballad_in_Goblets_2021-03-17.jpg",
+        "startDate": "March 17, 2021",
+        "endDate": "April 6, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/9278",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-03-17.jpg",
+        "startDate": "March 17, 2021",
+        "endDate": "April 6, 2021"
+      },
+      {
+        "name": "Farewell of Snezhnaya",
+        "link": "https://genshin.mihoyo.com/en/news/detail/9714",
+        "image": "images/Banners/character/Wish_Farewell_of_Snezhnaya_2021-04-06.png",
+        "startDate": "April 6, 2021",
+        "endDate": "April 27, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/9739",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-04-06.png",
+        "startDate": "April 6, 2021",
+        "endDate": "April 27, 2021"
+      }
+    ],
+    "version 1.3" : [
+      {
+        "name": "Invitation to Mundane Life",
+        "link": "https://genshin.mihoyo.com/en/news/detail/8514",
+        "image": "images/Banners/character/Wish_Invitation_to_Mundane_Life_2021-02-03.jpg",
+        "startDate": "February 3, 2021",
+        "endDate": "February 17, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin-impact.fandom.com/wiki/Epitome_Invocation/2021-02-03",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-02-03.jpg",
+        "startDate": "February 3, 2021",
+        "endDate": "February 23, 2021"
+      },
+      {
+        "name": "Dance of Lanterns",
+        "link": "https://genshin.mihoyo.com/en/news/detail/8617",
+        "image": "images/Banners/character/Wish_Dance_of_Lanterns_2021-02-17.jpg",
+        "startDate": "February 17, 2021",
+        "endDate": "March 2, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/8741",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-02-23.jpg",
+        "startDate": "February 23, 2021",
+        "endDate": "March 16, 2021"
+      },
+      {
+        "name": "Moment of Bloom",
+        "link": "https://genshin.mihoyo.com/en/news/detail/8894",
+        "image": "images/Banners/character/Wish_Moment_of_Bloom_2021-03-02.jpg",
+        "startDate": "March 2, 2021",
+        "endDate": "March 16, 2021"
+      }
+    ],
+    "version 1.2" : [
+      {
+        "name": "Secretum Secretorum",
+        "link": "https://genshin.mihoyo.com/en/news/detail/7491",
+        "image": "images/Banners/character/Wish_Secretum_Secretorum_2020-12-23.jpg",
+        "startDate": "December 23, 2020",
+        "endDate": "January 12, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/7493",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2020-12-23.jpg",
+        "startDate": "December 23, 2020",
+        "endDate": "January 12, 2021"
+      },
+      {
+        "name": "Adrift in the Harbor",
+        "link": "https://www.hoyolab.com/article/131757",
+        "image": "images/Banners/character/Wish_Adrift_in_the_Harbor_2021-01-12.jpg",
+        "startDate": "January 12, 2021",
+        "endDate": "February 2, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://www.hoyolab.com/article/131762",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-01-12.jpg",
+        "startDate": "January 12, 2021",
+        "endDate": "February 2, 2021"
+      }
+    ],
+    "version 1.1" : [
+      {
+        "name": "Farewell of Snezhnaya",
+        "link": "https://www.hoyolab.com/article/78956",
+        "image": "images/Banners/character/Wish_Farewell_of_Snezhnaya_2020-11-11.jpg",
+        "startDate": "November 11, 2020",
+        "endDate": "December 1, 2020"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://www.hoyolab.com/article/78953",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2020-11-11.jpg",
+        "startDate": "November 11, 2020",
+        "endDate": "December 1, 2020"
+      },
+      {
+        "name": "Gentry of Hermitage",
+        "link": "https://genshin.mihoyo.com/en/news/detail/6998",
+        "image": "images/Banners/character/Wish_Gentry_of_Hermitage_2020-12-01.png",
+        "startDate": "December 1, 2020",
+        "endDate": "December 22, 2020"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/7000",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2020-12-01.jpg",
+        "startDate": "December 1, 2020",
+        "endDate": "December 22, 2020"
+      }
+    ],
+    "version 1.0" : [
+      {
+        "name": "Ballad in Goblets",
+        "link": "https://twitter.com/GenshinImpact/status/1309704246971990017",
+        "image": "images/Banners/character/Wish_Ballad_in_Goblets_2020-09-28.jpg",
+        "startDate": "September 28, 2020",
+        "endDate": "October 18, 2020"
+      },
+      {
+        "name": "Beginners' Wish",
+        "link": "https://genshin-impact.fandom.com/wiki/Beginners%27_Wish",
+        "image": "images/Banners/character/Wish_Beginners_Wish.jpg",
+        "startDate": "September 28, 2020",
+        "endDate": "Indefinite"
+      },
+      {
+        "name": "Wanderlust Invocation",
+        "link": "https://genshin-impact.fandom.com/wiki/Wanderlust_Invocation",
+        "image": "images/Banners/standard/Wish_Wanderlust_Invocation_2020-09-28.png",
+        "startDate": "September 28, 2020",
+        "endDate": "Indefinite"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin-impact.fandom.com/wiki/Epitome_Invocation/2020-09-28",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2020-09-28.jpg",
+        "startDate": "September 28, 2020",
+        "endDate": "October 18, 2020"
+      },
+      {
+        "name": "Sparkling Steps",
+        "link": "https://twitter.com/GenshinImpact/status/1317676780250038273",
+        "image": "images/Banners/character/Wish_Sparkling_Steps_2020-10-20.jpg",
+        "startDate": "October 20, 2020",
+        "endDate": "November 10, 2020"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin-impact.fandom.com/wiki/Epitome_Invocation/2020-10-20",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2020-10-20.jpg",
+        "startDate": "October 20, 2020",
+        "endDate": "November 9, 2020"
+      }
+    ]
+  }
 }
