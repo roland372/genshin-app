@@ -1,72 +1,581 @@
 {
   "currentEvents": [
     {
-      "name": "Thunder Sojourn",
-      "link": "https://www.hoyolab.com/article/573692",
-      "image": "/images/Events/2.0/Thunder_Sojourn.png",
-      "version": 2.0,
-      "startDate": "July 22, 2021",
-      "endDate": "August 9, 2021"
+      "name": "Shadowed Snowfall",
+      "link": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Shadowed_Snowfall",
+      "image": "images/Events/current/Battle_Pass_Shadowed_Snowfall.png",
+      "startDate": "November 24, 2021",
+      "endDate": "January 03, 2022"
     },
     {
-      "name": "Thunder Sojourn",
-      "link": "https://www.hoyolab.com/article/573692",
-      "image": "/images/Events/1.5/Energy_Amplifier_Initiation.png",
-      "version": 2.0,
-      "startDate": "July 22, 2021",
-      "endDate": "August 9, 2021"
+      "name": "Shadows Amidst Snowstorms",
+      "link": "https://genshin.mihoyo.com/en/news/detail/17274",
+      "image": "images/Events/current/Shadows_Amidst_Snowstorms.png",
+      "startDate": "November 25, 2021",
+      "endDate": "December 13, 2021"
+    },
+    {
+      "name": "Bantan Sango Case Files: The Warrior Dog",
+      "link": "https://genshin-impact.fandom.com/wiki/Bantan_Sango_Case_Files:_The_Warrior_Dog",
+      "image": "images/Events/current/Bantan_Sango_Case_Files_The_Warrior_Dog.png",
+      "startDate": "December 07, 2021",
+      "endDate": "December 20, 2021"
+    },
+    {
+      "name": "Misty Dungeon: Realm of Light",
+      "link": "https://genshin-impact.fandom.com/wiki/Misty_Dungeon/2.3",
+      "image": "images/Events/current/Misty_Dungeon_Realm_of_Light.png",
+      "startDate": "Upcoming",
+      "endDate": ""
+    },
+    {
+      "name": "Energy Amplifier Fruition",
+      "link": "https://genshin-impact.fandom.com/wiki/Marvelous_Merchandise/2.3",
+      "image": "images/Events/current/Energy_Amplifier_Fruition.png",
+      "startDate": "Upcoming",
+      "endDate": ""
+    },
+    {
+      "name": "Marvelous Merchandise",
+      "link": "https://genshin-impact.fandom.com/wiki/Energy_Amplifier/2.3",
+      "image": "images/Events/current/Marvelous_Merchandise_Event.jpg",
+      "startDate": "Upcoming",
+      "endDate": ""
     }
   ],
   "upcomingEvents": [
     {
-      "name": "Thunder Sojourn",
-      "link": "https://www.hoyolab.com/article/573692",
-      "image": "/images/Events/1.5/Energy_Amplifier_Initiation.png",
-      "version": 2.0,
-      "startDate": "July 22, 2021",
-      "endDate": "August 9, 2021"
-    },
-    {
-      "name": "Thunder Sojourn",
-      "link": "https://www.hoyolab.com/article/573692",
-      "image": "/images/Events/2.0/Thunder_Sojourn.png",
-      "version": 2.0,
-      "startDate": "July 22, 2021",
-      "endDate": "August 9, 2021"
+      "name": "",
+      "link": "",
+      "image": "images/Banners/character/",
+      "startDate": "",
+      "endDate": ""
     }
   ],
-  "pastEvents": [
-    {
-      "name": "Thunder Sojourn",
-      "link": "https://www.hoyolab.com/article/573692",
-      "image": "/images/Events/2.0/Thunder_Sojourn.png",
-      "version": 2.0,
-      "startDate": "July 22, 2021",
-      "endDate": "August 9, 2021"
-    }, 
-    {
-      "name": "Thunder Sojourn",
-      "link": "https://www.hoyolab.com/article/573692",
-      "image": "/images/Events/2.0/Thunder_Sojourn.png",
-      "version": 2.0,
-      "startDate": "July , 2021",
-      "endDate": "August 9, 2021"
-    }, 
-    {
-      "name": "Thunder Sojourn",
-      "link": "https://www.hoyolab.com/article/573692",
-      "image": "/images/Events/2.0/Thunder_Sojourn.png",
-      "version": 2.0,
-      "startDate": " 22, 2021",
-      "endDate": "August 9, 2021"
-    }, 
-    {
-      "name": "Thunder Sojourn",
-      "link": "https://www.hoyolab.com/article/573692",
-      "image": "/images/Events/2.0/Thunder_Sojourn.png",
-      "version": 2.0,
-      "startDate": "July 22, 2021",
-      "endDate": " 9, 2021"
-    }
-  ]
+  "pastEvents": {
+    "version 2.2" : [
+      {
+        "name": "Mystic Repose",
+        "link": "https://genshin.mihoyo.com/en/news/detail/16356",
+        "image": "images/Events/2.2/Battle_Pass_Mystic_Repose.png",
+        "startDate": "October 13, 2021",
+        "endDate": "November 22, 2021"
+      },
+      {
+        "name": "Tuned to the World's Sounds",
+        "link": "https://genshin.mihoyo.com/en/news/detail/16495",
+        "image": "images/Events/2.2/Tuned_to_the_World's_Sounds.png",
+        "startDate": "October 15, 2021",
+        "endDate": "October 25, 2021"
+      },
+      {
+        "name": "Labyrinth Warriors",
+        "link": "https://genshin.mihoyo.com/en/news/detail/16566",
+        "image": "images/Events/2.2/Labyrinth_Warriors.png",
+        "startDate": "October 21, 2021",
+        "endDate": "November 08, 2021"
+      },
+      {
+        "name": "Shadow of the Ancients",
+        "link": "https://genshin.mihoyo.com/en/news/detail/16809",
+        "image": "images/Events/2.2/Shadow_of_the_Ancients.png",
+        "startDate": "November 05, 2021",
+        "endDate": "November 15, 2021"
+      },
+      {
+        "name": "Dreams of Bloom",
+        "link": "https://genshin.mihoyo.com/en/news/detail/16809",
+        "image": "images/Events/2.2/Dreams_of_Bloom.png",
+        "startDate": "November 12, 2021",
+        "endDate": "November 18, 2021"
+      },
+      {
+        "name": "Ley Line Overflow",
+        "link": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/2021-11-15",
+        "image": "images/Events/2.2/Ley_Line_Overflow.jpg",
+        "startDate": "November 15, 2021",
+        "endDate": "November 22, 2021"
+      }
+    ],
+    "version 2.1" : [
+      {
+        "name": "Moonchaser",
+        "link": "https://genshin.mihoyo.com/en/news/detail/15353",
+        "image": "images/Events/2.1/Battle_Pass_Moonchaser.png",
+        "startDate": "September 01, 2021",
+        "endDate": "October 11, 2021"
+      },
+      {
+        "name": "Hyakunin Ikki",
+        "link": "https://genshin.mihoyo.com/en/news/detail/15385",
+        "image": "images/Events/2.1/Hyakunin_Ikki.png",
+        "startDate": "September 02, 2021",
+        "endDate": "September 13, 2021"
+      },
+      {
+        "name": "Lunar Realm",
+        "link": "https://genshin.mihoyo.com/en/news/detail/15386",
+        "image": "images/Events/2.1/Lunar_Realm.png",
+        "startDate": "September 10, 2021",
+        "endDate": "September 20, 2021"
+      },
+      {
+        "name": "Spectral Secrets",
+        "link": "https://www.hoyolab.com/article/780934",
+        "image": "images/Events/2.1/Spectral_Secrets.png",
+        "startDate": "September 19, 2021",
+        "endDate": "September 26, 2021"
+      },
+      {
+        "name": "Moonlight Merriment",
+        "link": "https://genshin.mihoyo.com/en/news/detail/15384",
+        "image": "images/Events/2.1/Moonlight_Merriment.png",
+        "startDate": "September 27, 2021",
+        "endDate": "October 11, 2021"
+      },
+      {
+        "name": "Passage of Clouds and Stars",
+        "link": "https://www.hoyolab.com/article/780929",
+        "image": "images/Events/2.1/Passage_of_Clouds_and_Stars.png",
+        "startDate": "September 28, 2021",
+        "endDate": "October 13, 2021"
+      },
+      {
+        "name": "Genshin Concert",
+        "link": "https://webstatic-sea.mihoyo.com/ys/event/e20210816concert/index.html",
+        "image": "images/Events/2.1/Event_Genshin_Concert.png",
+        "startDate": "October 03, 2021",
+        "endDate": "October 03, 2021"
+      }
+    ],
+    "version 2.0" : [
+      {
+        "name": "Divine Thunder",
+        "link": "https://genshin.mihoyo.com/en/news/detail/14337",
+        "image": "images/Events/2.0/Battle_Pass_Divine_Thunder.png",
+        "startDate": "July 21, 2021",
+        "endDate": "August 30, 2021"
+      },
+      {
+        "name": "Thunder Sojourn",
+        "link": "https://www.hoyolab.com/genshin/article/573692",
+        "image": "images/Events/2.0/Thunder_Sojourn.png",
+        "startDate": "July 22, 2021",
+        "endDate": "August 09, 2021"
+      },
+      {
+        "name": "Summer Night Mementos",
+        "link": "https://www.hoyolab.com/genshin/article/640969",
+        "image": "images/Events/2.0/Summer_Night_Mementos.png",
+        "startDate": "August 05, 2021",
+        "endDate": "August 11, 2021"
+      },
+      {
+        "name": "Lost Riches",
+        "link": "https://www.hoyolab.com/genshin/article/635057",
+        "image": "images/Events/2.0/Lost_Riches_2021-08-06.png",
+        "startDate": "August 06, 2021",
+        "endDate": "August 16, 2021"
+      },
+      {
+        "name": "Theater Mechanicus: Stage of Wonders",
+        "link": "https://genshin.mihoyo.com/en/news/detail/14715",
+        "image": "images/Events/2.0/Theater_Mechanicus_Stage_of_Wonders.png",
+        "startDate": "August 12, 2021",
+        "endDate": "August 26, 2021"
+      },
+      {
+        "name": "Phantom Flow",
+        "link": "https://www.hoyolab.com/genshin/article/720087",
+        "image": "images/Events/2.0/Phantom_Flow.png",
+        "startDate": "August 20, 2021",
+        "endDate": "August 30, 2021"
+      },
+      {
+        "name": "Ley Line Overflow",
+        "link": "https://www.hoyolab.com/genshin/article/736132",
+        "image": "images/Events/2.0/Ley_Line_Overflow.jpg",
+        "startDate": "August 23, 2021",
+        "endDate": "August 30, 2021"
+      }
+    ],
+    "version 1.6" : [
+      {
+        "name": "Marine Hues",
+        "link": "https://genshin.mihoyo.com/en/news/detail/13320",
+        "image": "images/Events/1.6/Battle_Pass_Marine_Hues.png",
+        "startDate": "June 09, 2021",
+        "endDate": "July 19, 2021"
+      },
+      {
+        "name": "Echoing Tales",
+        "link": "https://genshin.mihoyo.com/en/news/detail/13320",
+        "image": "images/Events/1.6/Echoing_Tales.png",
+        "startDate": "June 09, 2021",
+        "endDate": "July 21, 2021"
+      },
+      {
+        "name": "Midsummer Island Adventure",
+        "link": "https://www.hoyolab.com/genshin/article/415687",
+        "image": "images/Events/1.6/Midsummer_Island_Adventure.png",
+        "startDate": "June 09, 2021",
+        "endDate": "June 28, 2021"
+      },
+      {
+        "name": "Legend of the Vagabond Sword",
+        "link": "https://www.hoyolab.com/genshin/article/475605",
+        "image": "images/Events/1.6/Legend_of_the_Vagabond_Sword.png",
+        "startDate": "June 25, 2021",
+        "endDate": "July 08, 2021"
+      },
+      {
+        "name": "Kaboomball Kombat",
+        "link": "https://www.hoyolab.com/genshin/article/503383",
+        "image": "images/Events/1.6/Kaboomball_Kombat.png",
+        "startDate": "July 02, 2021",
+        "endDate": "July 12, 2021"
+      },
+      {
+        "name": "Never-Ending Battle",
+        "link": "https://genshin.mihoyo.com/en/news/detail/13960",
+        "image": "images/Events/1.6/Never-Ending_Battle.png",
+        "startDate": "July 09, 2021",
+        "endDate": "July 19, 2021"
+      },
+      {
+        "name": "Ley Line Overflow",
+        "link": "https://www.hoyolab.com/genshin/article/736132",
+        "image": "images/Events/1.6/Ley_Line_Overflow.jpg",
+        "startDate": "August 23, 2021",
+        "endDate": "August 30, 2021"
+      }
+    ],
+    "version 1.5" : [
+      {
+        "name": "Realm of Diversion",
+        "link": "https://genshin.mihoyo.com/en/news/detail/12281",
+        "image": "images/Events/1.5/Battle_Pass_Realm_of_Diversion.png",
+        "startDate": "April 28, 2021",
+        "endDate": "June 07, 2021"
+      },
+      {
+        "name": "Energy Amplifier Initiation",
+        "link": "https://www.hoyolab.com/genshin/article/329821",
+        "image": "images/Events/1.5/Energy_Amplifier_Initiation.png",
+        "startDate": "April 30, 2021",
+        "endDate": "May 17, 2021"
+      },
+      {
+        "name": "Windtrace",
+        "link": "https://www.hoyolab.com/genshin/article/362368",
+        "image": "images/Events/1.5/Windtrace.png",
+        "startDate": "May 14, 2021",
+        "endDate": "May 24, 2021"
+      },
+      {
+        "name": "Battlefront: Misty Dungeon",
+        "link": "https://www.hoyolab.com/genshin/article/377249",
+        "image": "images/Events/1.5/Battlefront_Misty_Dungeon.png",
+        "startDate": "May 21, 2021",
+        "endDate": "May 31, 2021"
+      },
+      {
+        "name": "Mimi Tomo",
+        "link": "https://www.hoyolab.com/genshin/article/387817",
+        "image": "images/Events/1.5/Mimi_Tomo.png",
+        "startDate": "May 27, 2021",
+        "endDate": "June 08, 2021"
+      },
+      {
+        "name": "Overflowing Mastery",
+        "link": "https://www.hoyolab.com/genshin/article/394841",
+        "image": "images/Events/1.5/Overflowing_Mastery.png",
+        "startDate": "May 31, 2021",
+        "endDate": "June 07, 2021"
+      }
+    ],
+    "version 1.4" : [
+      {
+        "name": "Windborne Blossoms",
+        "link": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Windborne_Blossoms",
+        "image": "images/Events/1.4/Battle_Pass_Windborne_Blossoms.jpg",
+        "startDate": "March 17, 2021",
+        "endDate": "April 26, 2021"
+      },
+      {
+        "name": "Outland Gastronomy",
+        "link": "https://genshin.mihoyo.com/en/news/detail/9262",
+        "image": "images/Events/1.4/Outland_Gastronomy.png",
+        "startDate": "March 17, 2021",
+        "endDate": "April 01, 2021"
+      },
+      {
+        "name": "Invitation of Windblume",
+        "link": "https://genshin.mihoyo.com/en/news/detail/9371",
+        "image": "images/Events/1.4/Invitation_of_Windblume.png",
+        "startDate": "March 19, 2021",
+        "endDate": "April 05, 2021"
+      },
+      {
+        "name": "Contending Tides",
+        "link": "https://www.hoyolab.com/genshin/article/275307",
+        "image": "images/Events/1.4/Contending_Tides.png",
+        "startDate": "April 02, 2021",
+        "endDate": "April 12, 2021"
+      },
+      {
+        "name": "Wishful Drops",
+        "link": "https://www.hoyolab.com/genshin/article/286280",
+        "image": "images/Events/1.4/Wishful_Drops.png",
+        "startDate": "April 09, 2021",
+        "endDate": "April 16, 2021"
+      },
+      {
+        "name": "Marvelous Merchandise",
+        "link": "https://www.hoyolab.com/genshin/article/295568",
+        "image": "images/Events/1.4/Marvelous_Merchandise_Event.jpg",
+        "startDate": "April 16, 2021",
+        "endDate": "April 23, 2021"
+      }
+    ],
+    "version 1.3" : [
+      {
+        "name": "Five Flushes of Fortune",
+        "link": "https://genshin.mihoyo.com/en/news/detail/8496",
+        "image": "images/Events/1.3/Five_Flushes_of_Fortune.jpg",
+        "startDate": "February 03, 2021",
+        "endDate": "February 13, 2021"
+      },
+      {
+        "name": "Lantern-Lit Sky",
+        "link": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Lantern-Lit_Sky",
+        "image": "images/Events/1.3/Battle_Pass_Lantern-Lit_Sky.jpg",
+        "startDate": "February 03, 2021",
+        "endDate": "March 15, 2021"
+      },
+      {
+        "name": "Lantern Rite",
+        "link": "https://genshin.mihoyo.com/en/news/detail/8598",
+        "image": "images/Events/1.3/Lantern_Rite.jpg",
+        "startDate": "February 10, 2021",
+        "endDate": "February 28, 2021"
+      },
+      {
+        "name": "Stand by Me",
+        "link": "https://genshin-impact.fandom.com/wiki/Stand_by_Me",
+        "image": "images/Events/1.3/Stand_by_Me.jpg",
+        "startDate": "February 10, 2021",
+        "endDate": "March 07, 2021"
+      },
+      {
+        "name": "Theater Mechanicus",
+        "link": "https://genshin.mihoyo.com/en/news/detail/8599",
+        "image": "images/Events/1.3/Theater_Mechanicus_Gameplay_Details.jpg",
+        "startDate": "February 10, 2021",
+        "endDate": "February 28, 2021"
+      },
+      {
+        "name": "May Fortune Find You",
+        "link": "https://genshin-impact.fandom.com/wiki/May_Fortune_Find_You",
+        "image": "images/Events/1.3/May_Fortune_Find_You.jpg",
+        "startDate": "February 11, 2021",
+        "endDate": "February 26, 2021"
+      },
+      {
+        "name": "Ley Line Overflow",
+        "link": "https://genshin.mihoyo.com/en/news/detail/8802",
+        "image": "images/Events/1.3/Ley_Line_Overflow.jpg",
+        "startDate": "February 26, 2021",
+        "endDate": "March 05, 2021"
+      },
+      {
+        "name": "Night Sky's Grace",
+        "link": "https://genshin-impact.fandom.com/wiki/Night_Sky%27s_Grace",
+        "image": "images/Events/1.3/Night_Sky's_Grace.jpg",
+        "startDate": "February 26, 2021",
+        "endDate": "March 17, 2021"
+      },
+      {
+        "name": "Vishaps and Where to Find Them",
+        "link": "https://genshin.mihoyo.com/en/news/detail/9039",
+        "image": "images/Events/1.3/Vishaps_and_Where_to_Find_Them_Event_Announcement.jpg",
+        "startDate": "March 05, 2021",
+        "endDate": "March 12, 2021"
+      }
+    ],
+    "version 1.2" : [
+      {
+        "name": "Mountaineer's Endurance",
+        "link": "https://genshin.mihoyo.com/en/news/detail/7484",
+        "image": "images/Events/1.2/Battle_Pass_Mountaineer's_Endurance.jpg",
+        "startDate": "December 23, 2020",
+        "endDate": "February 01, 2021"
+      },
+      {
+        "name": "Stellar Reunion",
+        "link": "https://genshin.mihoyo.com/en/news/detail/7489",
+        "image": "images/Events/1.2/Stellar_Reunion.jpg",
+        "startDate": "December 23, 2020",
+        "endDate": "Indefinite"
+      },
+      {
+        "name": "The Chalk Prince and the Dragon",
+        "link": "https://genshin.mihoyo.com/en/news/detail/7487",
+        "image": "images/Events/1.2/The_Chalk_Prince_and_the_Dragon_Preview.jpg",
+        "startDate": "December 23, 2020",
+        "endDate": "January 05, 2021"
+      },
+      {
+        "name": "Lost Riches",
+        "link": "https://genshin.mihoyo.com/en/news/detail/7785",
+        "image": "images/Events/1.2/Lost_Riches.jpg",
+        "startDate": "January 08, 2021",
+        "endDate": "January 18, 2021"
+      },
+      {
+        "name": "Seize the Day",
+        "link": "https://genshin.mihoyo.com/en/news/detail/7922",
+        "image": "images/Events/1.2/Seize_the_Day.jpg",
+        "startDate": "January 16, 2021",
+        "endDate": "January 31, 2021"
+      },
+      {
+        "name": "Hypostatic Symphony",
+        "link": "https://genshin.mihoyo.com/en/news/detail/7985",
+        "image": "images/Events/1.2/Hypostatic_Symphony.jpg",
+        "startDate": "January 16, 2021",
+        "endDate": "January 31, 2021"
+      },
+      {
+        "name": "Marvelous Merchandise",
+        "link": "https://genshin.mihoyo.com/en/news/detail/8144",
+        "image": "images/Events/1.2/Marvelous_Merchandise_Event.jpg",
+        "startDate": "January 23, 2021",
+        "endDate": "January 30, 2021"
+      }
+    ],
+    "version 1.1" : [
+      {
+        "name": "Seize the Day",
+        "link": "https://genshin.mihoyo.com/en/news/detail/6534",
+        "image": "images/Events/1.1/Seize_the_Day.jpg",
+        "startDate": "November 11, 2020",
+        "endDate": "November 25, 2020"
+      },
+      {
+        "name": "Baptism of Song",
+        "link": "https://genshin-impact.fandom.com/wiki/Baptism_of_Song",
+        "image": "images/Events/1.1/Baptism_of_Song.jpg",
+        "startDate": "November 11, 2020",
+        "endDate": "Indefinite"
+      },
+      {
+        "name": "Fading Star",
+        "link": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Fading_Star",
+        "image": "images/Events/1.1/Battle_Pass_Fading_Star.png",
+        "startDate": "November 11, 2020",
+        "endDate": "December 21, 2020"
+      },
+      {
+        "name": "Unreconciled Stars",
+        "link": "https://genshin.mihoyo.com/en/news/detail/6751",
+        "image": "images/Events/1.1/Unreconciled_Stars.png",
+        "startDate": "November 16, 2020",
+        "endDate": "November 30, 2020"
+      },
+      {
+        "name": "Seize the Day",
+        "link": "https://genshin.mihoyo.com/en/news/detail/6993",
+        "image": "images/Events/1.1/Seize_the_Day.jpg",
+        "startDate": "December 01, 2020",
+        "endDate": "December 16, 2020"
+      },
+      {
+        "name": "Gliding Challenge",
+        "link": "https://genshin.mihoyo.com/en/news/detail/7154",
+        "image": "images/Events/1.1/Gliding_Challenge_Event.jpg",
+        "startDate": "December 04, 2020",
+        "endDate": "December 14, 2020"
+      },
+      {
+        "name": "While It's Warm",
+        "link": "https://genshin.mihoyo.com/en/news/detail/7219",
+        "image": "images/Events/1.1/While_It's_Warm_Banner.jpg",
+        "startDate": "December 11, 2020",
+        "endDate": "December 18, 2020"
+      }
+    ],
+    "version 1.0" : [
+      {
+        "name": "Pre-Registration",
+        "link": "https://www.hoyolab.com/genshin/article/15223",
+        "image": "images/Events/1.0/Pre-registration_rewards.jpg",
+        "startDate": "August 19, 2020",
+        "endDate": "September 28, 2020"
+      },
+      {
+        "name": "Catch the Wind",
+        "link": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Catch_the_Wind",
+        "image": "images/Events/1.0/Battle_Pass_Catch_the_Wind.png",
+        "startDate": "September 28, 2020",
+        "endDate": "November 10, 2020"
+      },
+      {
+        "name": "Fate Foretold",
+        "link": "https://genshin-impact.fandom.com/wiki/Fate_Foretold",
+        "image": "images/Events/1.0/Fate_Foretold.png",
+        "startDate": "September 28, 2020",
+        "endDate": "Indefinite"
+      },
+      {
+        "name": "Launch Appreciation Rewards",
+        "link": "https://twitter.com/GenshinImpact/status/1310549822164865025",
+        "image": "images/Events/1.0/Launch_Appreciation_Rewards.png",
+        "startDate": "September 28, 2020",
+        "endDate": "November 11, 2020"
+      },
+      {
+        "name": "Spiral Abyss Event - People's Choice",
+        "link": "https://genshin.mihoyo.com/en/news/detail/5719",
+        "image": "images/Events/1.0/Spiral_Abyss_Event_-_People's_Choice.jpg",
+        "startDate": "September 28, 2020",
+        "endDate": "Indefinite"
+      },
+      {
+        "name": "Seize the Day",
+        "link": "https://genshin.mihoyo.com/en/news/detail/5716",
+        "image": "images/Events/1.0/Seize_the_Day.jpg",
+        "startDate": "September 28, 2020",
+        "endDate": "October 13, 2020"
+      },
+      {
+        "name": "Thank You for Joining Us On This Journey",
+        "link": "https://genshin.mihoyo.com/en/news/detail/5802",
+        "image": "images/Events/1.0/Thank_You_for_Joining_Us_On_This_Journey.png",
+        "startDate": "September 29, 2020",
+        "endDate": "November 11, 2020"
+      },
+      {
+        "name": "Elemental Crucible",
+        "link": "https://genshin.mihoyo.com/en/news/detail/5906",
+        "image": "images/Events/1.0/Elemental_Crucible_Event.jpg",
+        "startDate": "October 12, 2020",
+        "endDate": "October 19, 2020"
+      },
+      {
+        "name": "Seize the Day",
+        "link": "https://genshin-impact.fandom.com/wiki/Seize_the_Day/2020-10-19",
+        "image": "images/Events/1.0/Seize_the_Day.jpg",
+        "startDate": "October 19, 2020",
+        "endDate": "November 25, 2020"
+      },
+      {
+        "name": "Marvelous Merchandise",
+        "link": "https://genshin.mihoyo.com/en/news/detail/6066",
+        "image": "images/Events/1.0/Marvelous_Merchandise_Event.jpg",
+        "startDate": "October 26, 2020",
+        "endDate": "November 02, 2020"
+      }
+    ]
+  }
 }

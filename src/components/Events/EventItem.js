@@ -3,21 +3,27 @@ import React from 'react';
 const EventItem = props => {
 	return (
 		<tr>
-			<td>
-				<img src={props.image} className='img-fluid' width='500px' alt='' />
+			<td width='400px'>
+				<img src={props.image} className='img-fluid' alt='' />
 			</td>
 			<td>
-				<a
-					href={props.link}
-					target='_blank'
-					rel='noreferrer'
-					className='link-info text-decoration-none'
-				>
-					{props.name}
-				</a>
+				<h6>
+					<a
+						href={props.link}
+						target='_blank'
+						rel='noreferrer'
+						className='link-info text-decoration-none'
+					>
+						{props.name}
+					</a>
+				</h6>
 			</td>
-			<td>{props.startDate}</td>
-			<td>{props.endDate}</td>
+			<td>
+				<h6>{props.startDate}</h6>
+			</td>
+			<td>
+				<h6>{props.endDate}</h6>
+			</td>
 		</tr>
 	);
 };

@@ -1,9 +1,9 @@
 import React from 'react';
 import CardComponent from '../Layout/CardComponent';
 
-const UpcomingBanners = () => {
+const UpcomingEvents = () => {
 	return (
-		<CardComponent title='Past Banners'>
+		<CardComponent title='Past Events'>
 			<div className='table-responsive mx-3'>
 				<table
 					className='table table-dark table-striped table-sm align-middle'
@@ -24,4 +24,4 @@ const UpcomingBanners = () => {
 	);
 };
 
-export default UpcomingBanners;
+export default UpcomingEvents;
