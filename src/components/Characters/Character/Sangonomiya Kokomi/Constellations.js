@@ -27,7 +27,8 @@ const Constellations = props => {
 											While donning the Ceremonial Garment created by Nereid's
 											Ascension, the final Normal Attack in Sangonomiya Kokomi's
 											combo will unleash a swimming fish to deal 30% of her Max
-											HP as Hydro DMG.
+											HP as
+											<b className='text-hydro'> Hydro DMG</b>.
 										</div>
 										<div>This DMG is not considered Normal Attack DMG.</div>
 									</div>
@@ -98,7 +99,15 @@ const Constellations = props => {
 								level='6'
 								image={props.constellation6Image}
 								name={props.data.constellations[5].name}
-								description="While donning the Ceremonial Garment created by Nereid's Ascension, Sangonomiya Kokomi gains a 40% Hydro DMG Bonus for 4s after her Normal and Charged Attacks heal a character with 80% or more HP."
+								description={
+									<div>
+										While donning the Ceremonial Garment created by Nereid's
+										Ascension, Sangonomiya Kokomi gains a 40%
+										<b className='text-hydro'> Hydro DMG Bonus </b>
+										for 4s after her Normal and Charged Attacks heal a character
+										with 80% or more HP.
+									</div>
+								}
 							/>
 							{props.children}
 						</tbody>

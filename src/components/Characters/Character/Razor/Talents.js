@@ -40,8 +40,9 @@ const Talents = props => {
 						<br />
 						<b>Press</b>
 						<div>
-							Swings the Thunder Wolf Claw, dealing Electro DMG to opponents in
-							front of Razor.
+							Swings the Thunder Wolf Claw, dealing
+							<b className='text-electro'> Electro DMG </b>
+							to opponents in front of Razor.
 						</div>
 						<div>
 							Upon striking an opponent, Razor will gain an Electro Sigil, which
@@ -55,8 +56,9 @@ const Talents = props => {
 						<b>Hold</b>
 						<div>
 							Gathers Electro energy to unleash a lightning storm over a small
-							AoE, causing massive Electro DMG, and clears all of Razor's
-							Electro Sigils.
+							AoE, causing massive
+							<b className='text-electro'> Electro DMG</b>, and clears all of
+							Razor's Electro Sigils.
 						</div>
 						<div>
 							Each Electro Sigil cleared in this manner will be converted into
@@ -73,9 +75,10 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Summons the Wolf Within, which deals Electro DMG to all nearby
-							opponents. This clears all of Razor's Electro Sigils, which will
-							be converted into Elemental Energy for him.
+							Summons the Wolf Within, which deals
+							<b className='text-electro'> Electro DMG </b>
+							to all nearby opponents. This clears all of Razor's Electro
+							Sigils, which will be converted into Elemental Energy for him.
 						</div>
 						<div>
 							The Wolf Within will fight alongside Razor for the skill's
@@ -85,12 +88,17 @@ const Talents = props => {
 						<b>The Wolf Within</b>
 						<ul>
 							<li>
-								Strikes alongside Razor's normal attacks, dealing Electro DMG.
+								Strikes alongside Razor's normal attacks, dealing
+								<b className='text-electro'> Electro DMG</b>.
 							</li>
-							<li>Raises Razor's ATK SPD and Electro RES.</li>
+							<li>
+								Raises Razor's ATK SPD and
+								<b className='text-electro'> Electro RES</b>.
+							</li>
 							<li>
 								Causes Razor to be immune to DMG inflicted by the
-								Electro-Charged status.
+								<b className='text-electro'> Electro-Charged </b>
+								status.
 							</li>
 							<li>Disables Razor's Charged Attacks.</li>
 							<li>Increases Razor's resistance to interruption.</li>

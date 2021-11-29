@@ -32,7 +32,10 @@ const Talents = props => {
 				image={props.elementalSkillImage}
 				description={
 					<div>
-						<div>Performs a forward slash that deals Pyro DMG.</div>
+						<div>
+							Performs a forward slash that deals
+							<b className='text-pyro'> Pyro DMG</b>.
+						</div>
 						<br />
 						<div>
 							This skill can be used 3 times consecutively. Enters CD if not
@@ -50,14 +53,18 @@ const Talents = props => {
 					<div>
 						<div>
 							Releases intense flames to knock nearby opponents back, dealing
-							Pyro DMG. The flames then converge into the weapon, summoning a
-							Phoenix that flies forward and deals massive Pyro DMG to all
-							opponents in its path. The Phoenix explodes upon reaching its
-							destination, causing a large amount of AoE Pyro DMG.
+							<b className='text-pyro'> Pyro DMG</b>. The flames then converge
+							into the weapon, summoning a Phoenix that flies forward and deals
+							massive
+							<b className='text-pyro'> Pyro DMG </b>
+							to all opponents in its path. The Phoenix explodes upon reaching
+							its destination, causing a large amount of
+							<b className='text-pyro'> AoE Pyro DMG</b>.
 						</div>
 						<div>
 							The searing flames that run down his blade cause it to be infused
-							with Pyro.
+							with
+							<b className='text-pyro'> Pyro</b>.
 						</div>
 					</div>
 				}
@@ -82,9 +89,11 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 4'
 				description={
 					<div>
-						The Pyro Enchantment provided by Dawn lasts for 4s longer.
-						Additionally. Diluc gains 20% Pyro DMG Bonus during the duration of
-						this effect.
+						The
+						<b className='text-pyro'> Pyro Infusion </b>
+						provided by Dawn lasts for 4s longer. Additionally. Diluc gains 20%
+						<b className='text-pyro'> Pyro DMG Bonus </b>
+						during the duration of this effect.
 					</div>
 				}
 			/>

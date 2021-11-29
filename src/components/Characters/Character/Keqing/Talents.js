@@ -37,9 +37,10 @@ const Talents = props => {
 							swift thunder.
 						</div>
 						<div>
-							When the Stiletto hits its target, it deals Electro DMG to
-							opponents in a small AoE, and places a Stiletto Mark on the spot
-							hit.
+							When the Stiletto hits its target, it deals
+							<b className='text-electro'> Electro DMG </b>
+							to opponents in a small AoE, and places a Stiletto Mark on the
+							spot hit.
 						</div>
 						<br />
 						<b>Hold</b>
@@ -63,13 +64,14 @@ const Talents = props => {
 							<li>
 								If she uses Stellar Restoration again, she will blink to the
 								location of the Mark and unleash one slashing attack that deals
-								AoE Electro DMG. When blinking to a Stiletto that was thrown
-								from a Holding attack, Keqing can leap across obstructing
-								terrain.
+								<b className='text-electro'> AoE Electro DMG</b>. When blinking
+								to a Stiletto that was thrown from a Holding attack, Keqing can
+								leap across obstructing terrain.
 							</li>
 							<li>
 								If Keqing uses a Charged Attack, she will ignite a series of
-								thundering cuts at the Mark's location, dealing AoE Electro DMG.
+								thundering cuts at the Mark's location, dealing
+								<b className='text-electro'> AoE Electro DMG</b>.
 							</li>
 						</ul>
 					</div>
@@ -83,15 +85,20 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Keqing unleashes the power of lightning, dealing Electro DMG in an
-							AOE.
+							Keqing unleashes the power of lightning, dealing
+							<b className='text-electro'> Electro DMG </b>
+							in an AOE.
 						</div>
 						<div>
 							She then blends into the shadow of her blade, striking a series of
 							thunderclap-blows to nearby opponents simultaneously that deal
-							multiple instances of Electro DMG.
+							multiple instances of
+							<b className='text-electro'> Electro DMG</b>.
 						</div>
-						<div>The final attack deals massive AoE Electro DMG.</div>
+						<div>
+							The final attack deals massive
+							<b className='text-electro'> AoE Electro DMG</b>.
+						</div>
 					</div>
 				}
 			>
@@ -105,7 +112,9 @@ const Talents = props => {
 				description={
 					<div>
 						After recasting Stellar Restoration while a Lightning Stiletto is
-						present, Keqing's weapon gains an Electro Infusion for 5s.
+						present, Keqing's weapon gains an
+						<b className='text-electro'> Electro Infusion </b>
+						for 5s.
 					</div>
 				}
 			/>

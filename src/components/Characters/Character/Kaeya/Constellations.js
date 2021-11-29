@@ -21,7 +21,14 @@ const Constellations = props => {
 								level='1'
 								image={props.constellation1Image}
 								name={props.data.constellations[0].name}
-								description="The CRIT Rate of Kaeya's Normal and Charge Attacks against opponents affected by Cryo is increased by 15%."
+								description={
+									<div>
+										The CRIT Rate of Kaeya's Normal and Charge Attacks against
+										opponents affected by
+										<b className='text-cryo'> Cryo </b>
+										is increased by 15%.
+									</div>
+								}
 							/>
 							<Constellation
 								level='2'
@@ -60,7 +67,9 @@ const Constellations = props => {
 											Kaeya's Max HP. Lasts for 20s.
 										</div>
 										<div>
-											This shield absorbs Cryo DMG with 250% efficiency.
+											This shield absorbs
+											<b className='text-cryo'> Cryo DMG </b>
+											with 250% efficiency.
 										</div>
 										<div>Can only occur once every 60s.</div>
 									</div>

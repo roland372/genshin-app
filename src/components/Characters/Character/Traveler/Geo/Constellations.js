@@ -30,8 +30,9 @@ const Constellations = props => {
 								description={
 									<div>
 										When the meteorite created by Starfell Sword is destroyed,
-										it will also explode, dealing additional AoE Geo DMG equal
-										to the amount of damage dealt by Starfell Sword.
+										it will also explode, dealing additional
+										<b className='text-geo'> AoE Geo DMG </b>
+										equal to the amount of damage dealt by Starfell Sword.
 									</div>
 								}
 							/>

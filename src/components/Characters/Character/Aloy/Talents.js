@@ -22,7 +22,8 @@ const Talents = props => {
 						<div>Perform a more precise Aimed Shot with increased DMG.</div>
 						<div>
 							While aiming, biting frost will accumulate on the arrowhead. A
-							fully charged frost arrow will deal Cryo DMG
+							fully charged frost arrow will deal
+							<b className='text-cryo'> Cryo DMG</b>.
 						</div>
 					</div>
 				}
@@ -37,9 +38,11 @@ const Talents = props => {
 					<div>
 						<div>
 							Aloy throws a Freeze Bomb in the targeted direction and triggers
-							an explosion, dealing Cryo DMG. After it explodes, the Freeze Bomb
-							will split up into many Chillwater Bomblets that explode on
-							contact with opponents or after a short delay, dealing Cryo DMG.
+							an explosion, dealing
+							<b className='text-cryo'> Cryo DMG</b>. After it explodes, the
+							Freeze Bomb will split up into many Chillwater Bomblets that
+							explode on contact with opponents or after a short delay, dealing
+							<b className='text-cryo'> Cryo DMG</b>.
 						</div>
 						<div>
 							When a Freeze Bomb or Chillwater Bomblet hits an opponent, the
@@ -54,7 +57,8 @@ const Talents = props => {
 								When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She
 								then enters the Rushing Ice state, which further increases the
 								DMG dealt by her Normal Attacks and converts her Normal Attack
-								DMG to Cryo DMG.
+								DMG to
+								<b className='text-cryo'> Cryo DMG</b>.
 							</li>
 						</ul>
 						<div>
@@ -75,7 +79,8 @@ const Talents = props => {
 				description={
 					<div>
 						Aloy throws a Power Cell filled with Cryo in the targeted direction,
-						then detonates it with an arrow, dealing AoE Cryo DMG.
+						then detonates it with an arrow, dealing
+						<b className='text-cryo'> AoE Cryo DMG</b>.
 					</div>
 				}
 			>
@@ -93,8 +98,15 @@ const Talents = props => {
 				name={props.data.passiveTalents[1].name}
 				image={props.passiveTalent2Image}
 				unlocked='Unlocked at Ascension 4'
-				description='When Aloy is in the Rushing Ice state conferred by Frozen Wilds, her Cryo DMG Bonus increases by 3.5% every 1s. A maximum Cryo DMG Bonus increase of 35% can be gained in this way.
-				'
+				description={
+					<div>
+						When Aloy is in the Rushing Ice state conferred by Frozen Wilds, her
+						<b className='text-cryo'> Cryo DMG Bonus </b>
+						increases by 3.5% every 1s. A maximum
+						<b className='text-cryo'> Cryo DMG Bonus </b>
+						increase of 35% can be gained in this way.
+					</div>
+				}
 			/>
 			<PassiveTalent
 				name={props.data.passiveTalents[2].name}

@@ -32,8 +32,8 @@ const Talents = props => {
 				image={props.elementalSkillImage}
 				description={
 					<div>
-						Summons blooming ice to launch nearby opponents, dealing AoE Cryo
-						DMG.
+						Summons blooming ice to launch nearby opponents, dealing
+						<b className='text-cryo'> AoE Cryo DMG</b>.
 					</div>
 				}
 			>
@@ -53,11 +53,12 @@ const Talents = props => {
 						<ul>
 							<li>
 								A storm of whirling icy winds that slashes repeatedly at every
-								enemy it touches, dealing Cryo DMG.
+								enemy it touches, dealing
+								<b className='text-cryo'> Cryo DMG</b>.
 							</li>
 							<li>
-								The snowstorm explodes after its duration ends, dealing AoE Cryo
-								DMG.
+								The snowstorm explodes after its duration ends, dealing
+								<b className='text-cryo'> AoE Cryo DMG</b>.
 							</li>
 						</ul>
 					</div>
@@ -81,11 +82,15 @@ const Talents = props => {
 						<div>When she reappears, the following effects occur:</div>
 						<ul>
 							<li>
-								Ayaka unleashes frigid energy to apply Cryo on nearby opponents.
+								Ayaka unleashes frigid energy to apply
+								<b className='text-cryo'> Cryo </b>
+								on nearby opponents.
 							</li>
 							<li>
 								Coldness condenses around Ayaka's blade, infusing her attacks
-								with Cryo for a brief period.
+								with
+								<b className='text-cryo'> Cryo </b>
+								for a brief period.
 							</li>
 						</ul>
 					</div>
@@ -109,12 +114,18 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							When the Cryo application at the end of Kamisato Art: Senho hits
-							an opponent, Kamisato Ayaka gains the following effects:
+							When the
+							<b className='text-cryo'> Cryo </b>
+							application at the end of Kamisato Art: Senho hits an opponent,
+							Kamisato Ayaka gains the following effects:
 						</div>
 						<ul>
 							<li>Restores 10 Stamina</li>
-							<li>Gains 18% Cryo DMG Bonus for 10s.</li>
+							<li>
+								Gains 18%
+								<b className='text-cryo'> Cryo DMG Bonus </b>
+								for 10s.
+							</li>
 						</ul>
 					</div>
 				}

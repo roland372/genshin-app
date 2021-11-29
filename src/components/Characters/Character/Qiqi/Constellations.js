@@ -30,7 +30,9 @@ const Constellations = props => {
 								description={
 									<div>
 										Qiqi's Normal and Charge Attack DMG against opponents
-										affected by Cryo is increased by 15%.
+										affected by
+										<b className='text-cryo'> Cryo </b>
+										is increased by 15%.
 									</div>
 								}
 							/>

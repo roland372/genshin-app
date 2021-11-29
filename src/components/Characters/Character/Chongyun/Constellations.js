@@ -21,7 +21,14 @@ const Constellations = props => {
 								level='1'
 								image={props.constellation1Image}
 								name={props.data.constellations[0].name}
-								description="The last attack of Chongyun's Normal Attack combo releases 3 ice blades. Each blade deals 50% of Chongyun's ATK as Cryo DMG to all opponents in its path."
+								description={
+									<div>
+										The last attack of Chongyun's Normal Attack combo releases 3
+										ice blades. Each blade deals 50% of Chongyun's ATK as
+										<b className='text-cryo'> Cryo DMG </b>
+										to all opponents in its path.
+									</div>
+								}
 							/>
 							<Constellation
 								level='2'
@@ -57,7 +64,8 @@ const Constellations = props => {
 									<div>
 										<div>
 											Chongyun regenerates 1 Energy every time he hits an
-											opponent affected by Cryo.
+											opponent affected by
+											<b className='text-cryo'> Cryo</b>.
 										</div>
 										<div>This effect can only occur once every 2s.</div>
 									</div>

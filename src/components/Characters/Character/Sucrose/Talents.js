@@ -16,14 +16,27 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack='Performs up to 4 attacks using Wind Spirits, dealing Anemo DMG.'
-				chargedAttack={
+				normalAttack={
 					<div>
-						Consumes a certain amount of Stamina and deals AoE Anemo DMG after a
-						short casting time.
+						Performs up to 4 attacks using Wind Spirits, dealing
+						<b className='text-anemo'> Anemo DMG</b>.
 					</div>
 				}
-				plungingAttack='Calling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground.'
+				chargedAttack={
+					<div>
+						Consumes a certain amount of Stamina and deals AoE
+						<b className='text-anemo'> Anemo DMG </b>
+						after a short casting time.
+					</div>
+				}
+				plungingAttack={
+					<div>
+						Calling upon the power of her Wind Spirits, Sucrose plunges towards
+						the ground from mid-air, damaging all opponents in her path. Deals
+						<b className='text-anemo'> AoE Anemo DMG </b>
+						upon impact with the ground.
+					</div>
+				}
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>
@@ -33,8 +46,8 @@ const Talents = props => {
 				description={
 					<div>
 						Creates a small Wind Spirit that pulls opponents and objects towards
-						its location, launches opponents within its AoE, and deals Anemo
-						DMG.
+						its location, launches opponents within its AoE, and deals
+						<b className='text-anemo'> Anemo DMG</b>.
 					</div>
 				}
 			>
@@ -52,12 +65,17 @@ const Talents = props => {
 						<div>
 							While it persists, the Large Wind Spirit will continuously pull in
 							surrounding opponents and objects, launch nearby opponents, and
-							deal Anemo DMG.
+							deal
+							<b className='text-anemo'> Anemo DMG</b>.
 						</div>
 						<br />
 						<b>Elemental Absorption</b>
 						<div>
-							If the Wind Spirit comes into contact with Hydro/Pyro/Cryo/Electro
+							If the Wind Spirit comes into contact with
+							<b className='text-hydro'> Hydro</b>/
+							<b className='text-pyro'>Pyro</b>/
+							<b className='text-cryo'>Cryo</b>/
+							<b className='text-electro'>Electro </b>
 							energy, it will deal additional elemental DMG of that type.
 						</div>
 						<div>Elemental Absorption may only occur once per use.</div>

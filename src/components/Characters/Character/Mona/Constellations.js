@@ -25,8 +25,12 @@ const Constellations = props => {
 									<div>
 										<div>
 											When any of your own party members hits an opponent
-											affected by an Omen, the effects of Hydro-related
-											Elemental Reactions are enhanced for 8s:
+											affected by an Omen, the effects of
+											<b className='text-hydro'>
+												{' '}
+												Hydro-related Elemental Reactions{' '}
+											</b>
+											are enhanced for 8s:
 										</div>
 										<ul>
 											<li>Electro-Charged DMG increases by 15%.</li>

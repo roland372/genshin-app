@@ -49,7 +49,14 @@ const Constellations = props => {
 								level='4'
 								image={props.constellation4Image}
 								name={props.data.constellations[3].name}
-								description="When Breastplate's duration expires or it is destroyed by DMG, it will deal 400% ATK of Geo DMG to surrounding opponents."
+								description={
+									<div>
+										When Breastplate's duration expires or it is destroyed by
+										DMG, it will deal 400% ATK of
+										<b className='text-geo'> Geo DMG </b>
+										to surrounding opponents.
+									</div>
+								}
 							/>
 							<Constellation
 								level='5'

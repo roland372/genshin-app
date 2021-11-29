@@ -29,7 +29,9 @@ const Constellations = props => {
 											for 15s.
 										</div>
 										<div>
-											This shield absorbs Electro DMG 250% more effectively.
+											This shield absorbs
+											<b className='text-electro'> Electro DMG </b>
+											250% more effectively.
 										</div>
 									</div>
 								}
@@ -55,7 +57,13 @@ const Constellations = props => {
 								level='4'
 								image={props.constellation4Image}
 								name={props.data.constellations[3].name}
-								description="Within 10s of taking DMG, Beidou's Normal Attacks gain 20% additional Electro DMG."
+								description={
+									<div>
+										Within 10s of taking DMG, Beidou's Normal Attacks gain 20%
+										additional
+										<b className='text-electro'> Electro DMG</b>.
+									</div>
+								}
 							/>
 							<Constellation
 								level='5'
@@ -72,7 +80,13 @@ const Constellations = props => {
 								level='6'
 								image={props.constellation6Image}
 								name={props.data.constellations[5].name}
-								description='During the duration of Stormbreaker, the Electro RES of surrounding opponents is decreased by 15%.'
+								description={
+									<div>
+										During the duration of Stormbreaker, the{' '}
+										<b className='text-electro'> Electro RES </b> of surrounding
+										opponents is decreased by 15%.
+									</div>
+								}
 							/>
 							{props.children}
 						</tbody>

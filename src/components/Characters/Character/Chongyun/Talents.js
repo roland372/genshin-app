@@ -34,14 +34,18 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Chongyun strikes the ground with his greatsword, causing a Cryo
-							explosion in a circular AoE in front of him that deals Cryo DMG.
+							Chongyun strikes the ground with his greatsword, causing a
+							<b className='text-cryo'> Cryo </b>
+							explosion in a circular AoE in front of him that deals
+							<b className='text-cryo'> Cryo DMG</b>.
 						</div>
 						<div>
-							After a short delay, the cold air created by the Cryo explosion
-							will coalesce into a Chonghua Frost Field, within which all Sword,
-							Claymore and Polearm-wielding characters' weapons will be infused
-							with Cryo.
+							After a short delay, the cold air created by the
+							<b className='text-cryo'> Cryo </b>
+							explosion will coalesce into a Chonghua Frost Field, within which
+							all Sword, Claymore and Polearm-wielding characters' weapons will
+							be infused with
+							<b className='text-cryo'> Cryo</b>.
 						</div>
 					</div>
 				}
@@ -59,8 +63,9 @@ const Talents = props => {
 							delay, exploding as they hit the ground.
 						</div>
 						<div>
-							When the spirit blades explode, they will deal AoE Cryo DMG and
-							launch opponents.
+							When the spirit blades explode, they will deal
+							<b className='text-cryo'> AoE Cryo DMG </b>
+							and launch opponents.
 						</div>
 					</div>
 				}
@@ -86,11 +91,17 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 4'
 				description={
 					<div>
-						When the field created by Spirit Blade: Chonghua's Layered Frost
-						disappears, another spirit blade will be summoned to strike nearby
-						opponents, dealing 100% of Chonghua's Layered Frost's Skill DMG as
-						AoE Cryo DMG. Opponents hit by this blade will have their Cryo RES
-						decreased by 10% for 8s.
+						<div>
+							When the field created by Spirit Blade: Chonghua's Layered Frost
+							disappears, another spirit blade will be summoned to strike nearby
+							opponents, dealing 100% of Chonghua's Layered Frost's Skill DMG as
+							<b className='text-cryo'> AoE Cryo DMG</b>.
+						</div>
+						<div>
+							Opponents hit by this blade will have their
+							<b className='text-cryo'> Cryo RES </b>
+							decreased by 10% for 8s.
+						</div>
 					</div>
 				}
 			/>

@@ -57,7 +57,9 @@ const Constellations = props => {
 											for 15s.
 										</div>
 										<div>
-											This shield absorbs Pyro DMG 250% more effectively.
+											This shield absorbs
+											<b className='text-pyro'> Pyro DMG </b>
+											250% more effectively.
 										</div>
 									</div>
 								}

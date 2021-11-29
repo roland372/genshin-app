@@ -21,7 +21,15 @@ const Constellations = props => {
 								level='1'
 								image={props.constellation1Image}
 								name={props.data.constellations[0].name}
-								description="When Kamisato Ayaka's Normal or Charged Attacks deal Cryo DMG to opponents, it has a 50% chance of decreasing the CD of Kamisato Art: Hyouka by 0.3s. This effect can occur once every 0.1s."
+								description={
+									<div>
+										When Kamisato Ayaka's Normal or Charged Attacks deal
+										<b className='text-cryo'> Cryo DMG </b>
+										to opponents, it has a 50% chance of decreasing the CD of
+										Kamisato Art: Hyouka by 0.3s. This effect can occur once
+										every 0.1s.
+									</div>
+								}
 							/>
 							<Constellation
 								level='2'

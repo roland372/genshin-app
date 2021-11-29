@@ -16,14 +16,28 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack='Performs up to 3 consecutive attacks that take the form of swimming fish, dealing Hydro DMG.'
-				chargedAttack={
+				normalAttack={
 					<div>
-						Consumes a certain amount of Stamina to deal AoE Hydro DMG after a
-						short casting time.
+						Performs up to 3 consecutive attacks that take the form of swimming
+						fish, dealing
+						<b className='text-hydro'> Hydro DMG</b>.
 					</div>
 				}
-				plungingAttack='Gathering the might of Hydro, Kokomi plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.'
+				chargedAttack={
+					<div>
+						Consumes a certain amount of Stamina to deal
+						<b className='text-hydro'> AoE Hydro DMG </b>
+						after a short casting time.
+					</div>
+				}
+				plungingAttack={
+					<div>
+						Gathering the might of Hydro, Kokomi plunges towards the ground from
+						mid-air, damaging all opponents in her path. Deals
+						<b className='text-hydro'> AoE Hydro DMG </b>
+						upon impact with the ground.
+					</div>
+				}
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>
@@ -37,14 +51,17 @@ const Talents = props => {
 							allies.
 						</div>
 						<div>
-							Using this skill will apply the Wet status to Sangonomiya Kokomi.
+							Using this skill will apply the
+							<b className='text-hydro'> Wet </b>
+							status to Sangonomiya Kokomi.
 						</div>
 						<br />
 						<b>Bake-Kurage</b>
 						<div>
-							Deals Hydro DMG to surrounding opponents and heal nearby active
-							characters at fixed intervals. This healing is based on Kokomi's
-							Max HP.
+							Deals
+							<b className='text-hydro'> Hydro DMG </b>
+							to surrounding opponents and heal nearby active characters at
+							fixed intervals. This healing is based on Kokomi's Max HP.
 						</div>
 					</div>
 				}
@@ -57,9 +74,10 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Summons the might of Watatsumi, dealing Hydro DMG to surrounding
-							opponents, before robing Kokomi in a Ceremonial Garment made from
-							the flowing waters of Sangonomiya.
+							Summons the might of Watatsumi, dealing
+							<b className='text-hydro'> Hydro DMG </b>
+							to surrounding opponents, before robing Kokomi in a Ceremonial
+							Garment made from the flowing waters of Sangonomiya.
 						</div>
 						<br />
 						<b>Ceremonial Garment</b>

@@ -30,7 +30,9 @@ const Constellations = props => {
 								description={
 									<div>
 										When Falling Thunder created by Bellowing Thunder hits an
-										opponent, it will decrease their Electro RES by 15% for 8s.
+										opponent, it will decrease their
+										<b className='text-electro'> Electro RES </b>
+										by 15% for 8s.
 									</div>
 								}
 							/>

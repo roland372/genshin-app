@@ -33,7 +33,9 @@ const Talents = props => {
 					<div>
 						<div>
 							Using the Icevein Talisman, Qiqi brings forth the Herald of Frost,
-							dealing Cryo DMG to surrounding opponents.
+							dealing
+							<b className='text-cryo'> Cryo DMG </b>
+							to surrounding opponents.
 						</div>
 						<br />
 						<b>Herald of Frost</b>
@@ -45,8 +47,9 @@ const Talents = props => {
 							</li>
 							<li>Periodically regenerates your active character's HP.</li>
 							<li>
-								Follows the character around, dealing Cryo DMG to opponents in
-								their path.
+								Follows the character around, dealing
+								<b className='text-cryo'> Cryo DMG </b>
+								to opponents in their path.
 							</li>
 						</ul>
 					</div>
@@ -62,7 +65,7 @@ const Talents = props => {
 						<div>
 							Qiqi releases the adeptus power sealed within her body, marking
 							nearby opponents with a Fortune-Preserving Talisman that deals
-							Cryo DMG.
+							<b className='text-cryo'> Cryo DMG</b>.
 						</div>
 						<br />
 						<b>Fortune-Preserving Talisman</b>

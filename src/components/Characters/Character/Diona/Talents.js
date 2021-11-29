@@ -21,7 +21,8 @@ const Talents = props => {
 					<div>
 						Perform a more precise Aimed Shot with increased DMG. While aiming,
 						biting frost will accumulate on the arrowhead. A fully charged frost
-						arrow will deal Cryo Damage.
+						arrow will deal
+						<b className='text-cryo'> Cryo Damage</b>.
 					</div>
 				}
 				plungingAttack='Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG on impact.'
@@ -34,8 +35,9 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Fires an Icy Paw that deals Cryo DMG to opponents and forms a
-							shield on hit.
+							Fires an Icy Paw that deals
+							<b className='text-cryo'> Cryo DMG </b>
+							to opponents and forms a shield on hit.
 						</div>
 						<div>
 							The shield's DMG Absorption scales based on Diona's Max HP, and
@@ -54,9 +56,12 @@ const Talents = props => {
 						</div>
 						<br />
 						<div>
-							The shield has a 250% Cryo DMG Absorption Bonus, and will cause
-							your active character to become affected by Cryo at the point of
-							formation for a short duration.
+							The shield has a 250%
+							<b className='text-cryo'> Cryo DMG </b>
+							Absorption Bonus, and will cause your active character to become
+							affected by
+							<b className='text-cryo'> Cryo </b>
+							at the point of formation for a short duration.
 						</div>
 					</div>
 				}
@@ -69,13 +74,18 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Tosses out a special cold brew that deals AoE Cryo DMG and creates
-							a Drunken Mist in an AoE.
+							Tosses out a special cold brew that deals
+							<b className='text-cryo'> AoE Cryo DMG </b>
+							and creates a Drunken Mist in an AoE.
 						</div>
 						<br />
 						<b>Drunken Mist</b>
 						<ul>
-							<li>Deals continuous Cryo DMG to opponents within the AoE.</li>
+							<li>
+								Deals continuous
+								<b className='text-cryo'> Cryo DMG </b>
+								to opponents within the AoE.
+							</li>
 							<li>
 								Continuously regenerates the HP of characters within the the
 								AoE.

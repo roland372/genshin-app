@@ -30,12 +30,19 @@ const Constellations = props => {
 								description={
 									<div>
 										<div>
-											Skyward Sonnet decreases opponents' Anemo RES and Physical
-											RES by 12% for 10s.
+											Skyward Sonnet decreases opponents'
+											<b className='text-anemo'> Anemo RES </b>
+											and
+											<b> Physical RES </b>
+											by 12% for 10s.
 										</div>
 										<div>
 											Opponents launched by Skyward Sonnet suffer an additional
-											12% Anemo RES and Physical RES decrease while airborne.
+											12%
+											<b className='text-anemo'> Anemo RES </b>
+											and
+											<b> Physical RES </b>
+											decrease while airborne.
 										</div>
 									</div>
 								}
@@ -55,7 +62,14 @@ const Constellations = props => {
 								level='4'
 								image={props.constellation4Image}
 								name={props.data.constellations[3].name}
-								description='When Venti picks up an Elemental Orb or Particle, he receives a 25% Anemo DMG Bonus for 10s.'
+								description={
+									<div>
+										When Venti picks up an Elemental Orb or Particle, he
+										receives a 25%
+										<b className='text-anemo'> Anemo DMG Bonus </b>
+										for 10s.
+									</div>
+								}
 							/>
 							<Constellation
 								level='5'
@@ -79,7 +93,8 @@ const Constellations = props => {
 											Anemo RES decreased by 20%.
 										</div>
 										<div>
-											If an Elemental Absorption occurred, then their RES
+											If an Elemental Absorption occurred, then their
+											<b className='text-anemo'> Anemo RES </b>
 											towards the corresponding Element is also decreased by
 											20%.
 										</div>

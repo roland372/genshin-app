@@ -32,17 +32,19 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							The Raiden Shogun unveils a shard of her Euthymia, dealing Electro
-							DMG to nearby opponents, and granting nearby party members the Eye
-							of Stormy Judgment.
+							The Raiden Shogun unveils a shard of her Euthymia, dealing
+							<b className='text-electro'> Electro DMG </b>
+							to nearby opponents, and granting nearby party members the Eye of
+							Stormy Judgment.
 						</div>
 						<br />
 						<b>Eye of Stormy Judgment</b>
 						<ul>
 							<li>
 								When characters with this buff attack and deal DMG to opponents,
-								the Eye will unleash a coordinated attack, dealing AoE Electro
-								DMG at the opponent's position.
+								the Eye will unleash a coordinated attack, dealing
+								<b className='text-electro'> AoE Electro DMG </b>
+								at the opponent's position.
 							</li>
 							<li>
 								Characters who gain the Eye of Stormy Judgment will have their
@@ -69,27 +71,29 @@ const Talents = props => {
 					<div>
 						<div>
 							Gathering truths unnumbered and wishes uncounted, the Raiden
-							Shogun unleashes the Musou no Hitotachi and deals AoE Electro DMG,
-							using Musou Isshin in combat for a certain duration afterward. The
-							DMG dealt by Musou no Hitotachi and Musou Isshin's attacks will be
-							increased based on the number of Chakra Desiderata's Resolve
-							stacks consumed when this skill is used.
+							Shogun unleashes the Musou no Hitotachi and deals
+							<b className='text-electro'> AoE Electro DMG</b>, using Musou
+							Isshin in combat for a certain duration afterward. The DMG dealt
+							by Musou no Hitotachi and Musou Isshin's attacks will be increased
+							based on the number of Chakra Desiderata's Resolve stacks consumed
+							when this skill is used.
 						</div>
 						<br />
 						<b>Musou Isshin</b>
 						<div>
 							While in this state, the Raiden Shogun will wield her tachi in
 							battle, while her Normal, Charged, and Plunging Attacks will be
-							infused with Electro DMG, which cannot be overridden. When such
-							attacks hit opponents, she will regenerate Energy for all nearby
-							party members. Energy can be restored this way once every 1s, and
-							this effect can be triggered 5 times throughout this skill's
-							duration.
+							infused with
+							<b className='text-electro'> Electro DMG</b>, which cannot be
+							overridden. When such attacks hit opponents, she will regenerate
+							Energy for all nearby party members. Energy can be restored this
+							way once every 1s, and this effect can be triggered 5 times
+							throughout this skill's duration.
 						</div>
 						<div>
 							While in this state, the Raiden Shogun's resistance to
-							interruption is increased, and she is immune to Electro-Charged
-							reaction DMG.
+							interruption is increased, and she is immune to
+							<b className='text-electro'> Electro-Charged reaction DMG</b>.
 						</div>
 						<div>
 							While Musou Isshin is active, the Raiden Shogun's Normal, Charged,
@@ -145,7 +149,10 @@ const Talents = props => {
 						</div>
 						<ul>
 							<li>0.6% greater Energy restoration from Musou Isshin</li>
-							<li>0.4% Electro DMG Bonus</li>
+							<li>
+								0.4%
+								<b className='text-electro'> Electro DMG Bonus</b>
+							</li>
 						</ul>
 					</div>
 				}

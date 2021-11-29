@@ -33,7 +33,8 @@ const Talents = props => {
 				description={
 					<div>
 						Summons Guoba the Panda. Guoba continuously breathes fire at
-						opponents, dealing AoE Pyro DMG.
+						opponents, dealing
+						<b className='text-pyro'> AoE Pyro DMG</b>.
 					</div>
 				}
 			>
@@ -46,8 +47,9 @@ const Talents = props => {
 					<div>
 						Displaying her mastery over both fire and polearms, Xiangling sends
 						a Pyronado whirling around her. The Pyronado will move with your
-						character for the ability's duration, dealing Pyro DMG to all
-						opponents in its path.
+						character for the ability's duration, dealing
+						<b className='text-pyro'> Pyro DMG </b>
+						to all opponents in its path.
 					</div>
 				}
 			>

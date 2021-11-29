@@ -21,7 +21,16 @@ const Constellations = props => {
 								level='1'
 								image={props.constellation1Image}
 								name={props.data.constellations[0].name}
-								description='Chakra Desiderata will gather Resolve even faster. When Electro characters use their Elemental Bursts, the Resolve gained is increased by 80%. When characters of other Elemental Types use their Elemental Bursts, the Resolve gained is increased by 20%.'
+								description={
+									<div>
+										Chakra Desiderata will gather Resolve even faster. When
+										<b className='text-electro'> Electro </b>
+										characters use their Elemental Bursts, the Resolve gained is
+										increased by 80%. When characters of other Elemental Types
+										use their Elemental Bursts, the Resolve gained is increased
+										by 20%.
+									</div>
+								}
 							/>
 							<Constellation
 								level='2'
@@ -30,8 +39,9 @@ const Constellations = props => {
 								description={
 									<div>
 										While using Musou no Hitotachi and in the Musou Isshin state
-										applied by Secret Art: Musou Shinsetsu, the Raiden Shogun's
-										attacks ignore 60% of opponents's DEF.
+										applied by
+										<b className='text-geo'> Secret Art: Musou Shinsetsu</b>,
+										the Raiden Shogun's attacks ignore 60% of opponents's DEF.
 									</div>
 								}
 							/>
@@ -52,7 +62,15 @@ const Constellations = props => {
 								level='4'
 								image={props.constellation4Image}
 								name={props.data.constellations[3].name}
-								description='When the Musou Isshin state applied by Secret Art: Musou Shinsetsu expires, all nearby party members (excluding the Raiden Shogun) gain 30% bonus ATK for 10s.'
+								description={
+									<div>
+										When the
+										<b className='text-geo'> Musou Isshin </b>
+										state applied by Secret Art: Musou Shinsetsu expires, all
+										nearby party members (excluding the Raiden Shogun) gain 30%
+										bonus ATK for 10s.
+									</div>
+								}
 							/>
 							<Constellation
 								level='5'

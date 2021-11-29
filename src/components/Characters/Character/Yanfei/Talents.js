@@ -19,7 +19,8 @@ const Talents = props => {
 				normalAttack={
 					<div>
 						<div>
-							Shoots fireballs that deal up to three counts of Pyro DMG.
+							Shoots fireballs that deal up to three counts of
+							<b className='text-pyro'> Pyro DMG</b>.
 						</div>
 						<div>
 							When Yanfei's Normal Attacks hit enemies, they will grant her a
@@ -35,14 +36,22 @@ const Talents = props => {
 				}
 				chargedAttack={
 					<div>
-						Consumes Stamina and all Scarlet Seals before dealing AoE Pyro DMG
+						Consumes Stamina and all Scarlet Seals before dealing
+						<b className='text-pyro'> AoE Pyro DMG </b>
 						to the opponents after a short casting time.
 						<br />
 						This Charged Attack's AoE and DMG will increase according to the
 						amount of Scarlet Seals consumed.
 					</div>
 				}
-				plungingAttack='Gathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Pyro DMG upon impact with the ground.'
+				plungingAttack={
+					<div>
+						Gathering the power of Pyro, Yanfei plunges towards the ground from
+						mid-air, damaging all opponents in her path. Deals
+						<b className='text-pyro'> AoE Pyro DMG </b>
+						upon impact with the ground.
+					</div>
+				}
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>
@@ -51,7 +60,10 @@ const Talents = props => {
 				image={props.elementalSkillImage}
 				description={
 					<div>
-						<div>Summons blistering flames that deal AoE Pyro DMG.</div>
+						<div>
+							Summons blistering flames that deal
+							<b className='text-pyro'> AoE Pyro DMG</b>.
+						</div>
 						<div>
 							Opponents hit by the flames will grant Yanfei the maximum number
 							of Scarlet Seals.
@@ -68,8 +80,9 @@ const Talents = props => {
 					<div>
 						<div>
 							Triggers a spray of intense flames that rush at nearby opponents,
-							dealing AoE Pyro DMG, granting Yanfei the maximum number of
-							Scarlet Seals, and applying Brilliance to her.
+							dealing
+							<b className='text-pyro'> AoE Pyro DMG</b>, granting Yanfei the
+							maximum number of Scarlet Seals, and applying Brilliance to her.
 						</div>
 						<br />
 						<b>Brilliance</b>
@@ -95,9 +108,10 @@ const Talents = props => {
 				description={
 					<div>
 						When Yanfei consumes Scarlet Seals by using a Charged Attack, each
-						Scarlet Seal will increase Yanfei's Pyro DMG Bonus by 5%. This
-						effect lasts for 6s. When a Charged Attack is used again during the
-						effect's duration, it will dispel the previous effect.
+						Scarlet Seal will increase Yanfei's
+						<b className='text-pyro'> Pyro DMG Bonus </b>
+						by 5%. This effect lasts for 6s. When a Charged Attack is used again
+						during the effect's duration, it will dispel the previous effect.
 					</div>
 				}
 			/>
@@ -108,8 +122,9 @@ const Talents = props => {
 				description={
 					<div>
 						When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will
-						deal an additional instance of AoE Pyro DMG equal to 80% of her ATK.
-						This DMG counts as Charged Attack DMG.
+						deal an additional instance of
+						<b className='text-pyro'> AoE Pyro DMG </b>
+						equal to 80% of her ATK. This DMG counts as Charged Attack DMG.
 					</div>
 				}
 			/>

@@ -25,8 +25,9 @@ const Constellations = props => {
 									<div>
 										<div>
 											Taking DMG from a Charge Level 2 Frostflake Arrow or
-											Frostflake Arrow Bloom decreases opponents' Cryo RES by
-											15% for 6s.
+											Frostflake Arrow Bloom decreases opponents'
+											<b className='text-cryo'> Cryo RES </b>
+											by 15% for 6s.
 										</div>
 										<div>
 											A hit regenerates 2 Energy for Ganyu. This effect can only

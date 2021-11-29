@@ -33,11 +33,12 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							You disgorge a meteorite from the depths of the earth, dealing AoE
-							Geo DMG.
+							You disgorge a meteorite from the depths of the earth, dealing
+							<b className='text-geo'> AoE Geo DMG</b>.
 						</div>
 						<div>
-							The meteorite is considered a Geo Construct, and can be climbed or
+							The meteorite is considered a
+							<b className='text-geo'> Geo Construct</b>, and can be climbed or
 							used to block attacks.
 						</div>
 						<br />
@@ -58,11 +59,13 @@ const Talents = props => {
 							shockwaves.
 						</div>
 						<div>
-							Launches surrounding opponents back and deals AoE Geo DMG.
+							Launches surrounding opponents back and deals
+							<b className='text-geo'> AoE Geo DMG</b>.
 						</div>
 						<div>A stone wall is erected at the edges of the shockwave.</div>
 						<div>
-							The stone wall is considered a Geo Construct, and may be used to
+							The stone wall is considered a
+							<b className='text-geo'> Geo Construct</b>, and may be used to
 							block attacks.
 						</div>
 					</div>
@@ -84,7 +87,8 @@ const Talents = props => {
 				description={
 					<div>
 						The final hit of a Normal Attack combo triggers a collapse, dealing
-						60% of ATK as AoE Geo DMG.
+						60% of ATK as
+						<b className='text-geo'> AoE Geo DMG</b>.
 					</div>
 				}
 			/>

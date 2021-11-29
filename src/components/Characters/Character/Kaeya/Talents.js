@@ -32,8 +32,9 @@ const Talents = props => {
 				image={props.elementalSkillImage}
 				description={
 					<div>
-						Unleashes a frigid blast, dealing Cryo DMG to opponents in front of
-						Kaeya.
+						Unleashes a frigid blast, dealing
+						<b className='text-cryo'> Cryo DMG </b>
+						to opponents in front of Kaeya.
 					</div>
 				}
 			>
@@ -49,7 +50,8 @@ const Talents = props => {
 							revolve around him.
 						</div>
 						<div>
-							These icicles will follow the character around and deal Cryo DMG
+							These icicles will follow the character around and deal
+							<b className='text-cryo'> Cryo DMG </b>
 							to opponents in their path for the ability's duration.
 						</div>
 					</div>
@@ -76,8 +78,9 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Opponents Frozen by Frostgnaw will drop additional Elemental
-							Particles.
+							Opponents
+							<b className='text-cryo'> Frozen </b>
+							by Frostgnaw will drop additional Elemental Particles.
 						</div>
 						<div>
 							Frostgnaw may only produce a maximum of 2 additional Elemental

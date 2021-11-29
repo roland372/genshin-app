@@ -50,7 +50,14 @@ const Constellations = props => {
 								level='4'
 								image={props.constellation4Image}
 								name={props.data.constellations[3].name}
-								description='Within the Field created by Dandelion Breeze, all opponents have their Anemo RES decreased by 40%.'
+								description={
+									<div>
+										Within the Field created by Dandelion Breeze, all opponents
+										have their
+										<b className='text-anemo'> Anemo RES </b>
+										decreased by 40%.
+									</div>
+								}
 							/>
 							<Constellation
 								level='5'
@@ -67,7 +74,7 @@ const Constellations = props => {
 								level='6'
 								image={props.constellation6Image}
 								name={props.data.constellations[5].name}
-								description="Incoming DMG is decreased by 35% within the Field created by Dandelion Breeze. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s."
+								description='Incoming DMG is decreased by 35% within the Field created by Dandelion Breeze. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s.'
 							/>
 							{props.children}
 						</tbody>

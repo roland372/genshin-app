@@ -33,8 +33,9 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Unleashes three swift thunder shadows that deal Electro DMG to
-							opponents and leave an Abundance Amulet behind after hitting an
+							Unleashes three swift thunder shadows that deal
+							<b className='text-electro'> Electro DMG </b>
+							to opponents and leave an Abundance Amulet behind after hitting an
 							opponent.
 						</div>
 						<div>
@@ -66,14 +67,16 @@ const Talents = props => {
 					<div>
 						<div>
 							You call upon the protection of lightning, knocking nearby
-							opponents back and dealing Electro DMG to them.
+							opponents back and dealing
+							<b className='text-electro'> Electro DMG </b>
+							to them.
 						</div>
 						<br />
 						<b>Lightning Shroud</b>
 						<div>
 							When your active character's Normal or Charged Attacks hit
-							opponents, they will call Falling Thunder forth, dealing Electro
-							DMG.
+							opponents, they will call Falling Thunder forth, dealing
+							<b className='text-electro'> Electro DMG</b>.
 						</div>
 						<div>
 							When Falling Thunder hits opponents, it will regenerate Energy for

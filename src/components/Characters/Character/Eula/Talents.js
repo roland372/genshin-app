@@ -35,7 +35,10 @@ const Talents = props => {
 						<div>Sharp frost, swift blade.</div>
 						<br />
 						<b>Press</b>
-						<div>Slashes swiftly, dealing Cryo DMG.</div>
+						<div>
+							Slashes swiftly, dealing
+							<b className='text-cryo'> Cryo DMG</b>.
+						</div>
 						<div>
 							When it hits an opponent, Eula gains a stack of Grimheart that
 							stacks up to 2 times. These stacks can only be gained once every
@@ -48,15 +51,23 @@ const Talents = props => {
 						<b>Hold</b>
 						<div>
 							Wielding her sword, Eula consumes all the stacks of Grimheart and
-							lashes forward, dealing AoE Cryo DMG to opponents in front of her.
+							lashes forward, dealing
+							<b className='text-cryo'> AoE Cryo DMG </b>
+							to opponents in front of her.
 						</div>
 						<div>
 							If Grimheart stacks are consumed, surrounding opponents will have
-							their Physical RES and Cryo RES decreased.
+							their
+							<b> Physical RES </b>
+							and
+							<b className='text-cryo'> Cryo RES </b>
+							decreased.
 						</div>
 						<div>
 							Each consumed stack of Grimheart will be converted into an
-							Icewhirl Brand that deals Cryo DMG to nearby opponents.
+							Icewhirl Brand that deals
+							<b className='text-cryo'> Cryo DMG </b>
+							to nearby opponents.
 						</div>
 					</div>
 				}
@@ -69,9 +80,10 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Brandishes her greatsword, dealing Cryo DMG to nearby opponents
-							and creating a Lightfall Sword that follows her around for a
-							duration of up to 7s.
+							Brandishes her greatsword, dealing
+							<b className='text-cryo'> Cryo DMG </b>
+							to nearby opponents and creating a Lightfall Sword that follows
+							her around for a duration of up to 7s.
 						</div>
 						<div>
 							While present, the Lightfall Sword increases Eula's resistance to
@@ -81,7 +93,9 @@ const Talents = props => {
 						</div>
 						<div>
 							Once its duration ends, the Lightfall Sword will descend and
-							explode violently, dealing Physical DMG to nearby opponents.
+							explode violently, dealing
+							<b> Physical DMG </b>
+							to nearby opponents.
 						</div>
 						<div>
 							This DMG scales on the number of energy stacks the Lightfall Sword

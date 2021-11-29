@@ -16,14 +16,27 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack='Perform up to 4 water splash attacks that deal Hydro DMG.'
-				chargedAttack={
+				normalAttack={
 					<div>
-						Consumes a certain amount of Stamina to deal AoE Hydro DMG after a
-						short casting time.
+						Perform up to 4 water splash attacks that deal
+						<b className='text-hydro'> Hydro DMG</b>.
 					</div>
 				}
-				plungingAttack='Gathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.'
+				chargedAttack={
+					<div>
+						Consumes a certain amount of Stamina to deal
+						<b className='text-hydro'> AoE Hydro DMG </b>
+						after a short casting time.
+					</div>
+				}
+				plungingAttack={
+					<div>
+						Gathering the might of Hydro, Mona plunges towards the ground from
+						mid-air, damaging all opponents in her path. Deals
+						<b className='text-hydro'> AoE Hydro DMG </b>
+						upon impact with the ground.
+					</div>
+				}
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>
@@ -42,10 +55,14 @@ const Talents = props => {
 							<li>
 								Continuously taunts nearby opponents, attracting their fire.
 							</li>
-							<li>Continuously deals Hydro DMG to nearby opponents.</li>
 							<li>
-								When its duration expires, the Phantom explodes, dealing AoE
-								Hydro DMG.
+								Continuously deals
+								<b className='text-hydro'> Hydro DMG </b>
+								to nearby opponents.
+							</li>
+							<li>
+								When its duration expires, the Phantom explodes, dealing
+								<b className='text-hydro'> AoE Hydro DMG</b>.
 							</li>
 						</ul>
 						<b>Hold</b>
@@ -77,7 +94,7 @@ const Talents = props => {
 						<b>Illusory Bubble</b>
 						<div>
 							Traps opponents inside a pocket of destiny and also makes them
-							Wet.
+							<b className='text-hydro'> Wet</b>.
 						</div>
 						<div>Renders weaker opponents immobile.</div>
 						<div>
@@ -90,7 +107,9 @@ const Talents = props => {
 								increasing the DMG of the attack that causes it.
 							</li>
 							<li>
-								Removes the Illusory Bubble, dealing Hydro DMG in the process.
+								Removes the Illusory Bubble, dealing
+								<b className='text-hydro'> Hydro DMG </b>
+								in the process.
 							</li>
 						</ul>
 						<b>Omen</b>
@@ -117,7 +136,9 @@ const Talents = props => {
 							speed on water.
 						</div>
 						<div>
-							Applies the Wet status to nearby opponents when she reappears.
+							Applies the
+							<b className='text-hydro'> Wet </b>
+							status to nearby opponents when she reappears.
 						</div>
 					</div>
 				}
@@ -146,8 +167,9 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 4'
 				description={
 					<div>
-						Increases Mona's Hydro DMG Bonus by a degree equivalent to 20% of
-						her Energy Recharge rate.
+						Increases Mona's
+						<b className='text-hydro'> Hydro DMG Bonus </b>
+						by a degree equivalent to 20% of her Energy Recharge rate.
 					</div>
 				}
 			/>

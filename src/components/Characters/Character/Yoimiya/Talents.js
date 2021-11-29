@@ -27,13 +27,15 @@ const Talents = props => {
 						</div>
 						<ul>
 							<li>
-								Charge Level 1: Fires off a flaming arrow that deals Pyro DMG.
+								Charge Level 1: Fires off a flaming arrow that deals
+								<b className='text-pyro'> Pyro DMG</b>.
 							</li>
 							<li>
 								Charge Level 2: Generates a maximum of 3 Kindling Arrows based
 								on time spent charging, releasing them as part of this Aimed
 								Shot. Kindling Arrows will home in on nearby opponents, dealing
-								Pyro DMG on hit.
+								<b className='text-pyro'> Pyro DMG </b>
+								on hit.
 							</li>
 						</ul>
 					</div>
@@ -56,7 +58,7 @@ const Talents = props => {
 						<div>
 							During this time, arrows fired by Yoimiya's Normal Attack will be
 							Blazing Arrows, and their DMG will be increased and converted to
-							Pyro DMG.
+							<b className='text-pyro'> Pyro DMG</b>.
 						</div>
 						<div>
 							During this time, Normal Attack: Firework Flare-Up will not
@@ -79,8 +81,9 @@ const Talents = props => {
 						<div>
 							Yoimiya leaps into the air along with her original creation, the
 							"Ryuukin Saxifrage," and fires forth blazing rockets bursting with
-							surprises that deal AoE Pyro DMG and mark one of the hit opponents
-							with Aurous Blaze.
+							surprises that deal
+							<b className='text-pyro'> AoE Pyro DMG </b>
+							and mark one of the hit opponents with Aurous Blaze.
 						</div>
 						<br />
 						<b>Aurous Blaze</b>
@@ -88,7 +91,8 @@ const Talents = props => {
 							All Normal/Charged/Plunging Attacks, Elemental Skills, and
 							Elemental Bursts by any party member other than Yoimiya that hit
 							an opponent marked by Aurous Blaze will trigger an explosion,
-							dealing AoE Pyro DMG.
+							dealing
+							<b className='text-pyro'> AoE Pyro DMG</b>.
 						</div>
 						<div>
 							When an opponent affected by Aurous Blaze is defeated before its
@@ -114,8 +118,10 @@ const Talents = props => {
 				description={
 					<div>
 						During Niwabi Fire-Dance, shots from Yoimiya's Normal Attack will
-						increase her Pyro DMG Bonus by 2% on hit. This effect lasts for 3s
-						and can have a maximum of 10 stacks.
+						increase her
+						<b className='text-pyro'> Pyro DMG Bonus </b>
+						by 2% on hit. This effect lasts for 3s and can have a maximum of 10
+						stacks.
 					</div>
 				}
 			/>

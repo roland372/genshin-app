@@ -25,6 +25,7 @@ import achievements from './pages/achievements';
 import Layout from './components/Layout/Layout';
 // <--- Styles --->
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 function App() {
 	// const { url } = useRouteMatch;

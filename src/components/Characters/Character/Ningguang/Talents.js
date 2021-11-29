@@ -18,7 +18,10 @@ const Talents = props => {
 				image={props.normalAttackImage}
 				normalAttack={
 					<div>
-						<div>Shoots gems that deal Geo DMG.</div>
+						<div>
+							Shoots gems that deal
+							<b className='text-geo'> Geo DMG</b>.
+						</div>
 						<div>Upon hit, this grants Ningguang 1 Star Jade.</div>
 					</div>
 				}
@@ -26,7 +29,8 @@ const Talents = props => {
 					<div>
 						<div>
 							Consumes a certain amount of stamina to fire off a giant gem that
-							deals Geo DMG.
+							deals
+							<b className='text-geo'> Geo DMG</b>.
 						</div>
 						<div>
 							If Ningguang has any Star Jades, unleashing a Charged Attack will
@@ -35,7 +39,14 @@ const Talents = props => {
 						</div>
 					</div>
 				}
-				plungingAttack='Gathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Geo DMG upon impact with the ground.'
+				plungingAttack={
+					<div>
+						Gathering the might of Geo, Ningguang plunges towards the ground
+						from mid-air, damaging all opponents in her path. Deals
+						<b className='text-geo'> AoE Geo DMG </b>
+						upon impact with the ground.
+					</div>
+				}
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>
@@ -55,9 +66,10 @@ const Talents = props => {
 							<li>Endurance scales based on Ningguang's Max HP.</li>
 						</ul>
 						<div>
-							Jade Screen is considered a Geo Construct and can be used to block
-							certain attacks, but cannot be climbed. Only one Jade Screen may
-							exist at any one time.
+							Jade Screen is considered a
+							<b className='text-geo'> Geo Construct </b>
+							and can be used to block certain attacks, but cannot be climbed.
+							Only one Jade Screen may exist at any one time.
 						</div>
 					</div>
 				}
@@ -72,7 +84,8 @@ const Talents = props => {
 						<div>
 							Gathering a great number of gems, Ningguang scatters them all at
 							once, sending homing projectiles at her opponents that deal
-							massive Geo DMG.
+							massive
+							<b className='text-geo'> Geo DMG</b>.
 						</div>
 						<div>
 							If Starshatter is cast when a Jade Screen is nearby, the Jade
@@ -101,8 +114,9 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 4'
 				description={
 					<div>
-						A character that passes through the Jade Screen will gain a 12% Geo
-						DMG Bonus for 10s.
+						A character that passes through the Jade Screen will gain a 12%
+						<b className='text-geo'> Geo DMG Bonus </b>
+						for 10s.
 					</div>
 				}
 			/>

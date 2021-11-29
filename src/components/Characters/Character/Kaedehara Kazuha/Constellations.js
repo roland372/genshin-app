@@ -107,9 +107,11 @@ const Constellations = props => {
 								description={
 									<div>
 										After using Chihayaburu or Kazuha Slash, Kaedehara Kazuha
-										gains an Anemo Infusion for 5s. Additionally, each point of
-										Elemental Mastery will increase the DMG dealt by Kaedehara
-										Kazuha's Normal, Charged, and Plunging Attack by 0.2%.
+										gains an
+										<b className='text-anemo'> Anemo Infusion </b>
+										for 5s. Additionally, each point of Elemental Mastery will
+										increase the DMG dealt by Kaedehara Kazuha's Normal,
+										Charged, and Plunging Attack by 0.2%.
 									</div>
 								}
 							/>

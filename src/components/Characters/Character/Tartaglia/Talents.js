@@ -22,13 +22,15 @@ const Talents = props => {
 						<div>Perform a more precise Aimed Shot with increased DMG.</div>
 						<div>
 							While aiming, the power of Hydro will accumulate on the arrowhead.
-							A arrow fully charged with the torrent will deal Hydro DMG and
-							apply the Riptide status.
+							A arrow fully charged with the torrent will deal
+							<b className='text-hydro'> Hydro DMG </b>
+							and apply the Riptide status.
 						</div>
 						<br />
 						<b>Riptide</b>
 						<div>
-							Opponents affected by Riptide will suffer from AoE Hydro DMG
+							Opponents affected by Riptide will suffer from
+							<b className='text-hydro'> AoE Hydro DMG </b>
 							effects when attacked by Tartaglia in various ways. DMG dealt in
 							this way is considered Normal Attack DMG.
 						</div>
@@ -67,30 +69,39 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Unleashes a set of weaponry made of pure water, dealing Hydro DMG
+							Unleashes a set of weaponry made of pure water, dealing
+							<b className='text-hydro'> Hydro DMG </b>
 							to surrounding opponents and entering Melee Stance.
 						</div>
 						<div>
 							In this Stance, Tartaglia's Normal and Charged Attacks are
-							converted to Hydro DMG that cannot be overridden by any other
-							elemental infusion and change as follows:
+							converted to
+							<b className='text-hydro'> Hydro DMG </b>
+							that cannot be overridden by any other elemental infusion and
+							change as follows:
 						</div>
 						<br />
 						<b>Normal Attack</b>
-						<div>Perform up to 6 consecutive Hydro strikes.</div>
+						<div>
+							Perform up to 6 consecutive
+							<b className='text-hydro'> Hydro </b>
+							strikes.
+						</div>
 						<br />
 						<b>Charged Attack</b>
 						<div>
 							Consumes a certain amount of Stamina to unleash a cross slash,
-							dealing Hydro DMG.
+							dealing
+							<b className='text-hydro'> Hydro DMG</b>.
 						</div>
 						<br />
 						<b>Riptide Slash</b>
 						<div>
 							Hitting an opponent affected by Riptide with a melee attack
-							unleashes a Riptide Slash that deals AoE Hydro DMG. DMG dealt in
-							this way is considered Elemental Skill DMG, and can only occur
-							once every 1.5s.
+							unleashes a Riptide Slash that deals
+							<b className='text-hydro'> AoE Hydro DMG</b>. DMG dealt in this
+							way is considered Elemental Skill DMG, and can only occur once
+							every 1.5s.
 						</div>
 						<br />
 						<div>
@@ -122,22 +133,25 @@ const Talents = props => {
 						<br />
 						<b>Ranged Stance: Flash of Havoc</b>
 						<div>
-							Swiftly fires a Hydro-imbued magic arrow, dealing AoE Hydro DMG
+							Swiftly fires a Hydro-imbued magic arrow, dealing
+							<b className='text-hydro'> AoE Hydro DMG </b>
 							and applying the Riptide status.
 						</div>
 						<div>Returns a portion of its Energy Cost after use.</div>
 						<br />
 						<b>Melee Stance: Light of Obliteration</b>
 						<div>
-							Performs a slash with a large AoE, dealing massive Hydro DMG to
-							all surrounding opponents, which triggers Riptide Blast.
+							Performs a slash with a large AoE, dealing massive
+							<b className='text-hydro'> Hydro DMG </b>
+							to all surrounding opponents, which triggers Riptide Blast.
 						</div>
 						<br />
 						<b>Riptide Blast</b>
 						<div>
 							When the obliterating waters hit an opponent affected by Riptide,
 							it clears their Riptide status and triggers a Hydro Explosion that
-							deals AoE Hydro DMG.
+							deals
+							<b className='text-hydro'> AoE Hydro DMG</b>.
 						</div>
 						<div>DMG dealt in this way is considered Elemental Burst DMG.</div>
 					</div>

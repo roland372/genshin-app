@@ -77,7 +77,14 @@ const Constellations = props => {
 								level='6'
 								image={props.constellation6Image}
 								name={props.data.constellations[5].name}
-								description='The Electro DMG of characters who have had their ATK increased by Tengu Juurai has its Crit DMG increased by 60%.'
+								description={
+									<div>
+										The
+										<b className='text-electro'> Electro DMG </b>
+										of characters who have had their ATK increased by Tengu
+										Juurai has its Crit DMG increased by 60%.
+									</div>
+								}
 							/>
 							{props.children}
 						</tbody>

@@ -53,7 +53,9 @@ const Constellations = props => {
 									<div>
 										<div>
 											When Midnight Phantasmagoria is used, it deals 222% of ATK
-											as Electro DMG to surrounding opponents.
+											as
+											<b className='text-electro'> Electro DMG </b>
+											to surrounding opponents.
 										</div>
 										<div>
 											When the skill duration ends, Fischl regenerates 20% of
@@ -79,7 +81,14 @@ const Constellations = props => {
 								level='6'
 								image={props.constellation6Image}
 								name={props.data.constellations[5].name}
-								description="Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs joint attacks with your active character when present, dealing 30% of Fischl's ATK as Electro DMG."
+								description={
+									<div>
+										Extends the duration of Oz's presence on the field by 2s.
+										Additionally, Oz performs joint attacks with your active
+										character when present, dealing 30% of Fischl's ATK as
+										<b className='text-electro'> Electro DMG</b>.
+									</div>
+								}
 							/>
 							{props.children}
 						</tbody>

@@ -33,9 +33,10 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Xingqiu performs twin strikes with his sword, dealing Hydro DMG.
-							At the same time, this ability creates the maximum number of Rain
-							Swords, which will orbit your active character.
+							Xingqiu performs twin strikes with his sword, dealing
+							<b className='text-hydro'> Hydro DMG</b>. At the same time, this
+							ability creates the maximum number of Rain Swords, which will
+							orbit your active character.
 						</div>
 						<div>The Rain Swords have the following properties:</div>
 						<ul>
@@ -46,8 +47,9 @@ const Talents = props => {
 							<li>Increases the character's resistance to interruption.</li>
 						</ul>
 						<div>
-							20% of Xingqiu's Hydro DMG Bonus will be converted to additional
-							DMG Reduction for the Rain Swords.
+							20% of Xingqiu's
+							<b className='text-hydro'> Hydro DMG Bonus </b>
+							will be converted to additional DMG Reduction for the Rain Swords.
 						</div>
 						<br />
 						<div>
@@ -56,7 +58,9 @@ const Talents = props => {
 						</div>
 						<div>The initial maximum number of Rain Swords is 3.</div>
 						<div>
-							Using this ability applies the Wet status onto the character.
+							Using this ability applies the
+							<b className='text-hydro'> Wet </b>
+							status onto the character.
 						</div>
 					</div>
 				}
@@ -77,7 +81,8 @@ const Talents = props => {
 						<ul>
 							<li>
 								Your active character's Normal Attacks will trigger consecutive
-								sword rain attacks, dealing Hydro DMG.
+								sword rain attacks, dealing
+								<b className='text-hydro'> Hydro DMG</b>.
 							</li>
 							<li>
 								Rain Swords will remain at the maximum number throughout the
@@ -106,7 +111,12 @@ const Talents = props => {
 				name={props.data.passiveTalents[1].name}
 				image={props.passiveTalent2Image}
 				unlocked='Unlocked at Ascension 4'
-				description={<div>Xingqiu gains a 20% Hydro DMG Bonus.</div>}
+				description={
+					<div>
+						Xingqiu gains a 20%
+						<b className='text-hydro'> Hydro DMG Bonus</b>.
+					</div>
+				}
 			/>
 			<PassiveTalent
 				name={props.data.passiveTalents[2].name}

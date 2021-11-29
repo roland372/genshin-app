@@ -34,9 +34,10 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Summons protective stone armor, dealing Geo DMG to surrounding
-							opponents and creating a shield. The shield's DMG Absorption
-							scales based on Noelle's DEF.
+							Summons protective stone armor, dealing
+							<b className='text-geo'> Geo DMG </b>
+							to surrounding opponents and creating a shield. The shield's DMG
+							Absorption scales based on Noelle's DEF.
 						</div>
 						<div>The shield has the following properties:</div>
 						<ul>
@@ -65,14 +66,16 @@ const Talents = props => {
 					<div>
 						<div>
 							Gathering the strength of stone around her weapon, Noelle strikes
-							the opponents surrounding her within a large AoE, dealing Geo DMG.
+							the opponents surrounding her within a large AoE, dealing
+							<b className='text-geo'> Geo DMG </b>.
 						</div>
 						<div>Afterwards, Noelle gains the following effects:</div>
 						<ul>
 							<li>Larger attack AoE.</li>
 							<li>
-								Converts attack DMG to Geo DMG that cannot be overridden by any
-								other elemental infusion.
+								Converts attack DMG to
+								<b className='text-geo'> Geo DMG </b>
+								that cannot be overridden by any other elemental infusion.
 							</li>
 							<li>Increased ATK that scales based on her DEF.</li>
 						</ul>

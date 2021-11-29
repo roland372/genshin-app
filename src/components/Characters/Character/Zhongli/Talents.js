@@ -55,22 +55,33 @@ const Talents = props => {
 								Creates a shield of jade. The shield's DMG Absorption scales
 								based on Zhongli's Max HP.
 							</li>
-							<li>Deals AoE Geo DMG.</li>
 							<li>
-								If there are nearby targets with the Geo element, it will drain
-								a large amount of Geo element from a maximum of 2 such targets.
-								This effect does not cause DMG.
+								<b className='text-geo'>Deals AoE Geo DMG</b>.
+							</li>
+							<li>
+								If there are nearby targets with the
+								<b className='text-geo'> Geo element</b>, it will drain a large
+								amount of
+								<b className='text-geo'> Geo element </b>
+								from a maximum of 2 such targets. This effect does not cause
+								DMG.
 							</li>
 						</ul>
 						<b>Stone Stele</b>
-						<div>When created, deals AoE Geo DMG.</div>
 						<div>
-							Additionally, it will intermittently resonate with other nearby
-							Geo constructs, dealing Geo DMG to surrounding opponents.
+							When created, deals
+							<b className='text-geo'> AoE Geo DMG</b>.
 						</div>
 						<div>
-							The Stone Stele is considered a Geo construct that can both be
-							climbed and used to block attacks.
+							Additionally, it will intermittently resonate with other nearby
+							<b className='text-geo'> Geo constructs</b>, dealing
+							<b className='text-geo'> Geo DMG </b>
+							to surrounding opponents.
+						</div>
+						<div>
+							The Stone Stele is considered a
+							<b className='text-geo'> Geo construct </b>
+							that can both be climbed and used to block attacks.
 						</div>
 						<div>
 							Only one Stele created by Zhongli himself may initially exist at
@@ -98,14 +109,18 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Brings a falling meteor down to earth, dealing massive Geo DMG to
-							opponents caught in its AoE and applying the Petrification status
-							to them.
+							Brings a falling meteor down to earth, dealing massive
+							<b className='text-geo'> Geo DMG </b>
+							to opponents caught in its AoE and applying the
+							<b className='text-geo'> Petrification </b>
+							status to them.
 						</div>
 						<br />
 						<b>Petrification</b>
 						<div>
-							Opponents affected by the Petrification status cannot move.
+							Opponents affected by the
+							<b className='text-geo'> Petrification </b>
+							status cannot move.
 						</div>
 					</div>
 				}

@@ -16,14 +16,28 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack='Throws things that go boom when they hit things! Perform up to 3 explosive attacks, dealing AoE Pyro DMG.'
-				chargedAttack={
+				normalAttack={
 					<div>
-						Consumes a certain amount of Stamina and deals AoE Pyro DMG to
-						opponents after a short casting time.
+						Throws things that go boom when they hit things! Perform up to 3
+						explosive attacks, dealing
+						<b className='text-pyro'> AoE Pyro DMG</b>.
 					</div>
 				}
-				plungingAttack='Gathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Pyro DMG upon impact with the ground.'
+				chargedAttack={
+					<div>
+						Consumes a certain amount of Stamina and deals
+						<b className='text-pyro'> AoE Pyro DMG </b>
+						to opponents after a short casting time.
+					</div>
+				}
+				plungingAttack={
+					<div>
+						Gathering the power of Pyro, Klee plunges towards the ground from
+						mid-air, damaging all opponents in her path. Deals
+						<b className='text-pyro'> AoE Pyro DMG </b>
+						upon impact with the ground.
+					</div>
+				}
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>
@@ -34,14 +48,16 @@ const Talents = props => {
 					<div>
 						<div>Jumpy Dumpty is tons of boom-bang-fun!</div>
 						<div>
-							When thrown, Jumpy Dumpty bounces thrice, igniting and dealing AoE
-							Pyro DMG with every bounce.
+							When thrown, Jumpy Dumpty bounces thrice, igniting and dealing
+							<b className='text-pyro'> AoE Pyro DMG </b>
+							with every bounce.
 						</div>
 						<br />
 						<div>On the third bounce, the bomb splits into many mines.</div>
 						<div>
 							The mines will explode upon contact with opponents, or after a
-							short period of time, dealing AoE Pyro DMG.
+							short period of time, dealing
+							<b className='text-pyro'> AoE Pyro DMG</b>.
 						</div>
 						<br />
 						<div>Starts with 2 charges.</div>
@@ -57,7 +73,8 @@ const Talents = props => {
 					<div>
 						Klee's Blazing Delight! For the duration of this ability,
 						continuously summons Sparks 'n' Splash to attack nearby opponents,
-						dealing AoE Pyro DMG.
+						dealing
+						<b className='text-pyro'> AoE Pyro DMG</b>.
 					</div>
 				}
 			>

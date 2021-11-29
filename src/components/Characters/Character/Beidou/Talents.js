@@ -30,9 +30,9 @@ const Talents = props => {
 						<b>Press</b>
 						<div>
 							Accumulating the power of lightning, Beidou swings her blade
-							forward fiercely, dealing Electro DMG.
+							forward fiercely, dealing
+							<b className='text-electro'> Electro DMG</b>.
 						</div>
-
 						<b>Hold</b>
 						<div>
 							Lifts her weapon up as a shield. Max DMG absorbed scales off
@@ -40,16 +40,25 @@ const Talents = props => {
 						</div>
 						<div>
 							Attacks using the energy stored within the greatsword upon release
-							or once this ability's duration expires, dealing Electro DMG. DMG
-							dealt scales with the number of times Beidou is attacked in the
-							skill's duration. The greatest DMG Bonus will be attained once
-							this effect is triggered twice.
+							or once this ability's duration expires, dealing
+							<b className='text-electro'> Electro DMG</b>. DMG dealt scales
+							with the number of times Beidou is attacked in the skill's
+							duration. The greatest DMG Bonus will be attained once this effect
+							is triggered twice.
 						</div>
 						<br />
 						<div>The shield possesses the following properties:</div>
 						<ul>
-							<li>Has 250% Electro DMG Absorption Efficiency.</li>
-							<li>Applies the Electro Element to Beidou upon activation.</li>
+							<li>
+								Has 250%
+								<b className='text-electro'> Electro DMG </b>
+								Absorption Efficiency.
+							</li>
+							<li>
+								Applies the
+								<b className='text-electro'> Electro Element </b>
+								to Beidou upon activation.
+							</li>
 						</ul>
 					</div>
 				}
@@ -64,8 +73,9 @@ const Talents = props => {
 						<div>
 							Recalling her slaying of the great beast Haishan, Beidou calls
 							upon that monstrous strength and the lightning to create a
-							Thunderbeast's Targe around herself, dealing Electro DMG to nearby
-							opponents.
+							Thunderbeast's Targe around herself, dealing
+							<b className='text-electro'> Electro DMG </b>
+							to nearby opponents.
 						</div>
 						<br />
 						<b>Thunderbeast's Targe:</b>

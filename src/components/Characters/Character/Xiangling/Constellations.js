@@ -21,7 +21,13 @@ const Constellations = props => {
 								level='1'
 								image={props.constellation1Image}
 								name={props.data.constellations[0].name}
-								description="Opponents hit by Guoba's attacks have their Pyro RES reduced by 15% for 6s."
+								description={
+									<div>
+										Opponents hit by Guoba's attacks have their
+										<b className='text-pyro'> Pyro RES </b>
+										reduced by 15% for 6s.
+									</div>
+								}
 							/>
 							<Constellation
 								level='2'
@@ -32,7 +38,8 @@ const Constellations = props => {
 										The last attack in a Normal Attack sequence applies the
 										Implode status onto the opponent for 2s. An explosion will
 										occur once this duration ends, dealing 75% of Xiangling's
-										ATK as AoE Pyro DMG.
+										ATK as
+										<b className='text-pyro'> AoE Pyro DMG</b>.
 									</div>
 								}
 							/>
@@ -59,8 +66,7 @@ const Constellations = props => {
 								name={props.data.constellations[4].name}
 								description={
 									<div>
-										<div>Increases the Level of Guoba Attack by 3.
-</div>
+										<div>Increases the Level of Guoba Attack by 3.</div>
 										<div>Maximum upgrade level is 15.</div>
 									</div>
 								}
@@ -69,7 +75,13 @@ const Constellations = props => {
 								level='6'
 								image={props.constellation6Image}
 								name={props.data.constellations[5].name}
-								description="For the duration of Pyronado, all party members receive a 15% Pyro DMG Bonus."
+								description={
+									<div>
+										For the duration of Pyronado, all party members receive a
+										15%
+										<b className='text-pyro'> Pyro DMG Bonus</b>.
+									</div>
+								}
 							/>
 							{props.children}
 						</tbody>

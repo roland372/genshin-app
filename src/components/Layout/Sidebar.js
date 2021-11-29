@@ -32,7 +32,11 @@ const Sidebar = () => {
 						<NavLink exact to='/' className='nav-link text-light ms-3'>
 							<Offcanvas.Title>Home</Offcanvas.Title>
 						</NavLink>
-						<CloseButton variant='white' className='me-2' />
+						<CloseButton
+							variant='white'
+							className='me-2'
+							onClick={handleClose}
+						/>
 					</Offcanvas.Header>
 					<Offcanvas.Body>
 						<ul className='list-group text-start'>

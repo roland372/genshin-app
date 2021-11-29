@@ -16,14 +16,27 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack='Performs up to 4 lightning attacks that deal Electro DMG.'
-				chargedAttack={
+				normalAttack={
 					<div>
-						Consumes a certain amount of Stamina to deal Electro DMG after a
-						short casting time.
+						Performs up to 4 lightning attacks that deal
+						<b className='text-electro'> Electro DMG</b>.
 					</div>
 				}
-				plungingAttack='Gathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Electro DMG upon impact with the ground.'
+				chargedAttack={
+					<div>
+						Consumes a certain amount of Stamina to deal
+						<b className='text-electro'> Electro DMG </b>
+						after a short casting time.
+					</div>
+				}
+				plungingAttack={
+					<div>
+						Gathering the might of Electro, Lisa plunges towards the ground from
+						mid-air, damaging all opponents in her path. Deals
+						<b className='text-electro'> AoE Electro DMG </b>
+						upon impact with the ground.
+					</div>
+				}
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>
@@ -39,14 +52,18 @@ const Talents = props => {
 						<b>Press</b>
 						<div>Releases a homing Lightning Orb.</div>
 						<div>
-							On hit, it deals Electro DMG, and applies a stack of the
-							Conductive status (max 3 stacks) to opponents in a small AoE.
+							On hit, it deals
+							<b className='text-electro'> Electro DMG</b>, and applies a stack
+							of the Conductive status (max 3 stacks) to opponents in a small
+							AoE.
 						</div>
 						<br />
 						<b>Hold</b>
 						<div>
 							After an extended casting time, calls down lightning from the
-							heavens, dealing massive Electro DMG to all nearby opponents.
+							heavens, dealing massive
+							<b className='text-electro'> Electro DMG </b>
+							to all nearby opponents.
 						</div>
 						<div>
 							Deals great amounts of extra damage to opponents based on the
@@ -65,11 +82,14 @@ const Talents = props => {
 					<div>
 						<div>
 							Summons a Lightning Rose that unleashes powerful lightning bolts,
-							launching surrounding opponents and dealing Electro DMG.
+							launching surrounding opponents and dealing
+							<b className='text-electro'> Electro DMG</b>.
 						</div>
 						<div>
 							The Lightning Rose will continuously emit lightning to knock back
-							opponents and deal Electro DMG throughout the ability's duration.
+							opponents and deal
+							<b className='text-electro'> Electro DMG </b>
+							throughout the ability's duration.
 						</div>
 					</div>
 				}

@@ -21,7 +21,14 @@ const Constellations = props => {
 								level='1'
 								image={props.constellation1Image}
 								name={props.data.constellations[0].name}
-								description='Recasting Stellar Restoration while a Lightning Stiletto is present causes Keqing to deal 50% of her ATK as AoE Electro DMG at the start point and terminus of her Blink.'
+								description={
+									<div>
+										Recasting Stellar Restoration while a Lightning Stiletto is
+										present causes Keqing to deal 50% of her ATK as
+										<b className='text-electro'> AoE Electro DMG </b>
+										at the start point and terminus of her Blink.
+									</div>
+								}
 							/>
 							<Constellation
 								level='2'
@@ -31,8 +38,9 @@ const Constellations = props => {
 									<div>
 										<div>
 											When Keqing's Normal and Charged Attacks hit opponents
-											affected by Electro, they have a 50% chance of producing
-											an Elemental Particle.
+											affected by
+											<b className='text-electro'> Electro</b>, they have a 50%
+											chance of producing an Elemental Particle.
 										</div>
 										<div>This effect can only occur once every 5s.</div>
 									</div>
@@ -53,7 +61,16 @@ const Constellations = props => {
 								level='4'
 								image={props.constellation4Image}
 								name={props.data.constellations[3].name}
-								description='For 10s after Keqing triggers an Electro-related Elemental Reaction, her ATK is increased by 25%.'
+								description={
+									<div>
+										For 10s after Keqing triggers an
+										<b className='text-electro'>
+											{' '}
+											Electro-related Elemental Reaction
+										</b>
+										, her ATK is increased by 25%.
+									</div>
+								}
 							/>
 							<Constellation
 								level='5'
@@ -75,7 +92,8 @@ const Constellations = props => {
 										<div>
 											When initiating a Normal Attack, a Charged Attack,
 											Elemental Skill or Elemental Burst, Keqing gains a 6%
-											Electro DMG Bonus for 8s.
+											<b className='text-electro'> Electro DMG Bonus </b>
+											for 8s.
 										</div>
 										<div>
 											Effects triggered by Normal Attacks, Charged Attacks,

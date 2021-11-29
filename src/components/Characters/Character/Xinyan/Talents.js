@@ -35,8 +35,10 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Xinyan brandishes her instrument, dealing Pyro DMG on nearby
-							opponents, forming a shield made out of her audience's passion.
+							Xinyan brandishes her instrument, dealing
+							<b className='text-pyro'> Pyro DMG </b>
+							on nearby opponents, forming a shield made out of her audience's
+							passion.
 						</div>
 						<div>
 							The shield's DMG Absorption scales based on Xinyan's DEF and on
@@ -47,14 +49,20 @@ const Talents = props => {
 							<li>Hitting 2 opponents grants Shield Level 2: Lead-In.</li>
 							<li>
 								Hitting 3 or more opponents grants Shield Level 3: Rave, which
-								will also deal intermittent Pyro DMG to nearby opponents.
+								will also deal intermittent
+								<b className='text-pyro'> Pyro DMG </b>
+								to nearby opponents.
 							</li>
 						</ul>
 						<div>The shield has the following special properties:</div>
 						<ul>
-							<li>When unleashed, it infuses Xinyan with Pyro.</li>
 							<li>
-								It has 250% DMG Absorption effectiveness against Pyro DMG.
+								When unleashed, it infuses Xinyan with
+								<b className='text-pyro'> Pyro</b>.
+							</li>
+							<li>
+								It has 250% DMG Absorption effectiveness against
+								<b className='text-pyro'> Pyro DMG</b>.
 							</li>
 						</ul>
 					</div>
@@ -69,8 +77,9 @@ const Talents = props => {
 					<div>
 						Strumming rapidly, Xinyan launches nearby opponents and deals
 						Physical DMG to them, hyping up the crowd. The sheer intensity of
-						the atmosphere will cause explosions that deal Pyro DMG to nearby
-						opponents.
+						the atmosphere will cause explosions that deal
+						<b className='text-pyro'> Pyro DMG </b>
+						to nearby opponents.
 					</div>
 				}
 			>

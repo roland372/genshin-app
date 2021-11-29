@@ -40,7 +40,9 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Xiao lunges forward, dealing Anemo DMG to opponents in his path.
+							Xiao lunges forward, dealing
+							<b className='text-anemo'> Anemo DMG </b>
+							to opponents in his path.
 						</div>
 						<div>Can be used in mid-air.</div>
 						<div>Starts with 2 charges.</div>
@@ -64,8 +66,9 @@ const Talents = props => {
 							<li>Greatly increases Xiao's jumping ability.</li>
 							<li>Increases his attack AoE and attack DMG.</li>
 							<li>
-								Converts attack DMG into Anemo DMG, which cannot be overridden
-								by any other elemental infusion.
+								Converts attack DMG into
+								<b className='text-anemo'> Anemo DMG</b>, which cannot be
+								overridden by any other elemental infusion.
 							</li>
 						</ul>
 						<div>In this state, Xiao will continuously lose HP.</div>

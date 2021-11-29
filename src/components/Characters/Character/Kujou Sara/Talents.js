@@ -21,7 +21,9 @@ const Talents = props => {
 					<div>
 						Perform a more precise Aimed Shot with increased DMG. While aiming,
 						crackling lightning will accumulate on the arrowhead. An arrow fully
-						charged with the storm's might will deal Electro DMG.
+						charged with the storm's might will deal
+						<b className='text-electro'> Electro DMG</b>
+						.
 						<br />
 						When in the Crowfeather Cover state, a fully-charged arrow will
 						leave a Crowfeather behind after it hits.
@@ -45,8 +47,10 @@ const Talents = props => {
 						</div>
 						<div>
 							Crowfeathers will trigger Tengu Juurai: Ambush after a short time,
-							dealing Electro DMG and granting the active character within its
-							AoE an ATK Bonus based on Kujou Sara's Base ATK.
+							dealing
+							<b className='text-electro'> Electro DMG </b>
+							and granting the active character within its AoE an ATK Bonus
+							based on Kujou Sara's Base ATK.
 						</div>
 						<br />
 						<div>
@@ -65,10 +69,11 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Casts down Tengu Juurai: Titanbreaker, dealing AoE Electro DMG.
-							Afterwards, Tengu Juurai: Titanbreaker spreads out into 4
-							consecutive bouts of Tengu Juurai: Stormcluster, dealing AoE
-							Electro DMG.
+							Casts down Tengu Juurai: Titanbreaker, dealing
+							<b className='text-electro'> AoE Electro DMG</b>. Afterwards,
+							Tengu Juurai: Titanbreaker spreads out into 4 consecutive bouts of
+							Tengu Juurai: Stormcluster, dealing
+							<b className='text-electro'> AoE Electro DMG</b>.
 						</div>
 						<div>
 							Tengu Juurai: Titanbreaker and Tengu Juurai: Stormcluster can

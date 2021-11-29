@@ -36,8 +36,9 @@ const Talents = props => {
 						<div>
 							When a Plunging Attack is performed using the effects of the
 							Elemental Skill Chihayaburu, Plunging Attack DMG is converted to
-							Anemo DMG and will create a small wind tunnel via a secret blade
-							technique that pulls in nearby objects and opponents.
+							<b className='text-anemo'> Anemo DMG </b>
+							and will create a small wind tunnel via a secret blade technique
+							that pulls in nearby objects and opponents.
 						</div>
 					</div>
 				}
@@ -52,8 +53,9 @@ const Talents = props => {
 						<div>
 							Unleashes a secret technique as fierce as the rushing wind that
 							pulls objects and opponents towards Kazuha's current position
-							before launching opponents within the AoE, dealing Anemo DMG and
-							lifting Kazuha into the air on a rushing gust of wind.
+							before launching opponents within the AoE, dealing
+							<b className='text-anemo'> Anemo DMG </b>
+							and lifting Kazuha into the air on a rushing gust of wind.
 						</div>
 						<div>
 							Within 10s of remaining airborne after casting Chihayaburu, Kazuha
@@ -65,16 +67,18 @@ const Talents = props => {
 						<br />
 						<b>Hold</b>
 						<div>
-							Charges up before unleashing greater Anemo DMG over a larger AoE
-							than Press Mode.
+							Charges up before unleashing greater
+							<b className='text-anemo'> Anemo DMG </b>
+							over a larger AoE than Press Mode.
 						</div>
 						<br />
 						<b>Plunging Attack: Midare Ranzan</b>
 						<div>
 							When a Plunging Attack is performed using the effects of the
 							Elemental Skill Chihayaburu, Plunging Attack DMG is converted to
-							Anemo DMG. On landing, Kazuha creates a small wind tunnel via a
-							secret blade technique that pulls in nearby objects and opponents.
+							<b className='text-anemo'> Anemo DMG</b>. On landing, Kazuha
+							creates a small wind tunnel via a secret blade technique that
+							pulls in nearby objects and opponents.
 						</div>
 						<div>Midare Ranzan's DMG is considered Plunging Attack DMG.</div>
 					</div>
@@ -90,19 +94,24 @@ const Talents = props => {
 						<div>
 							The signature technique of Kazuha's self-styled bladework — a
 							single slash that strikes with the force of the first winds of
-							autumn, dealing AoE Anemo DMG.
+							autumn, dealing
+							<b className='text-anemo'> AoE Anemo DMG</b>.
 						</div>
 						<div>
 							The blade's passage will leave behind a field named "Autumn
-							Whirlwind" that periodically deals AoE Anemo DMG to opponents
-							within its range.
+							Whirlwind" that periodically deals
+							<b className='text-anemo'> AoE Anemo DMG </b>
+							to opponents within its range.
 						</div>
 						<br />
 						<b>Elemental Absorption</b>
 						<div>
 							If Autumn Whirlwind comes into contact with
-							Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of
-							that type.
+							<b className='text-hydro'> Hydro</b>/
+							<b className='text-pyro'>Pyro</b>/
+							<b className='text-cryo'>Cryo</b>/
+							<b className='text-electro'>Electro</b>, it will deal additional
+							elemental DMG of that type.
 						</div>
 						<div>Elemental Absorption may only occur once per use.</div>
 					</div>
@@ -118,7 +127,11 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							If Chihayaburu comes into contact with Hydro/Pyro/Cryo/Electro
+							If Chihayaburu comes into contact with
+							<b className='text-hydro'> Hydro</b>/
+							<b className='text-pyro'>Pyro</b>/
+							<b className='text-cryo'>Cryo</b>/
+							<b className='text-electro'>Electro </b>
 							when cast, Chihayaburu will absorb that element and if Plunging
 							Attack: Midare Ranzan is used before the effect expires, it will
 							deal an additional 200% ATK of the absorbed elemental type as DMG.

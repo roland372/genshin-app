@@ -34,7 +34,8 @@ const Talents = props => {
 					<div>
 						<div>
 							Rosaria swiftly shifts her position to appear behind her opponent,
-							then stabs and slashes them with her polearm, dealing Cryo DMG.
+							then stabs and slashes them with her polearm, dealing
+							<b className='text-cryo'> Cryo DMG</b>.
 						</div>
 						<div>
 							This ability cannot be used to travel behind opponents of a larger
@@ -53,11 +54,14 @@ const Talents = props => {
 						<div>
 							Rosaria's unique take on this prayer ritual: First, she swings her
 							weapon to slash surrounding opponents; then, she summons a frigid
-							Ice Lance that strikes the ground. Both actions deal Cryo DMG.
+							Ice Lance that strikes the ground. Both actions deal
+							<b className='text-cryo'> Cryo DMG</b>.
 						</div>
 						<div>
 							While active, the Ice Lance periodically releases a blast of cold
-							air, dealing Cryo DMG to surrounding opponents.
+							air, dealing
+							<b className='text-cryo'> Cryo DMG </b>
+							to surrounding opponents.
 						</div>
 					</div>
 				}

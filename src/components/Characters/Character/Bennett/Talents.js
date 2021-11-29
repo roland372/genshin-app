@@ -34,7 +34,10 @@ const Talents = props => {
 						<div>Results may vary based on how fired up he is...</div>
 						<br />
 						<b>Press</b>
-						<div>A single, swift flame strike that deals Pyro DMG.</div>
+						<div>
+							A single, swift flame strike that deals
+							<b className='text-pyro'> Pyro DMG</b>.
+						</div>
 						<br />
 						<b>Hold (Short)</b>
 						<div>
@@ -43,13 +46,14 @@ const Talents = props => {
 						</div>
 						<ul>
 							<li>
-								Level 1: Strikes twice, dealing Pyro DMG and launching
-								opponents.
+								Level 1: Strikes twice, dealing
+								<b className='text-pyro'> Pyro DMG </b>
+								and launching opponents.
 							</li>
 							<li>
 								Level 2: Unleashes 3 consecutive attacks that deal impressive
-								Pyro DMG, but the last attack triggers an explosion that
-								launches both Bennett and the enemy.
+								<b className='text-pyro'> Pyro DMG</b>, but the last attack
+								triggers an explosion that launches both Bennett and the enemy.
 							</li>
 						</ul>
 						<div>Bennett takes no damage from being launched.</div>
@@ -64,8 +68,9 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Bennett performs a jumping attack that deals Pyro DMG, creating an
-							Inspiration Field.
+							Bennett performs a jumping attack that deals
+							<b className='text-pyro'> Pyro DMG</b>, creating an Inspiration
+							Field.
 						</div>
 						<br />
 						<b>Inspiration Field</b>
@@ -79,7 +84,10 @@ const Talents = props => {
 								If the health of a character within the AoE is higher than 70%,
 								they gain an ATK Bonus that scales based on Bennett's Base ATK.
 							</li>
-							<li>Imbues characters within the AoE with Pyro.</li>
+							<li>
+								Imbues characters within the AoE with
+								<b className='text-pyro'> Pyro</b>.
+							</li>
 						</ul>
 					</div>
 				}

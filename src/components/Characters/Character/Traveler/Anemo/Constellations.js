@@ -68,7 +68,8 @@ const Constellations = props => {
 											decreased by 20%.
 										</div>
 										<div>
-											If an Elemental Absorption occurred, then their RES
+											If an Elemental Absorption occurred, then their
+											<b className='text-anemo'> Anemo RES </b>
 											towards the corresponding Element is also decreased by
 											20%.
 										</div>

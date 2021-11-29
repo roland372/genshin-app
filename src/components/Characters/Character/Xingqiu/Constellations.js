@@ -33,8 +33,9 @@ const Constellations = props => {
 											Extends the duration of Guhua Sword: Raincutter by 3s.
 										</div>
 										<div>
-											Decreases the Hydro RES of opponents hit by sword rain
-											attacks by 15% for 4s.
+											Decreases the
+											<b className='text-hydro'> Hydro RES </b>
+											of opponents hit by sword rain attacks by 15% for 4s.
 										</div>
 									</div>
 								}

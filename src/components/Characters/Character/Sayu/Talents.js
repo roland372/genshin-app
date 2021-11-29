@@ -37,9 +37,10 @@ const Talents = props => {
 						<div>The special technique of the Yoohoo Ninja Arts!</div>
 						<div>
 							Sayu curls up into a rolling Fuufuu Windwheel and smashes into
-							opponents at high speed, dealing Anemo DMG. When the duration
-							ends, she unleashes a Fuufuu Whirlwind Kick, dealing AoE Anemo
-							DMG.
+							opponents at high speed, dealing
+							<b className='text-anemo'> Anemo DMG</b>. When the duration ends,
+							she unleashes a Fuufuu Whirlwind Kick, dealing
+							<b className='text-anemo'> AoE Anemo DMG</b>.
 						</div>
 						<br />
 						<b>Press</b>
@@ -72,9 +73,12 @@ const Talents = props => {
 						<br />
 						<b>Elemental Absorption</b>
 						<div>
-							If Sayu comes into contact with Hydro/Pyro/Cryo/Electro while in
-							her Windwheel state, she will deal additional elemental DMG of
-							that type.
+							If Sayu comes into contact with
+							<b className='text-hydro'> Hydro</b>/
+							<b className='text-pyro'>Pyro</b>/
+							<b className='text-cryo'>Cryo</b>/
+							<b className='text-electro'>Electro </b> while in her Windwheel
+							state, she will deal additional elemental DMG of that type.
 						</div>
 						<div>
 							Elemental Absorption may only occur once per use of this skill.
@@ -94,9 +98,11 @@ const Talents = props => {
 							summons a pair of helping hands for Sayu.
 						</div>
 						<div>
-							Deals Anemo DMG to nearby opponents and heals all nearby party
-							members. The amount of HP restored is based on Sayu's ATK. This
-							skill then summons a Muji-Muji Daruma.
+							Deals
+							<b className='text-anemo'> Anemo DMG </b>
+							to nearby opponents and heals all nearby party members. The amount
+							of HP restored is based on Sayu's ATK. This skill then summons a
+							Muji-Muji Daruma.
 						</div>
 						<br />
 						<b>Muji-Muji Daruma</b>
@@ -107,7 +113,8 @@ const Talents = props => {
 						<ul>
 							<li>
 								If the HP of nearby characters is above 70%, it will attack a
-								nearby opponent, dealing Anemo DMG.
+								nearby opponent, dealing
+								<b className='text-anemo'> Anemo DMG</b>.
 							</li>
 							<li>
 								If there are active characters with 70% or less HP nearby, it

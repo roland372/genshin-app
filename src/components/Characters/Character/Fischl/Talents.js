@@ -22,7 +22,8 @@ const Talents = props => {
 						Perform a more precise Aimed Shot with increased DMG. While aiming,
 						the dark lightning spirits of Immernachtreich shall heed the call of
 						their Prinzessin and indwell the enchanted arrowhead. When fully
-						indwelt, the Rachsüchtig Blitz shall deal immense Electro DMG.
+						indwelt, the Rachsüchtig Blitz shall deal immense
+						<b className='text-electro'> Electro DMG</b>.
 					</div>
 				}
 				plungingAttack='Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.'
@@ -36,11 +37,14 @@ const Talents = props => {
 					<div>
 						<div>
 							Summons Oz. The night raven forged of darkness and lightning
-							descends upon the land, dealing Electro DMG in a small AoE.
+							descends upon the land, dealing
+							<b className='text-electro'> Electro DMG </b>
+							in a small AoE.
 						</div>
 						<div>
 							For the ability's duration, Oz will continuously attack nearby
-							opponents with Freikugel.
+							opponents with
+							<b className='text-electro'> Freikugel</b>.
 						</div>
 						<br />
 						<div>Hold to adjust the location Oz will be summoned to.</div>
@@ -70,9 +74,10 @@ const Talents = props => {
 								Speed.
 							</li>
 							<li>
-								Strikes nearby opponents with lightning, dealing Electro DMG to
-								opponents she comes in contact with. Each opponent can only be
-								struck once.
+								Strikes nearby opponents with lightning, dealing
+								<b className='text-electro'> Electro DMG </b>
+								to opponents she comes in contact with. Each opponent can only
+								be struck once.
 							</li>
 							<li>
 								Once this ability's effects end, Oz will remain on the
@@ -93,8 +98,9 @@ const Talents = props => {
 				description={
 					<div>
 						When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down
-						Thundering Retribution, dealing AoE Electro DMG equal to 152.7% of
-						the arrow's DMG.
+						Thundering Retribution, dealing
+						<b className='text-electro'> AoE Electro DMG </b>
+						equal to 152.7% of the arrow's DMG.
 					</div>
 				}
 			/>
@@ -104,10 +110,12 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 4'
 				description={
 					<div>
-						If your active character triggers an Electro-related Elemental
-						Reaction when Oz is on the field, the opponent shall be stricken
-						with Thundering Retribution, dealing Electro DMG equal to 80% of
-						Fischl's ATK.
+						If your active character triggers an
+						<b className='text-electro'> Electro-related Elemental Reaction </b>
+						when Oz is on the field, the opponent shall be stricken with
+						Thundering Retribution, dealing
+						<b className='text-electro'> Electro DMG </b>
+						equal to 80% of Fischl's ATK.
 					</div>
 				}
 			/>

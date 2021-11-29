@@ -49,7 +49,14 @@ const Constellations = props => {
 								level='4'
 								image={props.constellation4Image}
 								name={props.data.constellations[3].name}
-								description="If Klee leaves the field during the duration of Sparks 'n' Splash, her departure triggers an explosion that deals 555% of her ATK as AoE Pyro DMG."
+								description={
+									<div>
+										If Klee leaves the field during the duration of Sparks 'n'
+										Splash, her departure triggers an explosion that deals 555%
+										of her ATK as
+										<b className='text-pyro'> AoE Pyro DMG</b>.
+									</div>
+								}
 							/>
 							<Constellation
 								level='5'
@@ -75,7 +82,9 @@ const Constellations = props => {
 										</div>
 										<div>
 											When Sparks 'n' Splash is used, all party members will
-											gain a 10% Pyro DMG Bonus for 25s.
+											gain a 10%
+											<b className='text-pyro'> Pyro DMG Bonus </b>
+											for 25s.
 										</div>
 									</div>
 								}

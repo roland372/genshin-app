@@ -48,8 +48,9 @@ const Talents = props => {
 								400% of Hu Tao's Base ATK.
 							</li>
 							<li>
-								Converts attack DMG to Pyro DMG, which cannot be overridden by
-								any other elemental infusion.
+								Converts attack DMG to
+								<b className='text-pyro'> Pyro DMG</b>, which cannot be
+								overridden by any other elemental infusion.
 							</li>
 							<li>
 								Charged Attacks apply the Blood Blossom effect to the enemies
@@ -59,8 +60,9 @@ const Talents = props => {
 						</ul>
 						<b>Blood Blossom</b>
 						<div>
-							Enemies affected by Blood Blossom will take Pyro DMG every 4s.
-							This DMG is considered Elemental Skill DMG.
+							Enemies affected by Blood Blossom will take
+							<b className='text-pyro'> Pyro DMG </b>
+							every 4s. This DMG is considered Elemental Skill DMG.
 						</div>
 						<div>
 							Each enemy can be affected by only one Blood Blossom effect at a
@@ -80,7 +82,9 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Hu Tao commands a blazing spirit to deal Pyro DMG in a large AoE.
+							Hu Tao commands a blazing spirit to deal
+							<b className='text-pyro'> Pyro DMG </b>
+							in a large AoE.
 						</div>
 						<div>
 							Upon striking the enemy, regenerates a percentage of Hu Tao's Max
@@ -115,8 +119,9 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 4'
 				description={
 					<div>
-						When Hu Tao's HP is equal to or less than 50%, her Pyro DMG Bonus is
-						increased by 33%.
+						When Hu Tao's HP is equal to or less than 50%, her
+						<b className='text-pyro'> Pyro DMG </b>
+						Bonus is increased by 33%.
 					</div>
 				}
 			/>

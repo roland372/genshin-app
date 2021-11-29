@@ -32,8 +32,9 @@ const Talents = props => {
 						<ul>
 							<li>
 								When opponents within the Solar Isotoma field take DMG, the
-								Solar Isotoma will generate Transient Blossoms which deal AoE
-								Geo DMG. DMG dealt scales off Albedo's DEF.
+								Solar Isotoma will generate Transient Blossoms which deal
+								<b className='text-geo'> AoE Geo DMG</b>. DMG dealt scales off
+								Albedo's DEF.
 							</li>
 							<li>Transient Blossoms can only be generated once every 2s.</li>
 							<li>
@@ -43,7 +44,8 @@ const Talents = props => {
 								height. Only one crystallized platform can exist at a time.
 							</li>
 							<li>
-								Solar Isotoma is considered a Geo Construct. Only one Solar
+								Solar Isotoma is considered a
+								<b className='text-geo'> Geo Construct</b>. Only one Solar
 								Isotoma created by Albedo himself can exist at any time.
 							</li>
 						</ul>
@@ -60,12 +62,15 @@ const Talents = props => {
 					<div>
 						<div>
 							Under Albedo's command, Geo crystals surge and burst forth,
-							dealing AoE Geo DMG in front of him.
+							dealing
+							<b className='text-geo'> AoE Geo DMG </b>
+							in front of him.
 						</div>
 						<div>
 							If a Solar Isotoma created by Albedo himself is on the field, 7
 							Fatal Blossoms will be generated in the Solar Isotoma field,
-							bursting violently into bloom and dealing AoE Geo DMG.
+							bursting violently into bloom and dealing
+							<b className='text-geo'> AoE Geo DMG</b>.
 						</div>
 						<br />
 						<div>

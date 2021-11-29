@@ -21,8 +21,7 @@ const Constellations = props => {
 								level='1'
 								image={props.constellation1Image}
 								name={props.data.constellations[0].name}
-								description="Fires 2 arrows per Aimed Shot. The second arrow deals 20% of
-            the first arrow's DMG."
+								description='Barbara regenerates 1 Energy every 10s.'
 							/>
 							<Constellation
 								level='2'
@@ -30,12 +29,11 @@ const Constellations = props => {
 								name={props.data.constellations[1].name}
 								description={
 									<div>
+										<div>Decreases the CD of Let the Show Begin♪ by 15%.</div>
 										<div>
-											Baron Bunny, new and improved! Hitting Baron Bunny's foot
-											with a fully-charged Aimed Shot manually detonates it.
-										</div>
-										<div>
-											Explosion via manual detonation deals 200% additional DMG.
+											During the ability's duration, your active character gains
+											a 15%
+											<b className='text-hydro'> Hydro DMG Bonus</b>.
 										</div>
 									</div>
 								}
@@ -46,7 +44,7 @@ const Constellations = props => {
 								name={props.data.constellations[2].name}
 								description={
 									<div>
-										<div>Increases the Level of Fiery Rain by 3.</div>
+										<div>Increases the Level of Shining Miracle♪ by 3.</div>
 										<div>Maximum upgrade level is 15.</div>
 									</div>
 								}
@@ -55,7 +53,18 @@ const Constellations = props => {
 								level='4'
 								image={props.constellation4Image}
 								name={props.data.constellations[3].name}
-								description="Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge."
+								description={
+									<div>
+										<div>
+											Every opponent Barbara hits with her Charged Attack
+											regenerates 1 Energy for her.
+										</div>
+										<div>
+											A maximum of 5 energy can be regenerated in this manner
+											with any one Charged Attack.
+										</div>
+									</div>
+								}
 							/>
 							<Constellation
 								level='5'
@@ -63,7 +72,7 @@ const Constellations = props => {
 								name={props.data.constellations[4].name}
 								description={
 									<div>
-										<div>Increases the Level of Explosive Puppet by 3.</div>
+										<div>Increases the Level of Let the Show Begin♪ by 3.</div>
 										<div>Maximum upgrade level is 15.</div>
 									</div>
 								}
@@ -72,7 +81,21 @@ const Constellations = props => {
 								level='6'
 								image={props.constellation6Image}
 								name={props.data.constellations[5].name}
-								description="Fiery Rain increases all party members' Movement SPD by 15% and ATK by 15% for 10s."
+								description={
+									<div>
+										<div>
+											When Barbara is in the party but not on the field, and one
+											of your own party members falls:
+										</div>
+										<ul>
+											<li>Automatically revives the fallen character.</li>
+											<li>
+												Fully restores the revived character's HP to 100%.
+											</li>
+										</ul>
+										<div>This effect can only occur once every 15 mins.</div>
+									</div>
+								}
 							/>
 							{props.children}
 						</tbody>

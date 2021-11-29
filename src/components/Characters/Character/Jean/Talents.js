@@ -35,7 +35,8 @@ const Talents = props => {
 						<div>
 							Focusing the might of the formless wind around her blade, Jean
 							releases a miniature storm, launching opponents in the direction
-							she aims at, dealing massive Anemo DMG.
+							she aims at, dealing massive
+							<b className='text-anemo'> Anemo DMG</b>.
 						</div>
 						<br />
 						<b>Hold</b>
@@ -58,8 +59,8 @@ const Talents = props => {
 					<div>
 						<div>
 							Calling upon the wind's protection, Jean creates a swirling
-							Dandelion Field, launching surrounding opponents and causing Anemo
-							DMG.
+							Dandelion Field, launching surrounding opponents and dealing
+							<b className='text-anemo'> Anemo DMG</b>.
 						</div>
 						<div>
 							At the same time, she instantly regenerates a large amount of HP
@@ -71,11 +72,13 @@ const Talents = props => {
 						<ul>
 							<li>
 								Continuously regenerates HP of characters within the AoE and
-								continuously imbues them with Anemo.
+								continuously imbues them with
+								<b className='text-anemo'> Anemo</b>.
 							</li>
 							<li>
-								Deals Anemo DMG to opponents entering or exiting the Dandelion
-								Field.
+								Deals
+								<b className='text-anemo'> Anemo DMG </b>
+								to opponents entering or exiting the Dandelion Field.
 							</li>
 						</ul>
 					</div>

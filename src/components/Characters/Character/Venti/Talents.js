@@ -21,7 +21,8 @@ const Talents = props => {
 					<div>
 						Perform a more precise Aimed Shot with increased DMG. While aiming,
 						favorable winds will accumulate on the arrowhead. A fully charged
-						wind arrow will deal Anemo DMG.
+						wind arrow will deal
+						<b className='text-anemo'> Anemo DMG</b>.
 					</div>
 				}
 				plungingAttack='Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.'
@@ -40,15 +41,17 @@ const Talents = props => {
 						<br />
 						<b>Press</b>
 						<div>
-							Summons a Wind Domain at the opponent's location, dealing AoE
-							Anemo DMG and launching opponents into the air.
+							Summons a Wind Domain at the opponent's location, dealing
+							<b className='text-anemo'> AoE Anemo DMG </b>
+							and launching opponents into the air.
 						</div>
 						<br />
 						<b>Hold</b>
 						<div>
 							Summons an even larger Wind Domain with Venti as the epicenter,
-							dealing AoE Anemo DMG and launching affected opponents into the
-							air.
+							dealing
+							<b className='text-anemo'> AoE Anemo DMG </b>
+							and launching affected opponents into the air.
 						</div>
 						<div>
 							After unleashing the Hold version of this ability, Venti rides the
@@ -70,14 +73,18 @@ const Talents = props => {
 					<div>
 						<div>
 							Fires off an arrow made of countless coalesced winds, creating a
-							huge Stormeye that sucks in opponents and deals continuous Anemo
-							DMG.
+							huge Stormeye that sucks in opponents and deals continuous
+							<b className='text-anemo'> Anemo DMG</b>.
 						</div>
 						<br />
 						<b>Elemental Absorption</b>
 						<div>
-							If the Stormeye comes into contact with Hydro/Pyro/Cryo/Electro,
-							it will deal additional elemental DMG of that type.
+							If the Stormeye comes into contact with
+							<b className='text-hydro'> Hydro</b>/
+							<b className='text-pyro'>Pyro</b>/
+							<b className='text-cryo'>Cryo</b>/
+							<b className='text-electro'>Electro</b>, it will deal additional
+							elemental DMG of that type.
 						</div>
 						<div>Elemental Absorption may only occur once per use.</div>
 					</div>

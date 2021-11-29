@@ -22,7 +22,8 @@ const Talents = props => {
 						Perform a more precise Aimed Shot with increased DMG.
 						<br />
 						While aiming, flames will accumulate on the arrowhead. A fully
-						charged flaming arrow will deal Pyro DMG.
+						charged flaming arrow will deal
+						<b className='text-pyro'> Pyro DMG</b>.
 					</div>
 				}
 				plungingAttack='Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.'
@@ -40,7 +41,8 @@ const Talents = props => {
 							<li>Baron Bunny's HP scales with Amber's Max HP.</li>
 							<li>
 								When destroyed or when its timer expires, Baron Bunny explodes,
-								dealing AoE Pyro DMG.
+								dealing
+								<b className='text-pyro'> AoE Pyro DMG</b>.
 							</li>
 						</ul>
 						<b>Hold</b>
@@ -55,7 +57,10 @@ const Talents = props => {
 				name={props.data.skillTalents[2].name}
 				image={props.elementalBurstImage}
 				description={
-					<p>Fires of a shower of arrows, dealing continuous AoE Pyro DMG.</p>
+					<p>
+						Fires of a shower of arrows, dealing continuous
+						<b className='text-pyro'> AoE Pyro DMG</b>.
+					</p>
 				}
 			>
 				<AttributeScaling data={elementalBurst} />

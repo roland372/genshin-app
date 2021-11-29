@@ -76,8 +76,10 @@ const Constellations = props => {
 								description={
 									<div>
 										Sword, Claymore, or Polearm-wielding characters inside
-										Fantastic Voyage's radius gain a 15% Pyro DMG Bonus and
-										their weapons are infused with Pyro.
+										Fantastic Voyage's radius gain a 15%
+										<b className='text-pyro'> Pyro DMG Bonus </b>
+										and their weapons are infused with
+										<b className='text-pyro'> Pyro</b>.
 									</div>
 								}
 							/>

@@ -28,12 +28,14 @@ const Talents = props => {
 						</div>
 						<ul>
 							<li>
-								Charge Level 1: Fires off an icy arrow that deals Cryo DMG.
+								Charge Level 1: Fires off an icy arrow that deals
+								<b className='text-cryo'> Cryo DMG</b>.
 							</li>
 							<li>
-								Charge Level 2: Fires off a Frostflake Arrow that deals Cryo
-								DMG. The Frostflake Arrow blooms after hitting its target,
-								dealing AoE Cryo DMG.
+								Charge Level 2: Fires off a Frostflake Arrow that deals
+								<b className='text-cryo'> Cryo DMG</b>. The Frostflake Arrow
+								blooms after hitting its target, dealing
+								<b className='text-cryo'> AoE Cryo DMG</b>.
 							</li>
 						</ul>
 					</div>
@@ -49,7 +51,8 @@ const Talents = props => {
 					<div>
 						<div>
 							Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning
-							all impurity and dealing AoE Cryo DMG.
+							all impurity and dealing
+							<b className='text-cryo'> AoE Cryo DMG</b>.
 						</div>
 						<br />
 						<b>Ice Lotus</b>
@@ -61,7 +64,8 @@ const Talents = props => {
 							<li>Endurance scales based on Ganyu's Max HP.</li>
 							<li>
 								Blooms profusely when destroyed or once its duration ends,
-								dealing AoE Cryo DMG.
+								dealing
+								<b className='text-cryo'> AoE Cryo DMG</b>.
 							</li>
 						</ul>
 					</div>
@@ -81,7 +85,8 @@ const Talents = props => {
 						<div>
 							During its ability duration, the Sacred Cryo Pearl will
 							continuously rain down shards of ice, striking opponents within an
-							AoE and dealing Cryo DMG.
+							AoE and dealing
+							<b className='text-cryo'> Cryo DMG</b>.
 						</div>
 					</div>
 				}
@@ -107,8 +112,9 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 4'
 				description={
 					<div>
-						Celestial Shower grants a 20% Cryo DMG Bonus to active members in
-						the AoE.
+						Celestial Shower grants a 20%
+						<b className='text-cryo'> Cryo DMG Bonus </b>
+						to active members in the AoE.
 					</div>
 				}
 			/>

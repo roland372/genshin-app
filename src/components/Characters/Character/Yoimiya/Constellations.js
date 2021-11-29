@@ -42,8 +42,11 @@ const Constellations = props => {
 								description={
 									<div>
 										<div>
-											When Yoimiya's Pyro DMG scores a CRIT Hit, Yoimiya will
-											gain a 25% Pyro DMG Bonus for 6s.
+											When Yoimiya's
+											<b className='text-pyro'> Pyro DMG </b>
+											scores a CRIT Hit, Yoimiya will gain a 25%
+											<b className='text-pyro'> Pyro DMG Bonus </b>
+											for 6s.
 										</div>
 										<div>
 											This effect can be triggered even when Yoimiya is not the

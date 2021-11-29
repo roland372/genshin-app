@@ -34,11 +34,15 @@ const Talents = props => {
 					<div>
 						<div>
 							Grasping the wind's might, you form a vortex of vacuum in your
-							palm, causing continuous Anemo DMG to opponents in front of you.
+							palm, causing continuous
+							<b className='text-anemo'> Anemo DMG </b>
+							to opponents in front of you.
 						</div>
 						<div>
 							The vacuum vortex explodes when the skill duration ends, causing a
-							greater amount of Anemo DMG over a larger area.
+							greater amount of
+							<b className='text-anemo'> Anemo DMG </b>
+							over a larger area.
 						</div>
 						<br />
 						<b>Hold</b>
@@ -46,8 +50,12 @@ const Talents = props => {
 						<br />
 						<b>Elemental Absorption</b>
 						<div>
-							If the vortex comes into contact with Hydro/Pyro/Cryo/Electro, it
-							will deal additional elemental DMG of that type.
+							If the vortex comes into contact with
+							<b className='text-hydro'> Hydro</b>/
+							<b className='text-pyro'>Pyro</b>/
+							<b className='text-cryo'>Cryo</b>/
+							<b className='text-electro'>Electro</b>, it will deal additional
+							elemental DMG of that type.
 						</div>
 						<div>Elemental Absorption may only occur once per use.</div>
 					</div>
@@ -63,13 +71,18 @@ const Talents = props => {
 						<div>
 							Guiding the path of the wind currents, you summon a forward-moving
 							tornado that pulls objects and opponents towards itself, dealing
-							continuous Anemo DMG.
+							continuous
+							<b className='text-anemo'> Anemo DMG</b>.
 						</div>
 						<br />
 						<b>Elemental Absorption</b>
 						<div>
-							If the tornado comes into contact with Hydro/Pyro/Cryo/Electro, it
-							will deal additional elemental DMG of that type.
+							If the tornado comes into contact with
+							<b className='text-hydro'> Hydro</b>/
+							<b className='text-pyro'>Pyro</b>/
+							<b className='text-cryo'>Cryo</b>/
+							<b className='text-electro'>Electro</b>, it will deal additional
+							elemental DMG of that type.
 						</div>
 						<div>Elemental Absorption may only occur once per use.</div>
 					</div>
@@ -85,7 +98,9 @@ const Talents = props => {
 				description={
 					<div>
 						The last hit of a Normal Attack combo unleashes a wind blade,
-						dealing 60% of ATK as Anemo DMG to all opponents in its path.
+						dealing 60% of ATK as
+						<b className='text-anemo'> Anemo DMG </b>
+						to all opponents in its path.
 					</div>
 				}
 			/>

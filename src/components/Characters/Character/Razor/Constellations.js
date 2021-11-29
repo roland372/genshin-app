@@ -71,7 +71,8 @@ const Constellations = props => {
 										<div>
 											Every 10s, Razor's sword charges up, causing the next
 											Normal Attack to release lightning that deals 100% of
-											Razor's ATK as Electro DMG.
+											Razor's ATK as
+											<b className='text-electro'> Electro DMG</b>.
 										</div>
 										<div>
 											When Razor is not using Lightning Fang, a lightning strike

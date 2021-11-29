@@ -16,9 +16,27 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack='Perform up to 4 water splash attacks that deal Hydro DMG.'
-				chargedAttack='Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.'
-				plungingAttack='Gathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.'
+				normalAttack={
+					<div>
+						Perform up to 4 water splash attacks that deal
+						<b className='text-hydro'> Hydro DMG</b>.
+					</div>
+				}
+				chargedAttack={
+					<div>
+						Consumes a certain amount of Stamina to deal
+						<b className='text-hydro'> AoE Hydro DMG </b>
+						after a short casting time.
+					</div>
+				}
+				plungingAttack={
+					<div>
+						Gathering the might of Hydro, Barbara plunges towards the ground
+						from mid-air, damaging all opponents in her path. Deals
+						<b className='text-hydro'> AoE Hydro DMG </b>
+						upon impact with the ground.
+					</div>
+				}
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>
@@ -29,8 +47,11 @@ const Talents = props => {
 					<div>
 						<div>
 							Summons water droplets resembling musical notes that form a Melody
-							Loop, dealing Hydro DMG to surrounding opponents and applying the
-							Wet status to them.
+							Loop, dealing
+							<b className='text-hydro'> Hydro DMG </b>
+							to surrounding opponents and applying the
+							<b className='text-hydro'> Wet </b>
+							status to them.
 						</div>
 						<br />
 						<b>Melody Loop</b>
@@ -46,8 +67,10 @@ const Talents = props => {
 							</li>
 							<li>Periodically regenerates your own active character's HP.</li>
 							<li>
-								Applies the Wet status to the character and to opponents who
-								come in contact with them.
+								Applies the
+								<b className='text-hydro'> Wet </b>
+								status to the character and to opponents who come in contact
+								with them.
 							</li>
 						</ul>
 					</div>
