@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
@@ -6,12 +6,48 @@ import SingleCharacter from './SingleCharacter';
 
 import data from '../../assets/data/Characters/characters.json';
 
-const Characters = props => {
-	// const { url } = useRouteMatch;
-	// console.log('url', url);
+const { characters } = data;
+
+const allElements = [
+	'all',
+	...new Set(characters.map(elements => elements.element)),
+];
+
+const Characters = () => {
+	const [menuItems, setMenuItems] = useState(characters);
+	const [elements, setElements] = useState(allElements);
+
+	// console.log(allElements);
+
+	const filterElements = element => {
+		if (element === 'all') {
+			setMenuItems(characters);
+			return;
+		}
+		const newData = characters.filter(
+			character => character.element === element
+		);
+		// console.log(newData);
+		setMenuItems(newData);
+	};
+
 	return (
 		<Container>
 			<CardComponent title='Playable Characters'>
+				<section>
+					{elements.map((element, index) => {
+						return (
+							<button
+								type='button'
+								className='btn btn-light'
+								key={index}
+								onClick={() => filterElements(element)}
+							>
+								{element}
+							</button>
+						);
+					})}
+				</section>
 				<div className='table-responsive mx-3'>
 					<table
 						className='table table-striped table-dark align-middle'
@@ -34,7 +70,7 @@ const Characters = props => {
 							</tr>
 						</thead>
 						<tbody>
-							{data.characters.map((character, index) => {
+							{menuItems.map((character, index) => {
 								return (
 									<SingleCharacter
 										key={index}

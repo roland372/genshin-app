@@ -9,7 +9,7 @@ const Ascension = props => {
 				<div className='d-flex align-items-center ms-3'>
 					<img src={props.ascensionMaterialImage} width='64px' alt='' />
 					<span>{props.ascensionMaterialName}</span>
-					<span className='rounded p-2 ms-2'>
+					<span className='rounded px-1 py-2 ms-2'>
 						{props.ascensionMaterialAmount}
 					</span>
 				</div>
