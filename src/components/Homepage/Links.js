@@ -6,11 +6,29 @@ import { RiRoadMapFill } from 'react-icons/ri';
 import { MdWeb } from 'react-icons/md';
 import { CgWebsite } from 'react-icons/cg';
 
+import { usefulLinks } from '../Layout/Links';
+
 const Links = () => {
 	return (
 		<CardComponent title='Useful Links'>
 			<section>
-				<div>
+				{usefulLinks.map(link => {
+					const { id, url, text, icon } = link;
+					return (
+						<div key={id}>
+							<a
+								href={url}
+								target='_blank'
+								rel='noreferrer'
+								className='link-info text-decoration-none'
+							>
+								<span className='px-1'>{icon}</span>
+								{text}
+							</a>
+						</div>
+					);
+				})}
+				{/* <div>
 					<a
 						href='https://webstatic-sea.mihoyo.com/app/ys-map-sea/'
 						target='_blank'
@@ -53,7 +71,7 @@ const Links = () => {
 						<FaBook size={25} />
 						<span className='lead px-1'>Wikipedia</span>
 					</a>
-				</div>
+				</div> */}
 			</section>
 		</CardComponent>
 	);

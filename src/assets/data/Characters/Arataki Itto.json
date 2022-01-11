@@ -1,0 +1,823 @@
+{
+  "name":"Arataki Itto",
+  "avatar": "images/Characters/Inazuma/Arataki Itto/images/Character_Arataki_Itto_Avatar.png",
+  "title":"Hanamizaka Heroics",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Geo",
+  "elementImage": "images/Elements/Element_Geo.png",
+  "weapon":"Claymore",
+  "weaponImage": "images/Weapon icons/Weapon-class-claymore-icon.png",
+  "sex":"Male",
+  "birthday":"June 1st",
+  "constellation":"Taurus Iracundus",
+  "nation":"Inazuma",
+  "affiliation":"Arataki Gang, Oni",
+  "specialDish":"Way of the Strong",
+  "description":"Hello, I'm Kuki Shinobu, deputy of the Arataki Gang. I handle the affairs of the gang. If you come across any inappropriate behavior on the part of our boss, Arataki Itto, please contact me immediately. Here is my business card.",
+  "talentBook":"Teachings of Elegance",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Elegance/Item_Teachings_of_Elegance.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Riftborn_Regalia.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Inazuma/Item_Onikabuto.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+  "ascensionStat": "",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Onikabuto",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Onikabuto.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Slime Condensate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Riftborn Regalia",
+       "image": "images/Materials/Character Materials/Ascension/Item_Riftborn_Regalia.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Onikabuto",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Onikabuto.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Slime Condensate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Riftborn Regalia",
+       "image": "images/Materials/Character Materials/Ascension/Item_Riftborn_Regalia.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Onikabuto",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Onikabuto.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Slime Secretions",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Riftborn Regalia",
+       "image": "images/Materials/Character Materials/Ascension/Item_Riftborn_Regalia.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Onikabuto",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Onikabuto.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Slime Secretions",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Riftborn Regalia",
+       "image": "images/Materials/Character Materials/Ascension/Item_Riftborn_Regalia.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Onikabuto",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Onikabuto.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Slime Concentrate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Riftborn Regalia",
+       "image": "images/Materials/Character Materials/Ascension/Item_Riftborn_Regalia.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Onikabuto",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Onikabuto.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Slime Concentrate",
+       "image": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1001,
+      "ATK": 18,
+      "DEF": 75,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2597,
+      "ATK": 46,
+      "DEF": 194,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3455,
+      "ATK": 61,
+      "DEF": 258,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 5170,
+      "ATK": 91,
+      "DEF": 386,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5779,
+      "ATK": 102,
+      "DEF": 431,
+      "CRIT Rate": "9.8%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 6649,
+      "ATK": 117,
+      "DEF": 496,
+      "CRIT Rate": "9.8%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 7462,
+      "ATK": 132,
+      "DEF": 557,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 8341,
+      "ATK": 147,
+      "DEF": 622,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 8951,
+      "ATK": 158,
+      "DEF": 668,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 9838,
+      "ATK": 174,
+      "DEF": 734,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 10448,
+      "ATK": 185,
+      "DEF": 779,
+      "CRIT Rate": "19.4%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 11345,
+      "ATK": 200,
+      "DEF": 846,
+      "CRIT Rate": "19.4%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 11954,
+      "ATK": 211,
+      "DEF": 892,
+      "CRIT Rate": "24.2%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 12858,
+      "ATK": 227,
+      "DEF": 959,
+      "CRIT Rate": "24.2%",
+      "CRIT DMG": "50%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Fight Club Legend",
+      "image": "images/Characters/Inazuma/Arataki Itto/talents/Talent_Fight_Club_Legend.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "79.2%",
+          "2": "85.7%",
+          "3": "92.1%",
+          "4": "101.3%",
+          "5": "107.8%",
+          "6": "115.2%",
+          "7": "125.3%",
+          "8": "135.4%",
+          "9": "145.6%",
+          "10": "156.6%",
+          "11": "169.3%",
+          "12": "184.2%",
+          "13": "199.1%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "76.4%",
+          "2": "82.6%",
+          "3": "88.8%",
+          "4": "97.7%",
+          "5": "103.9%",
+          "6": "111%",
+          "7": "120.8%",
+          "8": "130.5%",
+          "9": "140.3%",
+          "10": "151%",
+          "11": "163.2%",
+          "12": "177.5%",
+          "13": "191.9%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "91.6%",
+          "2": "99.1%",
+          "3": "106.6%",
+          "4": "117.2%",
+          "5": "124.7%",
+          "6": "133.2%",
+          "7": "144.9%",
+          "8": "156.6%",
+          "9": "168.4%",
+          "10": "181.2%",
+          "11": "195.8%",
+          "12": "213%",
+          "13": "230.3%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "117.2%",
+          "2": "126.8%",
+          "3": "136.3%",
+          "4": "149.9%",
+          "5": "159.5%",
+          "6": "170.4%",
+          "7": "185.4%",
+          "8": "200.4%",
+          "9": "215.4%",
+          "10": "231.7%",
+          "11": "250.5%",
+          "12": "272.5%",
+          "13": "294.5%"
+        },
+        {
+          "LVL": "Arataki Kesagiri Combo Slash DMG",
+          "1": "91.2%",
+          "2": "98.6%",
+          "3": "106%",
+          "4": "116.6%",
+          "5": "124%",
+          "6": "132.5%",
+          "7": "144.2%",
+          "8": "155.8%",
+          "9": "167.5%",
+          "10": "180.2%",
+          "11": "194.8%",
+          "12": "211.9%",
+          "13": "229.1%"
+        },
+        {
+          "LVL": "Arataki Kesagiri Final Slash DMG",
+          "1": "190.9%",
+          "2": "206.5%",
+          "3": "222%",
+          "4": "244.2%",
+          "5": "259.7%",
+          "6": "277.5%",
+          "7": "301.9%",
+          "8": "326.3%",
+          "9": "350.8%",
+          "10": "377.4%",
+          "11": "407.9%",
+          "12": "443.8%",
+          "13": "479.7%"
+        },
+        {
+          "LVL": "Superlative Superstrength Duration",
+          "1": "60s",
+          "2": "60s",
+          "3": "60s",
+          "4": "60s",
+          "5": "60s",
+          "6": "60s",
+          "7": "60s",
+          "8": "60s",
+          "9": "60s",
+          "10": "60s",
+          "11": "60s",
+          "12": "60s",
+          "13": "60s"
+        },
+        {
+          "LVL": "Saichimonji Slash DMG",
+          "1": "90.5%",
+          "2": "97.8%",
+          "3": "105.2%",
+          "4": "115.7%",
+          "5": "123.1%",
+          "6": "131.5%",
+          "7": "143.1%",
+          "8": "154.6%",
+          "9": "166.2%",
+          "10": "178.8%",
+          "11": "193.3%",
+          "12": "210.3%",
+          "13": "227.3%"
+        },
+        {
+          "LVL": "Saichimonji Slash Stamina Cost",
+          "1": "20",
+          "2": "20",
+          "3": "20",
+          "4": "20",
+          "5": "20",
+          "6": "20",
+          "7": "20",
+          "8": "20",
+          "9": "20",
+          "10": "20",
+          "11": "20",
+          "12": "20",
+          "13": "20"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "81.8%",
+          "2": "88.5%",
+          "3": "95.2%",
+          "4": "104.7%",
+          "5": "111.3%",
+          "6": "118.9%",
+          "7": "129.4%",
+          "8": "139.9%",
+          "9": "150.3%",
+          "10": "161.8%",
+          "11": "173.2%",
+          "12": "184.6%",
+          "13": "196%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "164% /204%",
+          "2": "177% /221%",
+          "3": "190% /238%",
+          "4": "209% /261%",
+          "5": "223% /278%",
+          "6": "238% /297%",
+          "7": "259% /323%",
+          "8": "280% /349%",
+          "9": "301% /375%",
+          "10": "323% /404%",
+          "11": "346% /433%",
+          "12": "369% /461%",
+          "13": "392% /490%"
+        }
+       ]
+    },
+    {
+      "name":"Masatsu Zetsugi: Akaushi Burst!",
+      "image": "images/Characters/Inazuma/Arataki Itto/talents/Talent_Masatsu_Zetsugi_Akaushi_Burst!.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "307%",
+          "2": "330%",
+          "3": "353%",
+          "4": "384%",
+          "5": "407%",
+          "6": "430%",
+          "7": "461%",
+          "8": "492%",
+          "9": "522%",
+          "10": "553%",
+          "11": "584%",
+          "12": "614%",
+          "13": "653%"
+        },
+        {
+          "LVL": "Inherited HP",
+          "1": "100%",
+          "2": "100%",
+          "3": "100%",
+          "4": "100%",
+          "5": "100%",
+          "6": "100%",
+          "7": "100%",
+          "8": "100%",
+          "9": "100%",
+          "10": "100%",
+          "11": "100%",
+          "12": "100%",
+          "13": "100%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "6s",
+          "2": "6s",
+          "3": "6s",
+          "4": "6s",
+          "5": "6s",
+          "6": "6s",
+          "7": "6s",
+          "8": "6s",
+          "9": "6s",
+          "10": "6s",
+          "11": "6s",
+          "12": "6s",
+          "13": "6s"
+        },
+        {
+          "LVL": "CD",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        }
+       ]
+    },
+    {
+      "name":"Royal Descent: Behold, Itto the Evil!",
+      "image": "images/Characters/Inazuma/Arataki Itto/talents/Talent_Royal_Descent_Behold,_Itto_the_Evil!.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "ATK Bonus",
+          "1": "57.6% DEF",
+          "2": "61.9% DEF",
+          "3": "66.2% DEF",
+          "4": "72% DEF",
+          "5": "76.3% DEF",
+          "6": "80.6% DEF",
+          "7": "86.4% DEF",
+          "8": "92.2% DEF",
+          "9": "97.9% DEF",
+          "10": "103.7% DEF",
+          "11": "109.4% DEF",
+          "12": "115.2% DEF",
+          "13": "122.4% DEF"
+        },
+        {
+          "LVL": "ATK SPD Bonus",
+          "1": "10%",
+          "2": "10%",
+          "3": "10%",
+          "4": "10%",
+          "5": "10%",
+          "6": "10%",
+          "7": "10%",
+          "8": "10%",
+          "9": "10%",
+          "10": "10%",
+          "11": "10%",
+          "12": "10%",
+          "13": "10%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "11s",
+          "2": "11s",
+          "3": "11s",
+          "4": "11s",
+          "5": "11s",
+          "6": "11s",
+          "7": "11s",
+          "8": "11s",
+          "9": "11s",
+          "10": "11s",
+          "11": "11s",
+          "12": "11s",
+          "13": "11s"
+        },
+        {
+          "LVL": "CD",
+          "1": "18s",
+          "2": "18s",
+          "3": "18s",
+          "4": "18s",
+          "5": "18s",
+          "6": "18s",
+          "7": "18s",
+          "8": "18s",
+          "9": "18s",
+          "10": "18s",
+          "11": "18s",
+          "12": "18s",
+          "13": "18s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "70",
+          "2": "70",
+          "3": "70",
+          "4": "70",
+          "5": "70",
+          "6": "70",
+          "7": "70",
+          "8": "70",
+          "9": "70",
+          "10": "70",
+          "11": "70",
+          "12": "70",
+          "13": "70"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Arataki Ichiban",
+      "image": "images/Characters/Inazuma/Arataki Itto/talents/Talent_Arataki_Ichiban.png",
+      "description":""
+    },
+    {
+      "name":"Bloodline of the Crimson Oni",
+      "image": "images/Characters/Inazuma/Arataki Itto/talents/Talent_Bloodline_of_the_Crimson_Oni.png",
+      "description":""
+    },
+    {
+      "name":"Woodchuck Chucked",
+      "image": "images/Characters/Inazuma/Arataki Itto/talents/Talent_Woodchuck_Chucked.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Teachings_of_Elegance.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Guide_to_Elegance.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Guide_to_Elegance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Guide_to_Elegance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Guide_to_Elegance.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Secretions.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Philosophies_of_Elegance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ashen_Heart.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Philosophies_of_Elegance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ashen_Heart.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Philosophies_of_Elegance.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ashen_Heart.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Philosophies_of_Elegance.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Slime_Concentrate.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ashen_Heart.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Stay a While and Listen Up",
+      "image": "images/Characters/Inazuma/Arataki Itto/constellations/Constellation_Stay_a_While_and_Listen_Up.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Gather 'Round, It's a Brawl!",
+      "image": "images/Characters/Inazuma/Arataki Itto/constellations/Constellation_Gather_'Round,_It's_a_Brawl!.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Horns Lowered, Coming Through",
+      "image": "images/Characters/Inazuma/Arataki Itto/constellations/Constellation_Horns_Lowered,_Coming_Through.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Jailhouse Bread and Butter",
+      "image": "images/Characters/Inazuma/Arataki Itto/constellations/Constellation_Jailhouse_Bread_and_Butter.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"10 Years of Hanamizaka Fame",
+      "image": "images/Characters/Inazuma/Arataki Itto/constellations/Constellation_10_Years_of_Hanamizaka_Fame.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Arataki Itto, Present!",
+      "image": "images/Characters/Inazuma/Arataki Itto/constellations/Constellation_Arataki_Itto,_Present!.png",
+      "description":""
+    }
+  ]
+}
+

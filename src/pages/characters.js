@@ -5,6 +5,7 @@ import Characters from '../components/Characters/Characters';
 import Albedo from '../components/Characters/Character/Albedo/Albedo';
 import Aloy from '../components/Characters/Character/Aloy/Aloy';
 import Amber from '../components/Characters/Character/Amber/Amber';
+import AratakiItto from '../components/Characters/Character/Arataki Itto/AratakiItto';
 import Barbara from '../components/Characters/Character/Barbara/Barbara';
 import Beidou from '../components/Characters/Character/Beidou/Beidou';
 import Bennett from '../components/Characters/Character/Bennett/Bennett';
@@ -56,6 +57,11 @@ const characters = () => {
 				<Route exact path={'/characters/Albedo'} component={Albedo} />
 				<Route exact path='/characters/Aloy' component={Aloy} />
 				<Route exact path={'/characters/Amber'} component={Amber} />
+				<Route
+					exact
+					path={'/characters/Arataki_Itto'}
+					component={AratakiItto}
+				/>
 				<Route exact path='/characters/Barbara' component={Barbara} />
 				<Route exact path='/characters/Beidou' component={Beidou} />
 				<Route exact path='/characters/Bennett' component={Bennett} />

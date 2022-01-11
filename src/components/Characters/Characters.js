@@ -46,7 +46,7 @@ const Characters = () => {
 								{element}
 							</button>
 						);
-					})}
+					})} 
 				</section>
 				<div className='table-responsive mx-3'>
 					<table

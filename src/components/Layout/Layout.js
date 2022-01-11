@@ -1,12 +1,14 @@
-import { React, Fragment } from 'react';
+import { React, Fragment, useState } from 'react';
 import Footer from './Footer';
-// import Navbar from './NavigationBar';
+// import Navbar from './NavigationBar';again
 import Sidebar from './Sidebar';
 
 const Layout = ({ children }) => {
+	// let [windowWitdh, setWindowWidth] = useState('');
+	// windowWitdh = window.innerWidth;
+	// console.log(windowWitdh);
 	return (
 		<Fragment>
-			{/* <Navbar /> */}
 			<Sidebar />
 			{children}
 			<Footer />

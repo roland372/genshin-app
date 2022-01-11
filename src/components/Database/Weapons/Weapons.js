@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
-import useFetch from '../../../hooks/useFetch';
-import ReactMarkdown from 'react-markdown';
-import weapons from '../../../assets/data/Weapons/weapons.json';
+// import useFetch from '../../../hooks/useFetch';
+import data from '../../../assets/data/Weapons/weapons.json';
+import Weapon from './Weapon';
+
+// const allWeaponTypes = Object.keys(weapons.weapons[0]);
+
+const { weapons } = data;
 
 const Weapons = () => {
 	// const { loading, error, data } = useFetch('http://localhost:1337/weapons');
@@ -17,11 +22,76 @@ const Weapons = () => {
 	// 	weapons.weapons[0].swords[0].weaponAscension[0].ascensionMaterial1.name
 	// );
 
+	const weaponTypes = ['all', ...new Set(weapons.map(weapon => weapon.type))];
+
+	const [menuItems, setMenuItems] = useState(weapons);
+	const [weaponType, setWeaponType] = useState(weaponTypes);
+
+	const filterWeaponTypes = type => {
+		if (type === 'all') {
+			setMenuItems(weapons);
+			return;
+		}
+		const newData = weapons.filter(weapon => weapon.type === type);
+		// console.log(newData);
+		setMenuItems(newData);
+	};
+
 	return (
 		<Container>
 			<CardComponent title='Weapons'>
-				<section className='d-flex'>
-				
+				<section>
+					{weaponType.map((type, index) => {
+						console.log(setWeaponType);
+						return (
+							<button
+								type='button'
+								className='btn btn-light'
+								key={index}
+								onClick={() => filterWeaponTypes(type)}
+							>
+								{type}
+							</button>
+						);
+					})}
+				</section>
+				{menuItems.map(weapon => {
+					const {
+						name,
+						type,
+						image,
+						baseAtk,
+						maxAtk,
+						secondStatType,
+						secondStatMin,
+						secondStatMax,
+						description,
+						rarity,
+					} = weapon;
+
+					return (
+						<Weapon
+							key={name}
+							weapon={weapon}
+							type={type}
+							name={name}
+							image={image}
+							baseAtk={baseAtk}
+							maxAtk={maxAtk}
+							secondStatType={secondStatType}
+							secondStatMin={secondStatMin}
+							secondStatMax={secondStatMax}
+							description={description}
+							rarity={rarity}
+						/>
+					);
+				})}
+				{/* <Swords weapons={weapons} /> */}
+				{/* <Claymores weapons={weapons} />
+				<Polearms weapons={weapons} />
+				<Catalysts weapons={weapons} />
+				<Bows weapons={weapons} /> */}
+				{/* <section className='d-flex'>
 					<div className=' mx-2'>
 						<table
 							className='table table-sm table-dark table-striped align-middle text-center table-bordered'
@@ -47,7 +117,6 @@ const Weapons = () => {
 							</tbody>
 						</table>
 					</div>
-					
 					<div className='table-responsive mx-2 align-self-end'>
 						<table
 							className='table table-sm table-dark table-striped align-middle text-center table-bordered'
@@ -117,8 +186,7 @@ const Weapons = () => {
 							</tbody>
 						</table>
 					</div>
-				</section>
-
+				</section> */}
 				{/* <div className='table-responsive mx-3'>
 					<table
 						className='table table-striped table-dark align-middle'
@@ -163,7 +231,6 @@ const Weapons = () => {
 						</tbody>
 					</table>
 				</div> */}
-
 				{/* <div className='table-responsive mx-3'>
 					<table
 						className='table table-dark table-striped align-middle'

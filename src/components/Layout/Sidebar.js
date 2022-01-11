@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 import { Button, CloseButton } from 'react-bootstrap';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
+import { navLinks } from '../Layout/Links';
+
 const Sidebar = () => {
 	const [show, setShow] = useState(false);
 
@@ -29,7 +31,12 @@ const Sidebar = () => {
 					className='bg-secondary'
 				>
 					<Offcanvas.Header className='bg-primary'>
-						<NavLink exact to='/' className='nav-link text-light ms-3'>
+						<NavLink
+							exact
+							to='/'
+							className='nav-link text-light ms-3'
+							onClick={handleClose}
+						>
 							<Offcanvas.Title>Home</Offcanvas.Title>
 						</NavLink>
 						<CloseButton
@@ -40,56 +47,23 @@ const Sidebar = () => {
 					</Offcanvas.Header>
 					<Offcanvas.Body>
 						<ul className='list-group text-start'>
-							<li className='list-group-item bg-dark'>
-								<NavLink className='nav-link link-light' to='/characters'>
-									Characters
-								</NavLink>
-							</li>
-							<li className='list-group-item bg-dark'>
-								<NavLink className='nav-link link-light' to='/banners'>
-									Banners
-								</NavLink>
-							</li>
-							<li className='list-group-item bg-dark'>
-								<NavLink className='nav-link link-light' to='/events'>
-									Events
-								</NavLink>
-							</li>
-							<li className='list-group-item bg-dark'>
-								<NavLink className='nav-link link-light' to='/artifacts'>
-									Artifacts
-								</NavLink>
-							</li>
-							<li className='list-group-item bg-dark'>
-								<NavLink className='nav-link link-light' to='/farming-planner'>
-									Farming Planner
-								</NavLink>
-							</li>
-							<li className='list-group-item bg-dark'>
-								<NavLink className='nav-link link-light' to='/team-builder'>
-									Team Builder
-								</NavLink>
-							</li>
-							<li className='list-group-item bg-dark'>
-								<NavLink className='nav-link link-light' to='/calculator'>
-									Calculator
-								</NavLink>
-							</li>
-							<li className='list-group-item bg-dark'>
-								<NavLink className='nav-link link-light' to='/database'>
-									Database - TODO make it dropdown
-								</NavLink>
-							</li>
-							<li className='list-group-item bg-dark'>
-								<NavLink className='nav-link link-light' to='/changelog'>
-									Changelog
-								</NavLink>
-							</li>
-							<li className='list-group-item bg-dark'>
-								<NavLink className='nav-link link-light' to='/achievements'>
-									Achievements
-								</NavLink>
-							</li>
+							{navLinks.slice(1).map(link => {
+								const { id, url, text } = link;
+								return (
+									<li
+										className='list-group-item bg-dark'
+										key={id}
+										onClick={handleClose}
+									>
+										<NavLink
+											className='nav-link link-light text-capitalize'
+											to={url}
+										>
+											{text}
+										</NavLink>
+									</li>
+								);
+							})}
 						</ul>
 					</Offcanvas.Body>
 				</Offcanvas>

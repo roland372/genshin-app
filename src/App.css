@@ -1,4 +1,11 @@
-/*<----- elements colors ----->*/
+/*<----- Global ----->*/
+/* new line from JSON  */
+.new-line {
+	white-space: pre-line;
+	vertical-align: bottom;
+}
+
+/*<----- Elements Colors ----->*/
 
 .text-anemo {
 	color: #26a684;
@@ -24,10 +31,30 @@
 	color: #bf2818;
 }
 
+/*<----- Rarity Colors ----->*/
+.rarity5bg {
+	background: linear-gradient(
+		-3deg,
+		rgba(105, 84, 83, 0.565) 0%,
+		rgba(161, 112, 78, 0.565) 39%,
+		rgba(228, 171, 82, 0.565) 100%
+	);
+}
 
+.rarity4bg {
+	background: linear-gradient(
+		-3deg,
+		rgba(89, 84, 130, 0.565) 0%,
+		rgba(120, 102, 157, 0.565) 39%,
+		rgba(183, 133, 201, 0.565) 100%
+	);
+}
 
-
-
-
-
-
+.rarity3bg {
+	background: linear-gradient(
+		-3deg,
+		rgba(81, 84, 116, 0.565) 0%,
+		rgba(80, 104, 135, 0.565) 39%,
+		rgba(75, 160, 180, 0.565) 100%
+	);
+}
