@@ -1,28 +1,86 @@
 {
   "currentBanners": [
     {
-      "name": "Born of Ocean Swell",
-      "link": "https://genshin.mihoyo.com/en/news/detail/17165",
-      "image": "images/Banners/character/Wish_Born_of_Ocean_Swell_2021-11-24.png",
-      "startDate": "November 24, 2021",
-      "endDate": "December 14, 2021"
+      "name": "The Transcendent One Returns",
+      "link": "https://genshin.mihoyo.com/en/news/detail/18155",
+      "image": "images/Banners/character/Wish_The_Transcendent_One_Returns_2022-01-05.png",
+      "startDate": "January 05, 2022",
+      "endDate": "January 25, 2022"
     },
     {
-      "name": "Secretum Secretorum",
-      "link": "https://genshin.mihoyo.com/en/news/detail/17164",
-      "image": "images/Banners/character/Wish_Secretum_Secretorum_2021-11-24.png",
-      "startDate": "November 24, 2021",
-      "endDate": "December 14, 2021"
+      "name": "Invitation to Mundane Life",
+      "link": "https://genshin.mihoyo.com/en/news/detail/18158",
+      "image": "images/Banners/character/Wish_Invitation_to_Mundane_Life_2022-01-05.png",
+      "startDate": "January 05, 2022",
+      "endDate": "January 25, 2022"
     },
     {
       "name": "Epitome Invocation",
-      "link": "https://genshin.mihoyo.com/en/news/detail/17166",
-      "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-11-24.png",
-      "startDate": "November 24, 2021",
-      "endDate": "December 14, 2021"
+      "link": "https://genshin.mihoyo.com/en/news/detail/18162",
+      "image": "images/Banners/weapon/Wish_Epitome_Invocation_2022-01-05.png",
+      "startDate": "January 05, 2022",
+      "endDate": "January 25, 2022"
+    },
+    {
+      "name": "Gentry of Hermitage",
+      "link": "https://genshin.mihoyo.com/en/news/detail/18160",
+      "image": "images/Banners/character/Wish_Gentry_of_Hermitage_2022-01-25.png",
+      "startDate": "January 25, 2022",
+      "endDate": "February 15, 2022"
+    },
+    {
+      "name": "Adrift in the Harbor",
+      "link": "https://genshin.mihoyo.com/en/news/detail/18161",
+      "image": "images/Banners/character/Wish_Adrift_in_the_Harbor_2022-01-25.png",
+      "startDate": "January 25, 2022",
+      "endDate": "February 15, 2022"
+    },
+    {
+      "name": "Epitome Invocation",
+      "link": "https://genshin.mihoyo.com/en/news/detail/18163",
+      "image": "images/Banners/weapon/Wish_Epitome_Invocation_2022-01-25.png",
+      "startDate": "January 25, 2022",
+      "endDate": "February 15, 2022"
     }
   ],
   "pastBanners": {
+    "version 2.3" : [
+      {
+        "name": "Born of Ocean Swell",
+        "link": "https://genshin.mihoyo.com/en/news/detail/17165",
+        "image": "images/Banners/character/Wish_Born_of_Ocean_Swell_2021-11-24.png",
+        "startDate": "November 24, 2021",
+        "endDate": "December 14, 2021"
+      },
+      {
+        "name": "Secretum Secretorum",
+        "link": "https://genshin.mihoyo.com/en/news/detail/17164",
+        "image": "images/Banners/character/Wish_Secretum_Secretorum_2021-11-24.png",
+        "startDate": "November 24, 2021",
+        "endDate": "December 14, 2021"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/17166",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-11-24.png",
+        "startDate": "November 24, 2021",
+        "endDate": "December 14, 2021"
+      },
+      {
+        "name": "Oni's Royale",
+        "link": "https://genshin.mihoyo.com/en/news/detail/17668",
+        "image": "images/Banners/character/Wish_Oni's_Royale_2021-12-14.png",
+        "startDate": "December 14, 2021",
+        "endDate": "January 4, 2022"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/17676",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-11-24.png",
+        "startDate": "December 14, 2021",
+        "endDate": "January 4, 2022"
+      }
+    ],
     "version 2.2" : [
       {
         "name": "Farewell of Snezhnaya",
