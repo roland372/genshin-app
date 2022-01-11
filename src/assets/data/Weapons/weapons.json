@@ -1137,6 +1137,23 @@
     "weaponAscension": []
   },
   {
+    "image": "/images/Weapons/Polearms/Weapon_Calamity_Queller_2nd.png",
+    "name": "Calamity Queller",
+    "type": "polearm",
+    "rarity": 5,
+    "baseAtk": 49,
+    "maxAtk": 741,
+    "secondStatType": "ATK%",
+    "secondStatMin": 3.6,
+    "secondStatMax": 16.5,
+    "description": "Extinguishing Precept\n Gain 12% All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by 3.2% per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Luminous_Sands_from_Guyun.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Inspector's_Sacrificial_Knife.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Recruit's_Insignia.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
     "image": "/images/Weapons/Polearms/Weapon_Staff_of_Homa_2nd.png",
     "name": "Staff of Homa",
     "type": "polearm",

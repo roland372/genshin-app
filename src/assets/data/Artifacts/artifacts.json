@@ -22,6 +22,13 @@
       "4-piece_bonus":"When HP is below 70%, CRIT Rate increases by an additional 24%."
     },
     {
+      "name":"Blizzard Strayer",
+      "max_rarity":"5★",
+      "image":"images/Artifacts/Artifact_Snowswept_Memory.png",
+      "2-piece_bonus":"Cryo DMG Bonus +15%",
+      "4-piece_bonus":"When a character attacks an enemy affected by Cryo, their CRIT Rate is increased by 20%. If the enemy is Frozen, CRIT Rate is increased by an additional 20%."
+    },
+    {
       "name":"Bloodstained Chivalry",
       "max_rarity":"5★",
       "image":"images/Artifacts/Artifact_Bloodstained_Flower_of_Iron.png",
@@ -55,6 +62,20 @@
       "image":"images/Artifacts/Artifact_Magnificent_Tsuba.png",
       "2-piece_bonus":"Energy Recharge +20%",
       "4-piece_bonus":"Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way."
+    },
+    {
+      "name":"Heart of Depth",
+      "max_rarity":"5★",
+      "image":"images/Artifacts/Artifact_Gilded_Corsage.png",
+      "2-piece_bonus":"Hydro DMG Bonus +15%",
+      "4-piece_bonus":"After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s."
+    },
+    {
+      "name":"Husk of Opulent Dreams",
+      "max_rarity":"5★",
+      "image":"images/Artifacts/Item_Bloom_Times.png",
+      "2-piece_bonus":"DEF +30%",
+      "4-piece_bonus":"A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions:\n When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s.\n When off the field, the character gains 1 stack every 3s.\n Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus.\n When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost."
     },
     {
       "name":"Instructor",
@@ -97,6 +118,13 @@
       "image":"images/Artifacts/Artifact_Royal_Flora.png",
       "2-piece_bonus":"Elemental Burst DMG +20%",
       "4-piece_bonus":"Using an Elemental Burst increase all party members' ATK by 20% for 12s. This effect cannot stack."
+    },
+    {
+      "name":"Ocean-Hued Clam",
+      "max_rarity":"5★",
+      "image":"images/Artifacts/Item_Sea-Dyed_Blossom.png",
+      "2-piece_bonus":"Healing Bonus +15%.",
+      "4-piece_bonus":"When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing).\n At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing.\n (This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but it is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses).\n Only one Sea-Dyed Foam can be produced every 3.5 seconds.\n Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing).\n There can be no more than one Sea-Dyed Foam active at any given time.\n This effect can still be triggered even when the character who is using this artifact set is not on the field."
     },
     {
       "name":"Pale Flame",
@@ -188,20 +216,6 @@
       "image":"images/Artifacts/Artifact_Troupe's_Dawnlight.png",
       "2-piece_bonus":"Elemental Mastery +80",
       "4-piece_bonus":"Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow."
-    },
-    {
-      "name":"Blizzard Strayer",
-      "max_rarity":"5★",
-      "image":"images/Artifacts/Artifact_Snowswept_Memory.png",
-      "2-piece_bonus":"Cryo DMG Bonus +15%",
-      "4-piece_bonus":"When a character attacks an enemy affected by Cryo, their CRIT Rate is increased by 20%. If the enemy is Frozen, CRIT Rate is increased by an additional 20%."
-    },
-    {
-      "name":"Heart of Depth",
-      "max_rarity":"5★",
-      "image":"images/Artifacts/Artifact_Gilded_Corsage.png",
-      "2-piece_bonus":"Hydro DMG Bonus +15%",
-      "4-piece_bonus":"After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s."
     }
   ]
 }
