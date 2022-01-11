@@ -8,14 +8,30 @@ import data from '../../assets/data/Characters/characters.json';
 
 const { characters } = data;
 
+// elements filtering
 const allElements = [
 	'all',
 	...new Set(characters.map(elements => elements.element)),
 ];
 
+// wepons filtering
+const allWeapons = [
+	'all',
+	...new Set(characters.map(weapons => weapons.weapon)),
+];
+
 const Characters = () => {
+	// display menu items
 	const [menuItems, setMenuItems] = useState(characters);
+
+	// elements filtering
 	const [elements, setElements] = useState(allElements);
+
+	// weapons filtering
+	const [weapons, setWeapons] = useState(allWeapons);
+
+	// search
+	const [searchTerm, setSearchTerm] = useState('');
 
 	// console.log(allElements);
 
@@ -31,23 +47,64 @@ const Characters = () => {
 		setMenuItems(newData);
 	};
 
+	const filterWeapons = weapon => {
+		if (weapon === 'all') {
+			setMenuItems(characters);
+			return;
+		}
+		const newData = characters.filter(character => character.weapon === weapon);
+		// console.log(newData);
+		setMenuItems(newData);
+	};
+
 	return (
 		<Container>
 			<CardComponent title='Playable Characters'>
-				<section>
-					{elements.map((element, index) => {
-						return (
-							<button
-								type='button'
-								className='btn btn-light'
-								key={index}
-								onClick={() => filterElements(element)}
-							>
-								{element}
-							</button>
-						);
-					})} 
-				</section>
+				<div className='d-lg-flex justify-content-around'>
+					{/* elements filtering */}
+					<section className='px-3 pb-1'>
+						{elements.map((element, index) => {
+							return (
+								<button
+									type='button'
+									className='btn btn-sm btn-light'
+									key={index}
+									onClick={() => filterElements(element)}
+								>
+									{element}
+								</button>
+							);
+						})}
+					</section>
+					{/* weapon filtering */}
+					<section className='px-3'>
+						{weapons.map((weapon, index) => {
+							return (
+								<div className='btn-group' role='group'>
+									<button
+										type='button'
+										className='btn btn-sm btn-light'
+										key={index}
+										onClick={() => filterWeapons(weapon)}
+									>
+										{weapon}
+									</button>
+								</div>
+							);
+						})}
+					</section>
+					{/* searching input */}
+					<section>
+						<input
+							type='text'
+							placeholder='Search for character...'
+							onChange={event => {
+								setSearchTerm(event.target.value);
+								// console.log(event.target.value);
+							}}
+						/>
+					</section>
+				</div>
 				<div className='table-responsive mx-3'>
 					<table
 						className='table table-striped table-dark align-middle'
@@ -70,26 +127,39 @@ const Characters = () => {
 							</tr>
 						</thead>
 						<tbody>
-							{menuItems.map((character, index) => {
-								return (
-									<SingleCharacter
-										key={index}
-										index={index + 1}
-										icon={character.image}
-										name={character.name}
-										url={character.url}
-										rarity={character.rarityImage}
-										element={character.elementImage}
-										weapon={character.weaponImage}
-										sex={character.sex}
-										nation={character.nation}
-										HP={character.HP}
-										ATK={character.ATK}
-										DEF={character.DEF}
-										ascension={character.ascension}
-									/>
-								);
-							})}
+							{menuItems
+								.filter(value => {
+									if (searchTerm === '') {
+										return value;
+									} else if (
+										value.name
+											.toLowerCase()
+											.includes(searchTerm.toLocaleLowerCase())
+									) {
+										return value;
+									}
+									return 0;
+								})
+								.map((character, index) => {
+									return (
+										<SingleCharacter
+											key={index}
+											index={index + 1}
+											icon={character.image}
+											name={character.name}
+											url={character.url}
+											rarity={character.rarityImage}
+											element={character.elementImage}
+											weapon={character.weaponImage}
+											sex={character.sex}
+											nation={character.nation}
+											HP={character.HP}
+											ATK={character.ATK}
+											DEF={character.DEF}
+											ascension={character.ascension}
+										/>
+									);
+								})}
 						</tbody>
 					</table>
 				</div>

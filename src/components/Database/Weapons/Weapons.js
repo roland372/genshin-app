@@ -27,6 +27,9 @@ const Weapons = () => {
 	const [menuItems, setMenuItems] = useState(weapons);
 	const [weaponType, setWeaponType] = useState(weaponTypes);
 
+	// search
+	const [searchTerm, setSearchTerm] = useState('');
+
 	const filterWeaponTypes = type => {
 		if (type === 'all') {
 			setMenuItems(weapons);
@@ -40,52 +43,77 @@ const Weapons = () => {
 	return (
 		<Container>
 			<CardComponent title='Weapons'>
-				<section>
-					{weaponType.map((type, index) => {
-						console.log(setWeaponType);
+				<div className='d-md-flex justify-content-around'>
+					<section className=''>
+						{weaponType.map((type, index) => {
+							console.log(setWeaponType);
+							return (
+								<button
+									type='button'
+									className='btn btn-sm btn-light'
+									key={index}
+									onClick={() => filterWeaponTypes(type)}
+								>
+									{type}
+								</button>
+							);
+						})}
+					</section>
+					<section>
+						<input
+							type='text'
+							placeholder='Search for character...'
+							onChange={event => {
+								setSearchTerm(event.target.value);
+								// console.log(event.target.value);
+							}}
+						/>
+					</section>
+				</div>
+				{menuItems
+					.filter(value => {
+						if (value.name === '') {
+							return value;
+						} else if (
+							value.name
+								.toLocaleLowerCase()
+								.includes(searchTerm.toLocaleLowerCase())
+						) {
+							return value;
+						}
+						return 0;
+					})
+					.map(weapon => {
+						const {
+							name,
+							type,
+							image,
+							baseAtk,
+							maxAtk,
+							secondStatType,
+							secondStatMin,
+							secondStatMax,
+							description,
+							rarity,
+						} = weapon;
+
 						return (
-							<button
-								type='button'
-								className='btn btn-light'
-								key={index}
-								onClick={() => filterWeaponTypes(type)}
-							>
-								{type}
-							</button>
+							<Weapon
+								key={name}
+								weapon={weapon}
+								type={type}
+								name={name}
+								image={image}
+								baseAtk={baseAtk}
+								maxAtk={maxAtk}
+								secondStatType={secondStatType}
+								secondStatMin={secondStatMin}
+								secondStatMax={secondStatMax}
+								description={description}
+								rarity={rarity}
+							/>
 						);
 					})}
-				</section>
-				{menuItems.map(weapon => {
-					const {
-						name,
-						type,
-						image,
-						baseAtk,
-						maxAtk,
-						secondStatType,
-						secondStatMin,
-						secondStatMax,
-						description,
-						rarity,
-					} = weapon;
-
-					return (
-						<Weapon
-							key={name}
-							weapon={weapon}
-							type={type}
-							name={name}
-							image={image}
-							baseAtk={baseAtk}
-							maxAtk={maxAtk}
-							secondStatType={secondStatType}
-							secondStatMin={secondStatMin}
-							secondStatMax={secondStatMax}
-							description={description}
-							rarity={rarity}
-						/>
-					);
-				})}
 				{/* <Swords weapons={weapons} /> */}
 				{/* <Claymores weapons={weapons} />
 				<Polearms weapons={weapons} />
