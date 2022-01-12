@@ -8,7 +8,7 @@ const CurrentBanners = props => {
 			<div className='table-responsive mx-3'>
 				<table
 					className='table table-dark table-striped table-sm align-middle'
-					style={{ minWidth: '700px' }}
+					style={{ minWidth: '600px' }}
 				>
 					<thead>
 						<tr>
