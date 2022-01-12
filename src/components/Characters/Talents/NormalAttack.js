@@ -14,11 +14,15 @@ const Talent = props => {
 			</div>
 			<div className='text-start mx-1 my-1'>
 				<b>Normal Attack</b>
-				<p>{props.normalAttack}</p>
+				<br />
+				{props.normalAttack}
+				<br />
 				<b>Charged Attack</b>
-				<p>{props.chargedAttack}</p>
+				<br />
+				{props.chargedAttack}
 				<b>Plunging Attack</b>
-				<p>{props.plungingAttack}</p>
+				<br />
+				{props.plungingAttack}
 			</div>
 			{props.children}
 		</section>

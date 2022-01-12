@@ -38,6 +38,7 @@ const Characters = () => {
 	const filterElements = element => {
 		if (element === 'all') {
 			setMenuItems(characters);
+			setElements(elements);
 			return;
 		}
 		const newData = characters.filter(
@@ -50,6 +51,7 @@ const Characters = () => {
 	const filterWeapons = weapon => {
 		if (weapon === 'all') {
 			setMenuItems(characters);
+			setWeapons(weapons);
 			return;
 		}
 		const newData = characters.filter(character => character.weapon === weapon);

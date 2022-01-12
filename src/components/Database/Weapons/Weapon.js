@@ -3,7 +3,6 @@ import React from 'react';
 const Weapon = props => {
 	const {
 		name,
-		type,
 		image,
 		baseAtk,
 		maxAtk,

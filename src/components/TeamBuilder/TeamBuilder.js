@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
+// import { useState } from 'react';
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
 
 const TeamBuilder = () => {
-	const [counter, setCounter] = useState(0);
+	// const [counter, setCounter] = useState(0);
 	return (
 		<Container>
 			<CardComponent title='Team Builder'>
@@ -25,9 +26,6 @@ const TeamBuilder = () => {
 						reset counter
 					</button>
 				</div> */}
-				
-
-
 			</CardComponent>
 		</Container>
 	);

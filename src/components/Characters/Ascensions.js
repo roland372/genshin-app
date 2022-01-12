@@ -1,5 +1,5 @@
 import React from 'react';
-import characters from '../../pages/characters';
+// import characters from '../../pages/characters';
 import CardComponent from '../Layout/CardComponent';
 import Ascension from './Ascension';
 

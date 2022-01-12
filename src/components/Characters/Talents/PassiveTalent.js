@@ -16,7 +16,8 @@ const PassiveTalent = props => {
 			</div>
 			<div className='text-start'>
 				<b>{props.unlocked}</b>
-				<p>{props.description}</p>
+				<br />
+				{props.description}
 			</div>
 		</section>
 	);

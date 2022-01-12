@@ -35,18 +35,19 @@ function App() {
 			<Router>
 				<Layout>
 					<Switch>
-						<Route exact path='/' render={home} />
-						<Route exact path='/characters' render={characters} />
-						<Route exact path='/banners' render={banners} />
-						<Route exact path='/events' render={events} />
-						<Route exact path='/artifacts' render={artifacts} />
-						<Route exact path='/farming-planner' render={farmingPlanner} />
-						<Route exact path='/team-builder' render={teamBuilder} />
-						<Route exact path='/calculator' render={calculator} />
-						<Route exact path='/database' render={database} />
-						<Route exact path='/changelog' render={changelog} />
-						<Route exact path='/achievements' render={achievements} />
-						<Route render={NotFound} />
+						<Route exact path='/' component={home} />
+						<Route exact path='/characters' component={characters} />
+						<Route path='/characters/:id' component={characters} />
+						<Route path='/banners' component={banners} />
+						<Route path='/events' component={events} />
+						<Route path='/artifacts' component={artifacts} />
+						<Route path='/farming-planner' component={farmingPlanner} />
+						<Route path='/team-builder' component={teamBuilder} />
+						<Route path='/calculator' component={calculator} />
+						<Route path='/database' component={database} />
+						<Route path='/changelog' component={changelog} />
+						<Route path='/achievements' component={achievements} />
+						<Route component={NotFound} />
 					</Switch>
 				</Layout>
 			</Router>

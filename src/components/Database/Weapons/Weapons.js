@@ -33,6 +33,7 @@ const Weapons = () => {
 	const filterWeaponTypes = type => {
 		if (type === 'all') {
 			setMenuItems(weapons);
+			setWeaponType(weaponTypes);
 			return;
 		}
 		const newData = weapons.filter(weapon => weapon.type === type);
@@ -46,7 +47,6 @@ const Weapons = () => {
 				<div className='d-md-flex justify-content-around align-middle mx-2'>
 					<section className=''>
 						{weaponType.map((type, index) => {
-							console.log(setWeaponType);
 							return (
 								<button
 									type='button'
