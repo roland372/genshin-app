@@ -22,7 +22,7 @@ const TalentMaterials = props => {
 							</tr>
 						</thead>
 						<tbody>
-							{props.data.talentMaterials.map(material => {
+							{props.data.talentMaterials.map((material, index) => {
 								const {
 									level,
 									talentBookImage,
@@ -39,6 +39,7 @@ const TalentMaterials = props => {
 								return (
 									<TalentMaterial
 										level={level}
+										key={index}
 										talentBookImage={talentBookImage}
 										talentBookAmount={talentBookAmount}
 										commonMaterialImage={commonMaterialImage}

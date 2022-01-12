@@ -22,9 +22,9 @@ const CharacterStats = props => {
 						</tr>
 					</thead>
 					<tbody>
-						{props.data.stats.map(stat => {
+						{props.data.stats.map((stat, index) => {
 							return (
-								<tr>
+								<tr key={index}>
 									<th>{stat.ASC}</th>
 									<td>{stat.LVL}</td>
 									<td>{stat.HP}</td>

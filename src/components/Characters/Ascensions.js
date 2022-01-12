@@ -1,4 +1,5 @@
 import React from 'react';
+import characters from '../../pages/characters';
 import CardComponent from '../Layout/CardComponent';
 import Ascension from './Ascension';
 
@@ -23,7 +24,7 @@ const Ascensions = props => {
 							</tr>
 						</thead>
 						<tbody>
-							{props.data.characterAscension.map(ascension => {
+							{props.data.characterAscension.map((ascension, index) => {
 								const {
 									ascensionPhase,
 									level,
@@ -36,6 +37,7 @@ const Ascensions = props => {
 								return (
 									<Ascension
 										ascensionPhase={ascensionPhase}
+										key={index}
 										level={level}
 										ascensionMaterialImage={ascensionMaterial.image}
 										ascensionMaterialName={ascensionMaterial.name}

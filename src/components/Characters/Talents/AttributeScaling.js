@@ -25,9 +25,9 @@ const AttributeScaling = props => {
 						</tr>
 					</thead>
 					<tbody>
-						{props.data.map(skill => {
+						{props.data.map((skill, index) => {
 							return (
-								<tr>
+								<tr key={index}>
 									<th style={{ minWidth: '100px' }}>{skill.LVL}</th>
 									<td>{skill['1']}</td>
 									<td>{skill['2']}</td>

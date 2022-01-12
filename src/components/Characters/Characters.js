@@ -68,7 +68,7 @@ const Characters = () => {
 								<button
 									type='button'
 									className='btn btn-sm btn-dark m-1 p-1'
-									key={index}
+									key={index + element}
 									onClick={() => filterElements(element)}
 								>
 									<img
@@ -87,23 +87,21 @@ const Characters = () => {
 					<section className='px-3'>
 						{weapons.map((weapon, index) => {
 							return (
-								<div className='btn-group' role='group'>
-									<button
-										type='button'
-										className='btn btn-sm btn-dark m-1 p-1'
-										key={index}
-										onClick={() => filterWeapons(weapon)}
-									>
-										<img
-											src={`images/Weapon icons/Weapon-class-${weapon}-icon.png`}
-											alt={weapon}
-											title={weapon}
-											className='img-fluid'
-											width='30px'
-										/>
-										{/* {weapon} */}
-									</button>
-								</div>
+								<button
+									type='button'
+									className='btn btn-sm btn-dark m-1 p-1'
+									key={weapon}
+									onClick={() => filterWeapons(weapon)}
+								>
+									<img
+										src={`images/Weapon icons/Weapon-class-${weapon}-icon.png`}
+										alt={weapon}
+										title={weapon}
+										className='img-fluid'
+										width='30px'
+									/>
+									{/* {weapon} */}
+								</button>
 							);
 						})}
 					</section>

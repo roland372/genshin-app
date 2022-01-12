@@ -12,9 +12,7 @@ const ElementalSkill = props => {
 				/>
 				<h3 className='my-3'>Elemental Skill: {props.name}</h3>
 			</div>
-			<div className='text-start'>
-				<p>{props.description}</p>
-			</div>
+			<div className='text-start'>{props.description}</div>
 			{props.children}
 		</section>
 	);
