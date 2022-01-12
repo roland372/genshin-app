@@ -29,6 +29,7 @@ const Sidebar = () => {
 					onHide={handleClose}
 					placement='end'
 					className='bg-secondary'
+					scroll='true'
 				>
 					<Offcanvas.Header className='bg-primary'>
 						<NavLink

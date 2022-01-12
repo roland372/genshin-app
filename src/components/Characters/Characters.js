@@ -60,18 +60,25 @@ const Characters = () => {
 	return (
 		<Container>
 			<CardComponent title='Playable Characters'>
-				<div className='d-lg-flex justify-content-around'>
+				<div className='d-xl-flex justify-content-between align-middle mx-2'>
 					{/* elements filtering */}
-					<section className='px-3 pb-1'>
+					<section className=''>
 						{elements.map((element, index) => {
 							return (
 								<button
 									type='button'
-									className='btn btn-sm btn-light'
+									className='btn btn-sm btn-dark m-1 p-1'
 									key={index}
 									onClick={() => filterElements(element)}
 								>
-									{element}
+									<img
+										src={`images/Elements/Element_${element}.png`}
+										alt={element}
+										title={element}
+										className='img-fluid'
+										width='30px'
+									/>
+									{/* {element} */}
 								</button>
 							);
 						})}
@@ -83,26 +90,39 @@ const Characters = () => {
 								<div className='btn-group' role='group'>
 									<button
 										type='button'
-										className='btn btn-sm btn-light'
+										className='btn btn-sm btn-dark m-1 p-1'
 										key={index}
 										onClick={() => filterWeapons(weapon)}
 									>
-										{weapon}
+										<img
+											src={`images/Weapon icons/Weapon-class-${weapon}-icon.png`}
+											alt={weapon}
+											title={weapon}
+											className='img-fluid'
+											width='30px'
+										/>
+										{/* {weapon} */}
 									</button>
 								</div>
 							);
 						})}
 					</section>
 					{/* searching input */}
-					<section>
-						<input
-							type='text'
-							placeholder='Search for character...'
-							onChange={event => {
-								setSearchTerm(event.target.value);
-								// console.log(event.target.value);
-							}}
-						/>
+					<section className='mx-3'>
+						<form>
+							<div className='text-start'>
+								{/* <label htmlFor='searchForCharacter'>Search for character</label> */}
+							</div>
+							<input
+								type='text'
+								className='form-control'
+								placeholder='Search for a character'
+								onChange={event => {
+									setSearchTerm(event.target.value);
+									// console.log(event.target.value);
+								}}
+							/>
+						</form>
 					</section>
 				</div>
 				<div className='table-responsive mx-3'>

@@ -43,18 +43,25 @@ const Weapons = () => {
 	return (
 		<Container>
 			<CardComponent title='Weapons'>
-				<div className='d-md-flex justify-content-around'>
+				<div className='d-md-flex justify-content-around align-middle mx-2'>
 					<section className=''>
 						{weaponType.map((type, index) => {
 							console.log(setWeaponType);
 							return (
 								<button
 									type='button'
-									className='btn btn-sm btn-light'
+									className='btn btn-sm btn-dark m-1 p-1'
 									key={index}
 									onClick={() => filterWeaponTypes(type)}
 								>
-									{type}
+									{/* {type} */}
+									<img
+										src={`images/Weapon icons/Weapon-class-${type}-icon.png`}
+										alt={type}
+										title={type}
+										className='img-fluid'
+										width='30px'
+									/>
 								</button>
 							);
 						})}
@@ -62,7 +69,8 @@ const Weapons = () => {
 					<section>
 						<input
 							type='text'
-							placeholder='Search for character...'
+							className='form-control'
+							placeholder='Search for a weapon'
 							onChange={event => {
 								setSearchTerm(event.target.value);
 								// console.log(event.target.value);

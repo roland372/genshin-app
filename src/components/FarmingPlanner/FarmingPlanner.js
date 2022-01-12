@@ -186,7 +186,7 @@ const FarmingPlanner = () => {
 
 	return (
 		<Container>
-			<CardComponent title='Blogs'>
+			<CardComponent title='Farming planner'>
 				<div>
 					{error && <div>{error}</div>}
 					{isLoading && <div>loading...</div>}
