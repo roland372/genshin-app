@@ -42,23 +42,28 @@ export const navLinks = [
 		url: '/team-builder',
 		text: 'team builder',
 	},
-	{
-		id: 8,
-		url: '/calculator',
-		text: 'calculator',
-	},
+	// {
+	// 	id: 8,
+	// 	url: '/calculator',
+	// 	text: 'calculator',
+	// },
 	{
 		id: 9,
 		url: '/database',
 		text: 'database',
 	},
+	{
+		id: 10,
+		url: '/todoList',
+		text: 'Todo List',
+	},
 	// {
-	// 	id: 10,
+	// 	id: 11,
 	// 	url: '/changelog',
 	// 	text: 'changelog',
 	// },
 	// {
-	// 	id: 11,
+	// 	id: 12,
 	// 	url: '/achievements',
 	// 	text: 'achievements',
 	// },

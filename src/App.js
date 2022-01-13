@@ -19,6 +19,7 @@ import teamBuilder from './pages/teamBuilder';
 import calculator from './pages/calculator';
 import banners from './pages/banners';
 import database from './pages/database';
+import todoList from './pages/todoList';
 import changelog from './pages/changelog';
 import achievements from './pages/achievements';
 
@@ -45,6 +46,7 @@ function App() {
 						<Route path='/team-builder' component={teamBuilder} />
 						<Route path='/calculator' component={calculator} />
 						<Route path='/database' component={database} />
+						<Route path='/todoList' component={todoList} />
 						<Route path='/changelog' component={changelog} />
 						<Route path='/achievements' component={achievements} />
 						<Route component={NotFound} />

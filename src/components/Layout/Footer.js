@@ -5,7 +5,7 @@ const Footer = () => {
 		<div className='d-flex flex-column'>
 			<footer className='footer mt-auto py-3 bg-dark'>
 				<div className='container'>
-					<span className='text-light'>Place sticky footer content here.</span>
+					<span className='text-light'>Footer</span>
 				</div>
 			</footer>
 		</div>
