@@ -1,214 +1,149 @@
-import React from 'react';
-// import {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
+import List from './List';
+import Alert from './Alert';
+import Select from 'react-select';
+
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
-import BlogList from './BlogList';
-import useFetch from './useFetch';
-// import characterData from '../../assets/data/Characters/characters.json';
-// import weaponData from '../../assets/data/database/Weapons/weapons.json';
 
-// import Select from 'react-select';
+import charactersData from '../../assets/data/Characters/characters.json';
+import Materials from './Materials';
+import CharacterCard from './CharacterCard';
 
-const FarmingPlanner = () => {
-	// const { characters } = characterData;
-	// const { weapons } = weaponData;
-	// const characterOptions = [];
-	// // const weaponOptions = [];
+// select array
+const characterNames = [];
 
-	// characters.map(character => {
-	// 	return characterOptions.push({
-	// 		value: character.name,
-	// 		label: (
-	// 			<section
-	// 				className='d-flex justify-content-between'
-	// 				onClick={e => {
-	// 					console.log(character.name);
-	// 				}}
-	// 			>
-	// 				<div className='mx-3'>
-	// 					<img src={character.image} width='40px' alt='' />
-	// 					{character.name}
-	// 				</div>
-	// 				<div className='mx-3'>
-	// 					<img src={character.elementImage} width='40px' alt='' />
-	// 					<img src={character.weaponImage} width='40px' alt='' />
-	// 				</div>
-	// 			</section>
-	// 		),
-	// 	});
+charactersData.characters.map(c => {
+	return characterNames.push({ value: c.name, label: c.name });
+});
+
+const getLocalStorage = () => {
+	// get list from local storage
+	let list = localStorage.getItem('list');
+	// if list exists - is in local storage
+	if (list) {
+		return JSON.parse(localStorage.getItem('list'));
+	}
+	// if list doesn't exists
+	else {
+		return [];
+	}
+};
+
+const TodoList = () => {
+	// charactersData.characters.map(c => {
+	// 	return console.log(c.name);
 	// });
 
-	// // characterOptions.map(o => {
-	// // 	return console.log(o);
-	// // });
+	const [name, setName] = useState('');
+	const [list, setList] = useState(getLocalStorage());
+	const [isEditing, setIsEditing] = useState(false);
+	const [editID, setEditID] = useState(null);
+	const [alert, setAlert] = useState({
+		show: false,
+		msg: '',
+		type: '',
+	});
 
-	// return (
-	// 	<Container>
-	// 		<CardComponent title='Farming Planner'>
-	// 			<div className='mx-3 table-responsive'>
-	// 				<table
-	// 					className='table table-sm table-dark table-striped align-middle text-center table-bordered'
-	// 					style={{ minWidth: '700px' }}
-	// 				>
-	// 					<thead>
-	// 						<tr>
-	// 							<th scope='col'>Name</th>
-	// 							<th scope='col'>Ascension</th>
-	// 							<th scope='col'>Talent</th>
-	// 							<th scope='col'>Weapon</th>
-	// 							<th scope='col'></th>
-	// 						</tr>
-	// 					</thead>
-	// 					<tbody>
-	// 						<tr>
-	// 							<th scope='row' className='text-center'>
-	// 								<div className='d-flex align-items-center justify-content-around ms-3'>
-	// 									<div className='form-check form-switch'>
-	// 										<input
-	// 											className='form-check-input'
-	// 											type='checkbox'
-	// 											id='flexSwitchCheckChecked'
-	// 										/>
-	// 									</div>
-	// 									<div>
-	// 										<img src={characters[0].image} width='40px' alt='' />
-	// 										<span>{characters[0].name}</span>
-	// 									</div>
-	// 									<div>
-	// 										<img
-	// 											src={characters[0].elementImage}
-	// 											width='30px'
-	// 											alt=''
-	// 										/>
-	// 										<img
-	// 											src={characters[0].weaponImage}
-	// 											width='30px'
-	// 											alt=''
-	// 										/>
-	// 									</div>
-	// 									<span className='rounded p-2 ms-2'></span>
-	// 								</div>
-	// 							</th>
-	// 							<td>
-	// 								<div className='form-check form-switch d-flex justify-content-center'>
-	// 									<input
-	// 										className='form-check-input'
-	// 										type='checkbox'
-	// 										id='flexSwitchCheckChecked'
-	// 									/>
-	// 								</div>
-	// 							</td>
-	// 							<td>
-	// 								<div className='form-check form-switch d-flex justify-content-center'>
-	// 									<input
-	// 										className='form-check-input'
-	// 										type='checkbox'
-	// 										id='flexSwitchCheckChecked'
-	// 									/>
-	// 								</div>
-	// 							</td>
-	// 							<td>
-	// 								<select>
-	// 									{weapons.map((weapon, index) => {
-	// 										// console.log(weapon);
-	// 										return (
-	// 											<option key={index} value={weapon.name}>
-	// 												{weapon.name}
-	// 											</option>
-	// 										);
-	// 									})}
-	// 								</select>
-	// 							</td>
-	// 							<td>
-	// 								<button className='btn btn-sm btn-danger'>X</button>
-	// 							</td>
-	// 						</tr>
-	// 					</tbody>
-	// 				</table>
-	// 			</div>
-	// 			<section className='mx-3' style={{ width: '400px' }}>
-	// 				<Select
-	// 					className='text-black'
-	// 					options={characterOptions}
-	// 					placeholder='Select a character...'
-	// 				/>
-	// 			</section>
+	const handleSubmit = e => {
+		e.preventDefault();
+		if (!name) {
+			// display alert
+			showAlert(true, 'danger', 'Please enter value');
+		} else if (name && isEditing) {
+			// deal with edit
+			setList(
+				list.map(item => {
+					if (item.id === editID) {
+						return { ...item, title: name }; // if we're editing correct element, then copy all previous values, but change that one we're editing
+					}
+					return item;
+				})
+			);
+			setName('');
+			setEditID(null);
+			setIsEditing(false);
+			showAlert(true, 'success', 'Item edited');
+		} else {
+			// show alert
+			showAlert(true, 'success', 'Item added to the list');
+			const newItem = { id: new Date().getTime().toString(), title: name };
+			// get values from previous list, and add new one into it
+			setList([...list, newItem]);
+			setName(''); // clear imput after submitting
+		}
+	};
 
-	// 			<section>
-	// 				<h4>Farming section</h4>
-	// 				<div>
-	// 					<h5>Monday</h5>
-	// 					<div>
-	// 						<h5>Character</h5>
-	// 						<section>
-	// 							<h6>Domain of Mastery</h6>
-	// 							<h6>Forsaken Rift</h6>
-	// 						</section>
-	// 						<section>
-	// 							<div>
-	// 								<img src='' alt='talentBook' srcSet='' />
-	// 							</div>
-	// 							<h6>Freedom</h6>
-	// 						</section>
-	// 					</div>
-	// 					<h5>Weapon</h5>
-	// 				</div>
-	// 				<div>Tuesday</div>
-	// 			</section>
-	// 		</CardComponent>
-	// 	</Container>
-	// );
+	const showAlert = (show = false, type = '', msg = '') => {
+		setAlert({ show, type, msg });
+	};
 
-	// const [blogs, setBlogs] = useState([
-	// 	{ title: 'title1', body: 'body1', author: 'author1', id: 1 },
-	// 	{ title: 'title2', body: 'body2', author: 'author2', id: 2 },
-	// 	{ title: 'title3', body: 'body3', author: 'author1', id: 3 },
-	// ]);
+	const clearList = () => {
+		showAlert(true, 'danger', 'All items deleted');
+		setList([]);
+	};
 
-	// const [name, setName] = useState('roland');
+	const removeItem = id => {
+		showAlert(true, 'danger', 'Item deleted');
+		setList(list.filter(item => item.id !== id));
+	};
 
-	// const handleDelete = id => {
-	// 	const newBlogs = blogs.filter(blog => blog.id !== id);
-	// 	setBlogs(newBlogs);
-	// };
+	const editItem = id => {
+		const specificItem = list.find(item => item.id === id);
+		setIsEditing(true);
+		setEditID(id);
+		setName(specificItem.title);
+	};
 
-	// function that runs every time there's rerender
-	// if we don't want to trigger it every single rerender we can pass dependency array as second argument - what should trigger this hook
-	// useEffect(() => {
-	// 	console.log('use effect');
-	// 	console.log(name);
-	// }, [name]);
-
-	const {
-		data: blogs,
-		isLoading,
-		error,
-	} = useFetch('http://localhost:8000/blogs');
+	// for local storage we wanna use useEffect, to call the function every time we change something in our todolist
+	useEffect(() => {
+		localStorage.setItem('list', JSON.stringify(list));
+	}, [list]);
 
 	return (
 		<Container>
-			<CardComponent title='Farming planner'>
-				<div>
-					{error && <div>{error}</div>}
-					{isLoading && <div>loading...</div>}
-					{blogs && (
-						<BlogList
-							blogs={blogs}
-							title='all blogs'
-							// handleDelete={handleDelete}
-						/>
+			<CardComponent title='Todo List'>
+				<form className='mx-2 text-dark' onSubmit={handleSubmit}>
+					{/* pass all properties to alert value ...alert */}
+					{alert.show && (
+						<Alert {...alert} removeAlert={showAlert} list={list} />
 					)}
-					{/* <button onClick={() => setName('new Name')}>change name</button> */}
-					{/* <p>{name}</p> */}
-					{/* <BlogList
-						blogs={blogs.filter(blog => blog.author === 'author1')}
-						title='hello'
-						handleDelete={handleDelete}
-					/> */}
-				</div>
+					<div className='input-group mb-3'>
+						<input
+							type='text'
+							className='form-control'
+							id='floatingInput'
+							placeholder='Add item to the list'
+							value={name}
+							onChange={e => setName(e.target.value)}
+						/>
+						<div className='input-group-append'>
+							<button type='submit' className='btn btn-primary'>
+								{isEditing ? 'Edit item' : 'Add item'}
+							</button>
+						</div>
+					</div>
+				</form>
+				{list.length > 0 && (
+					<div className=''>
+						<List items={list} removeItem={removeItem} editItem={editItem} />
+						<button className='btn btn-danger mt-2' onClick={clearList}>
+							Delete all items
+						</button>
+					</div>
+				)}
+				<Select
+					className='text-dark'
+					options={characterNames}
+					onChange={e => {
+						console.log(e.value);
+					}}
+				/>
+				<CharacterCard charactersData={charactersData} />
+				<Materials />
 			</CardComponent>
 		</Container>
 	);
 };
 
-export default FarmingPlanner;
+export default TodoList;
