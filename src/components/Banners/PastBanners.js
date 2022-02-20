@@ -6,6 +6,24 @@ import BannerHeading from './BannerHeading';
 const PastBanners = props => {
 	return (
 		<CardComponent title='Past Banners'>
+			{/* <----- Version 2.4 -----> */}
+			<section>
+				<h5 className='text-start ms-3 mt-3'>Version 2.3</h5>
+				<BannerHeading>
+					{props.bannersData.pastBanners['version 2.4'].map((e, index) => {
+						return (
+							<BannerItem
+								key={index}
+								name={e.name}
+								link={e.link}
+								image={e.image}
+								startDate={e.startDate}
+								endDate={e.endDate}
+							/>
+						);
+					})}
+				</BannerHeading>
+			</section>
 			{/* <----- Version 2.3 -----> */}
 			<section>
 				<h5 className='text-start ms-3 mt-3'>Version 2.3</h5>

@@ -1,49 +1,65 @@
 {
   "currentBanners": [
     {
-      "name": "The Transcendent One Returns",
-      "link": "https://genshin.mihoyo.com/en/news/detail/18155",
-      "image": "images/Banners/character/Wish_The_Transcendent_One_Returns_2022-01-05.png",
-      "startDate": "January 05, 2022",
-      "endDate": "January 25, 2022"
-    },
-    {
-      "name": "Invitation to Mundane Life",
-      "link": "https://genshin.mihoyo.com/en/news/detail/18158",
-      "image": "images/Banners/character/Wish_Invitation_to_Mundane_Life_2022-01-05.png",
-      "startDate": "January 05, 2022",
-      "endDate": "January 25, 2022"
+      "name": "Everbloom Violet",
+      "link": "https://genshin.hoyoverse.com/en/news/detail/19397",
+      "image": "images/Banners/character/Wish_Everbloom_Violet_2022-02-16.png",
+      "startDate": "February 16, 2022",
+      "endDate": "March 08, 2022"
     },
     {
       "name": "Epitome Invocation",
-      "link": "https://genshin.mihoyo.com/en/news/detail/18162",
-      "image": "images/Banners/weapon/Wish_Epitome_Invocation_2022-01-05.png",
-      "startDate": "January 05, 2022",
-      "endDate": "January 25, 2022"
-    },
-    {
-      "name": "Gentry of Hermitage",
-      "link": "https://genshin.mihoyo.com/en/news/detail/18160",
-      "image": "images/Banners/character/Wish_Gentry_of_Hermitage_2022-01-25.png",
-      "startDate": "January 25, 2022",
-      "endDate": "February 15, 2022"
-    },
-    {
-      "name": "Adrift in the Harbor",
-      "link": "https://genshin.mihoyo.com/en/news/detail/18161",
-      "image": "images/Banners/character/Wish_Adrift_in_the_Harbor_2022-01-25.png",
-      "startDate": "January 25, 2022",
-      "endDate": "February 15, 2022"
-    },
-    {
-      "name": "Epitome Invocation",
-      "link": "https://genshin.mihoyo.com/en/news/detail/18163",
-      "image": "images/Banners/weapon/Wish_Epitome_Invocation_2022-01-25.png",
-      "startDate": "January 25, 2022",
-      "endDate": "February 15, 2022"
+      "link": "https://genshin.hoyoverse.com/en/news/detail/19401",
+      "image": "images/Banners/weapon/Wish_Epitome_Invocation_2022-02-16.png",
+      "startDate": "February 16, 2022",
+      "endDate": "March 08, 2022"
     }
   ],
   "pastBanners": {
+    "version 2.4" : [
+      {
+        "name": "The Transcendent One Returns",
+        "link": "https://genshin.mihoyo.com/en/news/detail/18155",
+        "image": "images/Banners/character/Wish_The_Transcendent_One_Returns_2022-01-05.png",
+        "startDate": "January 05, 2022",
+        "endDate": "January 25, 2022"
+      },
+      {
+        "name": "Invitation to Mundane Life",
+        "link": "https://genshin.mihoyo.com/en/news/detail/18158",
+        "image": "images/Banners/character/Wish_Invitation_to_Mundane_Life_2022-01-05.png",
+        "startDate": "January 05, 2022",
+        "endDate": "January 25, 2022"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/18162",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2022-01-05.png",
+        "startDate": "January 05, 2022",
+        "endDate": "January 25, 2022"
+      },
+      {
+        "name": "Gentry of Hermitage",
+        "link": "https://genshin.mihoyo.com/en/news/detail/18160",
+        "image": "images/Banners/character/Wish_Gentry_of_Hermitage_2022-01-25.png",
+        "startDate": "January 25, 2022",
+        "endDate": "February 15, 2022"
+      },
+      {
+        "name": "Adrift in the Harbor",
+        "link": "https://genshin.mihoyo.com/en/news/detail/18161",
+        "image": "images/Banners/character/Wish_Adrift_in_the_Harbor_2022-01-25.png",
+        "startDate": "January 25, 2022",
+        "endDate": "February 15, 2022"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.mihoyo.com/en/news/detail/18163",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2022-01-25.png",
+        "startDate": "January 25, 2022",
+        "endDate": "February 15, 2022"
+      }
+    ],
     "version 2.3" : [
       {
         "name": "Born of Ocean Swell",
