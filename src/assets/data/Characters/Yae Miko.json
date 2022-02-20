@@ -1,0 +1,776 @@
+{
+  "name":"Yae Miko",
+  "avatar": "images/Characters/Inazuma/Yae Miko/images/Character_Yae_Miko_Avatar.png",
+  "title":"Astute Amusement",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Electro",
+  "elementImage": "images/Elements/Element_Electro.png",
+  "weapon":"Catalyst",
+  "weaponImage": "images/Weapon icons/Weapon-class-catalyst-icon.png",
+  "sex":"Female",
+  "birthday":"June 27th",
+  "constellation":"Divina Vulpes",
+  "nation":"Inazuma",
+  "affiliation":"Grand Narukami Shrine, Yae Publishing House, Youkai",
+  "specialDish":"Fukuuchi Udon",
+  "description":"Lady Guuji of the Grand Narukami Shrine also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance.",
+  "talentBook":"Teachings of Light",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Light/Item_Teachings_of_Light.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Dragonheir's_False_Fin.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Inazuma/Item_Sea_Ganoderma.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
+  "ascensionStat": "",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Sea Ganoderma",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sea_Ganoderma.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Old Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Dragonheir's False Fin",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dragonheir's_False_Fin.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Sea Ganoderma",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sea_Ganoderma.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Old Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Dragonheir's False Fin",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dragonheir's_False_Fin.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Sea Ganoderma",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sea_Ganoderma.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Kageuchi Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Dragonheir's False Fin",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dragonheir's_False_Fin.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Sea Ganoderma",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sea_Ganoderma.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Kageuchi Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Dragonheir's False Fin",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dragonheir's_False_Fin.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Sea Ganoderma",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sea_Ganoderma.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Famed Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Vajrada Amethyst Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Dragonheir's False Fin",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dragonheir's_False_Fin.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Sea Ganoderma",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sea_Ganoderma.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Famed Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 807,
+      "ATK": 26,
+      "DEF": 44,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2095,
+      "ATK": 69,
+      "DEF": 115,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2787,
+      "ATK": 91,
+      "DEF": 153,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 4170,
+      "ATK": 137,
+      "DEF": 229,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4662,
+      "ATK": 153,
+      "DEF": 256,
+      "CRIT Rate": "9.8%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5364,
+      "ATK": 176,
+      "DEF": 294,
+      "CRIT Rate": "9.8%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 6020,
+      "ATK": 197,
+      "DEF": 330,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 6729,
+      "ATK": 220,
+      "DEF": 369,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 7220,
+      "ATK": 236,
+      "DEF": 396,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 7936,
+      "ATK": 260,
+      "DEF": 435,
+      "CRIT Rate": "14.6%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 8428,
+      "ATK": 276,
+      "DEF": 462,
+      "CRIT Rate": "19.4%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 9151,
+      "ATK": 300,
+      "DEF": 502,
+      "CRIT Rate": "19.4%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 9643,
+      "ATK": 316,
+      "DEF": 529,
+      "CRIT Rate": "24.2%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 10372,
+      "ATK": 340,
+      "DEF": 569,
+      "CRIT Rate": "24.2%",
+      "CRIT DMG": "50%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Spiritfox Sin-Eater",
+      "image": "images/Characters/Inazuma/Yae Miko/talents/Talent_Spiritfox_Sin-Eater.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "39.7%",
+          "2": "42.6%",
+          "3": "45.6%",
+          "4": "49.6%",
+          "5": "52.5%",
+          "6": "55.5%",
+          "7": "59.5%",
+          "8": "63.5%",
+          "9": "67.4%",
+          "10": "71.4%",
+          "11": "75.4%",
+          "12": "79.3%",
+          "13": "84.3%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "38.5%",
+          "2": "41.4%",
+          "3": "44.3%",
+          "4": "48.1%",
+          "5": "51%",
+          "6": "53.9%",
+          "7": "57.8%",
+          "8": "61.6%",
+          "9": "65.5%",
+          "10": "69.3%",
+          "11": "73.2%",
+          "12": "77%",
+          "13": "81.9%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "56.9%",
+          "2": "61.2%",
+          "3": "65.4%",
+          "4": "71.1%",
+          "5": "75.4%",
+          "6": "79.6%",
+          "7": "85.3%",
+          "8": "91%",
+          "9": "96.7%",
+          "10": "102.4%",
+          "11": "108.1%",
+          "12": "113.8%",
+          "13": "120.9%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "142.9%",
+          "2": "153.6%",
+          "3": "164.3%",
+          "4": "178.6%",
+          "5": "189.3%",
+          "6": "200.1%",
+          "7": "214.3%",
+          "8": "228.6%",
+          "9": "242.9%",
+          "10": "257.2%",
+          "11": "271.5%",
+          "12": "285.8%",
+          "13": "303.7%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "50",
+          "2": "50",
+          "3": "50",
+          "4": "50",
+          "5": "50",
+          "6": "50",
+          "7": "50",
+          "8": "50",
+          "9": "50",
+          "10": "50",
+          "11": "50",
+          "12": "50",
+          "13": "50"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "56.8%",
+          "2": "61.5%",
+          "3": "66.1%",
+          "4": "72.7%",
+          "5": "77.3%",
+          "6": "82.6%",
+          "7": "89.9%",
+          "8": "97.1%",
+          "9": "104.4%",
+          "10": "112.3%",
+          "11": "120.3%",
+          "12": "128.2%",
+          "13": "136.1%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "114% /142%",
+          "2": "123% /153%",
+          "3": "132% /165%",
+          "4": "145% /182%",
+          "5": "155% /193%",
+          "6": "165% /206%",
+          "7": "180% /224%",
+          "8": "194% /243%",
+          "9": "209% /261%",
+          "10": "225% /281%",
+          "11": "240% /300%",
+          "12": "256% /320%",
+          "13": "272% /340%"
+        }
+       ]
+    },
+    {
+      "name":"Yakan Evocation: Sesshou Sakura",
+      "image": "images/Characters/Inazuma/Yae Miko/talents/Talent_Yakan_Evocation_Sesshou_Sakura.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Sesshou Sakura DMG: Level 1",
+          "1": "60.7%",
+          "2": "65.2%",
+          "3": "69.8%",
+          "4": "75.8%",
+          "5": "80.4%",
+          "6": "84.9%",
+          "7": "91%",
+          "8": "97.1%",
+          "9": "103.1%",
+          "10": "109.2%",
+          "11": "115.3%",
+          "12": "121.3%",
+          "13": "128.9%"
+        },
+        {
+          "LVL": "Sesshou Sakura DMG: Level 2",
+          "1": "75.8%",
+          "2": "81.5%",
+          "3": "87.2%",
+          "4": "94.8%",
+          "5": "100.5%",
+          "6": "106.2%",
+          "7": "113.8%",
+          "8": "121.3%",
+          "9": "128.9%",
+          "10": "136.5%",
+          "11": "144.1%",
+          "12": "151.7%",
+          "13": "161.2%"
+        },
+        {
+          "LVL": "Sesshou Sakura DMG: Level 3",
+          "1": "94.8%",
+          "2": "101.9%",
+          "3": "109%",
+          "4": "118.5%",
+          "5": "125.6%",
+          "6": "132.7%",
+          "7": "142.2%",
+          "8": "151.7%",
+          "9": "161.2%",
+          "10": "170.6%",
+          "11": "180.1%",
+          "12": "189.6%",
+          "13": "201.4%"
+        },
+        {
+          "LVL": "Sesshou Sakura DMG: Level 4",
+          "1": "118.5%",
+          "2": "127.4%",
+          "3": "136.3%",
+          "4": "148.1%",
+          "5": "157%",
+          "6": "165.9%",
+          "7": "177.8%",
+          "8": "189.6%",
+          "9": "201.4%",
+          "10": "213.3%",
+          "11": "225.1%",
+          "12": "237%",
+          "13": "251.8%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "14s",
+          "2": "14s",
+          "3": "14s",
+          "4": "14s",
+          "5": "14s",
+          "6": "14s",
+          "7": "14s",
+          "8": "14s",
+          "9": "14s",
+          "10": "14s",
+          "11": "14s",
+          "12": "14s",
+          "13": "14s"
+        },
+        {
+          "LVL": "CD",
+          "1": "4s",
+          "2": "4s",
+          "3": "4s",
+          "4": "4s",
+          "5": "4s",
+          "6": "4s",
+          "7": "4s",
+          "8": "4s",
+          "9": "4s",
+          "10": "4s",
+          "11": "4s",
+          "12": "4s",
+          "13": "4s"
+        }
+       ]
+    },
+    {
+      "name":"Great Secret Art: Tenko Kenshin",
+      "image": "images/Characters/Inazuma/Yae Miko/talents/Talent_Great_Secret_Art_Tenko_Kenshin.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "260%",
+          "2": "280%",
+          "3": "299%",
+          "4": "325%",
+          "5": "344%",
+          "6": "364%",
+          "7": "390%",
+          "8": "416%",
+          "9": "442%",
+          "10": "468%",
+          "11": "494%",
+          "12": "520%",
+          "13": "553%"
+        },
+        {
+          "LVL": "Tenko Thunderbolt DMG",
+          "1": "334%",
+          "2": "359%",
+          "3": "384%",
+          "4": "417%",
+          "5": "442%",
+          "6": "467%",
+          "7": "501%",
+          "8": "534%",
+          "9": "567%",
+          "10": "601%",
+          "11": "634%",
+          "12": "668%",
+          "13": "709%"
+        },
+        {
+          "LVL": "CD",
+          "1": "22s",
+          "2": "22s",
+          "3": "22s",
+          "4": "22s",
+          "5": "22s",
+          "6": "22s",
+          "7": "22s",
+          "8": "22s",
+          "9": "22s",
+          "10": "22s",
+          "11": "22s",
+          "12": "22s",
+          "13": "22s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "90",
+          "2": "90",
+          "3": "90",
+          "4": "90",
+          "5": "90",
+          "6": "90",
+          "7": "90",
+          "8": "90",
+          "9": "90",
+          "10": "90",
+          "11": "90",
+          "12": "90",
+          "13": "90"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"The Shrine's Sacred Shade",
+      "image": "images/Characters/Inazuma/Yae Miko/talents/Talent_The_Shrine's_Sacred_Shade.png",
+      "description":""
+    },
+    {
+      "name":"Enlightened Blessing",
+      "image": "images/Characters/Inazuma/Yae Miko/talents/Talent_Enlightened_Blessing.png",
+      "description":""
+    },
+    {
+      "name":"Meditations of a Yako",
+      "image": "images/Characters/Inazuma/Yae Miko/talents/Talent_Meditations_of_a_Yako.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Teachings_of_Light.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Guide_to_Light.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Guide_to_Light.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Guide_to_Light.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Guide_to_Light.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Philosophies_of_Light.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_The_Meaning_of_Aeons.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Philosophies_of_Light.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_The_Meaning_of_Aeons.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Philosophies_of_Light.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_The_Meaning_of_Aeons.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Light/Item_Philosophies_of_Light.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_The_Meaning_of_Aeons.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Yakan Offering",
+      "image": "images/Characters/Inazuma/Yae Miko/constellations/Constellation_Yakan_Offering.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Fox's Mooncall",
+      "image": "images/Characters/Inazuma/Yae Miko/constellations/Constellation_Fox's_Mooncall.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"The Seven Glamours",
+      "image": "images/Characters/Inazuma/Yae Miko/constellations/Constellation_The_Seven_Glamours.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Sakura Channeling",
+      "image": "images/Characters/Inazuma/Yae Miko/constellations/Constellation_Sakura_Channeling.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Mischievous Teasing",
+      "image": "images/Characters/Inazuma/Yae Miko/constellations/Constellation_Mischievous_Teasing.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Forbidden Art: Daisesshou",
+      "image": "images/Characters/Inazuma/Yae Miko/constellations/Constellation_Forbidden_Art_Daisesshou.png",
+      "description":""
+    }
+  ]
+}
+
+

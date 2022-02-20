@@ -45,6 +45,7 @@ import Xiangling from '../components/Characters/Character/Xiangling/Xiangling';
 import Xiao from '../components/Characters/Character/Xiao/Xiao';
 import Xingqiu from '../components/Characters/Character/Xingqiu/Xingqiu';
 import Xinyan from '../components/Characters/Character/Xinyan/Xinyan';
+import YaeMiko from '../components/Characters/Character/Yae Miko/YaeMiko';
 import Yanfei from '../components/Characters/Character/Yanfei/Yanfei';
 import Yoimiya from '../components/Characters/Character/Yoimiya/Yoimiya';
 import YunJin from '../components/Characters/Character/Yun Jin/YunJin';
@@ -128,6 +129,7 @@ const characters = () => {
 				<Route exact path='/characters/Xiao' component={Xiao} />
 				<Route exact path='/characters/Xingqiu' component={Xingqiu} />
 				<Route exact path='/characters/Xinyan' component={Xinyan} />
+				<Route exact path='/characters/Yae_Miko' component={YaeMiko} />
 				<Route exact path='/characters/Yanfei' component={Yanfei} />
 				<Route exact path='/characters/Yoimiya' component={Yoimiya} />
 				<Route exact path='/characters/Yun_Jin' component={YunJin} />
