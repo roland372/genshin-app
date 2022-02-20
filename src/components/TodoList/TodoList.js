@@ -92,7 +92,7 @@ const TodoList = () => {
 					{alert.show && (
 						<Alert {...alert} removeAlert={showAlert} list={list} />
 					)}
-					<div class='input-group mb-3'>
+					<div className='input-group mb-3'>
 						<input
 							type='text'
 							className='form-control'
@@ -101,7 +101,7 @@ const TodoList = () => {
 							value={name}
 							onChange={e => setName(e.target.value)}
 						/>
-						<div class='input-group-append'>
+						<div className='input-group-append'>
 							<button type='submit' className='btn btn-primary'>
 								{isEditing ? 'Edit item' : 'Add item'}
 							</button>

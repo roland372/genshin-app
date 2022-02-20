@@ -6,6 +6,24 @@ import EventHeading from './EventHeading';
 const PastEvents = props => {
 	return (
 		<CardComponent title='Past Events'>
+			{/* <----- Version 2.4 -----> */}
+			<section>
+				<h5 className='text-start ms-3 mt-3'>Version 2.4</h5>
+				<EventHeading>
+					{props.eventsData.pastEvents['version 2.4'].map((e, index) => {
+						return (
+							<EventItem
+								key={index}
+								name={e.name}
+								link={e.link}
+								image={e.image}
+								startDate={e.startDate}
+								endDate={e.endDate}
+							/>
+						);
+					})}
+				</EventHeading>
+			</section>
 			{/* <----- Version 2.3 -----> */}
 			<section>
 				<h5 className='text-start ms-3 mt-3'>Version 2.3</h5>

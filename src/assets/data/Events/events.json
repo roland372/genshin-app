@@ -1,67 +1,46 @@
 {
   "currentEvents": [
     {
-      "name": "Oceansong",
-      "link": "https://genshin.mihoyo.com/en/news/detail/18305",
-      "image": "images/Events/current/Battle_Pass_Oceansong.png",
-      "startDate": "January 05, 2022",
-      "endDate": " February 14, 2022"
+      "name": "Into the Shadows",
+      "link": "https://genshin.hoyoverse.com/en/news/detail/19367",
+      "image": "images/Events/current/Battle_Pass_Into_the_Shadows.png",
+      "startDate": "February 16, 2022",
+      "endDate": "March 28, 2022"
     },
     {
-      "name": "Opulent Splendor Discount",
-      "link": "https://genshin.mihoyo.com/en/news/detail/18237",
-      "image": "images/Events/current/Opulent_Splendor_Discount.png",
-      "startDate": "January 05, 2022",
-      "endDate": "February 14, 2022"
+      "name": "Three Realms Gateway Offering",
+      "link": "https://www.hoyolab.com/article/3370633",
+      "image": "images/Events/current/Three_Realms_Gateway_Offering.png",
+      "startDate": "February 17, 2022",
+      "endDate": "March 30, 2022"
     },
     {
-      "name": "A Study in Potions",
-      "link": "https://genshin.mihoyo.com/en/news/detail/18305",
-      "image": "images/Events/current/A_Study_in_Potions.png",
-      "startDate": "January 07, 2022",
-      "endDate": "January 17, 2022"
+      "name": "Divine Ingenuity",
+      "link": "https://genshin.hoyoverse.com/en/news/detail/19367",
+      "image": "images/Events/current/Divine_Ingenuity.png",
+      "startDate": "March 02, 2022",
+      "endDate": "March 21, 2022"
     },
     {
-      "name": "Windtrace",
-      "link": "https://genshin.mihoyo.com/en/news/detail/18237",
-      "image": "images/Events/current/Windtrace.png",
-      "startDate": "January 13, 2022",
-      "endDate": "January 27, 2022"
+      "name": "Hyakunin Ikki",
+      "link": "https://genshin-impact.fandom.com/wiki/Hyakunin_Ikki/2.5",
+      "image": "images/Events/current/Hyakunin_Ikki.png",
+      "startDate": "Upcoming",
+      "endDate": ""
     },
     {
-      "name": "May Fortune Find You",
-      "link": "https://genshin.mihoyo.com/en/news/detail/18229",
-      "image": "images/Events/current/May_Fortune_Find_You_2022-01-25.png",
-      "startDate": "January 25, 2022",
-      "endDate": "February 09, 2022"
+      "name": "Of Drink A-Dreaming",
+      "link": "https://genshin-impact.fandom.com/wiki/Of_Drink_A-Dreaming",
+      "image": "images/Events/current/Of_Drink_A-Dreaming.png",
+      "startDate": "Upcoming",
+      "endDate": ""
     },
     {
-      "name": "Fleeting Colors in Flight",
-      "link": "https://genshin-impact.fandom.com/wiki/Fleeting_Colors_in_Flight",
-      "image": "images/Events/current/Fleeting_Colors_in_Flight.png",
-      "startDate": "January 25, 2022",
-      "endDate": "February 12, 2022"
-    },
-    {
-      "name": "Prosperous Partnerships",
-      "link": "https://genshin-impact.fandom.com/wiki/Prosperous_Partnerships",
-      "image": "images/Events/current/Prosperous_Partnerships.png",
-      "startDate": "January 31, 2022",
-      "endDate": "February 12, 2022"
-    },
-    {
-      "name": "Eight Locales Over Mountains and Seas",
-      "link": "https://genshin.mihoyo.com/en/news/detail/18305",
-      "image": "images/Events/current/Eight_Locales_Over_Mountains_and_Seas.png",
-      "startDate": "February 04, 2022",
-      "endDate": "February 14, 2022"
-    },
-    {
-      "name": "Flowing Lights and Colors",
-      "link": "https://genshin.mihoyo.com/en/news/detail/18230",
-      "image": "images/Events/current/Flowing_Lights_and_Colors.png",
-      "startDate": "February 09, 2022",
-      "endDate": "February 16, 2022"
+      "name": "Overflowing Mastery",
+      "link": "https://genshin-impact.fandom.com/wiki/Overflowing_Mastery/2.5",
+      "image": "images/Events/current/Overflowing_Mastery.png",
+      "startDate": "Upcoming",
+      "endDate": ""
     }
   ],
   "upcomingEvents": [
@@ -74,46 +53,111 @@
     }
   ],
   "pastEvents": {
+    "version 2.4" : [
+      {
+        "name": "Oceansong",
+        "link": "https://genshin.mihoyo.com/en/news/detail/18305",
+        "image": "images/Events/2.4/Battle_Pass_Oceansong.png",
+        "startDate": "January 05, 2022",
+        "endDate": " February 14, 2022"
+      },
+      {
+        "name": "Opulent Splendor Discount",
+        "link": "https://genshin.mihoyo.com/en/news/detail/18237",
+        "image": "images/Events/2.4/Opulent_Splendor_Discount.png",
+        "startDate": "January 05, 2022",
+        "endDate": "February 14, 2022"
+      },
+      {
+        "name": "A Study in Potions",
+        "link": "https://genshin.mihoyo.com/en/news/detail/18305",
+        "image": "images/Events/2.4/A_Study_in_Potions.png",
+        "startDate": "January 07, 2022",
+        "endDate": "January 17, 2022"
+      },
+      {
+        "name": "Windtrace",
+        "link": "https://genshin.mihoyo.com/en/news/detail/18237",
+        "image": "images/Events/2.4/Windtrace.png",
+        "startDate": "January 13, 2022",
+        "endDate": "January 27, 2022"
+      },
+      {
+        "name": "May Fortune Find You",
+        "link": "https://genshin.mihoyo.com/en/news/detail/18229",
+        "image": "images/Events/2.4/May_Fortune_Find_You_2022-01-25.png",
+        "startDate": "January 25, 2022",
+        "endDate": "February 09, 2022"
+      },
+      {
+        "name": "Fleeting Colors in Flight",
+        "link": "https://genshin-impact.fandom.com/wiki/Fleeting_Colors_in_Flight",
+        "image": "images/Events/2.4/Fleeting_Colors_in_Flight.png",
+        "startDate": "January 25, 2022",
+        "endDate": "February 12, 2022"
+      },
+      {
+        "name": "Prosperous Partnerships",
+        "link": "https://genshin-impact.fandom.com/wiki/Prosperous_Partnerships",
+        "image": "images/Events/2.4/Prosperous_Partnerships.png",
+        "startDate": "January 31, 2022",
+        "endDate": "February 12, 2022"
+      },
+      {
+        "name": "Eight Locales Over Mountains and Seas",
+        "link": "https://genshin.mihoyo.com/en/news/detail/18305",
+        "image": "images/Events/2.4/Eight_Locales_Over_Mountains_and_Seas.png",
+        "startDate": "February 04, 2022",
+        "endDate": "February 14, 2022"
+      },
+      {
+        "name": "Flowing Lights and Colors",
+        "link": "https://genshin.mihoyo.com/en/news/detail/18230",
+        "image": "images/Events/2.4/Flowing_Lights_and_Colors.png",
+        "startDate": "February 09, 2022",
+        "endDate": "February 16, 2022"
+      }
+    ],
     "version 2.3" : [
       {
         "name": "Shadowed Snowfall",
         "link": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Shadowed_Snowfall",
-        "image": "images/Events/current/Battle_Pass_Shadowed_Snowfall.png",
+        "image": "images/Events/2.3/Battle_Pass_Shadowed_Snowfall.png",
         "startDate": "November 24, 2021",
         "endDate": "January 03, 2022"
       },
       {
         "name": "Shadows Amidst Snowstorms",
         "link": "https://genshin.mihoyo.com/en/news/detail/17274",
-        "image": "images/Events/current/Shadows_Amidst_Snowstorms.png",
+        "image": "images/Events/2.3/Shadows_Amidst_Snowstorms.png",
         "startDate": "November 25, 2021",
         "endDate": "December 13, 2021"
       },
       {
         "name": "Bantan Sango Case Files: The Warrior Dog",
         "link": "https://genshin-impact.fandom.com/wiki/Bantan_Sango_Case_Files:_The_Warrior_Dog",
-        "image": "images/Events/current/Bantan_Sango_Case_Files_The_Warrior_Dog.png",
+        "image": "images/Events/2.3/Bantan_Sango_Case_Files_The_Warrior_Dog.png",
         "startDate": "December 07, 2021",
         "endDate": "December 20, 2021"
       },
       {
         "name": "Misty Dungeon: Realm of Light",
         "link": "https://genshin-impact.fandom.com/wiki/Misty_Dungeon/2.3",
-        "image": "images/Events/current/Misty_Dungeon_Realm_of_Light.png",
+        "image": "images/Events/2.3/Misty_Dungeon_Realm_of_Light.png",
         "startDate": "December 17, 2021",
         "endDate": "December 27, 2021"
       },
       {
         "name": "Energy Amplifier Fruition",
         "link": "https://genshin-impact.fandom.com/wiki/Marvelous_Merchandise/2.3",
-        "image": "images/Events/current/Energy_Amplifier_Fruition.png",
+        "image": "images/Events/2.3/Energy_Amplifier_Fruition.png",
         "startDate": "December 24, 2021",
         "endDate": "January 03, 2022"
       },
       {
         "name": "Marvelous Merchandise",
         "link": "https://genshin-impact.fandom.com/wiki/Energy_Amplifier/2.3",
-        "image": "images/Events/current/Marvelous_Merchandise_Event.jpg",
+        "image": "images/Events/2.3/Marvelous_Merchandise_Event.jpg",
         "startDate": "December 27, 2021",
         "endDate": "January 03, 2022"
       }
