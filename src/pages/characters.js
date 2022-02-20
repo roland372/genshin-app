@@ -34,6 +34,7 @@ import Razor from '../components/Characters/Character/Razor/Razor';
 import Rosaria from '../components/Characters/Character/Rosaria/Rosaria';
 import SangonomiyaKokomi from '../components/Characters/Character/Sangonomiya Kokomi/SangonomiyaKokomi';
 import Sayu from '../components/Characters/Character/Sayu/Sayu';
+import Shenhe from '../components/Characters/Character/Shenhe/Shenhe';
 import Sucrose from '../components/Characters/Character/Sucrose/Sucrose';
 import Tartaglia from '../components/Characters/Character/Tartaglia/Tartaglia';
 import TravelerAnemo from '../components/Characters/Character/Traveler/Anemo/TravelerAnemo';
@@ -107,6 +108,7 @@ const characters = () => {
 					component={SangonomiyaKokomi}
 				/>
 				<Route exact path='/characters/Sayu' component={Sayu} />
+				<Route exact path='/characters/Shenhe' component={Shenhe} />
 				<Route exact path='/characters/Sucrose' component={Sucrose} />
 				<Route exact path='/characters/Tartaglia' component={Tartaglia} />
 				<Route

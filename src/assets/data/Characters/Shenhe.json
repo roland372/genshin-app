@@ -1,0 +1,870 @@
+{
+  "name":"Shenhe",
+  "avatar": "images/Characters/Liyue/Shenhe/images/Character_Shenhe_Avatar.png",
+  "title":"Lonesome Transcendence",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Cryo",
+  "elementImage": "images/Elements/Element_Cryo.png",
+  "weapon":"Polearm",
+  "weaponImage": "images/Weapon icons/Weapon-class-polearm-icon.png",
+  "sex":"Female",
+  "birthday":"March 10th",
+  "constellation":"Crista Doloris",
+  "nation":"Liyue",
+  "affiliation":"Liyue Harbor",
+  "specialDish":"Heartstring Noodles",
+  "description":"An adepti disciple with a most unusual air about her. Having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
+  "talentBook":"Teachings of Prosperity",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Prosperity/Item_Teachings_of_Prosperity.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Dragonheir's_False_Fin.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+  "ascensionStat": "ATK%",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Whopperflower Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Dragonheir's False Fin",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dragonheir's_False_Fin.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Whopperflower Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Dragonheir's False Fin",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dragonheir's_False_Fin.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Shimmering Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Dragonheir's False Fin",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dragonheir's_False_Fin.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Shimmering Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Dragonheir's False Fin",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dragonheir's_False_Fin.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Energy Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Shivada Jade Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Shivada_Jade_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Dragonheir's False Fin",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dragonheir's_False_Fin.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Qingxin",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Qingxin.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Energy Nectar",
+       "image": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1011,
+      "ATK": 24,
+      "DEF": 65,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2624,
+      "ATK": 61,
+      "DEF": 168,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3491,
+      "ATK": 82,
+      "DEF": 223,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 5224,
+      "ATK": 122,
+      "DEF": 334,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 5840,
+      "ATK": 137,
+      "DEF": 373,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "7.2%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 6719,
+      "ATK": 157,
+      "DEF": 429,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "7.2%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 7540,
+      "ATK": 176,
+      "DEF": 482,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.4%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 8429,
+      "ATK": 197,
+      "DEF": 538,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.4%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 9045,
+      "ATK": 211,
+      "DEF": 578,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.4%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 9941,
+      "ATK": 232,
+      "DEF": 635,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "14.4%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 10557,
+      "ATK": 247,
+      "DEF": 674,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "21.6%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 11463,
+      "ATK": 268,
+      "DEF": 732,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "21.6%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 12080,
+      "ATK": 282,
+      "DEF": 772,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "28.8%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 12993,
+      "ATK": 304,
+      "DEF": 830,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "28.8%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Dawnstar Piercer",
+      "image": "images/Characters/Liyue/Shenhe/talents/Talent_Dawnstar_Piercer.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "43.3%",
+          "2": "46.8%",
+          "3": "50.3%",
+          "4": "55.3%",
+          "5": "58.9%",
+          "6": "62.9%",
+          "7": "68.4%",
+          "8": "73.9%",
+          "9": "79.5%",
+          "10": "85.5%",
+          "11": "91.5%",
+          "12": "97.6%",
+          "13": "103.6%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "40.2%",
+          "2": "43.5%",
+          "3": "46.8%",
+          "4": "51.5%",
+          "5": "54.8%",
+          "6": "58.5%",
+          "7": "63.6%",
+          "8": "68.8%",
+          "9": "73.9%",
+          "10": "79.6%",
+          "11": "85.2%",
+          "12": "90.8%",
+          "13": "96.4%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "53.3%",
+          "2": "57.7%",
+          "3": "62%",
+          "4": "68.2%",
+          "5": "72.5%",
+          "6": "77.5%",
+          "7": "84.3%",
+          "8": "91.1%",
+          "9": "98%",
+          "10": "105.4%",
+          "11": "112.8%",
+          "12": "120.3%",
+          "13": "127.7%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "26.3% +26.3%",
+          "2": "28.5% +28.5%",
+          "3": "30.6% +30.6%",
+          "4": "33.7% +33.7%",
+          "5": "35.8% +35.8%",
+          "6": "38.2% +38.2%",
+          "7": "41.6% +41.6%",
+          "8": "45% +45%",
+          "9": "48.3% +48.3%",
+          "10": "52% +52%",
+          "11": "55.7% +55.7%",
+          "12": "59.4% +59.4%",
+          "13": "63% +63%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "65.6%",
+          "2": "71%",
+          "3": "76.3%",
+          "4": "83.9%",
+          "5": "89.3%",
+          "6": "95.4%",
+          "7": "103.8%",
+          "8": "112.2%",
+          "9": "120.6%",
+          "10": "129.7%",
+          "11": "138.9%",
+          "12": "148%",
+          "13": "157.2%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "110.7%",
+          "2": "119.7%",
+          "3": "128.7%",
+          "4": "141.6%",
+          "5": "150.6%",
+          "6": "160.9%",
+          "7": "175%",
+          "8": "189.2%",
+          "9": "203.3%",
+          "10": "218.8%",
+          "11": "234.2%",
+          "12": "249.7%",
+          "13": "265.1%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "25",
+          "2": "25",
+          "3": "25",
+          "4": "25",
+          "5": "25",
+          "6": "25",
+          "7": "25",
+          "8": "25",
+          "9": "25",
+          "10": "25",
+          "11": "25",
+          "12": "25",
+          "13": "25"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "63.9%",
+          "2": "69.1%",
+          "3": "74.3%",
+          "4": "81.8%",
+          "5": "87%",
+          "6": "92.9%",
+          "7": "101.1%",
+          "8": "109.3%",
+          "9": "117.5%",
+          "10": "126.4%",
+          "11": "135.3%",
+          "12": "144.2%",
+          "13": "153.1%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "128% /160%",
+          "2": "138% /173%",
+          "3": "149% /186%",
+          "4": "164% /204%",
+          "5": "174% /217%",
+          "6": "186% /232%",
+          "7": "202% /253%",
+          "8": "219% /273%",
+          "9": "235% /293%",
+          "10": "253% /316%",
+          "11": "271% /338%",
+          "12": "288% /360%",
+          "13": "306% /382%"
+        }
+       ]
+    },
+    {
+      "name":"Spring Spirit Summoning",
+      "image": "images/Characters/Liyue/Shenhe/talents/Talent_Spring_Spirit_Summoning.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Press Skill DMG",
+          "1": "139%",
+          "2": "150%",
+          "3": "160%",
+          "4": "174%",
+          "5": "184%",
+          "6": "195%",
+          "7": "209%",
+          "8": "223%",
+          "9": "237%",
+          "10": "251%",
+          "11": "264%",
+          "12": "278%",
+          "13": "296%"
+        },
+        {
+          "LVL": "Hold Skill DMG",
+          "1": "188.8%",
+          "2": "203%",
+          "3": "217.1%",
+          "4": "236%",
+          "5": "250.2%",
+          "6": "264.3%",
+          "7": "283.2%",
+          "8": "302.1%",
+          "9": "321%",
+          "10": "339.8%",
+          "11": "358.7%",
+          "12": "377.6%",
+          "13": "401.2%"
+        },
+        {
+          "LVL": "DMG Bonus",
+          "1": "45.7% ATK",
+          "2": "49.1% ATK",
+          "3": "52.5% ATK",
+          "4": "57.1% ATK",
+          "5": "60.5% ATK",
+          "6": "63.9% ATK",
+          "7": "68.5% ATK",
+          "8": "73% ATK",
+          "9": "77.6% ATK",
+          "10": "82.2% ATK",
+          "11": "86.7% ATK",
+          "12": "91.3% ATK",
+          "13": "97% ATK"
+        },
+        {
+          "LVL": "Press/Hold Duration",
+          "1": "10s /15s",
+          "2": "10s /15s",
+          "3": "10s /15s",
+          "4": "10s /15s",
+          "5": "10s /15s",
+          "6": "10s /15s",
+          "7": "10s /15s",
+          "8": "10s /15s",
+          "9": "10s /15s",
+          "10": "10s /15s",
+          "11": "10s /15s",
+          "12": "10s /15s",
+          "13": "10s /15s"
+        },
+        {
+          "LVL": "Press/Hold Trigger Quota",
+          "1": "5 /7",
+          "2": "5 /7",
+          "3": "5 /7",
+          "4": "5 /7",
+          "5": "5 /7",
+          "6": "5 /7",
+          "7": "5 /7",
+          "8": "5 /7",
+          "9": "5 /7",
+          "10": "5 /7",
+          "11": "5 /7",
+          "12": "5 /7",
+          "13": "5 /7"
+        },
+        {
+          "LVL": "Click CD",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        },
+        {
+          "LVL": "Hold CD",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        }
+       ]
+    },
+    {
+      "name":"Divine Maiden's Deliverance",
+      "image": "images/Characters/Liyue/Shenhe/talents/Talent_Divine_Maiden's_Deliverance.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "101%",
+          "2": "108%",
+          "3": "116%",
+          "4": "126%",
+          "5": "134%",
+          "6": "141%",
+          "7": "151%",
+          "8": "161%",
+          "9": "171%",
+          "10": "181%",
+          "11": "192%",
+          "12": "202%",
+          "13": "214%"
+        },
+        {
+          "LVL": "RES Decrease",
+          "1": "6%",
+          "2": "7%",
+          "3": "8%",
+          "4": "9%",
+          "5": "10%",
+          "6": "11%",
+          "7": "12%",
+          "8": "13%",
+          "9": "14%",
+          "10": "15%",
+          "11": "15%",
+          "12": "15%",
+          "13": "15%"
+        },
+        {
+          "LVL": "DoT",
+          "1": "33.1%",
+          "2": "35.6%",
+          "3": "38.1%",
+          "4": "41.4%",
+          "5": "43.9%",
+          "6": "46.4%",
+          "7": "49.7%",
+          "8": "53%",
+          "9": "56.3%",
+          "10": "59.6%",
+          "11": "62.9%",
+          "12": "66.2%",
+          "13": "70.4%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "80",
+          "2": "80",
+          "3": "80",
+          "4": "80",
+          "5": "80",
+          "6": "80",
+          "7": "80",
+          "8": "80",
+          "9": "80",
+          "10": "80",
+          "11": "80",
+          "12": "80",
+          "13": "80"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Deific Embrace",
+      "image": "images/Characters/Liyue/Shenhe/talents/Talent_Deific_Embrace.png",
+      "description":""
+    },
+    {
+      "name":"Spirit Communion Seal",
+      "image": "images/Characters/Liyue/Shenhe/talents/Talent_Spirit_Communion_Seal.png",
+      "description":""
+    },
+    {
+      "name":"Precise Comings and Goings",
+      "image": "images/Characters/Liyue/Shenhe/talents/Talent_Precise_Comings_and_Goings.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Teachings_of_Prosperity.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Shimmering_Nectar.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Hellfire_Butterfly.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Hellfire_Butterfly.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Hellfire_Butterfly.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Energy_Nectar.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Hellfire_Butterfly.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Clarity of Heart",
+      "image": "images/Characters/Liyue/Shenhe/constellations/Constellation_Clarity_of_Heart.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Centered Spirit",
+      "image": "images/Characters/Liyue/Shenhe/constellations/Constellation_Centered_Spirit.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Seclusion",
+      "image": "images/Characters/Liyue/Shenhe/constellations/Constellation_Seclusion.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Insight",
+      "image": "images/Characters/Liyue/Shenhe/constellations/Constellation_Insight.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Divine Attainment",
+      "image": "images/Characters/Liyue/Shenhe/constellations/Constellation_Divine_Attainment.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Mystical Abandon",
+      "image": "images/Characters/Liyue/Shenhe/constellations/Constellation_Mystical_Abandon.png",
+      "description":""
+    }
+  ]
+}
+
+
