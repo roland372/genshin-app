@@ -1,0 +1,805 @@
+{
+  "name":"Gorou",
+  "avatar": "images/Characters/Inazuma/Gorou/images/Character_Gorou_Avatar.png",
+  "title":"Canine Warrior",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Geo",
+  "elementImage": "images/Elements/Element_Geo.png",
+  "weapon":"Bow",
+  "weaponImage": "images/Weapon icons/Weapon-class-bow-icon.png",
+  "sex":"Male",
+  "birthday":"May 18th",
+  "constellation":"Canis Bellatoris",
+  "nation":"Inazuma",
+  "affiliation":"Watatsumi Army",
+  "specialDish":"Victorious Legend",
+  "description":"Kindness and loyalty are the representation of virtue. Without a doubt, my friend Gorou is a virtuous general.",
+  "talentBook":"Teachings of Light",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Light/Item_Teachings_of_Light.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Perpetual_Heart.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Inazuma/Item_Sango_Pearl.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Spectral_Husk.png",
+  "ascensionStat": "Geo DMG Bonus",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Sango Pearl",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sango_Pearl.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Spectral Husk",
+       "image": "images/Materials/Common Ascension Materials/Item_Spectral_Husk.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Perpetual Heart",
+       "image": "images/Materials/Character Materials/Ascension/Item_Perpetual_Heart.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Sango Pearl",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sango_Pearl.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Spectral Husk",
+       "image": "images/Materials/Common Ascension Materials/Item_Spectral_Husk.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Perpetual Heart",
+       "image": "images/Materials/Character Materials/Ascension/Item_Perpetual_Heart.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Sango Pearl",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sango_Pearl.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Spectral Heart",
+       "image": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Perpetual Heart",
+       "image": "images/Materials/Character Materials/Ascension/Item_Perpetual_Heart.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Sango Pearl",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sango_Pearl.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Spectral Heart",
+       "image": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Perpetual Heart",
+       "image": "images/Materials/Character Materials/Ascension/Item_Perpetual_Heart.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Sango Pearl",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sango_Pearl.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Spectral Nucleus",
+       "image": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Perpetual Heart",
+       "image": "images/Materials/Character Materials/Ascension/Item_Perpetual_Heart.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Sango Pearl",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sango_Pearl.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Spectral Nucleus",
+       "image": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 802,
+      "ATK": 15,
+      "DEF": 54,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2061,
+      "ATK": 39,
+      "DEF": 140,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2661,
+      "ATK": 51,
+      "DEF": 180,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 3985,
+      "ATK": 76,
+      "DEF": 270,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4411,
+      "ATK": 84,
+      "DEF": 299,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5074,
+      "ATK": 97,
+      "DEF": 344,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 5642,
+      "ATK": 108,
+      "DEF": 382,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 6305,
+      "ATK": 120,
+      "DEF": 427,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 6731,
+      "ATK": 128,
+      "DEF": 456,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 7393,
+      "ATK": 141,
+      "DEF": 501,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 7818,
+      "ATK": 149,
+      "DEF": 530,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 8481,
+      "ATK": 162,
+      "DEF": 575,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 8907,
+      "ATK": 170,
+      "DEF": 603,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 9570,
+      "ATK": 183,
+      "DEF": 648,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Ripping Fang Fletching",
+      "image": "images/Characters/Inazuma/Gorou/talents/Talent_Ripping_Fang_Fletching.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "37.8%",
+          "2": "40.8%",
+          "3": "43.9%",
+          "4": "48.3%",
+          "5": "51.4%",
+          "6": "54.9%",
+          "7": "59.7%",
+          "8": "64.5%",
+          "9": "69.4%",
+          "10": "74.6%",
+          "11": "79.9%",
+          "12": "85.2%",
+          "13": "90.4%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "37.2%",
+          "2": "40.2%",
+          "3": "43.2%",
+          "4": "47.5%",
+          "5": "50.5%",
+          "6": "54%",
+          "7": "58.8%",
+          "8": "63.5%",
+          "9": "68.3%",
+          "10": "73.4%",
+          "11": "78.6%",
+          "12": "83.8%",
+          "13": "89%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "49.5%",
+          "2": "53.5%",
+          "3": "57.5%",
+          "4": "63.2%",
+          "5": "67.3%",
+          "6": "71.9%",
+          "7": "78.2%",
+          "8": "84.5%",
+          "9": "90.9%",
+          "10": "97.8%",
+          "11": "104.6%",
+          "12": "111.5%",
+          "13": "118.4%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "59%",
+          "2": "63.8%",
+          "3": "68.6%",
+          "4": "75.5%",
+          "5": "80.3%",
+          "6": "85.8%",
+          "7": "93.3%",
+          "8": "100.8%",
+          "9": "108.4%",
+          "10": "116.6%",
+          "11": "124.9%",
+          "12": "133.1%",
+          "13": "141.3%"
+        },
+        {
+          "LVL": "Aimed Shot",
+          "1": "43.9%",
+          "2": "47.4%",
+          "3": "51%",
+          "4": "56.1%",
+          "5": "59.7%",
+          "6": "63.7%",
+          "7": "69.4%",
+          "8": "75%",
+          "9": "80.6%",
+          "10": "86.7%",
+          "11": "92.8%",
+          "12": "98.9%",
+          "13": "105.1%"
+        },
+        {
+          "LVL": "Fully-Charged Aimed Shot",
+          "1": "124%",
+          "2": "133%",
+          "3": "143%",
+          "4": "155%",
+          "5": "164%",
+          "6": "174%",
+          "7": "186%",
+          "8": "198%",
+          "9": "211%",
+          "10": "223%",
+          "11": "236%",
+          "12": "248%",
+          "13": "263%"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "56.8%",
+          "2": "61.5%",
+          "3": "66.1%",
+          "4": "72.7%",
+          "5": "77.3%",
+          "6": "82.6%",
+          "7": "89.9%",
+          "8": "97.1%",
+          "9": "104.4%",
+          "10": "112.3%",
+          "11": "120.3%",
+          "12": "128.2%",
+          "13": "136.1%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "114% /142%",
+          "2": "123% /153%",
+          "3": "132% /165%",
+          "4": "145% /182%",
+          "5": "155% /193%",
+          "6": "165% /206%",
+          "7": "180% /224%",
+          "8": "194% /243%",
+          "9": "209% /261%",
+          "10": "225% /281%",
+          "11": "240% /300%",
+          "12": "256% /320%",
+          "13": "272% /340%"
+        }
+       ]
+    },
+    {
+      "name":"Inuzaka All-Round Defense",
+      "image": "images/Characters/Inazuma/Gorou/talents/Talent_Inuzaka_All-Round_Defense.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "107.2%",
+          "2": "115.2%",
+          "3": "123.3%",
+          "4": "134%",
+          "5": "142%",
+          "6": "150.1%",
+          "7": "160.8%",
+          "8": "171.5%",
+          "9": "182.2%",
+          "10": "193%",
+          "11": "203.7%",
+          "12": "214.4%",
+          "13": "227.8%"
+        },
+        {
+          "LVL": "DEF Increase",
+          "1": "206",
+          "2": "222",
+          "3": "237",
+          "4": "258",
+          "5": "273",
+          "6": "289",
+          "7": "309",
+          "8": "330",
+          "9": "350",
+          "10": "371",
+          "11": "392",
+          "12": "412",
+          "13": "438"
+        },
+        {
+          "LVL": "Geo DMG Bonus",
+          "1": "15%",
+          "2": "15%",
+          "3": "15%",
+          "4": "15%",
+          "5": "15%",
+          "6": "15%",
+          "7": "15%",
+          "8": "15%",
+          "9": "15%",
+          "10": "15%",
+          "11": "15%",
+          "12": "15%",
+          "13": "15%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        },
+        {
+          "LVL": "CD",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        }
+       ]
+    },
+    {
+      "name":"Juuga: Forward Unto Victory",
+      "image": "images/Characters/Inazuma/Gorou/talents/Talent_Juuga_Forward_Unto_Victory.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "98% DEF",
+          "2": "106% DEF",
+          "3": "113% DEF",
+          "4": "123% DEF",
+          "5": "130% DEF",
+          "6": "138% DEF",
+          "7": "147% DEF",
+          "8": "157% DEF",
+          "9": "167% DEF",
+          "10": "177% DEF",
+          "11": "187% DEF",
+          "12": "196% DEF",
+          "13": "209% DEF"
+        },
+        {
+          "LVL": "Crystal Collapse DMG",
+          "1": "61% DEF",
+          "2": "66% DEF",
+          "3": "70% DEF",
+          "4": "77% DEF",
+          "5": "81% DEF",
+          "6": "86% DEF",
+          "7": "92% DEF",
+          "8": "98% DEF",
+          "9": "104% DEF",
+          "10": "110% DEF",
+          "11": "116% DEF",
+          "12": "123% DEF",
+          "13": "130% DEF"
+        },
+        {
+          "LVL": "Duration",
+          "1": "9s",
+          "2": "9s",
+          "3": "9s",
+          "4": "9s",
+          "5": "9s",
+          "6": "9s",
+          "7": "9s",
+          "8": "9s",
+          "9": "9s",
+          "10": "9s",
+          "11": "9s",
+          "12": "9s",
+          "13": "9s"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "80",
+          "2": "80",
+          "3": "80",
+          "4": "80",
+          "5": "80",
+          "6": "80",
+          "7": "80",
+          "8": "80",
+          "9": "80",
+          "10": "80",
+          "11": "80",
+          "12": "80",
+          "13": "80"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Heedless of the Wind and Weather",
+      "image": "images/Characters/Inazuma/Gorou/talents/Talent_Heedless_of_the_Wind_and_Weather.png",
+      "description":""
+    },
+    {
+      "name":"A Favor Repaid",
+      "image": "images/Characters/Inazuma/Gorou/talents/Talent_A_Favor_Repaid.png",
+      "description":""
+    },
+    {
+      "name":"Seeker of Shinies",
+      "image": "images/Characters/Inazuma/Gorou/talents/Talent_Seeker_of_Shinies.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Teachings_of_Freedom.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Husk.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Heart.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Molten_Moment.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Molten_Moment.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Molten_Moment.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Spectral_Nucleus.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Molten_Moment.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Rushing Hound: Swift as the Wind",
+      "image": "images/Characters/Inazuma/Gorou/constellations/Constellation_Rushing_Hound_Swift_as_the_Wind.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Sitting Hound: Steady as a Clock",
+      "image": "images/Characters/Inazuma/Gorou/constellations/Constellation_Sitting_Hound_Steady_as_a_Clock.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Mauling Hound: Fierce as Fire",
+      "image": "images/Characters/Inazuma/Gorou/constellations/Constellation_Mauling_Hound_Fierce_as_Fire.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Lapping Hound: Warm as Water",
+      "image": "images/Characters/Inazuma/Gorou/constellations/Constellation_Lapping_Hound_Warm_as_Water.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Striking Hound: Thunderous Force",
+      "image": "images/Characters/Inazuma/Gorou/constellations/Constellation_Striking_Hound_Thunderous_Force.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Valiant Hound: Mountainous Fealty",
+      "image": "images/Characters/Inazuma/Gorou/constellations/Constellation_Valiant_Hound_Mountainous_Fealty.png",
+      "description":""
+    }
+  ]
+}
+

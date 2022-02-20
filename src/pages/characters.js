@@ -15,6 +15,7 @@ import Diona from '../components/Characters/Character/Diona/Diona';
 import Eula from '../components/Characters/Character/Eula/Eula';
 import Fischl from '../components/Characters/Character/Fischl/Fischl';
 import Ganyu from '../components/Characters/Character/Ganyu/Ganyu';
+import Gorou from '../components/Characters/Character/Gorou/Gorou';
 import HuTao from '../components/Characters/Character/Hu Tao/HuTao';
 import Jean from '../components/Characters/Character/Jean/Jean';
 import KaedeharaKazuha from '../components/Characters/Character/Kaedehara Kazuha/KaedeharaKazuha';
@@ -71,6 +72,7 @@ const characters = () => {
 				<Route exact path='/characters/Eula' component={Eula} />
 				<Route exact path='/characters/Fischl' component={Fischl} />
 				<Route exact path='/characters/Ganyu' component={Ganyu} />
+				<Route exact path='/characters/Gorou' component={Gorou} />
 				<Route exact path='/characters/Hu_Tao' component={HuTao} />
 				<Route exact path='/characters/Jean' component={Jean} />
 				<Route

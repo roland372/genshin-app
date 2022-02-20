@@ -947,6 +947,28 @@
       "image": "/images/Characters/liyue/Xinyan/images/Character_Xinyan_Thumb.png"
     },
     {
+      "name": "Yae Miko",
+      "url": "Yae_Miko",
+      "rarity": 5,
+      "rarityImage": "/images/Rarity icons/Icon_5_Stars.png",
+      "element": "Electro",
+      "elementImage": "/images/Elements/Element_Electro.png",
+      "weapon": "Catalyst",
+      "weaponImage": "/images/Weapon icons/Weapon-class-catalyst-icon.png",
+      "sex": "Female",
+      "nation": "Inazuma",
+      "HP": 10372,
+      "ATK": 340,
+      "DEF": 569,
+      "ascension": "CRIT Rate",
+      "talentBook": "Light",
+      "ascensionMaterial": "Vajrada Amethyst",
+      "bossMaterial": "Dragonheir's False Fin",
+      "localSpeciality": "Sea Ganoderma",
+      "commonMaterial": "Old Handguard",
+      "image": "/images/Characters/inazuma/Yae Miko/images/Character_Yae_Miko_Thumb.png"
+    },
+    {
       "name": "Yanfei",
       "url": "Yanfei",
       "rarity": 4,
