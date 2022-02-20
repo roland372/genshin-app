@@ -1,0 +1,838 @@
+{
+  "name":"Yun Jin",
+  "avatar": "images/Characters/Liyue/Yun Jin/images/Character_Yun_Jin_Avatar.png",
+  "title":"Stage Lucida",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Geo",
+  "elementImage": "images/Elements/Element_Geo.png",
+  "weapon":"Polearm",
+  "weaponImage": "images/Weapon icons/Weapon-class-polearm-icon.png",
+  "sex":"Female",
+  "birthday":"May 21st",
+  "constellation":"Opera Grandis",
+  "nation":"Liyue",
+  "affiliation":"Yun-Han Opera Troupe, Heyu Tea House, Yun Family",
+  "specialDish":"Cloud-Shrouded Jade",
+  "description":"A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
+  "talentBook":"Teachings of Diligence",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Diligence/Item_Teachings_of_Diligence.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Riftborn_Regalia.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Liyue/Item_Glaze_Lily.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+  "ascensionStat": "Energy Recharge",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Glaze Lily",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Glaze_Lily.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Riftborn Regalia",
+       "image": "images/Materials/Character Materials/Ascension/Item_Riftborn_Regalia.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Glaze Lily",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Glaze_Lily.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Damaged Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Riftborn Regalia",
+       "image": "images/Materials/Character Materials/Ascension/Item_Riftborn_Regalia.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Glaze Lily",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Glaze_Lily.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Riftborn Regalia",
+       "image": "images/Materials/Character Materials/Ascension/Item_Riftborn_Regalia.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Glaze Lily",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Glaze_Lily.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Stained Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Riftborn Regalia",
+       "image": "images/Materials/Character Materials/Ascension/Item_Riftborn_Regalia.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Glaze Lily",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Glaze_Lily.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Prithiva Topaz Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Prithiva_Topaz_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Riftborn Regalia",
+       "image": "images/Materials/Character Materials/Ascension/Item_Riftborn_Regalia.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Glaze Lily",
+       "image": "images/Materials/Local Specialties/Liyue/Item_Glaze_Lily.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Ominous Mask",
+       "image": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 894,
+      "ATK": 16,
+      "DEF": 62,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2296,
+      "ATK": 41,
+      "DEF": 158,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2963,
+      "ATK": 53,
+      "DEF": 204,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 4438,
+      "ATK": 80,
+      "DEF": 306,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4913,
+      "ATK": 88,
+      "DEF": 339,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6.67%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5651,
+      "ATK": 101,
+      "DEF": 389,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6.67%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 6283,
+      "ATK": 113,
+      "DEF": 433,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "13.33%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 7021,
+      "ATK": 126,
+      "DEF": 484,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "13.33%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 7495,
+      "ATK": 134,
+      "DEF": 517,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "13.33%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 8233,
+      "ATK": 148,
+      "DEF": 567,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "13.33%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 8707,
+      "ATK": 156,
+      "DEF": 600,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "20%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 9445,
+      "ATK": 169,
+      "DEF": 651,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "20%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 9919,
+      "ATK": 178,
+      "DEF": 684,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "26.67%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 10657,
+      "ATK": 191,
+      "DEF": 734,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "26.67%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Cloud-Grazing Strike",
+      "image": "images/Characters/Liyue/Yun Jin/talents/Talent_Cloud-Grazing_Strike.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "40.5%",
+          "2": "43.8%",
+          "3": "47.1%",
+          "4": "51.8%",
+          "5": "55.1%",
+          "6": "58.9%",
+          "7": "64.1%",
+          "8": "69.2%",
+          "9": "74.4%",
+          "10": "80.1%",
+          "11": "85.7%",
+          "12": "91.4%",
+          "13": "97%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "40.2%",
+          "2": "43.5%",
+          "3": "46.8%",
+          "4": "51.5%",
+          "5": "54.8%",
+          "6": "58.5%",
+          "7": "63.6%",
+          "8": "68.8%",
+          "9": "73.9%",
+          "10": "79.6%",
+          "11": "85.2%",
+          "12": "90.8%",
+          "13": "96.4%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "23% +27.5%",
+          "2": "24.8% +29.8%",
+          "3": "26.7% +32%",
+          "4": "29.4% +35.2%",
+          "5": "31.2% +37.4%",
+          "6": "33.4% +40%",
+          "7": "36.3% +43.5%",
+          "8": "39.2% +47%",
+          "9": "42.2% +50.6%",
+          "10": "45.4% +54.4%",
+          "11": "48.6% +58.2%",
+          "12": "51.8% +62.1%",
+          "13": "55% +65.9%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "24% +28.8%",
+          "2": "25.9% +31.2%",
+          "3": "27.9% +33.5%",
+          "4": "30.7% +36.8%",
+          "5": "32.6% +39.2%",
+          "6": "34.9% +41.9%",
+          "7": "37.9% +45.6%",
+          "8": "41% +49.2%",
+          "9": "44.1% +52.9%",
+          "10": "47.4% +57%",
+          "11": "50.8% +61%",
+          "12": "54.1% +65%",
+          "13": "57.5% +69%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "67.3%",
+          "2": "72.8%",
+          "3": "78.3%",
+          "4": "86.1%",
+          "5": "91.6%",
+          "6": "97.9%",
+          "7": "106.5%",
+          "8": "115.1%",
+          "9": "123.7%",
+          "10": "133.1%",
+          "11": "142.5%",
+          "12": "151.9%",
+          "13": "161.3%"
+        },
+        {
+          "LVL": "Charged Attack",
+          "1": "121.7%",
+          "2": "131.6%",
+          "3": "141.5%",
+          "4": "155.6%",
+          "5": "165.6%",
+          "6": "176.9%",
+          "7": "192.4%",
+          "8": "208%",
+          "9": "223.6%",
+          "10": "240.5%",
+          "11": "260%",
+          "12": "282.9%",
+          "13": "305.8%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "25",
+          "2": "25",
+          "3": "25",
+          "4": "25",
+          "5": "25",
+          "6": "25",
+          "7": "25",
+          "8": "25",
+          "9": "25",
+          "10": "25",
+          "11": "25",
+          "12": "25",
+          "13": "25"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "63.9%",
+          "2": "69.1%",
+          "3": "74.3%",
+          "4": "81.8%",
+          "5": "87%",
+          "6": "92.9%",
+          "7": "101.1%",
+          "8": "109.3%",
+          "9": "117.5%",
+          "10": "126.4%",
+          "11": "135.3%",
+          "12": "144.2%",
+          "13": "153.1%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "128% /160%",
+          "2": "138% /173%",
+          "3": "149% /186%",
+          "4": "164% /204%",
+          "5": "174% /217%",
+          "6": "186% /232%",
+          "7": "202% /253%",
+          "8": "219% /273%",
+          "9": "235% /293%",
+          "10": "253% /316%",
+          "11": "271% /338%",
+          "12": "288% /360%",
+          "13": "306% /382%"
+        }
+       ]
+    },
+    {
+      "name":"Opening Flourish",
+      "image": "images/Characters/Liyue/Yun Jin/talents/Talent_Opening_Flourish.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Press DMG",
+          "1": "149.1% DEF",
+          "2": "160.3% DEF",
+          "3": "171.5% DEF",
+          "4": "186.4% DEF",
+          "5": "197.6% DEF",
+          "6": "208.8% DEF",
+          "7": "223.7% DEF",
+          "8": "238.6% DEF",
+          "9": "253.5% DEF",
+          "10": "268.4% DEF",
+          "11": "283.3% DEF",
+          "12": "298.2% DEF",
+          "13": "316.9% DEF"
+        },
+        {
+          "LVL": "Charge Level 1 DMG",
+          "1": "261% DEF",
+          "2": "280.5% DEF",
+          "3": "300.1% DEF",
+          "4": "326.2% DEF",
+          "5": "345.8% DEF",
+          "6": "365.3% DEF",
+          "7": "391.4% DEF",
+          "8": "417.5% DEF",
+          "9": "443.6% DEF",
+          "10": "469.7% DEF",
+          "11": "495.8% DEF",
+          "12": "521.9% DEF",
+          "13": "554.5% DEF"
+        },
+        {
+          "LVL": "Charge Level 2 DMG",
+          "1": "372.8% DEF",
+          "2": "400.8% DEF",
+          "3": "428.7% DEF",
+          "4": "466% DEF",
+          "5": "494% DEF",
+          "6": "521.9% DEF",
+          "7": "559.2% DEF",
+          "8": "596.5% DEF",
+          "9": "633.8% DEF",
+          "10": "671% DEF",
+          "11": "708.3% DEF",
+          "12": "745.6% DEF",
+          "13": "792.2% DEF"
+        },
+        {
+          "LVL": "Shield DMG Absorption",
+          "1": "12% Max HP +1155",
+          "2": "13% Max HP +1271",
+          "3": "14% Max HP +1396",
+          "4": "15% Max HP +1531",
+          "5": "16% Max HP +1675",
+          "6": "17% Max HP +1830",
+          "7": "18% Max HP +1993",
+          "8": "19% Max HP +2167",
+          "9": "20% Max HP +2350",
+          "10": "22% Max HP +2542",
+          "11": "23% Max HP +2744",
+          "12": "24% Max HP +2956",
+          "13": "25% Max HP +3178"
+        },
+        {
+          "LVL": "CD",
+          "1": "9s",
+          "2": "9s",
+          "3": "9s",
+          "4": "9s",
+          "5": "9s",
+          "6": "9s",
+          "7": "9s",
+          "8": "9s",
+          "9": "9s",
+          "10": "9s",
+          "11": "9s",
+          "12": "9s",
+          "13": "9s"
+        }
+       ]
+    },
+    {
+      "name":"Cliffbreaker's Banner",
+      "image": "images/Characters/Liyue/Yun Jin/talents/Talent_Cliffbreaker's_Banner.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "244%",
+          "2": "262%",
+          "3": "281%",
+          "4": "305%",
+          "5": "323%",
+          "6": "342%",
+          "7": "366%",
+          "8": "390%",
+          "9": "415%",
+          "10": "439%",
+          "11": "464%",
+          "12": "488%",
+          "13": "518%"
+        },
+        {
+          "LVL": "DMG Increase",
+          "1": "32% DEF",
+          "2": "35% DEF",
+          "3": "37% DEF",
+          "4": "40% DEF",
+          "5": "43% DEF",
+          "6": "45% DEF",
+          "7": "48% DEF",
+          "8": "51% DEF",
+          "9": "55% DEF",
+          "10": "58% DEF",
+          "11": "61% DEF",
+          "12": "64% DEF",
+          "13": "68% DEF"
+        },
+        {
+          "LVL": "Duration",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        },
+        {
+          "LVL": "Trigger Quota",
+          "1": "30",
+          "2": "30",
+          "3": "30",
+          "4": "30",
+          "5": "30",
+          "6": "30",
+          "7": "30",
+          "8": "30",
+          "9": "30",
+          "10": "30",
+          "11": "30",
+          "12": "30",
+          "13": "30"
+        },
+        {
+          "LVL": "CD",
+          "1": "15s",
+          "2": "15s",
+          "3": "15s",
+          "4": "15s",
+          "5": "15s",
+          "6": "15s",
+          "7": "15s",
+          "8": "15s",
+          "9": "15s",
+          "10": "15s",
+          "11": "15s",
+          "12": "15s",
+          "13": "15s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "60",
+          "2": "60",
+          "3": "60",
+          "4": "60",
+          "5": "60",
+          "6": "60",
+          "7": "60",
+          "8": "60",
+          "9": "60",
+          "10": "60",
+          "11": "60",
+          "12": "60",
+          "13": "60"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"True to Oneself",
+      "image": "images/Characters/Liyue/Yun Jin/talents/Talent_True_to_Oneself.png",
+      "description":""
+    },
+    {
+      "name":"Breaking Conventions",
+      "image": "images/Characters/Liyue/Yun Jin/talents/Talent_Breaking_Conventions.png",
+      "description":""
+    },
+    {
+      "name":"Light Nourishment",
+      "image": "images/Characters/Liyue/Yun Jin/talents/Talent_Light_Nourishment.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Teachings_of_Diligence.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Stained_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ashen_Heart.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ashen_Heart.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ashen_Heart.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Ominous_Mask.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Ashen_Heart.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Thespian Gallop",
+      "image": "images/Characters/Liyue/Yun Jin/constellations/Constellation_Thespian_Gallop.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Myriad Mise-En-Scène",
+      "image": "images/Characters/Liyue/Yun Jin/constellations/Constellation_Myriad_Mise-En-Scène.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Seafaring General",
+      "image": "images/Characters/Liyue/Yun Jin/constellations/Constellation_Seafaring_General.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Flower and a Fighter",
+      "image": "images/Characters/Liyue/Yun Jin/constellations/Constellation_Flower_and_a_Fighter.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Famed Throughout the Land",
+      "image": "images/Characters/Liyue/Yun Jin/constellations/Constellation_Famed_Throughout_the_Land.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Decorous Harmony",
+      "image": "images/Characters/Liyue/Yun Jin/constellations/Constellation_Decorous_Harmony.png",
+      "description":""
+    }
+  ]
+}
+
+

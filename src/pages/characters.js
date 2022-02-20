@@ -47,6 +47,7 @@ import Xingqiu from '../components/Characters/Character/Xingqiu/Xingqiu';
 import Xinyan from '../components/Characters/Character/Xinyan/Xinyan';
 import Yanfei from '../components/Characters/Character/Yanfei/Yanfei';
 import Yoimiya from '../components/Characters/Character/Yoimiya/Yoimiya';
+import YunJin from '../components/Characters/Character/Yun Jin/YunJin';
 import Zhongli from '../components/Characters/Character/Zhongli/Zhongli';
 
 const characters = () => {
@@ -129,6 +130,7 @@ const characters = () => {
 				<Route exact path='/characters/Xinyan' component={Xinyan} />
 				<Route exact path='/characters/Yanfei' component={Yanfei} />
 				<Route exact path='/characters/Yoimiya' component={Yoimiya} />
+				<Route exact path='/characters/Yun_Jin' component={YunJin} />
 				<Route exact path='/characters/Zhongli' component={Zhongli} />
 			</Switch>
 		</Router>
