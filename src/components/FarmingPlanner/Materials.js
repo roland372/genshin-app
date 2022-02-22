@@ -281,9 +281,9 @@ const talentLevelUp = [
 	},
 ];
 
-console.log(
-	talentLevelUp[8].materials[0].mora - talentLevelUp[7].materials[0].mora
-);
+// console.log(
+// 	talentLevelUp[8].materials[0].mora - talentLevelUp[7].materials[0].mora
+// );
 
 const Materials = () => {
 	return <div></div>;

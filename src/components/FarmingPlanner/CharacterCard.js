@@ -1,91 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import albedo from '../../assets/data/Characters/Albedo.json';
+import character from '../../assets/data/Characters/Albedo.json';
+// console.log(character);
 
-console.log(albedo);
-
-// const characterLevelUp = [
-// 	{
-// 		level: 1,
-// 		materials: [],
-// 	},
-// 	{
-// 		level: 20,
-// 		materials: [
-// 			<div>
-// 				<img src='/images/Materials/Item_Mora.png' width='50px' alt='' />
-// 				<div>{albedo.characterAscension[0].moraCost}</div>
-// 			</div>,
-// 			<div>
-// 				<img
-// 					src="/images/Materials/Character Materials/EXP/Item_Hero's_Wit.png"
-// 					width='50px'
-// 					alt=''
-// 				/>
-// 				<div>7</div>
-// 			</div>,
-// 		],
-// 	},
-// 	{
-// 		level: 21,
-// 		materials: [
-// 			<div>
-// 				<img src='/images/Materials/Item_Mora.png' width='50px' alt='' />
-// 				<div>{albedo.characterAscension[0].moraCost + 20000}</div>
-// 			</div>,
-// 			<div>
-// 				<img
-// 					src="/images/Materials/Character Materials/EXP/Item_Hero's_Wit.png"
-// 					width='50px'
-// 					alt=''
-// 				/>
-// 				<div>7</div>
-// 			</div>,
-// 			<div>
-// 				<img
-// 					src={albedo.characterAscension[0].localSpeciality.image}
-// 					width='50px'
-// 					alt=''
-// 				/>
-// 				<div>{albedo.characterAscension[0].localSpeciality.amount}</div>
-// 			</div>,
-// 		],
-// 	},
-// 	{
-// 		level: 40,
-// 		materials: [
-// 			<div>
-// 				<img src='/images/Materials/Item_Mora.png' width='50px' alt='' />
-// 				<div>{albedo.characterAscension[0].moraCost}</div>
-// 			</div>,
-// 			<div>
-// 				<img
-// 					src="/images/Materials/Character Materials/EXP/Item_Hero's_Wit.png"
-// 					width='50px'
-// 					alt=''
-// 				/>
-// 				<div>7</div>
-// 			</div>,
-// 			<div>
-// 				<img
-// 					src={albedo.characterAscension[0].localSpeciality.image}
-// 					width='50px'
-// 					alt=''
-// 				/>
-// 				<div>{albedo.characterAscension[0].localSpeciality.amount}</div>
-// 			</div>,
-// 		],
-// 	},
-// ];
-
-
-
-// console.log(characterLevelUp[3].materials[3]);
-
-// console.log(characterLevelUp);
-
-
+// console.log(albedo);
 
 const CharacterCard = props => {
+	// NA - normal attack
+	// ES - elemental skill
+	// EB - elemental burst
+	const [levelLow, setLevelLow] = useState('1');
+	const [levelHigh, setLevelHigh] = useState('1');
+	const [NALow, setNALow] = useState('1');
+	const [NAHigh, setNAHigh] = useState('1');
+	const [ESLow, setESLow] = useState('1');
+	const [ESHigh, setESHigh] = useState('1');
+	const [EBLow, setEBLow] = useState('1');
+	const [EBHigh, setEBHigh] = useState('1');
+	console.log('Level: ', levelLow, levelHigh);
+	console.log('NA: ', NALow, NAHigh);
+	console.log('ES: ', ESLow, ESHigh);
+	console.log('EB: ', EBLow, EBHigh);
+
 	const { charactersData } = props;
 	const { characters } = charactersData;
 
@@ -116,37 +52,49 @@ const CharacterCard = props => {
 				<section className='border d-inline-block'>
 					<div className='d-flex align-items-center justify-content-center p-3'>
 						<div className='me-2'>Select level</div>
-						<select className='btn btn-sm btn-light text-start mx-2'>
+						<select
+							className='btn btn-sm btn-light text-start mx-2'
+							onChange={e => {
+								const value = e.target.value;
+								setLevelLow(value);
+							}}
+						>
 							<option defaultChecked>1</option>
 							<option value='20'>20</option>
-							<option value='20★'>20★</option>
+							<option value='21'>20★</option>
 							<option value='40'>40</option>
-							<option value='40★'>40★</option>
+							<option value='41'>40★</option>
 							<option value='50'>50</option>
-							<option value='50★'>50★</option>
+							<option value='51'>50★</option>
 							<option value='60'>60</option>
-							<option value='60★'>60★</option>
+							<option value='61'>60★</option>
 							<option value='70'>70</option>
-							<option value='70★'>70★</option>
+							<option value='71'>70★</option>
 							<option value='80'>80</option>
-							<option value='80★'>80★</option>
+							<option value='81'>80★</option>
 							<option value='90'>90</option>
 						</select>
 						<div className='mx-1'>-</div>
-						<select className='btn btn-sm btn-light text-start mx-2'>
+						<select
+							className='btn btn-sm btn-light text-start mx-2'
+							onChange={e => {
+								const value = e.target.value;
+								setLevelHigh(value);
+							}}
+						>
 							<option defaultChecked>1</option>
 							<option value='20'>20</option>
-							<option value='20★'>20★</option>
+							<option value='21'>20★</option>
 							<option value='40'>40</option>
-							<option value='40★'>40★</option>
+							<option value='41'>40★</option>
 							<option value='50'>50</option>
-							<option value='50★'>50★</option>
+							<option value='51'>50★</option>
 							<option value='60'>60</option>
-							<option value='60★'>60★</option>
+							<option value='61'>60★</option>
 							<option value='70'>70</option>
-							<option value='70★'>70★</option>
+							<option value='71'>70★</option>
 							<option value='80'>80</option>
-							<option value='80★'>80★</option>
+							<option value='81'>80★</option>
 							<option value='90'>90</option>
 						</select>
 					</div>
@@ -165,7 +113,13 @@ const CharacterCard = props => {
 						</div>
 					</div>
 					<div className='d-flex'>
-						<select className='btn btn-sm btn-light text-start'>
+						<select
+							className='btn btn-sm btn-light text-start'
+							onChange={e => {
+								const value = e.target.value;
+								setNALow(value);
+							}}
+						>
 							<option defaultChecked='1'>1</option>
 							<option value='2'>2</option>
 							<option value='3'>3</option>
@@ -178,7 +132,13 @@ const CharacterCard = props => {
 							<option value='10'>10</option>
 						</select>
 						<div className='mx-1'>-</div>
-						<select className='btn btn-sm btn-light text-start'>
+						<select
+							className='btn btn-sm btn-light text-start'
+							onChange={e => {
+								const value = e.target.value;
+								setNAHigh(value);
+							}}
+						>
 							<option defaultChecked='1'>1</option>
 							<option value='2'>2</option>
 							<option value='3'>3</option>
@@ -206,7 +166,13 @@ const CharacterCard = props => {
 						</div>
 					</div>
 					<div className='d-flex'>
-						<select className='btn btn-sm btn-light text-start'>
+						<select
+							className='btn btn-sm btn-light text-start'
+							onChange={e => {
+								const value = e.target.value;
+								setESLow(value);
+							}}
+						>
 							<option defaultChecked='1'>1</option>
 							<option value='2'>2</option>
 							<option value='3'>3</option>
@@ -219,7 +185,13 @@ const CharacterCard = props => {
 							<option value='10'>10</option>
 						</select>
 						<div className='mx-1'>-</div>
-						<select className='btn btn-sm btn-light text-start'>
+						<select
+							className='btn btn-sm btn-light text-start'
+							onChange={e => {
+								const value = e.target.value;
+								setESHigh(value);
+							}}
+						>
 							<option defaultChecked='1'>1</option>
 							<option value='2'>2</option>
 							<option value='3'>3</option>
@@ -247,7 +219,13 @@ const CharacterCard = props => {
 						</div>
 					</div>
 					<div className='d-flex'>
-						<select className='btn btn-sm btn-light text-start'>
+						<select
+							className='btn btn-sm btn-light text-start'
+							onChange={e => {
+								const value = e.target.value;
+								setEBLow(value);
+							}}
+						>
 							<option defaultChecked='1'>1</option>
 							<option value='2'>2</option>
 							<option value='3'>3</option>
@@ -260,7 +238,13 @@ const CharacterCard = props => {
 							<option value='10'>10</option>
 						</select>
 						<div className='mx-1'>-</div>
-						<select className='btn btn-sm btn-light text-start'>
+						<select
+							className='btn btn-sm btn-light text-start'
+							onChange={e => {
+								const value = e.target.value;
+								setEBHigh(value);
+							}}
+						>
 							<option defaultChecked='1'>1</option>
 							<option value='2'>2</option>
 							<option value='3'>3</option>
@@ -276,13 +260,47 @@ const CharacterCard = props => {
 				</div>
 				<div className='border'>
 					<div>Templates</div>
-					<button className='btn btn-sm btn-light'>Max</button>
-					<button className='btn btn-sm btn-light'>Reset</button>
-					<button className='btn btn-sm btn-light'>80-8-8-8</button>
+					<button
+						className='btn btn-sm btn-light'
+						onClick={() => {
+							setLevelHigh('90');
+							setNAHigh('10');
+							setESHigh('10');
+							setEBHigh('10');
+						}}
+					>
+						Max
+					</button>
+					<button
+						className='btn btn-sm btn-light'
+						onClick={() => {
+							setLevelLow('1');
+							setLevelHigh('1');
+							setNALow('1');
+							setNAHigh('1');
+							setESLow('1');
+							setESHigh('1');
+							setEBLow('1');
+							setEBHigh('1');
+						}}
+					>
+						Reset
+					</button>
+					<button
+						className='btn btn-sm btn-light'
+						onClick={() => {
+							setLevelHigh('80');
+							setNAHigh('8');
+							setESHigh('8');
+							setEBHigh('8');
+						}}
+					>
+						80-8-8-8
+					</button>
 				</div>
 			</section>
 			{/* materials section */}
-			<section className='border d-flex flex-wrap'>
+			{/* <section className='border d-flex flex-wrap'>
 				<div>
 					<img src='/images/Materials/Item_Mora.png' width='50px' alt='' />
 					<div>200</div>
@@ -403,7 +421,7 @@ const CharacterCard = props => {
 					<img src={albedo.talentMaterials[8].crownImage} width='50px' alt='' />
 					<div>200</div>
 				</div>
-			</section>
+			</section> */}
 		</section>
 	);
 };
