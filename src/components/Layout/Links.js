@@ -42,11 +42,11 @@ export const navLinks = [
 		url: '/team-builder',
 		text: 'team builder',
 	},
-	// {
-	// 	id: 8,
-	// 	url: '/calculator',
-	// 	text: 'calculator',
-	// },
+	{
+		id: 8,
+		url: '/image-gallery',
+		text: 'image gallery',
+	},
 	{
 		id: 9,
 		url: '/database',

@@ -16,6 +16,7 @@ import events from './pages/events';
 import artifacts from './pages/artifacts';
 import farmingPlanner from './pages/farmingPlanner';
 import teamBuilder from './pages/teamBuilder';
+import imageGallery from './pages/imageGallery';
 import calculator from './pages/calculator';
 import banners from './pages/banners';
 import database from './pages/database';
@@ -44,6 +45,7 @@ function App() {
 						<Route path='/artifacts' component={artifacts} />
 						<Route path='/farming-planner' component={farmingPlanner} />
 						<Route path='/team-builder' component={teamBuilder} />
+						<Route path='/image-gallery' component={imageGallery} />
 						<Route path='/calculator' component={calculator} />
 						<Route path='/database' component={database} />
 						<Route path='/todoList' component={todoList} />
