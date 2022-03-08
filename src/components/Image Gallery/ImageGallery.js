@@ -60,9 +60,9 @@ const ImageGallery = () => {
 
 	return (
 		<Container>
-			<CardComponent title='Team Builder'>
+			<CardComponent title='Image Gallery'>
 				<Namecards characters={filteredCharacters} handleClick={handleClick} />
-				<Avatar characters={filteredCharacters} handleClick={handleClick} />
+				<Avatar characters={filteredCharacters} />
 				<Card characters={filteredCharacters} handleClick={handleClick} />
 				{clickedImage && (
 					<Modal

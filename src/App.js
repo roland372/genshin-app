@@ -23,6 +23,7 @@ import database from './pages/database';
 import todoList from './pages/todoList';
 import changelog from './pages/changelog';
 import achievements from './pages/achievements';
+import test from './pages/test';
 
 import Layout from './components/Layout/Layout';
 // <--- Styles --->
@@ -51,6 +52,7 @@ function App() {
 						<Route path='/todoList' component={todoList} />
 						<Route path='/changelog' component={changelog} />
 						<Route path='/achievements' component={achievements} />
+						<Route path='/test' component={test} />
 						<Route component={NotFound} />
 					</Switch>
 				</Layout>

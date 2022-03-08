@@ -57,6 +57,11 @@ export const navLinks = [
 		url: '/todoList',
 		text: 'Todo List',
 	},
+	{
+		id: 100,
+		url: '/test',
+		text: 'Test',
+	},
 	// {
 	// 	id: 11,
 	// 	url: '/changelog',
