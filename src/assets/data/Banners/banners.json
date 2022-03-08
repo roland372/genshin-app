@@ -1,21 +1,44 @@
 {
   "currentBanners": [
     {
-      "name": "Everbloom Violet",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/19397",
-      "image": "images/Banners/character/Wish_Everbloom_Violet_2022-02-16.png",
-      "startDate": "February 16, 2022",
-      "endDate": "March 08, 2022"
+      "name": "Reign of Serenity",
+      "link": "https://genshin.hoyoverse.com/en/news/detail/19823",
+      "image": "images/Banners/character/Wish_Reign_of_Serenity_2022-03-08.png",
+      "startDate": "March 08, 2022",
+      "endDate": "March 29, 2022"
+    },
+    {
+      "name": "Drifting Luminescence",
+      "link": "https://genshin.hoyoverse.com/en/news/detail/19830",
+      "image": "images/Banners/character/Wish_Drifting_Luminescence_2022-03-08.png",
+      "startDate": "March 08, 2022",
+      "endDate": "March 29, 2022"
     },
     {
       "name": "Epitome Invocation",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/19401",
-      "image": "images/Banners/weapon/Wish_Epitome_Invocation_2022-02-16.png",
-      "startDate": "February 16, 2022",
-      "endDate": "March 08, 2022"
+      "link": "https://genshin.hoyoverse.com/en/news/detail/19834",
+      "image": "images/Banners/weapon/Wish_Epitome_Invocation_2022-03-08.png",
+      "startDate": "March 08, 2022",
+      "endDate": "March 29, 2022"
     }
   ],
   "pastBanners": {
+    "version 2.5" : [
+      {
+        "name": "Everbloom Violet",
+        "link": "https://genshin.hoyoverse.com/en/news/detail/19397",
+        "image": "images/Banners/character/Wish_Everbloom_Violet_2022-02-16.png",
+        "startDate": "February 16, 2022",
+        "endDate": "March 08, 2022"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.hoyoverse.com/en/news/detail/19401",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2022-02-16.png",
+        "startDate": "February 16, 2022",
+        "endDate": "March 08, 2022"
+      }
+    ],
     "version 2.4" : [
       {
         "name": "The Transcendent One Returns",
