@@ -1,8 +1,36 @@
-import React from 'react';
-
-const characterLevelUp = [
-	{ level: 1, materials: [] },
-	{ level: 20, materials: [{ mora: 19495 }, { expBooks: 5 }] },
+export const characterLevelUp = [
+	{
+		level: 1,
+		materials: [
+			{ mora: 0 },
+			{ expBooks: 0 },
+			{ localSpeciality: 0 },
+			{ commonMaterial1: 0 },
+			{ commonMaterial2: 0 },
+			{ commonMaterial3: 0 },
+			{ sliver: 0 },
+			{ fragments: 0 },
+			{ chunks: 0 },
+			{ gemstones: 0 },
+			{ bossAscensionMaterial: 0 },
+		],
+	},
+	{
+		level: 20,
+		materials: [
+			{ mora: 19495 },
+			{ expBooks: 5 },
+			{ localSpeciality: 0 },
+			{ commonMaterial1: 0 },
+			{ commonMaterial2: 0 },
+			{ commonMaterial3: 0 },
+			{ sliver: 0 },
+			{ fragments: 0 },
+			{ chunks: 0 },
+			{ gemstones: 0 },
+			{ bossAscensionMaterial: 0 },
+		],
+	},
 	{
 		level: 21,
 		materials: [
@@ -10,7 +38,13 @@ const characterLevelUp = [
 			{ expBooks: 6 },
 			{ localSpeciality: 3 },
 			{ commonMaterial1: 3 },
+			{ commonMaterial2: 0 },
+			{ commonMaterial3: 0 },
 			{ sliver: 1 },
+			{ fragments: 0 },
+			{ chunks: 0 },
+			{ gemstones: 0 },
+			{ bossAscensionMaterial: 0 },
 		],
 	},
 	{
@@ -20,7 +54,13 @@ const characterLevelUp = [
 			{ expBooks: 34 },
 			{ localSpeciality: 3 },
 			{ commonMaterial1: 3 },
+			{ commonMaterial2: 0 },
+			{ commonMaterial3: 0 },
 			{ sliver: 1 },
+			{ fragments: 0 },
+			{ chunks: 0 },
+			{ gemstones: 0 },
+			{ bossAscensionMaterial: 0 },
 		],
 	},
 	{
@@ -30,8 +70,12 @@ const characterLevelUp = [
 			{ expBooks: 37 },
 			{ localSpeciality: 13 },
 			{ commonMaterial1: 18 },
+			{ commonMaterial2: 0 },
+			{ commonMaterial3: 0 },
 			{ sliver: 1 },
 			{ fragments: 3 },
+			{ chunks: 0 },
+			{ gemstones: 0 },
 			{ bossAscensionMaterial: 2 },
 		],
 	},
@@ -42,8 +86,12 @@ const characterLevelUp = [
 			{ expBooks: 64 },
 			{ localSpeciality: 13 },
 			{ commonMaterial1: 18 },
+			{ commonMaterial2: 0 },
+			{ commonMaterial3: 0 },
 			{ sliver: 1 },
 			{ fragments: 3 },
+			{ chunks: 0 },
+			{ gemstones: 0 },
 			{ bossAscensionMaterial: 2 },
 		],
 	},
@@ -55,8 +103,11 @@ const characterLevelUp = [
 			{ localSpeciality: 33 },
 			{ commonMaterial1: 18 },
 			{ commonMaterial2: 12 },
+			{ commonMaterial3: 0 },
 			{ sliver: 1 },
 			{ fragments: 9 },
+			{ chunks: 0 },
+			{ gemstones: 0 },
 			{ bossAscensionMaterial: 6 },
 		],
 	},
@@ -68,8 +119,11 @@ const characterLevelUp = [
 			{ localSpeciality: 33 },
 			{ commonMaterial1: 18 },
 			{ commonMaterial2: 12 },
+			{ commonMaterial3: 0 },
 			{ sliver: 1 },
 			{ fragments: 9 },
+			{ chunks: 0 },
+			{ gemstones: 0 },
 			{ bossAscensionMaterial: 6 },
 		],
 	},
@@ -81,9 +135,11 @@ const characterLevelUp = [
 			{ localSpeciality: 63 },
 			{ commonMaterial1: 18 },
 			{ commonMaterial2: 30 },
+			{ commonMaterial3: 0 },
 			{ sliver: 1 },
 			{ fragments: 9 },
 			{ chunks: 3 },
+			{ gemstones: 0 },
 			{ bossAscensionMaterial: 14 },
 		],
 	},
@@ -95,9 +151,11 @@ const characterLevelUp = [
 			{ localSpeciality: 63 },
 			{ commonMaterial1: 18 },
 			{ commonMaterial2: 30 },
+			{ commonMaterial3: 0 },
 			{ sliver: 1 },
 			{ fragments: 9 },
 			{ chunks: 3 },
+			{ gemstones: 0 },
 			{ bossAscensionMaterial: 14 },
 		],
 	},
@@ -113,6 +171,7 @@ const characterLevelUp = [
 			{ sliver: 1 },
 			{ fragments: 9 },
 			{ chunks: 9 },
+			{ gemstones: 0 },
 			{ bossAscensionMaterial: 26 },
 		],
 	},
@@ -128,6 +187,7 @@ const characterLevelUp = [
 			{ sliver: 1 },
 			{ fragments: 9 },
 			{ chunks: 9 },
+			{ gemstones: 0 },
 			{ bossAscensionMaterial: 26 },
 		],
 	},
@@ -165,8 +225,11 @@ const characterLevelUp = [
 	},
 ];
 
-const talentLevelUp = [
-	{ level: 1, materials: [] },
+export const talentLevelUp = [
+	{
+		level: 1,
+		materials: [{ mora: 0, bronzeTalentBooks: 0, commonMaterial1: 0 }],
+	},
 	{
 		level: 2,
 		materials: [{ mora: 12500, bronzeTalentBooks: 3, commonMaterial1: 6 }],
@@ -276,17 +339,8 @@ const talentLevelUp = [
 				commonMaterial2: 22,
 				commonMaterial3: 31,
 				bossMaterial: 6,
+				crown: 1,
 			},
 		],
 	},
 ];
-
-// console.log(
-// 	talentLevelUp[8].materials[0].mora - talentLevelUp[7].materials[0].mora
-// );
-
-const Materials = () => {
-	return <div></div>;
-};
-
-export default Materials;
