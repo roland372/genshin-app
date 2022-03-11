@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
 import SingleCharacter from './SingleCharacter';
@@ -73,13 +75,18 @@ const Characters = () => {
 									key={index + element}
 									onClick={() => filterElements(element)}
 								>
-									<img
-										src={`images/Elements/Element_${element}.png`}
-										alt={element}
-										title={element}
-										className='img-fluid'
-										width='30px'
-									/>
+									<OverlayTrigger
+										placement='top'
+										overlay={<Tooltip>{element}</Tooltip>}
+									>
+										<img
+											src={`images/Elements/Element_${element}.png`}
+											alt={element}
+											className='img-fluid'
+											width='30px'
+										/>
+									</OverlayTrigger>
+
 									{/* {element} */}
 								</button>
 							);
@@ -95,13 +102,18 @@ const Characters = () => {
 									key={weapon}
 									onClick={() => filterWeapons(weapon)}
 								>
-									<img
-										src={`images/Weapon icons/Weapon-class-${weapon}-icon.png`}
-										alt={weapon}
-										title={weapon}
-										className='img-fluid'
-										width='30px'
-									/>
+									<OverlayTrigger
+										placement='top'
+										overlay={<Tooltip>{weapon}</Tooltip>}
+									>
+										<img
+											src={`images/Weapon icons/Weapon-class-${weapon}-icon.png`}
+											alt={weapon}
+											className='img-fluid'
+											width='30px'
+										/>
+									</OverlayTrigger>
+
 									{/* {weapon} */}
 								</button>
 							);
@@ -168,9 +180,12 @@ const Characters = () => {
 											icon={character.image}
 											name={character.name}
 											url={character.url}
-											rarity={character.rarityImage}
-											element={character.elementImage}
-											weapon={character.weaponImage}
+											rarityImage={character.rarityImage}
+											rarity={character.rarity}
+											elementImage={character.elementImage}
+											elementName={character.element}
+											weaponImage={character.weaponImage}
+											weaponName={character.weapon}
 											sex={character.sex}
 											nation={character.nation}
 											HP={character.HP}

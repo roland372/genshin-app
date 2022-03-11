@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+
 const SingleCharacter = props => {
 	// const { url } = useRouteMatch;
 	// console.log('url', url);
@@ -20,13 +22,23 @@ const SingleCharacter = props => {
 				</Link>
 			</td>
 			<td>
-				<img src={props.rarity} width='60px' alt='' />
+				<img src={props.rarityImage} alt='' />
 			</td>
 			<td>
-				<img src={props.element} width='50px' alt='' />
+				<OverlayTrigger
+					placement='top'
+					overlay={<Tooltip>{props.elementName}</Tooltip>}
+				>
+					<img src={props.elementImage} width='50px' alt='' />
+				</OverlayTrigger>
 			</td>
 			<td>
-				<img src={props.weapon} width='50px' alt='' />
+				<OverlayTrigger
+					placement='top'
+					overlay={<Tooltip>{props.weaponName}</Tooltip>}
+				>
+					<img src={props.weaponImage} width='50px' alt='' />
+				</OverlayTrigger>
 			</td>
 			<td>{props.sex}</td>
 			<td>{props.nation}</td>

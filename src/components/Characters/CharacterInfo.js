@@ -20,7 +20,7 @@ const CharacterInfo = props => {
 					<tr>
 						<td>Rarity</td>
 						<td>
-							<img src={props.rarity} width='64px' alt='' />
+							<img src={props.rarity} alt='' />
 						</td>
 					</tr>
 					<tr>
