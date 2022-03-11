@@ -64,14 +64,14 @@ const Characters = () => {
 	return (
 		<Container>
 			<CardComponent title='Playable Characters'>
-				<div className='d-xl-flex justify-content-between align-middle mx-2'>
+				<div className='d-xl-flex justify-content-lg-between align-middle'>
 					{/* elements filtering */}
-					<section className=''>
+					<section className='ps-2'>
 						{elements.map((element, index) => {
 							return (
 								<button
 									type='button'
-									className='btn btn-sm btn-dark m-1 p-1'
+									className='btn btn-sm btn-dark p-1'
 									key={index + element}
 									onClick={() => filterElements(element)}
 								>
@@ -93,12 +93,12 @@ const Characters = () => {
 						})}
 					</section>
 					{/* weapon filtering */}
-					<section className='px-3'>
+					<section className=''>
 						{weapons.map((weapon, index) => {
 							return (
 								<button
 									type='button'
-									className='btn btn-sm btn-dark m-1 p-1'
+									className='btn btn-sm btn-dark p-1'
 									key={weapon}
 									onClick={() => filterWeapons(weapon)}
 								>
@@ -120,7 +120,7 @@ const Characters = () => {
 						})}
 					</section>
 					{/* searching input */}
-					<section className='mx-3'>
+					<section className='mx-2'>
 						<form>
 							<div className='text-start'>
 								{/* <label htmlFor='searchForCharacter'>Search for character</label> */}
@@ -139,7 +139,7 @@ const Characters = () => {
 				</div>
 				<div className='table-responsive mx-3'>
 					<table
-						className='table table-striped table-dark align-middle'
+						className='table table-striped table-sm table-hover table-dark align-middle'
 						style={{ minWidth: '700px' }}
 					>
 						<thead>

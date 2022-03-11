@@ -295,7 +295,7 @@ const CharacterCard = props => {
 	// console.log(charactersData[0].data.skillTalents[0].image);
 
 	return (
-		<section className='d-lg-flex align-items-center justify-content-between'>
+		<section className='d-lg-flex align-items-center justify-content-between mx-2'>
 			<Select
 				className='text-dark'
 				options={characterNames}
@@ -310,9 +310,11 @@ const CharacterCard = props => {
 								className='d-flex flex-column border align-items-center justify-content-center'
 								key={c.name}
 							>
-								<div className='text-center'>{c.name}</div>
-								<img src={c.image} alt='' className='img-fluid' width='200px' />
-								<img className='p-1' src={c.rarityImage} alt='' width='100px' />
+								<div className='d-flex align-items-center'>
+									<div className='text-center'>{c.name}</div>
+									<img className='p-1' src={c.rarityImage} alt='' />
+								</div>
+								<img src={c.image} alt='' className='img-fluid' width='300px' />
 							</div>
 						) : (
 							<div key={c.name}></div>

@@ -29,7 +29,7 @@ const SingleCharacter = props => {
 					placement='top'
 					overlay={<Tooltip>{props.elementName}</Tooltip>}
 				>
-					<img src={props.elementImage} width='50px' alt='' />
+					<img src={props.elementImage} width='40px' alt='' />
 				</OverlayTrigger>
 			</td>
 			<td>
@@ -37,7 +37,7 @@ const SingleCharacter = props => {
 					placement='top'
 					overlay={<Tooltip>{props.weaponName}</Tooltip>}
 				>
-					<img src={props.weaponImage} width='50px' alt='' />
+					<img src={props.weaponImage} width='40px' alt='' />
 				</OverlayTrigger>
 			</td>
 			<td>{props.sex}</td>
