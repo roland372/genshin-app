@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import Select from 'react-select';
 
 import levelOptions from './levelOptions';
@@ -583,127 +584,268 @@ const CharacterCard = props => {
 				characterSelect === c.data.name ? (
 					<section className='border d-flex flex-wrap' key={c.data.name}>
 						<div>
-							<img src='/images/Materials/Item_Mora.png' width='50px' alt='' />
+							<OverlayTrigger
+								placement='top'
+								overlay={<Tooltip>{'Mora'}</Tooltip>}
+							>
+								<img
+									src='/images/Materials/Item_Mora.png'
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{moraCharacter + moraTalent}</div>
 						</div>
 						<div>
-							<img
-								src="/images/Materials/Character Materials/EXP/Item_Hero's_Wit.png"
-								width='50px'
-								alt=''
-							/>
+							<OverlayTrigger
+								placement='top'
+								overlay={<Tooltip>{"Hero's Wit"}</Tooltip>}
+							>
+								<img
+									src="/images/Materials/Character Materials/EXP/Item_Hero's_Wit.png"
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{expBooks}</div>
 						</div>
 						<div>
-							<img
-								src={c.data.characterAscension[0].localSpeciality.image}
-								width='50px'
-								alt=''
-							/>
+							<OverlayTrigger
+								placement='top'
+								overlay={
+									<Tooltip>
+										{c.data.characterAscension[0].localSpeciality.name}
+									</Tooltip>
+								}
+							>
+								<img
+									src={c.data.characterAscension[0].localSpeciality.image}
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{localSpeciality}</div>
 						</div>
 						<div>
-							<img
-								src={c.data.characterAscension[0].commonMaterial.image}
-								width='50px'
-								alt=''
-							/>
+							<OverlayTrigger
+								placement='top'
+								overlay={
+									<Tooltip>
+										{c.data.characterAscension[0].commonMaterial.name}
+									</Tooltip>
+								}
+							>
+								<img
+									src={c.data.characterAscension[0].commonMaterial.image}
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{characterCommonMaterial1 + talentCommonMaterial1}</div>
 						</div>
 						<div>
-							<img
-								src={c.data.characterAscension[2].commonMaterial.image}
-								width='50px'
-								alt=''
-							/>
+							<OverlayTrigger
+								placement='top'
+								overlay={
+									<Tooltip>
+										{c.data.characterAscension[2].commonMaterial.name}
+									</Tooltip>
+								}
+							>
+								<img
+									src={c.data.characterAscension[2].commonMaterial.image}
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{characterCommonMaterial2 + talentCommonMaterial2}</div>
 						</div>
 						<div>
-							<img
-								src={c.data.characterAscension[4].commonMaterial.image}
-								width='50px'
-								alt=''
-							/>
+							<OverlayTrigger
+								placement='top'
+								overlay={
+									<Tooltip>
+										{c.data.characterAscension[4].commonMaterial.name}
+									</Tooltip>
+								}
+							>
+								<img
+									src={c.data.characterAscension[4].commonMaterial.image}
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{characterCommonMaterial3 + talentCommonMaterial3}</div>
 						</div>
 						<div>
-							<img
-								src={c.data.characterAscension[4].bossMaterial.image}
-								width='50px'
-								alt=''
-							/>
+							<OverlayTrigger
+								placement='top'
+								overlay={
+									<Tooltip>
+										{c.data.characterAscension[4].bossMaterial.name}
+									</Tooltip>
+								}
+							>
+								<img
+									src={c.data.characterAscension[4].bossMaterial.image}
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{bossAscensionMaterial}</div>
 						</div>
 						<div>
-							<img
-								src={c.data.characterAscension[0].ascensionMaterial.image}
-								width='50px'
-								alt=''
-							/>
+							<OverlayTrigger
+								placement='top'
+								overlay={
+									<Tooltip>
+										{c.data.characterAscension[0].ascensionMaterial.name}
+									</Tooltip>
+								}
+							>
+								<img
+									src={c.data.characterAscension[0].ascensionMaterial.image}
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{sliver}</div>
 						</div>
 						<div>
-							<img
-								src={c.data.characterAscension[1].ascensionMaterial.image}
-								width='50px'
-								alt=''
-							/>
+							<OverlayTrigger
+								placement='top'
+								overlay={
+									<Tooltip>
+										{c.data.characterAscension[1].ascensionMaterial.name}
+									</Tooltip>
+								}
+							>
+								<img
+									src={c.data.characterAscension[1].ascensionMaterial.image}
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{fragments}</div>
 						</div>
 						<div>
-							<img
-								src={c.data.characterAscension[3].ascensionMaterial.image}
-								width='50px'
-								alt=''
-							/>
+							<OverlayTrigger
+								placement='top'
+								overlay={
+									<Tooltip>
+										{c.data.characterAscension[3].ascensionMaterial.name}
+									</Tooltip>
+								}
+							>
+								<img
+									src={c.data.characterAscension[3].ascensionMaterial.image}
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{chunks}</div>
 						</div>
 						<div>
-							<img
-								src={c.data.characterAscension[5].ascensionMaterial.image}
-								width='50px'
-								alt=''
-							/>
+							<OverlayTrigger
+								placement='top'
+								overlay={
+									<Tooltip>
+										{c.data.characterAscension[5].ascensionMaterial.name}
+									</Tooltip>
+								}
+							>
+								<img
+									src={c.data.characterAscension[5].ascensionMaterial.image}
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{gemstones}</div>
 						</div>
 						<div>
-							<img
-								src={c.data.talentMaterials[0].talentBookImage}
-								width='50px'
-								alt=''
-							/>
+							<OverlayTrigger
+								placement='top'
+								overlay={
+									<Tooltip>{`Teachings of ${c.data.talentBook.substring(
+										13
+									)}`}</Tooltip>
+								}
+							>
+								<img
+									src={c.data.talentMaterials[0].talentBookImage}
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{bronzeTalentBooks}</div>
 						</div>
 						<div>
-							<img
-								src={c.data.talentMaterials[1].talentBookImage}
-								width='50px'
-								alt=''
-							/>
+							<OverlayTrigger
+								placement='top'
+								overlay={
+									<Tooltip>{`Guide to ${c.data.talentBook.substring(
+										13
+									)}`}</Tooltip>
+								}
+							>
+								<img
+									src={c.data.talentMaterials[1].talentBookImage}
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{silverTalentBooks}</div>
 						</div>
 						<div>
-							<img
-								src={c.data.talentMaterials[5].talentBookImage}
-								width='50px'
-								alt=''
-							/>
+							<OverlayTrigger
+								placement='top'
+								overlay={
+									<Tooltip>{`Philosophies of ${c.data.talentBook.substring(
+										13
+									)}`}</Tooltip>
+								}
+							>
+								<img
+									src={c.data.talentMaterials[5].talentBookImage}
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{goldTalentBooks}</div>
 						</div>
 						<div>
-							<img
-								src={c.data.talentMaterials[8].bossMaterialImage}
-								width='50px'
-								alt=''
-							/>
+							<OverlayTrigger
+								placement='top'
+								overlay={
+									<Tooltip>
+										{c.data.talentMaterials[8].bossMaterialImage
+											.substring(
+												61,
+												c.data.talentMaterials[8].bossMaterialImage.length - 4
+											)
+											.replaceAll('_', ' ')}
+									</Tooltip>
+								}
+							>
+								<img
+									src={c.data.talentMaterials[8].bossMaterialImage}
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{bossMaterial}</div>
 						</div>
 						<div>
-							<img
-								src={c.data.talentMaterials[8].crownImage}
-								width='50px'
-								alt=''
-							/>
+							<OverlayTrigger
+								placement='top'
+								overlay={<Tooltip>{'Crown'}</Tooltip>}
+							>
+								<img
+									src={c.data.talentMaterials[8].crownImage}
+									width='50px'
+									alt=''
+								/>
+							</OverlayTrigger>
 							<div>{crown}</div>
 						</div>
 					</section>
