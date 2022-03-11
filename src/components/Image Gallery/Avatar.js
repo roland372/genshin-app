@@ -33,7 +33,10 @@ const Avatar = ({ characters, handleClick }) => {
 						>
 							{characters.map(characters => {
 								return (
-									<motion.div className='item' key={characters.data.name}>
+									<motion.div
+										className='item col-lg-2 col-md-3 col-5'
+										key={characters.data.name}
+									>
 										<img
 											src={characters.data.avatar}
 											alt={characters.data.name}

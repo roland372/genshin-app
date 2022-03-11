@@ -1,15 +1,14 @@
 import React from 'react';
-// import characters from '../../pages/characters';
 import CardComponent from '../Layout/CardComponent';
 import Ascension from './Ascension';
 
 const Ascensions = props => {
 	return (
 		<CardComponent title='Ascensions'>
-			<div className='mx-3 table-responsive'>
+			<div className='mx-2 table-responsive'>
 				<section>
 					<table
-						className='table table-sm table-dark table-striped align-middle text-center table-bordered'
+						className='table table-sm table-dark table-striped table-hover align-middle text-center table-bordered'
 						style={{ minWidth: '900px' }}
 					>
 						<thead>

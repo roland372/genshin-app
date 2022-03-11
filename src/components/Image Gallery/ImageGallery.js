@@ -63,7 +63,7 @@ const ImageGallery = () => {
 			<CardComponent title='Image Gallery'>
 				<Namecards characters={filteredCharacters} handleClick={handleClick} />
 				<Avatar characters={filteredCharacters} />
-				<Card characters={filteredCharacters} handleClick={handleClick} />
+				<Card characters={filteredCharacters} />
 				{clickedImage && (
 					<Modal
 						clickedImage={clickedImage}

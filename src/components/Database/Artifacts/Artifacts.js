@@ -10,8 +10,8 @@ const Artifacts = () => {
 			<CardComponent title='Artifacts'>
 				<div className='table-responsive mx-3'>
 					<table
-						className='table table-dark align-middle'
-						style={{ minWidth: '650px' }}
+						className='table table-sm table-striped table-hover table-dark align-middle'
+						style={{ minWidth: '400px' }}
 					>
 						<thead>
 							<tr>
@@ -34,33 +34,6 @@ const Artifacts = () => {
 									/>
 								);
 							})}
-							{/* <Artifact
-								name='Adventurer'
-								image={ArtifactImage}
-								bonus1='Electro DMG Bonus +15%'
-								bonus2='Increases damage caused by Overloaded,
-								Electro-Charged and Superconduct by 40%. Triggering such
-								effects decreases Elemental Skill CD by 1s. Can only occur
-								once every 0.8s.'
-							/>
-							<Artifact
-								name='Adventurer'
-								image={ArtifactImage}
-								bonus1='Electro DMG Bonus +15%'
-								bonus2='Increases damage caused by Overloaded,
-								Electro-Charged and Superconduct by 40%. Triggering such
-								effects decreases Elemental Skill CD by 1s. Can only occur
-								once every 0.8s.'
-							/>
-							<Artifact
-								name='Adventurer'
-								image={ArtifactImage}
-								bonus1='Electro DMG Bonus +15%'
-								bonus2='Increases damage caused by Overloaded,
-								Electro-Charged and Superconduct by 40%. Triggering such
-								effects decreases Elemental Skill CD by 1s. Can only occur
-								once every 0.8s.'
-							/> */}
 						</tbody>
 					</table>
 				</div>

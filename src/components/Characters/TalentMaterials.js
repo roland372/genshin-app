@@ -5,10 +5,10 @@ import TalentMaterial from './TalentMaterial';
 const TalentMaterials = props => {
 	return (
 		<CardComponent title='Talent Leveling Materials'>
-			<div className='mx-3 table-responsive'>
+			<div className='mx-2 table-responsive'>
 				<section>
 					<table
-						className='table table-sm table-dark table-striped align-middle text-center table-bordered'
+						className='table table-sm table-dark table-striped table-hover align-middle text-center table-bordered'
 						style={{ minWidth: '700px' }}
 					>
 						<thead>
