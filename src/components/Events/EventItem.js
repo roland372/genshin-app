@@ -3,7 +3,11 @@ import React from 'react';
 const EventItem = props => {
 	return (
 		<tr>
-			<td width='400px'>
+			<td
+				style={{
+					width: '400px',
+				}}
+			>
 				<img src={props.image} className='img-fluid' alt='' />
 			</td>
 			<td>

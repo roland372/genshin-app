@@ -6,8 +6,8 @@ const TalentBooksMonday = props => {
 		<section>
 			<div className='table-responsive mx-3'>
 				<table
-					className='table table-hover table-striped table-dark align-middle'
-					style={{ minWidth: '600px' }}
+					className='table table-sm table-hover table-striped table-dark align-middle'
+					style={{ minWidth: '400px' }}
 				>
 					<thead>
 						<tr>

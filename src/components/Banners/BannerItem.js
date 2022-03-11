@@ -5,7 +5,7 @@ const BannerItem = props => {
 		<tr>
 			<td
 				style={{
-					maxWidth: '400px',
+					width: '400px',
 				}}
 			>
 				<img src={props.image} className='img-fluid' alt='' />

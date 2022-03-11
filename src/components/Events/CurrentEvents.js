@@ -7,8 +7,8 @@ const CurrentEvents = props => {
 		<CardComponent title='Current Events'>
 			<div className='table-responsive mx-3'>
 				<table
-					className='table table-dark table-striped table-sm align-middle'
-					style={{ minWidth: '700px' }}
+					className='table table-dark table-striped table-sm table-hover align-middle'
+					style={{ minWidth: '400px' }}
 				>
 					<thead>
 						<tr>

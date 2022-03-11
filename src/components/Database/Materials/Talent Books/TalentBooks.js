@@ -9,8 +9,8 @@ const TalentBooks = props => {
 				<h4 className='text-center my-2 mx-3 p-2 border-bottom'>Mondstadt</h4>
 				<div className='table-responsive mx-3'>
 					<table
-						className='table table-hover table-striped table-dark align-middle'
-						style={{ minWidth: '600px' }}
+						className='table table-sm table-hover table-striped table-dark align-middle'
+						style={{ minWidth: '400px' }}
 					>
 						<thead>
 							<tr>
@@ -43,8 +43,8 @@ const TalentBooks = props => {
 				<h4 className='text-center my-2 mx-3 p-2 border-bottom'>Liyue</h4>
 				<div className='table-responsive mx-3'>
 					<table
-						className='table table-hover table-striped table-dark align-middle'
-						style={{ minWidth: '600px' }}
+						className='table table-sm table-hover table-striped table-dark align-middle'
+						style={{ minWidth: '400px' }}
 					>
 						<thead>
 							<tr>
@@ -77,8 +77,8 @@ const TalentBooks = props => {
 				<h4 className='text-center my-2 mx-3 p-2 border-bottom'>Inazuma</h4>
 				<div className='table-responsive mx-3'>
 					<table
-						className='table table-hover table-striped table-dark align-middle'
-						style={{ minWidth: '600px' }}
+						className='table table-sm table-hover table-striped table-dark align-middle'
+						style={{ minWidth: '400px' }}
 					>
 						<thead>
 							<tr>

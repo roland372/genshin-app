@@ -11,7 +11,7 @@ const TalentBook = props => {
 				>
 					<img
 						src={`/images/Materials/Character Materials/Talents/${props.talentBook}/Item_Teachings_of_${props.talentBook}.png`}
-						width='75px'
+						width='60px'
 						alt={props.talentBook}
 					/>
 				</OverlayTrigger>
@@ -32,7 +32,7 @@ const TalentBook = props => {
 									// key={character.name}
 									className='img-fluid'
 									src={character.image}
-									width='75px'
+									width='60px'
 									alt={character.name}
 									// title={character.name}
 								/>
