@@ -7,8 +7,8 @@ const CurrentBanners = props => {
 		<CardComponent title='Current Banners'>
 			<div className='table-responsive mx-3'>
 				<table
-					className='table table-dark table-striped table-sm align-middle'
-					style={{ minWidth: '600px' }}
+					className='table table-dark table-striped table-sm table-hover align-middle'
+					style={{ minWidth: '400px' }}
 				>
 					<thead>
 						<tr>
