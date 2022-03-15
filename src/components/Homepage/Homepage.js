@@ -3,7 +3,8 @@ import Container from '../Layout/Container';
 import GeneralInfo from './GeneralInfo';
 import CurrentBanners from '../Banners/CurrentBanners';
 import CurrentEvents from '../Events/CurrentEvents';
-import Domains from './Domains';
+import CharacterDomains from './CharacterDomains';
+import WeaponDomains from './WeaponDomains';
 import Links from './Links';
 
 const Homepage = props => {
@@ -12,7 +13,8 @@ const Homepage = props => {
 			<GeneralInfo />
 			<CurrentBanners bannersData={props.bannersData} />
 			<CurrentEvents eventsData={props.eventsData} />
-			<Domains />
+			<CharacterDomains />
+			<WeaponDomains />
 			<Links />
 		</Container>
 	);

@@ -6,7 +6,7 @@ import TalentBooksWednesday from '../Database/Materials/Talent Books/TalentBooks
 import TalentBooksSunday from '../Database/Materials/Talent Books/TalentBooksSunday';
 import charactersData from '../../assets/data/Characters/characters.json';
 
-const Domains = () => {
+const CharacterDomains = () => {
 	const days = [
 		'Sunday',
 		'Monday',
@@ -18,7 +18,7 @@ const Domains = () => {
 	];
 	const date = new Date();
 	const day = days[date.getDay()];
-	console.log(day);
+	// console.log(day);
 
 	if (day === 'Monday' || day === 'Thursday') {
 		return (
@@ -47,4 +47,4 @@ const Domains = () => {
 	}
 };
 
-export default Domains;
+export default CharacterDomains;
