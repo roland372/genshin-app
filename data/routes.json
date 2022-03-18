@@ -1,0 +1,5 @@
+{
+  "/team-builder/teams" : "/teams",
+  "/team-builder/teams/:id" : "/teams/:id",
+  "/team-builder/teams/edit:id" : "/teams/edit:id"
+}

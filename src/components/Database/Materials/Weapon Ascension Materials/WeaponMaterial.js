@@ -32,12 +32,12 @@ const WeaponMaterial = props => {
 								overlay={<Tooltip>{weapon.name}</Tooltip>}
 							>
 								<img
-									key={weapon.name}
+									// key={weapon.name}
 									className='img-fluid'
 									src={weapon.image}
 									width='60px'
 									alt={weapon.name}
-									title={weapon.name}
+									// title={weapon.name}
 								/>
 							</OverlayTrigger>
 						) : null
