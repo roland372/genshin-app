@@ -1,5 +1,5 @@
 import React from 'react';
-import TeamBuilder from '../components/TeamBuilder/TeamBuilder';
+import TeamBuilder from '../components/TeamBuilder/components/TeamBuilder';
 
 const teamBuilder = () => {
 	return <TeamBuilder />;

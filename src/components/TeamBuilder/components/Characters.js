@@ -1,13 +1,9 @@
 import React from 'react';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
-const Characters2 = props => {
+const Characters = props => {
 	return (
 		<div>
-			<div className='mx-2 pb-1 text-light'>
-				<hr />
-				<h4 className='text-start'>{props.heading}</h4>
-			</div>
 			<section className='d-flex flex-row justify-content-between align-items-center'>
 				{props.filterCharacters(props.array).map(character => {
 					const { name, image, rarity, elementImage, element } = character;
@@ -19,7 +15,7 @@ const Characters2 = props => {
 					return (
 						<div key={name} className='mx-2'>
 							<OverlayTrigger
-								placement='bottom'
+								placement='top'
 								overlay={
 									<Tooltip>
 										<div>
@@ -50,4 +46,4 @@ const Characters2 = props => {
 	);
 };
 
-export default Characters2;
+export default Characters;

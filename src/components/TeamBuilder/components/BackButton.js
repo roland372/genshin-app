@@ -9,9 +9,8 @@ const BackButton = props => {
 					Back to Team Builder
 				</Link>
 			</div>
-			<div className='mx-2 pb-1'>
+			<div className='mx-2'>
 				<hr />
-				<h4 className='text-start'>{props.heading}</h4>
 			</div>
 			{props.children}
 		</section>

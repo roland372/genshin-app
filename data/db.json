@@ -1,66 +1,6 @@
 {
   "teams": [
     {
-      "name": "team 1",
-      "teamMembers": [
-        "Arataki Itto",
-        "Bennett",
-        "Chongyun",
-        "Traveler Anemo"
-      ],
-      "id": 10
-    },
-    {
-      "name": "team 2",
-      "teamMembers": [
-        "Albedo",
-        "Arataki Itto",
-        "Aloy",
-        "Amber"
-      ],
-      "id": 11
-    },
-    {
-      "name": "team 3",
-      "teamMembers": [
-        "Diluc",
-        "Razor",
-        "Sayu",
-        "Lisa"
-      ],
-      "id": 12
-    },
-    {
-      "name": "friendship",
-      "teamMembers": [
-        "Yae Miko",
-        "Fischl",
-        "Sangonomiya Kokomi",
-        "Kaedehara Kazuha"
-      ],
-      "id": 13
-    },
-    {
-      "name": "test",
-      "teamMembers": [
-        "Kaedehara Kazuha",
-        "Kamisato Ayaka",
-        "Sangonomiya Kokomi",
-        "Raiden Shogun"
-      ],
-      "id": 14
-    },
-    {
-      "name": "team 1",
-      "teamMembers": [
-        "Albedo",
-        "Aloy",
-        "Amber",
-        "Arataki Itto"
-      ],
-      "id": 15
-    },
-    {
       "name": "123",
       "teamMembers": [
         "Albedo",
@@ -68,47 +8,41 @@
         "Arataki Itto",
         "Amber"
       ],
+      "description": "test",
       "id": 16
     },
     {
-      "name": "123123123",
+      "name": "444",
       "teamMembers": [
         "Albedo",
         "Aloy",
         "Amber",
         "Arataki Itto"
       ],
+      "description": "",
       "id": 17
     },
     {
-      "name": "team name",
+      "name": "9999",
       "teamMembers": [
         "Albedo",
         "Aloy",
         "Amber",
         "Arataki Itto"
       ],
+      "description": "",
       "id": 18
     },
     {
-      "name": "friendship team",
+      "name": "9",
       "teamMembers": [
         "Albedo",
-        "Kujou Sara",
-        "Bennett",
-        "Amber"
+        "Aloy",
+        "Amber",
+        "Arataki Itto"
       ],
+      "description": "",
       "id": 19
-    },
-    {
-      "name": "testseasdfasdfasd",
-      "teamMembers": [
-        "Jean",
-        "Hu Tao",
-        "Kujou Sara",
-        "Kaeya"
-      ],
-      "id": 20
     }
   ]
 }
