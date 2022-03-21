@@ -43,6 +43,17 @@
       ],
       "description": "",
       "id": 19
+    },
+    {
+      "name": "team 1",
+      "teamMembers": [
+        "Aloy",
+        "Bennett",
+        "Diona",
+        "Beidou"
+      ],
+      "description": "laskdf;laskdd;flksad;f",
+      "id": 20
     }
   ]
 }

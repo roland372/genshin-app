@@ -12,7 +12,11 @@ const ImageGallery = () => {
 		c =>
 			c.data.name !== 'Traveler Anemo' &&
 			c.data.name !== 'Traveler Geo' &&
-			c.data.name !== 'Traveler Electro'
+			c.data.name !== 'Traveler Electro' &&
+			c.data.name !== 'Traveler Dendro' &&
+			c.data.name !== 'Traveler Hydro' &&
+			c.data.name !== 'Traveler Pyro' &&
+			c.data.name !== 'Traveler Cryo'
 	);
 
 	const [clickedImage, setClickedImage] = useState(null);

@@ -21,6 +21,7 @@ import calculator from './pages/calculator';
 import banners from './pages/banners';
 import database from './pages/database';
 import todoList from './pages/todoList';
+import charts from './pages/charts';
 import changelog from './pages/changelog';
 import achievements from './pages/achievements';
 import test from './pages/test';
@@ -29,6 +30,7 @@ import Layout from './components/Layout/Layout';
 // <--- Styles --->
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import ScrollToTop from './components/Layout/ScrollToTop';
 
 function App() {
 	// const { url } = useRouteMatch;
@@ -36,6 +38,7 @@ function App() {
 	return (
 		<Fragment>
 			<Router>
+				<ScrollToTop />
 				<Layout>
 					<Switch>
 						<Route exact path='/' component={home} />
@@ -50,6 +53,7 @@ function App() {
 						<Route path='/calculator' component={calculator} />
 						<Route path='/database' component={database} />
 						<Route path='/todoList' component={todoList} />
+						<Route path='/charts' component={charts} />
 						<Route path='/changelog' component={changelog} />
 						<Route path='/achievements' component={achievements} />
 						<Route path='/test' component={test} />

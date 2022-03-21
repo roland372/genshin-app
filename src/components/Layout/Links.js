@@ -58,6 +58,11 @@ export const navLinks = [
 		text: 'Todo List',
 	},
 	{
+		id: 11,
+		url: '/charts',
+		text: 'Charts',
+	},
+	{
 		id: 100,
 		url: '/test',
 		text: 'Test',
