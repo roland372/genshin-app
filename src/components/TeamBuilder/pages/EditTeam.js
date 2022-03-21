@@ -76,10 +76,10 @@ const EditTeam = props => {
 			history.push('/team-builder/');
 		}
 	};
-	console.log('team members: ', team.teamMembers, team.teamMembers.length);
-	console.log('select: ', team.teamMembers, select.length);
+	// console.log('team members: ', team.teamMembers, team.teamMembers.length);
+	// console.log('select: ', team.teamMembers, select.length);
 
-	console.log('previous team: ', previousTeam.current);
+	// console.log('previous team: ', previousTeam.current);
 
 	return (
 		<Container>

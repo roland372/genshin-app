@@ -2,11 +2,20 @@ import React from 'react';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 const Characters = props => {
+	// console.log(props.array);
+	// console.log(props.filterCharacters(props.array));
+
 	return (
 		<div>
 			<section className='d-flex flex-row justify-content-between align-items-center'>
 				{props.filterCharacters(props.array).map(character => {
 					const { name, image, rarity, elementImage, element } = character;
+
+					// console.log('correct order:', props.array);
+					// console.log("'wrong order:',", character.name);
+
+					// const arr = [(props.array[0] = character)];
+					// console.log(arr);
 
 					let rarityColor = '';
 					rarity === 5

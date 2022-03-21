@@ -50,8 +50,6 @@ const AddTeam = props => {
 		}
 	};
 
-	console.log(team.teamMembers.length);
-
 	return (
 		<Container>
 			<CardComponent title='Add Team'>

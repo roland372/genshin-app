@@ -16,8 +16,14 @@ const TeamBuilder = () => {
 		const filteredCharacters = characters.characters.filter(character =>
 			teamsArray.includes(character.name)
 		);
-
+		// console.log(teamsArray);
 		// console.log(filteredCharacters);
+
+		// sort characters so it matches order in which they are selected
+		filteredCharacters.sort((a, b) => {
+			return teamsArray.indexOf(a.name) - teamsArray.indexOf(b.name);
+		});
+
 		return filteredCharacters;
 	};
 
