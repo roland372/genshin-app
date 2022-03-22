@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import Teams from '../pages/Teams';
-import AddTeam from '../pages/AddTeam';
-import EditTeam from '../pages/EditTeam';
-import Team from './Team';
+import Teams from './Teams';
+import AddTeam from './AddTeam';
+import EditTeam from './EditTeam';
+import Team from '../components/Team';
 
 import characters from '../../../assets/data/Characters/characters.json';
 

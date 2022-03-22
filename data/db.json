@@ -1,81 +1,59 @@
 {
   "teams": [
     {
-      "name": "123",
+      "name": "Yae Miko",
       "teamMembers": [
+        "Yae Miko",
+        "Fischl",
+        "Sangonomiya Kokomi",
+        "Kaedehara Kazuha"
+      ],
+      "description": "",
+      "id": 23
+    },
+    {
+      "name": "Hu Tao",
+      "teamMembers": [
+        "Hu Tao",
+        "Xingqiu",
         "Albedo",
-        "Aloy",
-        "Arataki Itto",
-        "Amber"
+        "Zhongli"
+      ],
+      "description": "",
+      "id": 24
+    },
+    {
+      "name": "Ganyu",
+      "teamMembers": [
+        "Ganyu",
+        "Shenhe",
+        "Sangonomiya Kokomi",
+        "Kaedehara Kazuha"
+      ],
+      "description": "",
+      "id": 25
+    },
+    {
+      "name": "Tartaglia",
+      "teamMembers": [
+        "Tartaglia",
+        "Xiangling",
+        "Bennett",
+        "Kaedehara Kazuha"
+      ],
+      "description": "",
+      "id": 26
+    },
+    {
+      "name": "Raiden",
+      "teamMembers": [
+        "Raiden Shogun",
+        "Kujou Sara",
+        "Bennett",
+        "Kaedehara Kazuha"
       ],
       "description": "test",
-      "id": 16
-    },
-    {
-      "name": "444",
-      "teamMembers": [
-        "Albedo",
-        "Aloy",
-        "Amber",
-        "Arataki Itto"
-      ],
-      "description": "",
-      "id": 17
-    },
-    {
-      "name": "9999",
-      "teamMembers": [
-        "Albedo",
-        "Aloy",
-        "Amber",
-        "Arataki Itto"
-      ],
-      "description": "",
-      "id": 18
-    },
-    {
-      "name": "9",
-      "teamMembers": [
-        "Albedo",
-        "Aloy",
-        "Amber",
-        "Arataki Itto"
-      ],
-      "description": "",
-      "id": 19
-    },
-    {
-      "name": "team 1",
-      "teamMembers": [
-        "Aloy",
-        "Bennett",
-        "Diona",
-        "Beidou"
-      ],
-      "description": "laskdf;laskdd;flksad;f",
-      "id": 20
-    },
-    {
-      "name": "hellohhhh",
-      "teamMembers": [
-        "Klee",
-        "Bennett",
-        "Barbara",
-        "Aloy"
-      ],
-      "description": "",
-      "id": 21
-    },
-    {
-      "name": "hello",
-      "teamMembers": [
-        "Chongyun",
-        "Barbara",
-        "Mona",
-        "Albedo"
-      ],
-      "description": "",
-      "id": 22
+      "id": 27
     }
   ]
 }
