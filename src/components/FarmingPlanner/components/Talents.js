@@ -22,10 +22,11 @@ const Talents = props => {
 		EBLow,
 		setEBLow,
 		setEBHigh,
+		onInputChange,
 	} = props;
 
 	return (
-		<section className='d-flex flex-column'>
+		<section className='d-flex flex-column text-light'>
 			{characterSelect && (
 				<section className='border d-inline-block'>
 					<div className='d-flex align-items-center justify-content-center p-3'>
@@ -229,7 +230,7 @@ const Talents = props => {
 					<div key={c.data.name}></div>
 				)
 			)}
-			{characterSelect && (
+			{/* {characterSelect && (
 				<div className='border'>
 					<div>Templates</div>
 					<button
@@ -278,7 +279,7 @@ const Talents = props => {
 						80-8-8-8
 					</button>
 				</div>
-			)}
+			)} */}
 		</section>
 	);
 };

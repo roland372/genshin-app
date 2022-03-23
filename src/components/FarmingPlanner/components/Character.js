@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Character = (props) => {
-  const {characters, characterSelect} = props
+const Character = props => {
+	const { characters, characterSelect } = props;
 	return (
 		<section>
-			<div className=''>
+			<div className='text-light'>
 				{characters.characters.map(c =>
 					c.name === characterSelect ? (
 						<div

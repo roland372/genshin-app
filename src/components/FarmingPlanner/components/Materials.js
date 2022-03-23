@@ -28,7 +28,7 @@ const Materials = props => {
 	} = props;
 
 	return (
-		<section>
+		<section className='text-light'>
 			{charactersData.map(c =>
 				characterSelect === c.data.name ? (
 					<section className='border d-flex flex-wrap' key={c.data.name}>

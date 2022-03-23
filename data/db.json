@@ -55,5 +55,29 @@
       "description": "test",
       "id": 27
     }
+  ],
+  "characters" : [
+    {
+      "name": "Ganyu",
+      "levelLow": 1,
+      "levelHigh": 10,
+      "NALow": 2,
+      "NAHigh": 8,
+      "ESLow": 1,
+      "ESHigh": 10,
+      "EBLow": 6,
+      "EBHigh": 7
+    },
+    {
+      "name": "Albedo",
+      "levelLow": 1,
+      "levelHigh": 10,
+      "NALow": 2,
+      "NAHigh": 8,
+      "ESLow": 1,
+      "ESHigh": 10,
+      "EBLow": 6,
+      "EBHigh": 7
+    }
   ]
 }

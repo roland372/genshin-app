@@ -1,19 +1,26 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import { useHistory } from 'react-router-dom';
+
 import Select from 'react-select';
+import Container from '../../Layout/Container';
+import CardComponent from '../../Layout/CardComponent';
 
 import levelOptions from '../utils/levelOptions';
 import talentOptions from '../utils/talentOptions';
 import { characterLevelUp } from '../utils/materials';
 import { talentLevelUp } from '../utils/materials';
 
+import Form from '../components/Form';
 import Character from '../components/Character';
+import SubmitButton from '../components/SubmitButton';
 import Talents from '../components/Talents';
 import Materials from '../components/Materials';
-import Container from '../../Layout/Container';
-import CardComponent from '../../Layout/CardComponent';
 
 const AddCharacter = props => {
-	const { charactersData, characters } = props;
+	let { charactersData, characters } = props;
+
+	let history = useHistory();
 
 	// NA - normal attack
 	// ES - elemental skill
@@ -26,11 +33,23 @@ const AddCharacter = props => {
 	let [ESHigh, setESHigh] = useState(1);
 	let [EBLow, setEBLow] = useState(1);
 	let [EBHigh, setEBHigh] = useState(1);
-	const [characterSelect, setCharacterSelect] = useState('');
+	let [characterSelect, setCharacterSelect] = useState('');
 	// console.log('Level: ', levelLow, levelHigh);
 	// console.log('NA: ', NALow, NAHigh);
 	// console.log('ES: ', ESLow, ESHigh);
 	// console.log('EB: ', EBLow, EBHigh);
+
+	let [character, setCharacter] = useState({
+		name: '',
+		levelLow: 1,
+		levelHigh: 1,
+		NALow: 1,
+		NAHigh: 1,
+		ESLow: 1,
+		ESHigh: 1,
+		EBLow: 1,
+		EBHigh: 1,
+	});
 
 	// <----- character level up state ----->
 	const [moraCharacter, setMoraCharacter] = useState(0);
@@ -293,20 +312,69 @@ const AddCharacter = props => {
 		return characterNames.push({ value: c.name, label: c.name });
 	});
 
+	// character.name = 'test';
+
+	const onInputChange = e => {
+		// setCharacter({ ...character, [e.target.name]: e.target.value });
+		// setCharacter()
+		// console.log(e);
+		// console.log(character.name);
+		// setCharacter((character.name = e));
+		// console.log(e);
+		// console.log(e);
+		// setCharacter({ ...character, name: e });
+		// setCharacter({ ...character, name: e });
+		// console.log(characterSelect);
+		// console.log(character);
+		// console.log(character);
+		// setCharacter(character.name = e);
+		// console.log(typeof e);
+		// console.log(typeof character.name);
+	};
+
+	// console.log(character);
+
+	const onSubmit = async e => {
+		e.preventDefault();
+		setCharacter({
+			...character,
+			name: characterSelect,
+			levelLow: levelLow,
+			levelHigh: levelHigh,
+			NALow: NALow,
+			NAHigh: NAHigh,
+			ESLow: ESLow,
+			ESHigh: ESHigh,
+			EBLow: EBLow,
+			EBHigh: EBHigh,
+		});
+		// setCharacter({ ...character, levelLow: levelLow });
+		// setCharacter({ ...character, levelHigh: levelHigh });
+		// setCharacter({ ...character, NALow: NALow });
+		// setCharacter({ ...character, NAHigh: NAHigh });
+		// setCharacter({ ...character, ESLow: ESLow });
+		// setCharacter({ ...character, ESHigh: ESHigh });
+		// setCharacter({ ...character, EBLow: EBLow });
+		// setCharacter({ ...character, EBHigh: EBHigh });
+		console.log('submitted');
+		// team.teamMembers = [...select];
+
+		// setFormErrors(validation(name, select));
+		// if (name.length !== 0 && select.length >= 4) {
+		// 	await axios.post('http://localhost:3003/team-builder/teams', team);
+		// 	history.push('/team-builder/');
+		// }
+	};
+
+	console.log(character);
+
+	// console.log(character);
+
 	return (
 		<Container>
 			<CardComponent title='Add Character'>
 				<section className='mx-2'>
-					<Select
-						className='text-dark'
-						options={characterNames}
-						onChange={e => setCharacterSelect(e.value)}
-					/>
-					<Character
-						characters={characters}
-						characterSelect={characterSelect}
-					/>
-					<Talents
+					<Form
 						levelOptions={levelOptions}
 						charactersData={charactersData}
 						talentOptions={talentOptions}
@@ -327,31 +395,45 @@ const AddCharacter = props => {
 						EBLow={EBLow}
 						setEBLow={setEBLow}
 						setEBHigh={setEBHigh}
-					/>
-					<Materials
-						charactersData={charactersData}
-						characterSelect={characterSelect}
-						moraCharacter={moraCharacter}
-						moraTalent={moraTalent}
-						expBooks={expBooks}
-						localSpeciality={localSpeciality}
-						characterCommonMaterial1={characterCommonMaterial1}
-						talentCommonMaterial1={talentCommonMaterial1}
-						characterCommonMaterial2={characterCommonMaterial2}
-						talentCommonMaterial2={talentCommonMaterial2}
-						characterCommonMaterial3={characterCommonMaterial3}
-						talentCommonMaterial3={talentCommonMaterial3}
-						bossAscensionMaterial={bossAscensionMaterial}
-						sliver={sliver}
-						fragments={fragments}
-						chunks={chunks}
-						gemstones={gemstones}
-						bronzeTalentBooks={bronzeTalentBooks}
-						silverTalentBooks={silverTalentBooks}
-						goldTalentBooks={goldTalentBooks}
-						bossMaterial={bossMaterial}
-						crown={crown}
-					/>
+						onSubmit={onSubmit}
+						characterNames={characterNames}
+						selectValues={characterSelect}
+						setCharacterSelect={setCharacterSelect}
+						onInputChange={onInputChange}
+						formErrors
+					>
+						<Character
+							characters={characters}
+							characterSelect={characterSelect}
+						/>
+						<Materials
+							charactersData={charactersData}
+							characterSelect={characterSelect}
+							moraCharacter={moraCharacter}
+							moraTalent={moraTalent}
+							expBooks={expBooks}
+							localSpeciality={localSpeciality}
+							characterCommonMaterial1={characterCommonMaterial1}
+							talentCommonMaterial1={talentCommonMaterial1}
+							characterCommonMaterial2={characterCommonMaterial2}
+							talentCommonMaterial2={talentCommonMaterial2}
+							characterCommonMaterial3={characterCommonMaterial3}
+							talentCommonMaterial3={talentCommonMaterial3}
+							bossAscensionMaterial={bossAscensionMaterial}
+							sliver={sliver}
+							fragments={fragments}
+							chunks={chunks}
+							gemstones={gemstones}
+							bronzeTalentBooks={bronzeTalentBooks}
+							silverTalentBooks={silverTalentBooks}
+							goldTalentBooks={goldTalentBooks}
+							bossMaterial={bossMaterial}
+							crown={crown}
+						/>
+						{characterSelect !== '' ? (
+							<SubmitButton text='Add Character' color='primary' />
+						) : null}
+					</Form>
 				</section>
 			</CardComponent>
 		</Container>

@@ -22,6 +22,7 @@ const AddTeam = props => {
 		description: '',
 	});
 
+
 	const { name, description } = team;
 
 	const [formErrors, setFormErrors] = useState({});

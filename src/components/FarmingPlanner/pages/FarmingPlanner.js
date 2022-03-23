@@ -26,7 +26,7 @@ const FarmingPlanner = () => {
 					<EditCharacter />
 				</Route>
 				<Route exact path='/farming-planner/characters/:id'>
-					<Characters />
+					<Character />
 				</Route>
 			</Switch>
 		</Router>
