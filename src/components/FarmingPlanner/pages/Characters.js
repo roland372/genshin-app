@@ -36,8 +36,8 @@ const Characters = props => {
 		loadCharacters();
 	};
 
-	characters && console.log(filterCharacters(namesArray));
-	characters && console.log(characters);
+	// characters && console.log(filterCharacters(namesArray));
+	// characters && console.log(characters);
 
 	// merge arrays, one filtered by names that has select values, and second containing images and other properties
 	const mergedCharacters = filterCharacters(namesArray).map(item => {
@@ -45,7 +45,7 @@ const Characters = props => {
 		return { ...item, ...obj };
 	});
 
-	console.log(mergedCharacters);
+	// console.log(mergedCharacters);
 
 	return (
 		<Container>

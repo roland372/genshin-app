@@ -10,7 +10,7 @@ import Character from './Character';
 import Materials from './Materials';
 
 const CharacterInfo = props => {
-	const { filterCharacters, charactersData, materialsData } = props;
+	const { charactersData, materialsData } = props;
 	let [character, setCharacter] = useState({
 		name: '',
 		levelLow: 1,

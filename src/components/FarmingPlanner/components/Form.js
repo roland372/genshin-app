@@ -29,10 +29,12 @@ const Form = props => {
 		onSubmit,
 		characterNames,
 		setCharacterSelect,
-		onInputChange,
+		// onInputChange,
 		formErrors,
 		children,
 	} = props;
+
+	// console.log(characterSelect);
 
 	return (
 		<section>
@@ -70,7 +72,7 @@ const Form = props => {
 					EBLow={EBLow}
 					setEBLow={setEBLow}
 					setEBHigh={setEBHigh}
-					onChange={e => onInputChange(e)}
+					// onChange={e => onInputChange(e)}
 				/>
 				{children}
 			</form>

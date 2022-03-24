@@ -17,7 +17,7 @@ import Materials from '../components/Materials';
 import BackButton from '../components/BackButton';
 
 const AddCharacter = props => {
-	let { charactersData, characters } = props;
+	let { charactersData, characters, characterNames } = props;
 
 	let history = useHistory();
 
@@ -305,12 +305,6 @@ const AddCharacter = props => {
 		setEBHigh(EBHigh);
 	}
 
-	// select array
-	const characterNames = [];
-	characters.map(c => {
-		return characterNames.push({ value: c.name, label: c.name });
-	});
-
 	useEffect(() => {
 		setCharacter({
 			...character,
@@ -463,7 +457,6 @@ const AddCharacter = props => {
 								charactersData={characters}
 								characterSelect={characterSelect}
 							/>
-
 							<Materials
 								charactersData={charactersData}
 								characterSelect={characterSelect}

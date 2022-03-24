@@ -25,6 +25,8 @@ const Talents = props => {
 		// onInputChange,
 	} = props;
 
+	// console.log(characterSelect);
+
 	return (
 		<section className='d-flex flex-column text-light'>
 			{characterSelect && (

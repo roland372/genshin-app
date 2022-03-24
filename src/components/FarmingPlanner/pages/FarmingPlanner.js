@@ -6,6 +6,9 @@ import AddCharacter from './AddCharacter';
 import EditCharacter from './EditCharacter';
 import CharacterInfo from '../components/CharacterInfo';
 
+import levelOptions from '../utils/levelOptions';
+import talentOptions from '../utils/talentOptions';
+
 import characters from '../../../assets/data/Characters/characters.json';
 import charactersData from '../../../constants/characters';
 
@@ -25,6 +28,11 @@ const FarmingPlanner = () => {
 		return filteredCharacters;
 	};
 
+	const characterNames = [];
+	characters.characters.map(c => {
+		return characterNames.push({ value: c.name, label: c.name });
+	});
+
 	return (
 		<Router>
 			<Switch>
@@ -40,13 +48,18 @@ const FarmingPlanner = () => {
 						characters={characters.characters}
 						filterCharacters={filterCharacters}
 						charactersData={charactersData}
+						characterNames={characterNames}
 					/>
 				</Route>
 				<Route exact path='/farming-planner/characters/edit/:id'>
 					<EditCharacter
 						characters={characters.characters}
 						filterCharacters={filterCharacters}
-						charactersData={charactersData}
+						charactersData={characters.characters}
+						characterNames={characterNames}
+						levelOptions={levelOptions}
+						talentOptions={talentOptions}
+						materialsData={charactersData}
 					/>
 				</Route>
 				<Route exact path='/farming-planner/characters/:id'>

@@ -1,7 +1,16 @@
 import React from 'react';
 
-const EditCharacter = () => {
-	return <div>EditCharacter</div>;
+import Container from '../../Layout/Container';
+import CardComponent from '../../Layout/CardComponent';
+
+const EditCharacter = props => {
+	return (
+		<Container>
+			<CardComponent title='Edit Character'>
+			
+			</CardComponent>
+		</Container>
+	);
 };
 
 export default EditCharacter;
