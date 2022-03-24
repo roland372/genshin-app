@@ -22,7 +22,7 @@ const Talents = props => {
 		EBLow,
 		setEBLow,
 		setEBHigh,
-		onInputChange,
+		// onInputChange,
 	} = props;
 
 	return (
@@ -37,6 +37,7 @@ const Talents = props => {
 							onChange={e => {
 								const value = parseInt(e.target.value);
 								setLevelLow(value);
+								// onInputChange(e.value);
 							}}
 						>
 							{levelOptions.map(o => (

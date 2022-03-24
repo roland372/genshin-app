@@ -54,9 +54,20 @@
       ],
       "description": "test",
       "id": 27
+    },
+    {
+      "name": "Noelle",
+      "teamMembers": [
+        "Noelle",
+        "Albedo",
+        "Bennett",
+        "Zhongli"
+      ],
+      "description": "",
+      "id": 28
     }
   ],
-  "characters" : [
+  "characters": [
     {
       "name": "Ganyu",
       "levelLow": 1,
@@ -66,18 +77,56 @@
       "ESLow": 1,
       "ESHigh": 10,
       "EBLow": 6,
-      "EBHigh": 7
+      "EBHigh": 7,
+      "id": 1
     },
     {
-      "name": "Albedo",
+      "name": "Qiqi",
       "levelLow": 1,
-      "levelHigh": 10,
-      "NALow": 2,
+      "levelHigh": 12,
+      "NALow": 1,
       "NAHigh": 8,
       "ESLow": 1,
-      "ESHigh": 10,
-      "EBLow": 6,
-      "EBHigh": 7
+      "ESHigh": 8,
+      "EBLow": 1,
+      "EBHigh": 8,
+      "id": 3
+    },
+    {
+      "name": "Arataki Itto",
+      "levelLow": 1,
+      "levelHigh": 1,
+      "NALow": 1,
+      "NAHigh": 1,
+      "ESLow": 1,
+      "ESHigh": 1,
+      "EBLow": 1,
+      "EBHigh": 1,
+      "id": 4
+    },
+    {
+      "name": "Gorou",
+      "levelLow": 1,
+      "levelHigh": 1,
+      "NALow": 1,
+      "NAHigh": 1,
+      "ESLow": 1,
+      "ESHigh": 1,
+      "EBLow": 1,
+      "EBHigh": 1,
+      "id": 5
+    },
+    {
+      "name": "Kamisato Ayaka",
+      "levelLow": 1,
+      "levelHigh": 1,
+      "NALow": 1,
+      "NAHigh": 1,
+      "ESLow": 1,
+      "ESHigh": 1,
+      "EBLow": 1,
+      "EBHigh": 1,
+      "id": 6
     }
   ]
 }

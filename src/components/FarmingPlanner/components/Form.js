@@ -45,7 +45,7 @@ const Form = props => {
 					// onChange={e => onInputChange(e.value)}
 					onChange={e => {
 						setCharacterSelect(e.value);
-						onInputChange(e.value);
+						// onInputChange(e.value);
 					}}
 				/>
 				<small className='text-danger d-flex m-2'>{formErrors.select}</small>

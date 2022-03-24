@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useHistory } from 'react-router-dom';
 
-import Select from 'react-select';
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
 
@@ -14,8 +13,8 @@ import { talentLevelUp } from '../utils/materials';
 import Form from '../components/Form';
 import Character from '../components/Character';
 import SubmitButton from '../components/SubmitButton';
-import Talents from '../components/Talents';
 import Materials from '../components/Materials';
+import BackButton from '../components/BackButton';
 
 const AddCharacter = props => {
 	let { charactersData, characters } = props;
@@ -308,34 +307,11 @@ const AddCharacter = props => {
 
 	// select array
 	const characterNames = [];
-	characters.characters.map(c => {
+	characters.map(c => {
 		return characterNames.push({ value: c.name, label: c.name });
 	});
 
-	// character.name = 'test';
-
-	const onInputChange = e => {
-		// setCharacter({ ...character, [e.target.name]: e.target.value });
-		// setCharacter()
-		// console.log(e);
-		// console.log(character.name);
-		// setCharacter((character.name = e));
-		// console.log(e);
-		// console.log(e);
-		// setCharacter({ ...character, name: e });
-		// setCharacter({ ...character, name: e });
-		// console.log(characterSelect);
-		// console.log(character);
-		// console.log(character);
-		// setCharacter(character.name = e);
-		// console.log(typeof e);
-		// console.log(typeof character.name);
-	};
-
-	// console.log(character);
-
-	const onSubmit = async e => {
-		e.preventDefault();
+	useEffect(() => {
 		setCharacter({
 			...character,
 			name: characterSelect,
@@ -348,16 +324,60 @@ const AddCharacter = props => {
 			EBLow: EBLow,
 			EBHigh: EBHigh,
 		});
-		// setCharacter({ ...character, levelLow: levelLow });
-		// setCharacter({ ...character, levelHigh: levelHigh });
-		// setCharacter({ ...character, NALow: NALow });
-		// setCharacter({ ...character, NAHigh: NAHigh });
-		// setCharacter({ ...character, ESLow: ESLow });
-		// setCharacter({ ...character, ESHigh: ESHigh });
-		// setCharacter({ ...character, EBLow: EBLow });
-		// setCharacter({ ...character, EBHigh: EBHigh });
+		// there's no need to for dependency character, it will cause rerendering loop
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [
+		characterSelect,
+		levelLow,
+		levelHigh,
+		NALow,
+		NAHigh,
+		ESLow,
+		ESHigh,
+		EBLow,
+		EBHigh,
+	]);
+
+	// const onInputChange = e => {
+	// 	setCharacter({
+	// 		...character,
+	// 		name: e,
+	// 		levelLow: levelLow,
+	// 		levelHigh: levelHigh,
+	// 		NALow: NALow,
+	// 		NAHigh: NAHigh,
+	// 		ESLow: ESLow,
+	// 		ESHigh: ESHigh,
+	// 		EBLow: EBLow,
+	// 		EBHigh: EBHigh,
+	// 	});
+	// 	console.log(character);
+	// };
+
+	const onSubmit = async e => {
+		e.preventDefault();
+
+		// setCharacter({
+		// 	...character,
+		// 	name: characterSelect,
+		// 	levelLow: levelLow,
+		// 	levelHigh: levelHigh,
+		// 	NALow: NALow,
+		// 	NAHigh: NAHigh,
+		// 	ESLow: ESLow,
+		// 	ESHigh: ESHigh,
+		// 	EBLow: EBLow,
+		// 	EBHigh: EBHigh,
+		// });
+
+		console.log(character);
 		console.log('submitted');
-		// team.teamMembers = [...select];
+
+		await axios.post(
+			'http://localhost:3003/farming-planner/characters',
+			character
+		);
+		history.push('/farming-planner/');
 
 		// setFormErrors(validation(name, select));
 		// if (name.length !== 0 && select.length >= 4) {
@@ -366,13 +386,10 @@ const AddCharacter = props => {
 		// }
 	};
 
-	console.log(character);
-
-	// console.log(character);
-
 	return (
 		<Container>
 			<CardComponent title='Add Character'>
+				<BackButton></BackButton>
 				<section className='mx-2'>
 					<Form
 						levelOptions={levelOptions}
@@ -399,7 +416,7 @@ const AddCharacter = props => {
 						characterNames={characterNames}
 						selectValues={characterSelect}
 						setCharacterSelect={setCharacterSelect}
-						onInputChange={onInputChange}
+						// onInputChange={onInputChange}
 						formErrors
 					>
 						<Character
