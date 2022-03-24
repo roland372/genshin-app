@@ -53,7 +53,8 @@ const FarmingPlanner = () => {
 					<CharacterInfo
 						characters={characters.characters}
 						filterCharacters={filterCharacters}
-						charactersData={charactersData}
+						charactersData={characters.characters}
+						materialsData={charactersData}
 					/>
 				</Route>
 			</Switch>

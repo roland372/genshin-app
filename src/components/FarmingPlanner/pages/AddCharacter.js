@@ -323,6 +323,26 @@ const AddCharacter = props => {
 			ESHigh: ESHigh,
 			EBLow: EBLow,
 			EBHigh: EBHigh,
+			moraCharacter: moraCharacter,
+			moraTalent: moraTalent,
+			expBooks: expBooks,
+			localSpeciality: localSpeciality,
+			characterCommonMaterial1: characterCommonMaterial1,
+			talentCommonMaterial1: talentCommonMaterial1,
+			characterCommonMaterial2: characterCommonMaterial2,
+			talentCommonMaterial2: talentCommonMaterial2,
+			characterCommonMaterial3: characterCommonMaterial3,
+			talentCommonMaterial3: talentCommonMaterial3,
+			bossAscensionMaterial: bossAscensionMaterial,
+			sliver: sliver,
+			fragments: fragments,
+			chunks: chunks,
+			gemstones: gemstones,
+			bronzeTalentBooks: bronzeTalentBooks,
+			silverTalentBooks: silverTalentBooks,
+			goldTalentBooks: goldTalentBooks,
+			bossMaterial: bossMaterial,
+			crown: crown,
 		});
 		// there's no need to for dependency character, it will cause rerendering loop
 		// eslint-disable-next-line react-hooks/exhaustive-deps
@@ -336,6 +356,26 @@ const AddCharacter = props => {
 		ESHigh,
 		EBLow,
 		EBHigh,
+		moraCharacter,
+		moraTalent,
+		expBooks,
+		localSpeciality,
+		characterCommonMaterial1,
+		talentCommonMaterial1,
+		characterCommonMaterial2,
+		talentCommonMaterial2,
+		characterCommonMaterial3,
+		talentCommonMaterial3,
+		bossAscensionMaterial,
+		sliver,
+		fragments,
+		chunks,
+		gemstones,
+		bronzeTalentBooks,
+		silverTalentBooks,
+		goldTalentBooks,
+		bossMaterial,
+		crown,
 	]);
 
 	// const onInputChange = e => {
@@ -389,69 +429,71 @@ const AddCharacter = props => {
 	return (
 		<Container>
 			<CardComponent title='Add Character'>
-				<BackButton></BackButton>
-				<section className='mx-2'>
-					<Form
-						levelOptions={levelOptions}
-						charactersData={charactersData}
-						talentOptions={talentOptions}
-						characterSelect={characterSelect}
-						levelLow={levelLow}
-						setLevelLow={setLevelLow}
-						levelHigh={levelHigh}
-						setLevelHigh={setLevelHigh}
-						NAHigh={NAHigh}
-						NALow={NALow}
-						setNALow={setNALow}
-						setNAHigh={setNAHigh}
-						ESHigh={ESHigh}
-						ESLow={ESLow}
-						setESLow={setESLow}
-						setESHigh={setESHigh}
-						EBHigh={EBHigh}
-						EBLow={EBLow}
-						setEBLow={setEBLow}
-						setEBHigh={setEBHigh}
-						onSubmit={onSubmit}
-						characterNames={characterNames}
-						selectValues={characterSelect}
-						setCharacterSelect={setCharacterSelect}
-						// onInputChange={onInputChange}
-						formErrors
-					>
-						<Character
-							characters={characters}
-							characterSelect={characterSelect}
-						/>
-						<Materials
+				<BackButton>
+					<section className='mx-2'>
+						<Form
+							levelOptions={levelOptions}
 							charactersData={charactersData}
+							talentOptions={talentOptions}
 							characterSelect={characterSelect}
-							moraCharacter={moraCharacter}
-							moraTalent={moraTalent}
-							expBooks={expBooks}
-							localSpeciality={localSpeciality}
-							characterCommonMaterial1={characterCommonMaterial1}
-							talentCommonMaterial1={talentCommonMaterial1}
-							characterCommonMaterial2={characterCommonMaterial2}
-							talentCommonMaterial2={talentCommonMaterial2}
-							characterCommonMaterial3={characterCommonMaterial3}
-							talentCommonMaterial3={talentCommonMaterial3}
-							bossAscensionMaterial={bossAscensionMaterial}
-							sliver={sliver}
-							fragments={fragments}
-							chunks={chunks}
-							gemstones={gemstones}
-							bronzeTalentBooks={bronzeTalentBooks}
-							silverTalentBooks={silverTalentBooks}
-							goldTalentBooks={goldTalentBooks}
-							bossMaterial={bossMaterial}
-							crown={crown}
-						/>
-						{characterSelect !== '' ? (
-							<SubmitButton text='Add Character' color='primary' />
-						) : null}
-					</Form>
-				</section>
+							levelLow={levelLow}
+							setLevelLow={setLevelLow}
+							levelHigh={levelHigh}
+							setLevelHigh={setLevelHigh}
+							NAHigh={NAHigh}
+							NALow={NALow}
+							setNALow={setNALow}
+							setNAHigh={setNAHigh}
+							ESHigh={ESHigh}
+							ESLow={ESLow}
+							setESLow={setESLow}
+							setESHigh={setESHigh}
+							EBHigh={EBHigh}
+							EBLow={EBLow}
+							setEBLow={setEBLow}
+							setEBHigh={setEBHigh}
+							onSubmit={onSubmit}
+							characterNames={characterNames}
+							selectValues={characterSelect}
+							setCharacterSelect={setCharacterSelect}
+							// onInputChange={onInputChange}
+							formErrors
+						>
+							<Character
+								charactersData={characters}
+								characterSelect={characterSelect}
+							/>
+
+							<Materials
+								charactersData={charactersData}
+								characterSelect={characterSelect}
+								moraCharacter={moraCharacter}
+								moraTalent={moraTalent}
+								expBooks={expBooks}
+								localSpeciality={localSpeciality}
+								characterCommonMaterial1={characterCommonMaterial1}
+								talentCommonMaterial1={talentCommonMaterial1}
+								characterCommonMaterial2={characterCommonMaterial2}
+								talentCommonMaterial2={talentCommonMaterial2}
+								characterCommonMaterial3={characterCommonMaterial3}
+								talentCommonMaterial3={talentCommonMaterial3}
+								bossAscensionMaterial={bossAscensionMaterial}
+								sliver={sliver}
+								fragments={fragments}
+								chunks={chunks}
+								gemstones={gemstones}
+								bronzeTalentBooks={bronzeTalentBooks}
+								silverTalentBooks={silverTalentBooks}
+								goldTalentBooks={goldTalentBooks}
+								bossMaterial={bossMaterial}
+								crown={crown}
+							/>
+							{characterSelect !== '' ? (
+								<SubmitButton text='Add Character' color='primary' />
+							) : null}
+						</Form>
+					</section>
+				</BackButton>
 			</CardComponent>
 		</Container>
 	);
