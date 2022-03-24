@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import { useHistory } from 'react-router-dom';
-import TeamDataService from '../services/team.services';
-
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
 
@@ -22,6 +21,7 @@ const AddTeam = props => {
 		teamMembers: [],
 		description: '',
 	});
+
 
 	const { name, description } = team;
 
@@ -46,16 +46,8 @@ const AddTeam = props => {
 
 		setFormErrors(validation(name, select));
 		if (name.length !== 0 && select.length >= 4) {
-			// await axios.post('http://localhost:3003/team-builder/teams', team);
-
-			console.log(team);
-			try {
-				await TeamDataService.addTeam(team);
-				console.log('team added to database');
-				history.push('/team-builder/');
-			} catch (err) {
-				console.log(err);
-			}
+			await axios.post('http://localhost:3003/team-builder/teams', team);
+			history.push('/team-builder/');
 		}
 	};
 

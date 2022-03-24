@@ -8,6 +8,8 @@ import Team from '../components/Team';
 
 import characters from '../../../assets/data/Characters/characters.json';
 
+// console.log(characters.characters);
+
 const TeamBuilder = () => {
 	// reusable function to filter out characters
 	const filterCharacters = teamsArray => {

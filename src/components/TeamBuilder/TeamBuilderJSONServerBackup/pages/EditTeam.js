@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
+import axios from 'axios';
 import { useHistory, useParams } from 'react-router-dom';
-import TeamDataService from '../services/team.services';
-
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
 
@@ -18,9 +17,6 @@ const EditTeam = props => {
 
 	const { id } = useParams();
 
-	// for some reason, when I don't fetch all teams, previous teams won't display
-	const [, setTeamsDatabase] = useState([]);
-
 	let [select, setSelect] = useState([]);
 	const [team, setTeam] = useState({
 		name: '',
@@ -34,7 +30,6 @@ const EditTeam = props => {
 
 	const onInputChange = e => {
 		setTeam({ ...team, [e.target.name]: e.target.value });
-		console.log(e.target.value);
 	};
 
 	const selectValues = e => {
@@ -45,43 +40,46 @@ const EditTeam = props => {
 	let previousTeam = useRef([]);
 
 	useEffect(() => {
-		getTeamDatabase(id);
-		getTeamsDatabase();
+		const loadTeam = async () => {
+			const result = await axios.get(
+				`http://localhost:3003/team-builder/teams/${id}`
+			);
+			previousTeam.current = [...result.data.teamMembers];
+			setTeam(result.data);
+			// console.log(result.data.teamMembers);
+		};
+
+		loadTeam();
 	}, [id]);
-
-	const getTeamsDatabase = async () => {
-		const data = await TeamDataService.getAllTeams();
-		// console.log(data.docs);
-		setTeamsDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
-	};
-
-	const getTeamDatabase = async id => {
-		const data = await TeamDataService.getTeam(id);
-		setTeam(data.data());
-		previousTeam.current = [...data.data().teamMembers];
-	};
 
 	// console.log('previous team: ', previousTeam.current);
 	// console.log('new team: ', select);
 
 	const onSubmit = async e => {
 		e.preventDefault();
-
 		select.length === 0
 			? (team.teamMembers = [...team.teamMembers])
 			: (team.teamMembers = [...select]);
 
 		setFormErrors(validation(name, team.teamMembers));
+		// if (name.length !== 0 && select.length >= 4) {
+		// 	await axios.put(`http://localhost:3003/team-builder/teams/${id}`, team);
+		// 	history.push('/team-builder/');
+		// }
 
 		if (name.length !== 0 && team.teamMembers.length >= 4) {
-			await TeamDataService.updateTeam(id, team);
+			await axios.put(`http://localhost:3003/team-builder/teams/${id}`, team);
 			history.push('/team-builder/');
 		} else if (name.length !== 0 && select.length === 0) {
 			team.teamMembers = [...previousTeam.current];
-			await TeamDataService.updateTeam(id, team);
+			await axios.put(`http://localhost:3003/team-builder/teams/${id}`, team);
 			history.push('/team-builder/');
 		}
 	};
+	// console.log('team members: ', team.teamMembers, team.teamMembers.length);
+	// console.log('select: ', team.teamMembers, select.length);
+
+	// console.log('previous team: ', previousTeam.current);
 
 	return (
 		<Container>

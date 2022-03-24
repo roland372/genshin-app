@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import { useParams } from 'react-router-dom';
-import TeamDataService from '../services/team.services';
 
 import CardComponent from '../../Layout/CardComponent';
 import Container from '../../Layout/Container';
@@ -21,15 +21,14 @@ const Team = props => {
 	const { id } = useParams();
 
 	useEffect(() => {
-		const getTeamDatabase = async id => {
-			const data = await TeamDataService.getTeam(id);
-			setTeam(data.data());
-			// console.log(data.data());
+		const loadTeam = async () => {
+			const res = await axios.get(`http://localhost:3003/teams/${id}`);
+			// console.log(res);
+			setTeam(res.data);
 		};
 
-		getTeamDatabase(id);
+		loadTeam();
 	}, [id]);
-
 
 	return (
 		<Container>

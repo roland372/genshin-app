@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import TeamDataService from '../services/team.services';
+import axios from 'axios';
 
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
@@ -9,27 +9,24 @@ import CharactersHeading from '../components/CharactersHeading';
 
 const Teams = props => {
 	const { filterCharacters } = props;
-
-	const [teamsDatabase, setTeamsDatabase] = useState([]);
+	const [teams, setTeams] = useState([]);
 
 	useEffect(() => {
-		getTeamsDatabase();
+		loadTeams();
 	}, []);
 
-	const getTeamsDatabase = async () => {
-		const data = await TeamDataService.getAllTeams();
-		// console.log(data.docs);
-		setTeamsDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
+	const loadTeams = async () => {
+		const result = await axios.get('http://localhost:3003/team-builder/teams');
+		setTeams(result.data.reverse());
 	};
 
 	const deleteTeam = async id => {
-		await TeamDataService.deleteTeam(id);
-		getTeamsDatabase();
+		await axios.delete(`http://localhost:3003/team-builder/teams/${id}`);
+		loadTeams();
 	};
 	return (
 		<Container>
 			<CardComponent title='Team Builder'>
-				{/* <pre>{JSON.stringify(teamsDatabase, undefined, 2)}</pre> */}
 				<div className='d-flex align-items-center justify-content-lg-start ms-2 pt-1'>
 					<Link className='btn btn-primary' to='/team-builder/teams/add/'>
 						Add Team
@@ -39,7 +36,7 @@ const Teams = props => {
 					<hr />
 				</div>
 				<section className='d-flex flex-wrap mx-2'>
-					{teamsDatabase.map((team, index) => (
+					{teams.map((team, index) => (
 						<section
 							key={index}
 							className='border border-light rounded shadow-lg p-2 col-lg-4 col-md-6 col-sm-12'
