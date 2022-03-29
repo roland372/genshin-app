@@ -63,6 +63,11 @@ export const navLinks = [
 		text: 'Charts',
 	},
 	{
+		id: 12,
+		url: '/about',
+		text: 'About',
+	},
+	{
 		id: 100,
 		url: '/test',
 		text: 'Test',

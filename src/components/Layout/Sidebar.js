@@ -13,7 +13,7 @@ const Sidebar = () => {
 	return (
 		<nav className='navbar navbar-dark sticky-top bg-dark'>
 			<div className='container'>
-				<NavLink className='navbar-brand' exact to='/'>
+				<NavLink className='navbar-brand ms-2' exact to='/'>
 					GenshinApp
 				</NavLink>
 				<Button
