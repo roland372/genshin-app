@@ -8,7 +8,7 @@ const About = () => {
 	return (
 		<Container>
 			<CardComponent title='About'>
-				<div className='mx-2'>
+				<section className='mx-2 text-start'>
 					<h5>
 						Genshin-App is a fanmade website for Genshin Impact game. Database
 						where you can have easy and quick access to most useful information
@@ -16,7 +16,7 @@ const About = () => {
 						domains, quickly calculate materials needed for leveling up or even
 						build your own teams.
 					</h5>
-					<h6>Here's full list of things that you can find on a website:</h6>
+					<p>Here's full list of things that you can find on a website:</p>
 					<ul className='list-group text-light'>
 						<li className='list-group-item list-group-item-dark'>
 							Current and past{' '}
@@ -103,7 +103,42 @@ const About = () => {
 							nations ascension stats or even talent books
 						</li>
 					</ul>
-				</div>
+				</section>
+				<section className='mx-2 text-start'>
+					<hr />
+					<h5 className='pb-2'>
+						Languages and technologies used in this project:
+					</h5>
+					<ul className='list-group text-light'>
+						<li className='list-group-item list-group-item-dark'>
+							ReactJS as main frontend framework
+						</li>
+						<li className='list-group-item list-group-item-dark'>
+							React Router for routing
+						</li>
+						<li className='list-group-item list-group-item-dark'>
+							Firestore Firebase as database
+						</li>
+						<li className='list-group-item list-group-item-dark'>
+							Axios for fetching data
+						</li>
+						<li className='list-group-item list-group-item-dark'>
+							ChartJS for charts
+						</li>
+						<li className='list-group-item list-group-item-dark'>
+							Framer Motion used in image gallery
+						</li>
+						<li className='list-group-item list-group-item-dark'>
+							React Select to have easier way of handling select inputs
+						</li>
+						<li className='list-group-item list-group-item-dark'>
+							Bootstrap v5.0 and React-Bootstrap for styling
+						</li>
+						<li className='list-group-item list-group-item-dark'>
+							CSS for some custom styles
+						</li>
+					</ul>
+				</section>
 			</CardComponent>
 		</Container>
 	);
