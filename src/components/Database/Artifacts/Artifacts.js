@@ -1,10 +1,17 @@
 import React from 'react';
+
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
+
 import Artifact from './Artifact';
+
 import data from '../../../assets/data/Artifacts/artifacts.json';
 
+import useDocumentTitle from '../../../hooks/useDocumentTitle';
+
 const Artifacts = () => {
+	useDocumentTitle('Artifacts');
+
 	return (
 		<Container>
 			<CardComponent title='Artifacts'>

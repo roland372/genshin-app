@@ -1,8 +1,7 @@
 import React from 'react';
+
 import CardComponent from '../../Layout/CardComponent';
 import Container from '../../Layout/Container';
-import characters from '../../../constants/characters';
-import charactersData from '../../../assets/data/Characters/characters.json';
 
 import Element from '../components/Element';
 import Weapon from '../components/Weapon';
@@ -14,7 +13,14 @@ import AscensionStat from '../components/AscensionStat';
 import CharacterStatsATKDEF from '../components/CharacterStatsATKDEF';
 import CharacterStatsHP from '../components/CharacterStatsHP';
 
+import characters from '../../../constants/characters';
+import charactersData from '../../../assets/data/Characters/characters.json';
+
+import useDocumentTitle from '../../../hooks/useDocumentTitle';
+
 const Charts = () => {
+	useDocumentTitle('Charts');
+
 	const charactersArray = characters.map(character => character);
 	const ascensionStat = charactersData.characters.map(
 		character => character.ascension

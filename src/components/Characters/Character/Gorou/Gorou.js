@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Gorou.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Gorou = () => {
+	useDocumentTitle('Gorou');
+
 	const {
 		name,
 		avatar,

@@ -13,7 +13,11 @@ import Ascensions from '../../../Ascensions';
 // <----- character data ----->
 import data from '../../../../../assets/data/Characters/Traveler Anemo.json';
 
+import useDocumentTitle from '../../../../../hooks/useDocumentTitle';
+
 const TravelerAnemo = () => {
+	useDocumentTitle('Traveler Anemo');
+
 	const {
 		name,
 		avatar,

@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import List from './List';
-import Alert from './Alert';
 
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
+
+import List from './List';
+import Alert from './Alert';
+
+import useDocumentTitle from '../../hooks/useDocumentTitle';
 
 const getLocalStorage = () => {
 	// get list from local storage
@@ -19,6 +22,8 @@ const getLocalStorage = () => {
 };
 
 const TodoList = () => {
+	useDocumentTitle('Todo List');
+
 	const [name, setName] = useState('');
 	const [list, setList] = useState(getLocalStorage());
 	const [isEditing, setIsEditing] = useState(false);

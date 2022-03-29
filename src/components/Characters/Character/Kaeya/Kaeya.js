@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Kaeya.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Kaeya = () => {
+	useDocumentTitle('Kaeya');
+
 	const {
 		name,
 		avatar,

@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Raiden Shogun.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const RaidenShogun = () => {
+	useDocumentTitle('Raiden Shogun');
+
 	const {
 		name,
 		avatar,

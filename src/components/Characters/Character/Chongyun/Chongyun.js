@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Chongyun.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Chongyun = () => {
+	useDocumentTitle('Chongyun');
+
 	const {
 		name,
 		avatar,

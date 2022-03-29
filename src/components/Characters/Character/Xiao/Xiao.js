@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Xiao.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Xiao = () => {
+	useDocumentTitle('Xiao');
+
 	const {
 		name,
 		avatar,

@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Diluc.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Diluc = () => {
+	useDocumentTitle('Diluc');
+
 	const {
 		name,
 		avatar,

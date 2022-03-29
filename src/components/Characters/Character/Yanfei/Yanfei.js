@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Yanfei.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Yanfei = () => {
+	useDocumentTitle('Yanfei');
+
 	const {
 		name,
 		avatar,

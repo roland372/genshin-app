@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Klee.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Klee = () => {
+	useDocumentTitle('Klee');
+
 	const {
 		name,
 		avatar,

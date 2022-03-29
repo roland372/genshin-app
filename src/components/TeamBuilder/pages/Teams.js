@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+
 import TeamDataService from '../services/team.services';
 
 import Container from '../../Layout/Container';
@@ -7,7 +8,11 @@ import CardComponent from '../../Layout/CardComponent';
 import Characters from '../components/Characters';
 import CharactersHeading from '../components/CharactersHeading';
 
+import useDocumentTitle from '../../../hooks/useDocumentTitle';
+
 const Teams = props => {
+	useDocumentTitle('Team Builder');
+
 	const { filterCharacters } = props;
 
 	const [teamsDatabase, setTeamsDatabase] = useState([]);

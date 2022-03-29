@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Yoimiya.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Yoimiya = () => {
+	useDocumentTitle('Yoimiya');
+
 	const {
 		name,
 		avatar,

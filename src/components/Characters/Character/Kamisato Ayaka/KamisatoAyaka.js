@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Kamisato Ayaka.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const KamisatoAyaka = () => {
+	useDocumentTitle('Kamisato Ayaka');
+
 	const {
 		name,
 		avatar,

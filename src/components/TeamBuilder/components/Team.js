@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+
 import TeamDataService from '../services/team.services';
 
 import CardComponent from '../../Layout/CardComponent';
@@ -9,7 +10,11 @@ import BackButton from './BackButton';
 import Characters from './Characters';
 import CharactersHeading from './CharactersHeading';
 
+import useDocumentTitle from '../../../hooks/useDocumentTitle';
+
 const Team = props => {
+	useDocumentTitle('View Team');
+
 	const { filterCharacters } = props;
 	const [team, setTeam] = useState({
 		name: '',
@@ -29,7 +34,6 @@ const Team = props => {
 
 		getTeamDatabase(id);
 	}, [id]);
-
 
 	return (
 		<Container>

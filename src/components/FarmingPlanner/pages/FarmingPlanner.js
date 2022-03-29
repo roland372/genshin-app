@@ -12,7 +12,11 @@ import talentOptions from '../utils/talentOptions';
 import characters from '../../../assets/data/Characters/characters.json';
 import charactersData from '../../../constants/characters';
 
+import useDocumentTitle from '../../../hooks/useDocumentTitle';
+
 const FarmingPlanner = () => {
+	useDocumentTitle('Farming Planner');
+
 	const filterCharacters = charactersArray => {
 		const filteredCharacters = characters.characters.filter(character =>
 			charactersArray.includes(character.name)

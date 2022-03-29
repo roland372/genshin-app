@@ -8,7 +8,11 @@ import Team from '../components/Team';
 
 import characters from '../../../assets/data/Characters/characters.json';
 
+import useDocumentTitle from '../../../hooks/useDocumentTitle';
+
 const TeamBuilder = () => {
+	useDocumentTitle('Team Builder');
+
 	// reusable function to filter out characters
 	const filterCharacters = teamsArray => {
 		const filteredCharacters = characters.characters.filter(character =>

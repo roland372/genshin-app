@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Sayu.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Sayu = () => {
+	useDocumentTitle('Sayu');
+
 	const {
 		name,
 		avatar,

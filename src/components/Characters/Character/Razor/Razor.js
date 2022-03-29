@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Razor.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Razor = () => {
+	useDocumentTitle('Razor');
+
 	const {
 		name,
 		avatar,

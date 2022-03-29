@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Ningguang.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Ningguang = () => {
+	useDocumentTitle('Ningguang');
+
 	const {
 		name,
 		avatar,

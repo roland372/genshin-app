@@ -16,7 +16,11 @@ import SubmitButton from '../components/SubmitButton';
 import Materials from '../components/Materials';
 import BackButton from '../components/BackButton';
 
+import useDocumentTitle from '../../../hooks/useDocumentTitle';
+
 const AddCharacter = props => {
+	useDocumentTitle('Add Character');
+
 	let { charactersData, characters, characterNames } = props;
 
 	let history = useHistory();

@@ -13,7 +13,11 @@ import Ascensions from '../../../Ascensions';
 // <----- character data ----->
 import data from '../../../../../assets/data/Characters/Traveler Electro.json';
 
+import useDocumentTitle from '../../../../../hooks/useDocumentTitle';
+
 const TravelerElectro = () => {
+	useDocumentTitle('Traveler Electro');
+
 	const {
 		name,
 		avatar,

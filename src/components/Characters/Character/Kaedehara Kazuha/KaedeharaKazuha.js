@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Kaedehara Kazuha.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const KaedeharaKazuha = () => {
+	useDocumentTitle('Kaedehara Kazuha');
+
 	const {
 		name,
 		avatar,

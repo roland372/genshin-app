@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Beidou.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Beidou = () => {
+	useDocumentTitle('Beidou');
+
 	const {
 		name,
 		avatar,

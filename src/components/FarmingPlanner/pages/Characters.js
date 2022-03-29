@@ -8,7 +8,11 @@ import axios from 'axios';
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
 
+import useDocumentTitle from '../../../hooks/useDocumentTitle';
+
 const Characters = props => {
+	useDocumentTitle('Farming Planner');
+
 	const { filterCharacters } = props;
 	let [characters, setCharacters] = useState(null);
 

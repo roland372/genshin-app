@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom';
 import Container from '../../components/Layout/Container';
 import CardComponent from '../../components/Layout/CardComponent';
 
+import useDocumentTitle from '../../hooks/useDocumentTitle';
+
 const About = () => {
+	useDocumentTitle('About');
+
 	return (
 		<Container>
 			<CardComponent title='About'>

@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Diona.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Diona = () => {
+	useDocumentTitle('Diona');
+
 	const {
 		name,
 		avatar,

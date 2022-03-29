@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Eula.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Eula = () => {
+	useDocumentTitle('Eula');
+
 	const {
 		name,
 		avatar,

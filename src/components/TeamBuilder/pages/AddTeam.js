@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
+
 import TeamDataService from '../services/team.services';
 
 import Container from '../../Layout/Container';
@@ -12,7 +13,11 @@ import SubmitButton from '../components/SubmitButton';
 import CharactersHeading from '../components/CharactersHeading';
 import validation from '../components/FormValidation';
 
+import useDocumentTitle from '../../../hooks/useDocumentTitle';
+
 const AddTeam = props => {
+	useDocumentTitle('Add Team');
+
 	const { characterNames, filterCharacters } = props;
 	let history = useHistory();
 

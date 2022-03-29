@@ -1,12 +1,6 @@
 // <--- React --->
 import { React, Fragment } from 'react';
-// import Layout from './components/Layout/Layout';
-import {
-	BrowserRouter as Router,
-	Route,
-	Switch,
-	// useRouteMatch,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // <--- Pages --->
 import home from './pages/home';
@@ -27,15 +21,13 @@ import calculator from './pages/calculator';
 import achievements from './pages/achievements';
 import test from './pages/test';
 
-import Layout from './components/Layout/Layout';
 // <--- Styles --->
+import Layout from './components/Layout/Layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import ScrollToTop from './components/Layout/ScrollToTop';
 
 function App() {
-	// const { url } = useRouteMatch;
-	// console.log('url', url);
 	return (
 		<Fragment>
 			<Router>

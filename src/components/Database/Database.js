@@ -9,7 +9,11 @@ import WeaponMaterials from './Materials/Weapon Ascension Materials/WeaponMateri
 import charactersData from '../../assets/data/Characters/characters.json';
 import weaponsData from '../../assets/data/Weapons/weapons.json';
 
-const database = () => {
+import useDocumentTitle from '../../hooks/useDocumentTitle';
+
+const Database = () => {
+	useDocumentTitle('Database');
+
 	return (
 		<Container>
 			<Weapons />
@@ -19,4 +23,4 @@ const database = () => {
 	);
 };
 
-export default database;
+export default Database;

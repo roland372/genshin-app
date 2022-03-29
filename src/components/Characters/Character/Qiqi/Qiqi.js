@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Qiqi.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Qiqi = () => {
+	useDocumentTitle('Qiqi');
+
 	const {
 		name,
 		avatar,

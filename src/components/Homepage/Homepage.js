@@ -1,5 +1,7 @@
 import React from 'react';
+
 import Container from '../Layout/Container';
+
 import GeneralInfo from './GeneralInfo';
 import CurrentBanners from '../Banners/CurrentBanners';
 import CurrentEvents from '../Events/CurrentEvents';
@@ -7,7 +9,11 @@ import CharacterDomains from './CharacterDomains';
 import WeaponDomains from './WeaponDomains';
 import Links from './Links';
 
+import useDocumentTitle from '../../hooks/useDocumentTitle';
+
 const Homepage = props => {
+	useDocumentTitle('Home');
+
 	return (
 		<Container>
 			<GeneralInfo />

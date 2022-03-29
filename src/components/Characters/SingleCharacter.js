@@ -1,12 +1,10 @@
 import React from 'react';
+
 import { Link } from 'react-router-dom';
 
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 const SingleCharacter = props => {
-	// const { url } = useRouteMatch;
-	// console.log('url', url);
-
 	return (
 		<tr>
 			<td>{props.index}</td>

@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Venti.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const Venti = () => {
+	useDocumentTitle('Venti');
+
 	const {
 		name,
 		avatar,

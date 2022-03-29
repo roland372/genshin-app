@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 
-import { OverlayTrigger, Tooltip } from 'react-bootstrap';
-
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+
 import SingleCharacter from './SingleCharacter';
 
 import data from '../../assets/data/Characters/characters.json';
+
+import useDocumentTitle from '../../hooks/useDocumentTitle';
 
 const { characters } = data;
 
@@ -23,6 +25,8 @@ const allWeapons = [
 ];
 
 const Characters = () => {
+	useDocumentTitle('Characters');
+
 	// display menu items
 	const [menuItems, setMenuItems] = useState(characters);
 

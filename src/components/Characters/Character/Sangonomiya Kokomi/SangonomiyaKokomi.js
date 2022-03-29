@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Sangonomiya Kokomi.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const SangonomiyaKokomi = () => {
+	useDocumentTitle('Sangonomiya Kokomi');
+
 	const {
 		name,
 		avatar,

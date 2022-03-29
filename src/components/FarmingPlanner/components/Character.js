@@ -2,7 +2,11 @@ import React from 'react';
 
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
+import useDocumentTitle from '../../../hooks/useDocumentTitle';
+
 const Character = props => {
+	useDocumentTitle('View Character');
+
 	const { characterSelect, charactersData } = props;
 
 	return (

@@ -13,7 +13,11 @@ import Ascensions from '../../Ascensions';
 // <----- character data ----->
 import data from '../../../../assets/data/Characters/Arataki Itto.json';
 
+import useDocumentTitle from '../../../../hooks/useDocumentTitle';
+
 const AratakiItto = () => {
+	useDocumentTitle('Arataki Itto');
+
 	const {
 		name,
 		avatar,
