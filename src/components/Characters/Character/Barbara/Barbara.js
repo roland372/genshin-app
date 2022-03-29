@@ -14,7 +14,6 @@ import Ascensions from '../../Ascensions';
 import data from '../../../../assets/data/Characters/Barbara.json';
 
 const Barbara = () => {
-	// const path = process.env.PUBLIC_URL;
 
 	const {
 		name,

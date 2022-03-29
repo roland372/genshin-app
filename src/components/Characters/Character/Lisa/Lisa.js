@@ -14,8 +14,6 @@ import Ascensions from '../../Ascensions';
 import data from '../../../../assets/data/Characters/Lisa.json';
 
 const Lisa = () => {
-	// const path = process.env.PUBLIC_URL;
-
 	const {
 		name,
 		avatar,

@@ -14,7 +14,6 @@ import Ascensions from '../../Ascensions';
 import data from '../../../../assets/data/Characters/Albedo.json';
 
 const Albedo = () => {
-
 	const {
 		name,
 		avatar,

@@ -14,8 +14,6 @@ import Ascensions from '../../Ascensions';
 import data from '../../../../assets/data/Characters/Qiqi.json';
 
 const Qiqi = () => {
-	// const path = process.env.PUBLIC_URL;
-
 	const {
 		name,
 		avatar,

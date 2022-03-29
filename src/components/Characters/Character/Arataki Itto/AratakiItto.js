@@ -14,8 +14,6 @@ import Ascensions from '../../Ascensions';
 import data from '../../../../assets/data/Characters/Arataki Itto.json';
 
 const AratakiItto = () => {
-	// const path = process.env.PUBLIC_URL;
-
 	const {
 		name,
 		avatar,
