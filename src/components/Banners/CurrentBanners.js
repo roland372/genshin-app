@@ -1,8 +1,31 @@
 import React from 'react';
-import BannerItem from './BannerItem';
 import CardComponent from '../Layout/CardComponent';
 
 const CurrentBanners = props => {
+	let today;
+	let objToday = new Date();
+	let dayOfMonth =
+			today + (objToday.getDate() < 10)
+				? '0' + objToday.getDate()
+				: objToday.getDate(),
+		months = [
+			'January',
+			'February',
+			'March',
+			'April',
+			'May',
+			'June',
+			'July',
+			'August',
+			'September',
+			'October',
+			'November',
+			'December',
+		];
+	let curMonth = months[objToday.getMonth()];
+	let curYear = objToday.getFullYear();
+	today = curMonth + ' ' + dayOfMonth + ', ' + curYear;
+
 	return (
 		<CardComponent title='Current Banners'>
 			<div className='table-responsive mx-3'>
@@ -21,14 +44,39 @@ const CurrentBanners = props => {
 					<tbody>
 						{props.bannersData.currentBanners.map((e, index) => {
 							return (
-								<BannerItem
-									key={index}
-									name={e.name}
-									link={e.link}
-									image={e.image}
-									startDate={e.startDate}
-									endDate={e.endDate}
-								/>
+								<tr key={index}>
+									<td
+										style={{
+											width: '400px',
+										}}
+									>
+										<img src={e.image} className='img-fluid' alt='' />
+									</td>
+									<td>
+										<h6>
+											<a
+												href={e.link}
+												target='_blank'
+												rel='noreferrer'
+												className='link-info text-decoration-none'
+											>
+												{e.name}
+											</a>
+										</h6>
+									</td>
+									<td>
+										<h6>{e.startDate}</h6>
+									</td>
+									<td>
+										<h6>
+											{Date.parse(today) > Date.parse(e.endDate) ? (
+												<div className='text-pyro'>Banner Ended</div>
+											) : (
+												<div className='text-anemo'>{e.endDate}</div>
+											)}
+										</h6>
+									</td>
+								</tr>
 							);
 						})}
 					</tbody>
