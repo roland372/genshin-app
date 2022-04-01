@@ -419,6 +419,28 @@
       "image": "/images/Characters/inazuma/Kamisato Ayaka/images/Character_Kamisato_Ayaka_Thumb.png"
     },
     {
+      "name": "Kamisato Ayato",
+      "url": "Kamisato_Ayato",
+      "rarity": 5,
+      "rarityImage": "/images/Rarity icons/Icon_5_Stars.png",
+      "element": "Hydro",
+      "elementImage": "/images/Elements/Element_Hydro.png",
+      "weapon": "Sword",
+      "weaponImage": "/images/Weapon icons/Weapon-class-sword-icon.png",
+      "sex": "Male",
+      "nation": "Inazuma",
+      "HP": 13715,
+      "ATK": 299,
+      "DEF": 769,
+      "ascension": "CRIT DMG",
+      "talentBook": "Elegance",
+      "ascensionMaterial": "Varunada Lazurite",
+      "bossMaterial": "Dew of Repudiation",
+      "localSpeciality": "Sakura Bloom",
+      "commonMaterial": "Old Handguard",
+      "image": "/images/Characters/inazuma/Kamisato Ayato/images/Character_Kamisato_Ayato_Thumb.png"
+    },
+    {
       "name": "Keqing",
       "url": "Keqing",
       "rarity": 5,

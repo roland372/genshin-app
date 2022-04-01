@@ -1,0 +1,865 @@
+{
+  "name":"Kamisato Ayato",
+  "url":"Kamisato_Ayato",
+  "avatar": "images/Characters/inazuma/Kamisato Ayato/images/Character_Kamisato_Ayato_Avatar.png",
+  "card" : "images/Characters/inazuma/Kamisato Ayato/images/Character_Kamisato_Ayato_Card.png",
+  "portrait" : "images/Characters/inazuma/Kamisato Ayato/images/Character_Kamisato_Ayato_Portrait.png",
+  "thumbnail" : "images/Characters/inazuma/Kamisato Ayato/images/Character_Kamisato_Ayato_Thumb.png",
+  "thumbnailBg" : "images/Characters/inazuma/Kamisato Ayato/images/Item_Kamisato_Ayato.png",
+  "wish" : "images/Characters/inazuma/Kamisato Ayato/images/Character_Kamisato_Ayato_Wish.png",
+  "namecard" : "images/Characters/inazuma/Kamisato Ayato/images/Namecard_Background_Kamisato_Ayato_Ripple.png",
+  "title":"Pillar of Fortitude",
+  "rarity":5,
+  "rarityImage": "images/Rarity icons/Icon_5_Stars.png",
+  "element":"Hydro",
+  "elementImage": "images/Elements/Element_Hydro.png",
+  "weapon":"Sword",
+  "weaponImage": "images/Weapon icons/Weapon-class-sword-icon.png",
+  "sex":"Male",
+  "birthday":"March 26",
+  "constellation":"Cypressus Custos",
+  "nation":"Inazuma",
+  "affiliation":"Yashiro Commission, Kamisato Clan, Shuumatsuban",
+  "specialDish":"Quiet Elegance",
+  "description":"The young but highly accomplished head of the Yashiro Commission's Kamisato Clan. Cultured and polite, he is a man of many ways and means.",
+  "talentBook":"Teachings of Elegance",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Elegance/Item_Teachings_of_Elegance.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Dew_of_Repudiation.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Inazuma/Item_Sakura_Bloom.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
+  "ascensionStat": "",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Sakura Bloom",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sakura_Bloom.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Old Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Dew of Repudiation",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dew_of_Repudiation.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Sakura Bloom",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sakura_Bloom.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Old Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Dew of Repudiation",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dew_of_Repudiation.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Sakura Bloom",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sakura_Bloom.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Kageuchi Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Dew of Repudiation",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dew_of_Repudiation.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Sakura Bloom",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sakura_Bloom.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Kageuchi Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Dew of Repudiation",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dew_of_Repudiation.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Sakura Bloom",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sakura_Bloom.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Famed Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Varunada Lazurite Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Dew of Repudiation",
+       "image": "images/Materials/Character Materials/Ascension/Item_Dew_of_Repudiation.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Sakura Bloom",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Sakura_Bloom.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Famed Handguard",
+       "image": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 1068,
+      "ATK": 23,
+      "DEF": 60,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2770,
+      "ATK": 60,
+      "DEF": 155,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 3685,
+      "ATK": 80,
+      "DEF": 206,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 5514,
+      "ATK": 120,
+      "DEF": 309,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 6165,
+      "ATK": 134,
+      "DEF": 345,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "59.6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 7092,
+      "ATK": 155,
+      "DEF": 397,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "59.6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 7960,
+      "ATK": 174,
+      "DEF": 446,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 8897,
+      "ATK": 194,
+      "DEF": 499,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 9548,
+      "ATK": 208,
+      "DEF": 535,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 10494,
+      "ATK": 229,
+      "DEF": 588,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "69.2%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 11144,
+      "ATK": 243,
+      "DEF": 624,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "78.8%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 12101,
+      "ATK": 264,
+      "DEF": 678,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "78.8%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 12751,
+      "ATK": 278,
+      "DEF": 715,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "88.4%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 13715,
+      "ATK": 299,
+      "DEF": 769,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "88.4%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Kamisato Art - Marobashi",
+      "image": "images/Characters/Inazuma/Kamisato Ayato/talents/Talent_Kamisato_Art_Marobashi.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "45%",
+          "2": "48.6%",
+          "3": "52.3%",
+          "4": "57.5%",
+          "5": "61.2%",
+          "6": "65.4%",
+          "7": "71.1%",
+          "8": "76.9%",
+          "9": "82.6%",
+          "10": "88.9%",
+          "11": "95.2%",
+          "12": "101.4%",
+          "13": "107.7%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "47.2%",
+          "2": "51%",
+          "3": "54.8%",
+          "4": "60.3%",
+          "5": "64.2%",
+          "6": "68.5%",
+          "7": "74.6%",
+          "8": "80.6%",
+          "9": "86.6%",
+          "10": "93.2%",
+          "11": "99.8%",
+          "12": "106.4%",
+          "13": "113%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "58.6%",
+          "2": "63.4%",
+          "3": "68.2%",
+          "4": "75%",
+          "5": "79.7%",
+          "6": "85.2%",
+          "7": "92.7%",
+          "8": "100.2%",
+          "9": "107.7%",
+          "10": "115.9%",
+          "11": "124%",
+          "12": "132.2%",
+          "13": "140.4%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "29.4%×2",
+          "2": "31.8%×2",
+          "3": "34.2%×2",
+          "4": "37.7%×2",
+          "5": "40.1%×2",
+          "6": "42.8%×2",
+          "7": "46.6%×2",
+          "8": "50.3%×2",
+          "9": "54.1%×2",
+          "10": "58.2%×2",
+          "11": "62.3%×2",
+          "12": "66.4%×2",
+          "13": "70.5%×2"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "75.6%",
+          "2": "81.8%",
+          "3": "87.9%",
+          "4": "96.7%",
+          "5": "102.9%",
+          "6": "109.9%",
+          "7": "119.6%",
+          "8": "129.2%",
+          "9": "138.9%",
+          "10": "149.5%",
+          "11": "160%",
+          "12": "170.5%",
+          "13": "181.1%"
+        },
+        {
+          "LVL": "Charged Attack DMG",
+          "1": "129.5%",
+          "2": "140.1%",
+          "3": "150.6%",
+          "4": "165.7%",
+          "5": "176.2%",
+          "6": "188.3%",
+          "7": "204.8%",
+          "8": "221.4%",
+          "9": "238%",
+          "10": "256%",
+          "11": "274.1%",
+          "12": "292.2%",
+          "13": "310.3%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "20",
+          "2": "20",
+          "3": "20",
+          "4": "20",
+          "5": "20",
+          "6": "20",
+          "7": "20",
+          "8": "20",
+          "9": "20",
+          "10": "20",
+          "11": "20",
+          "12": "20",
+          "13": "20"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "63.9%",
+          "2": "69.1%",
+          "3": "74.3%",
+          "4": "81.8%",
+          "5": "87%",
+          "6": "92.9%",
+          "7": "101.1%",
+          "8": "109.3%",
+          "9": "117.5%",
+          "10": "126.4%",
+          "11": "135.3%",
+          "12": "144.2%",
+          "13": "153.1%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "128% /160%",
+          "2": "138% /173%",
+          "3": "149% /186%",
+          "4": "164% /204%",
+          "5": "174% /217%",
+          "6": "186% /232%",
+          "7": "202% /253%",
+          "8": "219% /273%",
+          "9": "235% /293%",
+          "10": "253% /316%",
+          "11": "271% /338%",
+          "12": "288% /360%",
+          "13": "306% /382%"
+        }
+       ]
+    },
+    {
+      "name":"Kamisato Art: Kyouka",
+      "image": "images/Characters/Inazuma/Kamisato Ayato/talents/Talent_Kamisato_Art_Kyouka.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Shunsuiken 1-Hit DMG",
+          "1": "52.9%",
+          "2": "57.2%",
+          "3": "61.5%",
+          "4": "67.7%",
+          "5": "72%",
+          "6": "76.9%",
+          "7": "83.6%",
+          "8": "90.4%",
+          "9": "97.2%",
+          "10": "104.6%",
+          "11": "111.9%",
+          "12": "119.3%",
+          "13": "126.7%"
+        },
+        {
+          "LVL": "Shunsuiken 2-Hit DMG",
+          "1": "58.9%",
+          "2": "63.7%",
+          "3": "68.5%",
+          "4": "75.3%",
+          "5": "80.1%",
+          "6": "85.6%",
+          "7": "93.2%",
+          "8": "100.7%",
+          "9": "108.2%",
+          "10": "116.4%",
+          "11": "124.7%",
+          "12": "132.9%",
+          "13": "141.1%"
+        },
+        {
+          "LVL": "Shunsuiken 3-Hit DMG",
+          "1": "64.9%",
+          "2": "70.2%",
+          "3": "75.5%",
+          "4": "83.1%",
+          "5": "88.3%",
+          "6": "94.4%",
+          "7": "102.7%",
+          "8": "111%",
+          "9": "119.3%",
+          "10": "128.3%",
+          "11": "137.4%",
+          "12": "146.5%",
+          "13": "155.5%"
+        },
+        {
+          "LVL": "Takimeguri Kanka Duration",
+          "1": "6s",
+          "2": "6s",
+          "3": "6s",
+          "4": "6s",
+          "5": "6s",
+          "6": "6s",
+          "7": "6s",
+          "8": "6s",
+          "9": "6s",
+          "10": "6s",
+          "11": "6s",
+          "12": "6s",
+          "13": "6s"
+        },
+        {
+          "LVL": "Namisen DMG Bonus",
+          "1": "0.56%Max HP/Stack",
+          "2": "0.61%Max HP/Stack",
+          "3": "0.65%Max HP/Stack",
+          "4": "0.72%Max HP/Stack",
+          "5": "0.76%Max HP/Stack",
+          "6": "0.82%Max HP/Stack",
+          "7": "0.89%Max HP/Stack",
+          "8": "0.96%Max HP/Stack",
+          "9": "1.03%Max HP/Stack",
+          "10": "1.11%Max HP/Stack",
+          "11": "1.19%Max HP/Stack",
+          "12": "1.27%Max HP/Stack",
+          "13": "1.34%Max HP/Stack"
+        },
+        {
+          "LVL": "Water Illusion DMG",
+          "1": "101.5%",
+          "2": "109.7%",
+          "3": "118%",
+          "4": "129.8%",
+          "5": "138.1%",
+          "6": "147.5%",
+          "7": "160.5%",
+          "8": "173.5%",
+          "9": "186.4%",
+          "10": "200.6%",
+          "11": "214.8%",
+          "12": "228.9%",
+          "13": "243.1%"
+        },
+        {
+          "LVL": "Water Illusion Duration",
+          "1": "6s",
+          "2": "6s",
+          "3": "6s",
+          "4": "6s",
+          "5": "6s",
+          "6": "6s",
+          "7": "6s",
+          "8": "6s",
+          "9": "6s",
+          "10": "6s",
+          "11": "6s",
+          "12": "6s",
+          "13": "6s"
+        },
+        {
+          "LVL": "CD",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        }
+       ]
+    },
+    {
+      "name":"Kamisato Art: Suiyuu",
+      "image": "images/Characters/Inazuma/Kamisato Ayato/talents/Talent_Kamisato_Art_Suiyuu.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Bloomwater Blade DMG",
+          "1": "66.5%",
+          "2": "71.4%",
+          "3": "76.4%",
+          "4": "83.1%",
+          "5": "88.1%",
+          "6": "93%",
+          "7": "99.7%",
+          "8": "106.3%",
+          "9": "113%",
+          "10": "119.6%",
+          "11": "126.3%",
+          "12": "132.9%",
+          "13": "141.2%"
+        },
+        {
+          "LVL": "Normal Attack DMG Bonus",
+          "1": "11%",
+          "2": "12%",
+          "3": "13%",
+          "4": "14%",
+          "5": "15%",
+          "6": "16%",
+          "7": "17%",
+          "8": "18%",
+          "9": "19%",
+          "10": "20%",
+          "11": "20%",
+          "12": "20%",
+          "13": "20%"
+        },
+        {
+          "LVL": "Duration",
+          "1": "18s",
+          "2": "18s",
+          "3": "18s",
+          "4": "18s",
+          "5": "18s",
+          "6": "18s",
+          "7": "18s",
+          "8": "18s",
+          "9": "18s",
+          "10": "18s",
+          "11": "18s",
+          "12": "18s",
+          "13": "18s"
+        },
+        {
+          "LVL": "CD",
+          "1": "20s",
+          "2": "20s",
+          "3": "20s",
+          "4": "20s",
+          "5": "20s",
+          "6": "20s",
+          "7": "20s",
+          "8": "20s",
+          "9": "20s",
+          "10": "20s",
+          "11": "20s",
+          "12": "20s",
+          "13": "20s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "80",
+          "2": "80",
+          "3": "80",
+          "4": "80",
+          "5": "80",
+          "6": "80",
+          "7": "80",
+          "8": "80",
+          "9": "80",
+          "10": "80",
+          "11": "80",
+          "12": "80",
+          "13": "80"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Kamisato Art: Mine Wo Matoishi Kiyotak",
+      "image": "images/Characters/Inazuma/Kamisato Ayato/talents/Talent_Kamisato_Art_Mine_Wo_Matoishi_Kiyotaki.png",
+      "description":""
+    },
+    {
+      "name":"Kamisato Art: Michiyuku Hagetsu",
+      "image": "images/Characters/Inazuma/Kamisato Ayato/talents/Talent_Kamisato_Art_Michiyuku_Hagetsu.png",
+      "description":""
+    },
+    {
+      "name":"Kamisato Art: Daily Cooking",
+      "image": "images/Characters/Inazuma/Kamisato Ayato/talents/Talent_Kamisato_Art_Daily_Cooking.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Teachings_of_Elegance.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Guide_to_Elegance.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Guide_to_Elegance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Guide_to_Elegance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Guide_to_Elegance.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Philosophies_of_Elegance.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Mudra_of_the_Malefic_General.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Philosophies_of_Elegance.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Mudra_of_the_Malefic_General.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Philosophies_of_Elegance.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Mudra_of_the_Malefic_General.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Elegance/Item_Philosophies_of_Elegance.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Mudra_of_the_Malefic_General.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Kyouka Fuushi",
+      "image": "images/Characters/Inazuma/Kamisato Ayato/constellations/Constellation_Kyouka_Fuushi.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"World Source",
+      "image": "images/Characters/Inazuma/Kamisato Ayato/constellations/Constellation_World_Source.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"To Admire the Flowers",
+      "image": "images/Characters/Inazuma/Kamisato Ayato/constellations/Constellation_To_Admire_the_Flowers.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Endless Flow",
+      "image": "images/Characters/Inazuma/Kamisato Ayato/constellations/Constellation_Endless_Flow.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Bansui Ichiro",
+      "image": "images/Characters/Inazuma/Kamisato Ayato/constellations/Constellation_Bansui_Ichiro.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Boundless Origin",
+      "image": "images/Characters/Inazuma/Kamisato Ayato/constellations/Constellation_Boundless_Origin.png",
+      "description":""
+    }
+  ]
+}
+
+
+
+

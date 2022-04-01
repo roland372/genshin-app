@@ -18,6 +18,7 @@ import Jean from '../components/Characters/Character/Jean/Jean';
 import KaedeharaKazuha from '../components/Characters/Character/Kaedehara Kazuha/KaedeharaKazuha';
 import Kaeya from '../components/Characters/Character/Kaeya/Kaeya';
 import KamisatoAyaka from '../components/Characters/Character/Kamisato Ayaka/KamisatoAyaka';
+import KamisatoAyato from '../components/Characters/Character/Kamisato Ayato/KamisatoAyato';
 import Keqing from '../components/Characters/Character/Keqing/Keqing';
 import Klee from '../components/Characters/Character/Klee/Klee';
 import KujouSara from '../components/Characters/Character/Kujou Sara/KujouSara';
@@ -69,6 +70,7 @@ import JeanData from '../assets/data/Characters/Jean.json';
 import KaedeharaKazuhaData from '../assets/data/Characters/Kaedehara Kazuha.json';
 import KaeyaData from '../assets/data/Characters/Kaeya.json';
 import KamisatoAyakaData from '../assets/data/Characters/Kamisato Ayaka.json';
+import KamisatoAyatoData from '../assets/data/Characters/Kamisato Ayato.json';
 import KeqingData from '../assets/data/Characters/Keqing.json';
 import KleeData from '../assets/data/Characters/Klee.json';
 import KujouSaraData from '../assets/data/Characters/Kujou Sara.json';
@@ -175,6 +177,10 @@ const charactersImports = [
 	{
 		component: KamisatoAyaka,
 		data: KamisatoAyakaData,
+	},
+	{
+		component: KamisatoAyato,
+		data: KamisatoAyatoData,
 	},
 	{
 		component: Keqing,
