@@ -321,6 +321,23 @@
     "weaponAscension": []
   },
   {
+    "image": "/images/Weapons/Swords/Weapon_Haran_Geppaku_Futsu_2nd.png",
+    "name": "Haran Geppaku Futsu",
+    "type": "sword",
+    "rarity": 5,
+    "baseAtk": 46,
+    "maxAtk":608,
+    "secondStatType": "CRIT Rate",
+    "secondStatMin": 7.2,
+    "secondStatMax": 33.1,
+    "description": "Honed Flow\n Obtain 12~24% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by 20~40% for 8s.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Narukami's_Wisdom.png",
+      "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Gloomy_Statuette.png",
+      "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
     "image": "/images/Weapons/Swords/Weapon_Primordial_Jade_Cutter_2nd.png",
     "name": "Primordial Jade Cutter",
     "type": "sword",

@@ -57,6 +57,13 @@
       "4-piece_bonus":"Increases Elemental RES by 30% for each element present in the party."
     },
     {
+      "name":"Echoes of an Offering",
+      "max_rarity":"5★",
+      "image":"images/Artifacts/Item_Soulscent_Bloom.png",
+      "2-piece_bonus":"ATK +18%.",
+      "4-piece_bonus":"When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK.\n This effect will be dispelled 0.05s after a Normal Attack deals DMG.\n If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%.\n This trigger can occur once every 0.2s."
+    },
+    {
       "name":"Emblem of Severed Fate",
       "max_rarity":"5★",
       "image":"images/Artifacts/Artifact_Magnificent_Tsuba.png",
@@ -202,6 +209,13 @@
       "image":"images/Artifacts/Artifact_Traveling_Doctor's_Silver_Lotus.png",
       "2-piece_bonus":"Increases incoming healing by 20%.",
       "4-piece_bonus":"Using Elemental Burst restores 20% HP."
+    },
+    {
+      "name":"Vermillion Hereafter",
+      "max_rarity":"5★",
+      "image":"images/Artifacts/Item_Flowering_Life.png",
+      "2-piece_bonus":"ATK +18%.",
+      "4-piece_bonus":"After using an Elemental Burst. this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This increase can occur this way maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled."
     },
     {
       "name":"Viridescent Venerer",

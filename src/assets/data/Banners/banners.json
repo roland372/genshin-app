@@ -1,28 +1,51 @@
 {
   "currentBanners": [
     {
-      "name": "Reign of Serenity",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/19823",
-      "image": "images/Banners/character/Wish_Reign_of_Serenity_2022-03-08.png",
-      "startDate": "March 08, 2022",
-      "endDate": "March 29, 2022"
+      "name": "Azure Excursion",
+      "link": "https://genshin.hoyoverse.com/en/news/detail/20186",
+      "image": "images/Banners/character/Azure_Excursion_2022-03-30.png",
+      "startDate": "March 30, 2022",
+      "endDate": "April 19, 2022"
     },
     {
-      "name": "Drifting Luminescence",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/19830",
-      "image": "images/Banners/character/Wish_Drifting_Luminescence_2022-03-08.png",
-      "startDate": "March 08, 2022",
-      "endDate": "March 29, 2022"
+      "name": "Ballad in Goblets",
+      "link": "https://genshin.hoyoverse.com/en/news/detail/20187",
+      "image": "images/Banners/character/Ballad_in_Goblets_2022-03-30.png",
+      "startDate": "March 30, 2022",
+      "endDate": "April 19, 2022"
     },
     {
       "name": "Epitome Invocation",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/19834",
-      "image": "images/Banners/weapon/Wish_Epitome_Invocation_2022-03-08.png",
-      "startDate": "March 08, 2022",
-      "endDate": "March 29, 2022"
+      "link": "https://genshin.hoyoverse.com/en/news/detail/20188",
+      "image": "images/Banners/weapon/Epitome_Invocation_2022-03-30.png",
+      "startDate": "March 30, 2022",
+      "endDate": "April 19, 2022"
     }
   ],
   "pastBanners": {
+    "version 2.6" : [
+      {
+        "name": "Azure Excursion",
+        "link": "https://genshin.hoyoverse.com/en/news/detail/20186",
+        "image": "images/Banners/character/Azure_Excursion_2022-03-30.png",
+        "startDate": "March 30, 2022",
+        "endDate": "April 19, 2022"
+      },
+      {
+        "name": "Ballad in Goblets",
+        "link": "https://genshin.hoyoverse.com/en/news/detail/20187",
+        "image": "images/Banners/character/Ballad_in_Goblets_2022-03-30.png",
+        "startDate": "March 30, 2022",
+        "endDate": "April 19, 2022"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.hoyoverse.com/en/news/detail/20188",
+        "image": "images/Banners/weapon/Epitome_Invocation_2022-03-30.png",
+        "startDate": "March 30, 2022",
+        "endDate": "April 19, 2022"
+      }
+    ],
     "version 2.5" : [
       {
         "name": "Everbloom Violet",
@@ -37,6 +60,27 @@
         "image": "images/Banners/weapon/Wish_Epitome_Invocation_2022-02-16.png",
         "startDate": "February 16, 2022",
         "endDate": "March 08, 2022"
+      },
+      {
+        "name": "Reign of Serenity",
+        "link": "https://genshin.hoyoverse.com/en/news/detail/19823",
+        "image": "images/Banners/character/Wish_Reign_of_Serenity_2022-03-08.png",
+        "startDate": "March 08, 2022",
+        "endDate": "March 29, 2022"
+      },
+      {
+        "name": "Drifting Luminescence",
+        "link": "https://genshin.hoyoverse.com/en/news/detail/19830",
+        "image": "images/Banners/character/Wish_Drifting_Luminescence_2022-03-08.png",
+        "startDate": "March 08, 2022",
+        "endDate": "March 29, 2022"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.hoyoverse.com/en/news/detail/19834",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2022-03-08.png",
+        "startDate": "March 08, 2022",
+        "endDate": "March 29, 2022"
       }
     ],
     "version 2.4" : [
@@ -115,7 +159,7 @@
       {
         "name": "Epitome Invocation",
         "link": "https://genshin.mihoyo.com/en/news/detail/17676",
-        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-11-24.png",
+        "image": "images/Banners/weapon/Wish_Epitome_Invocation_2021-12-14.png",
         "startDate": "December 14, 2021",
         "endDate": "January 4, 2022"
       }
