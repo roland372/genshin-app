@@ -1,12 +1,52 @@
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import React, { useState } from 'react';
+import { FaArrowCircleUp } from 'react-icons/fa';
 
-export default function ScrollToTop() {
-	const { pathname } = useLocation();
+const ScrollToTop = () => {
+	const [visible, setVisible] = useState(false);
 
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, [pathname]);
+	const toggleVisible = () => {
+		const scrolled = document.documentElement.scrollTop;
+		if (scrolled > 300) {
+			setVisible(true);
+		} else if (scrolled <= 300) {
+			setVisible(false);
+		}
+	};
 
-	return null;
-}
+	const scrollToTop = () => {
+		window.scrollTo({
+			top: 0,
+			behavior: 'smooth',
+		});
+	};
+
+	window.addEventListener('scroll', toggleVisible);
+
+	return (
+		<button
+			style={{
+				position: 'fixed',
+				width: 0,
+				height: 0,
+			}}
+		>
+			<FaArrowCircleUp
+				onClick={scrollToTop}
+				style={{
+					position: 'fixed',
+					width: '100%',
+					left: '40%',
+					bottom: '40px',
+					height: '40px',
+					fontSize: '3rem',
+					zIndex: '1',
+					cursor: 'pointer',
+					color: 'white',
+					display: visible ? 'inline' : 'none',
+				}}
+			/>
+		</button>
+	);
+};
+
+export default ScrollToTop;

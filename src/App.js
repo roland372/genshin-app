@@ -25,13 +25,11 @@ import test from './pages/test';
 import Layout from './components/Layout/Layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import ScrollToTop from './components/Layout/ScrollToTop';
 
 function App() {
 	return (
 		<Fragment>
 			<Router>
-				<ScrollToTop />
 				<Layout>
 					<Switch>
 						<Route exact path='/' component={home} />
