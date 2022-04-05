@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import { IoGrid } from 'react-icons/io5';
-import { FaThList } from 'react-icons/fa';
+import { FaThList, FaSort } from 'react-icons/fa';
 
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
@@ -29,23 +29,43 @@ const allWeapons = [
 ];
 
 const Characters = () => {
-	const [charactersDisplay, setCharactersDisplay] = useState(false);
-
 	useDocumentTitle('Characters');
 
-	// display menu items
+	// display as list or grid state
+	const [charactersDisplay, setCharactersDisplay] = useState(false);
+
+	// display menu items state
 	const [menuItems, setMenuItems] = useState(characters);
 
-	// elements filtering
+	// elements filtering state
 	const [elements, setElements] = useState(allElements);
 
-	// weapons filtering
+	// weapons filtering state
 	const [weapons, setWeapons] = useState(allWeapons);
 
-	// search
+	// search state
 	const [searchTerm, setSearchTerm] = useState('');
 
-	// console.log(allElements);
+	// sorting state
+	const [order, setOrder] = useState('DSC');
+
+	const sorting = column => {
+		if (order === 'ASC') {
+			const sorted = [...menuItems].sort((a, b) =>
+				a[column] > b[column] ? 1 : -1
+			);
+			console.log(typeof column);
+			setMenuItems(sorted);
+			setOrder('DSC');
+		}
+		if (order === 'DSC') {
+			const sorted = [...menuItems].sort((a, b) =>
+				a[column] < b[column] ? 1 : -1
+			);
+			setMenuItems(sorted);
+			setOrder('ASC');
+		}
+	};
 
 	const filterElements = element => {
 		if (element === 'all') {
@@ -167,16 +187,46 @@ const Characters = () => {
 								<tr>
 									<th scope='col'>#</th>
 									<th scope='col'>Icon</th>
-									<th scope='col'>Name</th>
-									<th scope='col'>Rarity</th>
-									<th scope='col'>Element</th>
-									<th scope='col'>Weapon</th>
-									<th scope='col'>Sex</th>
-									<th scope='col'>Nation</th>
-									<th scope='col'>HP</th>
-									<th scope='col'>ATK</th>
-									<th scope='col'>DEF</th>
-									<th scope='col'>Ascension</th>
+									<th scope='col'>
+										Name
+										<FaSort onClick={() => sorting('name')} />
+									</th>
+									<th scope='col'>
+										Rarity
+										<FaSort onClick={() => sorting('rarity')} />
+									</th>
+									<th scope='col' style={{ minWidth: '90px' }}>
+										Element
+										<FaSort onClick={() => sorting('element')} />
+									</th>
+									<th scope='col' style={{ minWidth: '90px' }}>
+										Weapon
+										<FaSort onClick={() => sorting('weapon')} />
+									</th>
+									<th scope='col'>
+										Sex
+										<FaSort onClick={() => sorting('sex')} />
+									</th>
+									<th scope='col'>
+										Nation
+										<FaSort onClick={() => sorting('nation')} />
+									</th>
+									<th scope='col'>
+										HP
+										<FaSort onClick={() => sorting('HP')} />
+									</th>
+									<th scope='col' style={{ minWidth: '60px' }}>
+										ATK
+										<FaSort onClick={() => sorting('ATK')} />
+									</th>
+									<th scope='col' style={{ minWidth: '60px' }}>
+										DEF
+										<FaSort onClick={() => sorting('DEF')} />
+									</th>
+									<th scope='col' style={{ minWidth: '100px' }}>
+										Ascension
+										<FaSort onClick={() => sorting('ascension')} />
+									</th>
 								</tr>
 							</thead>
 							<tbody>
