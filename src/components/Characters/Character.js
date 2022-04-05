@@ -1,9 +1,11 @@
 import React, { useRef } from 'react';
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
+import useDimensions from 'react-cool-dimensions';
 
 // <----- character components ----->
 import CharacterInfo from './CharacterInfo';
+import CharacterInfoSmall from './CharacterInfoSmall';
 import Stats from './Stats';
 import TalentMaterials from './TalentMaterials';
 import Ascensions from './Ascensions';
@@ -57,6 +59,7 @@ const Character = props => {
 	const {
 		name,
 		avatar,
+		card,
 		title,
 		rarityImage,
 		elementImage,
@@ -77,30 +80,56 @@ const Character = props => {
 
 	useDocumentTitle(name);
 
+	const { observe, width } = useDimensions({});
+
 	return (
 		<Container>
 			<CardComponent title={name}>
 				{/* <----- Character info -----> */}
-				<div ref={infoSection}>
-					<CharacterInfo
-						avatar={avatar}
-						title={title}
-						rarity={rarityImage}
-						element={elementImage}
-						weapon={weaponImage}
-						sex={sex}
-						birthday={birthday}
-						constellation={constellation}
-						nation={nation}
-						affiliation={affiliation}
-						specialDish={specialDish}
-						description={description}
-						talentBook={talentBookImage}
-						ascensionMaterial1={ascensionMaterial1}
-						ascensionMaterial2={ascensionMaterial2}
-						ascensionMaterial3={ascensionMaterial3}
-						ascensionMaterial4={ascensionMaterial4}
-					/>
+				<div ref={observe}>
+					<div ref={infoSection}>
+						{width < 671 ? (
+							<CharacterInfoSmall
+								card={card}
+								title={title}
+								rarity={rarityImage}
+								element={elementImage}
+								weapon={weaponImage}
+								sex={sex}
+								birthday={birthday}
+								constellation={constellation}
+								nation={nation}
+								affiliation={affiliation}
+								specialDish={specialDish}
+								description={description}
+								talentBook={talentBookImage}
+								ascensionMaterial1={ascensionMaterial1}
+								ascensionMaterial2={ascensionMaterial2}
+								ascensionMaterial3={ascensionMaterial3}
+								ascensionMaterial4={ascensionMaterial4}
+							/>
+						) : (
+							<CharacterInfo
+								avatar={avatar}
+								title={title}
+								rarity={rarityImage}
+								element={elementImage}
+								weapon={weaponImage}
+								sex={sex}
+								birthday={birthday}
+								constellation={constellation}
+								nation={nation}
+								affiliation={affiliation}
+								specialDish={specialDish}
+								description={description}
+								talentBook={talentBookImage}
+								ascensionMaterial1={ascensionMaterial1}
+								ascensionMaterial2={ascensionMaterial2}
+								ascensionMaterial3={ascensionMaterial3}
+								ascensionMaterial4={ascensionMaterial4}
+							/>
+						)}
+					</div>
 				</div>
 			</CardComponent>
 
