@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 
+import { IoGrid } from 'react-icons/io5';
+import { FaThList } from 'react-icons/fa';
+
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 import SingleCharacter from './SingleCharacter';
+import SingleCharacterGrid from './SingleCharacterGrid';
 
 import data from '../../assets/data/Characters/characters.json';
 
@@ -25,6 +29,8 @@ const allWeapons = [
 ];
 
 const Characters = () => {
+	const [charactersDisplay, setCharactersDisplay] = useState(false);
+
 	useDocumentTitle('Characters');
 
 	// display menu items
@@ -69,6 +75,14 @@ const Characters = () => {
 		<Container>
 			<CardComponent title='Playable Characters'>
 				<div className='d-xl-flex justify-content-lg-between align-middle'>
+					<section className='ps-2'>
+						<button
+							className='btn btn-warning'
+							onClick={() => setCharactersDisplay(!charactersDisplay)}
+						>
+							{charactersDisplay ? <IoGrid /> : <FaThList />}
+						</button>
+					</section>
 					{/* elements filtering */}
 					<section className='ps-2'>
 						{elements.map((element, index) => {
@@ -141,67 +155,114 @@ const Characters = () => {
 						</form>
 					</section>
 				</div>
-				<div className='table-responsive mx-3'>
-					<table
-						className='table table-striped table-sm table-hover table-dark align-middle'
-						style={{ minWidth: '700px' }}
+
+				{charactersDisplay ? (
+					// Display characters as list
+					<div className='table-responsive mx-3'>
+						<table
+							className='table table-striped table-sm table-hover table-dark align-middle'
+							style={{ minWidth: '700px' }}
+						>
+							<thead>
+								<tr>
+									<th scope='col'>#</th>
+									<th scope='col'>Icon</th>
+									<th scope='col'>Name</th>
+									<th scope='col'>Rarity</th>
+									<th scope='col'>Element</th>
+									<th scope='col'>Weapon</th>
+									<th scope='col'>Sex</th>
+									<th scope='col'>Nation</th>
+									<th scope='col'>HP</th>
+									<th scope='col'>ATK</th>
+									<th scope='col'>DEF</th>
+									<th scope='col'>Ascension</th>
+								</tr>
+							</thead>
+							<tbody>
+								{menuItems
+									.filter(value => {
+										if (searchTerm === '') {
+											return value;
+										} else if (
+											value.name
+												.toLowerCase()
+												.includes(searchTerm.toLocaleLowerCase())
+										) {
+											return value;
+										}
+										return 0;
+									})
+									.map((character, index) => {
+										return (
+											<SingleCharacter
+												key={index}
+												index={index + 1}
+												icon={character.image}
+												name={character.name}
+												url={character.url}
+												rarityImage={character.rarityImage}
+												rarity={character.rarity}
+												elementImage={character.elementImage}
+												elementName={character.element}
+												weaponImage={character.weaponImage}
+												weaponName={character.weapon}
+												sex={character.sex}
+												nation={character.nation}
+												HP={character.HP}
+												ATK={character.ATK}
+												DEF={character.DEF}
+												ascension={character.ascension}
+											/>
+										);
+									})}
+							</tbody>
+						</table>
+					</div>
+				) : (
+					// <----- Display characters as grid ----->
+					<div
+						className='d-flex align-items-around 
+					flex-wrap mt-2 ms-2'
 					>
-						<thead>
-							<tr>
-								<th scope='col'>#</th>
-								<th scope='col'>Icon</th>
-								<th scope='col'>Name</th>
-								<th scope='col'>Rarity</th>
-								<th scope='col'>Element</th>
-								<th scope='col'>Weapon</th>
-								<th scope='col'>Sex</th>
-								<th scope='col'>Nation</th>
-								<th scope='col'>HP</th>
-								<th scope='col'>ATK</th>
-								<th scope='col'>DEF</th>
-								<th scope='col'>Ascension</th>
-							</tr>
-						</thead>
-						<tbody>
-							{menuItems
-								.filter(value => {
-									if (searchTerm === '') {
-										return value;
-									} else if (
-										value.name
-											.toLowerCase()
-											.includes(searchTerm.toLocaleLowerCase())
-									) {
-										return value;
-									}
-									return 0;
-								})
-								.map((character, index) => {
-									return (
-										<SingleCharacter
-											key={index}
-											index={index + 1}
-											icon={character.image}
-											name={character.name}
-											url={character.url}
-											rarityImage={character.rarityImage}
-											rarity={character.rarity}
-											elementImage={character.elementImage}
-											elementName={character.element}
-											weaponImage={character.weaponImage}
-											weaponName={character.weapon}
-											sex={character.sex}
-											nation={character.nation}
-											HP={character.HP}
-											ATK={character.ATK}
-											DEF={character.DEF}
-											ascension={character.ascension}
-										/>
-									);
-								})}
-						</tbody>
-					</table>
-				</div>
+						{menuItems
+							.filter(value => {
+								if (searchTerm === '') {
+									return value;
+								} else if (
+									value.name
+										.toLowerCase()
+										.includes(searchTerm.toLocaleLowerCase())
+								) {
+									return value;
+								}
+								return 0;
+							})
+							.map((character, index) => {
+								return (
+									<SingleCharacterGrid
+										key={index}
+										index={index + 1}
+										icon={character.image}
+										name={character.name}
+										url={character.url}
+										rarityImage={character.rarityImage}
+										rarity={character.rarity}
+										elementImage={character.elementImage}
+										elementName={character.element}
+										weaponImage={character.weaponImage}
+										weaponName={character.weapon}
+										sex={character.sex}
+										nation={character.nation}
+										HP={character.HP}
+										ATK={character.ATK}
+										DEF={character.DEF}
+										ascension={character.ascension}
+									/>
+								);
+							})}
+					</div>
+				)}
 			</CardComponent>
 		</Container>
 	);
