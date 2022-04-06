@@ -54,7 +54,6 @@ const Characters = () => {
 			const sorted = [...menuItems].sort((a, b) =>
 				a[column] > b[column] ? 1 : -1
 			);
-			console.log(typeof column);
 			setMenuItems(sorted);
 			setOrder('DSC');
 		}
@@ -271,10 +270,8 @@ const Characters = () => {
 					</div>
 				) : (
 					// <----- Display characters as grid ----->
-					<div
-						className='d-flex align-items-around 
-					flex-wrap mt-2 ms-2'
-					>
+
+					<div className='row justify-content-center align-items-center px-2'>
 						{menuItems
 							.filter(value => {
 								if (searchTerm === '') {

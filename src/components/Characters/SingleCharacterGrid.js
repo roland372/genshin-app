@@ -11,7 +11,7 @@ const SingleCharacterGrid = props => {
 		: (rarityColor = 'rarity4bg');
 
 	return (
-		<div className='me-1 mt-1'>
+		<div className='col-xl-1 col-md-2 col-3 mt-3'>
 			<OverlayTrigger
 				placement='top'
 				overlay={
