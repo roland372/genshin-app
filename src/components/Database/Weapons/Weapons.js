@@ -2,25 +2,16 @@ import React, { useState } from 'react';
 
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
-// import useFetch from '../../../hooks/useFetch';
-import data from '../../../assets/data/Weapons/weapons.json';
-import Weapon from './Weapon';
 
-// const allWeaponTypes = Object.keys(weapons.weapons[0]);
+import Weapon from './Weapon';
+import data from '../../../assets/data/Weapons/weapons.json';
+
+import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const { weapons } = data;
 
 const Weapons = () => {
-	// const { loading, error, data } = useFetch('http://localhost:1337/weapons');
-
-	// if (loading) return <p>Loading...</p>;
-	// if (error) return <p>Error...</p>;
-
-	// console.log(weapons.weapons[0].swords[0].stats);
-
-	// console.log(
-	// 	weapons.weapons[0].swords[0].weaponAscension[0].ascensionMaterial1.name
-	// );
+	useDocumentTitle('Weapons');
 
 	const weaponTypes = ['all', ...new Set(weapons.map(weapon => weapon.type))];
 
@@ -44,7 +35,7 @@ const Weapons = () => {
 	return (
 		<Container>
 			<CardComponent title='Weapons'>
-				<div className='d-md-flex justify-content-around align-middle mx-2'>
+				<div className='d-md-flex justify-content-between align-middle mx-2'>
 					<section className=''>
 						{weaponType.map((type, index) => {
 							return (

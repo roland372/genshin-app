@@ -88,15 +88,20 @@ const About = () => {
 							an option where you can create and, edit and view your own teams
 						</li>
 						<li className='list-group-item list-group-item-dark'>
+							<Link className='link-primary text-decoration-none' to='/weapons'>
+								Weapons
+							</Link>{' '}
+							where you can view all available weapons and their stats
+						</li>
+						<li className='list-group-item list-group-item-dark'>
 							<Link
 								className='link-primary text-decoration-none'
-								to='/database'
+								to='/materials'
 							>
-								Database
+								Materials
 							</Link>{' '}
-							where you can view all available weapons and their stats, see
-							artifacts with their descriptions and also see characters and
-							weapons with their corresponding talents or materials
+							section where you can see characters and weapons with their
+							corresponding talents or materials
 						</li>
 						<li className='list-group-item list-group-item-dark'>
 							<Link className='link-primary text-decoration-none' to='/charts'>

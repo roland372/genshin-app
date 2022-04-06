@@ -19,59 +19,64 @@ export const navLinks = [
 	},
 	{
 		id: 3,
+		url: '/weapons',
+		text: 'weapons',
+	},
+	{
+		id: 4,
 		url: '/banners',
 		text: 'banners',
 	},
 	{
-		id: 4,
+		id: 5,
 		url: '/events',
 		text: 'events',
 	},
 	{
-		id: 5,
+		id: 6,
 		url: '/artifacts',
 		text: 'artifacts',
 	},
 	{
-		id: 6,
+		id: 7,
+		url: '/materials',
+		text: 'Materials',
+	},
+	{
+		id: 8,
 		url: '/farming-planner',
 		text: 'farming planner',
 	},
 	{
-		id: 7,
+		id: 9,
 		url: '/team-builder',
 		text: 'team builder',
 	},
 	{
-		id: 8,
+		id: 10,
 		url: '/image-gallery',
 		text: 'image gallery',
 	},
 	{
-		id: 9,
-		url: '/database',
-		text: 'database',
-	},
-	{
-		id: 10,
+		id: 11,
 		url: '/todoList',
 		text: 'Todo List',
 	},
 	{
-		id: 11,
+		id: 12,
 		url: '/charts',
 		text: 'Charts',
 	},
 	{
-		id: 12,
+		id: 13,
 		url: '/about',
 		text: 'About',
 	},
-	{
-		id: 100,
-		url: '/test',
-		text: 'Test',
-	},
+	// {
+	// 	id: 100,
+	// 	url: '/test',
+	// 	text: 'Test',
+	// },
 	// {
 	// 	id: 11,
 	// 	url: '/changelog',

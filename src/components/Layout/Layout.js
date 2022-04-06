@@ -1,14 +1,21 @@
 import { React, Fragment } from 'react';
-import Footer from './Footer';
-// import Navbar from './NavigationBar';
-import Sidebar from './Sidebar';
+
 import ScrollToTop from './ScrollToTop';
+import Navbar from './NavigationBar';
+import Sidebar from './Sidebar';
+import Footer from './Footer';
+
+import useDimensions from 'react-cool-dimensions';
 
 const Layout = ({ children }) => {
+	const { observe, width } = useDimensions({});
+
 	return (
 		<Fragment>
 			<ScrollToTop />
-			<Sidebar />
+			<section className='sticky-top' ref={observe}>
+				{width < 991 ? <Sidebar /> : <Navbar />}
+			</section>
 			{children}
 			<Footer />
 		</Fragment>

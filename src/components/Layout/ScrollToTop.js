@@ -26,6 +26,7 @@ const ScrollToTop = () => {
 		<button
 			style={{
 				position: 'fixed',
+				left: 100000,
 				width: 0,
 				height: 0,
 			}}
