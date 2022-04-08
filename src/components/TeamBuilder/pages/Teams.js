@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+import { toast } from 'react-toastify';
+
 import TeamDataService from '../services/team.services';
 
 import Container from '../../Layout/Container';
@@ -12,6 +14,17 @@ import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const Teams = props => {
 	useDocumentTitle('Team Builder');
+
+	const teamDeletedNotification = () =>
+		toast.success('Team Deleted', {
+			position: 'top-center',
+			autoClose: 2000,
+			hideProgressBar: false,
+			closeOnClick: true,
+			pauseOnHover: false,
+			draggable: true,
+			progress: '',
+		});
 
 	const { filterCharacters } = props;
 
@@ -29,6 +42,7 @@ const Teams = props => {
 
 	const deleteTeam = async id => {
 		await TeamDataService.deleteTeam(id);
+		teamDeletedNotification();
 		getTeamsDatabase();
 	};
 	return (

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import { useHistory } from 'react-router-dom';
-import axios from 'axios';
-import { useParams } from 'react-router-dom';
+import { useHistory, useParams } from 'react-router-dom';
+
+import { toast } from 'react-toastify';
 
 import CharacterDataService from '../services/character.services';
 
@@ -18,6 +18,18 @@ import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const EditCharacter = props => {
 	useDocumentTitle('Edit Character');
+
+	const characterEditedNotification = () =>
+		toast.success('Character Edited', {
+			position: 'top-center',
+			autoClose: 2000,
+			hideProgressBar: false,
+			closeOnClick: true,
+			pauseOnHover: false,
+			draggable: true,
+			progress: '',
+		});
+
 	let history = useHistory();
 
 	let {
@@ -295,6 +307,8 @@ const EditCharacter = props => {
 		// 	`http://localhost:3003/farming-planner/characters/${id}`,
 		// 	character
 		// );
+
+		characterEditedNotification();
 		history.push('/farming-planner/');
 	};
 

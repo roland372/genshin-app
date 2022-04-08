@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 
+import { toast } from 'react-toastify';
+
 import TeamDataService from '../services/team.services';
 
 import Container from '../../Layout/Container';
@@ -17,6 +19,17 @@ import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const AddTeam = props => {
 	useDocumentTitle('Add Team');
+
+	const teamAddedNotification = () =>
+		toast.success('Team Added', {
+			position: 'top-center',
+			autoClose: 2000,
+			hideProgressBar: false,
+			closeOnClick: true,
+			pauseOnHover: false,
+			draggable: true,
+			progress: '',
+		});
 
 	const { characterNames, filterCharacters } = props;
 	let history = useHistory();
@@ -57,6 +70,7 @@ const AddTeam = props => {
 			try {
 				await TeamDataService.addTeam(team);
 				console.log('team added to database');
+				teamAddedNotification();
 				history.push('/team-builder/');
 			} catch (err) {
 				console.log(err);

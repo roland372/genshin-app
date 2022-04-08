@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
-import axios from 'axios';
+
+import { toast } from 'react-toastify';
 
 import CharacterDataService from '../services/character.services';
 
@@ -17,6 +18,18 @@ import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const AddCharacter = props => {
 	useDocumentTitle('Add Character');
+
+	const characterAddedNotification = () =>
+		toast.success('Character Added', {
+			position: 'top-center',
+			autoClose: 2000,
+			hideProgressBar: false,
+			closeOnClick: true,
+			pauseOnHover: false,
+			draggable: true,
+			progress: '',
+		});
+
 	let history = useHistory();
 
 	let {
@@ -259,6 +272,7 @@ const AddCharacter = props => {
 		try {
 			await CharacterDataService.addCharacter(character);
 			console.log('character added to database');
+			characterAddedNotification();
 			history.push('/farming-planner/');
 		} catch (err) {
 			console.log(err);

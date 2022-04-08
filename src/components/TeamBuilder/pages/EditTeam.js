@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useHistory, useParams } from 'react-router-dom';
 
+import { toast } from 'react-toastify';
+
 import TeamDataService from '../services/team.services';
 
 import Container from '../../Layout/Container';
@@ -17,6 +19,17 @@ import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const EditTeam = props => {
 	useDocumentTitle('Edit Team');
+
+	const teamEditedNotification = () =>
+		toast.success('Team Edited', {
+			position: 'top-center',
+			autoClose: 2000,
+			hideProgressBar: false,
+			closeOnClick: true,
+			pauseOnHover: false,
+			draggable: true,
+			progress: '',
+		});
 
 	const { filterCharacters, characterNames } = props;
 	let history = useHistory();
@@ -80,10 +93,12 @@ const EditTeam = props => {
 
 		if (name.length !== 0 && team.teamMembers.length >= 4) {
 			await TeamDataService.updateTeam(id, team);
+			teamEditedNotification();
 			history.push('/team-builder/');
 		} else if (name.length !== 0 && select.length === 0) {
 			team.teamMembers = [...previousTeam.current];
 			await TeamDataService.updateTeam(id, team);
+			teamEditedNotification();
 			history.push('/team-builder/');
 		}
 	};

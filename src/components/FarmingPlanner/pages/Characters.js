@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+
+import { toast } from 'react-toastify';
 
 import CharacterDataService from '../services/character.services';
 
@@ -14,6 +15,17 @@ import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const Characters = props => {
 	useDocumentTitle('Farming Planner');
+
+	const characterDeletedNotification = () =>
+		toast.success('Character Deleted', {
+			position: 'top-center',
+			autoClose: 2000,
+			hideProgressBar: false,
+			closeOnClick: true,
+			pauseOnHover: false,
+			draggable: true,
+			progress: '',
+		});
 
 	const { filterCharacters } = props;
 
@@ -44,6 +56,7 @@ const Characters = props => {
 
 	const deleteCharacter = async id => {
 		await CharacterDataService.deleteCharacter(id);
+		characterDeletedNotification();
 		getCharactersDatabase();
 	};
 
