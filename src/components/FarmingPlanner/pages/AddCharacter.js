@@ -1,206 +1,79 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React, { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
+import axios from 'axios';
+
+import CharacterDataService from '../services/character.services';
 
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
 
 import levelOptions from '../utils/levelOptions';
 import talentOptions from '../utils/talentOptions';
-import { characterLevelUp } from '../utils/materials';
-import { talentLevelUp } from '../utils/materials';
 
 import Form from '../components/Form';
-import Character from '../components/Character';
-import SubmitButton from '../components/SubmitButton';
-import Materials from '../components/Materials';
 import BackButton from '../components/BackButton';
 
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const AddCharacter = props => {
 	useDocumentTitle('Add Character');
-
-	let { charactersData, characters, characterNames } = props;
-
 	let history = useHistory();
 
-	// NA - normal attack
-	// ES - elemental skill
-	// EB - elemental burst
-	let [levelLow, setLevelLow] = useState(1);
-	let [levelHigh, setLevelHigh] = useState(1);
-	let [NALow, setNALow] = useState(1);
-	let [NAHigh, setNAHigh] = useState(1);
-	let [ESLow, setESLow] = useState(1);
-	let [ESHigh, setESHigh] = useState(1);
-	let [EBLow, setEBLow] = useState(1);
-	let [EBHigh, setEBHigh] = useState(1);
-	let [characterSelect, setCharacterSelect] = useState('');
-	// console.log('Level: ', levelLow, levelHigh);
-	// console.log('NA: ', NALow, NAHigh);
-	// console.log('ES: ', ESLow, ESHigh);
-	// console.log('EB: ', EBLow, EBHigh);
+	let {
+		//* <----- characters data ----->
+		charactersData,
+		characters,
+		characterNames,
+		//* <----- character state ----->
+		character,
+		setCharacter,
+		//* <----- select state ----->
+		levelLow,
+		setLevelLow,
+		levelHigh,
+		setLevelHigh,
+		NALow,
+		setNALow,
+		NAHigh,
+		setNAHigh,
+		ESLow,
+		setESLow,
+		ESHigh,
+		setESHigh,
+		EBLow,
+		setEBLow,
+		EBHigh,
+		setEBHigh,
+		characterSelect,
+		setCharacterSelect,
+		//* <----- character level up state ----->
+		moraCharacter,
+		setMoraCharacter,
+		expBooks,
+		localSpeciality,
+		characterCommonMaterial1,
+		characterCommonMaterial2,
+		characterCommonMaterial3,
+		sliver,
+		fragments,
+		chunks,
+		gemstones,
+		bossAscensionMaterial,
+		moraTalent,
+		bronzeTalentBooks,
+		silverTalentBooks,
+		goldTalentBooks,
+		talentCommonMaterial1,
+		talentCommonMaterial2,
+		talentCommonMaterial3,
+		bossMaterial,
+		crown,
+		//* functions to set character and talent values
+		setCharacterLevelUp,
+		setTalentLevelUp,
+	} = props;
 
-	let [character, setCharacter] = useState({
-		name: '',
-		levelLow: 1,
-		levelHigh: 1,
-		NALow: 1,
-		NAHigh: 1,
-		ESLow: 1,
-		ESHigh: 1,
-		EBLow: 1,
-		EBHigh: 1,
-	});
-
-	// <----- character level up state ----->
-	const [moraCharacter, setMoraCharacter] = useState(0);
-	const [expBooks, setExpBooks] = useState(0);
-	const [localSpeciality, setLocalSpeciality] = useState(0);
-	const [characterCommonMaterial1, setCharacterCommonMaterial1] = useState(0);
-	const [characterCommonMaterial2, setCharacterCommonMaterial2] = useState(0);
-	const [characterCommonMaterial3, setCharacterCommonMaterial3] = useState(0);
-	const [sliver, setSliver] = useState(0);
-	const [fragments, setFragments] = useState(0);
-	const [chunks, setChunks] = useState(0);
-	const [gemstones, setGemstones] = useState(0);
-	const [bossAscensionMaterial, setBossAscensionMaterial] = useState(0);
-
-	// <----- talent level up state ----->
-	const [moraTalent, setMoraTalent] = useState(0);
-	const [bronzeTalentBooks, setBronzeTalentBooks] = useState(0);
-	const [silverTalentBooks, setSilverTalentBooks] = useState(0);
-	const [goldTalentBooks, setGoldTalentBooks] = useState(0);
-	const [talentCommonMaterial1, setTalentCommonMaterial1] = useState(0);
-	const [talentCommonMaterial2, setTalentCommonMaterial2] = useState(0);
-	const [talentCommonMaterial3, setTalentCommonMaterial3] = useState(0);
-	const [bossMaterial, setBossMaterial] = useState(0);
-	const [crown, setCrown] = useState(0);
-
-	const setCharacterLevelUp = () => {
-		setMoraCharacter(
-			characterLevelUp[levelHigh - 1].materials[0].mora -
-				characterLevelUp[levelLow - 1].materials[0].mora
-		);
-		setExpBooks(
-			characterLevelUp[levelHigh - 1].materials[1].expBooks -
-				characterLevelUp[levelLow - 1].materials[1].expBooks
-		);
-		setLocalSpeciality(
-			characterLevelUp[levelHigh - 1].materials[2].localSpeciality -
-				characterLevelUp[levelLow - 1].materials[2].localSpeciality
-		);
-		setCharacterCommonMaterial1(
-			characterLevelUp[levelHigh - 1].materials[3].commonMaterial1 -
-				characterLevelUp[levelLow - 1].materials[3].commonMaterial1
-		);
-		setCharacterCommonMaterial2(
-			characterLevelUp[levelHigh - 1].materials[4].commonMaterial2 -
-				characterLevelUp[levelLow - 1].materials[4].commonMaterial2
-		);
-		setCharacterCommonMaterial3(
-			characterLevelUp[levelHigh - 1].materials[5].commonMaterial3 -
-				characterLevelUp[levelLow - 1].materials[5].commonMaterial3
-		);
-		setSliver(
-			characterLevelUp[levelHigh - 1].materials[6].sliver -
-				characterLevelUp[levelLow - 1].materials[6].sliver
-		);
-		setFragments(
-			characterLevelUp[levelHigh - 1].materials[7].fragments -
-				characterLevelUp[levelLow - 1].materials[7].fragments
-		);
-		setChunks(
-			characterLevelUp[levelHigh - 1].materials[8].chunks -
-				characterLevelUp[levelLow - 1].materials[8].chunks
-		);
-		setGemstones(
-			characterLevelUp[levelHigh - 1].materials[9].gemstones -
-				characterLevelUp[levelLow - 1].materials[9].gemstones
-		);
-		setBossAscensionMaterial(
-			characterLevelUp[levelHigh - 1].materials[10].bossAscensionMaterial -
-				characterLevelUp[levelLow - 1].materials[10].bossAscensionMaterial
-		);
-	};
-
-	const setTalentLevelUp = () => {
-		setMoraTalent(
-			talentLevelUp[NAHigh - 1].materials.mora -
-				talentLevelUp[NALow - 1].materials.mora +
-				(talentLevelUp[ESHigh - 1].materials.mora -
-					talentLevelUp[ESLow - 1].materials.mora) +
-				(talentLevelUp[EBHigh - 1].materials.mora -
-					talentLevelUp[EBLow - 1].materials.mora)
-		);
-		setBronzeTalentBooks(
-			talentLevelUp[NAHigh - 1].materials.bronzeTalentBooks -
-				talentLevelUp[NALow - 1].materials.bronzeTalentBooks +
-				(talentLevelUp[ESHigh - 1].materials.bronzeTalentBooks -
-					talentLevelUp[ESLow - 1].materials.bronzeTalentBooks) +
-				(talentLevelUp[EBHigh - 1].materials.bronzeTalentBooks -
-					talentLevelUp[EBLow - 1].materials.bronzeTalentBooks)
-		);
-		setSilverTalentBooks(
-			talentLevelUp[NAHigh - 1].materials.silverTalentBooks -
-				talentLevelUp[NALow - 1].materials.silverTalentBooks +
-				(talentLevelUp[ESHigh - 1].materials.silverTalentBooks -
-					talentLevelUp[ESLow - 1].materials.silverTalentBooks) +
-				(talentLevelUp[EBHigh - 1].materials.silverTalentBooks -
-					talentLevelUp[EBLow - 1].materials.silverTalentBooks)
-		);
-		setGoldTalentBooks(
-			talentLevelUp[NAHigh - 1].materials.goldTalentBooks -
-				talentLevelUp[NALow - 1].materials.goldTalentBooks +
-				(talentLevelUp[ESHigh - 1].materials.goldTalentBooks -
-					talentLevelUp[ESLow - 1].materials.goldTalentBooks) +
-				(talentLevelUp[EBHigh - 1].materials.goldTalentBooks -
-					talentLevelUp[EBLow - 1].materials.goldTalentBooks)
-		);
-		setTalentCommonMaterial1(
-			talentLevelUp[NAHigh - 1].materials.commonMaterial1 -
-				talentLevelUp[NALow - 1].materials.commonMaterial1 +
-				(talentLevelUp[ESHigh - 1].materials.commonMaterial1 -
-					talentLevelUp[ESLow - 1].materials.commonMaterial1) +
-				(talentLevelUp[EBHigh - 1].materials.commonMaterial1 -
-					talentLevelUp[EBLow - 1].materials.commonMaterial1)
-		);
-		setTalentCommonMaterial2(
-			talentLevelUp[NAHigh - 1].materials.commonMaterial2 -
-				talentLevelUp[NALow - 1].materials.commonMaterial2 +
-				(talentLevelUp[ESHigh - 1].materials.commonMaterial2 -
-					talentLevelUp[ESLow - 1].materials.commonMaterial2) +
-				(talentLevelUp[EBHigh - 1].materials.commonMaterial2 -
-					talentLevelUp[EBLow - 1].materials.commonMaterial2)
-		);
-		setTalentCommonMaterial3(
-			talentLevelUp[NAHigh - 1].materials.commonMaterial3 -
-				talentLevelUp[NALow - 1].materials.commonMaterial3 +
-				(talentLevelUp[ESHigh - 1].materials.commonMaterial3 -
-					talentLevelUp[ESLow - 1].materials.commonMaterial3) +
-				(talentLevelUp[EBHigh - 1].materials.commonMaterial3 -
-					talentLevelUp[EBLow - 1].materials.commonMaterial3)
-		);
-		setBossMaterial(
-			talentLevelUp[NAHigh - 1].materials.bossMaterial -
-				talentLevelUp[NALow - 1].materials.bossMaterial +
-				(talentLevelUp[ESHigh - 1].materials.bossMaterial -
-					talentLevelUp[ESLow - 1].materials.bossMaterial) +
-				(talentLevelUp[EBHigh - 1].materials.bossMaterial -
-					talentLevelUp[EBLow - 1].materials.bossMaterial)
-		);
-		setCrown(
-			talentLevelUp[NAHigh - 1].materials.crown -
-				talentLevelUp[NALow - 1].materials.crown +
-				(talentLevelUp[ESHigh - 1].materials.crown -
-					talentLevelUp[ESLow - 1].materials.crown) +
-				(talentLevelUp[EBHigh - 1].materials.crown -
-					talentLevelUp[EBLow - 1].materials.crown)
-		);
-	};
-
-	//? <----- character level up switch ----->
+	//* <----- character level up switch ----->
 	useEffect(() => {
 		switch (levelHigh) {
 			case 1:
@@ -250,7 +123,7 @@ const AddCharacter = props => {
 		}
 	});
 
-	//? <----- talent level up switch ----->
+	//* <----- talent level up switch ----->
 	useEffect(() => {
 		switch (NAHigh || ESHigh || EBHigh) {
 			case 1:
@@ -288,7 +161,7 @@ const AddCharacter = props => {
 		}
 	});
 
-	// <----- prevent negative select values ----->
+	//* <----- prevent negative select values ----->
 	if (levelLow > levelHigh) {
 		levelHigh = levelLow;
 		setLevelHigh(levelHigh);
@@ -309,6 +182,7 @@ const AddCharacter = props => {
 		setEBHigh(EBHigh);
 	}
 
+	//* update character with selected values
 	useEffect(() => {
 		setCharacter({
 			...character,
@@ -376,46 +250,24 @@ const AddCharacter = props => {
 		crown,
 	]);
 
-	// const onInputChange = e => {
-	// 	setCharacter({
-	// 		...character,
-	// 		name: e,
-	// 		levelLow: levelLow,
-	// 		levelHigh: levelHigh,
-	// 		NALow: NALow,
-	// 		NAHigh: NAHigh,
-	// 		ESLow: ESLow,
-	// 		ESHigh: ESHigh,
-	// 		EBLow: EBLow,
-	// 		EBHigh: EBHigh,
-	// 	});
-	// 	console.log(character);
-	// };
-
 	const onSubmit = async e => {
 		e.preventDefault();
-
-		// setCharacter({
-		// 	...character,
-		// 	name: characterSelect,
-		// 	levelLow: levelLow,
-		// 	levelHigh: levelHigh,
-		// 	NALow: NALow,
-		// 	NAHigh: NAHigh,
-		// 	ESLow: ESLow,
-		// 	ESHigh: ESHigh,
-		// 	EBLow: EBLow,
-		// 	EBHigh: EBHigh,
-		// });
 
 		console.log(character);
 		console.log('submitted');
 
-		await axios.post(
-			'http://localhost:3003/farming-planner/characters',
-			character
-		);
-		history.push('/farming-planner/');
+		try {
+			await CharacterDataService.addCharacter(character);
+			console.log('character added to database');
+			history.push('/farming-planner/');
+		} catch (err) {
+			console.log(err);
+		}
+
+		// await axios.post(
+		// 	'http://localhost:3003/farming-planner/characters',
+		// 	character
+		// );
 
 		// setFormErrors(validation(name, select));
 		// if (name.length !== 0 && select.length >= 4) {
@@ -424,12 +276,36 @@ const AddCharacter = props => {
 		// }
 	};
 
+	// cleanup values when component unmounts
+	useEffect(() => {
+		setCharacterSelect('');
+		setLevelLow(1);
+		setLevelHigh(1);
+		setNALow(1);
+		setNAHigh(1);
+		setESLow(1);
+		setESHigh(1);
+		setEBLow(1);
+		setEBHigh(1);
+	}, [
+		setCharacterSelect,
+		setLevelLow,
+		setLevelHigh,
+		setNALow,
+		setNAHigh,
+		setESLow,
+		setESHigh,
+		setEBLow,
+		setEBHigh,
+	]);
+
 	return (
 		<Container>
 			<CardComponent title='Add Character'>
 				<BackButton>
 					<section className='mx-2'>
 						<Form
+							characters={characters}
 							levelOptions={levelOptions}
 							charactersData={charactersData}
 							talentOptions={talentOptions}
@@ -450,45 +326,37 @@ const AddCharacter = props => {
 							EBLow={EBLow}
 							setEBLow={setEBLow}
 							setEBHigh={setEBHigh}
+							moraCharacter={moraCharacter}
+							setMoraCharacter={setMoraCharacter}
+							moraTalent={moraTalent}
+							expBooks={expBooks}
+							localSpeciality={localSpeciality}
+							characterCommonMaterial1={characterCommonMaterial1}
+							talentCommonMaterial1={talentCommonMaterial1}
+							characterCommonMaterial2={characterCommonMaterial2}
+							talentCommonMaterial2={talentCommonMaterial2}
+							characterCommonMaterial3={characterCommonMaterial3}
+							talentCommonMaterial3={talentCommonMaterial3}
+							bossAscensionMaterial={bossAscensionMaterial}
+							sliver={sliver}
+							fragments={fragments}
+							chunks={chunks}
+							gemstones={gemstones}
+							bronzeTalentBooks={bronzeTalentBooks}
+							silverTalentBooks={silverTalentBooks}
+							goldTalentBooks={goldTalentBooks}
+							bossMaterial={bossMaterial}
+							crown={crown}
 							onSubmit={onSubmit}
 							characterNames={characterNames}
 							selectValues={characterSelect}
 							setCharacterSelect={setCharacterSelect}
 							// onInputChange={onInputChange}
 							formErrors
-						>
-							<Character
-								charactersData={characters}
-								characterSelect={characterSelect}
-							/>
-							<Materials
-								charactersData={charactersData}
-								characterSelect={characterSelect}
-								moraCharacter={moraCharacter}
-								moraTalent={moraTalent}
-								expBooks={expBooks}
-								localSpeciality={localSpeciality}
-								characterCommonMaterial1={characterCommonMaterial1}
-								talentCommonMaterial1={talentCommonMaterial1}
-								characterCommonMaterial2={characterCommonMaterial2}
-								talentCommonMaterial2={talentCommonMaterial2}
-								characterCommonMaterial3={characterCommonMaterial3}
-								talentCommonMaterial3={talentCommonMaterial3}
-								bossAscensionMaterial={bossAscensionMaterial}
-								sliver={sliver}
-								fragments={fragments}
-								chunks={chunks}
-								gemstones={gemstones}
-								bronzeTalentBooks={bronzeTalentBooks}
-								silverTalentBooks={silverTalentBooks}
-								goldTalentBooks={goldTalentBooks}
-								bossMaterial={bossMaterial}
-								crown={crown}
-							/>
-							{characterSelect !== '' ? (
-								<SubmitButton text='Add Character' color='primary' />
-							) : null}
-						</Form>
+							// submit button
+							color={'primary'}
+							text={'Add Character'}
+						/>
 					</section>
 				</BackButton>
 			</CardComponent>

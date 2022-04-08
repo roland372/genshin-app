@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from 'react';
+
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-import CharacterDataService from '../services/character.services';
-
-import CharactersDataService from '../services/character.services';
-
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
-import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
@@ -16,45 +14,42 @@ const Characters = props => {
 	useDocumentTitle('Farming Planner');
 
 	const { filterCharacters } = props;
-
-	const [charactersDatabase, setCharactersDatabase] = useState([]);
+	let [characters, setCharacters] = useState(null);
 
 	useEffect(() => {
-		getCharactersDatabase();
+		loadCharacters();
 	}, []);
 
-	const getCharactersDatabase = async () => {
-		const data = await CharactersDataService.getAllCharacters();
-		setCharactersDatabase(
-			data.docs.map(doc => ({ ...doc.data(), id: doc.id }))
+	const loadCharacters = async () => {
+		const result = await axios.get(
+			'http://localhost:3003/farming-planner/characters'
 		);
+
+		setCharacters(result.data.reverse());
 	};
 
-	//* filter array based on character names
+	// filter array based on character names
 	let namesArray = [];
-
-	//* only call the function when characters were fetched
-	charactersDatabase && charactersDatabase.map(c => namesArray.push(c.name));
-
-	// const deleteCharacter = async id => {
-	// 	await axios.delete(
-	// 		`http://localhost:3003/farming-planner/characters/${id}`
-	// 	);
-	// };
+	// only call the function when characters were fetched
+	characters && characters.map(c => namesArray.push(c.name));
 
 	const deleteCharacter = async id => {
-		await CharacterDataService.deleteCharacter(id);
-		getCharactersDatabase();
+		await axios.delete(
+			`http://localhost:3003/farming-planner/characters/${id}`
+		);
+		loadCharacters();
 	};
 
 	// characters && console.log(filterCharacters(namesArray));
 	// characters && console.log(characters);
 
-	//* merge arrays, one filtered by names that has select values, and second containing images and other properties
+	// merge arrays, one filtered by names that has select values, and second containing images and other properties
 	const mergedCharacters = filterCharacters(namesArray).map(item => {
-		const obj = charactersDatabase.find(o => o.name === item.name);
+		const obj = characters.find(o => o.name === item.name);
 		return { ...item, ...obj };
 	});
+
+	// console.log(mergedCharacters);
 
 	return (
 		<Container>
@@ -71,7 +66,7 @@ const Characters = props => {
 					<hr />
 				</div>
 				<section className='d-flex flex-wrap justify-content-center align-items-center mx-2'>
-					{charactersDatabase &&
+					{characters &&
 						mergedCharacters.map(character => {
 							const { name, image, rarity, elementImage, element } = character;
 

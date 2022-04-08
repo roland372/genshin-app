@@ -1,5 +1,4 @@
 import React from 'react';
-import Select from 'react-select';
 import Character from './Character';
 import Materials from './Materials';
 import SubmitButton from './SubmitButton';
@@ -51,28 +50,12 @@ const Form = props => {
 		bossMaterial,
 		crown,
 		onSubmit,
-		characterNames,
-		setCharacterSelect,
-		// onInputChange,
 		formErrors,
 	} = props;
-
-	// console.log(characterSelect);
 
 	return (
 		<section>
 			<form onSubmit={e => onSubmit(e)} className='text-dark'>
-				<Select
-					className='text-start mb-2'
-					placeholder="Select a character to view it's materials"
-					options={characterNames}
-					// onChange={e => setCharacterSelect(e.value)}
-					// onChange={e => onInputChange(e.value)}
-					onChange={e => {
-						setCharacterSelect(e.value);
-						// onInputChange(e.value);
-					}}
-				/>
 				<Character
 					charactersData={characters}
 					characterSelect={characterSelect}
@@ -99,7 +82,6 @@ const Form = props => {
 					EBLow={EBLow}
 					setEBLow={setEBLow}
 					setEBHigh={setEBHigh}
-					// onChange={e => onInputChange(e)}
 				/>
 				<Materials
 					charactersData={charactersData}

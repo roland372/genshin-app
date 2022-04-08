@@ -19,8 +19,7 @@ const Templates = props => {
 					<div>Templates</div>
 					<button
 						className='btn btn-sm btn-light'
-						onClick={e => {
-							e.preventDefault();
+						onClick={() => {
 							setLevelLow(1);
 							setLevelHigh(14);
 							setNALow(1);
@@ -35,8 +34,7 @@ const Templates = props => {
 					</button>
 					<button
 						className='btn btn-sm btn-light'
-						onClick={e => {
-							e.preventDefault();
+						onClick={() => {
 							setLevelLow(1);
 							setLevelHigh(1);
 							setNALow(1);
@@ -51,8 +49,7 @@ const Templates = props => {
 					</button>
 					<button
 						className='btn btn-sm btn-light'
-						onClick={e => {
-							e.preventDefault();
+						onClick={() => {
 							setLevelLow(1);
 							setLevelHigh(12);
 							setNALow(1);

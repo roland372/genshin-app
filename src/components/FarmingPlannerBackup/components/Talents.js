@@ -39,7 +39,7 @@ const Talents = props => {
 							onChange={e => {
 								const value = parseInt(e.target.value);
 								setLevelLow(value);
-								console.log(value);
+								// onInputChange(e.value);
 							}}
 						>
 							{levelOptions.map(o => (
@@ -55,7 +55,6 @@ const Talents = props => {
 							onChange={e => {
 								const value = parseInt(e.target.value);
 								setLevelHigh(value);
-								console.log(value);
 							}}
 						>
 							{levelOptions.map(o => (
@@ -234,6 +233,56 @@ const Talents = props => {
 					<div key={c.data.name}></div>
 				)
 			)}
+			{/* {characterSelect && (
+				<div className='border'>
+					<div>Templates</div>
+					<button
+						className='btn btn-sm btn-light'
+						onClick={() => {
+							setLevelLow(1);
+							setLevelHigh(14);
+							setNALow(1);
+							setNAHigh(10);
+							setESLow(1);
+							setESHigh(10);
+							setEBLow(1);
+							setEBHigh(10);
+						}}
+					>
+						Max
+					</button>
+					<button
+						className='btn btn-sm btn-light'
+						onClick={() => {
+							setLevelLow(1);
+							setLevelHigh(1);
+							setNALow(1);
+							setNAHigh(1);
+							setESLow(1);
+							setESHigh(1);
+							setEBLow(1);
+							setEBHigh(1);
+						}}
+					>
+						Reset
+					</button>
+					<button
+						className='btn btn-sm btn-light'
+						onClick={() => {
+							setLevelLow(1);
+							setLevelHigh(12);
+							setNALow(1);
+							setNAHigh(8);
+							setESLow(1);
+							setESHigh(8);
+							setEBLow(1);
+							setEBHigh(8);
+						}}
+					>
+						80-8-8-8
+					</button>
+				</div>
+			)} */}
 		</section>
 	);
 };

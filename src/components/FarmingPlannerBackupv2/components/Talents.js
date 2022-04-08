@@ -39,7 +39,7 @@ const Talents = props => {
 							onChange={e => {
 								const value = parseInt(e.target.value);
 								setLevelLow(value);
-								console.log(value);
+								// onInputChange(e.value);
 							}}
 						>
 							{levelOptions.map(o => (
@@ -55,7 +55,6 @@ const Talents = props => {
 							onChange={e => {
 								const value = parseInt(e.target.value);
 								setLevelHigh(value);
-								console.log(value);
 							}}
 						>
 							{levelOptions.map(o => (
