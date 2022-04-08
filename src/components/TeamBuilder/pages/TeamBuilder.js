@@ -56,6 +56,7 @@ const TeamBuilder = () => {
 				draggable
 				pauseOnHover={false}
 				transition={Flip}
+				theme='dark'
 			/>
 			<Switch>
 				<Route exact path='/team-builder'>

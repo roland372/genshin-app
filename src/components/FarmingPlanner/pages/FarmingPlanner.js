@@ -249,6 +249,7 @@ const FarmingPlanner = () => {
 				draggable
 				pauseOnHover={false}
 				transition={Flip}
+				theme='dark'
 			/>
 			<Switch>
 				<Route exact path='/farming-planner'>
