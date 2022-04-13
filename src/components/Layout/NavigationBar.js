@@ -14,7 +14,7 @@ const NavigationBar = () => {
 				</Navbar.Brand>
 				<Navbar.Collapse id='basic-navbar-nav'>
 					<Nav className='me-auto'>
-						{navLinks.slice(1, 2).map(link => {
+						{navLinks.slice(1, 3).map(link => {
 							const { id, url, text } = link;
 							return (
 								<li className='nav-item' key={id}>
