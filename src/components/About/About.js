@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Container from '../../components/Layout/Container';
-import CardComponent from '../../components/Layout/CardComponent';
+import Container from '../Layout/Container';
+import CardComponent from '../Layout/CardComponent';
 
 import useDocumentTitle from '../../hooks/useDocumentTitle';
 

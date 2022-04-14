@@ -72,6 +72,11 @@ export const navLinks = [
 		url: '/about',
 		text: 'About',
 	},
+	{
+		id: 14,
+		url: '/profile',
+		text: 'Profile',
+	},
 	// {
 	// 	id: 100,
 	// 	url: '/test',
