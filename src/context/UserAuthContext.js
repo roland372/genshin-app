@@ -3,6 +3,7 @@ import {
 	createUserWithEmailAndPassword,
 	signInWithEmailAndPassword,
 	onAuthStateChanged,
+	getAuth,
 	signOut,
 	GoogleAuthProvider,
 	signInWithPopup,
@@ -16,6 +17,19 @@ const userAuthContext = createContext();
 
 export const UserAuthContextProvider = ({ children }) => {
 	const [user, setUser] = useState({});
+
+	const checkLoggedInUser = () => {
+		const auth = getAuth();
+		onAuthStateChanged(auth, user => {
+			if (user) {
+				console.log('user logged in');
+				return true;
+			} else {
+				console.log('no user');
+				return false;
+			}
+		});
+	};
 
 	const logIn = (email, password) => {
 		return signInWithEmailAndPassword(auth, email, password);
@@ -61,7 +75,7 @@ export const UserAuthContextProvider = ({ children }) => {
 
 	return (
 		<userAuthContext.Provider
-			value={{ user, logIn, signUp, logOut, googleSignIn }}
+			value={{ user, logIn, signUp, logOut, googleSignIn, checkLoggedInUser }}
 		>
 			{children}
 		</userAuthContext.Provider>

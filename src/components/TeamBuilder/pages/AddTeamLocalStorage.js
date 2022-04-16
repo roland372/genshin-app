@@ -3,8 +3,6 @@ import { useHistory } from 'react-router-dom';
 
 import { toast } from 'react-toastify';
 
-import TeamDataService from '../services/team.services';
-
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
 
@@ -17,15 +15,11 @@ import validation from '../components/FormValidation';
 
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
-import { useUserAuth } from '../../../context/UserAuthContext';
-
-const AddTeam = props => {
+const AddTeamToLocalStorage = props => {
 	useDocumentTitle('Add Team');
 
-	const { user } = useUserAuth();
-
 	const teamAddedNotification = () =>
-		toast.success('Team Added', {
+		toast.success('Team Added to Local Storage', {
 			position: 'top-center',
 			autoClose: 2000,
 			hideProgressBar: false,
@@ -44,8 +38,22 @@ const AddTeam = props => {
 		name: '',
 		teamMembers: [],
 		description: '',
-		owner: user.uid,
 	});
+
+	const getLocalStorage = () => {
+		// get list from local storage
+		let teams = localStorage.getItem('teams');
+		// if list exists - is in local storage
+		if (teams) {
+			return JSON.parse(localStorage.getItem('teams'));
+		}
+		// if list doesn't exists
+		else {
+			return [];
+		}
+	};
+
+	let [teams] = useState(getLocalStorage);
 
 	const { name, description } = team;
 
@@ -64,6 +72,10 @@ const AddTeam = props => {
 	// console.log('selected values: ', select);
 	// console.log('values in object :', team.teamMembers);
 
+	// useEffect(() => {
+	// 	getLocalStorage();
+	// }, []);
+
 	const onSubmit = async e => {
 		e.preventDefault();
 		team.teamMembers = [...select];
@@ -72,16 +84,17 @@ const AddTeam = props => {
 		if (name.length !== 0 && select.length >= 4) {
 			// await axios.post('http://localhost:3003/team-builder/teams', team);
 
-			try {
-				await TeamDataService.addTeam(team);
-				console.log('team added to database');
-				teamAddedNotification();
-				history.push('/team-builder/');
-			} catch (err) {
-				console.log(err);
-			}
+			teams = [...teams, team];
+
+			localStorage.setItem('teams', JSON.stringify(teams));
+			console.log('team added to localstorage');
+			teamAddedNotification();
+			history.push('/team-builder/');
 		}
 	};
+
+	console.log(team);
+	console.log(teams);
 
 	return (
 		<Container>
@@ -109,4 +122,4 @@ const AddTeam = props => {
 	);
 };
 
-export default AddTeam;
+export default AddTeamToLocalStorage;

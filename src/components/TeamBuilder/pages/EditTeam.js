@@ -17,8 +17,12 @@ import validation from '../components/FormValidation';
 
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
+import { useUserAuth } from '../../../context/UserAuthContext';
+
 const EditTeam = props => {
 	useDocumentTitle('Edit Team');
+
+	const { user } = useUserAuth();
 
 	const teamEditedNotification = () =>
 		toast.success('Team Edited', {
@@ -39,11 +43,14 @@ const EditTeam = props => {
 	// for some reason, when I don't fetch all teams, previous teams won't display
 	const [, setTeamsDatabase] = useState([]);
 
+	const [, setTeamsLocalStorage] = useState([]);
+
 	let [select, setSelect] = useState([]);
 	const [team, setTeam] = useState({
 		name: '',
 		teamMembers: [],
 		description: '',
+		owner: user ? user.uid : '',
 	});
 
 	const { name, description } = team;
@@ -68,9 +75,12 @@ const EditTeam = props => {
 	}, [id]);
 
 	const getTeamsDatabase = async () => {
-		const data = await TeamDataService.getAllTeams();
-		// console.log(data.docs);
-		setTeamsDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
+		if (user) {
+			const data = await TeamDataService.getAllTeams();
+			// console.log(data.docs);
+			setTeamsDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
+		} else {
+		}
 	};
 
 	const getTeamDatabase = async id => {

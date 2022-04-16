@@ -9,12 +9,18 @@ import AddTeam from './AddTeam';
 import EditTeam from './EditTeam';
 import Team from '../components/Team';
 
+import AddTeamLocalStorage from './AddTeamLocalStorage';
+
 import characters from '../../../assets/data/Characters/characters.json';
 
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
+import { useUserAuth } from '../../../context/UserAuthContext';
+
 const TeamBuilder = () => {
 	useDocumentTitle('Team Builder');
+
+	const { user } = useUserAuth();
 
 	// reusable function to filter out characters
 	const filterCharacters = teamsArray => {
@@ -67,11 +73,29 @@ const TeamBuilder = () => {
 					/>
 				</Route>
 				<Route exact path='/team-builder/teams/add'>
-					<AddTeam
+					{user ? (
+						<AddTeam
+							characters={characters.characters}
+							filterCharacters={filterCharacters}
+							characterNames={characterNames}
+						/>
+					) : (
+						<AddTeamLocalStorage
+							characters={characters.characters}
+							filterCharacters={filterCharacters}
+							characterNames={characterNames}
+						/>
+					)}
+					{/* <AddTeam
 						characters={characters.characters}
 						filterCharacters={filterCharacters}
 						characterNames={characterNames}
-					/>
+					/> */}
+					{/* <AddTeamLocalStorage
+						characters={characters.characters}
+						filterCharacters={filterCharacters}
+						characterNames={characterNames}
+					/> */}
 				</Route>
 				<Route exact path='/team-builder/teams/edit/:id'>
 					<EditTeam

@@ -12,8 +12,12 @@ import CharactersHeading from '../components/CharactersHeading';
 
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
+import { useUserAuth } from '../../../context/UserAuthContext';
+
 const Teams = props => {
 	useDocumentTitle('Team Builder');
+
+	const { user } = useUserAuth();
 
 	const teamDeletedNotification = () =>
 		toast.success('Team Deleted', {
@@ -26,17 +30,31 @@ const Teams = props => {
 			progress: '',
 		});
 
+	// console.log(checkLoggedInUser());
+
+	// const getLocalStorage = () => {
+	// 	// get list from local storage
+	// 	let teams = localStorage.getItem('teams');
+	// 	// if list exists - is in local storage
+	// 	if (teams) {
+	// 		return JSON.parse(localStorage.getItem('teams'));
+	// 	}
+	// 	// if list doesn't exists
+	// 	else {
+	// 		return [];
+	// 	}
+	// };
+
 	const { filterCharacters } = props;
 
 	const [teamsDatabase, setTeamsDatabase] = useState([]);
 
 	useEffect(() => {
-		getTeamsDatabase();
-	}, []);
+		user && getTeamsDatabase();
+	}, [user]);
 
 	const getTeamsDatabase = async () => {
 		const data = await TeamDataService.getAllTeams();
-		// console.log(data.docs);
 		setTeamsDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
 	};
 
@@ -45,6 +63,12 @@ const Teams = props => {
 		teamDeletedNotification();
 		getTeamsDatabase();
 	};
+
+	// console.log(teamsLocalStorage);
+	// console.log(teamsDatabase);
+
+	// console.log(teamsLocalStorage);
+
 	return (
 		<Container>
 			<CardComponent title='Team Builder'>
@@ -58,39 +82,42 @@ const Teams = props => {
 					<hr />
 				</div>
 				<section className='d-flex flex-wrap mx-2'>
-					{teamsDatabase.map((team, index) => (
-						<section
-							key={index}
-							className='border border-light rounded shadow-lg p-2 col-lg-4 col-md-6 col-sm-12'
-						>
-							<CharactersHeading heading={team.name} />
-							<Characters
-								filterCharacters={filterCharacters}
-								array={team.teamMembers}
-								heading='Team Members:'
-							/>
-							<div className='d-flex justify-content-start align-items-center ms-2 mt-2'>
-								<Link
-									className='btn btn-outline-primary mr-2'
-									to={`/team-builder/teams/${team.id}`}
+					{user &&
+						teamsDatabase
+							.filter(owner => owner.owner === user.uid)
+							.map((team, index) => (
+								<section
+									key={index}
+									className='border border-light rounded shadow-lg p-2 col-lg-4 col-md-6 col-sm-12'
 								>
-									View
-								</Link>
-								<Link
-									className='btn btn-outline-warning mr-2'
-									to={`/team-builder/teams/edit/${team.id}`}
-								>
-									Edit
-								</Link>
-								<button
-									className='btn btn-outline-danger'
-									onClick={() => deleteTeam(team.id)}
-								>
-									Delete
-								</button>
-							</div>
-						</section>
-					))}
+									<CharactersHeading heading={team.name} />
+									<Characters
+										filterCharacters={filterCharacters}
+										array={team.teamMembers}
+										heading='Team Members:'
+									/>
+									<div className='d-flex justify-content-start align-items-center ms-2 mt-2'>
+										<Link
+											className='btn btn-outline-primary mr-2'
+											to={`/team-builder/teams/${team.id}`}
+										>
+											View
+										</Link>
+										<Link
+											className='btn btn-outline-warning mr-2'
+											to={`/team-builder/teams/edit/${team.id}`}
+										>
+											Edit
+										</Link>
+										<button
+											className='btn btn-outline-danger'
+											onClick={() => deleteTeam(team.id)}
+										>
+											Delete
+										</button>
+									</div>
+								</section>
+							))}
 				</section>
 			</CardComponent>
 		</Container>
