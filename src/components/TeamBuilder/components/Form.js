@@ -11,7 +11,7 @@ const Form = props => {
 					placeholder='Enter Team Name'
 					name='name'
 					maxLength='20'
-					value={props.name}
+					value={props.name || ''}
 					onChange={e => props.onInputChange(e)}
 				/>
 			</div>

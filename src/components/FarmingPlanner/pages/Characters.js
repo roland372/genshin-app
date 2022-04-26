@@ -13,8 +13,12 @@ import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
+import { useUserAuth } from '../../../context/UserAuthContext';
+
 const Characters = props => {
 	useDocumentTitle('Farming Planner');
+
+	const { user } = useUserAuth();
 
 	const characterDeletedNotification = () =>
 		toast.success('Character Deleted', {
@@ -32,8 +36,8 @@ const Characters = props => {
 	const [charactersDatabase, setCharactersDatabase] = useState([]);
 
 	useEffect(() => {
-		getCharactersDatabase();
-	}, []);
+		user && getCharactersDatabase();
+	}, [user]);
 
 	const getCharactersDatabase = async () => {
 		const data = await CharactersDataService.getAllCharacters();
@@ -84,7 +88,7 @@ const Characters = props => {
 					<hr />
 				</div>
 				<section className='d-flex flex-wrap justify-content-center align-items-center mx-2'>
-					{charactersDatabase &&
+					{/* {charactersDatabase &&
 						mergedCharacters.map(character => {
 							const { name, image, rarity, elementImage, element } = character;
 
@@ -145,7 +149,72 @@ const Characters = props => {
 									</div>
 								</section>
 							);
-						})}
+						})} */}
+					{user &&
+						mergedCharacters
+							.filter(owner => owner.owner === user.uid)
+							.map(character => {
+								const { name, image, rarity, elementImage, element } =
+									character;
+
+								let rarityColor = '';
+								rarity === 5
+									? (rarityColor = 'rarity5bg')
+									: (rarityColor = 'rarity4bg');
+								return (
+									<section
+										key={name}
+										className='border border-light rounded shadow-lg p-2 col-lg-4 col-md-6 col-sm-12'
+									>
+										<section>
+											<OverlayTrigger
+												placement='top'
+												overlay={
+													<Tooltip>
+														<div>
+															<img
+																width='20px'
+																src={elementImage}
+																alt={element}
+																className='me-2'
+															/>
+															{name}
+														</div>
+													</Tooltip>
+												}
+											>
+												<div>
+													<img
+														src={image}
+														alt={name}
+														className={`img-fluid img-thumbnail ${rarityColor}`}
+													/>
+												</div>
+											</OverlayTrigger>
+										</section>
+										<div className='d-flex justify-content-center align-items-center ms-2 mt-2'>
+											<Link
+												className='btn btn-outline-primary mr-2'
+												to={`/farming-planner/characters/${character.id}`}
+											>
+												View
+											</Link>
+											<Link
+												className='btn btn-outline-warning mr-2'
+												to={`/farming-planner/characters/edit/${character.id}`}
+											>
+												Edit
+											</Link>
+											<button
+												className='btn btn-outline-danger'
+												onClick={() => deleteCharacter(character.id)}
+											>
+												Delete
+											</button>
+										</div>
+									</section>
+								);
+							})}
 				</section>
 			</CardComponent>
 		</Container>

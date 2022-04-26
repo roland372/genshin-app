@@ -33,6 +33,8 @@ const AddCharacter = props => {
 	let history = useHistory();
 
 	let {
+		//* <----- authenicated user uid ----->
+		owner,
 		//* <----- characters data ----->
 		charactersData,
 		characters,
@@ -200,6 +202,7 @@ const AddCharacter = props => {
 		setCharacter({
 			...character,
 			name: characterSelect,
+			owner: owner,
 			levelLow: levelLow,
 			levelHigh: levelHigh,
 			NALow: NALow,

@@ -37,13 +37,10 @@ const EditTeam = props => {
 
 	const { filterCharacters, characterNames } = props;
 	let history = useHistory();
-
 	const { id } = useParams();
 
 	// for some reason, when I don't fetch all teams, previous teams won't display
 	const [, setTeamsDatabase] = useState([]);
-
-	const [, setTeamsLocalStorage] = useState([]);
 
 	let [select, setSelect] = useState([]);
 	const [team, setTeam] = useState({
@@ -72,6 +69,7 @@ const EditTeam = props => {
 	useEffect(() => {
 		getTeamDatabase(id);
 		getTeamsDatabase();
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [id]);
 
 	const getTeamsDatabase = async () => {
@@ -112,6 +110,8 @@ const EditTeam = props => {
 			history.push('/team-builder/');
 		}
 	};
+
+	console.log(team);
 
 	return (
 		<Container>

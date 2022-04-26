@@ -33,6 +33,8 @@ const EditCharacter = props => {
 	let history = useHistory();
 
 	let {
+		//* <----- authenicated user uid ----->
+		owner,
 		//* <----- characters data ----->
 		charactersData,
 		characters,
@@ -233,6 +235,8 @@ const EditCharacter = props => {
 	useEffect(() => {
 		setCharacter({
 			...previousCharacter,
+			name: name,
+			owner: owner,
 			levelLow: levelLow,
 			levelHigh: levelHigh,
 			NALow: NALow,

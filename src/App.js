@@ -20,12 +20,12 @@ import changelog from './pages/changelog';
 import charts from './pages/charts';
 // import database from './pages/database';
 import events from './pages/events';
-import farmingPlanner from './pages/farmingPlanner';
+import FarmingPlanner from './pages/farmingPlanner';
 import home from './pages/home';
 import imageGallery from './pages/imageGallery';
 import materials from './pages/materials';
 import NotFound from './pages/NotFound';
-import teamBuilder from './pages/teamBuilder';
+import TeamBuilder from './pages/teamBuilder';
 import test from './pages/test';
 import todoList from './pages/todoList';
 import weapons from './pages/weapons';
@@ -56,10 +56,18 @@ function App() {
 							<Route path='/characters/:id' component={characters} />
 							{/* <Route path='/database' component={database} /> */}
 							<Route path='/events' component={events} />
-							<Route path='/farming-planner' component={farmingPlanner} />
+							<Route path='/farming-planner'>
+								<ProtectedRoute>
+									<FarmingPlanner />
+								</ProtectedRoute>
+							</Route>
 							<Route path='/image-gallery' component={imageGallery} />
 							<Route path='/materials' component={materials} />
-							<Route path='/team-builder' component={teamBuilder} />
+							<Route path='/team-builder'>
+								<ProtectedRoute>
+									<TeamBuilder />
+								</ProtectedRoute>
+							</Route>
 							<Route path='/test' component={test} />
 							<Route path='/todoList' component={todoList} />
 							<Route path='/weapons' component={weapons} />

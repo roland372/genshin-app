@@ -18,8 +18,12 @@ import charactersData from '../../../constants/characters';
 
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
+import { useUserAuth } from '../../../context/UserAuthContext';
+
 const FarmingPlanner = () => {
 	useDocumentTitle('Farming Planner');
+
+	const { user } = useUserAuth();
 
 	//* <----- select state ----->
 	let [levelLow, setLevelLow] = useState(1);
@@ -40,6 +44,7 @@ const FarmingPlanner = () => {
 	//* initial character state
 	let [character, setCharacter] = useState({
 		name: '',
+		owner: user.uid,
 		levelLow: 1,
 		levelHigh: 1,
 		NALow: 1,
@@ -262,6 +267,8 @@ const FarmingPlanner = () => {
 				<Route exact path='/farming-planner/characters/add'>
 					<AddCharacter
 						filterCharacters={filterCharacters}
+						//* <----- authenicated user uid ----->
+						owner={user.uid}
 						//* <----- characters data ----->
 						characters={characters.characters}
 						charactersData={charactersData}
@@ -338,6 +345,8 @@ const FarmingPlanner = () => {
 				<Route exact path='/farming-planner/characters/edit/:id'>
 					<EditCharacter
 						filterCharacters={filterCharacters}
+						//* <----- authenicated user uid ----->
+						owner={user.uid}
 						//* <----- characters data ----->
 						characters={characters.characters}
 						charactersData={charactersData}

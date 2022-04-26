@@ -30,21 +30,6 @@ const Teams = props => {
 			progress: '',
 		});
 
-	// console.log(checkLoggedInUser());
-
-	// const getLocalStorage = () => {
-	// 	// get list from local storage
-	// 	let teams = localStorage.getItem('teams');
-	// 	// if list exists - is in local storage
-	// 	if (teams) {
-	// 		return JSON.parse(localStorage.getItem('teams'));
-	// 	}
-	// 	// if list doesn't exists
-	// 	else {
-	// 		return [];
-	// 	}
-	// };
-
 	const { filterCharacters } = props;
 
 	const [teamsDatabase, setTeamsDatabase] = useState([]);

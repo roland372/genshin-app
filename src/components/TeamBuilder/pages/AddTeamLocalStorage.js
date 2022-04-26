@@ -35,6 +35,7 @@ const AddTeamToLocalStorage = props => {
 	let [select, setSelect] = useState([]);
 
 	let [team, setTeam] = useState({
+		id: new Date().getTime().toString(),
 		name: '',
 		teamMembers: [],
 		description: '',
@@ -69,32 +70,22 @@ const AddTeamToLocalStorage = props => {
 		team.teamMembers.length += 1;
 	};
 
-	// console.log('selected values: ', select);
-	// console.log('values in object :', team.teamMembers);
-
-	// useEffect(() => {
-	// 	getLocalStorage();
-	// }, []);
-
 	const onSubmit = async e => {
 		e.preventDefault();
 		team.teamMembers = [...select];
 
 		setFormErrors(validation(name, select));
+		
 		if (name.length !== 0 && select.length >= 4) {
-			// await axios.post('http://localhost:3003/team-builder/teams', team);
-
 			teams = [...teams, team];
 
 			localStorage.setItem('teams', JSON.stringify(teams));
+
 			console.log('team added to localstorage');
 			teamAddedNotification();
 			history.push('/team-builder/');
 		}
 	};
-
-	console.log(team);
-	console.log(teams);
 
 	return (
 		<Container>

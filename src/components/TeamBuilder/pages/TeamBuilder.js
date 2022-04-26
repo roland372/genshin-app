@@ -5,22 +5,25 @@ import { Flip, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import Teams from './Teams';
+import Team from '../components/Team';
 import AddTeam from './AddTeam';
 import EditTeam from './EditTeam';
-import Team from '../components/Team';
 
-import AddTeamLocalStorage from './AddTeamLocalStorage';
+// import TeamsLocalStorage from './TeamsLocalStorage';
+// import TeamLocalStorage from '../components/TeamLocalStorage';
+// import AddTeamLocalStorage from './AddTeamLocalStorage';
+// import EditTeamLocalStorage from './EditTeamLocalStorage';
 
 import characters from '../../../assets/data/Characters/characters.json';
 
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
-import { useUserAuth } from '../../../context/UserAuthContext';
+// import { useUserAuth } from '../../../context/UserAuthContext';
 
 const TeamBuilder = () => {
 	useDocumentTitle('Team Builder');
 
-	const { user } = useUserAuth();
+	// const { user } = useUserAuth();
 
 	// reusable function to filter out characters
 	const filterCharacters = teamsArray => {
@@ -73,29 +76,11 @@ const TeamBuilder = () => {
 					/>
 				</Route>
 				<Route exact path='/team-builder/teams/add'>
-					{user ? (
-						<AddTeam
-							characters={characters.characters}
-							filterCharacters={filterCharacters}
-							characterNames={characterNames}
-						/>
-					) : (
-						<AddTeamLocalStorage
-							characters={characters.characters}
-							filterCharacters={filterCharacters}
-							characterNames={characterNames}
-						/>
-					)}
-					{/* <AddTeam
+					<AddTeam
 						characters={characters.characters}
 						filterCharacters={filterCharacters}
 						characterNames={characterNames}
-					/> */}
-					{/* <AddTeamLocalStorage
-						characters={characters.characters}
-						filterCharacters={filterCharacters}
-						characterNames={characterNames}
-					/> */}
+					/>
 				</Route>
 				<Route exact path='/team-builder/teams/edit/:id'>
 					<EditTeam
@@ -112,6 +97,36 @@ const TeamBuilder = () => {
 					/>
 				</Route>
 			</Switch>
+			{/* <Switch>
+				<Route exact path='/team-builder'>
+					<TeamsLocalStorage
+						characters={characters.characters}
+						filterCharacters={filterCharacters}
+						characterNames={characterNames}
+					/>
+				</Route>
+				<Route exact path='/team-builder/teams/add'>
+					<AddTeamLocalStorage
+						characters={characters.characters}
+						filterCharacters={filterCharacters}
+						characterNames={characterNames}
+					/>
+				</Route>
+				<Route exact path='/team-builder/teams/edit/:id'>
+					<EditTeamLocalStorage
+						characters={characters.characters}
+						filterCharacters={filterCharacters}
+						characterNames={characterNames}
+					/>
+				</Route>
+				<Route exact path='/team-builder/teams/:id'>
+					<TeamLocalStorage
+						characters={characters.characters}
+						filterCharacters={filterCharacters}
+						characterNames={characterNames}
+					/>
+				</Route>
+			</Switch> */}
 		</Router>
 	);
 };
