@@ -22,23 +22,30 @@
       "endDate": "April 25, 2022"
     },
     {
+      "name": "Vibro-Crystal Research",
+      "link": "https://genshin-impact.fandom.com/wiki/Vibro-Crystal_Research",
+      "image": "images/Events/current/Vibro-Crystal_Research.png",
+      "startDate": "April 21, 2022",
+      "endDate": "May 5, 2022"
+    },
+    {
       "name": "Ley Line Overflow",
       "link": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/2.6",
       "image": "images/Events/current/Ley_Line_Overflow.png",
-      "startDate": "Upcoming",
-      "endDate": "Upcoming"
+      "startDate": "April 28, 2022",
+      "endDate": "May 5, 2022"
+    },
+    {
+      "name": "Marvelous Merchandise",
+      "link": "https://genshin.hoyoverse.com/en/news/detail/20573",
+      "image": "images/Events/current/Marvelous_Merchandise_Event.png",
+      "startDate": "May 6, 2022",
+      "endDate": "May 13, 2022"
     },
     {
       "name": "Spices From the West",
       "link": "https://genshin-impact.fandom.com/wiki/Spices_From_the_West",
       "image": "images/Events/current/Spices_From_the_West.png",
-      "startDate": "Upcoming",
-      "endDate": "Upcoming"
-    },
-    {
-      "name": "Vibro-Crystal Research",
-      "link": "https://genshin-impact.fandom.com/wiki/Vibro-Crystal_Research",
-      "image": "images/Events/current/Vibro-Crystal_Research.png",
       "startDate": "Upcoming",
       "endDate": "Upcoming"
     }

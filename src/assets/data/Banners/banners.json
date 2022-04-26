@@ -20,6 +20,20 @@
       "image": "images/Banners/weapon/Epitome_Invocation_2022-03-30.png",
       "startDate": "March 30, 2022",
       "endDate": "April 19, 2022"
+    },
+    {
+      "name": "The Heron's Court",
+      "link": "https://genshin.hoyoverse.com/en/news/detail/20567",
+      "image": "images/Banners/character/The_Herons_Court_2022-04-19.png",
+      "startDate": "April 19, 2022",
+      "endDate": "May 10, 2022"
+    },
+    {
+      "name": "Epitome Invocation",
+      "link": "https://genshin.hoyoverse.com/en/news/detail/20569",
+      "image": "images/Banners/weapon/Epitome_Invocation_2022-04-19.png",
+      "startDate": "April 19, 2022",
+      "endDate": "May 10, 2022"
     }
   ],
   "pastBanners": {
@@ -44,6 +58,20 @@
         "image": "images/Banners/weapon/Epitome_Invocation_2022-03-30.png",
         "startDate": "March 30, 2022",
         "endDate": "April 19, 2022"
+      },
+      {
+        "name": "The Heron's Court",
+        "link": "https://genshin.hoyoverse.com/en/news/detail/20567",
+        "image": "images/Banners/character/The_Herons_Court_2022-04-19.png",
+        "startDate": "April 19, 2022",
+        "endDate": "May 10, 2022"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.hoyoverse.com/en/news/detail/20569",
+        "image": "images/Banners/weapon/Epitome_Invocation_2022-04-19.png",
+        "startDate": "April 19, 2022",
+        "endDate": "May 10, 2022"
       }
     ],
     "version 2.5" : [
