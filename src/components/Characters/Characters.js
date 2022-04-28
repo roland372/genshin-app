@@ -108,7 +108,7 @@ const Characters = () => {
 							return (
 								<button
 									type='button'
-									className='btn btn-sm btn-dark p-1'
+									className='btn btn-sm btn-dark m-1 p-1'
 									key={index + element}
 									onClick={() => filterElements(element)}
 								>
@@ -135,7 +135,7 @@ const Characters = () => {
 							return (
 								<button
 									type='button'
-									className='btn btn-sm btn-dark p-1'
+									className='btn btn-sm btn-dark m-1 p-1'
 									key={weapon}
 									onClick={() => filterWeapons(weapon)}
 								>
@@ -174,7 +174,7 @@ const Characters = () => {
 						</form>
 					</section>
 				</div>
-
+				<div className='border border-bottom-0 mx-2 mt-3'></div>
 				{charactersDisplay ? (
 					// Display characters as list
 					<div className='table-responsive mx-3'>
