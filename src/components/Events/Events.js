@@ -12,10 +12,16 @@ import useDocumentTitle from '../../hooks/useDocumentTitle';
 const Events = () => {
 	useDocumentTitle('Events');
 
+	const gotoVersion = version =>
+		window.scrollTo({
+			top: version.current.offsetTop - 70,
+			behavior: 'smooth',
+		});
+
 	return (
 		<Container>
 			<CurrentEvents eventsData={eventsData} />
-			<PastEvents eventsData={eventsData} />
+			<PastEvents eventsData={eventsData} gotoVersion={gotoVersion} />
 		</Container>
 	);
 };
