@@ -5,22 +5,18 @@ import BannersVersion from './BannersVersion';
 const PastBanners = props => {
 	const { bannersData } = props;
 
+	const versionsArray = [];
+	Object.keys(bannersData.pastBanners).map(banner =>
+		versionsArray.push(banner.slice(8))
+	);
+
 	return (
 		<CardComponent title='Past Banners'>
-			<BannersVersion version='2.6' bannersData={bannersData} />
-			<BannersVersion version='2.5' bannersData={bannersData} />
-			<BannersVersion version='2.4' bannersData={bannersData} />
-			<BannersVersion version='2.3' bannersData={bannersData} />
-			<BannersVersion version='2.2' bannersData={bannersData} />
-			<BannersVersion version='2.1' bannersData={bannersData} />
-			<BannersVersion version='2.0' bannersData={bannersData} />
-			<BannersVersion version='1.6' bannersData={bannersData} />
-			<BannersVersion version='1.5' bannersData={bannersData} />
-			<BannersVersion version='1.4' bannersData={bannersData} />
-			<BannersVersion version='1.3' bannersData={bannersData} />
-			<BannersVersion version='1.2' bannersData={bannersData} />
-			<BannersVersion version='1.1' bannersData={bannersData} />
-			<BannersVersion version='1.0' bannersData={bannersData} />
+			{versionsArray.map(banner => (
+				<div key={banner}>
+					<BannersVersion version={banner} bannersData={bannersData} />
+				</div>
+			))}
 
 			{/* <----- Version 1.0 -----> */}
 			{/* <section>

@@ -1,30 +1,41 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import CardComponent from '../Layout/CardComponent';
 import EventsVersion from './EventsVersion';
-import VersionButton from './VersionButton';
+// import VersionButton from './VersionButton';
 
 const PastEvents = props => {
-	const { eventsData, gotoVersion } = props;
+	const { eventsData } = props;
 
-	const version26 = useRef(null);
-	const version25 = useRef(null);
-	const version24 = useRef(null);
-	const version23 = useRef(null);
-	const version22 = useRef(null);
-	const version21 = useRef(null);
-	const version20 = useRef(null);
-	const version16 = useRef(null);
-	const version15 = useRef(null);
-	const version14 = useRef(null);
-	const version13 = useRef(null);
-	const version12 = useRef(null);
-	const version11 = useRef(null);
-	const version10 = useRef(null);
+	const versionsArray = [];
+	Object.keys(eventsData.pastEvents).map(event =>
+		versionsArray.push(event.slice(8))
+	);
+
+	// const version26 = useRef(null);
+	// const version25 = useRef(null);
+	// const version24 = useRef(null);
+	// const version23 = useRef(null);
+	// const version22 = useRef(null);
+	// const version21 = useRef(null);
+	// const version20 = useRef(null);
+	// const version16 = useRef(null);
+	// const version15 = useRef(null);
+	// const version14 = useRef(null);
+	// const version13 = useRef(null);
+	// const version12 = useRef(null);
+	// const version11 = useRef(null);
+	// const version10 = useRef(null);
 
 	return (
 		<CardComponent title='Past Events'>
+			{versionsArray.map(event => (
+				<div key={event}>
+					<EventsVersion version={event} eventsData={eventsData} />
+				</div>
+			))}
+
 			{/* <----- Table of Contents -----> */}
-			<section className='d-flex flex-wrap justify-content-start mx-2'>
+			{/* <section className='d-flex flex-wrap justify-content-start mx-2'>
 				<VersionButton
 					onClick={gotoVersion}
 					reference={version26}
@@ -95,10 +106,10 @@ const PastEvents = props => {
 					reference={version10}
 					verNumber={'1.0'}
 				/>
-			</section>
+			</section> */}
 
 			{/* <----- Events -----> */}
-			<EventsVersion
+			{/* <EventsVersion
 				version='2.6'
 				eventsData={eventsData}
 				reference={version26}
@@ -167,7 +178,7 @@ const PastEvents = props => {
 				version='1.0'
 				eventsData={eventsData}
 				reference={version10}
-			/>
+			/> */}
 
 			{/* <----- Version 1.0 -----> */}
 			{/* <section>
