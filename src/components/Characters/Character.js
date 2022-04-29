@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Link } from 'react-router-dom';
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
 import useDimensions from 'react-cool-dimensions';
@@ -85,6 +86,17 @@ const Character = props => {
 	return (
 		<Container>
 			<CardComponent title={name}>
+				{/* <----- Back button -----> */}
+				<section className='text-light'>
+					<div className='d-flex align-items-center justify-content-lg-start ms-2 pt-1'>
+						<Link className='btn btn-primary' to='/characters'>
+							Back to Characters
+						</Link>
+					</div>
+					<div className='mx-2'>
+						<hr />
+					</div>
+				</section>
 				{/* <----- Character info -----> */}
 				<div ref={observe}>
 					<div ref={infoSection}>
