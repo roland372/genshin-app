@@ -47,7 +47,8 @@ const EditTeam = props => {
 		name: '',
 		teamMembers: [],
 		description: '',
-		owner: user ? user.uid : '',
+		owner: user.uid,
+		lastModified: '',
 	});
 
 	const { name, description } = team;
@@ -92,6 +93,8 @@ const EditTeam = props => {
 
 	const onSubmit = async e => {
 		e.preventDefault();
+
+		team.lastModified = Date.now();
 
 		select.length === 0
 			? (team.teamMembers = [...team.teamMembers])

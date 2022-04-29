@@ -20,9 +20,10 @@ const Team = props => {
 		name: '',
 		teamMembers: [],
 		description: '',
+		lastModified: '',
 	});
 
-	const { name, teamMembers, description } = team;
+	const { name, teamMembers, description, lastModified } = team;
 	const { id } = useParams();
 
 	useEffect(() => {
@@ -40,6 +41,13 @@ const Team = props => {
 			<CardComponent title={`Team ${name}`}>
 				<BackButton>
 					<CharactersHeading heading={`Team: ${name}`} />
+					<h5 className='text-start mx-2'>
+						Last Modified:{' '}
+						{new Date(lastModified).toLocaleDateString('en-GB', {
+							hour: '2-digit',
+							minute: '2-digit',
+						})}
+					</h5>
 					<Characters filterCharacters={filterCharacters} array={teamMembers} />
 					{description.length !== 0 && (
 						<section>
@@ -47,7 +55,7 @@ const Team = props => {
 								<CharactersHeading heading='Description:' />
 							</div>
 							<div className='rounded mx-2'>
-								<h4 className='text-start'>{description}</h4>
+								<h5 className='text-start text-break'>{description}</h5>
 							</div>
 						</section>
 					)}

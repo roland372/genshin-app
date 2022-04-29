@@ -45,7 +45,15 @@ const AddTeam = props => {
 		teamMembers: [],
 		description: '',
 		owner: user.uid,
+		lastModified: Date.now(),
 	});
+
+	// console.log(
+	// 	new Date(team.lastModified).toLocaleDateString('en-GB', {
+	// 		hour: '2-digit',
+	// 		minute: '2-digit',
+	// 	})
+	// );
 
 	const { name, description } = team;
 

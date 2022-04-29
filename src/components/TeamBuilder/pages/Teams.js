@@ -54,6 +54,10 @@ const Teams = props => {
 
 	// console.log(teamsLocalStorage);
 
+	//* <----- Sort teams - display newest first ----->
+	const sortedTeams =
+		user && teamsDatabase.sort((a, b) => b.lastModified - a.lastModified);
+
 	return (
 		<Container>
 			<CardComponent title='Team Builder'>
@@ -68,7 +72,7 @@ const Teams = props => {
 				</div>
 				<section className='d-flex flex-wrap mx-2'>
 					{user &&
-						teamsDatabase
+						sortedTeams
 							.filter(owner => owner.owner === user.uid)
 							.map((team, index) => (
 								<section

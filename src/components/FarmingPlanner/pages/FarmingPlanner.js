@@ -45,6 +45,7 @@ const FarmingPlanner = () => {
 	let [character, setCharacter] = useState({
 		name: '',
 		owner: user.uid,
+		lastModified: '',
 		levelLow: 1,
 		levelHigh: 1,
 		NALow: 1,

@@ -47,6 +47,7 @@ const CharacterInfo = props => {
 
 	const {
 		name,
+		lastModified,
 		levelHigh,
 		NAHigh,
 		ESHigh,
@@ -97,6 +98,13 @@ const CharacterInfo = props => {
 		<Container>
 			<CardComponent title={name}>
 				<BackButton>
+					<h5 className='text-start mx-2'>
+						Last Modified:{' '}
+						{new Date(lastModified).toLocaleDateString('en-GB', {
+							hour: '2-digit',
+							minute: '2-digit',
+						})}
+					</h5>
 					<Character charactersData={charactersData} characterSelect={name} />
 					<section className='border p-3'>
 						<div className='me-2'>Level {levelHigh}</div>

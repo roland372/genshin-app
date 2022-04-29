@@ -73,6 +73,10 @@ const Characters = props => {
 		return { ...item, ...obj };
 	});
 
+	//? <----- Sort characters - display newest first ----->
+	const sortedCharacters =
+		user && mergedCharacters.sort((a, b) => b.lastModified - a.lastModified);
+
 	return (
 		<Container>
 			<CardComponent title='Farming Planner'>
@@ -151,7 +155,7 @@ const Characters = props => {
 							);
 						})} */}
 					{user &&
-						mergedCharacters
+						sortedCharacters
 							.filter(owner => owner.owner === user.uid)
 							.map(character => {
 								const { name, image, rarity, elementImage, element } =

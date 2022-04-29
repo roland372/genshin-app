@@ -237,6 +237,7 @@ const EditCharacter = props => {
 			...previousCharacter,
 			name: name,
 			owner: owner,
+			lastModified: Date.now(),
 			levelLow: levelLow,
 			levelHigh: levelHigh,
 			NALow: NALow,

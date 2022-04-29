@@ -203,6 +203,7 @@ const AddCharacter = props => {
 			...character,
 			name: characterSelect,
 			owner: owner,
+			lastModified: Date.now(),
 			levelLow: levelLow,
 			levelHigh: levelHigh,
 			NALow: NALow,
