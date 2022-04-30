@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import { BiInfoCircle } from 'react-icons/bi';
+import { Modal } from 'react-bootstrap';
+import MarkdownGuide from './MarkdownGuide';
 
 const Main = ({ activeNote, onUpdateNote }) => {
+	//* <----- Info Modal ----->
+	const [show, setShow] = useState(false);
+
+	const handleClose = () => setShow(false);
+	const handleShow = () => setShow(true);
+
 	const onEditField = (field, value) => {
 		//* we want to update every field of our note, except the id
 		onUpdateNote({
@@ -16,14 +25,27 @@ const Main = ({ activeNote, onUpdateNote }) => {
 
 	return (
 		<div className='app-main'>
+			<Modal show={show} onHide={handleClose}>
+				<Modal.Header closeButton className='bg-dark text-light'>
+					<Modal.Title>Markdown guide</Modal.Title>
+				</Modal.Header>
+				<Modal.Body className='bg-dark text-light'>
+					<MarkdownGuide />
+				</Modal.Body>
+			</Modal>
 			{/* <----- Note inputs -----> */}
 			<section className='app-main-note-edit'>
+				<div className='info'>
+					<button className='info-button' onClick={handleShow}>
+						<BiInfoCircle />
+					</button>
+				</div>
 				<input
 					type='text'
 					id='title'
 					placeholder='Enter a title...'
 					value={activeNote.title}
-          maxLength='50'
+					maxLength='50'
 					onChange={e => onEditField('title', e.target.value)}
 					autoFocus
 				/>

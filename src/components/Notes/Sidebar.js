@@ -15,7 +15,9 @@ const Sidebar = ({
 			<div className='app-sidebar-header'>
 				<h1>Notes</h1>
 				{/* create a new note */}
-				<button onClick={onAddNote}>Add</button>
+				<button className='add-button' onClick={onAddNote}>
+					Add
+				</button>
 			</div>
 			<div className='app-sidebar-notes'>
 				{/* loop over notes and render them in sidebar*/}
@@ -28,7 +30,9 @@ const Sidebar = ({
 						<div className='sidebar-note-title'>
 							<strong>{title && title.substr(0, 30) + '...'}</strong>
 							{/* to delete note we need some reference to it, we can use it's id */}
-							<button onClick={e => onDeleteNote(id)}>Delete</button>
+							<button className='delete-button' onClick={e => onDeleteNote(id)}>
+								Delete
+							</button>
 						</div>
 						{/* only render body if there's anything there, also limit characters to 100 */}
 						<p>{body && body.substr(0, 50) + '...'}</p>
