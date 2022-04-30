@@ -62,9 +62,19 @@ const Main = ({ activeNote, onUpdateNote }) => {
 			{/* <----- Note preview -----> */}
 			<section className='app-main-note-preview'>
 				<h1 className='preview-title'>{activeNote.title}</h1>
-				<ReactMarkdown className='markdown-preview'>
+				<ReactMarkdown
+					children={activeNote.body}
+					className='markdown-preview'
+					components={{
+						img: ({ node, ...props }) => (
+							<img style={{ maxWidth: '100%' }} {...props} alt='alt' />
+						),
+					}}
+				/>
+
+				{/* <ReactMarkdown className='markdown-preview'>
 					{activeNote.body}
-				</ReactMarkdown>
+				</ReactMarkdown> */}
 			</section>
 		</div>
 	);
