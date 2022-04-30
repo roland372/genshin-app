@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
 		<Fragment>
 			<ScrollToTop />
 			<section className='sticky-top' ref={observe}>
-				{width < 1200 ? <Sidebar /> : <Navbar />}
+				{width < 1400 ? <Sidebar /> : <Navbar />}
 			</section>
 			{children}
 			<Footer />

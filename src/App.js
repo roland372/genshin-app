@@ -24,6 +24,7 @@ import FarmingPlanner from './pages/farmingPlanner';
 import home from './pages/home';
 import imageGallery from './pages/imageGallery';
 import materials from './pages/materials';
+import notes from './pages/notes';
 import NotFound from './pages/NotFound';
 import TeamBuilder from './pages/teamBuilder';
 import test from './pages/test';
@@ -63,6 +64,7 @@ function App() {
 							</Route>
 							<Route path='/image-gallery' component={imageGallery} />
 							<Route path='/materials' component={materials} />
+							<Route path='/notes' component={notes} />
 							<Route path='/team-builder'>
 								<ProtectedRoute>
 									<TeamBuilder />

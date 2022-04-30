@@ -64,16 +64,21 @@ export const navLinks = [
 	},
 	{
 		id: 12,
+		url: '/notes',
+		text: 'Notes',
+	},
+	{
+		id: 13,
 		url: '/charts',
 		text: 'Charts',
 	},
 	{
-		id: 13,
+		id: 14,
 		url: '/about',
 		text: 'About',
 	},
 	{
-		id: 14,
+		id: 15,
 		url: '/profile',
 		text: 'Profile',
 	},
