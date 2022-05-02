@@ -5,7 +5,7 @@ import { Modal } from 'react-bootstrap';
 import MarkdownGuide from './MarkdownGuide';
 
 const Main = ({ activeNote, onUpdateNote }) => {
-	//* <----- Info Modal ----->
+	//* <----- info modal state ----->
 	const [show, setShow] = useState(false);
 
 	const handleClose = () => setShow(false);

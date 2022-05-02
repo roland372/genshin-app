@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 
 // <----- Styles ----->
-import './Styles.css';
+import '../styles/Styles.css';
 
 // <----- Components ----->
-import Main from './Main';
-import Sidebar from './Sidebar';
+import Main from '../components/Main';
+import Sidebar from '../components/Sidebar';
 
-const Notes = () => {
+const NotesLocalStorage = () => {
 	//* store notes in array and pass them into Sidebar as props
 	const [notes, setNotes] = useState(
 		localStorage.notes ? JSON.parse(localStorage.notes) : []
@@ -74,4 +74,4 @@ const Notes = () => {
 	);
 };
 
-export default Notes;
+export default NotesLocalStorage;

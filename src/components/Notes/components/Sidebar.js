@@ -15,7 +15,9 @@ const Sidebar = ({
 			<div className='app-sidebar-header'>
 				<h1>Notes</h1>
 				{/* create a new note */}
-				<button onClick={onAddNote}>Add</button>
+				<button className='add-button' onClick={onAddNote}>
+					Add
+				</button>
 			</div>
 			<div className='app-sidebar-notes'>
 				{/* loop over notes and render them in sidebar*/}
@@ -26,12 +28,20 @@ const Sidebar = ({
 						key={id}
 					>
 						<div className='sidebar-note-title'>
-							<strong>{title}</strong>
+							<strong>
+								{title && title.length >= 30
+									? title.substr(0, 30) + '...'
+									: title}
+							</strong>
 							{/* to delete note we need some reference to it, we can use it's id */}
-							<button onClick={e => onDeleteNote(id)}>Delete</button>
+							<button className='delete-button' onClick={e => onDeleteNote(id)}>
+								Delete
+							</button>
 						</div>
 						{/* only render body if there's anything there, also limit characters to 100 */}
-						<p>{body && body.substr(0, 100) + '...'}</p>
+						<p>
+							{body && body.length >= 100 ? body.substr(0, 100) + '...' : body}
+						</p>
 						<small className='note-meta'>
 							Last Modified {/* format the date */}
 							{new Date(lastModified).toLocaleDateString('en-GB', {

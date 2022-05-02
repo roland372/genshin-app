@@ -1,8 +1,17 @@
 import React from 'react';
-import Notes from '../components/Notes/Notes';
+import NotesDatabase from '../components/Notes/pages/Notes';
+import NotesLocalStorage from '../components/Notes/pages/NotesLocalStorage';
 
-const notes = () => {
-	return <Notes />;
+import { useUserAuth } from '../context/UserAuthContext';
+
+const Notes = () => {
+	const { user } = useUserAuth();
+
+	if (user) {
+		return <NotesDatabase />;
+	} else {
+		return <NotesLocalStorage />;
+	}
 };
 
-export default notes;
+export default Notes;
