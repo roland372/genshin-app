@@ -3,6 +3,9 @@ import ReactMarkdown from 'react-markdown';
 import { BiInfoCircle } from 'react-icons/bi';
 import { Modal } from 'react-bootstrap';
 import MarkdownGuide from './MarkdownGuide';
+import remarkGfm from 'remark-gfm'
+
+
 
 const Main = ({ activeNote, onUpdateNote }) => {
 	//* <----- info modal state ----->
@@ -64,6 +67,7 @@ const Main = ({ activeNote, onUpdateNote }) => {
 				<h1 className='preview-title'>{activeNote.title}</h1>
 				<ReactMarkdown
 					children={activeNote.body}
+					remarkPlugins={[remarkGfm]}
 					className='markdown-preview'
 					components={{
 						img: ({ node, ...props }) => (

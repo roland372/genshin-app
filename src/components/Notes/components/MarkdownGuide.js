@@ -23,6 +23,12 @@ const MarkdownGuide = () => {
 					</td>
 				</tr>
 				<tr>
+					<td>~Strikethrough~</td>
+					<td>
+						<p className='text-decoration-line-through'>Strikethrough</p>
+					</td>
+				</tr>
+				<tr>
 					<td>
 						New\
 						<br />
@@ -76,8 +82,8 @@ const MarkdownGuide = () => {
 				<tr>
 					<td>
 						<p>
-							* List
-							<br />* List
+							* List or - List
+							<br />* List or - List
 							<br /> &nbsp; &nbsp; * Nested List
 							<br /> &nbsp; &nbsp; * Nested List
 						</p>
@@ -138,13 +144,63 @@ const MarkdownGuide = () => {
 						<br />
 						```
 					</td>
-
 					<td>
 						<pre>
 							# code block
 							<br /> print '3 backticks or'
 							<br /> print 'indent 4 spaces'
 						</pre>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						* [ ] List item unchecked
+						<br />* [x] List item checked
+					</td>
+					<td>
+						<li>
+							<input type='checkbox' name='unchecked' /> List item unchecked
+						</li>
+						<li>
+							<input type='checkbox' name='checked' defaultChecked /> List item
+							checked
+						</li>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						| a | b | c | <br />
+						| :- | -: | :-: |<br />
+						| aaa | bbbbb | ccccc |<br />| aaaa | bbbb | ccc |
+						<br />
+						<br />
+						:- to align left
+						<br />
+						:-: to center <br />
+						-: to align right
+					</td>
+					<td>
+						<table>
+							<thead>
+								<tr>
+									<th className='text-start'>a</th>
+									<th className='text-end'>b</th>
+									<th className='text-center'>c</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td className='text-start'>aaa</td>
+									<td className='text-end'>bbbbb</td>
+									<td className='text-center'>ccccc</td>
+								</tr>
+								<tr>
+									<td className='text-start'>aaaa</td>
+									<td className='text-end'>bbbb</td>
+									<td className='text-center'>ccc</td>
+								</tr>
+							</tbody>
+						</table>
 					</td>
 				</tr>
 			</tbody>
