@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { navLinks } from './Links';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 
@@ -18,22 +18,36 @@ const NavigationBar = () => {
 							const { id, url, text } = link;
 							return (
 								<li className='nav-item' key={id}>
-									<Link to={url} className='nav-link'>
-										<span className='text-capitalize'>{text}</span>
-									</Link>
+									<NavLink
+										to={url}
+										className='nav-link'
+										activeClassName='active-navbar'
+									>
+										<span className='text-capitalize text-light'>{text}</span>
+									</NavLink>
 								</li>
 							);
 						})}
 						<div>
-							<NavDropdown title='Database' id='basic-nav-dropdown'>
-								<div className=''>
+							<NavDropdown
+								title='Database'
+								id='basic-nav-dropdown'
+								menuVariant='dark'
+							>
+								<div>
 									{navLinks.slice(3, 7).map(link => {
 										const { id, url, text } = link;
 										return (
-											<li className='nav-item ms-2' key={id}>
-												<Link to={url} className='nav-link text-dark'>
-													<span className='text-capitalize'>{text}</span>
-												</Link>
+											<li className='nav-item mx-2' key={id}>
+												<NavLink
+													to={url}
+													className='nav-link'
+													activeClassName='active-navbar'
+												>
+													<span className='text-capitalize text-light'>
+														{text}
+													</span>
+												</NavLink>
 											</li>
 											// <NavDropdown.Item key={id} href={url}>
 											// 	<Link
@@ -55,9 +69,13 @@ const NavigationBar = () => {
 							const { id, url, text } = link;
 							return (
 								<li className='nav-item' key={id}>
-									<Link to={url} className='nav-link'>
-										<span className='text-capitalize'>{text}</span>
-									</Link>
+									<NavLink
+										to={url}
+										className='nav-link'
+										activeClassName='active-navbar'
+									>
+										<span className='text-capitalize text-light'>{text}</span>
+									</NavLink>
 								</li>
 							);
 						})}

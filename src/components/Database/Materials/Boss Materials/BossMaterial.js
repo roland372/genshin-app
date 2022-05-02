@@ -3,7 +3,7 @@ import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 const BossMaterial = props => {
 	const { bossMaterial, bossName, characters } = props;
-	console.log(characters);
+	
 	return (
 		<tr>
 			<td>

@@ -10,6 +10,7 @@ const Sidebar = () => {
 
 	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
+
 	return (
 		<nav className='navbar navbar-dark sticky-top bg-dark'>
 			<div className='container'>
@@ -58,6 +59,7 @@ const Sidebar = () => {
 									>
 										<NavLink
 											className='nav-link link-light text-capitalize'
+											activeClassName='active-navbar'
 											to={url}
 										>
 											{text}
