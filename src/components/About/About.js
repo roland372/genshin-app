@@ -14,13 +14,14 @@ const About = () => {
 			<CardComponent title='About'>
 				<section className='mx-2 text-start'>
 					<h5>
-						Genshin-App is a fanmade website for Genshin Impact game. Database
-						where you can have easy and quick access to most useful information
-						like current and past events or banners, see what's available in
-						domains, quickly calculate materials needed for leveling up or even
-						build your own teams.
+						Genshin-App is a fanmade website for Genshin Impact game.
+						<br />
+						It contains database where you can have easy and quick access to
+						most useful information like current and past events or banners, see
+						what's available in domains, quickly calculate materials needed for
+						leveling up or even build your own teams.
 					</h5>
-					<p>Here's full list of things that you can find on a website:</p>
+					<p>Here's full list of features that you can find on a website:</p>
 					<ul className='list-group text-light'>
 						<li className='list-group-item list-group-item-dark'>
 							Current and past{' '}
@@ -30,12 +31,6 @@ const About = () => {
 							and{' '}
 							<Link className='link-primary text-decoration-none' to='/banners'>
 								banners
-							</Link>{' '}
-						</li>
-						<li className='list-group-item list-group-item-dark'>
-							Quickly see what's available in{' '}
-							<Link className='link-primary text-decoration-none' to='/'>
-								domains
 							</Link>{' '}
 						</li>
 						<li className='list-group-item list-group-item-dark'>
@@ -55,6 +50,22 @@ const About = () => {
 							</Link>{' '}
 							information, their talents, constellations, required materials,
 							etc.
+						</li>
+						<li className='list-group-item list-group-item-dark'>
+							<Link className='link-primary text-decoration-none' to='/weapons'>
+								Weapons
+							</Link>{' '}
+							where you can view all available weapons and their stats
+						</li>
+						<li className='list-group-item list-group-item-dark'>
+							<Link
+								className='link-primary text-decoration-none'
+								to='/materials'
+							>
+								Materials
+							</Link>{' '}
+							section where you can see characters and weapons with their
+							corresponding talents or materials
 						</li>
 						<li className='list-group-item list-group-item-dark'>
 							See all available{' '}
@@ -88,20 +99,19 @@ const About = () => {
 							an option where you can create and, edit and view your own teams
 						</li>
 						<li className='list-group-item list-group-item-dark'>
-							<Link className='link-primary text-decoration-none' to='/weapons'>
-								Weapons
-							</Link>{' '}
-							where you can view all available weapons and their stats
-						</li>
-						<li className='list-group-item list-group-item-dark'>
 							<Link
 								className='link-primary text-decoration-none'
-								to='/materials'
+								to='/image-gallery'
 							>
-								Materials
+								Image gallery
 							</Link>{' '}
-							section where you can see characters and weapons with their
-							corresponding talents or materials
+							to check out characters images
+						</li>
+						<li className='list-group-item list-group-item-dark'>
+							<Link className='link-primary text-decoration-none' to='/notes'>
+								Notes
+							</Link>{' '}
+							to write and format notes with a support of markdown
 						</li>
 						<li className='list-group-item list-group-item-dark'>
 							<Link className='link-primary text-decoration-none' to='/charts'>
@@ -109,7 +119,14 @@ const About = () => {
 							</Link>{' '}
 							where you can quickly compare character stats, see how many
 							characters use specific element, weapon, their rarities, genders,
-							nations ascension stats or even talent books
+							nations, etc.
+						</li>
+						<li className='list-group-item list-group-item-dark'>
+							<Link className='link-primary text-decoration-none' to='/profile'>
+								Profile
+							</Link>{' '}
+							to customize your own profile after signing in with Google
+							account, or creatning one with your email address
 						</li>
 					</ul>
 				</section>
@@ -120,31 +137,40 @@ const About = () => {
 					</h5>
 					<ul className='list-group text-light'>
 						<li className='list-group-item list-group-item-dark'>
-							ReactJS as main frontend framework
+							<b>ReactJS</b> as main frontend framework
 						</li>
 						<li className='list-group-item list-group-item-dark'>
-							React Router for routing
+							<b>React Router</b> for routing
 						</li>
 						<li className='list-group-item list-group-item-dark'>
-							Firestore Firebase as database
+							<b>Context API</b> to access user's auth throught the whole app
 						</li>
 						<li className='list-group-item list-group-item-dark'>
-							Axios for fetching data
+							<b>Firestore Firebase</b> as database
 						</li>
 						<li className='list-group-item list-group-item-dark'>
-							ChartJS for charts
+							<b>Axios</b> for fetching data
 						</li>
 						<li className='list-group-item list-group-item-dark'>
-							Framer Motion used in image gallery
+							<b>ChartJS</b> for charts
 						</li>
 						<li className='list-group-item list-group-item-dark'>
-							React Select to have easier way of handling select inputs
+							<b>Framer Motion</b> used in image gallery
 						</li>
 						<li className='list-group-item list-group-item-dark'>
-							Bootstrap v5.0 and React-Bootstrap for styling
+							<b>React Select</b> to have easier way of handling select inputs
 						</li>
 						<li className='list-group-item list-group-item-dark'>
-							CSS for some custom styles
+							<b>React-Toastify</b> for pop-up notifications
+						</li>
+						<li className='list-group-item list-group-item-dark'>
+							<b>Bootstrap v5.0</b> and <b>React-Bootstrap</b> for styling
+						</li>
+						<li className='list-group-item list-group-item-dark'>
+							<b>CSS</b> for some custom styles
+						</li>
+						<li className='list-group-item list-group-item-dark'>
+							<b>React-markdown</b> to render markdown
 						</li>
 					</ul>
 				</section>
