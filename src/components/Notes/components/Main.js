@@ -1,19 +1,25 @@
 import React, { useState } from 'react';
-import ReactMarkdown from 'react-markdown';
-import { BiInfoCircle } from 'react-icons/bi';
+
+//? <----- Styles ----->
 import { Modal } from 'react-bootstrap';
+
+//? <----- Components ----->
 import MarkdownGuide from './MarkdownGuide';
-import remarkGfm from 'remark-gfm'
 
+//? <----- Markdown ----->
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
+//? <----- Icons ----->
+import { BiInfoCircle } from 'react-icons/bi';
 
 const Main = ({ activeNote, onUpdateNote }) => {
 	//* <----- info modal state ----->
 	const [show, setShow] = useState(false);
-
 	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
 
+	//* <----- Editing ----->
 	const onEditField = (field, value) => {
 		//* we want to update every field of our note, except the id
 		onUpdateNote({

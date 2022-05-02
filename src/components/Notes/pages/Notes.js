@@ -1,31 +1,35 @@
 import { useEffect, useState } from 'react';
 
-// <----- Styles ----->
+//? <----- Styles ----->
 import '../styles/Styles.css';
 
-// <----- Components ----->
+//? <----- Components ----->
 import Main from '../components/Main';
 import Sidebar from '../components/Sidebar';
 
-import useDocumentTitle from '../../../hooks/useDocumentTitle';
-
+//? <----- Database functions ----->
 import NotesDataService from '../services/notes.services';
 
+//? <----- Auth ----->
 import { useUserAuth } from '../../../context/UserAuthContext';
+
+//? <----- Document title hook ----->
+import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const Notes = () => {
 	useDocumentTitle('Notes');
 
 	const { user } = useUserAuth();
 
+	//* <----- Notes state ----->
 	const [notesDatabase, setNotesDatabase] = useState([]);
 
-	//* when the note is clicked we want to set it as active, so we can edit it
+	//* when the note is clicked set it as active, so it can be edited
 	const [activeNote, setActiveNote] = useState(false);
 
+	//* fetch notes from database when page loads
 	useEffect(() => {
 		getNotesDatabase();
-		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	const getNotesDatabase = async () => {
@@ -33,7 +37,6 @@ const Notes = () => {
 		setNotesDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
 	};
 
-	//* create an object and add parameters
 	const newNote = {
 		id: Date.now(),
 		title: '',
@@ -42,7 +45,6 @@ const Notes = () => {
 		lastModified: Date.now(),
 	};
 
-	//* add a new note
 	const onAddNote = async e => {
 		e.preventDefault();
 
@@ -67,7 +69,7 @@ const Notes = () => {
 		setNotesDatabase(notesDatabase.filter(({ id }) => id !== noteId));
 	};
 
-	//* when we click update note
+	//* when click update note
 	const onUpdateNote = async updatedNote => {
 		NotesDataService.updateNote(activeNote, updatedNote);
 		// console.log(updatedNote.id);

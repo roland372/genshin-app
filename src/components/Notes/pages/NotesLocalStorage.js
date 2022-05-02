@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 
-// <----- Styles ----->
+//? <----- Styles ----->
 import '../styles/Styles.css';
 
-// <----- Components ----->
+//? <----- Components ----->
 import Main from '../components/Main';
 import Sidebar from '../components/Sidebar';
 
@@ -14,18 +14,15 @@ const NotesLocalStorage = () => {
 	);
 	// console.log(notes);
 
-	//* when the note is clicked we want to set it as active, so we can edit it
+	//* when the note is clicked set it as active, so it can be edited
 	const [activeNote, setActiveNote] = useState(false);
-	// console.log(activeNote);
 
-	//* add notes to local storage on every update
+	//* add notes to local storage on every note update
 	useEffect(() => {
 		localStorage.setItem('notes', JSON.stringify(notes));
 	}, [notes]);
 
-	//* add a new note
 	const onAddNote = () => {
-		//* create an object and add parameters
 		const newNote = {
 			id: Date.now(),
 			title: '',
@@ -43,7 +40,7 @@ const NotesLocalStorage = () => {
 		setNotes(notes.filter(({ id }) => id !== noteId));
 	};
 
-	//* when we click update note
+	//* when click update note
 	const onUpdateNote = updatedNote => {
 		const updatedNotesArr = notes.map(note => {
 			if (note.id === updatedNote.id) {

@@ -7,7 +7,7 @@ const Sidebar = ({
 	activeNote,
 	setActiveNote,
 }) => {
-	// sort the notes descending based on when they were last modified
+	//* sort the notes descending based on when they were last modified
 	const sortedNotes = notes.sort((a, b) => b.lastModified - a.lastModified);
 
 	return (
@@ -33,7 +33,7 @@ const Sidebar = ({
 									? title.substr(0, 30) + '...'
 									: title}
 							</strong>
-							{/* to delete note we need some reference to it, we can use it's id */}
+							{/* delete note by referencing it's id */}
 							<button className='delete-button' onClick={e => onDeleteNote(id)}>
 								Delete
 							</button>
