@@ -33,6 +33,19 @@ const Profile = () => {
 	const { logOut, user } = useUserAuth();
 	const history = useHistory();
 
+	// const initializeUser = async () => {
+	// 	await addDoc(collection(db, 'users'), {
+	// 		uid: user.uid,
+	// 		// eslint-disable-next-line no-restricted-globals
+	// 		name: user.displayName,
+	// 		authProvider: 'firebase',
+	// 		email: user.email,
+	// 		description: '',
+	// 	});
+	// };
+
+	// initializeUser();
+
 	//* <----- Toast Notifications ----->
 	const profileUpdatedNotification = () =>
 		toast.success('Profile Updated', {
@@ -197,6 +210,41 @@ const Profile = () => {
 		}
 	};
 
+	const handleDeleteAccount = async () => {
+		const characters = charactersDatabase.filter(
+			owner => owner.owner === user.uid
+		);
+		const teams = teamsDatabase.filter(owner => owner.owner === user.uid);
+		const notes = notesDatabase.filter(owner => owner.owner === user.uid);
+		const users = usersDatabase.filter(u => u.uid === user.uid);
+
+		// notes.map(note => NotesDataService.deleteNote(note.id));
+		// console.log(characters, teams, notes, users[0].id);
+
+		for (let character of characters) {
+			await CharacterDataService.deleteCharacter(character.id);
+		}
+
+		for (let team of teams) {
+			await TeamDataService.deleteTeam(team.id);
+		}
+
+		for (let note of notes) {
+			// console.log(note.id);
+			await NotesDataService.deleteNote(note.id);
+		}
+
+		await UserDataService.deleteUser(users[0].id);
+
+		//* Reauthenticate user
+		await handleLogout();
+		history.push('delete-account');
+
+		// await NotesDataService.deleteNote(notes[0].id);
+
+		// console.log('deleted');
+	};
+
 	return (
 		<Container>
 			<CardComponent title='Profile'>
@@ -267,8 +315,15 @@ const Profile = () => {
 							</div>
 						</form>
 						<hr />
-						<button className='btn btn-danger'>Delete Account</button>
-						{/* alert with confirmation this will delete all your data from database without option to retrieve it, type delete to delete your profile */}
+						<button className='btn btn-danger' onClick={handleDeleteAccount}>
+							Delete Account
+						</button>
+						{/* <button
+							className='btn btn-danger'
+							onClick={() => console.log('deleted')}
+						>
+							Delete Account
+						</button> */}
 					</Modal.Body>
 				</Modal>
 				<h5 className='py-2'>Welcome {user && user.email}</h5>
@@ -293,9 +348,6 @@ const Profile = () => {
 										<div className='px-3 text-break'>
 											{name ? <h5>{name}</h5> : null}
 											{description ? <p>{description}</p> : null}
-											{/* <Suspense fallback={<p>Loading</p>}>
-												{getCurrentUser()?.description}
-											</Suspense> */}
 										</div>
 									</div>
 									<div className='col-md-8'>

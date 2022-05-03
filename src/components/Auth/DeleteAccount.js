@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import GoogleButton from 'react-google-button';
 
 import { toast } from 'react-toastify';
@@ -10,11 +10,9 @@ import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
 
 import useDocumentTitle from '../../hooks/useDocumentTitle';
-import { addDoc, collection } from 'firebase/firestore';
-import { db } from '../../utils/firebaseConfig';
 
-const Login = () => {
-	useDocumentTitle('Log In');
+const DeleteAccount = () => {
+	useDocumentTitle('Delete Account');
 
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
@@ -23,7 +21,7 @@ const Login = () => {
 	const history = useHistory();
 
 	const loggedInNotification = () =>
-		toast.success(`Logged In`, {
+		toast.success(`Account Deleted`, {
 			position: 'top-center',
 			autoClose: 2000,
 			hideProgressBar: false,
@@ -36,16 +34,19 @@ const Login = () => {
 	// console.log(email);
 	// console.log(user);
 
+	// console.log(user);
+
 	const handleSubmit = async e => {
 		e.preventDefault();
 		setError('');
 		try {
 			await logIn(email, password);
-			history.push('/profile');
+			// await handleDeleteAccount();
+
+			history.push('/login');
 		} catch (err) {
 			setError(err.message);
 		}
-
 		loggedInNotification();
 	};
 
@@ -53,46 +54,68 @@ const Login = () => {
 		e.preventDefault();
 		try {
 			await googleSignIn();
-			history.push('/profile');
+			// history.push('/login');
 		} catch (error) {
 			console.log(error.message);
 		}
 
-		// await addDoc(collection(db, 'users'), {
-		// 	uid: '',
-		// 	// eslint-disable-next-line no-restricted-globals
-		// 	name: '',
-		// 	authProvider: 'firebase',
-		// 	email: '',
-		// 	description: '',
-		// });
-
 		loggedInNotification();
 	};
 
-	// console.log(user?.uid);
-
-	// if user is already logged in
+	// if user logged in
 	useEffect(() => {
-		if (user) history.push('/profile');
+		if (user) {
+			handleDeleteAccount();
+			history.push('/');
+		}
 	});
+
+	const handleDeleteAccount = async () => {
+		user
+			.delete()
+			.then(() => {
+				console.log('deleted');
+			})
+			.catch(err => {
+				console.log(err);
+			});
+	};
+
+	// useEffect(() => {
+	// 	const handleDeleteAccount = async () => {
+	// 		user
+	// 			.delete()
+	// 			.then(() => {
+	// 				console.log('deleted');
+	// 			})
+	// 			.catch(err => {
+	// 				console.log(err);
+	// 			});
+	// 	};
+	// 	if (user) {
+	// 		handleDeleteAccount();
+	// 		history.push('/');
+	// 	}
+	// }, [user, history]);
 
 	return (
 		<Container>
 			<CardComponent title='Login'>
-				{/* <ToastContainer
-					position='top-center'
-					autoClose={2000}
-					hideProgressBar={false}
-					newestOnTop
-					closeOnClick
-					rtl={false}
-					pauseOnFocusLoss={false}
-					draggable
-					pauseOnHover={false}
-					transition={Flip}
-					theme='dark'
-				/> */}
+				<h2 className='text-danger text-start mx-2'>
+					This will permanently delete your account with all your data without
+					option to retrieve it.
+					<br />
+					If you wish to continue please Sign In with your email and password or
+					with Google Account
+				</h2>
+				<div className='d-flex mx-2 my-1'>
+					<button
+						className='btn btn-warning'
+						onClick={() => history.push('/login')}
+					>
+						Cancel
+					</button>
+				</div>
 				<div className='p-2'>
 					{error && <div className='alert alert-danger'>{error}</div>}
 					<form onSubmit={handleSubmit}>
@@ -114,8 +137,8 @@ const Login = () => {
 						</div>
 
 						<div className='d-grid gap-2'>
-							<button className='btn btn-primary' type='Submit'>
-								Log In
+							<button className='btn btn-danger' type='Submit'>
+								Delete Account
 							</button>
 						</div>
 					</form>
@@ -128,15 +151,9 @@ const Login = () => {
 						/>
 					</div>
 				</div>
-				<div className='p-2 text-center'>
-					Don't have an account?{' '}
-					<Link className='text-decoration-none text-info' to='/signup'>
-						Sign up
-					</Link>
-				</div>
 			</CardComponent>
 		</Container>
 	);
 };
 
-export default Login;
+export default DeleteAccount;

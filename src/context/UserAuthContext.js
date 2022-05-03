@@ -7,6 +7,7 @@ import {
 	signOut,
 	GoogleAuthProvider,
 	signInWithPopup,
+	// getAdditionalUserInfo,
 } from 'firebase/auth';
 
 import { collection, addDoc } from 'firebase/firestore';
@@ -57,6 +58,22 @@ export const UserAuthContextProvider = ({ children }) => {
 
 		// return createUserWithEmailAndPassword(auth, email, password);
 	};
+
+	// const googleSignIn = () => {
+	// 	const googleAuthProvider = new GoogleAuthProvider();
+	// 	// console.log(googleAuthProvider);
+
+	// 	addDoc(collection(db, 'users'), {
+	// 		uid: '',
+	// 		// eslint-disable-next-line no-restricted-globals
+	// 		name,
+	// 		authProvider: 'google.com',
+	// 		email: '',
+	// 		description: '',
+	// 	});
+
+	// 	return signInWithPopup(auth, googleAuthProvider);
+	// };
 
 	const googleSignIn = () => {
 		const googleAuthProvider = new GoogleAuthProvider();
