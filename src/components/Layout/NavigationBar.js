@@ -30,7 +30,7 @@ const NavigationBar = () => {
 						})}
 						<div>
 							<NavDropdown
-								title='Database'
+								title={<span className='text-light'>Dropdown</span>}
 								id='basic-nav-dropdown'
 								menuVariant='dark'
 							>

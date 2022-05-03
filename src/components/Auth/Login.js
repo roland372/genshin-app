@@ -2,17 +2,37 @@ import React, { useState, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import GoogleButton from 'react-google-button';
 
+import { toast } from 'react-toastify';
+
 import { useUserAuth } from '../../context/UserAuthContext';
 
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
 
+import useDocumentTitle from '../../hooks/useDocumentTitle';
+
 const Login = () => {
+	useDocumentTitle('Log In');
+
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
 	const [error, setError] = useState('');
 	const { logIn, googleSignIn, user } = useUserAuth();
 	const history = useHistory();
+
+	const loggedInNotification = () =>
+		toast.success(`Logged In`, {
+			position: 'top-center',
+			autoClose: 2000,
+			hideProgressBar: false,
+			closeOnClick: true,
+			pauseOnHover: false,
+			draggable: true,
+			progress: '',
+		});
+
+	console.log(email);
+	console.log(user);
 
 	const handleSubmit = async e => {
 		e.preventDefault();
@@ -23,6 +43,7 @@ const Login = () => {
 		} catch (err) {
 			setError(err.message);
 		}
+		loggedInNotification();
 	};
 
 	const handleGoogleSignIn = async e => {
@@ -33,6 +54,8 @@ const Login = () => {
 		} catch (error) {
 			console.log(error.message);
 		}
+
+		loggedInNotification();
 	};
 
 	// if user is already logged in
@@ -43,6 +66,19 @@ const Login = () => {
 	return (
 		<Container>
 			<CardComponent title='Login'>
+				{/* <ToastContainer
+					position='top-center'
+					autoClose={2000}
+					hideProgressBar={false}
+					newestOnTop
+					closeOnClick
+					rtl={false}
+					pauseOnFocusLoss={false}
+					draggable
+					pauseOnHover={false}
+					transition={Flip}
+					theme='dark'
+				/> */}
 				<div className='p-2'>
 					{error && <div className='alert alert-danger'>{error}</div>}
 					<form onSubmit={handleSubmit}>

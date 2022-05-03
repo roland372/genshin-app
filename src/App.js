@@ -37,6 +37,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import ScrollToTopRouter from './components/Layout/ScrollToTopRouter';
 
+import { Flip, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 function App() {
 	return (
 		<Fragment>
@@ -44,6 +47,19 @@ function App() {
 				<ScrollToTopRouter />
 				<Layout>
 					<UserAuthContextProvider>
+						<ToastContainer
+							position='top-center'
+							autoClose={2000}
+							hideProgressBar={false}
+							newestOnTop
+							closeOnClick
+							rtl={false}
+							pauseOnFocusLoss={false}
+							draggable
+							pauseOnHover={false}
+							transition={Flip}
+							theme='dark'
+						/>
 						<Switch>
 							<Route exact path='/' component={home} />
 							<Route path='/about' component={about} />

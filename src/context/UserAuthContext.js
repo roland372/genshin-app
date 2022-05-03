@@ -49,6 +49,7 @@ export const UserAuthContextProvider = ({ children }) => {
 				name,
 				authProvider: 'local',
 				email,
+				description: '',
 			});
 		} catch (err) {
 			console.error(err);

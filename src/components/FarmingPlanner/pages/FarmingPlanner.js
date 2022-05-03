@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import { Flip, ToastContainer } from 'react-toastify';
-
 import Characters from './Characters';
 import AddCharacter from './AddCharacter';
 import EditCharacter from './EditCharacter';
@@ -244,19 +242,6 @@ const FarmingPlanner = () => {
 
 	return (
 		<Router>
-			<ToastContainer
-				position='top-center'
-				autoClose={2000}
-				hideProgressBar={false}
-				newestOnTop
-				closeOnClick
-				rtl={false}
-				pauseOnFocusLoss={false}
-				draggable
-				pauseOnHover={false}
-				transition={Flip}
-				theme='dark'
-			/>
 			<Switch>
 				<Route exact path='/farming-planner'>
 					<Characters

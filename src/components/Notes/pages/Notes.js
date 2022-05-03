@@ -6,6 +6,7 @@ import '../styles/Styles.css';
 //? <----- Components ----->
 import Main from '../components/Main';
 import Sidebar from '../components/Sidebar';
+import { toast } from 'react-toastify';
 
 //? <----- Database functions ----->
 import NotesDataService from '../services/notes.services';
@@ -18,6 +19,28 @@ import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const Notes = () => {
 	useDocumentTitle('Notes');
+
+	const noteAddedNotification = () =>
+		toast.success(`Note Added`, {
+			position: 'top-center',
+			autoClose: 2000,
+			hideProgressBar: false,
+			closeOnClick: true,
+			pauseOnHover: false,
+			draggable: true,
+			progress: '',
+		});
+
+	const noteDeletedNotification = () =>
+		toast.success(`Note Deleted`, {
+			position: 'top-center',
+			autoClose: 2000,
+			hideProgressBar: false,
+			closeOnClick: true,
+			pauseOnHover: false,
+			draggable: true,
+			progress: '',
+		});
 
 	const { user } = useUserAuth();
 
@@ -60,6 +83,8 @@ const Notes = () => {
 			console.log(err);
 		}
 
+		noteAddedNotification();
+
 		// setActiveNote(notesDatabase.filter(({ id }) => id !== activeNote));
 	};
 
@@ -67,6 +92,7 @@ const Notes = () => {
 	const onDeleteNote = async noteId => {
 		await NotesDataService.deleteNote(noteId);
 		setNotesDatabase(notesDatabase.filter(({ id }) => id !== noteId));
+		noteDeletedNotification();
 	};
 
 	//* when click update note

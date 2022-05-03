@@ -1,9 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import { Flip, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
 import Teams from './Teams';
 import Team from '../components/Team';
 import AddTeam from './AddTeam';
@@ -54,19 +51,6 @@ const TeamBuilder = () => {
 
 	return (
 		<Router>
-			<ToastContainer
-				position='top-center'
-				autoClose={2000}
-				hideProgressBar={false}
-				newestOnTop
-				closeOnClick
-				rtl={false}
-				pauseOnFocusLoss={false}
-				draggable
-				pauseOnHover={false}
-				transition={Flip}
-				theme='dark'
-			/>
 			<Switch>
 				<Route exact path='/team-builder'>
 					<Teams

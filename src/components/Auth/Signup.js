@@ -3,25 +3,43 @@ import { Link, useHistory } from 'react-router-dom';
 
 import { useUserAuth } from '../../context/UserAuthContext';
 
+import { toast } from 'react-toastify';
+
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
 
+import useDocumentTitle from '../../hooks/useDocumentTitle';
+
 const Signup = () => {
+	useDocumentTitle('Sign Up');
+
 	const [email, setEmail] = useState('');
 	const [error, setError] = useState('');
 	const [password, setPassword] = useState('');
 	const { signUp, user } = useUserAuth();
 	let history = useHistory();
 
+	const signedUpNotification = () =>
+		toast.success(`Signed up as ${email}`, {
+			position: 'top-center',
+			autoClose: 2000,
+			hideProgressBar: false,
+			closeOnClick: true,
+			pauseOnHover: false,
+			draggable: true,
+			progress: '',
+		});
+
 	const handleSubmit = async e => {
 		e.preventDefault();
 		setError('');
 		try {
 			await signUp(email, password);
-			history.push('/');
+			// history.push('/');
 		} catch (err) {
 			setError(err.message);
 		}
+		signedUpNotification();
 	};
 
 	// if user is already logged in
