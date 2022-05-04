@@ -10,6 +10,7 @@ import Container from '../../Layout/Container';
 import BackButton from './BackButton';
 import Character from './Character';
 import Materials from './Materials';
+import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
 
 const CharacterInfo = props => {
 	const { charactersData, materialsData, character, setCharacter } = props;
@@ -97,6 +98,7 @@ const CharacterInfo = props => {
 	return (
 		<Container>
 			<CardComponent title={name}>
+				<ScrollToTopRouter />
 				<BackButton>
 					<h5 className='text-start mx-2'>
 						Last Modified:{' '}

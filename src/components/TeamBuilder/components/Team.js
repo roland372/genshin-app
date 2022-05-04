@@ -11,6 +11,7 @@ import Characters from './Characters';
 import CharactersHeading from './CharactersHeading';
 
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
+import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
 
 const Team = props => {
 	useDocumentTitle('View Team');
@@ -39,6 +40,7 @@ const Team = props => {
 	return (
 		<Container>
 			<CardComponent title={`Team ${name}`}>
+				<ScrollToTopRouter />
 				<BackButton>
 					<CharactersHeading heading={`Team: ${name}`} />
 					<h5 className='text-start mx-2'>

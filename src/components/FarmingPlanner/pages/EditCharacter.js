@@ -15,6 +15,7 @@ import EditForm from '../components/EditForm';
 import BackButton from '../components/BackButton';
 
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
+import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
 
 const EditCharacter = props => {
 	useDocumentTitle('Edit Character');
@@ -341,6 +342,7 @@ const EditCharacter = props => {
 	return (
 		<Container>
 			<CardComponent title='Edit Character'>
+				<ScrollToTopRouter />
 				<BackButton>
 					<section className='mx-2'>
 						<EditForm

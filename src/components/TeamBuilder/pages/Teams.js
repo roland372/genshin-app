@@ -15,6 +15,8 @@ import useDocumentTitle from '../../../hooks/useDocumentTitle';
 import { useUserAuth } from '../../../context/UserAuthContext';
 import Loader from '../../Layout/Loader';
 
+import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
+
 const Teams = props => {
 	useDocumentTitle('Team Builder');
 
@@ -67,6 +69,7 @@ const Teams = props => {
 	return (
 		<Container>
 			<CardComponent title='Team Builder'>
+				<ScrollToTopRouter />
 				<section className=''>
 					{/* <pre>{JSON.stringify(teamsDatabase, undefined, 2)}</pre> */}
 					<div className='d-flex align-items-center justify-content-lg-start ms-2 pt-1'>

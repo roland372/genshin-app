@@ -16,6 +16,7 @@ import useDocumentTitle from '../../../hooks/useDocumentTitle';
 import Loader from '../../Layout/Loader';
 
 import { useUserAuth } from '../../../context/UserAuthContext';
+import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
 
 const Characters = props => {
 	useDocumentTitle('Farming Planner');
@@ -86,6 +87,7 @@ const Characters = props => {
 	return (
 		<Container>
 			<CardComponent title='Farming Planner'>
+				<ScrollToTopRouter />
 				<div className='d-flex align-items-center justify-content-lg-start ms-2 pt-1'>
 					<Link
 						className='btn btn-primary'

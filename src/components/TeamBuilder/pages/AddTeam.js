@@ -18,6 +18,7 @@ import validation from '../components/FormValidation';
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 import { useUserAuth } from '../../../context/UserAuthContext';
+import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
 
 const AddTeam = props => {
 	useDocumentTitle('Add Team');
@@ -94,6 +95,7 @@ const AddTeam = props => {
 	return (
 		<Container>
 			<CardComponent title='Add Team'>
+				<ScrollToTopRouter />
 				<BackButton>
 					<Form
 						onSubmit={onSubmit}

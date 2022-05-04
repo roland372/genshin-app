@@ -14,6 +14,8 @@ import talentOptions from '../utils/talentOptions';
 import Form from '../components/Form';
 import BackButton from '../components/BackButton';
 
+import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
+
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const AddCharacter = props => {
@@ -320,6 +322,7 @@ const AddCharacter = props => {
 	return (
 		<Container>
 			<CardComponent title='Add Character'>
+				<ScrollToTopRouter />
 				<BackButton>
 					<section className='mx-2'>
 						<Form
