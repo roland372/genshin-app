@@ -1,5 +1,6 @@
 import React from 'react';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { MdCalendarToday } from 'react-icons/md';
 
 const Materials = props => {
 	const {
@@ -27,13 +28,118 @@ const Materials = props => {
 		crown,
 	} = props;
 
+	// Total cost calcs
+	// Daily Resin = 180
+	// 1 Mora Ley-Line = 20 resin = 60k mora
+	// 1 Exp Ley-Line = 20 resin = 5 exp books
+	// 1 Boss = 40 resin = 2.5 boss materials
+	// 3 Bronze Talent Books = 1 Silver
+	// 3 Silver Talent Books = 1 Gold
+	// 1 Gold Talent book = 3 Silver = 9 Bronze
+
+	// console.log('Total Mora');
+	// console.log(moraCharacter + moraTalent);
+	// console.log('Mora Ley-Lines');
+	// console.log(Math.round((moraCharacter + moraTalent) / 60000));
+	// console.log('Total Resin');
+	// console.log(Math.round((moraCharacter + moraTalent) / 60000) * 20);
+	// console.log('Total Days');
+	// console.log(
+	// 	Math.round((Math.round((moraCharacter + moraTalent) / 60000) * 20) / 180)
+	// );
+
+	// console.log('Total Exp Books');
+	// console.log(expBooks);
+	// console.log('Exp Ley-Lines');
+	// console.log(Math.round(expBooks / 5));
+	// console.log('Total Resin');
+	// console.log(Math.round(expBooks / 5) * 20);
+	// console.log('Total Days');
+	// console.log(Math.round((Math.round(expBooks / 5) * 20) / 180));
+
+	// console.log('Total Boss Materials');
+	// console.log(bossAscensionMaterial);
+	// console.log('Total Resin');
+	// console.log(bossAscensionMaterial * 40);
+	// console.log('Total Days');
+	// console.log(Math.round((bossAscensionMaterial * 40) / 180));
+
+	// console.log('Total Bronze Talent Books');
+	// console.log(bronzeTalentBooks);
+	// console.log('Total Domains');
+	// console.log(bronzeTalentBooks / 2);
+	// console.log('Total Resin');
+	// console.log((bronzeTalentBooks / 2) * 20);
+	// console.log('Total Days');
+	// console.log(parseFloat((((bronzeTalentBooks / 2) * 20) / 180).toFixed(1)));
+
+	// console.log('Total Silver Talent Books');
+	// console.log(silverTalentBooks);
+	// console.log('Total Domains');
+	// console.log(silverTalentBooks / 2 - bronzeTalentBooks);
+	// console.log('Total Resin');
+	// console.log((silverTalentBooks / 2 - bronzeTalentBooks) * 20);
+	// console.log('Total Days');
+	// console.log(
+	// 	parseFloat(
+	// 		(((silverTalentBooks / 2 - bronzeTalentBooks) * 20) / 180).toFixed(1)
+	// 	)
+	// );
+
+	// console.log('Total Gold Talent Books');
+	// console.log(goldTalentBooks);
+	// console.log('Total Domains');
+	// console.log(goldTalentBooks);
+	// console.log('Total Resin');
+	// console.log(goldTalentBooks * 20);
+	// console.log('Total Days');
+	// console.log(parseFloat(((goldTalentBooks * 20) / 180).toFixed(1)));
+
+	const totalMora = moraCharacter + moraTalent;
+	const moraLeyLines = Math.round((moraCharacter + moraTalent) / 60000);
+	const moraResin = Math.round((moraCharacter + moraTalent) / 60000) * 20;
+	const moraDays = Math.round(
+		(Math.round((moraCharacter + moraTalent) / 60000) * 20) / 180
+	);
+
+	const totalExpBooks = expBooks;
+	const expBooksLeyLines = Math.round(expBooks / 5);
+	const expBooksResin = Math.round(expBooks / 5) * 20;
+	const expBooksDays = Math.round((Math.round(expBooks / 5) * 20) / 180);
+
+	const bossMaterialsTotal = bossAscensionMaterial;
+	const bossMaterialsBosses = bossAscensionMaterial / 2;
+	const bossMaterialsResin = (bossAscensionMaterial / 2) * 40;
+	const bossMaterialsDays = Math.round(
+		((bossAscensionMaterial / 2) * 40) / 180
+	);
+
+	const bronzeBooks = bronzeTalentBooks;
+	const bronzeBooksDomains = bronzeTalentBooks / 2;
+	const bronzeBooksResin = (bronzeTalentBooks / 2) * 20;
+	const bronzeBooksDays = parseFloat(
+		(((bronzeTalentBooks / 2) * 20) / 180).toFixed(1)
+	);
+
+	const silverBooks = silverTalentBooks;
+	const silverBooksDomains = silverTalentBooks / 2 - bronzeTalentBooks;
+	const silverBooksResin = (silverTalentBooks / 2 - bronzeTalentBooks) * 20;
+	const silverBooksDays = parseFloat(
+		(((silverTalentBooks / 2 - bronzeTalentBooks) * 20) / 180).toFixed(1)
+	);
+
+	const goldBooks = goldTalentBooks;
+	const goldBooksDomains = goldTalentBooks;
+	const goldBooksResin = goldTalentBooks * 20;
+	const goldBooksDays = parseFloat(((goldTalentBooks * 20) / 180).toFixed(1));
+
 	return (
 		<section className='text-light my-2'>
 			{charactersData.map(c =>
 				characterSelect === c.data.name ? (
 					<div className='border rounded' key={c.data.name}>
 						<h5 className='my-2'>Materials</h5>
-						<section className='d-flex flex-wrap justify-content-start p-2'>
+						<section className='d-flex flex-wrap justify-content-xl-around justify-content-center  border rounded m-2 p-3'>
 							<div>
 								<OverlayTrigger
 									placement='top'
@@ -300,8 +406,181 @@ const Materials = props => {
 								<div>{crown}</div>
 							</div>
 						</section>
-						<h5>Total</h5>
-						<img src='' alt='' />
+						<div className='d-inline-flex justify-content-center border rounded px-3 py-2 bg-danger'>
+							<div>
+								<h5>Total Cost</h5>
+								<div className='d-flex align-items-center'>
+									<h6>Resin</h6>
+									<img
+										src='images/Materials/Item_Fragile_Resin.png'
+										width='50px'
+										alt=''
+									/>{' '}
+									={' '}
+									{moraResin +
+										expBooksResin +
+										bossMaterialsResin +
+										bronzeBooksResin +
+										silverBooksResin +
+										goldBooksResin}
+								</div>
+								<div className='d-flex'>
+									<h6>
+										Days
+										<span className='mx-2'>
+											<MdCalendarToday size={30} /> ={' '}
+											{moraDays +
+												expBooksDays +
+												bossMaterialsDays +
+												bronzeBooksDays +
+												silverBooksDays +
+												goldBooksDays}
+										</span>
+									</h6>
+								</div>
+							</div>
+						</div>
+
+						<section className='row'>
+							<div className='col-md-4'>
+								{/*//* <----- Mora -----> */}
+								<div className='border rounded p-2 m-2'>
+									<OverlayTrigger
+										placement='top'
+										overlay={<Tooltip>{'Mora'}</Tooltip>}
+									>
+										<img
+											src='/images/Materials/Item_Mora.png'
+											width='60px'
+											alt=''
+										/>
+									</OverlayTrigger>
+									<div className='text-center'>
+										<h6>Mora = {totalMora}</h6>
+										<h6>Ley-Lines = {moraLeyLines}</h6>
+										<h6>Resin = {moraResin}</h6>
+										<h6>Days = {moraDays}</h6>
+									</div>
+								</div>
+								{/*//* <----- Hero's Wit -----> */}
+								<div className='border rounded p-2 m-2'>
+									<OverlayTrigger
+										placement='top'
+										overlay={<Tooltip>{"Hero's Wit"}</Tooltip>}
+									>
+										<img
+											src="/images/Materials/Character Materials/EXP/Item_Hero's_Wit.png"
+											width='60px'
+											alt=''
+										/>
+									</OverlayTrigger>
+									<div className='text-center'>
+										<h6>Hero's Wit = {totalExpBooks}</h6>
+										<h6>Ley-Lines = {expBooksLeyLines}</h6>
+										<h6>Resin = {expBooksResin}</h6>
+										<h6>Days = {expBooksDays}</h6>
+									</div>
+								</div>
+							</div>
+
+							<div className='col-md-4'>
+								{/*//* <----- Boss Materials -----> */}
+								<div className='border rounded p-2 m-2'>
+									<OverlayTrigger
+										placement='top'
+										overlay={
+											<Tooltip>
+												{c.data.characterAscension[4].bossMaterial.name}
+											</Tooltip>
+										}
+									>
+										<img
+											src={c.data.characterAscension[4].bossMaterial.image}
+											width='60px'
+											alt=''
+										/>
+									</OverlayTrigger>
+									<div className='text-center'>
+										<h6>Boss Materials = {bossMaterialsTotal}</h6>
+										<h6>Bosses = {bossMaterialsBosses}</h6>
+										<h6>Resin = {bossMaterialsResin}</h6>
+										<h6>Days = {bossMaterialsDays}</h6>
+									</div>
+								</div>
+								{/*//* <----- Bronze Talent Books -----> */}
+								<div className='border rounded p-2 m-2'>
+									<OverlayTrigger
+										placement='top'
+										overlay={
+											<Tooltip>{`Teachings of ${c.data.talentBook.substring(
+												13
+											)}`}</Tooltip>
+										}
+									>
+										<img
+											src={c.data.talentMaterials[0].talentBookImage}
+											width='60px'
+											alt=''
+										/>
+									</OverlayTrigger>
+									<div className='text-center'>
+										<h6>Bronze Talent Books = {bronzeBooks}</h6>
+										<h6>Domains = {bronzeBooksDomains}</h6>
+										<h6>Resin = {bronzeBooksResin}</h6>
+										<h6>Days = {bronzeBooksDays}</h6>
+									</div>
+								</div>
+							</div>
+
+							<div className='col-md-4'>
+								{/*//* <----- Silver Talent Books -----> */}
+								<div className='border rounded p-2 m-2'>
+									<OverlayTrigger
+										placement='top'
+										overlay={
+											<Tooltip>{`Guide to ${c.data.talentBook.substring(
+												13
+											)}`}</Tooltip>
+										}
+									>
+										<img
+											src={c.data.talentMaterials[1].talentBookImage}
+											width='60px'
+											alt=''
+										/>
+									</OverlayTrigger>
+									<div className='text-center'>
+										<h6>Silver Talent Books = {silverBooks}</h6>
+										<h6>Domains = {silverBooksDomains}</h6>
+										<h6>Resin = {silverBooksResin}</h6>
+										<h6>Days = {silverBooksDays}</h6>
+									</div>
+								</div>
+								{/*//* <----- Gold Talent Books -----> */}
+								<div className='border rounded p-2 m-2'>
+									<OverlayTrigger
+										placement='top'
+										overlay={
+											<Tooltip>{`Philosophies of ${c.data.talentBook.substring(
+												13
+											)}`}</Tooltip>
+										}
+									>
+										<img
+											src={c.data.talentMaterials[5].talentBookImage}
+											width='60px'
+											alt=''
+										/>
+									</OverlayTrigger>
+									<div className='text-center'>
+										<h6>Gold Talent Books = {goldBooks}</h6>
+										<h6>Domains = {goldBooksDomains}</h6>
+										<h6>Resin = {goldBooksResin}</h6>
+										<h6>Days = {goldBooksDays}</h6>
+									</div>
+								</div>
+							</div>
+						</section>
 					</div>
 				) : (
 					<div key={c.data.name}></div>
