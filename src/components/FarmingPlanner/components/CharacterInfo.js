@@ -10,6 +10,7 @@ import Container from '../../Layout/Container';
 import BackButton from './BackButton';
 import Character from './Character';
 import Materials from './Materials';
+
 import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
 
 const CharacterInfo = props => {
@@ -46,9 +47,9 @@ const CharacterInfo = props => {
 	// 	crown: 1,
 	// });
 
-	const {
+	let {
 		name,
-		lastModified,
+		// lastModified,
 		levelHigh,
 		NAHigh,
 		ESHigh,
@@ -76,6 +77,58 @@ const CharacterInfo = props => {
 	} = character;
 	const { id } = useParams();
 
+	//* <----- Assign level options ----->
+	switch (levelHigh) {
+		case 1:
+			levelHigh = '1';
+			break;
+		case 2:
+			levelHigh = '20';
+			break;
+		case 3:
+			levelHigh = '20★';
+			break;
+		case 4:
+			levelHigh = '40';
+			break;
+		case 5:
+			levelHigh = '40★';
+			break;
+		case 6:
+			levelHigh = '50';
+			break;
+		case 7:
+			levelHigh = '50★';
+			break;
+		case 8:
+			levelHigh = '60';
+			break;
+		case 9:
+			levelHigh = '60★';
+			break;
+		case 10:
+			levelHigh = '70';
+			break;
+		case 11:
+			levelHigh = '70★';
+			break;
+		case 12:
+			levelHigh = '80';
+			break;
+		case 13:
+			levelHigh = '80★';
+			break;
+		case 14:
+			levelHigh = '90';
+			break;
+
+		default:
+			break;
+	}
+
+	// console.log(levelHigh);
+	// levelHigh = 90;
+
 	// useEffect(() => {
 	// 	const loadCharacter = async () => {
 	// 		const res = await axios.get(`http://localhost:3003/characters/${id}`);
@@ -100,13 +153,13 @@ const CharacterInfo = props => {
 			<CardComponent title={name}>
 				<ScrollToTopRouter />
 				<BackButton>
-					<h5 className='text-start mx-2'>
+					{/* <h5 className='text-start mx-2'>
 						Last Modified:{' '}
 						{new Date(lastModified).toLocaleDateString('en-GB', {
 							hour: '2-digit',
 							minute: '2-digit',
 						})}
-					</h5>
+					</h5> */}
 					<Character charactersData={charactersData} characterSelect={name} />
 					<section className='border p-3'>
 						<div className='me-2'>Level {levelHigh}</div>

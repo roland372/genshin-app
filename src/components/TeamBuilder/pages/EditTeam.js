@@ -115,7 +115,7 @@ const EditTeam = props => {
 		}
 	};
 
-	console.log(team);
+	// console.log(team);
 
 	return (
 		<Container>
