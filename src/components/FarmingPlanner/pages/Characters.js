@@ -22,6 +22,8 @@ const Characters = props => {
 
 	const { user } = useUserAuth();
 
+	const [loading, setLoading] = useState('');
+
 	const characterDeletedNotification = () =>
 		toast.success('Character Deleted', {
 			position: 'top-center',
@@ -42,10 +44,12 @@ const Characters = props => {
 	}, [user]);
 
 	const getCharactersDatabase = async () => {
+		setLoading(true);
 		const data = await CharactersDataService.getAllCharacters();
 		setCharactersDatabase(
 			data.docs.map(doc => ({ ...doc.data(), id: doc.id }))
 		);
+		setLoading(false);
 	};
 
 	//* filter array based on character names
@@ -93,7 +97,7 @@ const Characters = props => {
 				<div className='mx-2'>
 					<hr />
 				</div>
-				{sortedCharacters.length === 0 ? (
+				{loading ? (
 					<Loader />
 				) : (
 					<section className='d-flex flex-wrap justify-content-center align-items-center mx-2'>

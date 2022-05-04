@@ -20,6 +20,9 @@ const Teams = props => {
 
 	const { user } = useUserAuth();
 
+	//* <----- Loading state ----->
+	const [loading, setLoading] = useState(<Loader />);
+
 	const teamDeletedNotification = () =>
 		toast.success('Team Deleted', {
 			position: 'top-center',
@@ -40,8 +43,10 @@ const Teams = props => {
 	}, [user]);
 
 	const getTeamsDatabase = async () => {
+		setLoading(true);
 		const data = await TeamDataService.getAllTeams();
 		setTeamsDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
+		setLoading(false);
 	};
 
 	const deleteTeam = async id => {
@@ -72,8 +77,8 @@ const Teams = props => {
 					<div className='mx-2'>
 						<hr />
 					</div>
-					{sortedTeams.length === 0 ? (
-						// <h3>No Teams</h3>
+
+					{loading ? (
 						<Loader />
 					) : (
 						<section className='d-flex flex-wrap mx-2'>
