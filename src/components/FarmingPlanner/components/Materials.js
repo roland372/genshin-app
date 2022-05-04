@@ -300,6 +300,8 @@ const Materials = props => {
 								<div>{crown}</div>
 							</div>
 						</section>
+						<h5>Total</h5>
+						<img src='' alt='' />
 					</div>
 				) : (
 					<div key={c.data.name}></div>

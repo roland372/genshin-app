@@ -33,6 +33,7 @@ const Ascensions = props => {
 									commonMaterial,
 									moraCost,
 								} = ascension;
+								
 								return (
 									<Ascension
 										ascensionPhase={ascensionPhase}

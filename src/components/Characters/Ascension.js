@@ -37,7 +37,12 @@ const Ascension = props => {
 					<span className='rounded p-2 ms-2'>{props.commonMaterialAmount}</span>
 				</div>
 			</td>
-			<td>{props.moraCost}</td>
+			<td>
+				<div className='d-flex align-items-center ms-3'>
+					<img src='images/Materials/Item_Mora.png' width='64px' alt='' />
+					<span className='rounded p-2 ms-2'>{props.moraCost}</span>
+				</div>
+			</td>
 		</tr>
 	);
 };
