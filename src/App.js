@@ -59,6 +59,7 @@ function App() {
 							pauseOnHover={false}
 							transition={Flip}
 							theme='dark'
+							limit={3}
 						/>
 						<Switch>
 							<Route exact path='/' component={home} />
