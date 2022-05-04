@@ -26,25 +26,13 @@ import NotesDataService from '../Notes/services/notes.services';
 
 //? <----- Document title hook ----->
 import useDocumentTitle from '../../hooks/useDocumentTitle';
+import DeleteAccount from './DeleteAccount';
 
 const Profile = () => {
 	useDocumentTitle('Profile');
 
 	const { logOut, user } = useUserAuth();
 	const history = useHistory();
-
-	// const initializeUser = async () => {
-	// 	await addDoc(collection(db, 'users'), {
-	// 		uid: user.uid,
-	// 		// eslint-disable-next-line no-restricted-globals
-	// 		name: user.displayName,
-	// 		authProvider: 'firebase',
-	// 		email: user.email,
-	// 		description: '',
-	// 	});
-	// };
-
-	// initializeUser();
 
 	//* <----- Toast Notifications ----->
 	const profileUpdatedNotification = () =>
@@ -210,224 +198,223 @@ const Profile = () => {
 		}
 	};
 
-	const handleDeleteAccount = async () => {
-		const characters = charactersDatabase.filter(
-			owner => owner.owner === user.uid
-		);
-		const teams = teamsDatabase.filter(owner => owner.owner === user.uid);
-		const notes = notesDatabase.filter(owner => owner.owner === user.uid);
-		const users = usersDatabase.filter(u => u.uid === user.uid);
+	const [deleteFlag, setDeleteFlag] = useState(false);
 
-		// notes.map(note => NotesDataService.deleteNote(note.id));
-		// console.log(characters, teams, notes, users[0].id);
-
-		for (let character of characters) {
-			await CharacterDataService.deleteCharacter(character.id);
-		}
-
-		for (let team of teams) {
-			await TeamDataService.deleteTeam(team.id);
-		}
-
-		for (let note of notes) {
-			// console.log(note.id);
-			await NotesDataService.deleteNote(note.id);
-		}
-
-		await UserDataService.deleteUser(users[0].id);
-
+	const handleDeleteAccount = () => {
+		setDeleteFlag(true);
 		//* Reauthenticate user
-		await handleLogout();
-		history.push('delete-account');
-
+		// await handleLogout();
+		// history.push('delete-account');
 		// await NotesDataService.deleteNote(notes[0].id);
-
 		// console.log('deleted');
+		// console.log(notesDatabase);
+		// return <DeleteAccount notesDatabase={notesDatabase} />;
 	};
+
+	// console.log(deleteFlag);
 
 	return (
 		<Container>
-			<CardComponent title='Profile'>
-				<ToastContainer
-					position='top-center'
-					autoClose={2000}
-					hideProgressBar={false}
-					newestOnTop
-					closeOnClick
-					rtl={false}
-					pauseOnFocusLoss={false}
-					draggable
-					pauseOnHover={false}
-					transition={Flip}
-					theme='dark'
+			{deleteFlag ? (
+				<DeleteAccount
+					notesDatabase={notesDatabase}
+					teamsDatabase={teamsDatabase}
+					charactersDatabase={charactersDatabase}
+					usersDatabase={usersDatabase}
 				/>
-				<Modal show={showModal} onHide={handleCloseModal}>
-					<Modal.Header closeButton className='bg-dark text-light'>
-						<Modal.Title>Edit Profile</Modal.Title>
-					</Modal.Header>
-					<Modal.Body className='bg-dark text-light'>
-						<form onSubmit={e => handleProfileUpdate(e)}>
-							<div>
-								<div>Name</div>
-								<input
-									type='text'
-									className='form-control'
-									maxLength='20'
-									value={name}
-									onChange={e => setName(e.target.value)}
-								/>
-							</div>
-							<br />
-							<div>
-								<div>Edit Avatar</div>
-								<div className='d-flex justify-content-between'>
+			) : (
+				<CardComponent title='Profile'>
+					<ToastContainer
+						position='top-center'
+						autoClose={2000}
+						hideProgressBar={false}
+						newestOnTop
+						closeOnClick
+						rtl={false}
+						pauseOnFocusLoss={false}
+						draggable
+						pauseOnHover={false}
+						transition={Flip}
+						theme='dark'
+					/>
+					<Modal show={showModal} onHide={handleCloseModal}>
+						<Modal.Header closeButton className='bg-dark text-light'>
+							<Modal.Title>Edit Profile</Modal.Title>
+						</Modal.Header>
+						<Modal.Body className='bg-dark text-light'>
+							<form onSubmit={e => handleProfileUpdate(e)}>
+								<div>
+									<div>Name</div>
 									<input
-										type='file'
-										className='form-control-file'
-										onChange={handleFileChange}
+										type='text'
+										className='form-control'
+										maxLength='20'
+										value={name}
+										onChange={e => setName(e.target.value)}
 									/>
-									<button
-										disabled={loading || !photo}
-										className='btn btn-primary'
-										onClick={handleFileUpload}
-									>
-										upload
-									</button>
 								</div>
-								<div>Uploaded file</div>
-								<img src={photoURL} alt='avatar' width='100px' />
-							</div>
-							<br />
-							<div>
-								<div>Description</div>
-								<textarea
-									style={{ maxHeight: '150px' }}
-									type='text'
-									className='form-control'
-									maxLength='150'
-									value={description}
-									// value={getCurrentUser()?.description}
-									onChange={e => setDescription(e.target.value)}
-								/>
-								<div className='d-flex justify-content-end pt-3'>
-									<button className='btn btn-warning'>Save changes</button>
+								<br />
+								<div>
+									<div>Edit Avatar</div>
+									<div className='d-flex justify-content-between'>
+										<input
+											type='file'
+											className='form-control-file'
+											onChange={handleFileChange}
+										/>
+										<button
+											disabled={loading || !photo}
+											className='btn btn-primary'
+											onClick={handleFileUpload}
+										>
+											upload
+										</button>
+									</div>
+									<div>Uploaded file</div>
+									<img src={photoURL} alt='avatar' width='100px' />
 								</div>
-							</div>
-						</form>
-						<hr />
-						<button className='btn btn-danger' onClick={handleDeleteAccount}>
+								<br />
+								<div>
+									<div>Description</div>
+									<textarea
+										style={{ maxHeight: '150px' }}
+										type='text'
+										className='form-control'
+										maxLength='150'
+										value={description}
+										// value={getCurrentUser()?.description}
+										onChange={e => setDescription(e.target.value)}
+									/>
+									<div className='d-flex justify-content-end pt-3'>
+										<button className='btn btn-warning'>Save changes</button>
+									</div>
+								</div>
+							</form>
+							<hr />
+							{/* <Link
+							to='/delete-account'
+							className='btn btn-danger'
+							onClick={handleDeleteAccount}
+						>
 							Delete Account
-						</button>
-						{/* <button
+						</Link> */}
+							<button className='btn btn-danger' onClick={handleDeleteAccount}>
+								Delete Account
+							</button>
+							{/* <button
 							className='btn btn-danger'
 							onClick={() => console.log('deleted')}
 						>
 							Delete Account
 						</button> */}
-					</Modal.Body>
-				</Modal>
-				<h5 className='py-2'>Welcome {user && user.email}</h5>
-				<section className='py-2 mx-2'>
-					<div className='d-flex justify-content-center align-items-center'>
-						<div className='col col-lg-6 mb-4 mb-lg-0'>
-							<div className='bg-dark mb-3 rounded border'>
-								<div className='row g-0'>
-									<div
-										className='col-md-4 bg-primary text-center text-light'
-										style={{
-											borderTopLeftRadius: '0.3rem',
-											borderBottomLeftRadius: '0.3rem',
-										}}
-									>
-										<img
-											src={photoURL}
-											alt='Avatar'
-											className='img-fluid my-5 rounded-circle'
-											style={{ width: '80px' }}
-										/>
-										<div className='px-3 text-break'>
-											{name ? <h5>{name}</h5> : null}
-											{description ? <p>{description}</p> : null}
+						</Modal.Body>
+					</Modal>
+					<h5 className='py-2'>Welcome {user && user.email}</h5>
+					<section className='py-2 mx-2'>
+						<div className='d-flex justify-content-center align-items-center'>
+							<div className='col col-lg-6 mb-4 mb-lg-0'>
+								<div className='bg-dark mb-3 rounded border'>
+									<div className='row g-0'>
+										<div
+											className='col-md-4 bg-primary text-center text-light'
+											style={{
+												borderTopLeftRadius: '0.3rem',
+												borderBottomLeftRadius: '0.3rem',
+											}}
+										>
+											<img
+												src={photoURL}
+												alt='Avatar'
+												className='img-fluid my-5 rounded-circle'
+												style={{ width: '80px' }}
+											/>
+											<div className='px-3 text-break'>
+												{name ? <h5>{name}</h5> : null}
+												{description ? <p>{description}</p> : null}
+											</div>
 										</div>
-									</div>
-									<div className='col-md-8'>
-										<div className='p-4'>
-											<h6>Information</h6>
-											<hr className='mt-0 mb-4' />
-											<div className='row pt-1'>
-												<div className='col-12 mb-3'>
-													<h6>Email</h6>
-													<p className='text-muted'>{user.email}</p>
+										<div className='col-md-8'>
+											<div className='p-4'>
+												<h6>Information</h6>
+												<hr className='mt-0 mb-4' />
+												<div className='row pt-1'>
+													<div className='col-12 mb-3'>
+														<h6>Email</h6>
+														<p className='text-muted'>{user.email}</p>
+													</div>
 												</div>
-											</div>
-											<h6>Database</h6>
-											<hr className='mt-0 mb-4' />
-											<div className='row pt-1'>
-												<div className='col-6 mb-3'>
-													<h6>
-														<Link to='/team-builder/' className='text-light'>
-															Team Builder
-														</Link>
-													</h6>
-													<p className='text-muted'>
-														{
-															teamsDatabase.filter(
-																owner => owner.owner === user.uid
-															).length
-														}
-														{''} Teams
-													</p>
+												<h6>Database</h6>
+												<hr className='mt-0 mb-4' />
+												<div className='row pt-1'>
+													<div className='col-6 mb-3'>
+														<h6>
+															<Link to='/team-builder/' className='text-light'>
+																Team Builder
+															</Link>
+														</h6>
+														<p className='text-muted'>
+															{
+																teamsDatabase.filter(
+																	owner => owner.owner === user.uid
+																).length
+															}
+															{''} Teams
+														</p>
+													</div>
+													<div className='col-6 mb-3'>
+														<h6>
+															{' '}
+															<Link
+																to='/farming-planner/'
+																className='text-light'
+															>
+																Farming Planner
+															</Link>
+														</h6>
+														<p className='text-muted text-light'>
+															{
+																charactersDatabase.filter(
+																	owner => owner.owner === user.uid
+																).length
+															}
+															{''} Characters
+														</p>
+													</div>
+													<div className='col-6 mb-3'>
+														<h6>
+															<Link to='/notes/' className='text-light'>
+																Notes
+															</Link>
+														</h6>
+														<p className='text-muted text-light'>
+															{
+																notesDatabase.filter(
+																	owner => owner.owner === user.uid
+																).length
+															}
+															{''} Notes
+														</p>
+													</div>
 												</div>
-												<div className='col-6 mb-3'>
-													<h6>
-														{' '}
-														<Link to='/farming-planner/' className='text-light'>
-															Farming Planner
-														</Link>
-													</h6>
-													<p className='text-muted text-light'>
-														{
-															charactersDatabase.filter(
-																owner => owner.owner === user.uid
-															).length
-														}
-														{''} Characters
-													</p>
-												</div>
-												<div className='col-6 mb-3'>
-													<h6>
-														<Link to='/notes/' className='text-light'>
-															Notes
-														</Link>
-													</h6>
-													<p className='text-muted text-light'>
-														{
-															notesDatabase.filter(
-																owner => owner.owner === user.uid
-															).length
-														}
-														{''} Notes
-													</p>
-												</div>
-											</div>
-											<h6>Settings</h6>
-											<hr className='mt-0 mb-4' />
-											<div className='row pt-1'>
-												<div className='col-6 mb-3'>
-													<button
-														className='btn btn-sm btn-warning'
-														onClick={handleShowModal}
-													>
-														Edit Profile
-													</button>
-												</div>
-												<div className='col-6 mb-3'>
-													<button
-														className='btn btn-sm btn-primary'
-														onClick={handleLogout}
-													>
-														Log Out
-													</button>
+												<h6>Settings</h6>
+												<hr className='mt-0 mb-4' />
+												<div className='row pt-1'>
+													<div className='col-6 mb-3'>
+														<button
+															className='btn btn-sm btn-warning'
+															onClick={handleShowModal}
+														>
+															Edit Profile
+														</button>
+													</div>
+													<div className='col-6 mb-3'>
+														<button
+															className='btn btn-sm btn-primary'
+															onClick={handleLogout}
+														>
+															Log Out
+														</button>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -435,12 +422,12 @@ const Profile = () => {
 								</div>
 							</div>
 						</div>
+					</section>
+					<div className='text-center d-flex flex-column align-items-center justify-content-center'>
+						{/* <pre> {JSON.stringify(user, null, 2)}</pre> */}
 					</div>
-				</section>
-				<div className='text-center d-flex flex-column align-items-center justify-content-center'>
-					{/* <pre> {JSON.stringify(user, null, 2)}</pre> */}
-				</div>
-			</CardComponent>
+				</CardComponent>
+			)}
 		</Container>
 	);
 };

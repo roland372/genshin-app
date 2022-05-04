@@ -1,26 +1,40 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+
+//? <----- Router ----->
 import { useHistory } from 'react-router-dom';
-import GoogleButton from 'react-google-button';
 
-import { toast } from 'react-toastify';
-
+//? <----- User Auth ----->
 import { useUserAuth } from '../../context/UserAuthContext';
 
+//? <----- Components ----->
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
+import GoogleButton from 'react-google-button';
+import { toast } from 'react-toastify';
 
+//? <----- Firebase ----->
+import UserDataService from './services/user.services';
+import TeamDataService from '../TeamBuilder/services/team.services';
+import CharacterDataService from '../FarmingPlanner/services/character.services';
+import NotesDataService from '../Notes/services/notes.services';
+
+//? <----- Document title hook ----->
 import useDocumentTitle from '../../hooks/useDocumentTitle';
 
-const DeleteAccount = () => {
+const DeleteAccount = props => {
 	useDocumentTitle('Delete Account');
+
+	const { notesDatabase, teamsDatabase, charactersDatabase, usersDatabase } =
+		props;
+	const { logIn, googleSignIn, user } = useUserAuth();
 
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
 	const [error, setError] = useState('');
-	const { logIn, googleSignIn, user } = useUserAuth();
 	const history = useHistory();
 
-	const loggedInNotification = () =>
+	//* <----- Toast Notifications ----->
+	const accountDeletedNotification = () =>
 		toast.success(`Account Deleted`, {
 			position: 'top-center',
 			autoClose: 2000,
@@ -31,46 +45,58 @@ const DeleteAccount = () => {
 			progress: '',
 		});
 
-	// console.log(email);
-	// console.log(user);
-
-	// console.log(user);
-
+	//* <----- Log in handlers ----->
 	const handleSubmit = async e => {
 		e.preventDefault();
 		setError('');
 		try {
 			await logIn(email, password);
-			// await handleDeleteAccount();
-
+			await handleDeleteAccount();
 			history.push('/login');
 		} catch (err) {
 			setError(err.message);
 		}
-		loggedInNotification();
 	};
 
 	const handleGoogleSignIn = async e => {
 		e.preventDefault();
 		try {
 			await googleSignIn();
-			// history.push('/login');
+			await handleDeleteAccount();
+			history.push('/login');
 		} catch (error) {
 			console.log(error.message);
 		}
-
-		loggedInNotification();
 	};
 
-	// if user logged in
-	useEffect(() => {
-		if (user) {
-			handleDeleteAccount();
-			history.push('/');
-		}
-	});
+	//* <----- Get current user data ----->
+	const characters = charactersDatabase.filter(
+		owner => owner.owner === user.uid
+	);
+	const teams = teamsDatabase.filter(owner => owner.owner === user.uid);
+	const notes = notesDatabase.filter(owner => owner.owner === user?.uid);
+	const users = usersDatabase.filter(u => u.uid === user.uid);
 
-	const handleDeleteAccount = async () => {
+	//* <----- Delete account handler ----->
+	const handleDeleteAccount = async e => {
+		e.preventDefault();
+		await logIn(email, password);
+
+		for (let character of characters) {
+			await CharacterDataService.deleteCharacter(character.id);
+		}
+
+		for (let team of teams) {
+			await TeamDataService.deleteTeam(team.id);
+		}
+
+		for (let note of notes) {
+			// console.log(note.id);
+			await NotesDataService.deleteNote(note.id);
+		}
+
+		await UserDataService.deleteUser(users[0].id);
+
 		user
 			.delete()
 			.then(() => {
@@ -79,24 +105,9 @@ const DeleteAccount = () => {
 			.catch(err => {
 				console.log(err);
 			});
-	};
 
-	// useEffect(() => {
-	// 	const handleDeleteAccount = async () => {
-	// 		user
-	// 			.delete()
-	// 			.then(() => {
-	// 				console.log('deleted');
-	// 			})
-	// 			.catch(err => {
-	// 				console.log(err);
-	// 			});
-	// 	};
-	// 	if (user) {
-	// 		handleDeleteAccount();
-	// 		history.push('/');
-	// 	}
-	// }, [user, history]);
+		accountDeletedNotification();
+	};
 
 	return (
 		<Container>
@@ -135,9 +146,12 @@ const DeleteAccount = () => {
 								onChange={e => setPassword(e.target.value)}
 							/>
 						</div>
-
 						<div className='d-grid gap-2'>
-							<button className='btn btn-danger' type='Submit'>
+							<button
+								className='btn btn-danger'
+								type='Submit'
+								onClick={handleDeleteAccount}
+							>
 								Delete Account
 							</button>
 						</div>
