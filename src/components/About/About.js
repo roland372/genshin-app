@@ -126,7 +126,7 @@ const About = () => {
 								Profile
 							</Link>{' '}
 							to customize your own profile after signing in with Google
-							account, or creatning one with your email address
+							account, or creating one with your email address
 						</li>
 					</ul>
 				</section>
