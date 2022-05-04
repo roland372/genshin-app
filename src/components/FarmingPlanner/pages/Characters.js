@@ -13,6 +13,8 @@ import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
+import Loader from '../../Layout/Loader';
+
 import { useUserAuth } from '../../../context/UserAuthContext';
 
 const Characters = props => {
@@ -91,8 +93,11 @@ const Characters = props => {
 				<div className='mx-2'>
 					<hr />
 				</div>
-				<section className='d-flex flex-wrap justify-content-center align-items-center mx-2'>
-					{/* {charactersDatabase &&
+				{sortedCharacters.length === 0 ? (
+					<Loader />
+				) : (
+					<section className='d-flex flex-wrap justify-content-center align-items-center mx-2'>
+						{/* {charactersDatabase &&
 						mergedCharacters.map(character => {
 							const { name, image, rarity, elementImage, element } = character;
 
@@ -154,72 +159,73 @@ const Characters = props => {
 								</section>
 							);
 						})} */}
-					{user &&
-						sortedCharacters
-							.filter(owner => owner.owner === user.uid)
-							.map(character => {
-								const { name, image, rarity, elementImage, element } =
-									character;
+						{user &&
+							sortedCharacters
+								.filter(owner => owner.owner === user.uid)
+								.map(character => {
+									const { name, image, rarity, elementImage, element } =
+										character;
 
-								let rarityColor = '';
-								rarity === 5
-									? (rarityColor = 'rarity5bg')
-									: (rarityColor = 'rarity4bg');
-								return (
-									<section
-										key={name}
-										className='border border-light rounded shadow-lg p-2 col-lg-4 col-md-6 col-sm-12'
-									>
-										<section>
-											<OverlayTrigger
-												placement='top'
-												overlay={
-													<Tooltip>
-														<div>
-															<img
-																width='20px'
-																src={elementImage}
-																alt={element}
-																className='me-2'
-															/>
-															{name}
-														</div>
-													</Tooltip>
-												}
-											>
-												<div>
-													<img
-														src={image}
-														alt={name}
-														className={`img-fluid img-thumbnail ${rarityColor}`}
-													/>
-												</div>
-											</OverlayTrigger>
+									let rarityColor = '';
+									rarity === 5
+										? (rarityColor = 'rarity5bg')
+										: (rarityColor = 'rarity4bg');
+									return (
+										<section
+											key={name}
+											className='border border-light rounded shadow-lg p-2 col-lg-4 col-md-6 col-sm-12'
+										>
+											<section>
+												<OverlayTrigger
+													placement='top'
+													overlay={
+														<Tooltip>
+															<div>
+																<img
+																	width='20px'
+																	src={elementImage}
+																	alt={element}
+																	className='me-2'
+																/>
+																{name}
+															</div>
+														</Tooltip>
+													}
+												>
+													<div>
+														<img
+															src={image}
+															alt={name}
+															className={`img-fluid img-thumbnail ${rarityColor}`}
+														/>
+													</div>
+												</OverlayTrigger>
+											</section>
+											<div className='d-flex justify-content-center align-items-center ms-2 mt-2'>
+												<Link
+													className='btn btn-outline-primary mr-2'
+													to={`/farming-planner/characters/${character.id}`}
+												>
+													View
+												</Link>
+												<Link
+													className='btn btn-outline-warning mr-2'
+													to={`/farming-planner/characters/edit/${character.id}`}
+												>
+													Edit
+												</Link>
+												<button
+													className='btn btn-outline-danger'
+													onClick={() => deleteCharacter(character.id)}
+												>
+													Delete
+												</button>
+											</div>
 										</section>
-										<div className='d-flex justify-content-center align-items-center ms-2 mt-2'>
-											<Link
-												className='btn btn-outline-primary mr-2'
-												to={`/farming-planner/characters/${character.id}`}
-											>
-												View
-											</Link>
-											<Link
-												className='btn btn-outline-warning mr-2'
-												to={`/farming-planner/characters/edit/${character.id}`}
-											>
-												Edit
-											</Link>
-											<button
-												className='btn btn-outline-danger'
-												onClick={() => deleteCharacter(character.id)}
-											>
-												Delete
-											</button>
-										</div>
-									</section>
-								);
-							})}
-				</section>
+									);
+								})}
+					</section>
+				)}
 			</CardComponent>
 		</Container>
 	);

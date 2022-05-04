@@ -164,6 +164,9 @@ const About = () => {
 							<b>React-Toastify</b> for pop-up notifications
 						</li>
 						<li className='list-group-item list-group-item-dark'>
+							<b>React-Spinners</b> for loading spinners
+						</li>
+						<li className='list-group-item list-group-item-dark'>
 							<b>Bootstrap v5.0</b> and <b>React-Bootstrap</b> for styling
 						</li>
 						<li className='list-group-item list-group-item-dark'>

@@ -27,6 +27,7 @@ import NotesDataService from '../Notes/services/notes.services';
 //? <----- Document title hook ----->
 import useDocumentTitle from '../../hooks/useDocumentTitle';
 import DeleteAccount from './DeleteAccount';
+import Loader from '../Layout/Loader';
 
 const Profile = () => {
 	useDocumentTitle('Profile');
@@ -207,6 +208,8 @@ const Profile = () => {
 		//* Reauthenticate user
 	};
 
+	console.log(usersDatabase.length);
+
 	return (
 		<Container>
 			{deleteFlag ? (
@@ -270,13 +273,17 @@ const Profile = () => {
 								<br />
 								<div>
 									<div>Profile Color</div>
-									<input
-										type='color'
-										name=''
-										id=''
-										value={profileColor}
-										onChange={e => setProfileColor(e.target.value)}
-									/>
+									<div className='d-flex'>
+										<input
+											type='color'
+											name=''
+											id=''
+											// value={profileColor}
+											defaultValue={currentUser?.[0]?.color}
+											onChange={e => setProfileColor(e.target.value)}
+										/>
+										<div className='mx-2'>{profileColor}</div>
+									</div>
 								</div>
 								<div>
 									<div>Description</div>
@@ -296,138 +303,148 @@ const Profile = () => {
 							</form>
 							<hr />
 							{/* <Link
-							to='/delete-account'
-							className='btn btn-danger'
-							onClick={handleDeleteAccount}
-						>
-							Delete Account
-						</Link> */}
+						to='/delete-account'
+						className='btn btn-danger'
+						onClick={handleDeleteAccount}
+					>
+						Delete Account
+					</Link> */}
 							<button className='btn btn-danger' onClick={handleDeleteAccount}>
 								Delete Account
 							</button>
 							{/* <button
-							className='btn btn-danger'
-							onClick={() => console.log('deleted')}
-						>
-							Delete Account
-						</button> */}
+						className='btn btn-danger'
+						onClick={() => console.log('deleted')}
+					>
+						Delete Account
+					</button> */}
 						</Modal.Body>
 					</Modal>
-					<h5 className='py-2'>Welcome {user && user.email}</h5>
-					<section className='py-2 mx-2'>
-						<div className='d-flex justify-content-center align-items-center'>
-							<div className='col col-lg-6 mb-4 mb-lg-0'>
-								<div className='bg-dark mb-3 rounded border'>
-									<div className='row g-0'>
-										<div
-											className='col-md-4 text-center text-light'
-											style={{
-												borderTopLeftRadius: '0.3rem',
-												borderBottomLeftRadius: '0.3rem',
-												backgroundColor: `${currentUser?.[0]?.color}`,
-											}}
-										>
-											<img
-												src={photoURL}
-												alt='Avatar'
-												className='img-fluid my-5 rounded-circle'
-												style={{ width: '80px' }}
-											/>
-											<div className='px-3 text-break'>
-												<h5>{name}</h5>
-												{description ? <p>{description}</p> : null}
-											</div>
-										</div>
-										<div className='col-md-8'>
-											<div className='p-4'>
-												<h6>Information</h6>
-												<hr className='mt-0 mb-4' />
-												<div className='row pt-1'>
-													<div className='col-12 mb-3'>
-														<h6>Email</h6>
-														<p className='text-muted'>{user.email}</p>
+					{usersDatabase.length === 0 ? (
+						<Loader />
+					) : (
+						<section>
+							<h5 className='py-2'>Welcome {user && user.email}</h5>
+
+							<section className='py-2 mx-2'>
+								<div className='d-flex justify-content-center align-items-center'>
+									<div className='col col-lg-6 mb-4 mb-lg-0'>
+										<div className='bg-dark mb-3 rounded border'>
+											<div className='row g-0'>
+												<div
+													className='col-md-4 text-center text-light'
+													style={{
+														borderTopLeftRadius: '0.3rem',
+														borderBottomLeftRadius: '0.3rem',
+														backgroundColor: `${currentUser?.[0]?.color}`,
+													}}
+												>
+													<img
+														src={photoURL}
+														alt='Avatar'
+														className='img-fluid my-5 rounded-circle'
+														style={{ width: '80px' }}
+													/>
+													<div className='px-3 text-break'>
+														<h5>{name}</h5>
+														{description ? <p>{description}</p> : null}
 													</div>
 												</div>
-												<h6>Database</h6>
-												<hr className='mt-0 mb-4' />
-												<div className='row pt-1'>
-													<div className='col-6 mb-3'>
-														<h6>
-															<Link to='/team-builder/' className='text-light'>
-																Team Builder
-															</Link>
-														</h6>
-														<p className='text-muted'>
-															{
-																teamsDatabase.filter(
-																	owner => owner.owner === user.uid
-																).length
-															}
-															{''} Teams
-														</p>
-													</div>
-													<div className='col-6 mb-3'>
-														<h6>
-															{' '}
-															<Link
-																to='/farming-planner/'
-																className='text-light'
-															>
-																Farming Planner
-															</Link>
-														</h6>
-														<p className='text-muted text-light'>
-															{
-																charactersDatabase.filter(
-																	owner => owner.owner === user.uid
-																).length
-															}
-															{''} Characters
-														</p>
-													</div>
-													<div className='col-6 mb-3'>
-														<h6>
-															<Link to='/notes/' className='text-light'>
-																Notes
-															</Link>
-														</h6>
-														<p className='text-muted text-light'>
-															{
-																notesDatabase.filter(
-																	owner => owner.owner === user.uid
-																).length
-															}
-															{''} Notes
-														</p>
-													</div>
-												</div>
-												<h6>Settings</h6>
-												<hr className='mt-0 mb-4' />
-												<div className='row pt-1'>
-													<div className='col-6 mb-3'>
-														<button
-															className='btn btn-sm btn-warning'
-															onClick={handleShowModal}
-														>
-															Edit Profile
-														</button>
-													</div>
-													<div className='col-6 mb-3'>
-														<button
-															className='btn btn-sm btn-primary'
-															onClick={handleLogout}
-														>
-															Log Out
-														</button>
+												<div className='col-md-8'>
+													<div className='p-4'>
+														<h6>Information</h6>
+														<hr className='mt-0 mb-4' />
+														<div className='row pt-1'>
+															<div className='col-12 mb-3'>
+																<h6>Email</h6>
+																<p className='text-muted'>{user.email}</p>
+															</div>
+														</div>
+														<h6>Database</h6>
+														<hr className='mt-0 mb-4' />
+														<div className='row pt-1'>
+															<div className='col-6 mb-3'>
+																<h6>
+																	<Link
+																		to='/team-builder/'
+																		className='text-light'
+																	>
+																		Team Builder
+																	</Link>
+																</h6>
+																<p className='text-muted'>
+																	{
+																		teamsDatabase.filter(
+																			owner => owner.owner === user.uid
+																		).length
+																	}
+																	{''} Teams
+																</p>
+															</div>
+															<div className='col-6 mb-3'>
+																<h6>
+																	{' '}
+																	<Link
+																		to='/farming-planner/'
+																		className='text-light'
+																	>
+																		Farming Planner
+																	</Link>
+																</h6>
+																<p className='text-muted text-light'>
+																	{
+																		charactersDatabase.filter(
+																			owner => owner.owner === user.uid
+																		).length
+																	}
+																	{''} Characters
+																</p>
+															</div>
+															<div className='col-6 mb-3'>
+																<h6>
+																	<Link to='/notes/' className='text-light'>
+																		Notes
+																	</Link>
+																</h6>
+																<p className='text-muted text-light'>
+																	{
+																		notesDatabase.filter(
+																			owner => owner.owner === user.uid
+																		).length
+																	}
+																	{''} Notes
+																</p>
+															</div>
+														</div>
+														<h6>Settings</h6>
+														<hr className='mt-0 mb-4' />
+														<div className='row pt-1'>
+															<div className='col-6 mb-3'>
+																<button
+																	className='btn btn-sm btn-warning'
+																	onClick={handleShowModal}
+																>
+																	Edit Profile
+																</button>
+															</div>
+															<div className='col-6 mb-3'>
+																<button
+																	className='btn btn-sm btn-primary'
+																	onClick={handleLogout}
+																>
+																	Log Out
+																</button>
+															</div>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-							</div>
-						</div>
-					</section>
+							</section>
+						</section>
+					)}
 					<div className='text-center d-flex flex-column align-items-center justify-content-center'>
 						{/* <pre> {JSON.stringify(user, null, 2)}</pre> */}
 					</div>
