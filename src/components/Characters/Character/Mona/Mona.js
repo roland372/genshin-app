@@ -21,6 +21,7 @@ const Mona = () => {
 				passiveTalent1Image={passiveTalents[0].image}
 				passiveTalent2Image={passiveTalents[1].image}
 				passiveTalent3Image={passiveTalents[2].image}
+				passiveTalent4Image={passiveTalents[3].image}
 			/>
 			<Constellations
 				data={data}
