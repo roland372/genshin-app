@@ -47,9 +47,10 @@ export const UserAuthContextProvider = ({ children }) => {
 			await addDoc(collection(db, 'users'), {
 				uid: user.uid,
 				// eslint-disable-next-line no-restricted-globals
-				name,
+				name: user.email.split('@')[0],
 				authProvider: 'local',
-				email,
+				email: user.email,
+				color: '#0d6efd',
 				description: '',
 			});
 		} catch (err) {

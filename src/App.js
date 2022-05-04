@@ -8,7 +8,6 @@ import ProtectedRoute from './components/Auth/ProtectedRoute';
 import Profile from './components/Auth/Profile';
 import Login from './components/Auth/Login';
 import Signup from './components/Auth/Signup';
-import DeleteAccount from './components/Auth/DeleteAccount';
 
 // <--- Pages --->
 import about from './pages/about';
@@ -92,7 +91,6 @@ function App() {
 							<Route path='/weapons' component={weapons} />
 							<Route path='/login' component={Login} />
 							<Route path='/signup' component={Signup} />
-							<Route path='/delete-account' component={DeleteAccount} />
 							<Route path='/profile'>
 								<ProtectedRoute>
 									<Profile />

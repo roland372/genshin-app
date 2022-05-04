@@ -77,11 +77,12 @@ const Profile = () => {
 
 	//* <----- User State ----->
 	const [name, setName] = useState('');
-	const [description, setDescription] = useState('');
 	const [photo, setPhoto] = useState(null);
 	const [photoURL, setPhotoURL] = useState(
 		'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'
 	);
+	const [profileColor, setProfileColor] = useState('');
+	const [description, setDescription] = useState('');
 
 	//* <----- Modal State ----->
 	const [showModal, setShowModal] = useState(false);
@@ -189,6 +190,7 @@ const Profile = () => {
 
 		currentUser[0].name = name;
 		currentUser[0].description = description;
+		currentUser[0].color = profileColor;
 		try {
 			await UserDataService.updateUser(currentUser[0].id, currentUser?.[0]);
 			profileUpdatedNotification();
@@ -203,15 +205,7 @@ const Profile = () => {
 	const handleDeleteAccount = () => {
 		setDeleteFlag(true);
 		//* Reauthenticate user
-		// await handleLogout();
-		// history.push('delete-account');
-		// await NotesDataService.deleteNote(notes[0].id);
-		// console.log('deleted');
-		// console.log(notesDatabase);
-		// return <DeleteAccount notesDatabase={notesDatabase} />;
 	};
-
-	// console.log(deleteFlag);
 
 	return (
 		<Container>
@@ -275,6 +269,16 @@ const Profile = () => {
 								</div>
 								<br />
 								<div>
+									<div>Profile Color</div>
+									<input
+										type='color'
+										name=''
+										id=''
+										value={profileColor}
+										onChange={e => setProfileColor(e.target.value)}
+									/>
+								</div>
+								<div>
 									<div>Description</div>
 									<textarea
 										style={{ maxHeight: '150px' }}
@@ -316,10 +320,11 @@ const Profile = () => {
 								<div className='bg-dark mb-3 rounded border'>
 									<div className='row g-0'>
 										<div
-											className='col-md-4 bg-primary text-center text-light'
+											className='col-md-4 text-center text-light'
 											style={{
 												borderTopLeftRadius: '0.3rem',
 												borderBottomLeftRadius: '0.3rem',
+												backgroundColor: `${currentUser?.[0]?.color}`,
 											}}
 										>
 											<img
@@ -329,7 +334,7 @@ const Profile = () => {
 												style={{ width: '80px' }}
 											/>
 											<div className='px-3 text-break'>
-												{name ? <h5>{name}</h5> : null}
+												<h5>{name}</h5>
 												{description ? <p>{description}</p> : null}
 											</div>
 										</div>
