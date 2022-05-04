@@ -6,5 +6,3 @@ const farmingPlanner = () => {
 };
 
 export default farmingPlanner;
-
-// farming scheduler, similar to something like this https://genshin.poporing.life/

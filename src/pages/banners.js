@@ -6,6 +6,3 @@ const banners = () => {
 };
 
 export default banners;
-
-// page to display, current, previous and upcoming banners
-// I can use this as a reference https://genshin-impact.fandom.com/wiki/Wishes/List#Upcoming

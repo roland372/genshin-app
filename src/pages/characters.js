@@ -31,5 +31,3 @@ const characters = () => {
 };
 
 export default characters;
-
-// display all characters
