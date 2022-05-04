@@ -20,6 +20,8 @@ import useDocumentTitle from '../../../hooks/useDocumentTitle';
 const Notes = () => {
 	useDocumentTitle('Notes');
 
+	const [loading, setLoading] = useState(false);
+
 	const noteAddedNotification = () =>
 		toast.success(`Note Added`, {
 			position: 'top-center',
@@ -56,8 +58,10 @@ const Notes = () => {
 	}, []);
 
 	const getNotesDatabase = async () => {
+		setLoading(true);
 		const data = await NotesDataService.getAllNotes();
 		setNotesDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
+		setLoading(false);
 	};
 
 	const newNote = {
@@ -122,6 +126,7 @@ const Notes = () => {
 				onDeleteNote={onDeleteNote}
 				activeNote={activeNote}
 				setActiveNote={setActiveNote}
+				loading={loading}
 			/>
 			<Main activeNote={getActiveNote()} onUpdateNote={onUpdateNote} />
 		</div>
