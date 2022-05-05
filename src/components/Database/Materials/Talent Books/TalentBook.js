@@ -1,5 +1,6 @@
 import React from 'react';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const TalentBook = props => {
 	return (
@@ -28,14 +29,16 @@ const TalentBook = props => {
 								placement='top'
 								overlay={<Tooltip>{character.name}</Tooltip>}
 							>
-								<img
-									// key={character.name}
-									className='img-fluid'
-									src={character.image}
-									width='60px'
-									alt={character.name}
-									// title={character.name}
-								/>
+								<Link to={`characters/${character.url}`}>
+									<img
+										// key={character.name}
+										className='img-fluid'
+										src={character.image}
+										width='60px'
+										alt={character.name}
+										// title={character.name}
+									/>
+								</Link>
 							</OverlayTrigger>
 						) : null
 					)}
