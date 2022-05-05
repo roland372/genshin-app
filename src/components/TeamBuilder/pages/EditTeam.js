@@ -121,29 +121,28 @@ const EditTeam = props => {
 		<Container>
 			<CardComponent title='Edit Team'>
 				<ScrollToTopRouter />
-				<BackButton>
-					<Form
-						onSubmit={onSubmit}
-						name={name}
-						description={description}
-						onInputChange={onInputChange}
-						characterNames={characterNames}
-						selectValues={selectValues}
-						select={select}
-						formErrors={formErrors}
-					>
-						{select.length !== 0 && (
-							<CharactersHeading heading='New Team Members:' />
-						)}
-						<Characters filterCharacters={filterCharacters} array={select} />
-						<CharactersHeading heading='Previous Team Members' />
-						<Characters
-							filterCharacters={filterCharacters}
-							array={previousTeam.current}
-						/>
-						<SubmitButton text='Update Team' color='warning' />
-					</Form>
-				</BackButton>
+				<BackButton />
+				<Form
+					onSubmit={onSubmit}
+					name={name}
+					description={description}
+					onInputChange={onInputChange}
+					characterNames={characterNames}
+					selectValues={selectValues}
+					select={select}
+					formErrors={formErrors}
+				>
+					{select.length !== 0 && (
+						<CharactersHeading heading='New Team Members:' />
+					)}
+					<Characters filterCharacters={filterCharacters} array={select} />
+					<CharactersHeading heading='Previous Team Members' />
+					<Characters
+						filterCharacters={filterCharacters}
+						array={previousTeam.current}
+					/>
+					<SubmitButton text='Update Team' color='warning' />
+				</Form>
 			</CardComponent>
 		</Container>
 	);

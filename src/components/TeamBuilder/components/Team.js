@@ -41,27 +41,26 @@ const Team = props => {
 		<Container>
 			<CardComponent title={`Team ${name}`}>
 				<ScrollToTopRouter />
-				<BackButton>
-					<CharactersHeading heading={`Team: ${name}`} />
-					<h5 className='text-start mx-2'>
-						Last Modified:{' '}
-						{new Date(lastModified).toLocaleDateString('en-GB', {
-							hour: '2-digit',
-							minute: '2-digit',
-						})}
-					</h5>
-					<Characters filterCharacters={filterCharacters} array={teamMembers} />
-					{description.length !== 0 && (
-						<section>
-							<div className='mt-2'>
-								<CharactersHeading heading='Description:' />
-							</div>
-							<div className='rounded mx-2'>
-								<h5 className='text-start text-break'>{description}</h5>
-							</div>
-						</section>
-					)}
-				</BackButton>
+				<BackButton />
+				<CharactersHeading heading={`Team: ${name}`} />
+				<h5 className='text-start mx-2'>
+					Last Modified:{' '}
+					{new Date(lastModified).toLocaleDateString('en-GB', {
+						hour: '2-digit',
+						minute: '2-digit',
+					})}
+				</h5>
+				<Characters filterCharacters={filterCharacters} array={teamMembers} />
+				{description.length !== 0 && (
+					<section>
+						<div className='mt-2'>
+							<CharactersHeading heading='Description:' />
+						</div>
+						<div className='rounded mx-2'>
+							<h5 className='text-start text-break'>{description}</h5>
+						</div>
+					</section>
+				)}
 			</CardComponent>
 		</Container>
 	);

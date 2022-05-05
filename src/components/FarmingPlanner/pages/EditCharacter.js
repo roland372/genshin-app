@@ -343,59 +343,58 @@ const EditCharacter = props => {
 		<Container>
 			<CardComponent title='Edit Character'>
 				<ScrollToTopRouter />
-				<BackButton>
-					<section className='mx-2'>
-						<EditForm
-							characters={characters}
-							levelOptions={levelOptions}
-							charactersData={charactersData}
-							talentOptions={talentOptions}
-							characterSelect={name}
-							levelLow={levelLow}
-							setLevelLow={setLevelLow}
-							levelHigh={levelHigh}
-							setLevelHigh={setLevelHigh}
-							NAHigh={NAHigh}
-							NALow={NALow}
-							setNALow={setNALow}
-							setNAHigh={setNAHigh}
-							ESHigh={ESHigh}
-							ESLow={ESLow}
-							setESLow={setESLow}
-							setESHigh={setESHigh}
-							EBHigh={EBHigh}
-							EBLow={EBLow}
-							setEBLow={setEBLow}
-							setEBHigh={setEBHigh}
-							moraCharacter={moraCharacter}
-							setMoraCharacter={setMoraCharacter}
-							moraTalent={moraTalent}
-							expBooks={expBooks}
-							localSpeciality={localSpeciality}
-							characterCommonMaterial1={characterCommonMaterial1}
-							talentCommonMaterial1={talentCommonMaterial1}
-							characterCommonMaterial2={characterCommonMaterial2}
-							talentCommonMaterial2={talentCommonMaterial2}
-							characterCommonMaterial3={characterCommonMaterial3}
-							talentCommonMaterial3={talentCommonMaterial3}
-							bossAscensionMaterial={bossAscensionMaterial}
-							sliver={sliver}
-							fragments={fragments}
-							chunks={chunks}
-							gemstones={gemstones}
-							bronzeTalentBooks={bronzeTalentBooks}
-							silverTalentBooks={silverTalentBooks}
-							goldTalentBooks={goldTalentBooks}
-							bossMaterial={bossMaterial}
-							crown={crown}
-							onSubmit={onSubmit}
-							formErrors
-							// submit button
-							color={'warning'}
-							text={'Edit Character'}
-						/>
-					</section>
-				</BackButton>
+				<BackButton />
+				<section className='mx-2'>
+					<EditForm
+						characters={characters}
+						levelOptions={levelOptions}
+						charactersData={charactersData}
+						talentOptions={talentOptions}
+						characterSelect={name}
+						levelLow={levelLow}
+						setLevelLow={setLevelLow}
+						levelHigh={levelHigh}
+						setLevelHigh={setLevelHigh}
+						NAHigh={NAHigh}
+						NALow={NALow}
+						setNALow={setNALow}
+						setNAHigh={setNAHigh}
+						ESHigh={ESHigh}
+						ESLow={ESLow}
+						setESLow={setESLow}
+						setESHigh={setESHigh}
+						EBHigh={EBHigh}
+						EBLow={EBLow}
+						setEBLow={setEBLow}
+						setEBHigh={setEBHigh}
+						moraCharacter={moraCharacter}
+						setMoraCharacter={setMoraCharacter}
+						moraTalent={moraTalent}
+						expBooks={expBooks}
+						localSpeciality={localSpeciality}
+						characterCommonMaterial1={characterCommonMaterial1}
+						talentCommonMaterial1={talentCommonMaterial1}
+						characterCommonMaterial2={characterCommonMaterial2}
+						talentCommonMaterial2={talentCommonMaterial2}
+						characterCommonMaterial3={characterCommonMaterial3}
+						talentCommonMaterial3={talentCommonMaterial3}
+						bossAscensionMaterial={bossAscensionMaterial}
+						sliver={sliver}
+						fragments={fragments}
+						chunks={chunks}
+						gemstones={gemstones}
+						bronzeTalentBooks={bronzeTalentBooks}
+						silverTalentBooks={silverTalentBooks}
+						goldTalentBooks={goldTalentBooks}
+						bossMaterial={bossMaterial}
+						crown={crown}
+						onSubmit={onSubmit}
+						formErrors
+						// submit button
+						color={'warning'}
+						text={'Edit Character'}
+					/>
+				</section>
 			</CardComponent>
 		</Container>
 	);

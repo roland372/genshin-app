@@ -75,7 +75,7 @@ const AddTeamToLocalStorage = props => {
 		team.teamMembers = [...select];
 
 		setFormErrors(validation(name, select));
-		
+
 		if (name.length !== 0 && select.length >= 4) {
 			teams = [...teams, team];
 
@@ -90,24 +90,21 @@ const AddTeamToLocalStorage = props => {
 	return (
 		<Container>
 			<CardComponent title='Add Team'>
-				<BackButton>
-					<Form
-						onSubmit={onSubmit}
-						name={name}
-						description={description}
-						onInputChange={onInputChange}
-						characterNames={characterNames}
-						selectValues={selectValues}
-						select={team.teamMembers}
-						formErrors={formErrors}
-					>
-						{select.length !== 0 && (
-							<CharactersHeading heading='Team Members:' />
-						)}
-						<Characters filterCharacters={filterCharacters} array={select} />
-						<SubmitButton text='Add Team' color='primary' />
-					</Form>
-				</BackButton>
+				<BackButton />
+				<Form
+					onSubmit={onSubmit}
+					name={name}
+					description={description}
+					onInputChange={onInputChange}
+					characterNames={characterNames}
+					selectValues={selectValues}
+					select={team.teamMembers}
+					formErrors={formErrors}
+				>
+					{select.length !== 0 && <CharactersHeading heading='Team Members:' />}
+					<Characters filterCharacters={filterCharacters} array={select} />
+					<SubmitButton text='Add Team' color='primary' />
+				</Form>
 			</CardComponent>
 		</Container>
 	);

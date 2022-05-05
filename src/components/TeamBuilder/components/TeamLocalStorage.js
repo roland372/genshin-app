@@ -46,20 +46,19 @@ const TeamLocalStorage = props => {
 	return (
 		<Container>
 			<CardComponent title={`Team ${name}`}>
-				<BackButton>
-					<CharactersHeading heading={`Team: ${name}`} />
-					<Characters filterCharacters={filterCharacters} array={teamMembers} />
-					{description.length !== 0 && (
-						<section>
-							<div className='mt-2'>
-								<CharactersHeading heading='Description:' />
-							</div>
-							<div className='rounded mx-2'>
-								<h4 className='text-start'>{description}</h4>
-							</div>
-						</section>
-					)}
-				</BackButton>
+				<BackButton />
+				<CharactersHeading heading={`Team: ${name}`} />
+				<Characters filterCharacters={filterCharacters} array={teamMembers} />
+				{description.length !== 0 && (
+					<section>
+						<div className='mt-2'>
+							<CharactersHeading heading='Description:' />
+						</div>
+						<div className='rounded mx-2'>
+							<h4 className='text-start'>{description}</h4>
+						</div>
+					</section>
+				)}
 			</CardComponent>
 		</Container>
 	);

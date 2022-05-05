@@ -96,24 +96,21 @@ const AddTeam = props => {
 		<Container>
 			<CardComponent title='Add Team'>
 				<ScrollToTopRouter />
-				<BackButton>
-					<Form
-						onSubmit={onSubmit}
-						name={name}
-						description={description}
-						onInputChange={onInputChange}
-						characterNames={characterNames}
-						selectValues={selectValues}
-						select={team.teamMembers}
-						formErrors={formErrors}
-					>
-						{select.length !== 0 && (
-							<CharactersHeading heading='Team Members:' />
-						)}
-						<Characters filterCharacters={filterCharacters} array={select} />
-						<SubmitButton text='Add Team' color='primary' />
-					</Form>
-				</BackButton>
+				<BackButton />
+				<Form
+					onSubmit={onSubmit}
+					name={name}
+					description={description}
+					onInputChange={onInputChange}
+					characterNames={characterNames}
+					selectValues={selectValues}
+					select={team.teamMembers}
+					formErrors={formErrors}
+				>
+					{select.length !== 0 && <CharactersHeading heading='Team Members:' />}
+					<Characters filterCharacters={filterCharacters} array={select} />
+					<SubmitButton text='Add Team' color='primary' />
+				</Form>
 			</CardComponent>
 		</Container>
 	);

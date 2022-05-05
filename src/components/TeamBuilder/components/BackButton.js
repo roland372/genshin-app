@@ -12,7 +12,7 @@ const BackButton = props => {
 			<div className='mx-2'>
 				<hr />
 			</div>
-			{props.children}
+			{/* {props.children} */}
 		</section>
 	);
 };
