@@ -15,7 +15,7 @@ const Sidebar = () => {
 		<nav className='navbar navbar-dark sticky-top bg-dark'>
 			<div className='container'>
 				<NavLink className='navbar-brand ms-2' exact to='/'>
-					GenshinApp
+					Genshin-App
 				</NavLink>
 				<Button
 					className='navbar-toggler'

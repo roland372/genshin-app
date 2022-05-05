@@ -17,11 +17,12 @@ const Weapons = () => {
 	weaponTypes.sort().unshift('all');
 
 	const allRarities = [...new Set(weapons.map(weapon => weapon.rarity))];
-	allRarities.sort().unshift('all');
+	allRarities.sort();
+	allRarities.reverse();
 
 	const [menuItems, setMenuItems] = useState(weapons);
 	const [weaponType, setWeaponType] = useState(weaponTypes);
-	const [rarityType, setRarityType] = useState(allRarities);
+	const [rarityType] = useState(allRarities);
 
 	// search
 	const [searchTerm, setSearchTerm] = useState('');

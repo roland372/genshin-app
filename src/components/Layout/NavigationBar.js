@@ -9,7 +9,7 @@ const NavigationBar = () => {
 			<Container>
 				<Navbar.Brand>
 					<Link className='navbar-brand' to='/'>
-						GenshinApp
+						Genshin-App
 					</Link>
 				</Navbar.Brand>
 				<Navbar.Collapse id='basic-navbar-nav'>
