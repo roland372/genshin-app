@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Switch, Route } from 'react-router-dom';
 
 import Characters from '../components/Characters/Characters';
 import ScrollToTopRouter from '../components/Layout/ScrollToTopRouter';
@@ -37,7 +37,7 @@ const characters = () => {
 					return (
 						<Route
 							key={component.name}
-							// exact
+							exact
 							path={`/characters/${data.url}`}
 							component={component}
 						/>

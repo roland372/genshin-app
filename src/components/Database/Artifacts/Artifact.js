@@ -6,9 +6,9 @@ const Artifact = props => {
 			<th scope='row'>{props.name}</th>
 			<td>{props.rarity}</td>
 			<td>
-				<img className='img-fluid' src={props.image} width='100px' alt='' />
+				<img className='img' src={props.image} width='50px' alt='' />
 			</td>
-			<td className='text-start' >
+			<td className='text-start'>
 				<div>
 					<b>2 Piece: </b>
 					{props.bonus1}
