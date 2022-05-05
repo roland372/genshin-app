@@ -1,15 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Characters from './Characters';
 import AddCharacter from './AddCharacter';
-import EditCharacter from './EditCharacter';
+// import EditCharacter from './EditCharacter';
 import CharacterInfo from '../components/CharacterInfo';
 
 // import levelOptions from '../utils/levelOptions';
 // import talentOptions from '../utils/talentOptions';
 import { characterLevelUp } from '../utils/materials';
 import { talentLevelUp } from '../utils/materials';
+
+import CharactersDataService from '../services/character.services';
 
 import characters from '../../../assets/data/Characters/characters.json';
 import charactersData from '../../../constants/characters';
@@ -22,6 +24,23 @@ const FarmingPlanner = () => {
 	useDocumentTitle('Farming Planner');
 
 	const { user } = useUserAuth();
+
+	const [loading, setLoading] = useState('');
+
+	//* <----- fetch characters from database ----->
+	const [charactersDatabase, setCharactersDatabase] = useState([]);
+	useEffect(() => {
+		user && getCharactersDatabase();
+	}, [user]);
+
+	const getCharactersDatabase = async () => {
+		setLoading(true);
+		const data = await CharactersDataService.getAllCharacters();
+		setCharactersDatabase(
+			data.docs.map(doc => ({ ...doc.data(), id: doc.id }))
+		);
+		setLoading(false);
+	};
 
 	//* <----- select state ----->
 	let [levelLow, setLevelLow] = useState(1);
@@ -240,6 +259,28 @@ const FarmingPlanner = () => {
 		return characterNames.push({ value: c.name, label: c.name });
 	});
 
+	console.log(characterNames);
+
+	// console.log(user.uid);
+	// console.log(charactersDatabase);
+
+	const userCharacters = charactersDatabase.filter(c => c.owner === user.uid);
+
+	console.log(userCharacters);
+
+	//* filter characters that are already in database, remove them from select
+	const filterByReference = (arr1, arr2) => {
+		let res = [];
+		res = arr1.filter(el => {
+			return !arr2.find(element => {
+				return element.name === el.value;
+			});
+		});
+		return res;
+	};
+
+	// console.log(filterByReference(characterNames, userCharacters));
+
 	return (
 		<Router>
 			<Switch>
@@ -248,6 +289,10 @@ const FarmingPlanner = () => {
 						filterCharacters={filterCharacters}
 						characters={characters.characters}
 						charactersData={charactersData}
+						getCharactersDatabase={getCharactersDatabase}
+						loading={loading}
+						setLoading={setLoading}
+						charactersDatabase={userCharacters}
 					/>
 				</Route>
 				<Route exact path='/farming-planner/characters/add'>
@@ -258,7 +303,7 @@ const FarmingPlanner = () => {
 						//* <----- characters data ----->
 						characters={characters.characters}
 						charactersData={charactersData}
-						characterNames={characterNames}
+						characterNames={filterByReference(characterNames, userCharacters)}
 						//* <----- character state ----->
 						character={character}
 						setCharacter={setCharacter}

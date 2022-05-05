@@ -208,8 +208,6 @@ const Profile = () => {
 		//* Reauthenticate user
 	};
 
-	console.log(usersDatabase.length);
-
 	return (
 		<Container>
 			{deleteFlag ? (

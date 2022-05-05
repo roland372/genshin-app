@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import { toast } from 'react-toastify';
 
 import CharacterDataService from '../services/character.services';
 
-import CharactersDataService from '../services/character.services';
+// import CharactersDataService from '../services/character.services';
 
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
@@ -23,7 +23,7 @@ const Characters = props => {
 
 	const { user } = useUserAuth();
 
-	const [loading, setLoading] = useState('');
+	// const [loading, setLoading] = useState('');
 
 	const characterDeletedNotification = () =>
 		toast.success('Character Deleted', {
@@ -36,22 +36,28 @@ const Characters = props => {
 			progress: '',
 		});
 
-	const { filterCharacters } = props;
+	const {
+		filterCharacters,
+		charactersDatabase,
+		loading,
+		getCharactersDatabase,
+	} = props;
 
-	const [charactersDatabase, setCharactersDatabase] = useState([]);
+	// const [charactersDatabase, setCharactersDatabase] = useState([]);
 
 	useEffect(() => {
 		user && getCharactersDatabase();
+		// eslint-disable-next-line
 	}, [user]);
 
-	const getCharactersDatabase = async () => {
-		setLoading(true);
-		const data = await CharactersDataService.getAllCharacters();
-		setCharactersDatabase(
-			data.docs.map(doc => ({ ...doc.data(), id: doc.id }))
-		);
-		setLoading(false);
-	};
+	// const getCharactersDatabase = async () => {
+	// 	setLoading(true);
+	// 	const data = await CharactersDataService.getAllCharacters();
+	// 	setCharactersDatabase(
+	// 		data.docs.map(doc => ({ ...doc.data(), id: doc.id }))
+	// 	);
+	// 	setLoading(false);
+	// };
 
 	//* filter array based on character names
 	let namesArray = [];
@@ -74,11 +80,15 @@ const Characters = props => {
 	// characters && console.log(filterCharacters(namesArray));
 	// characters && console.log(characters);
 
+	// console.log(namesArray);
+
 	//* merge arrays, one filtered by names that has select values, and second containing images and other properties
 	const mergedCharacters = filterCharacters(namesArray).map(item => {
 		const obj = charactersDatabase.find(o => o.name === item.name);
 		return { ...item, ...obj };
 	});
+
+	// console.log(mergedCharacters);
 
 	//? <----- Sort characters - display newest first ----->
 	const sortedCharacters =
