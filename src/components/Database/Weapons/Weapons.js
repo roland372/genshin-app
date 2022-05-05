@@ -16,6 +16,10 @@ const Weapons = () => {
 	const weaponTypes = [...new Set(weapons.map(weapon => weapon.type))];
 	weaponTypes.sort().unshift('all');
 
+	// console.log(weapons);
+
+	// const rarity
+
 	const [menuItems, setMenuItems] = useState(weapons);
 	const [weaponType, setWeaponType] = useState(weaponTypes);
 
