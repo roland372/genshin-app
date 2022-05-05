@@ -23,11 +23,11 @@ const { characters } = data;
 // ];
 
 const allElements = [...new Set(characters.map(elements => elements.element))];
-allElements.sort().unshift('all');
+allElements.sort().unshift('All');
 
 // wepons filtering
 const allWeapons = [...new Set(characters.map(weapons => weapons.weapon))];
-allWeapons.sort().unshift('all');
+allWeapons.sort();
 
 const Characters = () => {
 	useDocumentTitle('Characters');
@@ -68,7 +68,7 @@ const Characters = () => {
 	};
 
 	const filterElements = element => {
-		if (element === 'all') {
+		if (element === 'All') {
 			setMenuItems(characters);
 			setElements(elements);
 			return;
@@ -81,7 +81,7 @@ const Characters = () => {
 	};
 
 	const filterWeapons = weapon => {
-		if (weapon === 'all') {
+		if (weapon === 'All') {
 			setMenuItems(characters);
 			setWeapons(weapons);
 			return;
