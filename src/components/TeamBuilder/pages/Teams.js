@@ -101,13 +101,13 @@ const Teams = props => {
 											/>
 											<div className='d-flex justify-content-start align-items-center ms-2 mt-2'>
 												<Link
-													className='btn btn-outline-primary mr-2'
+													className='btn btn-outline-primary me-2'
 													to={`/team-builder/teams/${team.id}`}
 												>
 													View
 												</Link>
 												<Link
-													className='btn btn-outline-warning mr-2'
+													className='btn btn-outline-warning me-2'
 													to={`/team-builder/teams/edit/${team.id}`}
 												>
 													Edit

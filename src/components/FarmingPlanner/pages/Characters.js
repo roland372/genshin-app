@@ -221,13 +221,13 @@ const Characters = props => {
 											</section>
 											<div className='d-flex justify-content-center align-items-center ms-2 mt-2'>
 												<Link
-													className='btn btn-outline-primary mr-2'
+													className='btn btn-outline-primary me-2'
 													to={`/farming-planner/characters/${character.id}`}
 												>
 													View
 												</Link>
 												{/* <Link
-													className='btn btn-outline-warning mr-2'
+													className='btn btn-outline-warning me-2'
 													to={`/farming-planner/characters/edit/${character.id}`}
 												>
 													Edit
