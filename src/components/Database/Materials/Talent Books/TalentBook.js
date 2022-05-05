@@ -17,7 +17,7 @@ const TalentBook = props => {
 				</OverlayTrigger>
 			</td>
 			<td>
-				<h6>{props.days}</h6>
+				<h6 className='my-1'>{props.days}</h6>
 			</td>
 			<td>
 				<div>

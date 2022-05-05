@@ -16,12 +16,12 @@ const Weapons = () => {
 	const weaponTypes = [...new Set(weapons.map(weapon => weapon.type))];
 	weaponTypes.sort().unshift('all');
 
-	// console.log(weapons);
-
-	// const rarity
+	const allRarities = [...new Set(weapons.map(weapon => weapon.rarity))];
+	allRarities.sort().unshift('all');
 
 	const [menuItems, setMenuItems] = useState(weapons);
 	const [weaponType, setWeaponType] = useState(weaponTypes);
+	const [rarityType, setRarityType] = useState(allRarities);
 
 	// search
 	const [searchTerm, setSearchTerm] = useState('');
@@ -33,6 +33,17 @@ const Weapons = () => {
 			return;
 		}
 		const newData = weapons.filter(weapon => weapon.type === type);
+		// console.log(newData);
+		setMenuItems(newData);
+	};
+
+	const filterRarities = rarity => {
+		if (rarity === 'all') {
+			setMenuItems(weapons);
+			setWeaponType(weaponTypes);
+			return;
+		}
+		const newData = weapons.filter(weapon => weapon.rarity === rarity);
 		// console.log(newData);
 		setMenuItems(newData);
 	};
@@ -49,6 +60,25 @@ const Weapons = () => {
 									className='btn btn-sm btn-dark m-1 p-1'
 									key={index}
 									onClick={() => filterWeaponTypes(type)}
+								>
+									{/* {type} */}
+									<img
+										src={`images/Weapon icons/Weapon-class-${type}-icon.png`}
+										alt={type}
+										title={type}
+										className='img-fluid'
+										width='30px'
+									/>
+								</button>
+							);
+						})}
+						{rarityType.map((type, index) => {
+							return (
+								<button
+									type='button'
+									className='btn btn-sm btn-dark m-1 p-1'
+									key={index}
+									onClick={() => filterRarities(type)}
 								>
 									{/* {type} */}
 									<img
