@@ -10,7 +10,7 @@ const Character = props => {
 	const { characterSelect, charactersData } = props;
 
 	return (
-		<section className='d-flex flex-wrap justify-content-center align-items-center mx-2'>
+		<section className='d-flex flex-wrap justify-content-center align-items-center mx-2 mb-2'>
 			{charactersData.map(c =>
 				c.name === characterSelect ? (
 					<section key={c.name}>

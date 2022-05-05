@@ -161,8 +161,8 @@ const CharacterInfo = props => {
 						})}
 					</h5> */}
 					<Character charactersData={charactersData} characterSelect={name} />
-					<section className='border p-3'>
-						<div className='me-2'>Level {levelHigh}</div>
+					<section className='border rounded p-3'>
+						<h5 className='me-2'>Level {levelHigh}</h5>
 					</section>
 					<Materials
 						charactersData={materialsData}
@@ -190,82 +190,83 @@ const CharacterInfo = props => {
 					/>
 
 					{/* <----- Talents -----> */}
-					<section className='d-flex flex-column text-light'>
-						{/* <----- normal attack -----> */}
-						{materialsData.map(c =>
-							name === c.data.name ? (
-								<div
-									className='d-flex align-items-center justify-co
-									ntent-between border p-3'
-									key={c.data.name}
-								>
-									<div className='d-flex align-items-center'>
-										<img
-											src={c.data.skillTalents[0].image}
-											alt=''
-											className='img-fluid me-2'
-											width='40px'
-										/>
-										<div className='text-start'>
-											<div>{c.data.skillTalents[0].name}</div>
-											<div>Lv. {NAHigh}</div>
+					<section className='border rounded'>
+						<section className='d-flex flex-column text-light'>
+							{/* <----- normal attack -----> */}
+							{materialsData.map(c =>
+								name === c.data.name ? (
+									<div
+										className='d-flex align-items-center justify-content-between border rounded p-2 mx-2 mt-2'
+										key={c.data.name}
+									>
+										<div className='d-flex align-items-center'>
+											<img
+												src={c.data.skillTalents[0].image}
+												alt=''
+												className='img-fluid me-2'
+												width='40px'
+											/>
+											<div className='text-start'>
+												<div>{c.data.skillTalents[0].name}</div>
+												<div>Lv. {NAHigh}</div>
+											</div>
 										</div>
 									</div>
-								</div>
-							) : (
-								<div key={c.data.name}></div>
-							)
-						)}
+								) : (
+									<div key={c.data.name}></div>
+								)
+							)}
 
-						{/* <----- elemental skill -----> */}
-						{materialsData.map(c =>
-							name === c.data.name ? (
-								<div
-									className='d-flex align-items-center justify-content-between border p-3'
-									key={c.data.name}
-								>
-									<div className='d-flex align-items-center'>
-										<img
-											src={c.data.skillTalents[1].image}
-											alt=''
-											className='img-fluid me-2'
-											width='40px'
-										/>
-										<div className='text-start'>
-											<div>{c.data.skillTalents[1].name}</div>
-											<div>Lv. {ESHigh}</div>
+							{/* <----- elemental skill -----> */}
+							{materialsData.map(c =>
+								name === c.data.name ? (
+									<div
+										className='d-flex align-items-center justify-content-between border rounded p-2 m-2'
+										key={c.data.name}
+									>
+										<div className='d-flex align-items-center'>
+											<img
+												src={c.data.skillTalents[1].image}
+												alt=''
+												className='img-fluid me-2'
+												width='40px'
+											/>
+											<div className='text-start'>
+												<div>{c.data.skillTalents[1].name}</div>
+												<div>Lv. {ESHigh}</div>
+											</div>
 										</div>
 									</div>
-								</div>
-							) : (
-								<div key={c.data.name}></div>
-							)
-						)}
+								) : (
+									<div key={c.data.name}></div>
+								)
+							)}
 
-						{/* <----- elemental burst -----> */}
-						{materialsData.map(c =>
-							name === c.data.name ? (
-								<div
-									className='d-flex align-items-center justify-content-between border p-3'
-									key={c.data.name}
-								>
-									<div className='d-flex align-items-center me-3'>
-										<img
-											src={c.data.skillTalents[2].image}
-											alt=''
-											className='img-fluid me-2'
-											width='40px'
-										/>
-										<div className='text-start'>
-											<div>{c.data.skillTalents[2].name}</div>
-											<div>Lv. {EBHigh}</div>
+							{/* <----- elemental burst -----> */}
+							{materialsData.map(c =>
+								name === c.data.name ? (
+									<div
+										className='d-flex align-items-center justify-content-between border rounded p-2 mx-2 mb-2'
+										key={c.data.name}
+									>
+										<div className='d-flex align-items-center me-3'>
+											<img
+												src={c.data.skillTalents[2].image}
+												alt=''
+												className='img-fluid me-2'
+												width='40px'
+											/>
+											<div className='text-start'>
+												<div>{c.data.skillTalents[2].name}</div>
+												<div>Lv. {EBHigh}</div>
+											</div>
 										</div>
 									</div>
-								</div>
-							) : (
-								<div key={c.data.name}></div>
-							)
-						)}
+								) : (
+									<div key={c.data.name}></div>
+								)
+							)}
+						</section>
 					</section>
 				</BackButton>
 			</CardComponent>

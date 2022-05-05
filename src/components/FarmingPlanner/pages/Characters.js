@@ -214,12 +214,12 @@ const Characters = props => {
 												>
 													View
 												</Link>
-												<Link
+												{/* <Link
 													className='btn btn-outline-warning mr-2'
 													to={`/farming-planner/characters/edit/${character.id}`}
 												>
 													Edit
-												</Link>
+												</Link> */}
 												<button
 													className='btn btn-outline-danger'
 													onClick={() => deleteCharacter(character.id)}

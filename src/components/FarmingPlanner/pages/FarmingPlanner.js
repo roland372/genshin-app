@@ -328,7 +328,7 @@ const FarmingPlanner = () => {
 						setTalentLevelUp={setTalentLevelUp}
 					/>
 				</Route>
-				<Route exact path='/farming-planner/characters/edit/:id'>
+				{/* <Route exact path='/farming-planner/characters/edit/:id'>
 					<EditCharacter
 						filterCharacters={filterCharacters}
 						//* <----- authenicated user uid ----->
@@ -405,7 +405,7 @@ const FarmingPlanner = () => {
 						setCharacterLevelUp={setCharacterLevelUp}
 						setTalentLevelUp={setTalentLevelUp}
 					/>
-				</Route>
+				</Route> */}
 				<Route exact path='/farming-planner/characters/:id'>
 					<CharacterInfo
 						characters={characters.characters}
