@@ -7,7 +7,7 @@ const EventsVersion = props => {
 
 	return (
 		<section ref={reference}>
-			<h5 className='text-start ms-3 mt-3'>Version {version}</h5>
+			<h5 className='text-start ms-3 mt-4'>Version {version}</h5>
 			<EventHeading>
 				{eventsData.pastEvents[`version ${version}`].map((e, index) => {
 					return (
