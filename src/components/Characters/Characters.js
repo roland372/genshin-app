@@ -17,16 +17,17 @@ import useDocumentTitle from '../../hooks/useDocumentTitle';
 const { characters } = data;
 
 // elements filtering
-const allElements = [
-	'all',
-	...new Set(characters.map(elements => elements.element)),
-];
+// const allElements = [
+// 	'all',
+// 	...new Set(characters.map(elements => elements.element)),
+// ];
+
+const allElements = [...new Set(characters.map(elements => elements.element))];
+allElements.sort().unshift('all');
 
 // wepons filtering
-const allWeapons = [
-	'all',
-	...new Set(characters.map(weapons => weapons.weapon)),
-];
+const allWeapons = [...new Set(characters.map(weapons => weapons.weapon))];
+allWeapons.sort().unshift('all');
 
 const Characters = () => {
 	useDocumentTitle('Characters');

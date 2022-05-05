@@ -259,14 +259,10 @@ const FarmingPlanner = () => {
 		return characterNames.push({ value: c.name, label: c.name });
 	});
 
-	console.log(characterNames);
-
 	// console.log(user.uid);
 	// console.log(charactersDatabase);
 
 	const userCharacters = charactersDatabase.filter(c => c.owner === user.uid);
-
-	console.log(userCharacters);
 
 	//* filter characters that are already in database, remove them from select
 	const filterByReference = (arr1, arr2) => {
