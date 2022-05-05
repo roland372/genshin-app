@@ -13,7 +13,8 @@ const { weapons } = data;
 const Weapons = () => {
 	useDocumentTitle('Weapons');
 
-	const weaponTypes = ['all', ...new Set(weapons.map(weapon => weapon.type))];
+	const weaponTypes = [...new Set(weapons.map(weapon => weapon.type))];
+	weaponTypes.sort().unshift('all');
 
 	const [menuItems, setMenuItems] = useState(weapons);
 	const [weaponType, setWeaponType] = useState(weaponTypes);
