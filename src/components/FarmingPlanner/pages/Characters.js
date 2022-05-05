@@ -209,11 +209,13 @@ const Characters = props => {
 													}
 												>
 													<div>
-														<img
-															src={image}
-															alt={name}
-															className={`img-fluid img-thumbnail ${rarityColor}`}
-														/>
+														<Link to={`/characters/${character.url}`}>
+															<img
+																src={image}
+																alt={name}
+																className={`img-fluid img-thumbnail ${rarityColor}`}
+															/>
+														</Link>
 													</div>
 												</OverlayTrigger>
 											</section>

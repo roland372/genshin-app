@@ -71,6 +71,7 @@ function App() {
 							<Route exact path='/characters' component={characters} />
 							<Route path='/charts' component={charts} />
 							<Route path='/changelog' component={changelog} />
+							<Route path='/characters' component={characters} />
 							<Route path='/characters/:id' component={characters} />
 							{/* <Route path='/database' component={database} /> */}
 							<Route path='/events' component={events} />
