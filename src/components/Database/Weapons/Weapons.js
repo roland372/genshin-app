@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import { AiFillStar } from 'react-icons/ai';
+
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
 
@@ -7,6 +9,7 @@ import Weapon from './Weapon';
 import data from '../../../assets/data/Weapons/weapons.json';
 
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 const { weapons } = data;
 
@@ -14,7 +17,7 @@ const Weapons = () => {
 	useDocumentTitle('Weapons');
 
 	const weaponTypes = [...new Set(weapons.map(weapon => weapon.type))];
-	weaponTypes.sort().unshift('all');
+	weaponTypes.sort().unshift('All');
 
 	const allRarities = [...new Set(weapons.map(weapon => weapon.rarity))];
 	allRarities.sort();
@@ -28,7 +31,7 @@ const Weapons = () => {
 	const [searchTerm, setSearchTerm] = useState('');
 
 	const filterWeaponTypes = type => {
-		if (type === 'all') {
+		if (type === 'All') {
 			setMenuItems(weapons);
 			setWeaponType(weaponTypes);
 			return;
@@ -39,7 +42,7 @@ const Weapons = () => {
 	};
 
 	const filterRarities = rarity => {
-		if (rarity === 'all') {
+		if (rarity === 'All') {
 			setMenuItems(weapons);
 			setWeaponType(weaponTypes);
 			return;
@@ -52,7 +55,8 @@ const Weapons = () => {
 	return (
 		<Container>
 			<CardComponent title='Weapons'>
-				<div className='d-md-flex justify-content-between align-middle mx-2'>
+				<div className='d-xl-flex justify-content-lg-between align-middle mx-2'>
+					{/* //* <----- Weapon filtering -----> */}
 					<section className=''>
 						{weaponType.map((type, index) => {
 							return (
@@ -62,18 +66,35 @@ const Weapons = () => {
 									key={index}
 									onClick={() => filterWeaponTypes(type)}
 								>
-									{/* {type} */}
-									<img
-										src={`images/Weapon icons/Weapon-class-${type}-icon.png`}
-										alt={type}
-										title={type}
-										className='img-fluid'
-										width='30px'
-									/>
+									<OverlayTrigger
+										placement='top'
+										overlay={
+											<Tooltip>
+												<div className='text-capitalize'>{type}</div>
+											</Tooltip>
+										}
+									>
+										<img
+											src={`images/Weapon icons/Weapon-class-${type}-icon.png`}
+											alt={type}
+											className='img-fluid'
+											width='30px'
+										/>
+									</OverlayTrigger>
 								</button>
 							);
 						})}
+					</section>
+					<section>
 						{rarityType.map((type, index) => {
+							let rarityColor = '';
+							if (type === 5) {
+								rarityColor = 'rarity5bg';
+							} else if (type === 4) {
+								rarityColor = 'rarity4bg';
+							} else if (type === 3) {
+								rarityColor = 'rarity3bg';
+							}
 							return (
 								<button
 									type='button'
@@ -81,14 +102,14 @@ const Weapons = () => {
 									key={index}
 									onClick={() => filterRarities(type)}
 								>
-									{/* {type} */}
-									<img
-										src={`images/Weapon icons/Weapon-class-${type}-icon.png`}
-										alt={type}
-										title={type}
-										className='img-fluid'
-										width='30px'
-									/>
+									<OverlayTrigger
+										placement='top'
+										overlay={<Tooltip>{type}</Tooltip>}
+									>
+										<div className={rarityColor}>
+											<AiFillStar className={rarityColor} size={30} />
+										</div>
+									</OverlayTrigger>
 								</button>
 							);
 						})}

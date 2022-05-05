@@ -25,7 +25,7 @@ const Artifacts = () => {
 						placeholder='Search for artifact'
 						onChange={event => {
 							setSearchTerm(event.target.value);
-							console.log(event.target.value);
+							// console.log(event.target.value);
 						}}
 					/>
 				</section>
