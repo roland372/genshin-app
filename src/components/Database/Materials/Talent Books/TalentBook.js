@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const TalentBook = props => {
 	return (
-		<tr>
-			<td>
+		<tr className='text-light'>
+			<td className='ps-4'>
 				<OverlayTrigger
 					placement='top'
 					overlay={<Tooltip>{props.talentBook}</Tooltip>}
@@ -20,7 +20,7 @@ const TalentBook = props => {
 			<td>
 				<h6 className='my-1'>{props.days}</h6>
 			</td>
-			<td>
+			<td className='pe-4'>
 				<div className='d-flex justify-content-center'>
 					{props.charactersData.characters.map(character =>
 						character.talentBook === props.talentBook ? (

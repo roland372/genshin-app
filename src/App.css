@@ -1,5 +1,31 @@
 /**<----- Global ----->*/
 
+/** Main colors */
+.dark-blue {
+	background-color: #12232e;
+}
+
+.dark-blue-shadow {
+	background-color: #203647;
+}
+
+.dark-blue-medium {
+	background-color: #284155;
+}
+
+.medium-blue {
+	background-color: #023e8a;
+}
+
+.light-blue {
+	background-color: #4da8da;
+}
+
+/** Table striped color */
+#table-striped.table-striped > tbody > tr:nth-of-type(odd) {
+	background-color: #1d3a50;
+}
+
 /** new line from JSON  */
 .new-line {
 	white-space: pre-line;

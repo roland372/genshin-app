@@ -5,8 +5,8 @@ const WeaponMaterial = props => {
 	const materialNames = props.ascensionMaterial.replaceAll(' ', '_');
 
 	return (
-		<tr>
-			<td>
+		<tr className='text-light '>
+			<td className='ps-4'>
 				<OverlayTrigger
 					placement='top'
 					overlay={<Tooltip>{props.ascensionMaterial}</Tooltip>}
@@ -21,7 +21,7 @@ const WeaponMaterial = props => {
 			<td>
 				<h6>{props.days}</h6>
 			</td>
-			<td>
+			<td className='pe-4'>
 				<div>
 					{props.weaponsData.weapons.map(weapon =>
 						weapon.ascensionMaterial1.slice(49, -4).replaceAll('_', ' ') ===
