@@ -3,10 +3,10 @@ import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 const BossMaterial = props => {
 	const { bossMaterial, bossName, characters } = props;
-	
+
 	return (
-		<tr>
-			<td>
+		<tr className='text-light'>
+			<td className='ps-4'>
 				<OverlayTrigger
 					placement='top'
 					overlay={<Tooltip>{bossMaterial}</Tooltip>}
@@ -23,7 +23,7 @@ const BossMaterial = props => {
 			<td>
 				<h6>{bossName}</h6>
 			</td>
-			<td>
+			<td className='pe-4'>
 				<div>
 					{characters.map(character =>
 						character.data.talentMaterials[8].bossMaterialImage
