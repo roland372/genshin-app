@@ -6,8 +6,8 @@ import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 const SingleCharacter = props => {
 	return (
-		<tr>
-			<td>{props.index}</td>
+		<tr className='text-light'>
+			<td className='px-2'>{props.index}</td>
 			<td>
 				<img src={props.icon} width='80px' alt='' />
 			</td>
