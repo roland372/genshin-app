@@ -5,14 +5,15 @@ import TalentMaterial from './TalentMaterial';
 const TalentMaterials = props => {
 	return (
 		<CardComponent title='Talent Leveling Materials'>
-			<div className='mx-2 table-responsive'>
-				<section>
+			<div className='table-responsive mx-2 rounded'>
+				<section className='rounded'>
 					<table
-						className='table table-sm table-dark table-striped table-hover align-middle text-center table-bordered'
+						id='table-striped'
+						className='table table-sm dark-blue-medium text-light table-striped align-middle table-borderless'
 						style={{ minWidth: '700px' }}
 					>
-						<thead>
-							<tr className='align-middle'>
+						<thead className='dark-blue'>
+							<tr className='align-middle text-light'>
 								<th style={{ minWidth: '70px' }} scope='col'>
 									Level
 								</th>

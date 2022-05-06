@@ -5,15 +5,18 @@ import Ascension from './Ascension';
 const Ascensions = props => {
 	return (
 		<CardComponent title='Ascensions'>
-			<div className='mx-2 table-responsive'>
+			<div className='table-responsive mx-2 rounded'>
 				<section>
 					<table
-						className='table table-sm table-dark table-striped table-hover align-middle text-center table-bordered'
+						id='table-striped'
+						className='table table-sm dark-blue-medium text-light table-striped align-middle table-borderless'
 						style={{ minWidth: '900px' }}
 					>
-						<thead>
-							<tr className='align-middle'>
-								<th scope='col'>Ascension Phase</th>
+						<thead className='dark-blue'>
+							<tr className='align-middle text-light'>
+								<th className='px-3' scope='col'>
+									Ascension Phase
+								</th>
 								<th scope='col'>Level</th>
 								<th scope='col'>Ascension Material</th>
 								<th scope='col'>Boss Material</th>

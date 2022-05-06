@@ -4,12 +4,17 @@ import CardComponent from '../Layout/CardComponent';
 const Constellations = props => {
 	return (
 		<CardComponent title='Constellations'>
-			<div className='mx-3 table-responsive'>
+			<div className='table-responsive mx-2 rounded'>
 				<section>
-					<table className='table table-dark table-sm align-middle'>
-						<thead>
+					<table
+						id='table-striped'
+						className='table table-sm dark-blue-medium text-light table-striped align-middle table-borderless'
+					>
+						<thead className='dark-blue text-center'>
 							<tr>
-								<th scope='col'>Level</th>
+								<th className='px-3' scope='col'>
+									Level
+								</th>
 								<th scope='col'>Icon</th>
 								<th scope='col'>Name</th>
 								<th scope='col'>Effect</th>

@@ -2,12 +2,13 @@ import React from 'react';
 
 const CharacterInfo = props => {
 	return (
-		<div className='table-responsive mx-3'>
+		<div className='table-responsive mx-2 rounded'>
 			<table
-				className='table table-dark table-sm align-middle'
+				id='table-striped'
+				className='table table-sm dark-blue-medium text-light align-middle table-borderless'
 				style={{ minWidth: '600px' }}
 			>
-				<tbody>
+				<tbody className='dark-blue text-light'>
 					<tr>
 						<td rowSpan='15'>
 							<img src={props.avatar} width='200px' className='me-2' alt='' />

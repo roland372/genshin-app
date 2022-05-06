@@ -2,8 +2,8 @@ import React from 'react';
 
 const Constellation = props => {
 	return (
-		<tr>
-			<td>{props.level}</td>
+		<tr className='text-light'>
+			<td className='px-3'>{props.level}</td>
 			<td>
 				<img src={props.image} width='50px' alt='' />
 			</td>

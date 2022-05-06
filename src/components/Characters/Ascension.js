@@ -2,8 +2,10 @@ import React from 'react';
 
 const Ascension = props => {
 	return (
-		<tr>
-			<th scope='row'>{props.ascensionPhase}</th>
+		<tr className='text-light'>
+			<th className='px-3' scope='row'>
+				{props.ascensionPhase}
+			</th>
 			<td>{props.level}</td>
 			<td className='text-start'>
 				<div className='d-flex justify-content-between align-items-center'>
