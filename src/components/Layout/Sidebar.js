@@ -12,15 +12,15 @@ const Sidebar = () => {
 	const handleShow = () => setShow(true);
 
 	return (
-		<nav className='navbar navbar-dark sticky-top bg-dark'>
-			<div className='container'>
+		<nav className='navbar navbar-dark sticky-top medium-blue'>
+			<div className='container medium-blue'>
 				<NavLink className='navbar-brand' exact to='/'>
 					<img src='images/Elements/Element_Cryo.png' width='30px' alt='' />{' '}
 					Genshin-App
 				</NavLink>
 				<Button
-					className='navbar-toggler'
-					variant='dark'
+					className='navbar-toggler dark-blue'
+					variant=''
 					type='button'
 					onClick={handleShow}
 				>
@@ -30,10 +30,10 @@ const Sidebar = () => {
 					show={show}
 					onHide={handleClose}
 					placement='end'
-					className='bg-secondary'
+					className='dark-blue-shadow'
 					scroll='true'
 				>
-					<Offcanvas.Header className='bg-primary'>
+					<Offcanvas.Header className='dark-blue'>
 						<NavLink
 							exact
 							to='/'
@@ -54,7 +54,7 @@ const Sidebar = () => {
 								const { id, url, text } = link;
 								return (
 									<li
-										className='list-group-item bg-dark'
+										className='list-group-item dark-blue-medium'
 										key={id}
 										onClick={handleClose}
 									>
