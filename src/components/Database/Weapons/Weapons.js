@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { AiFillStar } from 'react-icons/ai';
+import { AiOutlineStar } from 'react-icons/ai';
 
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
@@ -62,7 +62,7 @@ const Weapons = () => {
 							return (
 								<button
 									type='button'
-									className='btn btn-sm dark-blue m-1 p-1'
+									className='btn btn-sm m-1 p-1'
 									key={index}
 									onClick={() => filterWeaponTypes(type)}
 								>
@@ -98,7 +98,7 @@ const Weapons = () => {
 							return (
 								<button
 									type='button'
-									className='btn btn-sm dark-blue m-1 p-1'
+									className='btn btn-sm m-1 p-1'
 									key={index}
 									onClick={() => filterRarities(type)}
 								>
@@ -107,7 +107,7 @@ const Weapons = () => {
 										overlay={<Tooltip>{type}</Tooltip>}
 									>
 										<div className={rarityColor}>
-											<AiFillStar className={rarityColor} size={30} />
+											<AiOutlineStar className={rarityColor} size={30} />
 										</div>
 									</OverlayTrigger>
 								</button>
@@ -117,7 +117,7 @@ const Weapons = () => {
 					<section>
 						<input
 							type='text'
-							className='form-control'
+							className='form-control dark-blue'
 							placeholder='Search for a weapon'
 							onChange={event => {
 								setSearchTerm(event.target.value);

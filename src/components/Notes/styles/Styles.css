@@ -8,7 +8,7 @@
 	overflow-wrap: break-word;
 	display: flex;
 	/* background-color: #212529; */
-	background-color: #343a40;
+	/* background-color: #343a40; */
 	color: white;
 }
 
@@ -93,7 +93,7 @@
 }
 .app-sidebar-note.active,
 .app-sidebar-note.active small {
-	background: #08c;
+	background: #023e8a;
 	color: white;
 }
 

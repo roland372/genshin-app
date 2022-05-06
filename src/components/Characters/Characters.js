@@ -94,13 +94,17 @@ const Characters = () => {
 	return (
 		<Container>
 			<CardComponent title='Playable Characters'>
-				<div className='d-xl-flex justify-content-lg-between align-middle'>
-					<section className='ps-2'>
+				<div className='d-xl-flex align-items-center justify-content-lg-between align-middle'>
+					<section className='ms-2'>
 						<button
 							className='btn btn-warning'
 							onClick={() => setCharactersDisplay(!charactersDisplay)}
 						>
-							{charactersDisplay ? <IoGrid /> : <FaThList />}
+							{charactersDisplay ? (
+								<IoGrid size={20} />
+							) : (
+								<FaThList size={20} />
+							)}
 						</button>
 					</section>
 					{/* elements filtering */}
@@ -109,7 +113,7 @@ const Characters = () => {
 							return (
 								<button
 									type='button'
-									className='btn btn-sm dark-blue m-1 p-1'
+									className='btn btn-sm m-1 p-1'
 									key={index + element}
 									onClick={() => filterElements(element)}
 								>
@@ -121,7 +125,7 @@ const Characters = () => {
 											src={`images/Elements/Element_${element}.png`}
 											alt={element}
 											className='img-fluid'
-											width='30px'
+											width='40px'
 										/>
 									</OverlayTrigger>
 
@@ -136,7 +140,7 @@ const Characters = () => {
 							return (
 								<button
 									type='button'
-									className='btn btn-sm dark-blue m-1 p-1'
+									className='btn btn-sm m-1 p-1'
 									key={weapon}
 									onClick={() => filterWeapons(weapon)}
 								>
@@ -148,7 +152,7 @@ const Characters = () => {
 											src={`images/Weapon icons/Weapon-class-${weapon}-icon.png`}
 											alt={weapon}
 											className='img-fluid'
-											width='30px'
+											width='40px'
 										/>
 									</OverlayTrigger>
 
