@@ -21,7 +21,7 @@ const TalentBook = props => {
 				<h6 className='my-1'>{props.days}</h6>
 			</td>
 			<td>
-				<div>
+				<div className='d-flex justify-content-center'>
 					{props.charactersData.characters.map(character =>
 						character.talentBook === props.talentBook ? (
 							<OverlayTrigger
@@ -29,16 +29,18 @@ const TalentBook = props => {
 								placement='top'
 								overlay={<Tooltip>{character.name}</Tooltip>}
 							>
-								<Link to={`characters/${character.url}`}>
-									<img
-										// key={character.name}
-										className='img-fluid'
-										src={character.image}
-										width='60px'
-										alt={character.name}
-										// title={character.name}
-									/>
-								</Link>
+								<div>
+									<Link to={`characters/${character.url}`}>
+										<img
+											// key={character.name}
+											className='img'
+											src={character.image}
+											width='60px'
+											alt={character.name}
+											// title={character.name}
+										/>
+									</Link>
+								</div>
 							</OverlayTrigger>
 						) : null
 					)}
