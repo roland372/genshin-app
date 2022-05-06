@@ -17,10 +17,10 @@ const Homepage = props => {
 	return (
 		<Container>
 			<GeneralInfo />
-			<CurrentBanners bannersData={props.bannersData} />
-			<CurrentEvents eventsData={props.eventsData} />
 			<CharacterDomains />
 			<WeaponDomains />
+			<CurrentBanners bannersData={props.bannersData} />
+			<CurrentEvents eventsData={props.eventsData} />
 			<Links />
 		</Container>
 	);
