@@ -9,6 +9,7 @@ const NavigationBar = () => {
 			<Container>
 				<Navbar.Brand>
 					<Link className='navbar-brand' to='/'>
+						<img src='images/Elements/Element_Cryo.png' width='30px' alt='' />{' '}
 						Genshin-App
 					</Link>
 				</Navbar.Brand>

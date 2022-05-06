@@ -14,7 +14,8 @@ const Sidebar = () => {
 	return (
 		<nav className='navbar navbar-dark sticky-top bg-dark'>
 			<div className='container'>
-				<NavLink className='navbar-brand ms-2' exact to='/'>
+				<NavLink className='navbar-brand' exact to='/'>
+					<img src='images/Elements/Element_Cryo.png' width='30px' alt='' />{' '}
 					Genshin-App
 				</NavLink>
 				<Button
