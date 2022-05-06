@@ -23,7 +23,7 @@ const About = () => {
 					</h5>
 					<p>Here's full list of features that you can find on a website:</p>
 					<ul className='list-group text-light'>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							Current and past{' '}
 							<Link className='link-primary text-decoration-none' to='/events'>
 								events
@@ -33,14 +33,14 @@ const About = () => {
 								banners
 							</Link>{' '}
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							Shortcuts for most useful{' '}
 							<Link className='link-primary text-decoration-none' to='/'>
 								links
 							</Link>{' '}
 							for official media
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							View all{' '}
 							<Link
 								className='link-primary text-decoration-none'
@@ -51,13 +51,13 @@ const About = () => {
 							information, their talents, constellations, required materials,
 							etc.
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<Link className='link-primary text-decoration-none' to='/weapons'>
 								Weapons
 							</Link>{' '}
 							where you can view all available weapons and their stats
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<Link
 								className='link-primary text-decoration-none'
 								to='/materials'
@@ -67,7 +67,7 @@ const About = () => {
 							section where you can see characters and weapons with their
 							corresponding talents or materials
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							See all available{' '}
 							<Link
 								className='link-primary text-decoration-none'
@@ -77,7 +77,7 @@ const About = () => {
 							</Link>{' '}
 							with descriptions
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<Link
 								className='link-primary text-decoration-none'
 								to='/farming-planner'
@@ -88,7 +88,7 @@ const About = () => {
 							your character, how much it will cost you and how much time it's
 							going to take
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<Link
 								className='link-primary text-decoration-none'
 								to='/team-builder'
@@ -98,7 +98,7 @@ const About = () => {
 							- since there are only 4 slots in game for teams, I decided to add
 							an option where you can create and, edit and view your own teams
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<Link
 								className='link-primary text-decoration-none'
 								to='/image-gallery'
@@ -107,13 +107,13 @@ const About = () => {
 							</Link>{' '}
 							to check out characters images
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<Link className='link-primary text-decoration-none' to='/notes'>
 								Notes
 							</Link>{' '}
 							to write and format notes with a support of markdown
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<Link className='link-primary text-decoration-none' to='/charts'>
 								Charts
 							</Link>{' '}
@@ -121,7 +121,7 @@ const About = () => {
 							characters use specific element, weapon, their rarities, genders,
 							nations, etc.
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<Link className='link-primary text-decoration-none' to='/profile'>
 								Profile
 							</Link>{' '}
@@ -136,43 +136,43 @@ const About = () => {
 						Languages and technologies used in this project:
 					</h5>
 					<ul className='list-group text-light'>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<b>ReactJS</b> as main frontend framework
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<b>React Router</b> for routing
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<b>Context API</b> to access user's auth throught the whole app
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<b>Firestore Firebase</b> as database
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<b>Axios</b> for fetching data
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<b>ChartJS</b> for charts
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<b>Framer Motion</b> used in image gallery
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<b>React Select</b> to have easier way of handling select inputs
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<b>React-Toastify</b> for pop-up notifications
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<b>React-Spinners</b> for loading spinners
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<b>Bootstrap v5.0</b> and <b>React-Bootstrap</b> for styling
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<b>CSS</b> for some custom styles
 						</li>
-						<li className='list-group-item list-group-item-dark'>
+						<li className='list-group-item dark-blue text-light'>
 							<b>React-markdown</b> to render markdown
 						</li>
 					</ul>
