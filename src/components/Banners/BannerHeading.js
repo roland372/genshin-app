@@ -2,12 +2,13 @@ import React from 'react';
 
 const BannerHeading = props => {
 	return (
-		<div className='table-responsive mx-3'>
+		<div className='table-responsive mx-2 rounded'>
 			<table
-				className='table table-dark table-striped table-sm table-hover align-middle'
+				id='table-striped'
+				className='table table-sm dark-blue-medium text-light table-striped align-middle table-borderless'
 				style={{ minWidth: '400px' }}
 			>
-				<thead>
+				<thead className='dark-blue'>
 					<tr>
 						<th scope='col'>Image</th>
 						<th scope='col'>Name</th>
