@@ -2,7 +2,7 @@ import React from 'react';
 
 const EventItem = props => {
 	return (
-		<tr>
+		<tr className='text-light'>
 			<td
 				style={{
 					width: '400px',
