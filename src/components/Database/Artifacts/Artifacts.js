@@ -18,7 +18,7 @@ const Artifacts = () => {
 	return (
 		<Container>
 			<CardComponent title='Artifacts'>
-				<section className='mx-2'>
+				<section className='m-2'>
 					<input
 						type='text'
 						className='form-control'
@@ -29,12 +29,13 @@ const Artifacts = () => {
 						}}
 					/>
 				</section>
-				<div className='table-responsive mx-2'>
+				<div className='table-responsive mx-2 rounded'>
 					<table
-						className='table table-sm table-striped table-hover table-dark align-middle'
+						id='table-striped'
+						className='table table-sm dark-blue-medium text-light table-striped align-middle table-borderless'
 						style={{ minWidth: '400px' }}
 					>
-						<thead>
+						<thead className='dark-blue'>
 							<tr>
 								<th scope='col'>Name</th>
 								<th scope='col'>Rarity</th>
