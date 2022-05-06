@@ -12,7 +12,7 @@ const About = () => {
 	return (
 		<Container>
 			<CardComponent title='About'>
-				<section className='mx-2 text-start'>
+				<section className='mx-2 pt-2 text-start'>
 					<h5>
 						Genshin-App is a fanmade website for Genshin Impact game.
 						<br />

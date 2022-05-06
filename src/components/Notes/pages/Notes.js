@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import Container from '../../../components/Layout/Container';
+import CardComponent from '../../../components/Layout/CardComponent';
 
 //? <----- Styles ----->
 import '../styles/Styles.css';
@@ -119,17 +121,21 @@ const Notes = () => {
 	};
 
 	return (
-		<div className='notes'>
-			<Sidebar
-				notes={notesDatabase.filter(owner => owner.owner === user.uid)}
-				onAddNote={onAddNote}
-				onDeleteNote={onDeleteNote}
-				activeNote={activeNote}
-				setActiveNote={setActiveNote}
-				loading={loading}
-			/>
-			<Main activeNote={getActiveNote()} onUpdateNote={onUpdateNote} />
-		</div>
+		<Container>
+			<CardComponent title='Notes'>
+				<div className='dark-blue notes mx-2'>
+					<Sidebar
+						notes={notesDatabase.filter(owner => owner.owner === user.uid)}
+						onAddNote={onAddNote}
+						onDeleteNote={onDeleteNote}
+						activeNote={activeNote}
+						setActiveNote={setActiveNote}
+						loading={loading}
+					/>
+					<Main activeNote={getActiveNote()} onUpdateNote={onUpdateNote} />
+				</div>
+			</CardComponent>
+		</Container>
 	);
 };
 

@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import Container from '../../../components/Layout/Container';
+import CardComponent from '../../../components/Layout/CardComponent';
 
 //? <----- Styles ----->
 import '../styles/Styles.css';
@@ -58,16 +60,20 @@ const NotesLocalStorage = () => {
 	};
 
 	return (
-		<div className='notes'>
-			<Sidebar
-				notes={notes}
-				onAddNote={onAddNote}
-				onDeleteNote={onDeleteNote}
-				activeNote={activeNote}
-				setActiveNote={setActiveNote}
-			/>
-			<Main activeNote={getActiveNote()} onUpdateNote={onUpdateNote} />
-		</div>
+		<Container>
+			<CardComponent title='Notes'>
+				<div className='notes mx-2'>
+					<Sidebar
+						notes={notes}
+						onAddNote={onAddNote}
+						onDeleteNote={onDeleteNote}
+						activeNote={activeNote}
+						setActiveNote={setActiveNote}
+					/>
+					<Main activeNote={getActiveNote()} onUpdateNote={onUpdateNote} />
+				</div>
+			</CardComponent>
+		</Container>
 	);
 };
 
