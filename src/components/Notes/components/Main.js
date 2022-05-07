@@ -44,8 +44,8 @@ const Main = ({ activeNote, onUpdateNote, NotesDataService }) => {
 	//* if no note is selected
 	if (!activeNote) return <div className='no-active-note'>No Active Note</div>;
 
-	const onSubmit = () => {
-		NotesDataService.updateNote(activeNote.id, activeNote);
+	const onSubmit = async () => {
+		await NotesDataService.updateNote(activeNote.id, activeNote);
 		noteUpdatedNotification();
 	};
 
