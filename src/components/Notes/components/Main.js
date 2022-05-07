@@ -62,7 +62,7 @@ const Main = ({ activeNote, onUpdateNote, NotesDataService }) => {
 			{/* <----- Note inputs -----> */}
 			<section className='app-main-note-edit'>
 				<div className='info d-flex justify-content-between'>
-					<button className='btn btn-warning mb-2' onClick={() => onSubmit()}>
+					<button className='btn btn-success mb-2' onClick={() => onSubmit()}>
 						Save
 					</button>
 					<button className='info-button' onClick={handleShow}>
@@ -90,6 +90,9 @@ const Main = ({ activeNote, onUpdateNote, NotesDataService }) => {
 				/>
 			</section>
 			{/* <----- Note preview -----> */}
+			<div className='bg-primary-light rounded p-2'>
+				<h4>Markdown Preview</h4>
+			</div>
 			<section className='app-main-note-preview bg-secondary-medium rounded'>
 				<h1 className='preview-title'>{activeNote.title}</h1>
 				<ReactMarkdown

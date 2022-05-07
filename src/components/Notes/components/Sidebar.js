@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
 
 import Loader from '../../Layout/Loader';
 
@@ -19,7 +18,7 @@ const Sidebar = ({
 			<div className='app-sidebar-header'>
 				<h1>Your Notes</h1>
 				{/* create a new note */}
-				<button className='add-button' onClick={onAddNote}>
+				<button className='btn btn-primary mt-2' onClick={onAddNote}>
 					Add
 				</button>
 			</div>
@@ -45,7 +44,7 @@ const Sidebar = ({
 									</strong>
 									{/* delete note by referencing it's id */}
 									<button
-										className='delete-button'
+										className='btn btn-danger text-color'
 										onClick={e => onDeleteNote(id)}
 									>
 										Delete
