@@ -8,12 +8,12 @@ const Ascensions = props => {
 			<div className='table-responsive mx-2 rounded'>
 				<section>
 					<table
-						id='table-striped'
-						className='table table-sm dark-blue-medium text-light table-striped align-middle table-borderless'
+						// id='table-striped'
+						className='table table-sm bg-secondary-medium text-color table-striped align-middle table-borderless'
 						style={{ minWidth: '900px' }}
 					>
-						<thead className='dark-blue'>
-							<tr className='align-middle text-light'>
+						<thead className='bg-primary-dark'>
+							<tr className='align-middle text-color'>
 								<th className='px-3' scope='col'>
 									Ascension Phase
 								</th>

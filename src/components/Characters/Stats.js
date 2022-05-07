@@ -6,12 +6,11 @@ const CharacterStats = props => {
 		<CardComponent title='Stats'>
 			<div className='table-responsive mx-2 rounded'>
 				<table
-					id='table-striped'
-					className='table table-sm dark-blue-medium text-light table-striped align-middle table-borderless'
+					className='table table-sm bg-secondary-medium text-color table-striped align-middle table-borderless'
 					style={{ minWidth: '700px' }}
 				>
-					<thead className='dark-blue'>
-						<tr className='text-light'>
+					<thead className='bg-primary-dark'>
+						<tr className='text-color'>
 							<th scope='col'>Ascension</th>
 							<th scope='col'>Level</th>
 							<th scope='col'>Base HP</th>
@@ -25,7 +24,7 @@ const CharacterStats = props => {
 					<tbody>
 						{props.data.stats.map((stat, index) => {
 							return (
-								<tr key={index} className='text-light'>
+								<tr key={index} className='text-color'>
 									<th>{stat.ASC}</th>
 									<td>{stat.LVL}</td>
 									<td>{stat.HP}</td>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const BannerItem = props => {
 	return (
-		<tr className='text-light'>
+		<tr className='text-color'>
 			<td
 				style={{
 					width: '400px',

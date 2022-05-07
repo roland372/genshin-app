@@ -13,7 +13,7 @@ const Templates = props => {
 		setEBHigh,
 	} = props;
 	return (
-		<section className='text-light'>
+		<section className='text-color'>
 			{characterSelect && (
 				<div className='border rounded'>
 					<h5 className='my-2'>Templates</h5>

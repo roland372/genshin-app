@@ -1,32 +1,67 @@
 /**<----- Global ----->*/
 
-/** Main colors */
-.dark-blue {
-	background-color: #12232e;
+/** <----- Variables -----> */
+:root {
+	--blue-500: #12232e;
+	--blue-400: #203647;
+	--blue-300: #284155;
+	--blue-200: #023e8a;
+	--blue-100: #4da8da;
 }
 
-.dark-blue-shadow {
-	background-color: #203647;
+/** <----- Main colors -----> */
+.bg-primary-dark {
+	background-color: var(--blue-500);
 }
 
-.dark-blue-medium {
-	background-color: #284155;
+.bg-primary-medium {
+	background-color: var(--blue-400);
 }
 
-.medium-blue {
-	background-color: #023e8a;
+.bg-primary-light {
+	background-color: var(--blue-200);
 }
 
-.light-blue {
-	background-color: #4da8da;
+/* .bg-secondary-dark {
+} */
+
+.bg-secondary-medium {
+	background-color: var(--blue-300);
 }
 
-/** Table striped color */
-#table-striped.table-striped > tbody > tr:nth-of-type(odd) {
-	background-color: #1d3a50;
+.bg-secondary-light {
+	background-color: var(--blue-100);
 }
 
-/** new line from JSON  */
+/** <----- Table striped color -----> */
+.table-striped.table-striped > tbody > tr:nth-of-type(odd) {
+	background-color: var(--blue-400);
+	color: white;
+}
+
+.text-color {
+	color: white;
+}
+
+.link-color-sidebar {
+	color: white;
+}
+
+.link-color {
+	color: #0dcaf0;
+	text-decoration: none;
+}
+
+.link-color:hover {
+	color: #0dcaf0;
+	text-decoration: underline;
+}
+
+/* #table-striped.table-striped > tbody > tr:nth-of-type(odd) {
+	background-color: var(--blue-400);
+} */
+
+/** <----- new line from JSON -----> */
 .new-line {
 	white-space: pre-line;
 	vertical-align: bottom;

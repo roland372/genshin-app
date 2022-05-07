@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const TalentBook = props => {
 	return (
-		<tr className='text-light'>
+		<tr className='text-color'>
 			<td className='ps-4'>
 				<OverlayTrigger
 					placement='top'

@@ -2,7 +2,7 @@ import React from 'react';
 
 const TalentMaterial = props => {
 	return (
-		<tr className='text-light'>
+		<tr className='text-color'>
 			<th scope='row'>{props.level}</th>
 			<td className='text-start'>
 				<div className='d-flex justify-content-between align-items-center'>

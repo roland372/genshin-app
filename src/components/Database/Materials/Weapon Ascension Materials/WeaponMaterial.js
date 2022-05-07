@@ -5,7 +5,7 @@ const WeaponMaterial = props => {
 	const materialNames = props.ascensionMaterial.replaceAll(' ', '_');
 
 	return (
-		<tr className='text-light '>
+		<tr className='text-color'>
 			<td className='ps-4'>
 				<OverlayTrigger
 					placement='top'

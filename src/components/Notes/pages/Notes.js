@@ -123,7 +123,7 @@ const Notes = () => {
 	return (
 		<Container>
 			<CardComponent title='Notes'>
-				<div className='dark-blue notes mx-2'>
+				<div className='bg-primary-dark rounded notes mx-2'>
 					<Sidebar
 						notes={notesDatabase.filter(owner => owner.owner === user.uid)}
 						onAddNote={onAddNote}

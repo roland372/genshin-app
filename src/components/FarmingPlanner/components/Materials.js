@@ -134,12 +134,12 @@ const Materials = props => {
 	const goldBooksDays = parseFloat(((goldTalentBooks * 20) / 180).toFixed(1));
 
 	return (
-		<section className='text-light my-2'>
+		<section className='text-color my-2'>
 			{charactersData.map(c =>
 				characterSelect === c.data.name ? (
 					<div className='border rounded' key={c.data.name}>
 						<h5 className='my-2'>Materials</h5>
-						<section className='d-flex flex-wrap justify-content-xl-around justify-content-center  border rounded m-2 p-3'>
+						<section className='d-flex flex-wrap justify-content-xl-around justify-content-center border rounded m-2 p-3'>
 							<div>
 								<OverlayTrigger
 									placement='top'

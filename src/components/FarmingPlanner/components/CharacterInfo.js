@@ -191,7 +191,7 @@ const CharacterInfo = props => {
 
 				{/* <----- Talents -----> */}
 				<section className='border rounded'>
-					<section className='d-flex flex-column text-light'>
+					<section className='d-flex flex-column text-color'>
 						{/* <----- normal attack -----> */}
 						{materialsData.map(c =>
 							name === c.data.name ? (

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Artifact = props => {
 	return (
-		<tr className='new-line align-middle text-light'>
+		<tr className='new-line align-middle text-color'>
 			<th scope='row'>{props.name}</th>
 			<td>{props.rarity}</td>
 			<td>

@@ -32,11 +32,10 @@ const CurrentEvents = props => {
 		<CardComponent title='Current Events'>
 			<div className='table-responsive mx-2 rounded'>
 				<table
-					id='table-striped'
-					className='table table-sm dark-blue-medium text-light table-striped align-middle table-borderless'
+					className='table table-sm bg-secondary-medium text-color table-striped align-middle table-borderless'
 					style={{ minWidth: '400px' }}
 				>
-					<thead className='dark-blue'>
+					<thead className='bg-primary-dark'>
 						<tr>
 							<th scope='col'>Image</th>
 							<th scope='col'>Name</th>
@@ -47,7 +46,7 @@ const CurrentEvents = props => {
 					<tbody>
 						{props.eventsData.currentEvents.map((e, index) => {
 							return (
-								<tr key={index} className='text-light'>
+								<tr key={index} className='text-color'>
 									<td
 										style={{
 											width: '400px',
@@ -61,7 +60,7 @@ const CurrentEvents = props => {
 												href={e.link}
 												target='_blank'
 												rel='noreferrer'
-												className='link-info text-decoration-none'
+												className='link-color'
 											>
 												{e.name}
 											</a>

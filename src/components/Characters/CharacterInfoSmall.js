@@ -2,9 +2,9 @@ import React from 'react';
 
 const CharacterInfo = props => {
 	return (
-		<div className=' mx-2 text-start'>
+		<div className='mx-2 text-start'>
 			<img className='img img-fluid rounded' src={props.card} alt='' />
-			<ul className='rounded list-unstyled p-2 dark-blue text-light'>
+			<ul className='rounded list-unstyled p-2 bg-primary-dark text-color'>
 				<li className='my-2 p-1'>
 					<b className='me-2'>Title:</b> {props.title}
 				</li>

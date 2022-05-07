@@ -185,10 +185,10 @@ const Characters = () => {
 					<div className='table-responsive mx-2 rounded'>
 						<table
 							id='table-striped'
-							className='table table-sm dark-blue-medium text-light table-striped align-middle table-borderless'
+							className='table table-sm bg-secondary-medium text-color table-striped align-middle table-borderless'
 							style={{ minWidth: '700px' }}
 						>
-							<thead className='dark-blue text-center'>
+							<thead className='bg-primary-dark text-center'>
 								<tr>
 									<th className='px-2' scope='col'>
 										#

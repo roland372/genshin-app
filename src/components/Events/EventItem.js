@@ -2,7 +2,7 @@ import React from 'react';
 
 const EventItem = props => {
 	return (
-		<tr className='text-light'>
+		<tr className='text-color'>
 			<td
 				style={{
 					width: '400px',
@@ -16,7 +16,7 @@ const EventItem = props => {
 						href={props.link}
 						target='_blank'
 						rel='noreferrer'
-						className='link-info text-decoration-none'
+						className='link-color'
 					>
 						{props.name}
 					</a>

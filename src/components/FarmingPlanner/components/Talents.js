@@ -28,7 +28,7 @@ const Talents = props => {
 	// console.log(characterSelect);
 
 	return (
-		<section className='d-flex flex-column text-light my-2'>
+		<section className='d-flex flex-column text-color my-2'>
 			{characterSelect && (
 				<section className='d-inline-block mb-2'>
 					<div className='border rounded'>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Ascension = props => {
 	return (
-		<tr className='text-light'>
+		<tr className='text-color'>
 			<th className='px-3' scope='row'>
 				{props.ascensionPhase}
 			</th>

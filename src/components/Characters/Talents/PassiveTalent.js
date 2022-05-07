@@ -2,7 +2,7 @@ import React from 'react';
 
 const PassiveTalent = props => {
 	return (
-		<section className='my-3 border border-primary rounded p-2 mx-2'>
+		<section className='my-3 p-2 mx-2'>
 			<div>
 				<div className='d-flex'>
 					<img

@@ -5,7 +5,7 @@ import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 
 const NavigationBar = () => {
 	return (
-		<div className='medium-blue'>
+		<div className='bg-primary-light'>
 			<Navbar bg='' expand='lg' sticky='top' variant='dark'>
 				<Container>
 					<Navbar.Brand>
@@ -25,18 +25,18 @@ const NavigationBar = () => {
 											className='nav-link'
 											activeClassName='active-navbar'
 										>
-											<span className='text-capitalize text-light'>{text}</span>
+											<span className='text-capitalize text-color'>{text}</span>
 										</NavLink>
 									</li>
 								);
 							})}
 							<div>
 								<NavDropdown
-									title={<span className='text-light '>Database</span>}
+									title={<span className='text-color'>Database</span>}
 									id='basic-nav-dropdown'
-									menuVariant='dark medium-blue'
+									menuVariant='dark bg-primary-light'
 								>
-									<div className='medium-blue'>
+									<div className='bg-primary-light'>
 										{navLinks.slice(3, 7).map(link => {
 											const { id, url, text } = link;
 											return (
@@ -46,7 +46,7 @@ const NavigationBar = () => {
 														className='nav-link'
 														activeClassName='active-navbar'
 													>
-														<span className='text-capitalize text-light'>
+														<span className='text-capitalize text-color'>
 															{text}
 														</span>
 													</NavLink>
@@ -76,7 +76,7 @@ const NavigationBar = () => {
 											className='nav-link'
 											activeClassName='active-navbar'
 										>
-											<span className='text-capitalize text-light'>{text}</span>
+											<span className='text-capitalize text-color'>{text}</span>
 										</NavLink>
 									</li>
 								);

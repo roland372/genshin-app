@@ -30,8 +30,7 @@ const CurrentBanners = props => {
 		<CardComponent title='Current Banners'>
 			<div className='table-responsive mx-2 rounded'>
 				<table
-					id='table-striped'
-					className='table table-sm dark-blue-medium text-light table-striped align-middle table-borderless'
+					className='table table-sm bg-secondary-medium text-light table-striped align-middle table-borderless'
 					style={{ minWidth: '400px' }}
 				>
 					<thead className='dark-blue'>
@@ -45,7 +44,7 @@ const CurrentBanners = props => {
 					<tbody>
 						{props.bannersData.currentBanners.map((e, index) => {
 							return (
-								<tr key={index} className='text-light'>
+								<tr key={index} className='text-color'>
 									<td
 										style={{
 											width: '400px',
@@ -59,7 +58,7 @@ const CurrentBanners = props => {
 												href={e.link}
 												target='_blank'
 												rel='noreferrer'
-												className='link-info text-decoration-none'
+												className='link-color'
 											>
 												{e.name}
 											</a>

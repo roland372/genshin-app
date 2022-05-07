@@ -4,8 +4,7 @@ const CharacterInfo = props => {
 	return (
 		<div className='table-responsive mx-2 rounded'>
 			<table
-				id='table-striped'
-				className='table table-sm dark-blue-medium text-light align-middle table-borderless'
+				className='table table-sm bg-primary-dark text-color align-middle table-borderless'
 				style={{ minWidth: '600px' }}
 			>
 				<tbody className='dark-blue text-light'>

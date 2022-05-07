@@ -8,11 +8,10 @@ const TalentMaterials = props => {
 			<div className='table-responsive mx-2 rounded'>
 				<section className='rounded'>
 					<table
-						id='table-striped'
-						className='table table-sm dark-blue-medium text-light table-striped align-middle table-borderless'
+						className='table table-sm bg-secondary-medium text-color table-striped align-middle table-borderless'
 						style={{ minWidth: '700px' }}
 					>
-						<thead className='dark-blue'>
+						<thead className='bg-primary-dark'>
 							<tr className='align-middle text-light'>
 								<th style={{ minWidth: '70px' }} scope='col'>
 									Level

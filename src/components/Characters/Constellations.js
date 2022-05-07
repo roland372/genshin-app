@@ -6,11 +6,8 @@ const Constellations = props => {
 		<CardComponent title='Constellations'>
 			<div className='table-responsive mx-2 rounded'>
 				<section>
-					<table
-						id='table-striped'
-						className='table table-sm dark-blue-medium text-light table-striped align-middle table-borderless'
-					>
-						<thead className='dark-blue text-center'>
+					<table className='table table-sm bg-secondary-medium text-color table-striped align-middle table-borderless'>
+						<thead className='bg-primary-dark text-center'>
 							<tr>
 								<th className='px-3' scope='col'>
 									Level

@@ -101,7 +101,7 @@
 .app-main {
 	width: 60%;
 	height: 100vh;
-	border-bottom: 1px solid #ddd;
+	/* border-bottom: 1px solid #ddd; */
 }
 
 .app-main-note-edit {

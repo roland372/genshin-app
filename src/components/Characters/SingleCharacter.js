@@ -6,14 +6,14 @@ import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 const SingleCharacter = props => {
 	return (
-		<tr className='text-light'>
+		<tr className='text-color'>
 			<td className='px-2'>{props.index}</td>
 			<td>
 				<img src={props.icon} width='80px' alt='' />
 			</td>
 			<td>
 				<Link
-					className='link-info text-decoration-none'
+					className='link-color'
 					to={`characters/${props.url}`}
 				>
 					{props.name}

@@ -10,11 +10,10 @@ const Table = props => {
 			) : null}
 			<div className='table-responsive mx-2 rounded'>
 				<table
-					id='table-striped'
-					className='table table-sm dark-blue-medium text-light table-striped align-middle table-borderless'
+					className='table table-sm bg-secondary-medium text-color table-striped align-middle table-borderless'
 					style={{ minWidth: '400px' }}
 				>
-					<thead className='dark-blue'>
+					<thead className='bg-primary-dark'>
 						<tr>
 							<th className='ps-4' scope='col'>
 								Materials

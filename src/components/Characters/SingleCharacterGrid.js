@@ -29,7 +29,7 @@ const SingleCharacterGrid = props => {
 			>
 				<div>
 					<Link
-						className='link-info text-decoration-none'
+						className='link-color'
 						to={`characters/${props.url}`}
 					>
 						<img

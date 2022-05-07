@@ -62,7 +62,7 @@ const NotesLocalStorage = () => {
 	return (
 		<Container>
 			<CardComponent title='Notes'>
-				<div className='notes mx-2'>
+				<div className='bg-primary-dark rounded notes mx-2'>
 					<Sidebar
 						notes={notes}
 						onAddNote={onAddNote}

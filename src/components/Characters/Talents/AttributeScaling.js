@@ -5,12 +5,9 @@ const AttributeScaling = props => {
 		<section className='mx-2 my-2'>
 			<h4>Attribute Scaling</h4>
 			<div className='table-responsive mx-2 rounded'>
-				<table
-					id='table-striped'
-					className='table table-sm dark-blue-medium text-light table-striped align-middle table-borderless'
-				>
-					<thead className='dark-blue'>
-						<tr className='text-light'>
+				<table className='table table-sm bg-secondary-medium text-light table-striped align-middle table-borderless'>
+					<thead className='bg-primary-dark'>
+						<tr className='text-color'>
 							<th scope='col'>Level</th>
 							<th scope='col'>1</th>
 							<th scope='col'>2</th>
@@ -30,7 +27,7 @@ const AttributeScaling = props => {
 					<tbody>
 						{props.data.map((skill, index) => {
 							return (
-								<tr key={index} className='text-light'>
+								<tr key={index} className='text-color'>
 									<th style={{ minWidth: '100px' }}>{skill.LVL}</th>
 									<td>{skill['1']}</td>
 									<td>{skill['2']}</td>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Talent = props => {
 	return (
-		<section className='border border-primary rounded p-2 mx-2'>
+		<section className='my-3 p-2 mx-2'>
 			<div className='d-flex'>
 				<img
 					src={props.image}

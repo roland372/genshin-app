@@ -2,7 +2,7 @@ import React from 'react';
 
 const MarkdownGuide = () => {
 	return (
-		<table className='table text-light'>
+		<table className='table table-sm text-color'>
 			<thead>
 				<tr>
 					<th>Type</th>

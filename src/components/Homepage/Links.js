@@ -15,7 +15,7 @@ const Links = () => {
 								href={url}
 								target='_blank'
 								rel='noreferrer'
-								className='link-info text-decoration-none'
+								className='link-color'
 							>
 								<span className='px-1'>{icon}</span>
 								{text}
