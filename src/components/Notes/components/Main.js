@@ -91,10 +91,10 @@ const Main = ({ activeNote, onUpdateNote, NotesDataService }) => {
 			</section>
 			{/* <----- Note preview -----> */}
 			<div className='bg-primary-light rounded p-2'>
-				<h4>Markdown Preview</h4>
+				<h4 className='pt-1'>Markdown Preview</h4>
 			</div>
 			<section className='app-main-note-preview bg-secondary-medium rounded'>
-				<h1 className='preview-title'>{activeNote.title}</h1>
+				<h1 className='preview-title text-start mb-2'>{activeNote.title}</h1>
 				<ReactMarkdown
 					children={activeNote.body}
 					remarkPlugins={[remarkGfm]}
