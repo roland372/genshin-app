@@ -33,7 +33,7 @@ const CurrentBanners = props => {
 					className='table table-sm bg-secondary-medium text-light table-striped align-middle table-borderless'
 					style={{ minWidth: '400px' }}
 				>
-					<thead className='dark-blue'>
+					<thead className='bg-primary-dark'>
 						<tr>
 							<th scope='col'>Image</th>
 							<th scope='col'>Name</th>
