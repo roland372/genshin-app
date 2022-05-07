@@ -104,7 +104,8 @@
 	margin-top: 9px;
 	width: 65%;
 	border-left: 2px solid white;
-	/* height: 100vh; */
+	/* height: 100%; */
+	height: 100vh;
 }
 
 .app-main-note-edit {
