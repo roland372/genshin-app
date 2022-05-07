@@ -5,7 +5,7 @@ import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 
 const NavigationBar = () => {
 	return (
-		<div className='bg-primary-light'>
+		<div className='bg-primary-dark'>
 			<Navbar bg='' expand='lg' sticky='top' variant='dark'>
 				<Container>
 					<Navbar.Brand>

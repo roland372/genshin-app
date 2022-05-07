@@ -12,8 +12,8 @@ const Sidebar = () => {
 	const handleShow = () => setShow(true);
 
 	return (
-		<nav className='navbar navbar-dark sticky-top bg-primary-light'>
-			<div className='container bg-primary-light'>
+		<nav className='navbar navbar-dark sticky-top bg-primary-dark'>
+			<div className='container bg-primary-dark'>
 				<NavLink className='navbar-brand' exact to='/'>
 					<img src='images/Elements/Element_Cryo.png' width='30px' alt='' />{' '}
 					Genshin-App
