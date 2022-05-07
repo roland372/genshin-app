@@ -7,13 +7,15 @@
 	--blue-300: #284155;
 	--blue-200: #023e8a;
 	--blue-100: #4da8da;
+
+	/* --test: var(--blue-500); */
 }
 
 /** <----- Main colors -----> */
 .bg-primary-dark {
 	background-color: var(--blue-500);
+	/* background-color: var(--test); */
 }
-
 
 .bg-primary-medium {
 	background-color: var(--blue-400);
