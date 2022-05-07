@@ -181,3 +181,9 @@ textarea {
 		border-left: none;
 	}
 }
+
+@media (max-height: 650px) {
+	.app-main-note-edit {
+		margin-bottom: 80px;
+	}
+}

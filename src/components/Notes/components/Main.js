@@ -49,6 +49,11 @@ const Main = ({ activeNote, onUpdateNote, NotesDataService }) => {
 		noteUpdatedNotification();
 	};
 
+	// setInterval(() => {
+	// 	NotesDataService.updateNote(activeNote.id, activeNote);
+	// 	noteUpdatedNotification();
+	// }, 3000);
+
 	return (
 		<div className='app-main'>
 			<Modal show={show} onHide={handleClose}>
