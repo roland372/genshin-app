@@ -90,7 +90,7 @@ const Main = ({ activeNote, onUpdateNote, NotesDataService }) => {
 				/>
 			</section>
 			{/* <----- Note preview -----> */}
-			<div className='bg-primary-light rounded p-2 mt-2'>
+			<div className='bg-primary-light rounded p-2'>
 				<h4>Markdown Preview</h4>
 			</div>
 			<section className='app-main-note-preview bg-secondary-medium rounded'>

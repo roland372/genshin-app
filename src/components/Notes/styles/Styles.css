@@ -46,12 +46,12 @@
 
 .textarea {
 	resize: none;
+	margin-bottom: 20px;
 }
 
 /** <----- Sidebar -----> */
 .app-sidebar {
 	/* width: 100%; */
-	border-right: 2px solid white;
 	width: 35%;
 	height: 100vh;
 }
@@ -101,11 +101,13 @@
 /** <----- Preview/editor section ----->  */
 .app-main {
 	width: 65%;
+	border-left: 2px solid white;
 	/* height: 100vh; */
 }
 
 .app-main-note-edit {
 	height: 35vh;
+	margin-bottom: 50px;
 }
 
 .no-active-note {
@@ -118,11 +120,8 @@
 }
 
 .app-main-note-preview {
-	height: 60vh;
 	overflow-y: auto;
-	/* background: rgba(0, 0, 0, 0.02); */
 	padding-left: 5px;
-	/* margin-top: 10px; */
 }
 
 .preview-title {
@@ -168,11 +167,11 @@ textarea {
 
 	.app-sidebar {
 		width: 100%;
-		border-right: none;
 		border-bottom: 2px solid white;
 	}
 
 	.app-main {
 		width: 100%;
+		border-left: none;
 	}
 }
