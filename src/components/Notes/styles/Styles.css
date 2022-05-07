@@ -47,6 +47,7 @@
 .textarea {
 	resize: none;
 	margin-bottom: 20px;
+	height: 70%;
 }
 
 /** <----- Sidebar -----> */
@@ -100,6 +101,7 @@
 
 /** <----- Preview/editor section ----->  */
 .app-main {
+	margin-top: 9px;
 	width: 65%;
 	border-left: 2px solid white;
 	/* height: 100vh; */
@@ -148,7 +150,6 @@ textarea {
 	margin-bottom: 20px;
 	width: 100%;
 	/* height: calc(50vh - 130px); */
-	height: 150px;
 	padding: 10px;
 	font-size: inherit;
 	font-family: inherit;
