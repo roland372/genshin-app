@@ -34,9 +34,9 @@ const NavigationBar = () => {
 								<NavDropdown
 									title={<span className='text-color'>Database</span>}
 									id='basic-nav-dropdown'
-									menuVariant='dark bg-primary-light'
+									menuVariant='dark bg-primary-dark'
 								>
-									<div className='bg-primary-light'>
+									<div className='bg-primary-dark'>
 										{navLinks.slice(3, 7).map(link => {
 											const { id, url, text } = link;
 											return (
