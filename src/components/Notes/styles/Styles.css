@@ -1,4 +1,4 @@
-/** <----- Global styles -----> */
+/** <----- Notes -----> */
 .notes {
 	/* background-color: black; */
 	/* width: 100%; */
@@ -50,10 +50,9 @@
 
 /** <----- Sidebar -----> */
 .app-sidebar {
+	/* width: 100%; */
 	width: 40%;
 	height: 100vh;
-	border-right: 3px solid#023e8a;
-	/* border-bottom: 1px solid #ddd; */
 }
 
 .app-sidebar-header {
@@ -89,11 +88,11 @@
 }
 
 .app-sidebar-note:hover {
-	background: #023e8a;
+	border: 1px solid #ddd;
+	/* transform: scale(0.99); */
 }
 .app-sidebar-note.active,
 .app-sidebar-note.active small {
-	background: #023e8a;
 	color: white;
 }
 
@@ -101,17 +100,10 @@
 .app-main {
 	width: 60%;
 	height: 100vh;
-	/* border-bottom: 1px solid #ddd; */
 }
 
 .app-main-note-edit {
-	height: 50vh;
-}
-
-.app-main-note-preview {
-	height: 50vh;
-	padding-left: 5px;
-	margin-top: 10px;
+	height: 35vh;
 }
 
 .no-active-note {
@@ -124,9 +116,11 @@
 }
 
 .app-main-note-preview {
-	border-top: 1px solid #ddd;
+	height: 100vh;
 	overflow-y: auto;
-	background: rgba(0, 0, 0, 0.02);
+	/* background: rgba(0, 0, 0, 0.02); */
+	padding-left: 5px;
+	/* margin-top: 10px; */
 }
 
 .preview-title {
@@ -152,11 +146,11 @@ textarea {
 	border-radius: 5px;
 	margin-bottom: 20px;
 	width: 100%;
-	height: calc(50vh - 130px);
+	/* height: calc(50vh - 130px); */
+	height: 150px;
 	padding: 10px;
 	font-size: inherit;
 	font-family: inherit;
-	background-color: #203647;
 	color: white;
 }
 .app-main-note-edit input {

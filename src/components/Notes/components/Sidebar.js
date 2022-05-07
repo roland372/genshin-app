@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
 
 import Loader from '../../Layout/Loader';
 
@@ -30,7 +31,9 @@ const Sidebar = ({
 						{/* loop over notes and render them in sidebar*/}
 						{sortedNotes.map(({ id, title, body, lastModified }, i) => (
 							<div
-								className={`app-sidebar-note ${id === activeNote && 'active'}`}
+								className={`app-sidebar-note ${
+									id === activeNote && 'active bg-primary-light'
+								}`}
 								onClick={() => setActiveNote(id)}
 								key={id}
 							>
@@ -49,7 +52,7 @@ const Sidebar = ({
 									</button>
 								</div>
 								{/* only render body if there's anything there, also limit characters to 100 */}
-								<p>
+								<p className='text-start'>
 									{body && body.length >= 100
 										? body.substr(0, 100) + '...'
 										: body}

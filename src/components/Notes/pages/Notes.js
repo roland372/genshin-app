@@ -103,7 +103,7 @@ const Notes = () => {
 
 	//* when click update note
 	const onUpdateNote = async updatedNote => {
-		NotesDataService.updateNote(activeNote, updatedNote);
+		// NotesDataService.updateNote(activeNote, updatedNote);
 		// console.log(updatedNote.id);
 		const updatedNotesArr = notesDatabase.map(note => {
 			if (note.id === updatedNote.id) {
@@ -132,7 +132,12 @@ const Notes = () => {
 						setActiveNote={setActiveNote}
 						loading={loading}
 					/>
-					<Main activeNote={getActiveNote()} onUpdateNote={onUpdateNote} />
+
+					<Main
+						activeNote={getActiveNote()}
+						onUpdateNote={onUpdateNote}
+						NotesDataService={NotesDataService}
+					/>
 				</div>
 			</CardComponent>
 		</Container>

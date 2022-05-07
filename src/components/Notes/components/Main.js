@@ -5,6 +5,7 @@ import { Modal } from 'react-bootstrap';
 
 //? <----- Components ----->
 import MarkdownGuide from './MarkdownGuide';
+import { toast } from 'react-toastify';
 
 //? <----- Markdown ----->
 import ReactMarkdown from 'react-markdown';
@@ -13,11 +14,22 @@ import remarkGfm from 'remark-gfm';
 //? <----- Icons ----->
 import { BiInfoCircle } from 'react-icons/bi';
 
-const Main = ({ activeNote, onUpdateNote }) => {
+const Main = ({ activeNote, onUpdateNote, NotesDataService }) => {
 	//* <----- info modal state ----->
 	const [show, setShow] = useState(false);
 	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
+
+	const noteUpdatedNotification = () =>
+		toast.success('Note Updated', {
+			position: 'top-center',
+			autoClose: 2000,
+			hideProgressBar: false,
+			closeOnClick: true,
+			pauseOnHover: false,
+			draggable: true,
+			progress: '',
+		});
 
 	//* <----- Editing ----->
 	const onEditField = (field, value) => {
@@ -32,6 +44,11 @@ const Main = ({ activeNote, onUpdateNote }) => {
 	//* if no note is selected
 	if (!activeNote) return <div className='no-active-note'>No Active Note</div>;
 
+	const onSubmit = () => {
+		NotesDataService.updateNote(activeNote.id, activeNote);
+		noteUpdatedNotification();
+	};
+
 	return (
 		<div className='app-main'>
 			<Modal show={show} onHide={handleClose}>
@@ -44,12 +61,16 @@ const Main = ({ activeNote, onUpdateNote }) => {
 			</Modal>
 			{/* <----- Note inputs -----> */}
 			<section className='app-main-note-edit'>
-				<div className='info'>
+				<div className='info d-flex justify-content-between'>
+					<button className='btn btn-warning mb-2' onClick={() => onSubmit()}>
+						Save
+					</button>
 					<button className='info-button' onClick={handleShow}>
 						<BiInfoCircle />
 					</button>
 				</div>
 				<input
+					className='bg-primary-medium'
 					type='text'
 					id='title'
 					placeholder='Enter a title...'
@@ -59,7 +80,7 @@ const Main = ({ activeNote, onUpdateNote }) => {
 					autoFocus
 				/>
 				<textarea
-					className='textarea'
+					className='textarea bg-primary-medium'
 					resize='none'
 					id='body'
 					placeholder='Write your note here...'
@@ -69,22 +90,18 @@ const Main = ({ activeNote, onUpdateNote }) => {
 				/>
 			</section>
 			{/* <----- Note preview -----> */}
-			<section className='app-main-note-preview'>
+			<section className='app-main-note-preview bg-secondary-medium rounded'>
 				<h1 className='preview-title'>{activeNote.title}</h1>
 				<ReactMarkdown
 					children={activeNote.body}
 					remarkPlugins={[remarkGfm]}
-					className='markdown-preview'
+					className='markdown-preview text-start'
 					components={{
 						img: ({ node, ...props }) => (
 							<img style={{ maxWidth: '100%' }} {...props} alt='alt' />
 						),
 					}}
 				/>
-
-				{/* <ReactMarkdown className='markdown-preview'>
-					{activeNote.body}
-				</ReactMarkdown> */}
 			</section>
 		</div>
 	);
