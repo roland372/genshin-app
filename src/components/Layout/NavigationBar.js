@@ -82,11 +82,11 @@ const NavigationBar = ({ userData }) => {
 								);
 							})}
 							{userData ? (
-								<li className='px-2 mt-1'>
+								<li className='px-2 d-flex align-items-center'>
 									<NavLink to={'/profile'}>
 										<img
 											src={userData?.photoURL}
-											width='35px'
+											width='40px'
 											className='rounded-circle'
 											alt=''
 										/>

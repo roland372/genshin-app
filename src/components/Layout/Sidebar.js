@@ -18,13 +18,13 @@ const Sidebar = ({ userData }) => {
 					<img src='images/Elements/Element_Cryo.png' width='30px' alt='' />{' '}
 					Genshin-App
 				</NavLink>
-				<div className='d-flex'>
+				<div className='d-flex align-items-center'>
 					{userData ? (
 						<li className='px-2 list-unstyled'>
 							<NavLink to={'/profile'}>
 								<img
 									src={userData?.photoURL}
-									width='35px'
+									width='40px'
 									className='rounded-circle'
 									alt=''
 								/>
