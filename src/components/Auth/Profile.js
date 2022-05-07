@@ -69,6 +69,19 @@ const Profile = () => {
 			progress: '',
 		});
 
+	// const initializeUser = async () => {
+	// await addDoc(collection(db, 'users'), {
+	// 	uid: user.uid,
+	// 	// eslint-disable-next-line no-restricted-globals
+	// 	name: user.displayName,
+	// 	authProvider: 'firebase',
+	// 	email: user.email,
+	// 	description: '',
+	// });
+	// };
+
+	// initializeUser();
+
 	const [loading, setLoading] = useState(false);
 
 	//* <----- Database State ----->
@@ -142,12 +155,26 @@ const Profile = () => {
 			const currentUser = usersDatabase.filter(u => u.uid === user.uid);
 			setName(currentUser[0]?.name);
 			setDescription(currentUser[0]?.description);
-			// return currentUser[0];
+			setProfileColor(currentUser[0]?.color);
 			setCurrentUser(currentUser);
 		};
 
 		getCurrentUser();
 	}, [usersDatabase, user.uid]);
+
+	// currentUser?.[0]?.uid
+	// 	? console.log('user exists')
+	// 	: console.log('user doesnt exists');
+
+	// useEffect(() => {
+	// 	if (currentUser?.[0]?.uid !== user.uid) {
+	// 		console.log('user doesnt exists');
+	// 	} else {
+	// 		console.log('user exists');
+	// 	}
+	// }, [currentUser, user.uid]);
+
+	// console.log(user?.uid);
 
 	const getTeamsDatabase = async () => {
 		const data = await TeamDataService.getAllTeams();
@@ -201,12 +228,13 @@ const Profile = () => {
 		}
 	};
 
-	const [deleteFlag, setDeleteFlag] = useState(false);
+	const [deleteFlag] = useState(false);
+	// const [deleteFlag, setDeleteFlag] = useState(false);
 
-	const handleDeleteAccount = () => {
-		setDeleteFlag(true);
-		//* Reauthenticate user
-	};
+	// const handleDeleteAccount = () => {
+	// 	setDeleteFlag(true);
+	// 	//* Reauthenticate user
+	// };
 
 	return (
 		<Container>
@@ -276,11 +304,19 @@ const Profile = () => {
 											type='color'
 											name=''
 											id=''
-											// value={profileColor}
+											// value={currentUser?.[0]?.color}
 											defaultValue={currentUser?.[0]?.color}
 											onChange={e => setProfileColor(e.target.value)}
 										/>
-										<div className='mx-2'>{profileColor}</div>
+										<div className='mx-2'>
+											New Color:{' '}
+											<span
+												className='p-1'
+												style={{ backgroundColor: profileColor }}
+											>
+												{profileColor}
+											</span>
+										</div>
 									</div>
 								</div>
 								<div>
@@ -307,9 +343,9 @@ const Profile = () => {
 					>
 						Delete Account
 					</Link> */}
-							<button className='btn btn-danger' onClick={handleDeleteAccount}>
+							{/* <button className='btn btn-danger' onClick={handleDeleteAccount}>
 								Delete Account
-							</button>
+							</button> */}
 							{/* <button
 						className='btn btn-danger'
 						onClick={() => console.log('deleted')}
@@ -334,7 +370,8 @@ const Profile = () => {
 													style={{
 														borderTopLeftRadius: '0.3rem',
 														borderBottomLeftRadius: '0.3rem',
-														backgroundColor: `${currentUser?.[0]?.color}`,
+														// backgroundColor: `${currentUser?.[0]?.color}`,
+														backgroundColor: `${profileColor}`,
 													}}
 												>
 													<img

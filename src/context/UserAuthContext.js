@@ -7,7 +7,7 @@ import {
 	signOut,
 	GoogleAuthProvider,
 	signInWithPopup,
-	// getAdditionalUserInfo,
+	getAdditionalUserInfo,
 } from 'firebase/auth';
 
 import { collection, addDoc } from 'firebase/firestore';
@@ -76,10 +76,40 @@ export const UserAuthContextProvider = ({ children }) => {
 	// 	return signInWithPopup(auth, googleAuthProvider);
 	// };
 
-	const googleSignIn = () => {
+	const googleSignIn = async () => {
 		const googleAuthProvider = new GoogleAuthProvider();
-		return signInWithPopup(auth, googleAuthProvider);
+		// const { isNewUser } = getAdditionalUserInfo(googleAuthProvider);
+		// console.log(isNewUser);
+
+		// await signInWithPopup(auth, googleAuthProvider);
+		// console.log(getAdditionalUserInfo(user));
+
+		const result = await signInWithPopup(auth, googleAuthProvider);
+		const { isNewUser, profile } = getAdditionalUserInfo(result);
+		// console.log(getAdditionalUserInfo(result));
+		// console.log(profile);
+
+		// console.log(auth.currentUser.uid);
+
+		// console.log(result.providerId);
+
+		if (isNewUser) {
+			addDoc(collection(db, 'users'), {
+				uid: auth.currentUser.uid,
+				// eslint-disable-next-line no-restricted-globals
+				name: profile.name,
+				authProvider: result.providerId,
+				email: profile.email,
+				color: '#0d6efd',
+				description: '',
+			});
+		}
 	};
+
+	// const googleSignIn = () => {
+	// 	const googleAuthProvider = new GoogleAuthProvider();
+	// 	return signInWithPopup(auth, googleAuthProvider);
+	// };
 
 	useEffect(() => {
 		const unsubscribe = onAuthStateChanged(auth, currentuser => {
