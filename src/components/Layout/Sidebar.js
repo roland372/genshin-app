@@ -5,7 +5,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 import { navLinks } from '../Layout/Links';
 
-const Sidebar = () => {
+const Sidebar = ({ userData }) => {
 	const [show, setShow] = useState(false);
 
 	const handleClose = () => setShow(false);
@@ -18,14 +18,29 @@ const Sidebar = () => {
 					<img src='images/Elements/Element_Cryo.png' width='30px' alt='' />{' '}
 					Genshin-App
 				</NavLink>
-				<Button
-					className='navbar-toggler bg-primary-dark'
-					variant=''
-					type='button'
-					onClick={handleShow}
-				>
-					<span className='navbar-toggler-icon'></span>
-				</Button>
+				<div className='d-flex'>
+					{userData ? (
+						<li className='px-2 list-unstyled'>
+							<NavLink to={'/profile'}>
+								<img
+									src={userData?.photoURL}
+									width='35px'
+									className='rounded-circle'
+									alt=''
+								/>
+							</NavLink>
+						</li>
+					) : null}
+					<Button
+						className='navbar-toggler bg-primary-dark'
+						variant=''
+						type='button'
+						onClick={handleShow}
+					>
+						<span className='navbar-toggler-icon'></span>
+					</Button>
+				</div>
+
 				<Offcanvas
 					show={show}
 					onHide={handleClose}

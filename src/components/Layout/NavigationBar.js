@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { navLinks } from './Links';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 
-const NavigationBar = () => {
+const NavigationBar = ({ userData }) => {
 	return (
 		<div className='bg-primary-dark'>
 			<Navbar bg='' expand='lg' sticky='top' variant='dark'>
@@ -81,6 +81,18 @@ const NavigationBar = () => {
 									</li>
 								);
 							})}
+							{userData ? (
+								<li className='px-2 mt-1'>
+									<NavLink to={'/profile'}>
+										<img
+											src={userData?.photoURL}
+											width='35px'
+											className='rounded-circle'
+											alt=''
+										/>
+									</NavLink>
+								</li>
+							) : null}
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
