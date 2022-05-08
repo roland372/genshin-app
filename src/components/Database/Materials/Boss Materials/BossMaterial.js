@@ -21,7 +21,7 @@ const BossMaterial = props => {
 					/>
 				</OverlayTrigger>
 			</td>
-			<td>
+			<td style={{ maxWidth: '70px' }}>
 				<h6>{bossName}</h6>
 			</td>
 			<td className='pe-4'>
@@ -39,7 +39,7 @@ const BossMaterial = props => {
 								<div>
 									<Link to={`characters/${character.data.url}`}>
 										<img
-											className='img-fluid'
+											className='img'
 											src={character.data.thumbnail}
 											width='60px'
 											alt={character.data.name}

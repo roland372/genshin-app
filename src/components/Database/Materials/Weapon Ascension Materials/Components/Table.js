@@ -11,7 +11,7 @@ const Table = props => {
 			<div className='table-responsive mx-2 rounded'>
 				<table
 					className='table table-sm bg-secondary-medium text-color table-striped align-middle table-borderless'
-					style={{ minWidth: '400px' }}
+					style={{ minWidth: '460px' }}
 				>
 					<thead className='bg-primary-dark'>
 						<tr>

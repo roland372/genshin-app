@@ -17,11 +17,11 @@ const TalentBook = props => {
 					/>
 				</OverlayTrigger>
 			</td>
-			<td>
+			<td style={{ maxWidth: '100px' }}>
 				<h6 className='my-1'>{props.days}</h6>
 			</td>
 			<td className='pe-4'>
-				<div className='d-flex justify-content-center'>
+				<div className='d-flex justify-content-center  flex-wrap'>
 					{props.charactersData.characters.map(character =>
 						character.talentBook === props.talentBook ? (
 							<OverlayTrigger

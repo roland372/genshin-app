@@ -22,7 +22,7 @@ const WeaponMaterial = props => {
 				<h6>{props.days}</h6>
 			</td>
 			<td className='pe-4'>
-				<div>
+				<div className=''>
 					{props.weaponsData.weapons.map(weapon =>
 						weapon.ascensionMaterial1.slice(49, -4).replaceAll('_', ' ') ===
 						props.ascensionMaterial ? (
@@ -33,7 +33,7 @@ const WeaponMaterial = props => {
 							>
 								<img
 									// key={weapon.name}
-									className='img-fluid'
+									className='img'
 									src={weapon.image}
 									width='60px'
 									alt={weapon.name}

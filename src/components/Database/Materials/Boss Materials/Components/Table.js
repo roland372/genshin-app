@@ -7,7 +7,7 @@ const Table = props => {
 				<table
 					id='table-striped'
 					className='table table-sm bg-secondary-medium text-color table-striped align-middle table-borderless'
-					style={{ minWidth: '400px' }}
+					style={{ minWidth: '460px' }}
 				>
 					<thead className='bg-primary-dark'>
 						<tr>
