@@ -208,15 +208,11 @@ const Characters = props => {
 														</Tooltip>
 													}
 												>
-													<div>
-														<Link to={`/characters/${character.url}`}>
-															<img
-																src={image}
-																alt={name}
-																className={`img-fluid img-thumbnail ${rarityColor}`}
-															/>
-														</Link>
-													</div>
+													<img
+														src={image}
+														alt={name}
+														className={`img-fluid img-thumbnail ${rarityColor}`}
+													/>
 												</OverlayTrigger>
 											</section>
 											<div className='d-flex justify-content-center align-items-center ms-2 mt-2'>
