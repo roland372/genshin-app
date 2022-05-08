@@ -1,5 +1,6 @@
 import React from 'react';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const BossMaterial = props => {
 	const { bossMaterial, bossName, characters } = props;
@@ -24,7 +25,7 @@ const BossMaterial = props => {
 				<h6>{bossName}</h6>
 			</td>
 			<td className='pe-4'>
-				<div>
+				<div className='d-flex justify-content-center'>
 					{characters.map(character =>
 						character.data.talentMaterials[8].bossMaterialImage
 							.slice(61, -4)
@@ -35,12 +36,16 @@ const BossMaterial = props => {
 								placement='top'
 								overlay={<Tooltip>{character.data.name}</Tooltip>}
 							>
-								<img
-									className='img-fluid'
-									src={character.data.thumbnail}
-									width='60px'
-									alt={character.data.name}
-								/>
+								<div>
+									<Link to={`characters/${character.data.url}`}>
+										<img
+											className='img-fluid'
+											src={character.data.thumbnail}
+											width='60px'
+											alt={character.data.name}
+										/>
+									</Link>
+								</div>
 							</OverlayTrigger>
 						) : null
 					)}
