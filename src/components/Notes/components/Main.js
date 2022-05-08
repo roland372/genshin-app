@@ -50,8 +50,7 @@ const Main = ({ activeNote, onUpdateNote, NotesDataService }) => {
 	};
 
 	// setInterval(() => {
-	// 	NotesDataService.updateNote(activeNote.id, activeNote);
-	// 	noteUpdatedNotification();
+	// 	onSubmit();
 	// }, 3000);
 
 	return (
@@ -82,6 +81,7 @@ const Main = ({ activeNote, onUpdateNote, NotesDataService }) => {
 					value={activeNote.title}
 					maxLength='50'
 					onChange={e => onEditField('title', e.target.value)}
+					// onBlur={() => onSubmit()}
 					autoFocus
 				/>
 				<textarea
@@ -92,6 +92,7 @@ const Main = ({ activeNote, onUpdateNote, NotesDataService }) => {
 					value={activeNote.body}
 					maxLength='750'
 					onChange={e => onEditField('body', e.target.value)}
+					// onBlur={() => onSubmit()}
 				/>
 			</section>
 			{/* <----- Note preview -----> */}
