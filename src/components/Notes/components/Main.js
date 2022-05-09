@@ -1,25 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 //? <----- Styles ----->
-import { Modal } from 'react-bootstrap';
+import 'react-markdown-editor-lite/lib/index.css';
 
 //? <----- Components ----->
-import MarkdownGuide from './MarkdownGuide';
 import { toast } from 'react-toastify';
 
 //? <----- Markdown ----->
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import MarkdownIt from 'markdown-it';
+import MdEditor from 'react-markdown-editor-lite';
 
 //? <----- Icons ----->
-import { BiInfoCircle } from 'react-icons/bi';
 
 const Main = ({ activeNote, onUpdateNote, NotesDataService }) => {
-	//* <----- info modal state ----->
-	const [show, setShow] = useState(false);
-	const handleClose = () => setShow(false);
-	const handleShow = () => setShow(true);
-
 	const noteUpdatedNotification = () =>
 		toast.success('Note Updated', {
 			position: 'top-center',
@@ -41,36 +34,28 @@ const Main = ({ activeNote, onUpdateNote, NotesDataService }) => {
 		});
 	};
 
-	//* if no note is selected
-	if (!activeNote) return <div className='no-active-note'>No Active Note</div>;
-
 	const onSubmit = async () => {
 		await NotesDataService.updateNote(activeNote.id, activeNote);
 		noteUpdatedNotification();
 	};
 
-	// setInterval(() => {
-	// 	onSubmit();
-	// }, 3000);
+	const mdParser = new MarkdownIt(/* Markdown-it options */);
+
+	function handleEditorChange({ html, text }) {
+		// console.log('handleEditorChange', html, text);
+		// console.log(text);
+		return text;
+	}
+
+	//* if no note is selected
+	if (!activeNote) return <div className='no-active-note'>No Active Note</div>;
 
 	return (
 		<div className='app-main'>
-			<Modal show={show} onHide={handleClose}>
-				<Modal.Header closeButton className='bg-dark text-light'>
-					<Modal.Title>Markdown guide</Modal.Title>
-				</Modal.Header>
-				<Modal.Body className='bg-dark text-light'>
-					<MarkdownGuide />
-				</Modal.Body>
-			</Modal>
-			{/* <----- Note inputs -----> */}
 			<section className='app-main-note-edit'>
-				<div className='info d-flex justify-content-between'>
+				<div className='d-flex'>
 					<button className='btn btn-success mb-2' onClick={() => onSubmit()}>
-						Save
-					</button>
-					<button className='info-button' onClick={handleShow}>
-						<BiInfoCircle />
+						Save{' '}
 					</button>
 				</div>
 				<input
@@ -81,39 +66,88 @@ const Main = ({ activeNote, onUpdateNote, NotesDataService }) => {
 					value={activeNote.title}
 					maxLength='50'
 					onChange={e => onEditField('title', e.target.value)}
-					// onBlur={() => onSubmit()}
 					autoFocus
 				/>
-				<textarea
-					className='textarea bg-primary-medium'
-					resize='none'
-					id='body'
-					placeholder='Write your note here...'
-					value={activeNote.body}
-					maxLength='750'
-					onChange={e => onEditField('body', e.target.value)}
-					// onBlur={() => onSubmit()}
-				/>
-			</section>
-			{/* <----- Note preview -----> */}
-			<div className='bg-primary-light rounded p-2'>
-				<h4 className='pt-1'>Markdown Preview</h4>
-			</div>
-			<section className='app-main-note-preview bg-secondary-medium rounded'>
-				<h1 className='preview-title text-start mb-2'>{activeNote.title}</h1>
-				<ReactMarkdown
-					children={activeNote.body}
-					remarkPlugins={[remarkGfm]}
-					className='markdown-preview text-start'
-					components={{
-						img: ({ node, ...props }) => (
-							<img style={{ maxWidth: '100%' }} {...props} alt='alt' />
-						),
-					}}
-				/>
+				<div className='d-flex flex-column'>
+					<div className='bg-primary-light rounded p-2'>
+						<h4 className='pt-2'>Markdown Preview</h4>
+					</div>
+					<MdEditor
+						className='text-start'
+						value={activeNote.body}
+						style={{
+							height: '80vh',
+							lineHeight: '10px',
+							// marginTop: '60px'
+						}}
+						renderHTML={text => mdParser.render(text)}
+						onChange={e => onEditField('body', handleEditorChange(e))}
+						canView={{
+							menu: true,
+							md: true,
+							html: true,
+							fullScreen: true,
+							hideMenu: true,
+						}}
+					/>
+				</div>
 			</section>
 		</div>
 	);
 };
 
 export default Main;
+
+// <----- old markdown ----->
+// {/* <div className='app-main'>
+
+// 	{/* <----- Note inputs -----> */}
+// 	<section className='app-main-note-edit'>
+// 		<div className='info d-flex justify-content-between'>
+// 			<button className='btn btn-success mb-2' onClick={() => onSubmit()}>
+// 				Save
+// 			</button>
+// 			<button className='info-button' onClick={handleShow}>
+// 				<BiInfoCircle />
+// 			</button>
+// 		</div>
+// 		<input
+// 			className='bg-primary-medium'
+// 			type='text'
+// 			id='title'
+// 			placeholder='Enter a title...'
+// 			value={activeNote.title}
+// 			maxLength='50'
+// 			onChange={e => onEditField('title', e.target.value)}
+// 			// onBlur={() => onSubmit()}
+// 			autoFocus
+// 		/>
+// 		<textarea
+// 			className='textarea bg-primary-medium'
+// 			resize='none'
+// 			id='body'
+// 			placeholder='Write your note here...'
+// 			value={activeNote.body}
+// 			maxLength='750'
+// 			onChange={e => onEditField('body', e.target.value)}
+// 			// onBlur={() => onSubmit()}
+// 		/>
+// 	</section>
+// 	{/* <----- Note preview -----> */}
+// 	<div className='bg-primary-light rounded p-2'>
+// 		<h4 className='pt-1'>Markdown Preview</h4>
+// 	</div>
+// 	<section className='app-main-note-preview bg-secondary-medium rounded'>
+// 		<h1 className='preview-title text-start mb-2'>{activeNote.title}</h1>
+// 		<ReactMarkdown
+// 			children={activeNote.body}
+// 			remarkPlugins={[remarkGfm]}
+// 			className='markdown-preview text-start'
+// 			components={{
+// 				img: ({ node, ...props }) => (
+// 					<img style={{ maxWidth: '100%' }} {...props} alt='alt' />
+// 				),
+// 			}}
+// 		/>
+// 	</section>
+// </div>; */}

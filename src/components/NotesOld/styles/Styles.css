@@ -199,20 +199,8 @@ textarea {
 	}
 }
 
-@media (max-height: 950px) {
-	.app-main {
-		margin-bottom: 50px;
-	}
-}
-
-@media (max-height: 700px) {
-	.app-main {
+@media (max-height: 650px) {
+	.app-main-note-edit {
 		margin-bottom: 80px;
-	}
-}
-
-@media (max-height: 550px) {
-	.app-main {
-		margin-bottom: 100px;
 	}
 }
