@@ -1,7 +1,7 @@
 import React from 'react';
 
 //? <----- Styles ----->
-import 'react-markdown-editor-lite/lib/index.css';
+import '../styles/StylesNew.css';
 
 //? <----- Components ----->
 import { toast } from 'react-toastify';
