@@ -90,7 +90,10 @@
 	padding-bottom: 1px;
 	position: relative;
 	border: 1px solid #e0e0e0;
-	background: #fff;
+	border-radius: 5px;
+	/* background: #fff; */
+	background: #12232e;
+
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	display: -webkit-box;
@@ -149,8 +152,10 @@
 	resize: none;
 	outline: none;
 	min-height: 0;
-	background: #fff;
-	color: #333;
+	/* background: #fff; */
+	/* color: #333; */
+	background: #12232e;
+	color: #fff;
 	font-size: 14px;
 	line-height: 1.7;
 }
@@ -161,6 +166,7 @@
 	flex: 1;
 	min-height: 0;
 	min-width: 0;
+	margin-top: -8px;
 }
 .rc-md-editor .editor-container .sec-html .html-wrap {
 	height: 100%;
@@ -169,7 +175,8 @@
 	overflow: auto;
 }
 .custom-html-style {
-	color: #333;
+	/* color: #333; */
+	color: #fff;
 }
 .custom-html-style h1 {
 	font-size: 32px;
@@ -241,6 +248,7 @@
 	padding: 3px 0;
 	margin: 0;
 	word-break: normal;
+	color: rgb(255, 0, 0);
 }
 .custom-html-style code:after,
 .custom-html-style code:before {
@@ -251,7 +259,7 @@
 	margin: 16px 0;
 	padding: 5px 8px 5px 30px;
 	background: none repeat scroll 0 0 rgba(102, 128, 153, 0.05);
-	color: #333;
+	color: #fff;
 	border: none;
 	border-left: 10px solid #d6dbdf;
 }
@@ -287,7 +295,7 @@
 	font-weight: 700;
 	border: 1px solid #efefef;
 	padding: 10px 6px;
-	background-color: #f5f7fa;
+	background-color: #555;
 	word-break: break-word;
 }
 .custom-html-style table td {
@@ -301,12 +309,12 @@
 	display: block;
 	position: absolute;
 	left: 0;
-	top: 50px;
+	top: 0;
 	z-index: 2;
 	min-width: 20px;
 	padding: 10px 0;
 	text-align: center;
-	background-color: #ddd;
+	background-color: #f1f1f1;
 	border-color: #f1f1f1 #ddd #ddd #f1f1f1;
 	border-style: solid;
 	border-width: 1px;
