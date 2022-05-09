@@ -95,17 +95,22 @@ const Materials = props => {
 	// console.log('Total Days');
 	// console.log(parseFloat(((goldTalentBooks * 20) / 180).toFixed(1)));
 
+	// const goldBooksDays = parseFloat(((goldTalentBooks * 20) / 180).toFixed(1));
+
+	function round(value, precision) {
+		let multiplier = Math.pow(10, precision || 0);
+		return Math.round(value * multiplier) / multiplier;
+	}
+
 	const totalMora = moraCharacter + moraTalent;
-	const moraLeyLines = Math.round((moraCharacter + moraTalent) / 60000);
-	const moraResin = Math.round((moraCharacter + moraTalent) / 60000) * 20;
-	const moraDays = Math.round(
-		(Math.round((moraCharacter + moraTalent) / 60000) * 20) / 180
-	);
+	const moraLeyLines = Math.round(totalMora / 20000);
+	const moraResin = moraLeyLines * 20;
+	const moraDays = round(moraResin / 180, 1);
 
 	const totalExpBooks = expBooks;
-	const expBooksLeyLines = Math.round(expBooks / 5);
-	const expBooksResin = Math.round(expBooks / 5) * 20;
-	const expBooksDays = Math.round((Math.round(expBooks / 5) * 20) / 180);
+	const expBooksLeyLines = Math.round(totalExpBooks / 5);
+	const expBooksResin = Math.round(expBooksLeyLines) * 20;
+	const expBooksDays = round(expBooksResin / 180, 1);
 
 	const bossMaterialsTotal = bossAscensionMaterial;
 	const bossMaterialsBosses = bossAscensionMaterial / 2;
@@ -115,23 +120,19 @@ const Materials = props => {
 	);
 
 	const bronzeBooks = bronzeTalentBooks;
-	const bronzeBooksDomains = bronzeTalentBooks / 2;
-	const bronzeBooksResin = (bronzeTalentBooks / 2) * 20;
-	const bronzeBooksDays = parseFloat(
-		(((bronzeTalentBooks / 2) * 20) / 180).toFixed(1)
-	);
+	const bronzeBooksDomains = bronzeBooks / 2;
+	const bronzeBooksResin = bronzeBooksDomains * 20;
+	const bronzeBooksDays = round(bronzeBooksResin / 180, 1);
 
 	const silverBooks = silverTalentBooks;
-	const silverBooksDomains = silverTalentBooks / 2 - bronzeTalentBooks;
-	const silverBooksResin = (silverTalentBooks / 2 - bronzeTalentBooks) * 20;
-	const silverBooksDays = parseFloat(
-		(((silverTalentBooks / 2 - bronzeTalentBooks) * 20) / 180).toFixed(1)
-	);
+	const silverBooksDomains = silverBooks / 2;
+	const silverBooksResin = silverBooksDomains * 20;
+	const silverBooksDays = round(silverBooksResin / 180, 1);
 
 	const goldBooks = goldTalentBooks;
-	const goldBooksDomains = goldTalentBooks;
-	const goldBooksResin = goldTalentBooks * 20;
-	const goldBooksDays = parseFloat(((goldTalentBooks * 20) / 180).toFixed(1));
+	const goldBooksDomains = goldBooks;
+	const goldBooksResin = goldBooksDomains * 20;
+	const goldBooksDays = round(goldBooksResin / 180, 1);
 
 	return (
 		<section className='text-color my-2'>
@@ -429,12 +430,15 @@ const Materials = props => {
 										Days
 										<span className='mx-2'>
 											<MdCalendarToday size={30} /> ={' '}
-											{moraDays +
-												expBooksDays +
-												bossMaterialsDays +
-												bronzeBooksDays +
-												silverBooksDays +
-												goldBooksDays}
+											{round(
+												moraDays +
+													expBooksDays +
+													bossMaterialsDays +
+													bronzeBooksDays +
+													silverBooksDays +
+													goldBooksDays,
+												1
+											)}
 										</span>
 									</h6>
 								</div>
