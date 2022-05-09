@@ -141,6 +141,23 @@
 	/* line-height: 1rem; */
 }
 
+input[type='checkbox'] {
+	width: 14px !important;
+	height: 14px !important;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	outline: 1px solid white;
+	text-align: center;
+	line-height: 0.9em;
+}
+
+input[type='checkbox']:checked:after {
+	content: '✔';
+	color: rgb(0, 255, 0);
+}
+
 /** <----- Inputs -----> */
 .app-main-note-edit {
 	padding: 25px;
