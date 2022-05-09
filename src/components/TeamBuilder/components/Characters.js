@@ -7,7 +7,7 @@ const Characters = props => {
 
 	return (
 		<div>
-			<section className='d-flex flex-row justify-content-between align-items-center'>
+			<section className='d-flex flex-row justify-content-start align-items-center'>
 				{props.filterCharacters(props.array).map(character => {
 					const { name, image, rarity, elementImage, element } = character;
 
