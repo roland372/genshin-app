@@ -21,7 +21,6 @@ const PastBanners = props => {
 					placeholder='Search for a version, eg. 1.6'
 					onChange={event => {
 						setSearchTerm(event.target.value);
-						console.log(event.target.value);
 					}}
 				/>
 			</section>
