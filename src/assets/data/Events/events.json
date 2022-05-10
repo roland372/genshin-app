@@ -46,8 +46,15 @@
       "name": "Spices From the West",
       "link": "https://genshin-impact.fandom.com/wiki/Spices_From_the_West",
       "image": "images/Events/current/Spices_From_the_West.png",
-      "startDate": "Upcoming",
-      "endDate": "Upcoming"
+      "startDate": "May 14, 2022",
+      "endDate": "June 07, 2022"
+    },
+    {
+      "name": "Overflowing Mastery",
+      "link": "https://www.hoyolab.com/article/4592260",
+      "image": "images/Events/current/Overflowing_Mastery.png",
+      "startDate": "May 22, 2022",
+      "endDate": "May 29, 2022"
     }
   ],
   "upcomingEvents": [
@@ -107,8 +114,15 @@
         "name": "Spices From the West",
         "link": "https://genshin-impact.fandom.com/wiki/Spices_From_the_West",
         "image": "images/Events/current/Spices_From_the_West.png",
-        "startDate": "Upcoming",
-        "endDate": "Upcoming"
+        "startDate": "May 14, 2022",
+        "endDate": "June 07, 2022"
+      },
+      {
+        "name": "Overflowing Mastery",
+        "link": "https://www.hoyolab.com/article/4592260",
+        "image": "images/Events/current/Overflowing_Mastery.png",
+        "startDate": "May 22, 2022",
+        "endDate": "May 29, 2022"
       }
     ],
     "version 2.5" : [
