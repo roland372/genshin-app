@@ -2,10 +2,10 @@ import React from 'react';
 
 const AttributeScaling = props => {
 	return (
-		<section className='mx-2 my-2'>
+		<section className='mx-0 my-2'>
 			<h4>Attribute Scaling</h4>
-			<div className='table-responsive mx-2 rounded'>
-				<table className='table table-sm bg-secondary-medium text-light table-striped align-middle table-borderless'>
+			<div className='table-responsive'>
+				<table className='table table-sm bg-secondary-medium text-light table-striped align-middle table-borderless border'>
 					<thead className='bg-primary-dark'>
 						<tr className='text-color'>
 							<th scope='col'>Level</th>

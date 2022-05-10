@@ -13,8 +13,6 @@ const Weapon = props => {
 		rarity,
 	} = props;
 
-	console.log(description);
-
 	let rarityColor = '';
 	if (rarity === 5) {
 		rarityColor = 'rarity5bg';
