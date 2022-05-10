@@ -18,7 +18,7 @@ const PastBanners = props => {
 				<input
 					type='text'
 					className='form-control'
-					placeholder='Search for a version, eg. 1.6'
+					placeholder='Search for a version, e.g. 1.6'
 					onChange={event => {
 						setSearchTerm(event.target.value);
 					}}
