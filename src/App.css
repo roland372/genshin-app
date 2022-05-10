@@ -134,6 +134,11 @@
 	);
 }
 
+/**<----- Bold first line in weapons component ----->*/
+.bold p::first-line {
+	font-weight: bold;
+}
+
 /**<----- Image gallery framer motion ----->*/
 .item {
 	min-height: 100%;

@@ -13,6 +13,8 @@ const Weapon = props => {
 		rarity,
 	} = props;
 
+	console.log(description);
+
 	let rarityColor = '';
 	if (rarity === 5) {
 		rarityColor = 'rarity5bg';
@@ -58,7 +60,9 @@ const Weapon = props => {
 					</div>
 				</section>
 				<div className='border-bottom mx-3 mb-2'></div>
-				<p className='text-start mx-3'>{description}</p>
+				<div className='bold'>
+					<p className='text-start mx-3'>{description}</p>
+				</div>
 			</div>
 		</section>
 	);
