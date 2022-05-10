@@ -152,7 +152,7 @@ const Materials = props => {
 										alt=''
 									/>
 								</OverlayTrigger>
-								<div>{moraCharacter + moraTalent}</div>
+								<div>{totalMora.toLocaleString()}</div>
 							</div>
 							<div>
 								<OverlayTrigger
@@ -460,7 +460,7 @@ const Materials = props => {
 										/>
 									</OverlayTrigger>
 									<div className='text-center'>
-										<h6>Mora = {totalMora}</h6>
+										<h6>Mora = {totalMora.toLocaleString()}</h6>
 										<h6>Ley-Lines = {moraLeyLines}</h6>
 										<h6>Resin = {moraResin}</h6>
 										<h6>Days = {moraDays}</h6>
