@@ -30,7 +30,7 @@ const CurrentBanners = props => {
 		<CardComponent title='Current Banners'>
 			<div className='table-responsive mx-2 rounded'>
 				<table
-					className='table table-sm bg-secondary-medium text-light table-striped align-middle table-borderless'
+					className='table table-sm bg-secondary-medium text-color table-striped align-middle table-borderless'
 					style={{ minWidth: '400px' }}
 				>
 					<thead className='bg-primary-dark'>

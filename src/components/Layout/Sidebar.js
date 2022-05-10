@@ -16,7 +16,7 @@ const Sidebar = ({ userData }) => {
 			<div className='container bg-primary-dark'>
 				<NavLink className='navbar-brand' exact to='/'>
 					<img src='images/Elements/Element_Cryo.png' width='30px' alt='' />{' '}
-					Genshin-App
+					<span className='text-color'>Genshin-App</span>
 				</NavLink>
 				<div className='d-flex align-items-center'>
 					{userData ? (
@@ -52,7 +52,7 @@ const Sidebar = ({ userData }) => {
 						<NavLink
 							exact
 							to='/'
-							className='nav-link link-light ms-3'
+							className='nav-link text-color ms-3'
 							onClick={handleClose}
 						>
 							<Offcanvas.Title>Home</Offcanvas.Title>
@@ -74,7 +74,7 @@ const Sidebar = ({ userData }) => {
 										onClick={handleClose}
 									>
 										<NavLink
-											className='nav-link link-light text-capitalize'
+											className='nav-link text-color text-capitalize'
 											activeClassName='active-navbar'
 											to={url}
 										>

@@ -11,7 +11,7 @@ const NavigationBar = ({ userData }) => {
 					<Navbar.Brand>
 						<Link className='navbar-brand' to='/'>
 							<img src='images/Elements/Element_Cryo.png' width='30px' alt='' />{' '}
-							Genshin-App
+							<span className=' text-color'>Genshin-App</span>
 						</Link>
 					</Navbar.Brand>
 					<Navbar.Collapse id='basic-navbar-nav'>

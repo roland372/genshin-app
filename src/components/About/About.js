@@ -135,7 +135,7 @@ const About = () => {
 					<h5 className='pb-2'>
 						Languages and technologies used in this project:
 					</h5>
-					<ul className='list-group text-light'>
+					<ul className='list-group text-color'>
 						<li className='list-group-item bg-primary-dark text-color'>
 							<b>ReactJS</b> as main frontend framework
 						</li>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import Container from '../Layout/Container';
 
@@ -14,23 +14,57 @@ import useDocumentTitle from '../../hooks/useDocumentTitle';
 const Homepage = props => {
 	useDocumentTitle('Home');
 
-	// const color = getComputedStyle(document.documentElement).getPropertyValue(
-	// 	'--test'
-	// );
+	const blueTheme = {
+		primaryDark: '#12232e',
+		primaryMedium: '#203647',
+		primaryLight: '#023e8a',
+		secondaryMedium: '#284155',
+		secondaryLight: '#4da8da',
+		textColor: '#ffffff',
+		linkColor: '#0dcaf0',
+	};
 
-	// console.log(color);
+	const [theme, setTheme] = useState(() => {
+		const localTheme = JSON.parse(localStorage.getItem('themes'));
+		return localTheme || blueTheme;
+	});
 
-	// const setColor = newColor => {
-	// 	document.documentElement.style.setProperty('--test', newColor);
-	// };
+	const setColor = theme => {
+		document.documentElement.style.setProperty(
+			'--bg-primary-dark',
+			theme.primaryDark
+		);
+		document.documentElement.style.setProperty(
+			'--bg-primary-medium',
+			theme.primaryMedium
+		);
+		document.documentElement.style.setProperty(
+			'--bg-primary-light',
+			theme.primaryLight
+		);
+		document.documentElement.style.setProperty(
+			'--bg-secondary-medium',
+			theme.secondaryMedium
+		);
+		document.documentElement.style.setProperty(
+			'--bg-secondary-light',
+			theme.secondaryLight
+		);
+		document.documentElement.style.setProperty('--text-color', theme.textColor);
+		document.documentElement.style.setProperty('--link-color', theme.linkColor);
+		setTheme(theme);
+	};
+
+	useEffect(() => {
+		localStorage.setItem('themes', JSON.stringify(theme));
+	}, [theme]);
+
+	useEffect(() => {
+		setColor(theme);
+	}, [theme]);
 
 	return (
 		<Container>
-			{/* <button onClick={() => setColor('#12232e')}>1</button>
-			<button onClick={() => setColor('#203647')}>2</button>
-			<button onClick={() => setColor('#284155')}>3</button>
-			<button onClick={() => setColor('#023e8a')}>4</button>
-			<button onClick={() => setColor('#4da8da')}>5</button> */}
 			<GeneralInfo />
 			<CharacterDomains />
 			<WeaponDomains />

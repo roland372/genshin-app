@@ -12,7 +12,7 @@ const TalentMaterials = props => {
 						style={{ minWidth: '700px' }}
 					>
 						<thead className='bg-primary-dark'>
-							<tr className='align-middle text-light'>
+							<tr className='align-middle text-color'>
 								<th style={{ minWidth: '70px' }} scope='col'>
 									Level
 								</th>

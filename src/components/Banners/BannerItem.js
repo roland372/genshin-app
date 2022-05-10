@@ -16,7 +16,7 @@ const BannerItem = props => {
 						href={props.link}
 						target='_blank'
 						rel='noreferrer'
-						className='link-info text-decoration-none'
+						className='link-color text-decoration-none'
 					>
 						{props.name}
 					</a>

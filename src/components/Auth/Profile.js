@@ -236,6 +236,100 @@ const Profile = () => {
 	// 	//* Reauthenticate user
 	// };
 
+	// const color = getComputedStyle(document.documentElement).getPropertyValue(
+	// 	'--bg-primary-dark'
+	// );
+
+	// console.log(color);
+
+	//* <----- Color Themes ----->
+	const blueTheme = {
+		primaryDark: '#12232e',
+		primaryMedium: '#203647',
+		primaryLight: '#023e8a',
+		secondaryMedium: '#284155',
+		secondaryLight: '#4da8da',
+		textColor: '#ffffff',
+		linkColor: '#0dcaf0',
+	};
+
+	const grayTheme = {
+		primaryDark: '#1c1c1c',
+		primaryMedium: '#343434',
+		primaryLight: '#696969',
+		secondaryMedium: '#555555',
+		secondaryLight: '#7c7c7c',
+		textColor: '#ffffff',
+		linkColor: '#0dcaf0',
+	};
+
+	const beigeTheme = {
+		primaryDark: '#a67a5b',
+		primaryMedium: '#c19770',
+		primaryLight: '#e8dcb5',
+		secondaryMedium: '#d5b895',
+		secondaryLight: '#faf0dc',
+		textColor: '#000000',
+		linkColor: '#0800ff',
+	};
+
+	const randomColor1 = '#' + Math.floor(Math.random() * 16777215).toString(16);
+	const randomColor2 = '#' + Math.floor(Math.random() * 16777215).toString(16);
+	const randomColor3 = '#' + Math.floor(Math.random() * 16777215).toString(16);
+	const randomColor4 = '#' + Math.floor(Math.random() * 16777215).toString(16);
+	const randomColor5 = '#' + Math.floor(Math.random() * 16777215).toString(16);
+	const randomColor6 = '#' + Math.floor(Math.random() * 16777215).toString(16);
+	const randomColor7 = '#' + Math.floor(Math.random() * 16777215).toString(16);
+
+	const randomTheme = {
+		primaryDark: randomColor1,
+		primaryMedium: randomColor2,
+		primaryLight: randomColor3,
+		secondaryMedium: randomColor4,
+		secondaryLight: randomColor5,
+		textColor: randomColor6,
+		linkColor: randomColor7,
+	};
+
+	const [theme, setTheme] = useState(() => {
+		const localTheme = JSON.parse(localStorage.getItem('themes'));
+		return localTheme || blueTheme;
+	});
+
+	const setColor = theme => {
+		document.documentElement.style.setProperty(
+			'--bg-primary-dark',
+			theme.primaryDark
+		);
+		document.documentElement.style.setProperty(
+			'--bg-primary-medium',
+			theme.primaryMedium
+		);
+		document.documentElement.style.setProperty(
+			'--bg-primary-light',
+			theme.primaryLight
+		);
+		document.documentElement.style.setProperty(
+			'--bg-secondary-medium',
+			theme.secondaryMedium
+		);
+		document.documentElement.style.setProperty(
+			'--bg-secondary-light',
+			theme.secondaryLight
+		);
+		document.documentElement.style.setProperty('--text-color', theme.textColor);
+		document.documentElement.style.setProperty('--link-color', theme.linkColor);
+		setTheme(theme);
+	};
+
+	useEffect(() => {
+		localStorage.setItem('themes', JSON.stringify(theme));
+	}, [theme]);
+
+	useEffect(() => {
+		setColor(theme);
+	}, [theme]);
+
 	return (
 		<Container>
 			{deleteFlag ? (
@@ -366,7 +460,7 @@ const Profile = () => {
 										<div className='bg-primary-dark mb-3 rounded border'>
 											<div className='row g-0'>
 												<div
-													className='col-md-4 text-center text-light'
+													className='col-md-4 text-center text-color'
 													style={{
 														borderTopLeftRadius: '0.3rem',
 														borderBottomLeftRadius: '0.3rem',
@@ -392,7 +486,7 @@ const Profile = () => {
 														<div className='row pt-1'>
 															<div className='col-12 mb-3'>
 																<h6>Email</h6>
-																<p className='text-muted'>{user.email}</p>
+																<p className='text-color'>{user.email}</p>
 															</div>
 														</div>
 														<h6>Database</h6>
@@ -402,12 +496,12 @@ const Profile = () => {
 																<h6>
 																	<Link
 																		to='/team-builder/'
-																		className='text-light'
+																		className='text-color'
 																	>
 																		Team Builder
 																	</Link>
 																</h6>
-																<p className='text-muted'>
+																<p className='text-color'>
 																	{
 																		teamsDatabase.filter(
 																			owner => owner.owner === user.uid
@@ -421,12 +515,12 @@ const Profile = () => {
 																	{' '}
 																	<Link
 																		to='/farming-planner/'
-																		className='text-light'
+																		className='text-color'
 																	>
 																		Farming Planner
 																	</Link>
 																</h6>
-																<p className='text-muted text-light'>
+																<p className='text-color text-color'>
 																	{
 																		charactersDatabase.filter(
 																			owner => owner.owner === user.uid
@@ -437,11 +531,11 @@ const Profile = () => {
 															</div>
 															<div className='col-6 mb-3'>
 																<h6>
-																	<Link to='/notes/' className='text-light'>
+																	<Link to='/notes/' className='text-color'>
 																		Notes
 																	</Link>
 																</h6>
-																<p className='text-muted text-light'>
+																<p className='text-color text-color'>
 																	{
 																		notesDatabase.filter(
 																			owner => owner.owner === user.uid
@@ -449,6 +543,45 @@ const Profile = () => {
 																	}
 																	{''} Notes
 																</p>
+															</div>
+														</div>
+														<h6>Color Themes</h6>
+														<hr className='mt-0 mb-4' />
+														<div className='pt-1 d-flex justify-content-start'>
+															<div className='mb-3 mx-2'>
+																<button
+																	className='btn btn-sm text-light'
+																	style={{ backgroundColor: '#023e8a' }}
+																	onClick={() => setColor(blueTheme)}
+																>
+																	Blue
+																</button>
+															</div>
+															<div className='mb-3 mx-2'>
+																<button
+																	className='btn btn-sm text-light'
+																	style={{ backgroundColor: '#343434' }}
+																	onClick={() => setColor(grayTheme)}
+																>
+																	Gray
+																</button>
+															</div>
+															<div className='mb-3 mx-2'>
+																<button
+																	className='btn btn-sm text-light'
+																	style={{ backgroundColor: '#c19770' }}
+																	onClick={() => setColor(beigeTheme)}
+																>
+																	Beige
+																</button>
+															</div>
+															<div className='mb-3 mx-2'>
+																<button
+																	className='btn btn-sm text-dark bg-rainbow'
+																	onClick={() => setColor(randomTheme)}
+																>
+																	Random
+																</button>
 															</div>
 														</div>
 														<h6>Settings</h6>

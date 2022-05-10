@@ -7,7 +7,7 @@ const CharacterInfo = props => {
 				className='table table-sm bg-primary-dark text-color align-middle table-borderless'
 				style={{ minWidth: '600px' }}
 			>
-				<tbody className='dark-blue text-light'>
+				<tbody className='dark-blue text-color'>
 					<tr>
 						<td rowSpan='15'>
 							<img src={props.avatar} width='200px' className='me-2' alt='' />

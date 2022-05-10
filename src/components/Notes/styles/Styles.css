@@ -1,4 +1,7 @@
 /** <----- Notes -----> */
+:root {
+	--text-color: #ffffff;
+}
 .notes {
 	/* background-color: black; */
 	/* width: 100%; */
@@ -9,7 +12,7 @@
 	display: flex;
 	/* background-color: #212529; */
 	/* background-color: #343a40; */
-	color: white;
+	color: var(--text-color);
 }
 
 .add-button,
@@ -87,7 +90,7 @@
 } */
 .app-sidebar-note small {
 	display: block;
-	color: #999;
+	color: var(--text-color);
 }
 
 .app-sidebar-note:hover {
@@ -96,7 +99,7 @@
 }
 .app-sidebar-note.active,
 .app-sidebar-note.active small {
-	color: white;
+	color: var(--text-color);
 }
 
 /** <----- Preview/editor section ----->  */
@@ -119,7 +122,7 @@
 	padding-top: 20px;
 	text-align: center;
 	font-size: 2rem;
-	color: #999;
+	color: var(--text-color);
 }
 
 .app-main-note-preview {
@@ -175,7 +178,7 @@ textarea {
 	padding: 10px;
 	font-size: inherit;
 	font-family: inherit;
-	color: white;
+	color: var(--text-color);
 }
 .app-main-note-edit input {
 	height: 50px;
