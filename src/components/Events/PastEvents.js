@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CardComponent from '../Layout/CardComponent';
 import EventsVersion from './EventsVersion';
 // import VersionButton from './VersionButton';
@@ -10,6 +10,8 @@ const PastEvents = props => {
 	Object.keys(eventsData.pastEvents).map(event =>
 		versionsArray.push(event.slice(8))
 	);
+
+	const [searchTerm, setSearchTerm] = useState('');
 
 	// const version26 = useRef(null);
 	// const version25 = useRef(null);
@@ -28,11 +30,33 @@ const PastEvents = props => {
 
 	return (
 		<CardComponent title='Past Events'>
-			{versionsArray.map(event => (
-				<div key={event}>
-					<EventsVersion version={event} eventsData={eventsData} />
-				</div>
-			))}
+			<section className='m-2'>
+				<input
+					type='text'
+					className='form-control'
+					placeholder='Search for a version, eg. 1.6'
+					onChange={event => {
+						setSearchTerm(event.target.value);
+						console.log(event.target.value);
+					}}
+				/>
+			</section>
+			{versionsArray
+				.filter(value => {
+					if (value === '') {
+						return value;
+					} else if (
+						value.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
+					) {
+						return value;
+					}
+					return 0;
+				})
+				.map(event => (
+					<div key={event}>
+						<EventsVersion version={event} eventsData={eventsData} />
+					</div>
+				))}
 
 			{/* <----- Table of Contents -----> */}
 			{/* <section className='d-flex flex-wrap justify-content-start mx-2'>

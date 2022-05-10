@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CardComponent from '../Layout/CardComponent';
 import BannersVersion from './BannersVersion';
 
@@ -10,13 +10,37 @@ const PastBanners = props => {
 		versionsArray.push(banner.slice(8))
 	);
 
+	const [searchTerm, setSearchTerm] = useState('');
+
 	return (
 		<CardComponent title='Past Banners'>
-			{versionsArray.map(banner => (
-				<div key={banner}>
-					<BannersVersion version={banner} bannersData={bannersData} />
-				</div>
-			))}
+			<section className='m-2'>
+				<input
+					type='text'
+					className='form-control'
+					placeholder='Search for a version, eg. 1.6'
+					onChange={event => {
+						setSearchTerm(event.target.value);
+						console.log(event.target.value);
+					}}
+				/>
+			</section>
+			{versionsArray
+				.filter(value => {
+					if (value === '') {
+						return value;
+					} else if (
+						value.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
+					) {
+						return value;
+					}
+					return 0;
+				})
+				.map(banner => (
+					<div key={banner}>
+						<BannersVersion version={banner} bannersData={bannersData} />
+					</div>
+				))}
 
 			{/* <----- Version 1.0 -----> */}
 			{/* <section>
