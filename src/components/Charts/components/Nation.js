@@ -1,10 +1,11 @@
 import React from 'react';
 
+//? <----- Components ----->
 import 'chart.js/auto';
 import { Chart } from 'react-chartjs-2';
 
 const Nation = props => {
-	let { nation, charactersArray } = props;
+	const { nation, charactersArray } = props;
 
 	const chartData = {
 		labels: [...new Set(nation)],

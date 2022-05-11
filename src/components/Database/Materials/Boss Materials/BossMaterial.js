@@ -1,6 +1,10 @@
 import React from 'react';
-import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+
+//? <----- Router ----->
 import { Link } from 'react-router-dom';
+
+//? <----- Components ----->
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 const BossMaterial = props => {
 	const { bossMaterial, bossName, characters } = props;

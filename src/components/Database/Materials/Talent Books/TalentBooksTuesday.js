@@ -1,4 +1,6 @@
 import React from 'react';
+
+//? <----- Components ----->
 import Table from './Components/Table';
 import TalentBook from './TalentBook';
 

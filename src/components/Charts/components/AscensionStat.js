@@ -1,34 +1,11 @@
 import React from 'react';
 
+//? <----- Components ----->
 import 'chart.js/auto';
 import { Chart } from 'react-chartjs-2';
 
 const AscensionStat = props => {
-	let { ascensionStat, charactersArray } = props;
-
-	// .text-anemo {
-	// 	color: #26a684;
-	// }
-
-	// .text-cryo {
-	// 	color: #4878a8;
-	// }
-
-	// .text-electro {
-	// 	color: #9336b0;
-	// }
-
-	// .text-geo {
-	// 	color: #b68d07;
-	// }
-
-	// .text-hydro {
-	// 	color: #0b4dda;
-	// }
-
-	// .text-pyro {
-	// 	color: #bf2818;
-	// }
+	const { ascensionStat, charactersArray } = props;
 
 	const chartData = {
 		labels: [...new Set(ascensionStat)],

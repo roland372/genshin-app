@@ -1,16 +1,17 @@
 import React from 'react';
 
+//? <----- Components ----->
 import 'chart.js/auto';
 import { Chart } from 'react-chartjs-2';
 
 const TalentBook = props => {
-	let { talentBook, charactersArray } = props;
+	const { talentBook, charactersArray } = props;
 
-	let newTalentBookArray = [...new Set(talentBook)].map(
+	const newTalentBookArray = [...new Set(talentBook)].map(
 		u => charactersArray.filter(c => c.data.talentBook.includes(u)).length
 	);
 
-	// remove last element, there was some weird bug and it had all elements for some reason
+	//* remove last element, there was some weird bug and it had all elements for some reason
 	newTalentBookArray.pop();
 
 	const chartData = {

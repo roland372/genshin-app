@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 
+//? <----- Components ----->
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
-
 import Artifact from './Artifact';
 
+//? <----- Data ----->
 import data from '../../../assets/data/Artifacts/artifacts.json';
 
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const Artifacts = () => {

@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
+
+//? <----- Components ----->
 import CardComponent from '../Layout/CardComponent';
 import BannersVersion from './BannersVersion';
 
 const PastBanners = props => {
 	const { bannersData } = props;
 
+	const [searchTerm, setSearchTerm] = useState('');
+
 	const versionsArray = [];
 	Object.keys(bannersData.pastBanners).map(banner =>
 		versionsArray.push(banner.slice(8))
 	);
-
-	const [searchTerm, setSearchTerm] = useState('');
 
 	return (
 		<CardComponent title='Past Banners'>

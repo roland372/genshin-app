@@ -1,53 +1,59 @@
 import React, { useState } from 'react';
 
+//? <----- Icons ----->
 import { IoGrid } from 'react-icons/io5';
 import { FaThList, FaSort } from 'react-icons/fa';
 
+//? <----- Components ----->
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
-import { OverlayTrigger, Tooltip } from 'react-bootstrap';
-
 import SingleCharacter from './SingleCharacter';
 import SingleCharacterGrid from './SingleCharacterGrid';
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
+//? <----- Data ----->
 import data from '../../assets/data/Characters/characters.json';
 
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../hooks/useDocumentTitle';
 
 const { characters } = data;
 
-// elements filtering
-// const allElements = [
-// 	'all',
-// 	...new Set(characters.map(elements => elements.element)),
-// ];
-
-const allElements = [...new Set(characters.map(elements => elements.element))];
-allElements.sort().unshift('All');
-
-// wepons filtering
-const allWeapons = [...new Set(characters.map(weapons => weapons.weapon))];
-allWeapons.sort();
-
 const Characters = () => {
 	useDocumentTitle('Characters');
 
-	// display as list or grid state
+	// elements filtering
+	// const allElements = [
+	// 	'all',
+	// 	...new Set(characters.map(elements => elements.element)),
+	// ];
+
+	//* Get unique names of elements and weapons
+	const allElements = [
+		...new Set(characters.map(elements => elements.element)),
+	];
+	allElements.sort().unshift('All');
+
+	//* wepons filtering
+	const allWeapons = [...new Set(characters.map(weapons => weapons.weapon))];
+	allWeapons.sort();
+
+	//* display as list or grid state
 	const [charactersDisplay, setCharactersDisplay] = useState(false);
 
-	// display menu items state
+	//* display menu items state
 	const [menuItems, setMenuItems] = useState(characters);
 
-	// elements filtering state
+	//* elements filtering state
 	const [elements, setElements] = useState(allElements);
 
-	// weapons filtering state
+	//* weapons filtering state
 	const [weapons, setWeapons] = useState(allWeapons);
 
-	// search state
+	//* search state
 	const [searchTerm, setSearchTerm] = useState('');
 
-	// sorting state
+	//* sorting state
 	const [order, setOrder] = useState('DSC');
 
 	const sorting = column => {
@@ -277,8 +283,7 @@ const Characters = () => {
 						</table>
 					</div>
 				) : (
-					// <----- Display characters as grid ----->
-
+					//* <----- Display characters as grid ----->
 					<div className='row justify-content-center align-items-center px-2'>
 						{menuItems
 							.filter(value => {

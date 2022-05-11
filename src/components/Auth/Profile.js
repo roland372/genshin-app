@@ -10,8 +10,9 @@ import { useUserAuth } from '../../context/UserAuthContext';
 //? <----- Components ----->
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
+import DeleteAccount from './DeleteAccount';
+import Loader from '../Layout/Loader';
 import { Modal } from 'react-bootstrap';
-import { Flip, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { toast } from 'react-toastify';
 
@@ -24,16 +25,49 @@ import TeamDataService from '../TeamBuilder/services/team.services';
 import CharacterDataService from '../FarmingPlanner/services/character.services';
 import NotesDataService from '../Notes/services/notes.services';
 
-//? <----- Document title hook ----->
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../hooks/useDocumentTitle';
-import DeleteAccount from './DeleteAccount';
-import Loader from '../Layout/Loader';
 
 const Profile = () => {
 	useDocumentTitle('Profile');
 
 	const { logOut, user } = useUserAuth();
+
 	const history = useHistory();
+
+	//* <----- Loading State ----->
+	const [loading, setLoading] = useState(false);
+
+	//* <----- Database State ----->
+	const [teamsDatabase, setTeamsDatabase] = useState([]);
+	const [charactersDatabase, setCharactersDatabase] = useState([]);
+	const [notesDatabase, setNotesDatabase] = useState([]);
+
+	//* <----- User State ----->
+	const [name, setName] = useState('');
+	const [photo, setPhoto] = useState(null);
+	const [photoURL, setPhotoURL] = useState(
+		'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'
+	);
+	const [profileColor, setProfileColor] = useState('');
+	const [description, setDescription] = useState('');
+
+	const [usersDatabase, setUsersDatabase] = useState([]);
+	const [currentUser, setCurrentUser] = useState(null);
+
+	const [
+		deleteFlag,
+		// setDeleteFlag
+	] = useState(false);
+
+	//* <----- Modal State ----->
+	const [showModal, setShowModal] = useState(false);
+
+	//* <----- Color Themes State ----->
+	const [theme, setTheme] = useState(() => {
+		const localTheme = JSON.parse(localStorage.getItem('themes'));
+		return localTheme || blueTheme;
+	});
 
 	//* <----- Toast Notifications ----->
 	const profileUpdatedNotification = () =>
@@ -69,44 +103,9 @@ const Profile = () => {
 			progress: '',
 		});
 
-	// const initializeUser = async () => {
-	// await addDoc(collection(db, 'users'), {
-	// 	uid: user.uid,
-	// 	// eslint-disable-next-line no-restricted-globals
-	// 	name: user.displayName,
-	// 	authProvider: 'firebase',
-	// 	email: user.email,
-	// 	description: '',
-	// });
-	// };
-
-	// initializeUser();
-
-	const [loading, setLoading] = useState(false);
-
-	//* <----- Database State ----->
-	const [teamsDatabase, setTeamsDatabase] = useState([]);
-	const [charactersDatabase, setCharactersDatabase] = useState([]);
-	const [notesDatabase, setNotesDatabase] = useState([]);
-
-	//* <----- User State ----->
-	const [name, setName] = useState('');
-	const [photo, setPhoto] = useState(null);
-	const [photoURL, setPhotoURL] = useState(
-		'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'
-	);
-	const [profileColor, setProfileColor] = useState('');
-	const [description, setDescription] = useState('');
-
-	//* <----- Modal State ----->
-	const [showModal, setShowModal] = useState(false);
-
 	//* <----- Modal functions ----->
 	const handleCloseModal = () => setShowModal(false);
 	const handleShowModal = () => setShowModal(true);
-
-	const [usersDatabase, setUsersDatabase] = useState([]);
-	const [currentUser, setCurrentUser] = useState(null);
 
 	//* <----- Upload image ----->
 	const upload = async (file, currentUser, setLoading) => {
@@ -128,7 +127,7 @@ const Profile = () => {
 		fileUploadNotification();
 	};
 
-	//* <----- Fetch data from database ----->
+	//* <----- Fetch user data from database ----->
 	useEffect(() => {
 		user && getTeamsDatabase();
 		user && getCharactersDatabase();
@@ -162,20 +161,7 @@ const Profile = () => {
 		getCurrentUser();
 	}, [usersDatabase, user.uid]);
 
-	// currentUser?.[0]?.uid
-	// 	? console.log('user exists')
-	// 	: console.log('user doesnt exists');
-
-	// useEffect(() => {
-	// 	if (currentUser?.[0]?.uid !== user.uid) {
-	// 		console.log('user doesnt exists');
-	// 	} else {
-	// 		console.log('user exists');
-	// 	}
-	// }, [currentUser, user.uid]);
-
-	// console.log(user?.uid);
-
+	//* <----- Get user collections from database ----->
 	const getTeamsDatabase = async () => {
 		const data = await TeamDataService.getAllTeams();
 		setTeamsDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
@@ -193,6 +179,7 @@ const Profile = () => {
 		setNotesDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
 	};
 
+	//* <----- Handler functions ----->
 	const handleLogout = async () => {
 		try {
 			await logOut();
@@ -228,21 +215,18 @@ const Profile = () => {
 		}
 	};
 
-	const [deleteFlag] = useState(false);
-	// const [deleteFlag, setDeleteFlag] = useState(false);
-
 	// const handleDeleteAccount = () => {
 	// 	setDeleteFlag(true);
 	// 	//* Reauthenticate user
 	// };
 
+	//* <----- Color Themes ----->
 	// const color = getComputedStyle(document.documentElement).getPropertyValue(
 	// 	'--bg-primary-dark'
 	// );
 
 	// console.log(color);
 
-	//* <----- Color Themes ----->
 	const blueTheme = {
 		primaryDark: '#12232e',
 		primaryMedium: '#203647',
@@ -291,11 +275,6 @@ const Profile = () => {
 		linkColor: randomColor7,
 	};
 
-	const [theme, setTheme] = useState(() => {
-		const localTheme = JSON.parse(localStorage.getItem('themes'));
-		return localTheme || blueTheme;
-	});
-
 	const setColor = theme => {
 		document.documentElement.style.setProperty(
 			'--bg-primary-dark',
@@ -322,11 +301,9 @@ const Profile = () => {
 		setTheme(theme);
 	};
 
+	//* when theme is changing, update it in local storage
 	useEffect(() => {
 		localStorage.setItem('themes', JSON.stringify(theme));
-	}, [theme]);
-
-	useEffect(() => {
 		setColor(theme);
 	}, [theme]);
 
@@ -341,19 +318,6 @@ const Profile = () => {
 				/>
 			) : (
 				<CardComponent title='Profile'>
-					<ToastContainer
-						position='top-center'
-						autoClose={2000}
-						hideProgressBar={false}
-						newestOnTop
-						closeOnClick
-						rtl={false}
-						pauseOnFocusLoss={false}
-						draggable
-						pauseOnHover={false}
-						transition={Flip}
-						theme='dark'
-					/>
 					<Modal show={showModal} onHide={handleCloseModal}>
 						<Modal.Header closeButton className='bg-primary-light text-color'>
 							<Modal.Title>Edit Profile</Modal.Title>
@@ -440,12 +404,6 @@ const Profile = () => {
 							{/* <button className='btn btn-danger' onClick={handleDeleteAccount}>
 								Delete Account
 							</button> */}
-							{/* <button
-						className='btn btn-danger'
-						onClick={() => console.log('deleted')}
-					>
-						Delete Account
-					</button> */}
 						</Modal.Body>
 					</Modal>
 					{usersDatabase.length === 0 ? (
@@ -453,7 +411,6 @@ const Profile = () => {
 					) : (
 						<section>
 							<h5 className='py-2'>Welcome {user && user.email}</h5>
-
 							<section className='py-2 mx-2'>
 								<div className='d-flex justify-content-center align-items-center'>
 									<div className='col col-lg-6 mb-4 mb-lg-0'>

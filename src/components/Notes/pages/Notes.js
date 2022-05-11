@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
-import Container from '../../../components/Layout/Container';
-import CardComponent from '../../../components/Layout/CardComponent';
 
 //? <----- Styles ----->
 import '../styles/Styles.css';
 
 //? <----- Components ----->
+import Container from '../../../components/Layout/Container';
+import CardComponent from '../../../components/Layout/CardComponent';
 import Main from '../components/Main';
 import Sidebar from '../components/Sidebar';
 import { toast } from 'react-toastify';
@@ -16,7 +16,7 @@ import NotesDataService from '../services/notes.services';
 //? <----- Auth ----->
 import { useUserAuth } from '../../../context/UserAuthContext';
 
-//? <----- Document title hook ----->
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const Notes = () => {

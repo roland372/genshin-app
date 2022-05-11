@@ -1,7 +1,9 @@
 import React from 'react';
 
+//? <----- Router ----->
 import { Link } from 'react-router-dom';
 
+//? <----- Components ----->
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 const SingleCharacterGrid = props => {
@@ -28,10 +30,7 @@ const SingleCharacterGrid = props => {
 				}
 			>
 				<div>
-					<Link
-						className='link-color'
-						to={`characters/${props.url}`}
-					>
+					<Link className='link-color' to={`characters/${props.url}`}>
 						<img
 							src={props.icon}
 							width='100px'

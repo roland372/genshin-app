@@ -1,4 +1,6 @@
 import React from 'react';
+
+//? <----- Components ----->
 import CardComponent from '../../../Layout/CardComponent';
 import WeaponMaterial from './WeaponMaterial';
 import Table from './Components/Table';

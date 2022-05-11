@@ -10,6 +10,7 @@ import {
 	addDoc,
 } from 'firebase/firestore';
 
+//* create reference to users collection
 const userCollectionRef = collection(db, 'users');
 
 class UserDataService {
@@ -18,13 +19,13 @@ class UserDataService {
 	};
 
 	updateUser = (id, updatedUser) => {
-		// check if exists in database(collection)
+		//* check if user exists in database(collection)
 		const userDoc = doc(db, 'users', id);
 		return updateDoc(userDoc, updatedUser);
 	};
 
 	deleteUser = id => {
-		// check if exists in database(collection)
+		//* check if user exists in database(collection)
 		const userDoc = doc(db, 'users', id);
 		return deleteDoc(userDoc);
 	};

@@ -12,7 +12,7 @@ import CardComponent from '../Layout/CardComponent';
 import GoogleButton from 'react-google-button';
 import { toast } from 'react-toastify';
 
-//? <----- Document title hook ----->
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../hooks/useDocumentTitle';
 
 const Login = () => {
@@ -20,10 +20,11 @@ const Login = () => {
 
 	const { logIn, googleSignIn, user } = useUserAuth();
 
+	const history = useHistory();
+
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
 	const [error, setError] = useState('');
-	const history = useHistory();
 
 	const loggedInNotification = () =>
 		toast.success(`Logged In`, {
@@ -61,7 +62,7 @@ const Login = () => {
 		loggedInNotification();
 	};
 
-	// if user is already logged in
+	//* if user is already logged in
 	useEffect(() => {
 		if (user) history.push('/profile');
 	});

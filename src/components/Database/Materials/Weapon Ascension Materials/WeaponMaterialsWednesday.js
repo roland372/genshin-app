@@ -1,4 +1,6 @@
 import React from 'react';
+
+//? <----- Components ----->
 import WeaponMaterial from './WeaponMaterial';
 import Table from './Components/Table';
 

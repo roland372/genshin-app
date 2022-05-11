@@ -18,7 +18,7 @@ import TeamDataService from '../TeamBuilder/services/team.services';
 import CharacterDataService from '../FarmingPlanner/services/character.services';
 import NotesDataService from '../Notes/services/notes.services';
 
-//? <----- Document title hook ----->
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../hooks/useDocumentTitle';
 
 const DeleteAccount = props => {
@@ -26,12 +26,13 @@ const DeleteAccount = props => {
 
 	const { notesDatabase, teamsDatabase, charactersDatabase, usersDatabase } =
 		props;
+
 	const { logIn, googleSignIn, user } = useUserAuth();
+	const history = useHistory();
 
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
 	const [error, setError] = useState('');
-	const history = useHistory();
 
 	//* <----- Toast Notifications ----->
 	const accountDeletedNotification = () =>
@@ -45,7 +46,7 @@ const DeleteAccount = props => {
 			progress: '',
 		});
 
-	//* <----- Log in handlers ----->
+	//* <----- Login handlers ----->
 	const handleSubmit = async e => {
 		e.preventDefault();
 		setError('');

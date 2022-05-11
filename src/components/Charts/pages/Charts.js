@@ -1,8 +1,8 @@
 import React from 'react';
 
+//? <----- Components ----->
 import CardComponent from '../../Layout/CardComponent';
 import Container from '../../Layout/Container';
-
 import Element from '../components/Element';
 import Weapon from '../components/Weapon';
 import Nation from '../components/Nation';
@@ -13,9 +13,11 @@ import AscensionStat from '../components/AscensionStat';
 import CharacterStatsATKDEF from '../components/CharacterStatsATKDEF';
 import CharacterStatsHP from '../components/CharacterStatsHP';
 
+//? <----- Data ----->
 import characters from '../../../constants/characters';
 import charactersData from '../../../assets/data/Characters/characters.json';
 
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const Charts = () => {

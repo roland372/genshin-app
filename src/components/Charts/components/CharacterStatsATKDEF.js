@@ -1,10 +1,11 @@
 import React from 'react';
 
+//? <----- Components ----->
 import 'chart.js/auto';
 import { Chart } from 'react-chartjs-2';
 
 const CharacterStats = props => {
-	let { charactersArray } = props;
+	const { charactersArray } = props;
 
 	const chartData = {
 		labels: charactersArray.map(c => c.name),

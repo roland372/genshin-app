@@ -1,4 +1,6 @@
 import React from 'react';
+
+//? <----- Components ----->
 import { Accordion } from 'react-bootstrap';
 
 const Category = props => {

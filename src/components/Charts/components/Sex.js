@@ -1,10 +1,11 @@
 import React from 'react';
 
+//? <----- Components ----->
 import 'chart.js/auto';
 import { Chart } from 'react-chartjs-2';
 
 const Sex = props => {
-	let { sex, charactersArray } = props;
+	const { sex, charactersArray } = props;
 
 	const chartData = {
 		labels: [...new Set(sex.filter(s => s !== "Player's Choice"))],
@@ -15,13 +16,13 @@ const Sex = props => {
 					u =>
 						charactersArray.filter(
 							c =>
-								c.data.name !== 'Traveler Anemo' &&
-								c.data.name !== 'Traveler Geo' &&
-								c.data.name !== 'Traveler Electro' &&
-								c.data.name !== 'Traveler Dendro' &&
-								c.data.name !== 'Traveler Hydro' &&
-								c.data.name !== 'Traveler Pyro' &&
-								c.data.name !== 'Traveler Cryo' &&
+								c.data.name !== 'Traveler (Anemo)' &&
+								c.data.name !== 'Traveler (Geo)' &&
+								c.data.name !== 'Traveler (Electro)' &&
+								c.data.name !== 'Traveler (Dendro)' &&
+								c.data.name !== 'Traveler (Hydro)' &&
+								c.data.name !== 'Traveler (Pyro)' &&
+								c.data.name !== 'Traveler (Cryo)' &&
 								c.data.sex.includes(u)
 						).length
 				),

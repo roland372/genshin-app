@@ -1,19 +1,23 @@
 import React, { useRef } from 'react';
+
+//? <----- Router ----->
 import { Link } from 'react-router-dom';
+
+//? <----- Components ----->
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
 import useDimensions from 'react-cool-dimensions';
-
-// <----- character components ----->
 import CharacterInfo from './CharacterInfo';
 import CharacterInfoSmall from './CharacterInfoSmall';
 import Stats from './Stats';
 import TalentMaterials from './TalentMaterials';
 import Ascensions from './Ascensions';
 
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../hooks/useDocumentTitle';
 
 const Character = props => {
+	//* Reference to components
 	const infoSection = useRef(null);
 	const statsSection = useRef(null);
 	const talentsSection = useRef(null);
@@ -21,6 +25,7 @@ const Character = props => {
 	const constellationsSection = useRef(null);
 	const ascensionsSection = useRef(null);
 
+	//* Navigate to specific section
 	const gotoInfoSection = () =>
 		window.scrollTo({
 			top: infoSection.current.offsetTop - 150,
@@ -81,6 +86,7 @@ const Character = props => {
 
 	useDocumentTitle(name);
 
+	//* Get component's width
 	const { observe, width } = useDimensions({});
 
 	return (

@@ -1,7 +1,10 @@
 import React from 'react';
+
+//? <----- Components ----->
 import CardComponent from '../Layout/CardComponent';
 
 const CurrentBanners = props => {
+	//* get current date and format it
 	let today;
 	let objToday = new Date();
 	let dayOfMonth =

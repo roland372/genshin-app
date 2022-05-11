@@ -1,28 +1,11 @@
 import React from 'react';
 
+//? <----- Components ----->
 import 'chart.js/auto';
 import { Chart } from 'react-chartjs-2';
 
 const Rarity = props => {
-	let { rarity, charactersArray } = props;
-
-	// .rarity5bg {
-	// 	background: linear-gradient(
-	// 		-3deg,
-	// 		rgba(105, 84, 83, 0.565) 0%,
-	// 		rgba(161, 112, 78, 0.565) 39%,
-	// 		rgba(228, 171, 82, 0.565) 100%
-	// 	);
-	// }
-
-	// .rarity4bg {
-	// 	background: linear-gradient(
-	// 		-3deg,
-	// 		rgba(89, 84, 130, 0.565) 0%,
-	// 		rgba(120, 102, 157, 0.565) 39%,
-	// 		rgba(183, 133, 201, 0.565) 100%
-	// 	);
-	// }
+	const { rarity, charactersArray } = props;
 
 	const chartData = {
 		labels: [...new Set(rarity)],

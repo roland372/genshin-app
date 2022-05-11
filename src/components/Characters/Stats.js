@@ -1,4 +1,6 @@
 import React from 'react';
+
+//? <----- Components ----->
 import CardComponent from '../Layout/CardComponent';
 
 const CharacterStats = props => {
