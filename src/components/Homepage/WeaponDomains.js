@@ -1,9 +1,13 @@
 import React from 'react';
+
+//? <----- Components ----->
 import CardComponent from '../Layout/CardComponent';
 import WeaponMaterialsMonday from '../Database/Materials/Weapon Ascension Materials/WeaponMaterialsMonday';
 import WeaponMaterialsTuesday from '../Database/Materials/Weapon Ascension Materials/WeaponMaterialsTuesday';
 import WeaponMaterialsWednesday from '../Database/Materials/Weapon Ascension Materials/WeaponMaterialsWednesday';
 import WeaponMaterialsSunday from '../Database/Materials/Weapon Ascension Materials/WeaponMaterialsSunday';
+
+//? <----- Data ----->
 import weaponsData from '../../assets/data/Weapons/weapons.json';
 
 const WeaponDomains = () => {

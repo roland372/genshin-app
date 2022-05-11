@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react';
+
+//? <----- Router ----->
 import { useParams } from 'react-router-dom';
 
+//? <----- Components ----->
 import CardComponent from '../../Layout/CardComponent';
 import Container from '../../Layout/Container';
-
 import BackButton from './BackButton';
 import Characters from './Characters';
 import CharactersHeading from './CharactersHeading';
 
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const TeamLocalStorage = props => {

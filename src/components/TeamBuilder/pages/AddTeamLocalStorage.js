@@ -1,18 +1,20 @@
 import React, { useState } from 'react';
+
+//? <----- Router ----->
 import { useHistory } from 'react-router-dom';
 
-import { toast } from 'react-toastify';
-
+//? <----- Components ----->
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
-
 import Characters from '../components/Characters';
 import Form from '../components/Form';
 import BackButton from '../components/BackButton';
 import SubmitButton from '../components/SubmitButton';
 import CharactersHeading from '../components/CharactersHeading';
 import validation from '../components/FormValidation';
+import { toast } from 'react-toastify';
 
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const AddTeamToLocalStorage = props => {
@@ -42,13 +44,13 @@ const AddTeamToLocalStorage = props => {
 	});
 
 	const getLocalStorage = () => {
-		// get list from local storage
+		//* get list from local storage
 		let teams = localStorage.getItem('teams');
-		// if list exists - is in local storage
+		//* if list exists - is in local storage
 		if (teams) {
 			return JSON.parse(localStorage.getItem('teams'));
 		}
-		// if list doesn't exists
+		//* if list doesn't exists
 		else {
 			return [];
 		}

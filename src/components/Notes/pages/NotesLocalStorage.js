@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
-import Container from '../../../components/Layout/Container';
-import CardComponent from '../../../components/Layout/CardComponent';
 
 //? <----- Styles ----->
 import '../styles/Styles.css';
 
 //? <----- Components ----->
+import Container from '../../../components/Layout/Container';
+import CardComponent from '../../../components/Layout/CardComponent';
 import Main from '../components/Main';
 import Sidebar from '../components/Sidebar';
 

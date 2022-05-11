@@ -1,20 +1,23 @@
 import React, { useState } from 'react';
 
+//? <----- Components ----->
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
-
 import Modal from './Modal';
 import Namecards from './Namecards';
 import Avatar from './Avatar';
 import Card from './Card';
 
+//? <----- Data ----->
 import characters from '../../constants/characters';
 
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../hooks/useDocumentTitle';
 
 const ImageGallery = () => {
 	useDocumentTitle('Image Gallery');
 
+	//* filter out Traveler character, they don't have proper images
 	const filteredCharacters = characters.filter(
 		c =>
 			c.data.name !== 'Traveler (Anemo)' &&

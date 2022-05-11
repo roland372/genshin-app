@@ -1,21 +1,22 @@
 import React, { useState, useEffect } from 'react';
 
+//? <----- Components ----->
 import Container from '../Layout/Container';
 import CardComponent from '../Layout/CardComponent';
-
 import List from './List';
 import Alert from './Alert';
 
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../hooks/useDocumentTitle';
 
 const getLocalStorage = () => {
-	// get list from local storage
+	//* get list from local storage
 	let list = localStorage.getItem('list');
-	// if list exists - is in local storage
+	//* if list exists - is in local storage
 	if (list) {
 		return JSON.parse(localStorage.getItem('list'));
 	}
-	// if list doesn't exists
+	//* if list doesn't exists
 	else {
 		return [];
 	}
@@ -37,14 +38,14 @@ const TodoList = () => {
 	const handleSubmit = e => {
 		e.preventDefault();
 		if (!name) {
-			// display alert
+			//* display alert
 			showAlert(true, 'danger', 'Please enter value');
 		} else if (name && isEditing) {
-			// deal with edit
+			//* deal with edit
 			setList(
 				list.map(item => {
 					if (item.id === editID) {
-						return { ...item, title: name }; // if we're editing correct element, then copy all previous values, but change that one we're editing
+						return { ...item, title: name }; //* if we're editing correct element, then copy all previous values, but change that one we're editing
 					}
 					return item;
 				})
@@ -54,12 +55,12 @@ const TodoList = () => {
 			setIsEditing(false);
 			showAlert(true, 'success', 'Item edited');
 		} else {
-			// show alert
+			//* show alert
 			showAlert(true, 'success', 'Item added to the list');
 			const newItem = { id: new Date().getTime().toString(), title: name };
-			// get values from previous list, and add new one into it
+			//* get values from previous list, and add new one into it
 			setList([...list, newItem]);
-			setName(''); // clear imput after submitting
+			setName(''); //* clear input after submitting
 		}
 	};
 
@@ -84,7 +85,7 @@ const TodoList = () => {
 		setName(specificItem.title);
 	};
 
-	// for local storage we wanna use useEffect, to call the function every time we change something in our todolist
+	//* for local storage we wanna use useEffect, to call the function every time we change something in our todolist
 	useEffect(() => {
 		localStorage.setItem('list', JSON.stringify(list));
 	}, [list]);

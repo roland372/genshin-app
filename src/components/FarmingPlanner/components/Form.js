@@ -1,9 +1,10 @@
 import React from 'react';
+
+//? <----- Components ----->
 import Select from 'react-select';
 import Character from './Character';
 import Materials from './Materials';
 import SubmitButton from './SubmitButton';
-
 import Talents from './Talents';
 import Templates from './Templates';
 

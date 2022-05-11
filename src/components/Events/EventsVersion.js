@@ -1,12 +1,14 @@
 import React from 'react';
+
+//? <----- Components ----->
 import EventItem from './EventItem';
 import EventHeading from './EventHeading';
 
 const EventsVersion = props => {
-	let { eventsData, version, reference } = props;
+	const { eventsData, version } = props;
 
 	return (
-		<section ref={reference}>
+		<section>
 			<h5 className='text-start ms-3 mt-4'>Version {version}</h5>
 			<EventHeading>
 				{eventsData.pastEvents[`version ${version}`].map((e, index) => {

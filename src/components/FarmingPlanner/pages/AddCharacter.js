@@ -1,25 +1,30 @@
 import React, { useEffect } from 'react';
+
+//? <----- Router ----->
 import { useHistory } from 'react-router-dom';
 
-import { toast } from 'react-toastify';
-
-import CharacterDataService from '../services/character.services';
-
+//? <----- Components ----->
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
+import Form from '../components/Form';
+import BackButton from '../components/BackButton';
+import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
+import { toast } from 'react-toastify';
 
+//? <----- Firebase ----->
+import CharacterDataService from '../services/character.services';
+
+//? <----- Utils ----->
 import levelOptions from '../utils/levelOptions';
 import talentOptions from '../utils/talentOptions';
 
-import Form from '../components/Form';
-import BackButton from '../components/BackButton';
-
-import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
-
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const AddCharacter = props => {
 	useDocumentTitle('Add Character');
+
+	const history = useHistory();
 
 	const characterAddedNotification = () =>
 		toast.success('Character Added', {
@@ -31,8 +36,6 @@ const AddCharacter = props => {
 			draggable: true,
 			progress: '',
 		});
-
-	let history = useHistory();
 
 	let {
 		//* <----- authenicated user uid ----->
@@ -283,20 +286,9 @@ const AddCharacter = props => {
 		} catch (err) {
 			console.log(err);
 		}
-
-		// await axios.post(
-		// 	'http://localhost:3003/farming-planner/characters',
-		// 	character
-		// );
-
-		// setFormErrors(validation(name, select));
-		// if (name.length !== 0 && select.length >= 4) {
-		// 	await axios.post('http://localhost:3003/team-builder/teams', team);
-		// 	history.push('/team-builder/');
-		// }
 	};
 
-	// cleanup values when component unmounts
+	//* clean inputs when component unmounts
 	useEffect(() => {
 		setCharacterSelect('');
 		setLevelLow(1);
@@ -374,7 +366,7 @@ const AddCharacter = props => {
 						setCharacterSelect={setCharacterSelect}
 						// onInputChange={onInputChange}
 						formErrors
-						// submit button
+						//* submit button
 						color={'primary'}
 						text={'Add Character'}
 					/>

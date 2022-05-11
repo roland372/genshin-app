@@ -1,26 +1,33 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+//? <----- Router ----->
+import { Route, Switch } from 'react-router-dom';
+
+//? <----- User Auth ----->
+import { useUserAuth } from '../../../context/UserAuthContext';
+
+//? <----- Components ----->
 import Teams from './Teams';
 import Team from '../components/Team';
 import AddTeam from './AddTeam';
 import EditTeam from './EditTeam';
-
 // import TeamsLocalStorage from './TeamsLocalStorage';
 // import TeamLocalStorage from '../components/TeamLocalStorage';
 // import AddTeamLocalStorage from './AddTeamLocalStorage';
 // import EditTeamLocalStorage from './EditTeamLocalStorage';
 
+//? <----- Firebase ----->
+import TeamDataService from '../services/team.services';
+
+//? <----- Data ----->
 import characters from '../../../assets/data/Characters/characters.json';
 
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
-// import { useUserAuth } from '../../../context/UserAuthContext';
-
 const TeamBuilder = () => {
 	useDocumentTitle('Team Builder');
 
-	// const { user } = useUserAuth();
+	const { user } = useUserAuth();
 
 	// reusable function to filter out characters
 	const filterCharacters = teamsArray => {
@@ -50,69 +57,82 @@ const TeamBuilder = () => {
 	// console.log(characterNames);
 
 	return (
-		<Router>
-			<Switch>
-				<Route exact path='/team-builder'>
-					<Teams
-						characters={characters.characters}
-						filterCharacters={filterCharacters}
-						characterNames={characterNames}
-					/>
-				</Route>
-				<Route exact path='/team-builder/teams/add'>
-					<AddTeam
-						characters={characters.characters}
-						filterCharacters={filterCharacters}
-						characterNames={characterNames}
-					/>
-				</Route>
-				<Route exact path='/team-builder/teams/edit/:id'>
-					<EditTeam
-						characters={characters.characters}
-						filterCharacters={filterCharacters}
-						characterNames={characterNames}
-					/>
-				</Route>
-				<Route exact path='/team-builder/teams/:id'>
-					<Team
-						characters={characters.characters}
-						filterCharacters={filterCharacters}
-						characterNames={characterNames}
-					/>
-				</Route>
-			</Switch>
-			{/* <Switch>
-				<Route exact path='/team-builder'>
-					<TeamsLocalStorage
-						characters={characters.characters}
-						filterCharacters={filterCharacters}
-						characterNames={characterNames}
-					/>
-				</Route>
-				<Route exact path='/team-builder/teams/add'>
-					<AddTeamLocalStorage
-						characters={characters.characters}
-						filterCharacters={filterCharacters}
-						characterNames={characterNames}
-					/>
-				</Route>
-				<Route exact path='/team-builder/teams/edit/:id'>
-					<EditTeamLocalStorage
-						characters={characters.characters}
-						filterCharacters={filterCharacters}
-						characterNames={characterNames}
-					/>
-				</Route>
-				<Route exact path='/team-builder/teams/:id'>
-					<TeamLocalStorage
-						characters={characters.characters}
-						filterCharacters={filterCharacters}
-						characterNames={characterNames}
-					/>
-				</Route>
-			</Switch> */}
-		</Router>
+		<Switch>
+			<Route exact path='/team-builder'>
+				<Teams
+					characters={characters.characters}
+					filterCharacters={filterCharacters}
+					characterNames={characterNames}
+					user={user}
+					TeamDataService={TeamDataService}
+					useDocumentTitle={useDocumentTitle}
+				/>
+			</Route>
+			<Route exact path='/team-builder/teams/add'>
+				<AddTeam
+					characters={characters.characters}
+					filterCharacters={filterCharacters}
+					characterNames={characterNames}
+					user={user}
+					TeamDataService={TeamDataService}
+					useDocumentTitle={useDocumentTitle}
+				/>
+			</Route>
+			<Route exact path='/team-builder/teams/edit/:id'>
+				<EditTeam
+					characters={characters.characters}
+					filterCharacters={filterCharacters}
+					characterNames={characterNames}
+					user={user}
+					TeamDataService={TeamDataService}
+					useDocumentTitle={useDocumentTitle}
+				/>
+			</Route>
+			<Route exact path='/team-builder/teams/:id'>
+				<Team
+					characters={characters.characters}
+					filterCharacters={filterCharacters}
+					characterNames={characterNames}
+					user={user}
+					TeamDataService={TeamDataService}
+					useDocumentTitle={useDocumentTitle}
+				/>
+			</Route>
+		</Switch>
 	);
 };
 
 export default TeamBuilder;
+
+//* local storage
+/* <Switch>
+		<Route exact path='/team-builder'>
+			<TeamsLocalStorage
+				characters={characters.characters}
+				filterCharacters={filterCharacters}
+				characterNames={characterNames}
+			/>
+		</Route>
+		<Route exact path='/team-builder/teams/add'>
+			<AddTeamLocalStorage
+				characters={characters.characters}
+				filterCharacters={filterCharacters}
+				characterNames={characterNames}
+			/>
+		</Route>
+		<Route exact path='/team-builder/teams/edit/:id'>
+			<EditTeamLocalStorage
+				characters={characters.characters}
+				filterCharacters={filterCharacters}
+				characterNames={characterNames}
+			/>
+		</Route>
+		<Route exact path='/team-builder/teams/:id'>
+			<TeamLocalStorage
+				characters={characters.characters}
+				filterCharacters={filterCharacters}
+				characterNames={characterNames}
+				useDocumentTitle={useDocumentTitle}
+			/>
+		</Route>
+	</Switch> */

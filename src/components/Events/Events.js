@@ -1,27 +1,23 @@
 import React from 'react';
 
+//? <----- Components ----->
 import Container from '../Layout/Container';
-
 import CurrentEvents from './CurrentEvents';
 import PastEvents from './PastEvents';
 
+//? <----- Data ----->
 import eventsData from '../../assets/data/Events/events.json';
 
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../hooks/useDocumentTitle';
 
 const Events = () => {
 	useDocumentTitle('Events');
 
-	const gotoVersion = version =>
-		window.scrollTo({
-			top: version.current.offsetTop - 70,
-			behavior: 'smooth',
-		});
-
 	return (
 		<Container>
 			<CurrentEvents eventsData={eventsData} />
-			<PastEvents eventsData={eventsData} gotoVersion={gotoVersion} />
+			<PastEvents eventsData={eventsData} />
 		</Container>
 	);
 };

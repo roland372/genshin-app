@@ -1,29 +1,24 @@
 import React, { useState } from 'react';
+
+//? <----- Router ----->
 import { useHistory } from 'react-router-dom';
 
-import { toast } from 'react-toastify';
-
-import TeamDataService from '../services/team.services';
-
+//? <----- Components ----->
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
-
 import Characters from '../components/Characters';
 import Form from '../components/Form';
 import BackButton from '../components/BackButton';
 import SubmitButton from '../components/SubmitButton';
 import CharactersHeading from '../components/CharactersHeading';
 import validation from '../components/FormValidation';
-
-import useDocumentTitle from '../../../hooks/useDocumentTitle';
-
-import { useUserAuth } from '../../../context/UserAuthContext';
 import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
+import { toast } from 'react-toastify';
 
 const AddTeam = props => {
-	useDocumentTitle('Add Team');
+	const { user, TeamDataService, useDocumentTitle } = props;
 
-	const { user } = useUserAuth();
+	useDocumentTitle('Add Team');
 
 	const teamAddedNotification = () =>
 		toast.success('Team Added', {
@@ -79,8 +74,6 @@ const AddTeam = props => {
 
 		setFormErrors(validation(name, select));
 		if (name.length !== 0 && select.length >= 4) {
-			// await axios.post('http://localhost:3003/team-builder/teams', team);
-
 			try {
 				await TeamDataService.addTeam(team);
 				console.log('team added to database');

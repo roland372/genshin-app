@@ -1,21 +1,25 @@
 import React, { useEffect, useRef } from 'react';
+
+//? <----- Router ----->
 import { useHistory, useParams } from 'react-router-dom';
 
-import { toast } from 'react-toastify';
-
-import CharacterDataService from '../services/character.services';
-
+//? <----- Components ----->
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
+import EditForm from '../components/EditForm';
+import BackButton from '../components/BackButton';
+import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
+import { toast } from 'react-toastify';
 
+//? <----- Firebase ----->
+import CharacterDataService from '../services/character.services';
+
+//? <----- Utils ----->
 import levelOptions from '../utils/levelOptions';
 import talentOptions from '../utils/talentOptions';
 
-import EditForm from '../components/EditForm';
-import BackButton from '../components/BackButton';
-
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
-import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
 
 const EditCharacter = props => {
 	useDocumentTitle('Edit Character');
@@ -94,28 +98,10 @@ const EditCharacter = props => {
 
 	const { id } = useParams();
 
-	// useEffect(() => {
-	// 	const loadCharacter = async id => {
-	// 		const res = await axios.get(`http://localhost:3003/characters/${id}`);
-	// 		// console.log(res.data);
-	// 		setCharacter(res.data);
-	// 		previousCharacter.current = { ...res.data };
-	// 	};
-
-	// 	loadCharacter(id);
-	// }, [id, setCharacter, name]);
-
-	// const getCharactersDatabase = async () => {
-	// 	const data = await CharacterDataService.getAllCharacters();
-	// 	// console.log(data.docs);
-	// 	setCharacter(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
-	// };
-
 	useEffect(() => {
 		const getCharacterDatabase = async id => {
 			const data = await CharacterDataService.getCharacter(id);
 			setCharacter(data.data());
-			// previousTeam.current = [...data.data().teamMembers];
 		};
 		getCharacterDatabase(id);
 		// getCharactersDatabase();
@@ -304,21 +290,16 @@ const EditCharacter = props => {
 	const onSubmit = async e => {
 		e.preventDefault();
 
-		console.log(character);
-		console.log('submitted');
+		// console.log(character);
+		// console.log('submitted');
 
 		await CharacterDataService.updateCharacter(id, character);
-
-		// await axios.put(
-		// 	`http://localhost:3003/farming-planner/characters/${id}`,
-		// 	character
-		// );
 
 		characterEditedNotification();
 		history.push('/farming-planner/');
 	};
 
-	//* cleanup values when component unmounts
+	//* clean input values when component unmounts
 	useEffect(() => {
 		setLevelLow(1);
 		setLevelHigh(1);

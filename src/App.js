@@ -1,15 +1,16 @@
-// <--- React --->
 import { React, Fragment } from 'react';
+
+//? <----- Router ----->
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-// <----- Auth Context ----->
+//? <----- User Auth ----->
 import { UserAuthContextProvider } from './context/UserAuthContext';
 import ProtectedRoute from './components/Auth/ProtectedRoute';
 import Profile from './components/Auth/Profile';
 import Login from './components/Auth/Login';
 import Signup from './components/Auth/Signup';
 
-// <--- Pages --->
+//? <----- Pages ----->
 import about from './pages/about';
 import achievements from './pages/achievements';
 import artifacts from './pages/artifacts';
@@ -31,7 +32,7 @@ import test from './pages/test';
 import todoList from './pages/todoList';
 import weapons from './pages/weapons';
 
-// <--- Styles --->
+//? <----- Styles ----->
 import Layout from './components/Layout/Layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';

@@ -1,23 +1,29 @@
 import React, { useState, useEffect } from 'react';
+
+//? <----- Router ----->
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+//? <----- Components ----->
 import Characters from './Characters';
 import AddCharacter from './AddCharacter';
 // import EditCharacter from './EditCharacter';
 import CharacterInfo from '../components/CharacterInfo';
 
-// import levelOptions from '../utils/levelOptions';
-// import talentOptions from '../utils/talentOptions';
+//? <----- Firebase ----->
+import CharactersDataService from '../services/character.services';
+
+//? <----- Utils ----->
 import { characterLevelUp } from '../utils/materials';
 import { talentLevelUp } from '../utils/materials';
 
-import CharactersDataService from '../services/character.services';
-
+//? <----- Data ----->
 import characters from '../../../assets/data/Characters/characters.json';
 import charactersData from '../../../constants/characters';
 
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
+//? <----- Context ----->
 import { useUserAuth } from '../../../context/UserAuthContext';
 
 const FarmingPlanner = () => {
@@ -245,7 +251,7 @@ const FarmingPlanner = () => {
 			charactersArray.includes(character.name)
 		);
 
-		// sort characters so it matches order in which they are selected
+		//* sort characters so it matches order in which they are selected
 		filteredCharacters.sort((a, b) => {
 			return charactersArray.indexOf(a.name) - charactersArray.indexOf(b.name);
 		});

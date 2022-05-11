@@ -1,9 +1,13 @@
 import React from 'react';
+
+//? <----- Components ----->
 import CardComponent from '../Layout/CardComponent';
 import TalentBooksMonday from '../Database/Materials/Talent Books/TalentBooksMonday';
 import TalentBooksTuesday from '../Database/Materials/Talent Books/TalentBooksTuesday';
 import TalentBooksWednesday from '../Database/Materials/Talent Books/TalentBooksWednesday';
 import TalentBooksSunday from '../Database/Materials/Talent Books/TalentBooksSunday';
+
+//? <----- Data ----->
 import charactersData from '../../assets/data/Characters/characters.json';
 
 const CharacterDomains = () => {

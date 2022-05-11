@@ -1,4 +1,6 @@
 import React from 'react';
+
+//? <----- Components ----->
 import Weapon from './Weapon';
 
 const Polearms = props => {

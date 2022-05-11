@@ -1,22 +1,21 @@
 import React, { useState, useEffect } from 'react';
+
+//? <----- Router ----->
 import { useParams } from 'react-router-dom';
 
-import TeamDataService from '../services/team.services';
-
+//? <----- Components ----->
 import CardComponent from '../../Layout/CardComponent';
 import Container from '../../Layout/Container';
-
 import BackButton from './BackButton';
 import Characters from './Characters';
 import CharactersHeading from './CharactersHeading';
-
-import useDocumentTitle from '../../../hooks/useDocumentTitle';
 import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
 
 const Team = props => {
+	const { filterCharacters, TeamDataService, useDocumentTitle } = props;
+
 	useDocumentTitle('View Team');
 
-	const { filterCharacters } = props;
 	const [team, setTeam] = useState({
 		name: '',
 		teamMembers: [],
@@ -35,7 +34,7 @@ const Team = props => {
 		};
 
 		getTeamDatabase(id);
-	}, [id]);
+	}, [id, TeamDataService]);
 
 	return (
 		<Container>

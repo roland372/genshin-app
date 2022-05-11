@@ -1,5 +1,9 @@
 import React from 'react';
+
+//? <----- Router ----->
 import { Link, NavLink } from 'react-router-dom';
+
+//? <----- Components ----->
 import { navLinks } from './Links';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 
@@ -51,17 +55,6 @@ const NavigationBar = ({ userData }) => {
 														</span>
 													</NavLink>
 												</li>
-												// <NavDropdown.Item key={id} href={url}>
-												// 	<Link
-												// 		key={id}
-												// 		to={url}
-												// 		className='text-decoration-none'
-												// 	>
-												// 		<span className='text-capitalize text-dark'>
-												// 			{text}
-												// 		</span>
-												// 	</Link>
-												// </NavDropdown.Item>
 											);
 										})}
 									</div>

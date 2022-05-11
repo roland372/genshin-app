@@ -18,13 +18,13 @@ class CharacterDataService {
 	};
 
 	updateCharacter = (id, updatedCharacter) => {
-		// check if exists in database(collection)
+		//* check if character exists in database(collection)
 		const characterDoc = doc(db, 'characters', id);
 		return updateDoc(characterDoc, updatedCharacter);
 	};
 
 	deleteCharacter = id => {
-		// check if exists in database(collection)
+		//* check if character exists in database(collection)
 		const characterDoc = doc(db, 'characters', id);
 		return deleteDoc(characterDoc);
 	};

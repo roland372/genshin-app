@@ -1,51 +1,21 @@
 import React, { useEffect } from 'react';
-// import axios from 'axios';
+
+//? <----- Router ----->
 import { useParams } from 'react-router-dom';
 
+//? <----- Firebase ----->
 import CharacterDataService from '../services/character.services';
 
+//? <----- Components ----->
 import CardComponent from '../../Layout/CardComponent';
 import Container from '../../Layout/Container';
-
 import BackButton from './BackButton';
 import Character from './Character';
 import Materials from './Materials';
-
 import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
 
 const CharacterInfo = props => {
 	const { charactersData, materialsData, character, setCharacter } = props;
-	// let [character, setCharacter] = useState({
-	// 	name: '',
-	// 	levelLow: 1,
-	// 	levelHigh: 1,
-	// 	NALow: 1,
-	// 	NAHigh: 1,
-	// 	ESLow: 1,
-	// 	ESHigh: 1,
-	// 	EBLow: 1,
-	// 	EBHigh: 1,
-	// 	moraCharacter: 1,
-	// 	moraTalent: 1,
-	// 	expBooks: 1,
-	// 	localSpeciality: 1,
-	// 	characterCommonMaterial1: 1,
-	// 	talentCommonMaterial1: 1,
-	// 	characterCommonMaterial2: 1,
-	// 	talentCommonMaterial2: 1,
-	// 	characterCommonMaterial3: 1,
-	// 	talentCommonMaterial3: 1,
-	// 	bossAscensionMaterial: 1,
-	// 	sliver: 1,
-	// 	fragments: 1,
-	// 	chunks: 1,
-	// 	gemstones: 1,
-	// 	bronzeTalentBooks: 1,
-	// 	silverTalentBooks: 1,
-	// 	goldTalentBooks: 1,
-	// 	bossMaterial: 1,
-	// 	crown: 1,
-	// });
 
 	let {
 		name,
@@ -75,6 +45,7 @@ const CharacterInfo = props => {
 		bossMaterial,
 		crown,
 	} = character;
+
 	const { id } = useParams();
 
 	//* <----- Assign level options ----->
@@ -125,18 +96,6 @@ const CharacterInfo = props => {
 		default:
 			break;
 	}
-
-	// console.log(levelHigh);
-	// levelHigh = 90;
-
-	// useEffect(() => {
-	// 	const loadCharacter = async () => {
-	// 		const res = await axios.get(`http://localhost:3003/characters/${id}`);
-	// 		// console.log(res.data);
-	// 		setCharacter(res.data);
-	// 	};
-
-	// 	loadCharacter();
 
 	useEffect(() => {
 		const getCharacterDatabase = async id => {

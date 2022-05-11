@@ -1,7 +1,9 @@
 import React from 'react';
 
+//? <----- Router ----->
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const Character = props => {

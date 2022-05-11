@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from 'react';
+
+//? <----- Router ----->
 import { Link } from 'react-router-dom';
 
-import { toast } from 'react-toastify';
-
+//? <----- Components ----->
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
 import Characters from '../components/Characters';
 import CharactersHeading from '../components/CharactersHeading';
-
-import useDocumentTitle from '../../../hooks/useDocumentTitle';
+import { toast } from 'react-toastify';
 
 const TeamsLocalStorage = props => {
+	const { useDocumentTitle } = props;
+
 	useDocumentTitle('Team Builder');
 
 	const teamDeletedNotification = () =>
@@ -27,13 +29,13 @@ const TeamsLocalStorage = props => {
 	const { filterCharacters } = props;
 
 	const getLocalStorage = () => {
-		// get list from local storage
+		//* get list from local storage
 		let teams = localStorage.getItem('teams');
-		// if list exists - is in local storage
+		//* if list exists - is in local storage
 		if (teams) {
 			return JSON.parse(localStorage.getItem('teams'));
 		}
-		// if list doesn't exists
+		//* if list doesn't exists
 		else {
 			return [];
 		}

@@ -1,29 +1,24 @@
 import React, { useState, useEffect, useRef } from 'react';
+
+//? <----- Router ----->
 import { useHistory, useParams } from 'react-router-dom';
 
-import { toast } from 'react-toastify';
-
-import TeamDataService from '../services/team.services';
-
+//? <----- Components ----->
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
-
 import Characters from '../components/Characters';
 import Form from '../components/Form';
 import BackButton from '../components/BackButton';
 import SubmitButton from '../components/SubmitButton';
 import CharactersHeading from '../components/CharactersHeading';
 import validation from '../components/FormValidation';
-
-import useDocumentTitle from '../../../hooks/useDocumentTitle';
-
-import { useUserAuth } from '../../../context/UserAuthContext';
 import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
+import { toast } from 'react-toastify';
 
 const EditTeam = props => {
-	useDocumentTitle('Edit Team');
+	const { user, TeamDataService, useDocumentTitle } = props;
 
-	const { user } = useUserAuth();
+	useDocumentTitle('Edit Team');
 
 	const teamEditedNotification = () =>
 		toast.success('Team Edited', {
@@ -40,7 +35,7 @@ const EditTeam = props => {
 	let history = useHistory();
 	const { id } = useParams();
 
-	// for some reason, when I don't fetch all teams, previous teams won't display
+	//* for some reason, when I don't fetch all teams, previous teams won't display
 	const [, setTeamsDatabase] = useState([]);
 
 	let [select, setSelect] = useState([]);
@@ -58,7 +53,7 @@ const EditTeam = props => {
 
 	const onInputChange = e => {
 		setTeam({ ...team, [e.target.name]: e.target.value });
-		console.log(e.target.value);
+		// console.log(e.target.value);
 	};
 
 	const selectValues = e => {

@@ -1,12 +1,14 @@
 import { React, Fragment, useState, useEffect } from 'react';
 
+//? <----- Components ----->
 import ScrollToTop from './ScrollToTop';
 import Navbar from './NavigationBar';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
-
-import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import useDimensions from 'react-cool-dimensions';
+
+//? <----- Auth ----->
+import { getAuth, onAuthStateChanged } from 'firebase/auth';
 
 const Layout = ({ children }) => {
 	const { observe, width } = useDimensions({});

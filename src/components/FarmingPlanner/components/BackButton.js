@@ -1,7 +1,9 @@
 import React from 'react';
+
+//? <----- Router ----->
 import { Link } from 'react-router-dom';
 
-const BackButton = props => {
+const BackButton = () => {
 	return (
 		<section className='text-color'>
 			<div className='d-flex align-items-center justify-content-between ms-2 pt-1'>
@@ -12,7 +14,6 @@ const BackButton = props => {
 			<div className='mx-2'>
 				<hr />
 			</div>
-			{/* {props.children} */}
 		</section>
 	);
 };

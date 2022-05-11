@@ -1,17 +1,19 @@
 import React, { useState, useEffect, useRef } from 'react';
+
+//? <----- Components ----->
 import { motion } from 'framer-motion/dist/framer-motion';
 
 const Avatar = ({ characters, handleClick }) => {
 	const [width, setWidth] = useState(0);
-	// useRef to get width of carousel
+	//* useRef to get width of carousel
 	const carousel = useRef();
-	// runs when component gets mounted to screen
+	//* runs when component gets mounted to screen
 	useEffect(() => {
 		// console.log(carousel);
 
-		// full width
+		//* full width
 		// console.log(carousel.current.scrollWidth);
-		// width of content that's currently on screen
+		//* width of content that's currently on screen
 		// console.log(carousel.current.offsetWidth);
 		setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
 	}, []);

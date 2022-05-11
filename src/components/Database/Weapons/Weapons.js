@@ -1,20 +1,24 @@
 import React, { useState } from 'react';
 
+//? <----- Icons ----->
 import { AiOutlineStar } from 'react-icons/ai';
 
+//? <----- Components ----->
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
-
 import Weapon from './Weapon';
-import data from '../../../assets/data/Weapons/weapons.json';
-
-import useDocumentTitle from '../../../hooks/useDocumentTitle';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
-const { weapons } = data;
+//? <----- Data ----->
+import data from '../../../assets/data/Weapons/weapons.json';
+
+//? <----- Custom Hooks ----->
+import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const Weapons = () => {
 	useDocumentTitle('Weapons');
+
+	const { weapons } = data;
 
 	const weaponTypes = [...new Set(weapons.map(weapon => weapon.type))];
 	weaponTypes.sort().unshift('All');
@@ -27,7 +31,6 @@ const Weapons = () => {
 	const [weaponType, setWeaponType] = useState(weaponTypes);
 	const [rarityType] = useState(allRarities);
 
-	// search
 	const [searchTerm, setSearchTerm] = useState('');
 
 	const filterWeaponTypes = type => {

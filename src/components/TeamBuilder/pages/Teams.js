@@ -1,26 +1,20 @@
 import React, { useState, useEffect } from 'react';
+
+//? <----- Router ----->
 import { Link } from 'react-router-dom';
 
-import { toast } from 'react-toastify';
-
-import TeamDataService from '../services/team.services';
-
+//? <----- Components ----->
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
 import Characters from '../components/Characters';
 import CharactersHeading from '../components/CharactersHeading';
-
-import useDocumentTitle from '../../../hooks/useDocumentTitle';
-
-import { useUserAuth } from '../../../context/UserAuthContext';
 import Loader from '../../Layout/Loader';
-
 import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
+import { toast } from 'react-toastify';
 
 const Teams = props => {
+	const { user, TeamDataService, useDocumentTitle } = props;
 	useDocumentTitle('Team Builder');
-
-	const { user } = useUserAuth();
 
 	//* <----- Loading state ----->
 	const [loading, setLoading] = useState(<Loader />);
@@ -42,6 +36,7 @@ const Teams = props => {
 
 	useEffect(() => {
 		user && getTeamsDatabase();
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [user]);
 
 	const getTeamsDatabase = async () => {

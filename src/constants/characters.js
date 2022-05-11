@@ -1,4 +1,4 @@
-// <----- Character components ----->
+//? <----- Character components ----->
 import Albedo from '../components/Characters/Character/Albedo/Albedo';
 import Aloy from '../components/Characters/Character/Aloy/Aloy';
 import Amber from '../components/Characters/Character/Amber/Amber';

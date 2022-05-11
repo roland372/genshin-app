@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react';
+
+//? <----- Router ----->
 import { useParams } from 'react-router-dom';
 
+//? <----- Components ----->
 import CardComponent from '../../Layout/CardComponent';
 import Container from '../../Layout/Container';
-
 import BackButton from '../components/BackButton';
 import Characters from '../components/Characters';
 import CharactersHeading from '../components/CharactersHeading';
 
+//? <----- Custom Hooks ----->
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const EditTeamLocalStorage = props => {
@@ -18,13 +21,13 @@ const EditTeamLocalStorage = props => {
 	const { id } = useParams();
 
 	const getLocalStorage = () => {
-		// get list from local storage
+		//* get list from local storage
 		let teams = localStorage.getItem('teams');
-		// if list exists - is in local storage
+		//* if list exists - is in local storage
 		if (teams) {
 			return JSON.parse(localStorage.getItem('teams'));
 		}
-		// if list doesn't exists
+		//* if list doesn't exists
 		else {
 			return [];
 		}

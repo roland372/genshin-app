@@ -10,8 +10,6 @@ import { toast } from 'react-toastify';
 import MarkdownIt from 'markdown-it';
 import MdEditor from 'react-markdown-editor-lite';
 
-//? <----- Icons ----->
-
 const Main = ({ activeNote, onUpdateNote, NotesDataService }) => {
 	const noteUpdatedNotification = () =>
 		toast.success('Note Updated', {
@@ -78,7 +76,6 @@ const Main = ({ activeNote, onUpdateNote, NotesDataService }) => {
 						style={{
 							height: '80vh',
 							lineHeight: '10px',
-							// marginTop: '60px'
 						}}
 						renderHTML={text => mdParser.render(text)}
 						onChange={e => onEditField('body', handleEditorChange(e))}
