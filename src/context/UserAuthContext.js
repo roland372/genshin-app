@@ -60,38 +60,11 @@ export const UserAuthContextProvider = ({ children }) => {
 		// return createUserWithEmailAndPassword(auth, email, password);
 	};
 
-	// const googleSignIn = () => {
-	// 	const googleAuthProvider = new GoogleAuthProvider();
-	// 	// console.log(googleAuthProvider);
-
-	// 	addDoc(collection(db, 'users'), {
-	// 		uid: '',
-	// 		// eslint-disable-next-line no-restricted-globals
-	// 		name,
-	// 		authProvider: 'google.com',
-	// 		email: '',
-	// 		description: '',
-	// 	});
-
-	// 	return signInWithPopup(auth, googleAuthProvider);
-	// };
-
 	const googleSignIn = async () => {
 		const googleAuthProvider = new GoogleAuthProvider();
-		// const { isNewUser } = getAdditionalUserInfo(googleAuthProvider);
-		// console.log(isNewUser);
-
-		// await signInWithPopup(auth, googleAuthProvider);
-		// console.log(getAdditionalUserInfo(user));
 
 		const result = await signInWithPopup(auth, googleAuthProvider);
 		const { isNewUser, profile } = getAdditionalUserInfo(result);
-		// console.log(getAdditionalUserInfo(result));
-		// console.log(profile);
-
-		// console.log(auth.currentUser.uid);
-
-		// console.log(result.providerId);
 
 		if (isNewUser) {
 			addDoc(collection(db, 'users'), {
