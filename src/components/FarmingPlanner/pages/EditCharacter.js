@@ -101,7 +101,7 @@ const EditCharacter = props => {
 		};
 		getCharacterDatabase(id);
 		// getCharactersDatabase();
-	}, [id, name, setCharacter]);
+	}, [id, name, setCharacter, CharacterDataService]);
 
 	// console.log(previousCharacter.current);
 
