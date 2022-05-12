@@ -3,9 +3,6 @@ import React, { useEffect } from 'react';
 //? <----- Router ----->
 import { useParams } from 'react-router-dom';
 
-//? <----- Firebase ----->
-import CharacterDataService from '../services/character.services';
-
 //? <----- Components ----->
 import CardComponent from '../../Layout/CardComponent';
 import Container from '../../Layout/Container';
@@ -15,7 +12,16 @@ import Materials from './Materials';
 import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
 
 const CharacterInfo = props => {
-	const { charactersData, materialsData, character, setCharacter } = props;
+	const {
+		CharacterDataService,
+		charactersData,
+		materialsData,
+		character,
+		setCharacter,
+		useDocumentTitle,
+	} = props;
+
+	useDocumentTitle('View Character');
 
 	let {
 		name,
@@ -105,7 +111,7 @@ const CharacterInfo = props => {
 		};
 
 		getCharacterDatabase(id);
-	}, [id, setCharacter]);
+	}, [id, CharacterDataService, setCharacter]);
 
 	return (
 		<Container>

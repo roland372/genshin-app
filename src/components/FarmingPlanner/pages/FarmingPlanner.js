@@ -10,7 +10,7 @@ import AddCharacter from './AddCharacter';
 import CharacterInfo from '../components/CharacterInfo';
 
 //? <----- Firebase ----->
-import CharactersDataService from '../services/character.services';
+import CharacterDataService from '../services/character.services';
 
 //? <----- Utils ----->
 import { characterLevelUp } from '../utils/materials';
@@ -41,7 +41,7 @@ const FarmingPlanner = () => {
 
 	const getCharactersDatabase = async () => {
 		setLoading(true);
-		const data = await CharactersDataService.getAllCharacters();
+		const data = await CharacterDataService.getAllCharacters();
 		setCharactersDatabase(
 			data.docs.map(doc => ({ ...doc.data(), id: doc.id }))
 		);
@@ -288,6 +288,8 @@ const FarmingPlanner = () => {
 			<Switch>
 				<Route exact path='/farming-planner'>
 					<Characters
+						CharacterDataService={CharacterDataService}
+						useDocumentTitle={useDocumentTitle}
 						filterCharacters={filterCharacters}
 						characters={characters.characters}
 						charactersData={charactersData}
@@ -299,6 +301,8 @@ const FarmingPlanner = () => {
 				</Route>
 				<Route exact path='/farming-planner/characters/add'>
 					<AddCharacter
+						CharacterDataService={CharacterDataService}
+						useDocumentTitle={useDocumentTitle}
 						filterCharacters={filterCharacters}
 						//* <----- authenicated user uid ----->
 						owner={user.uid}
@@ -377,6 +381,8 @@ const FarmingPlanner = () => {
 				</Route>
 				{/* <Route exact path='/farming-planner/characters/edit/:id'>
 					<EditCharacter
+					CharacterDataService={CharacterDataService}
+						useDocumentTitle={useDocumentTitle}
 						filterCharacters={filterCharacters}
 						//* <----- authenicated user uid ----->
 						owner={user.uid}
@@ -455,6 +461,8 @@ const FarmingPlanner = () => {
 				</Route> */}
 				<Route exact path='/farming-planner/characters/:id'>
 					<CharacterInfo
+						CharacterDataService={CharacterDataService}
+						useDocumentTitle={useDocumentTitle}
 						characters={characters.characters}
 						//* <----- character state ----->
 						character={character}

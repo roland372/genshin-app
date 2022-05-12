@@ -14,14 +14,8 @@ import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { toast } from 'react-toastify';
 
-//? <----- Firebase ----->
-import CharacterDataService from '../services/character.services';
-
-//? <----- Custom Hooks ----->
-import useDocumentTitle from '../../../hooks/useDocumentTitle';
-
 const Characters = props => {
-	useDocumentTitle('Farming Planner');
+	const { CharacterDataService } = props;
 
 	const { user } = useUserAuth();
 

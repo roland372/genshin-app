@@ -11,17 +11,13 @@ import BackButton from '../components/BackButton';
 import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
 import { toast } from 'react-toastify';
 
-//? <----- Firebase ----->
-import CharacterDataService from '../services/character.services';
-
 //? <----- Utils ----->
 import levelOptions from '../utils/levelOptions';
 import talentOptions from '../utils/talentOptions';
 
-//? <----- Custom Hooks ----->
-import useDocumentTitle from '../../../hooks/useDocumentTitle';
-
 const AddCharacter = props => {
+	const { useDocumentTitle, CharacterDataService } = props;
+
 	useDocumentTitle('Add Character');
 
 	const history = useHistory();
