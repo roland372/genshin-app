@@ -6,6 +6,7 @@ import Navbar from './NavigationBar';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
 import useDimensions from 'react-cool-dimensions';
+import Theme from './Theme';
 
 //? <----- Auth ----->
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
@@ -28,6 +29,7 @@ const Layout = ({ children }) => {
 	return (
 		<Fragment>
 			<ScrollToTop />
+			<Theme />
 			<section className='sticky-top' ref={observe}>
 				{width < 1400 ? (
 					<Sidebar userData={userData} />

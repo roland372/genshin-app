@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from 'react';
+import React, { Fragment } from 'react';
 
 //? <----- Router ----->
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -10,14 +10,18 @@ import Profile from './components/Auth/Profile';
 import Login from './components/Auth/Login';
 import Signup from './components/Auth/Signup';
 
+//? <----- Components ----->
+import { Flip, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 //? <----- Pages ----->
 import about from './pages/about';
-import achievements from './pages/achievements';
+// import achievements from './pages/achievements';
 import artifacts from './pages/artifacts';
 import banners from './pages/banners';
-import calculator from './pages/calculator';
+// import calculator from './pages/calculator';
 import characters from './pages/characters';
-import changelog from './pages/changelog';
+// import changelog from './pages/changelog';
 import charts from './pages/charts';
 // import database from './pages/database';
 import events from './pages/events';
@@ -38,56 +42,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import ScrollToTopRouter from './components/Layout/ScrollToTopRouter';
 
-import { Flip, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
 function App() {
-	const blueTheme = {
-		primaryDark: '#12232e',
-		primaryMedium: '#203647',
-		primaryLight: '#023e8a',
-		secondaryMedium: '#284155',
-		secondaryLight: '#4da8da',
-		textColor: '#ffffff',
-		linkColor: '#0dcaf0',
-	};
-
-	const [theme, setTheme] = useState(() => {
-		const localTheme = JSON.parse(localStorage.getItem('themes'));
-		return localTheme || blueTheme;
-	});
-
-	const setColor = theme => {
-		document.documentElement.style.setProperty(
-			'--bg-primary-dark',
-			theme.primaryDark
-		);
-		document.documentElement.style.setProperty(
-			'--bg-primary-medium',
-			theme.primaryMedium
-		);
-		document.documentElement.style.setProperty(
-			'--bg-primary-light',
-			theme.primaryLight
-		);
-		document.documentElement.style.setProperty(
-			'--bg-secondary-medium',
-			theme.secondaryMedium
-		);
-		document.documentElement.style.setProperty(
-			'--bg-secondary-light',
-			theme.secondaryLight
-		);
-		document.documentElement.style.setProperty('--text-color', theme.textColor);
-		document.documentElement.style.setProperty('--link-color', theme.linkColor);
-		setTheme(theme);
-	};
-
-	useEffect(() => {
-		localStorage.setItem('themes', JSON.stringify(theme));
-		setColor(theme);
-	}, [theme]);
-
 	return (
 		<Fragment>
 			<Router>
@@ -111,13 +66,13 @@ function App() {
 						<Switch>
 							<Route exact path='/' component={home} />
 							<Route path='/about' component={about} />
-							<Route path='/achievements' component={achievements} />
+							{/* <Route path='/achievements' component={achievements} /> */}
 							<Route path='/artifacts' component={artifacts} />
 							<Route path='/banners' component={banners} />
-							<Route path='/calculator' component={calculator} />
+							{/* <Route path='/calculator' component={calculator} /> */}
 							<Route exact path='/characters' component={characters} />
 							<Route path='/charts' component={charts} />
-							<Route path='/changelog' component={changelog} />
+							{/* <Route path='/changelog' component={changelog} /> */}
 							<Route path='/characters' component={characters} />
 							<Route path='/characters/:id' component={characters} />
 							{/* <Route path='/database' component={database} /> */}

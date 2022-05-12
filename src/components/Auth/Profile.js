@@ -63,12 +63,6 @@ const Profile = () => {
 	//* <----- Modal State ----->
 	const [showModal, setShowModal] = useState(false);
 
-	//* <----- Color Themes State ----->
-	const [theme, setTheme] = useState(() => {
-		const localTheme = JSON.parse(localStorage.getItem('themes'));
-		return localTheme || blueTheme;
-	});
-
 	//* <----- Toast Notifications ----->
 	const profileUpdatedNotification = () =>
 		toast.success('Profile Updated', {
@@ -274,6 +268,12 @@ const Profile = () => {
 		textColor: randomColor6,
 		linkColor: randomColor7,
 	};
+
+	//* <----- Color Themes State ----->
+	const [theme, setTheme] = useState(() => {
+		const localTheme = JSON.parse(localStorage.getItem('themes'));
+		return localTheme || blueTheme;
+	});
 
 	const setColor = theme => {
 		document.documentElement.style.setProperty(
