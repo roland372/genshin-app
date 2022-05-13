@@ -4,8 +4,8 @@ const AttributeScaling = props => {
 	return (
 		<section className='mx-0 my-2'>
 			<h4>Attribute Scaling</h4>
-			<div className='table-responsive'>
-				<table className='table table-sm bg-secondary-medium text-light table-striped align-middle table-borderless border'>
+			<div className='table-responsive '>
+				<table className='table table-sm bg-secondary-medium text-light table-striped align-middle table-borderless'>
 					<thead className='bg-primary-dark'>
 						<tr className='text-color'>
 							<th scope='col'>Level</th>
