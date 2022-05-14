@@ -84,7 +84,7 @@ const Characters = props => {
 				{loading ? (
 					<Loader />
 				) : (
-					<section className='d-flex flex-wrap justify-content-center align-items-center mx-2'>
+					<section className='d-flex flex-wrap justify-content-center align-items-center mx-2 bg-primary-dark rounded'>
 						{user &&
 							sortedCharacters
 								.filter(owner => owner.owner === user.uid)
@@ -99,8 +99,12 @@ const Characters = props => {
 									return (
 										<section
 											key={name}
-											className='bg-primary-dark border border-light rounded shadow-lg p-2 col-lg-4 col-md-6 col-sm-12'
+											className='p-2 col-lg-4 col-md-6 col-sm-12'
 										>
+											<div className='mx-2 py-1 text-color'>
+												<h4 className='text-center'>{name}</h4>
+												<hr className='mx-xl-5 mx-lg-1 mx-md-3 mx-sm-5' />
+											</div>
 											<section>
 												<OverlayTrigger
 													placement='top'

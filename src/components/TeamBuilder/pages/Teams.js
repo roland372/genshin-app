@@ -79,14 +79,14 @@ const Teams = props => {
 					{loading ? (
 						<Loader />
 					) : (
-						<section className='d-flex flex-wrap mx-2'>
+						<section className='d-flex flex-wrap mx-2 bg-primary-dark rounded'>
 							{user &&
 								sortedTeams
 									.filter(owner => owner.owner === user.uid)
 									.map((team, index) => (
 										<section
 											key={index}
-											className='bg-primary-dark border border-light rounded shadow-lg p-2 col-lg-4 col-md-6 col-sm-12'
+											className='p-3 col-lg-4 col-md-6 col-sm-12'
 										>
 											<CharactersHeading heading={team.name} />
 											<Characters
@@ -94,7 +94,7 @@ const Teams = props => {
 												array={team.teamMembers}
 												heading='Team Members:'
 											/>
-											<div className='d-flex justify-content-start align-items-center ms-2 mt-2'>
+											<div className='d-flex justify-content-start align-items-center ms-2 mt-2 pt-1'>
 												<Link
 													className='btn btn-outline-primary me-2'
 													to={`/team-builder/teams/${team.id}`}
