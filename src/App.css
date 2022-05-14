@@ -123,6 +123,15 @@
 	background-color: var(--bg-primary-light);
 	border-radius: 5px;
 }
+.nav-link {
+	color: white;
+}
+
+.nav-link:hover {
+	color: white;
+	background-color: var(--bg-primary-light);
+	border-radius: 5px;
+}
 
 /**<----- Elements Colors ----->*/
 
