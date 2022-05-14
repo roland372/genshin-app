@@ -86,7 +86,7 @@ const Teams = props => {
 									.map((team, index) => (
 										<section
 											key={index}
-											className='border border-light rounded shadow-lg p-2 col-lg-4 col-md-6 col-sm-12'
+											className='bg-primary-dark border border-light rounded shadow-lg p-2 col-lg-4 col-md-6 col-sm-12'
 										>
 											<CharactersHeading heading={team.name} />
 											<Characters

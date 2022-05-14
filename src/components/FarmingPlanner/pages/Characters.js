@@ -70,7 +70,7 @@ const Characters = props => {
 		<Container>
 			<CardComponent title='Farming Planner'>
 				<ScrollToTopRouter />
-				<div className='d-flex align-items-center justify-content-lg-start ms-2 pt-1'>
+				<div className='d-flex align-items-center justify-content-lg-start ms-2 pt-1 '>
 					<Link
 						className='btn btn-primary'
 						to='/farming-planner/characters/add/'
@@ -99,7 +99,7 @@ const Characters = props => {
 									return (
 										<section
 											key={name}
-											className='border border-light rounded shadow-lg p-2 col-lg-4 col-md-6 col-sm-12'
+											className='bg-primary-dark border border-light rounded shadow-lg p-2 col-lg-4 col-md-6 col-sm-12'
 										>
 											<section>
 												<OverlayTrigger
@@ -118,14 +118,16 @@ const Characters = props => {
 														</Tooltip>
 													}
 												>
-													<img
-														src={image}
-														alt={name}
-														className={`img-fluid img-thumbnail ${rarityColor}`}
-													/>
+													<div className='pt-2'>
+														<img
+															src={image}
+															alt={name}
+															className={`img-fluid img-thumbnail ${rarityColor}`}
+														/>
+													</div>
 												</OverlayTrigger>
 											</section>
-											<div className='d-flex justify-content-center align-items-center ms-2 mt-2'>
+											<div className='d-flex justify-content-center align-items-center ms-2 mt-2 p-1'>
 												<Link
 													className='btn btn-outline-primary me-2'
 													to={`/farming-planner/characters/${character.id}`}

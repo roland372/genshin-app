@@ -74,73 +74,79 @@ const Form = props => {
 						// onInputChange(e.value);
 					}}
 				/>
-				<Character
-					charactersData={characters}
-					characterSelect={characterSelect}
-				/>
-				<small className='text-danger d-flex m-2'>{formErrors.select}</small>
-				<Talents
-					levelOptions={levelOptions}
-					charactersData={charactersData}
-					talentOptions={talentOptions}
-					characterSelect={characterSelect}
-					levelLow={levelLow}
-					setLevelLow={setLevelLow}
-					levelHigh={levelHigh}
-					setLevelHigh={setLevelHigh}
-					NAHigh={NAHigh}
-					NALow={NALow}
-					setNALow={setNALow}
-					setNAHigh={setNAHigh}
-					ESHigh={ESHigh}
-					ESLow={ESLow}
-					setESLow={setESLow}
-					setESHigh={setESHigh}
-					EBHigh={EBHigh}
-					EBLow={EBLow}
-					setEBLow={setEBLow}
-					setEBHigh={setEBHigh}
-					// onChange={e => onInputChange(e)}
-				/>
-				<Materials
-					charactersData={charactersData}
-					characterSelect={characterSelect}
-					moraCharacter={moraCharacter}
-					moraTalent={moraTalent}
-					expBooks={expBooks}
-					localSpeciality={localSpeciality}
-					characterCommonMaterial1={characterCommonMaterial1}
-					talentCommonMaterial1={talentCommonMaterial1}
-					characterCommonMaterial2={characterCommonMaterial2}
-					talentCommonMaterial2={talentCommonMaterial2}
-					characterCommonMaterial3={characterCommonMaterial3}
-					talentCommonMaterial3={talentCommonMaterial3}
-					bossAscensionMaterial={bossAscensionMaterial}
-					sliver={sliver}
-					fragments={fragments}
-					chunks={chunks}
-					gemstones={gemstones}
-					bronzeTalentBooks={bronzeTalentBooks}
-					silverTalentBooks={silverTalentBooks}
-					goldTalentBooks={goldTalentBooks}
-					bossMaterial={bossMaterial}
-					crown={crown}
-				/>
-				<Templates
-					characterSelect={characterSelect}
-					setLevelLow={setLevelLow}
-					setLevelHigh={setLevelHigh}
-					setNALow={setNALow}
-					setNAHigh={setNAHigh}
-					setESLow={setESLow}
-					setESHigh={setESHigh}
-					setEBLow={setEBLow}
-					setEBHigh={setEBHigh}
-				/>
+				{characterSelect ? (
+					<div>
+						<Character
+							charactersData={characters}
+							characterSelect={characterSelect}
+						/>
+						<small className='text-danger d-flex m-2'>
+							{formErrors.select}
+						</small>
+						<Talents
+							levelOptions={levelOptions}
+							charactersData={charactersData}
+							talentOptions={talentOptions}
+							characterSelect={characterSelect}
+							levelLow={levelLow}
+							setLevelLow={setLevelLow}
+							levelHigh={levelHigh}
+							setLevelHigh={setLevelHigh}
+							NAHigh={NAHigh}
+							NALow={NALow}
+							setNALow={setNALow}
+							setNAHigh={setNAHigh}
+							ESHigh={ESHigh}
+							ESLow={ESLow}
+							setESLow={setESLow}
+							setESHigh={setESHigh}
+							EBHigh={EBHigh}
+							EBLow={EBLow}
+							setEBLow={setEBLow}
+							setEBHigh={setEBHigh}
+							// onChange={e => onInputChange(e)}
+						/>
+						<Materials
+							charactersData={charactersData}
+							characterSelect={characterSelect}
+							moraCharacter={moraCharacter}
+							moraTalent={moraTalent}
+							expBooks={expBooks}
+							localSpeciality={localSpeciality}
+							characterCommonMaterial1={characterCommonMaterial1}
+							talentCommonMaterial1={talentCommonMaterial1}
+							characterCommonMaterial2={characterCommonMaterial2}
+							talentCommonMaterial2={talentCommonMaterial2}
+							characterCommonMaterial3={characterCommonMaterial3}
+							talentCommonMaterial3={talentCommonMaterial3}
+							bossAscensionMaterial={bossAscensionMaterial}
+							sliver={sliver}
+							fragments={fragments}
+							chunks={chunks}
+							gemstones={gemstones}
+							bronzeTalentBooks={bronzeTalentBooks}
+							silverTalentBooks={silverTalentBooks}
+							goldTalentBooks={goldTalentBooks}
+							bossMaterial={bossMaterial}
+							crown={crown}
+						/>
+						<Templates
+							characterSelect={characterSelect}
+							setLevelLow={setLevelLow}
+							setLevelHigh={setLevelHigh}
+							setNALow={setNALow}
+							setNAHigh={setNAHigh}
+							setESLow={setESLow}
+							setESHigh={setESHigh}
+							setEBLow={setEBLow}
+							setEBHigh={setEBHigh}
+						/>
 
-				{/* submit button */}
-				{characterSelect !== '' ? (
-					<SubmitButton color={props.color} text={props.text} />
+						{/* submit button */}
+						{characterSelect !== '' ? (
+							<SubmitButton color={props.color} text={props.text} />
+						) : null}
+					</div>
 				) : null}
 			</form>
 		</section>

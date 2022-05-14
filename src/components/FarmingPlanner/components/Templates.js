@@ -13,13 +13,16 @@ const Templates = props => {
 		setEBHigh,
 	} = props;
 	return (
-		<section className='text-color'>
+		<section className='text-color bg-primary-dark rounded'>
 			{characterSelect && (
-				<div className='border rounded'>
-					<h5 className='my-2'>Templates</h5>
-					<div className='mb-2'>
+				<div className=''>
+					<section className='rounded-top p-2 bg-primary-light my-2'>
+						<h5 className=''>Templates</h5>
+					</section>
+					<div></div>
+					<div className='mb-2 pt-2 pb-3'>
 						<button
-							className='btn btn btn-primary'
+							className='btn btn-primary me-2'
 							onClick={e => {
 								e.preventDefault();
 								setLevelLow(1);
@@ -35,7 +38,7 @@ const Templates = props => {
 							Max
 						</button>
 						<button
-							className='btn btn-warning'
+							className='btn btn-warning me-2'
 							onClick={e => {
 								e.preventDefault();
 								setLevelLow(1);
@@ -51,7 +54,7 @@ const Templates = props => {
 							80-8-8-8
 						</button>
 						<button
-							className='btn btn-danger'
+							className='btn btn-danger me-2'
 							onClick={e => {
 								e.preventDefault();
 								setLevelLow(1);

@@ -31,55 +31,61 @@ const Talents = props => {
 		<section className='d-flex flex-column text-color my-2'>
 			{characterSelect && (
 				<section className='d-inline-block mb-2'>
-					<div className='border rounded'>
-						<h5 className='mt-2'>Character Level</h5>
-						<div className='d-flex align-items-center justify-content-center my-2'>
-							<div className='me-2'>Select level</div>
-							<select
-								className='btn btn-sm btn-light text-start mx-2'
-								value={levelLow}
-								onChange={e => {
-									const value = parseInt(e.target.value);
-									setLevelLow(value);
-									console.log(value);
-								}}
-							>
-								{levelOptions.map(o => (
-									<option key={o.value} value={o.value}>
-										{o.name}
-									</option>
-								))}
-							</select>
-							<div className='mx-1'>-</div>
-							<select
-								className='btn btn-sm btn-light text-start mx-2'
-								value={levelHigh}
-								onChange={e => {
-									const value = parseInt(e.target.value);
-									setLevelHigh(value);
-									console.log(value);
-								}}
-							>
-								{levelOptions.map(o => (
-									<option key={o.value} value={o.value}>
-										{o.name}
-									</option>
-								))}
-							</select>
-						</div>
+					<div className='rounded'>
+						<section className='rounded-top p-2 bg-primary-light'>
+							<h5 className='mt-2'>Character Level</h5>
+						</section>
+						<section className='bg-primary-dark p-2 rounded-bottom'>
+							<div className='d-flex align-items-center justify-content-center my-2'>
+								<div className='me-2'>Select level</div>
+								<select
+									className='btn btn-sm btn-light text-start mx-2'
+									value={levelLow}
+									onChange={e => {
+										const value = parseInt(e.target.value);
+										setLevelLow(value);
+										console.log(value);
+									}}
+								>
+									{levelOptions.map(o => (
+										<option key={o.value} value={o.value}>
+											{o.name}
+										</option>
+									))}
+								</select>
+								<div className='mx-1'>-</div>
+								<select
+									className='btn btn-sm btn-light text-start mx-2'
+									value={levelHigh}
+									onChange={e => {
+										const value = parseInt(e.target.value);
+										setLevelHigh(value);
+										console.log(value);
+									}}
+								>
+									{levelOptions.map(o => (
+										<option key={o.value} value={o.value}>
+											{o.name}
+										</option>
+									))}
+								</select>
+							</div>
+						</section>
 					</div>
 				</section>
 			)}
 			{characterSelect && (
 				//* <----- Talents ----->
-				<div className='border rounded'>
-					<h5 className='my-2'>Talents</h5>
+				<div className='rounded bg-primary-dark'>
+					<section className='rounded-top p-2 bg-primary-light'>
+						<h5 className='mt-1'>Talents</h5>
+					</section>
 
 					{/* <----- normal attack -----> */}
 					{charactersData.map(c =>
 						characterSelect === c.data.name ? (
 							<div
-								className='d-flex align-items-center justify-content-between border rounded p-3 m-2'
+								className='d-flex align-items-center justify-content-between rounded p-3 m-3 bg-secondary-medium'
 								key={c.data.name}
 							>
 								<div className='d-flex align-items-center'>
@@ -135,7 +141,7 @@ const Talents = props => {
 					{charactersData.map(c =>
 						characterSelect === c.data.name ? (
 							<div
-								className='d-flex align-items-center justify-content-between border rounded p-3 m-2'
+								className='d-flex align-items-center justify-content-between rounded p-3 m-3 bg-secondary-medium'
 								key={c.data.name}
 							>
 								<div className='d-flex align-items-center'>
@@ -191,7 +197,7 @@ const Talents = props => {
 					{charactersData.map(c =>
 						c.data.name === characterSelect ? (
 							<div
-								className='d-flex align-items-center justify-content-between border rounded p-3 m-2'
+								className='d-flex align-items-center justify-content-between rounded p-3 m-3 bg-secondary-medium'
 								key={c.data.name}
 							>
 								<div className='d-flex align-items-center me-3'>

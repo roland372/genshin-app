@@ -139,12 +139,14 @@ const Materials = props => {
 	const goldBooksDays = round(goldBooksResin / 180, 1);
 
 	return (
-		<section className='text-color my-2'>
+		<section className='bg-primary-dark text-color my-2 rounded'>
 			{charactersData.map(c =>
 				characterSelect === c.data.name ? (
-					<div className='border rounded' key={c.data.name}>
-						<h5 className='my-2'>Materials</h5>
-						<section className='d-flex flex-wrap justify-content-xl-around justify-content-center border rounded m-2 p-3'>
+					<div className='' key={c.data.name}>
+						<section className='rounded-top p-3 bg-primary-light'>
+							<h5 className=''>Materials</h5>
+						</section>
+						<section className='bg-secondary-medium d-flex flex-wrap justify-content-xl-around justify-content-center rounded m-3 p-3'>
 							<div>
 								<OverlayTrigger
 									placement='top'
@@ -411,7 +413,7 @@ const Materials = props => {
 								<div>{crown}</div>
 							</div>
 						</section>
-						<div className='d-inline-flex justify-content-center border rounded px-3 py-2 bg-danger'>
+						<div className='d-flex justify-content-center rounded px-3 py-2 mx-3 bg-danger'>
 							<div>
 								<h5>Total Cost</h5>
 								<div className='d-flex align-items-center'>
@@ -452,7 +454,7 @@ const Materials = props => {
 						<section className='row'>
 							<div className='col-md-4'>
 								{/*//* <----- Mora -----> */}
-								<div className='border rounded p-2 m-2'>
+								<div className='bg-secondary-medium rounded p-2 m-3'>
 									<OverlayTrigger
 										placement='top'
 										overlay={<Tooltip>{'Mora'}</Tooltip>}
@@ -471,7 +473,7 @@ const Materials = props => {
 									</div>
 								</div>
 								{/*//* <----- Hero's Wit -----> */}
-								<div className='border rounded p-2 m-2'>
+								<div className='bg-secondary-medium rounded p-2 m-3'>
 									<OverlayTrigger
 										placement='top'
 										overlay={<Tooltip>{"Hero's Wit"}</Tooltip>}
@@ -493,7 +495,7 @@ const Materials = props => {
 
 							<div className='col-md-4'>
 								{/*//* <----- Boss Materials -----> */}
-								<div className='border rounded p-2 m-2'>
+								<div className='bg-secondary-medium rounded p-2 m-3'>
 									<OverlayTrigger
 										placement='top'
 										overlay={
@@ -516,7 +518,7 @@ const Materials = props => {
 									</div>
 								</div>
 								{/*//* <----- Bronze Talent Books -----> */}
-								<div className='border rounded p-2 m-2'>
+								<div className='bg-secondary-medium rounded p-2 m-3'>
 									<OverlayTrigger
 										placement='top'
 										overlay={
@@ -542,7 +544,7 @@ const Materials = props => {
 
 							<div className='col-md-4'>
 								{/*//* <----- Silver Talent Books -----> */}
-								<div className='border rounded p-2 m-2'>
+								<div className='bg-secondary-medium rounded p-2 m-3'>
 									<OverlayTrigger
 										placement='top'
 										overlay={
@@ -565,7 +567,7 @@ const Materials = props => {
 									</div>
 								</div>
 								{/*//* <----- Gold Talent Books -----> */}
-								<div className='border rounded p-2 m-2'>
+								<div className='bg-secondary-medium rounded p-2 m-3'>
 									<OverlayTrigger
 										placement='top'
 										overlay={
