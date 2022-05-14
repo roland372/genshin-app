@@ -260,9 +260,43 @@ const FarmingPlanner = () => {
 	};
 
 	//* store characters names in array and use them in select
+	// const characterNames = [];
+	// characters.characters.map(c => {
+	// 	return characterNames.push({ value: c.name, label: c.name });
+	// });
+
 	const characterNames = [];
 	characters.characters.map(c => {
-		return characterNames.push({ value: c.name, label: c.name });
+		console.log(c);
+		return characterNames.push({
+			value: c.name,
+			label: (
+				<div className='d-flex align-items-center'>
+					<img
+						className='mx-1'
+						alt={c.name}
+						src={c.image}
+						height='50px'
+						width='50px'
+					/>
+					<img
+						className='mx-1 bg-primary-dark rounded p-1'
+						alt={c.name}
+						src={c.elementImage}
+						height='45px'
+						width='45px'
+					/>
+					<img
+						className='mx-1'
+						alt={c.name}
+						src={c.weaponImage}
+						height='45px'
+						width='45px'
+					/>
+					<h5>{c.name}</h5>
+				</div>
+			),
+		});
 	});
 
 	// console.log(user.uid);
