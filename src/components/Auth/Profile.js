@@ -414,7 +414,7 @@ const Profile = () => {
 							<section className='py-2 mx-2'>
 								<div className='d-flex justify-content-center align-items-center'>
 									<div className='col col-lg-6 mb-4 mb-lg-0'>
-										<div className='bg-primary-dark mb-3 rounded border'>
+										<div className='bg-primary-dark mb-3 rounded'>
 											<div className='row g-0'>
 												<div
 													className='col-md-4 text-center text-color'
