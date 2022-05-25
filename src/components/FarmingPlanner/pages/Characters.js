@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 //? <----- Router ----->
 import { Link } from 'react-router-dom';
@@ -10,14 +10,24 @@ import { useUserAuth } from '../../../context/UserAuthContext';
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
 import Loader from '../../Layout/Loader';
+import { Modal } from 'react-bootstrap';
 import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { toast } from 'react-toastify';
 
 const Characters = props => {
 	const { CharacterDataService } = props;
-
 	const { user } = useUserAuth();
+
+	//* <----- CharacterId state ----->
+	const [characterId, setCharacterId] = useState('');
+
+	//* <----- Modal state ----->
+	const [show, setShow] = useState(false);
+
+	//* <----- Modal functions ----->
+	const handleClose = () => setShow(false);
+	const handleShow = () => setShow(true);
 
 	const characterDeletedNotification = () =>
 		toast.success('Character Deleted', {
@@ -70,6 +80,32 @@ const Characters = props => {
 		<Container>
 			<CardComponent title='Farming Planner'>
 				<ScrollToTopRouter />
+				<Modal show={show} onHide={handleClose}>
+					<Modal.Header
+						closeButton
+						closeVariant='white'
+						className='bg-primary-light text-color'
+					>
+						<Modal.Title>Deleting Team</Modal.Title>
+					</Modal.Header>
+					<Modal.Body className='bg-primary-dark text-color'>
+						Are you sure you want to delete selected character?
+					</Modal.Body>
+					<Modal.Footer className='bg-primary-dark text-color'>
+						<button className='btn btn-warning' onClick={handleClose}>
+							Cancel
+						</button>
+						<button
+							className='btn btn-danger'
+							onClick={() => {
+								deleteCharacter(characterId);
+								handleClose();
+							}}
+						>
+							Delete
+						</button>
+					</Modal.Footer>
+				</Modal>
 				<div className='d-flex align-items-center justify-content-lg-start ms-2 pt-1 '>
 					<Link
 						className='btn btn-primary'
@@ -146,7 +182,11 @@ const Characters = props => {
 												</Link> */}
 												<button
 													className='btn btn-outline-danger'
-													onClick={() => deleteCharacter(character.id)}
+													// onClick={() => deleteCharacter(character.id)}
+													onClick={() => {
+														handleShow();
+														setCharacterId(character.id);
+													}}
 												>
 													Delete
 												</button>

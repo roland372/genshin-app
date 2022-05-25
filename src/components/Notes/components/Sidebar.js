@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 //? <----- Components ----->
 import Loader from '../../Layout/Loader';
+import { Modal } from 'react-bootstrap';
 
 const Sidebar = ({
 	notes,
@@ -14,8 +15,44 @@ const Sidebar = ({
 	//* sort the notes descending based on when they were last modified
 	const sortedNotes = notes.sort((a, b) => b.lastModified - a.lastModified);
 
+	//* <----- NoteId state ----->
+	const [noteId, setNoteId] = useState('');
+
+	//* <----- Modal state ----->
+	const [show, setShow] = useState(false);
+
+	//* <----- Modal functions ----->
+	const handleClose = () => setShow(false);
+	const handleShow = () => setShow(true);
+
 	return (
 		<div className='app-sidebar'>
+			<Modal show={show} onHide={handleClose}>
+				<Modal.Header
+					closeButton
+					closeVariant='white'
+					className='bg-primary-light text-color'
+				>
+					<Modal.Title>Deleting Team</Modal.Title>
+				</Modal.Header>
+				<Modal.Body className='bg-primary-dark text-color'>
+					Are you sure you want to delete selected note?
+				</Modal.Body>
+				<Modal.Footer className='bg-primary-dark text-color'>
+					<button className='btn btn-warning' onClick={handleClose}>
+						Cancel
+					</button>
+					<button
+						className='btn btn-danger'
+						onClick={() => {
+							onDeleteNote(noteId);
+							handleClose();
+						}}
+					>
+						Delete
+					</button>
+				</Modal.Footer>
+			</Modal>
 			<div className='app-sidebar-header'>
 				<h1>Your Notes</h1>
 				{/* create a new note */}
@@ -46,7 +83,11 @@ const Sidebar = ({
 									{/* delete note by referencing it's id */}
 									<button
 										className='btn btn-danger text-color'
-										onClick={e => onDeleteNote(id)}
+										// onClick={() => onDeleteNote(id)}
+										onClick={() => {
+											handleShow();
+											setNoteId(id);
+										}}
 									>
 										Delete
 									</button>

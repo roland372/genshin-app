@@ -319,7 +319,11 @@ const Profile = () => {
 			) : (
 				<CardComponent title='Profile'>
 					<Modal show={showModal} onHide={handleCloseModal}>
-						<Modal.Header closeButton className='bg-primary-light text-color'>
+						<Modal.Header
+							closeButton
+							closeVariant='white'
+							className='bg-primary-light text-color'
+						>
 							<Modal.Title>Edit Profile</Modal.Title>
 						</Modal.Header>
 						<Modal.Body className='bg-primary-dark text-color'>

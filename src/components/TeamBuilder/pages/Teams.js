@@ -9,6 +9,7 @@ import CardComponent from '../../Layout/CardComponent';
 import Characters from '../components/Characters';
 import CharactersHeading from '../components/CharactersHeading';
 import Loader from '../../Layout/Loader';
+import { Modal } from 'react-bootstrap';
 import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
 import { toast } from 'react-toastify';
 
@@ -18,6 +19,16 @@ const Teams = props => {
 
 	//* <----- Loading state ----->
 	const [loading, setLoading] = useState(<Loader />);
+
+	//* <----- TeamId state ----->
+	const [teamId, setTeamId] = useState('');
+
+	//* <----- Modal state ----->
+	const [show, setShow] = useState(false);
+
+	//* <----- Modal functions ----->
+	const handleClose = () => setShow(false);
+	const handleShow = () => setShow(true);
 
 	const teamDeletedNotification = () =>
 		toast.success('Team Deleted', {
@@ -65,6 +76,32 @@ const Teams = props => {
 		<Container>
 			<CardComponent title='Team Builder'>
 				<ScrollToTopRouter />
+				<Modal show={show} onHide={handleClose}>
+					<Modal.Header
+						closeButton
+						closeVariant='white'
+						className='bg-primary-light text-color'
+					>
+						<Modal.Title>Deleting Team</Modal.Title>
+					</Modal.Header>
+					<Modal.Body className='bg-primary-dark text-color'>
+						Are you sure you want to delete selected team?
+					</Modal.Body>
+					<Modal.Footer className='bg-primary-dark text-color'>
+						<button className='btn btn-warning' onClick={handleClose}>
+							Cancel
+						</button>
+						<button
+							className='btn btn-danger'
+							onClick={() => {
+								deleteTeam(teamId);
+								handleClose();
+							}}
+						>
+							Delete
+						</button>
+					</Modal.Footer>
+				</Modal>
 				<section className=''>
 					{/* <pre>{JSON.stringify(teamsDatabase, undefined, 2)}</pre> */}
 					<div className='d-flex align-items-center justify-content-lg-start ms-2 pt-1'>
@@ -109,7 +146,12 @@ const Teams = props => {
 												</Link>
 												<button
 													className='btn btn-outline-danger'
-													onClick={() => deleteTeam(team.id)}
+													// onClick={() => deleteTeam(team.id)}
+													// onClick={() => console.log(team.id)}
+													onClick={() => {
+														handleShow();
+														setTeamId(team.id);
+													}}
 												>
 													Delete
 												</button>

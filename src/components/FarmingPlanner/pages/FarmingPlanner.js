@@ -267,7 +267,7 @@ const FarmingPlanner = () => {
 
 	const characterNames = [];
 	characters.characters.map(c => {
-		console.log(c);
+		// console.log(c);
 		return characterNames.push({
 			value: c.name,
 			label: (

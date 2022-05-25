@@ -133,6 +133,15 @@
 	border-radius: 5px;
 }
 
+/**<----- Modal ----->*/
+.modal-content {
+	border: none;
+}
+
+.modal-backdrop {
+	background: rgba(0, 0, 0, 1);
+}
+
 /**<----- Elements Colors ----->*/
 
 .text-anemo {
