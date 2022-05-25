@@ -451,10 +451,10 @@ const Materials = props => {
 							</div>
 						</div>
 
-						<section className='row'>
+						<section className='row g-0'>
 							<div className='col-md-4'>
 								{/*//* <----- Mora -----> */}
-								<div className='bg-secondary-medium rounded p-2 m-3'>
+								<div className='bg-secondary-medium rounded p-2 ms-3 mt-3 me-md-1 me-3'>
 									<OverlayTrigger
 										placement='top'
 										overlay={<Tooltip>{'Mora'}</Tooltip>}
@@ -473,7 +473,7 @@ const Materials = props => {
 									</div>
 								</div>
 								{/*//* <----- Hero's Wit -----> */}
-								<div className='bg-secondary-medium rounded p-2 m-3'>
+								<div className='bg-secondary-medium rounded p-2 ms-3 mt-3 me-md-1 me-3'>
 									<OverlayTrigger
 										placement='top'
 										overlay={<Tooltip>{"Hero's Wit"}</Tooltip>}
@@ -495,7 +495,7 @@ const Materials = props => {
 
 							<div className='col-md-4'>
 								{/*//* <----- Boss Materials -----> */}
-								<div className='bg-secondary-medium rounded p-2 m-3'>
+								<div className='bg-secondary-medium rounded p-2 ms-3 mt-3 me-md-1 me-3'>
 									<OverlayTrigger
 										placement='top'
 										overlay={
@@ -518,7 +518,7 @@ const Materials = props => {
 									</div>
 								</div>
 								{/*//* <----- Bronze Talent Books -----> */}
-								<div className='bg-secondary-medium rounded p-2 m-3'>
+								<div className='bg-secondary-medium rounded p-2 ms-3 mt-3 me-md-1 me-3'>
 									<OverlayTrigger
 										placement='top'
 										overlay={
