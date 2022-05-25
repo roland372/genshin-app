@@ -55,8 +55,8 @@ const Team = props => {
 						<div className='mt-2'>
 							<CharactersHeading heading='Description:' />
 						</div>
-						<div className='rounded mx-2'>
-							<h5 className='text-start text-break'>{description}</h5>
+						<div className='rounded mx-2 new-line'>
+							<h5 className='text-start'>{description}</h5>
 						</div>
 					</section>
 				)}
