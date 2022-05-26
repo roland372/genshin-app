@@ -86,7 +86,7 @@ const Characters = props => {
 						closeVariant='white'
 						className='bg-primary-light text-color'
 					>
-						<Modal.Title>Deleting Team</Modal.Title>
+						<Modal.Title>Deleting Character</Modal.Title>
 					</Modal.Header>
 					<Modal.Body className='bg-primary-dark text-color'>
 						Are you sure you want to delete selected character?

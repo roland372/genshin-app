@@ -33,7 +33,7 @@ const Sidebar = ({
 					closeVariant='white'
 					className='bg-primary-light text-color'
 				>
-					<Modal.Title>Deleting Team</Modal.Title>
+					<Modal.Title>Deleting Note</Modal.Title>
 				</Modal.Header>
 				<Modal.Body className='bg-primary-dark text-color'>
 					Are you sure you want to delete selected note?
