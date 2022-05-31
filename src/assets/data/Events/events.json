@@ -1,60 +1,39 @@
 {
   "currentEvents": [
     {
-      "name": "Luxuriant Vibrance",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/20189",
-      "image": "images/Events/current/Battle_Pass_Luxuriant_Vibrance.png",
-      "startDate": "March 30, 2022",
-      "endDate": "May 09, 2022"
+      "name": "Gorge Sunset",
+      "link": "Gorge Sunset",
+      "image": "images/Events/current/Battle_Pass_Gorge_Sunset.png",
+      "startDate": "May 31, 2022",
+      "endDate": "July 11, 2022"
     },
     {
-      "name": "Outside the Canvas, Inside the Lens",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/20189",
-      "image": "images/Events/current/Outside_the_Canvas_Inside_the_Lens.png",
-      "startDate": "April 01, 2022",
-      "endDate": "April 11, 2022"
+      "name": "Perilous Trail",
+      "link": "https://www.hoyolab.com/article/4998732",
+      "image": "images/Events/current/Perilous_Trail.png",
+      "startDate": "May 31, 2022",
+      "endDate": "June 13, 2022"
     },
     {
-      "name": "Hues of the Violet Garden",
-      "link": "https://genshin-impact.fandom.com/wiki/Hues_of_the_Violet_Garden",
-      "image": "images/Events/current/Hues_of_the_Violet_Garden.png",
-      "startDate": "April 07, 2022",
-      "endDate": "April 25, 2022"
+      "name": "The Almighty Arataki Great and Glorious Drumalong Festival",
+      "link": "https://genshin.hoyoverse.com/en/news/detail/21261",
+      "image": "images/Events/current/The_Almight_Arataki_Great_and_Glorious_Drumalong_Festival.png",
+      "startDate": "June 13, 2022",
+      "endDate": "July 04, 2022"
     },
     {
-      "name": "Vibro-Crystal Research",
-      "link": "https://genshin-impact.fandom.com/wiki/Vibro-Crystal_Research",
-      "image": "images/Events/current/Vibro-Crystal_Research.png",
-      "startDate": "April 21, 2022",
-      "endDate": "May 5, 2022"
+      "name": "A Muddy Bizarre Adventure",
+      "link": "https://genshin-impact.fandom.com/wiki/A_Muddy_Bizarre_Adventure",
+      "image": "images/Events/current/A_Muddy_Bizarre_Adventure.png",
+      "startDate": "TBA",
+      "endDate": "TBA"
     },
     {
-      "name": "Ley Line Overflow",
-      "link": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/2.6",
-      "image": "images/Events/current/Ley_Line_Overflow.png",
-      "startDate": "April 28, 2022",
-      "endDate": "May 5, 2022"
-    },
-    {
-      "name": "Marvelous Merchandise",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/20573",
-      "image": "images/Events/current/Marvelous_Merchandise_Event.png",
-      "startDate": "May 6, 2022",
-      "endDate": "May 13, 2022"
-    },
-    {
-      "name": "Spices From the West",
-      "link": "https://genshin-impact.fandom.com/wiki/Spices_From_the_West",
-      "image": "images/Events/current/Spices_From_the_West.png",
-      "startDate": "May 14, 2022",
-      "endDate": "June 07, 2022"
-    },
-    {
-      "name": "Overflowing Mastery",
-      "link": "https://www.hoyolab.com/article/4592260",
-      "image": "images/Events/current/Overflowing_Mastery.png",
-      "startDate": "May 22, 2022",
-      "endDate": "May 29, 2022"
+      "name": "Core of the Apparatus",
+      "link": "https://genshin-impact.fandom.com/wiki/Core_of_the_Apparatus",
+      "image": "images/Events/current/Core_of_the_Apparatus.png",
+      "startDate": "TBA",
+      "endDate": "TBA"
     }
   ],
   "upcomingEvents": [
@@ -67,60 +46,97 @@
     }
   ],
   "pastEvents": {
+    "version 2.7" : [
+      {
+        "name": "Gorge Sunset",
+        "link": "Gorge Sunset",
+        "image": "images/Events/current/Battle_Pass_Gorge_Sunset.png",
+        "startDate": "May 31, 2022",
+        "endDate": "July 11, 2022"
+      },
+      {
+        "name": "Perilous Trail",
+        "link": "https://www.hoyolab.com/article/4998732",
+        "image": "images/Events/current/Perilous_Trail.png",
+        "startDate": "May 31, 2022",
+        "endDate": "June 13, 2022"
+      },
+      {
+        "name": "The Almighty Arataki Great and Glorious Drumalong Festival",
+        "link": "https://genshin.hoyoverse.com/en/news/detail/21261",
+        "image": "images/Events/current/The_Almight_Arataki_Great_and_Glorious_Drumalong_Festival.png",
+        "startDate": "June 13, 2022",
+        "endDate": "July 04, 2022"
+      },
+      {
+        "name": "A Muddy Bizarre Adventure",
+        "link": "https://genshin-impact.fandom.com/wiki/A_Muddy_Bizarre_Adventure",
+        "image": "images/Events/current/A_Muddy_Bizarre_Adventure.png",
+        "startDate": "TBA",
+        "endDate": "TBA"
+      },
+      {
+        "name": "Core of the Apparatus",
+        "link": "https://genshin-impact.fandom.com/wiki/Core_of_the_Apparatus",
+        "image": "images/Events/current/Core_of_the_Apparatus.png",
+        "startDate": "TBA",
+        "endDate": "TBA"
+      }
+    ],
     "version 2.6" : [
       {
         "name": "Luxuriant Vibrance",
         "link": "https://genshin.hoyoverse.com/en/news/detail/20189",
-        "image": "images/Events/current/Battle_Pass_Luxuriant_Vibrance.png",
+        "image": "images/Events/2.6/Battle_Pass_Luxuriant_Vibrance.png",
         "startDate": "March 30, 2022",
         "endDate": "May 09, 2022"
       },
       {
         "name": "Outside the Canvas, Inside the Lens",
         "link": "https://genshin.hoyoverse.com/en/news/detail/20189",
-        "image": "images/Events/current/Outside_the_Canvas_Inside_the_Lens.png",
+        "image": "images/Events/2.6/Outside_the_Canvas_Inside_the_Lens.png",
         "startDate": "April 01, 2022",
         "endDate": "April 11, 2022"
       },
       {
         "name": "Hues of the Violet Garden",
         "link": "https://genshin-impact.fandom.com/wiki/Hues_of_the_Violet_Garden",
-        "image": "images/Events/current/Hues_of_the_Violet_Garden.png",
+        "image": "images/Events/2.6/Hues_of_the_Violet_Garden.png",
         "startDate": "April 07, 2022",
         "endDate": "April 25, 2022"
       },
       {
         "name": "Vibro-Crystal Research",
         "link": "https://genshin-impact.fandom.com/wiki/Vibro-Crystal_Research",
-        "image": "images/Events/current/Vibro-Crystal_Research.png",
+        "image": "images/Events/2.6/Vibro-Crystal_Research.png",
         "startDate": "April 21, 2022",
         "endDate": "May 5, 2022"
       },
       {
         "name": "Ley Line Overflow",
         "link": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/2.6",
-        "image": "images/Events/current/Ley_Line_Overflow.png",
+        "image": "images/Events/2.6/Ley_Line_Overflow.png",
         "startDate": "April 28, 2022",
         "endDate": "May 5, 2022"
       },
       {
         "name": "Marvelous Merchandise",
         "link": "https://genshin.hoyoverse.com/en/news/detail/20573",
-        "image": "images/Events/current/Marvelous_Merchandise_Event.png",
+        "image": "images/Events/2.6/Marvelous_Merchandise_Event.png",
         "startDate": "May 6, 2022",
         "endDate": "May 13, 2022"
       },
       {
         "name": "Spices From the West",
         "link": "https://genshin-impact.fandom.com/wiki/Spices_From_the_West",
-        "image": "images/Events/current/Spices_From_the_West.png",
+        "image": "images/Events/2.6/Spices_From_the_West.png",
         "startDate": "May 14, 2022",
         "endDate": "June 07, 2022"
       },
       {
         "name": "Overflowing Mastery",
         "link": "https://www.hoyolab.com/article/4592260",
-        "image": "images/Events/current/Overflowing_Mastery.png",
+        "image": "images/Events/2.6/Overflowing_Mastery.png",
         "startDate": "May 22, 2022",
         "endDate": "May 29, 2022"
       }
