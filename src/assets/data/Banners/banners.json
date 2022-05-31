@@ -1,42 +1,51 @@
 {
   "currentBanners": [
     {
-      "name": "Azure Excursion",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/20186",
-      "image": "images/Banners/character/Azure_Excursion_2022-03-30.png",
-      "startDate": "March 30, 2022",
-      "endDate": "April 19, 2022"
+      "name": "Discerner of Enigmas",
+      "link": "https://www.hoyolab.com/article/4998733",
+      "image": "images/Banners/character/Discerner_of_Enigmas_2022-05-31.png",
+      "startDate": "May 31, 2022",
+      "endDate": "June 21, 2022"
     },
     {
-      "name": "Ballad in Goblets",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/20187",
-      "image": "images/Banners/character/Ballad_in_Goblets_2022-03-30.png",
-      "startDate": "March 30, 2022",
-      "endDate": "April 19, 2022"
-    },
-    {
-      "name": "Epitome Invocation",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/20188",
-      "image": "images/Banners/weapon/Epitome_Invocation_2022-03-30.png",
-      "startDate": "March 30, 2022",
-      "endDate": "April 19, 2022"
-    },
-    {
-      "name": "The Heron's Court",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/20567",
-      "image": "images/Banners/character/The_Herons_Court_2022-04-19.png",
-      "startDate": "April 19, 2022",
-      "endDate": "TBA"
+      "name": "Invitation to Mundane Life",
+      "link": "https://www.hoyolab.com/article/4998734",
+      "image": "images/Banners/character/Invitation_to_Mundane_Life_2022-05-31.png",
+      "startDate": "May 31, 2022",
+      "endDate": "June 21, 2022"
     },
     {
       "name": "Epitome Invocation",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/20569",
-      "image": "images/Banners/weapon/Epitome_Invocation_2022-04-19.png",
-      "startDate": "April 19, 2022",
-      "endDate": "TBA"
+      "link": "https://www.hoyolab.com/article/4998735",
+      "image": "images/Banners/weapon/Epitome_Invocation_2022-05-31.png",
+      "startDate": "May 31, 2022",
+      "endDate": "June 21, 2022"
     }
   ],
   "pastBanners": {
+    "version 2.7" : [
+      {
+        "name": "Discerner of Enigmas",
+        "link": "https://www.hoyolab.com/article/4998733",
+        "image": "images/Banners/character/Discerner_of_Enigmas_2022-05-31.png",
+        "startDate": "May 31, 2022",
+        "endDate": "June 21, 2022"
+      },
+      {
+        "name": "Invitation to Mundane Life",
+        "link": "https://www.hoyolab.com/article/4998734",
+        "image": "images/Banners/character/Invitation_to_Mundane_Life_2022-05-31.png",
+        "startDate": "May 31, 2022",
+        "endDate": "June 21, 2022"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://www.hoyolab.com/article/4998735",
+        "image": "images/Banners/weapon/Epitome_Invocation_2022-05-31.png",
+        "startDate": "May 31, 2022",
+        "endDate": "June 21, 2022"
+      }
+    ],
     "version 2.6" : [
       {
         "name": "Azure Excursion",
@@ -64,14 +73,14 @@
         "link": "https://genshin.hoyoverse.com/en/news/detail/20567",
         "image": "images/Banners/character/The_Herons_Court_2022-04-19.png",
         "startDate": "April 19, 2022",
-        "endDate": "TBA"
+        "endDate": "May 31, 2022"
       },
       {
         "name": "Epitome Invocation",
         "link": "https://genshin.hoyoverse.com/en/news/detail/20569",
         "image": "images/Banners/weapon/Epitome_Invocation_2022-04-19.png",
         "startDate": "April 19, 2022",
-        "endDate": "TBA"
+        "endDate": "May 31, 2022"
       }
     ],
     "version 2.5" : [
