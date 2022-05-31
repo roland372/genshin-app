@@ -1868,6 +1868,23 @@
     "weaponAscension": []
   },
   {
+    "image": "/images/Weapons/Bows/Weapon_Aqua_Simulacra_2nd.png",
+    "name": "Aqua Simulacra",
+    "type": "bow",
+    "rarity": 5,
+    "baseAtk": 44,
+    "maxAtk": 542,
+    "secondStatType": "CRIT DMG",
+    "secondStatMin": 19.2,
+    "secondStatMax": 88.2,
+    "description": "The Cleansing Form\n HP is increased by 16%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 20%. This will take effect whether the character is on-field or not.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Luminous_Sands_from_Guyun.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Gloomy_Statuette.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Spectral_Husk.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
     "image": "/images/Weapons/Bows/Weapon_Polar_Star_2nd.png",
     "name": "Polar Star",
     "type": "bow",
@@ -1949,6 +1966,23 @@
     "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Fetters_of_the_Dandelion_Gladiator.png",
     "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Chaos_Device.png",
     "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
+    "image": "/images/Weapons/Bows/Weapon_Fading_Twilight_2nd.png",
+    "name": "Fading Twilight",
+    "type": "bow",
+    "rarity": 4,
+    "baseAtk": 44,
+    "maxAtk": 565,
+    "secondStatType": "Energy Recharge",
+    "secondStatMin": 6.7,
+    "secondStatMax": 30.6,
+    "description": "Radiance of the Deeps\n Has three states, Evengleam, Afterglow, and Dawnblaze, which increase DMG dealt by 6%/10%/14% respectively. When attacks hit opponents, this weapon will switch to the next state. This weapon can change states once every 7s. The character equipping this weapon can still trigger the state switch while not on the field.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Grain_of_Aerosiderite.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Inspector's_Sacrificial_Knife.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
     "stats": [],
     "weaponAscension": []
   },
