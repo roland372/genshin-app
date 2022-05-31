@@ -45,6 +45,7 @@ import Xingqiu from '../components/Characters/Character/Xingqiu/Xingqiu';
 import Xinyan from '../components/Characters/Character/Xinyan/Xinyan';
 import YaeMiko from '../components/Characters/Character/Yae Miko/YaeMiko';
 import Yanfei from '../components/Characters/Character/Yanfei/Yanfei';
+import Yelan from '../components/Characters/Character/Yelan/Yelan';
 import Yoimiya from '../components/Characters/Character/Yoimiya/Yoimiya';
 import YunJin from '../components/Characters/Character/Yun Jin/YunJin';
 import Zhongli from '../components/Characters/Character/Zhongli/Zhongli';
@@ -97,6 +98,7 @@ import XingqiuData from '../assets/data/Characters/Xingqiu.json';
 import XinyanData from '../assets/data/Characters/Xinyan.json';
 import YaeMikoData from '../assets/data/Characters/Yae Miko.json';
 import YanfeiData from '../assets/data/Characters/Yanfei.json';
+import YelanData from '../assets/data/Characters/Yelan.json';
 import YoimiyaData from '../assets/data/Characters/Yoimiya.json';
 import YunJinData from '../assets/data/Characters/Yun Jin.json';
 import ZhongliData from '../assets/data/Characters/Zhongli.json';
@@ -285,6 +287,10 @@ const charactersImports = [
 	{
 		component: Yanfei,
 		data: YanfeiData,
+	},
+	{
+		component: Yelan,
+		data: YelanData,
 	},
 	{
 		component: Yoimiya,

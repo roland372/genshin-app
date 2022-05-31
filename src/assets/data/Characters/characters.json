@@ -1013,6 +1013,28 @@
       "image": "/images/Characters/liyue/Yanfei/images/Character_Yanfei_Thumb.png"
     },
     {
+      "name": "Yelan",
+      "url": "Yelan",
+      "rarity": 5,
+      "rarityImage": "/images/Rarity icons/Icon_5_Stars.png",
+      "element": "Hydro",
+      "elementImage": "/images/Elements/Element_Hydro.png",
+      "weapon": "Bow",
+      "weaponImage": "/images/Weapon icons/Weapon-class-bow-icon.png",
+      "sex": "Female",
+      "nation": "Liyue",
+      "HP": 14450,
+      "ATK": 244,
+      "DEF": 548,
+      "ascension": "CRIT Rate",
+      "talentBook": "Prosperity",
+      "ascensionMaterial": "Lazurite Sliver",
+      "bossMaterial": "Runic Fang",
+      "localSpeciality": "Starconch",
+      "commonMaterial": "Recruit's Insignia",
+      "image": "/images/Characters/liyue/Yelan/images/Character_Yelan_Thumb.png"
+    },
+    {
       "name": "Yoimiya",
       "url": "Yoimiya",
       "rarity": 5,
