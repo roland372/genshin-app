@@ -40,14 +40,18 @@ const TalentMaterials = props => {
 									moraImage,
 									moraAmount,
 								} = material;
+								// console.log(
+								// 	material.talentBookImage
+								// 	.slice(57, -4)
+								// 	.replaceAll('_', ' ')
+								// );
+								console.log(props.data.talentBook);
 								return (
 									<TalentMaterial
 										level={level}
 										key={index}
 										talentBookImage={talentBookImage}
-										talentBookName={material.talentBookImage
-											.slice(57, -4)
-											.replaceAll('_', ' ')}
+										talentBookName={props.data.talentBook.slice(16)}
 										talentBookAmount={talentBookAmount}
 										commonMaterialImage={commonMaterialImage}
 										commonMaterialName={material.commonMaterialImage
