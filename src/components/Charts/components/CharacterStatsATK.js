@@ -4,20 +4,20 @@ import React from 'react';
 import 'chart.js/auto';
 import { Chart } from 'react-chartjs-2';
 
-const CharacterStatsHP = props => {
+const CharacterStats = props => {
 	const { charactersArray } = props;
 
-	charactersArray.sort((a, b) => (a.HP > b.HP ? 1 : -1));
+	charactersArray.sort((a, b) => (a.ATK > b.ATK ? 1 : -1));
 
 	const chartData = {
 		labels: charactersArray.map(c => c.name),
 		datasets: [
 			{
-				label: 'HP',
-				data: charactersArray.map(c => c.HP),
+				label: 'ATK',
+				data: charactersArray.map(c => c.ATK),
 				fill: true,
-				borderColor: 'rgb(119, 221, 119)',
-				backgroundColor: 'rgb(119, 221, 119, 0.5)',
+				borderColor: 'rgb(255, 99, 132)',
+				backgroundColor: 'rgba(255, 99, 132, 0.5)',
 			},
 		],
 	};
@@ -30,4 +30,4 @@ const CharacterStatsHP = props => {
 	);
 };
 
-export default CharacterStatsHP;
+export default CharacterStats;

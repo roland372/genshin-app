@@ -10,7 +10,8 @@ import Rarity from '../components/Rarity';
 import Sex from '../components/Sex';
 import TalentBook from '../components/TalentBook';
 import AscensionStat from '../components/AscensionStat';
-import CharacterStatsATKDEF from '../components/CharacterStatsATKDEF';
+import CharacterStatsATK from '../components/CharacterStatsATK';
+import CharacterStatsDEF from '../components/CharacterStatsDEF';
 import CharacterStatsHP from '../components/CharacterStatsHP';
 
 //? <----- Data ----->
@@ -44,7 +45,11 @@ const Charts = () => {
 					// style={{ width: '99%' }}
 				>
 					<div>
-						<CharacterStatsATKDEF
+						<CharacterStatsATK
+							ascensionStat={ascensionStat}
+							charactersArray={charactersData.characters}
+						/>
+						<CharacterStatsDEF
 							ascensionStat={ascensionStat}
 							charactersArray={charactersData.characters}
 						/>

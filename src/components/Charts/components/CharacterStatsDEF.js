@@ -7,16 +7,11 @@ import { Chart } from 'react-chartjs-2';
 const CharacterStats = props => {
 	const { charactersArray } = props;
 
+	charactersArray.sort((a, b) => (a.DEF > b.DEF ? 1 : -1));
+
 	const chartData = {
 		labels: charactersArray.map(c => c.name),
 		datasets: [
-			{
-				label: 'ATK',
-				data: charactersArray.map(c => c.ATK),
-				fill: true,
-				borderColor: 'rgb(255, 99, 132)',
-				backgroundColor: 'rgba(255, 99, 132, 0.5)',
-			},
 			{
 				label: 'DEF',
 				data: charactersArray.map(c => c.DEF),
