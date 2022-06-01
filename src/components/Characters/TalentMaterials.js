@@ -45,7 +45,6 @@ const TalentMaterials = props => {
 								// 	.slice(57, -4)
 								// 	.replaceAll('_', ' ')
 								// );
-								console.log(props.data.talentBook);
 								return (
 									<TalentMaterial
 										level={level}
