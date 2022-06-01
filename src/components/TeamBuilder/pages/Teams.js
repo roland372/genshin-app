@@ -26,6 +26,9 @@ const Teams = props => {
 	//* <----- Modal state ----->
 	const [show, setShow] = useState(false);
 
+	//* <----- Search state ----->
+	const [searchTerm, setSearchTerm] = useState('');
+
 	//* <----- Modal functions ----->
 	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
@@ -72,6 +75,15 @@ const Teams = props => {
 	const sortedTeams =
 		user && teamsDatabase.sort((a, b) => b.lastModified - a.lastModified);
 
+	// console.log(sortedTeams);
+	// sortedTeams
+	// 	.filter(owner => owner.owner === user.uid)
+	// 	.map(team => console.log(team.name));
+
+	// sortedTeams
+	// 	.filter(owner => owner.owner === user.uid)
+	// 	.map(team => team.teamMembers.map(teamMember => console.log(teamMember)));
+
 	return (
 		<Container>
 			<CardComponent title='Team Builder'>
@@ -112,7 +124,16 @@ const Teams = props => {
 					<div className='mx-2'>
 						<hr />
 					</div>
-
+					<section className='m-2'>
+						<input
+							type='text'
+							className='form-control'
+							placeholder='Search for a team'
+							onChange={event => {
+								setSearchTerm(event.target.value);
+							}}
+						/>
+					</section>
 					{loading ? (
 						<Loader />
 					) : (
@@ -120,6 +141,18 @@ const Teams = props => {
 							{user &&
 								sortedTeams
 									.filter(owner => owner.owner === user.uid)
+									.filter(value => {
+										if (value.name === '') {
+											return value;
+										} else if (
+											value.name
+												.toLocaleLowerCase()
+												.includes(searchTerm.toLocaleLowerCase())
+										) {
+											return value;
+										}
+										return 0;
+									})
 									.map((team, index) => (
 										<section
 											key={index}
