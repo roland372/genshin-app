@@ -37,12 +37,12 @@ const ScrollToTop = () => {
 				onClick={scrollToTop}
 				style={{
 					position: 'fixed',
-					width: '100%',
-					left: '40%',
+					// width: '10%',
+					left: '90%',
 					bottom: '40px',
 					height: '40px',
 					fontSize: '3rem',
-					zIndex: '1',
+					zIndex: '1000',
 					cursor: 'pointer',
 					color: 'white',
 					display: visible ? 'inline' : 'none',
