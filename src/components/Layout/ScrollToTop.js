@@ -42,7 +42,7 @@ const ScrollToTop = () => {
 					bottom: '40px',
 					height: '40px',
 					fontSize: '3rem',
-					zIndex: '1000',
+					zIndex: '10000',
 					cursor: 'pointer',
 					color: 'white',
 					display: visible ? 'inline' : 'none',
