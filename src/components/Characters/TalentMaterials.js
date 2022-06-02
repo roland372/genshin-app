@@ -45,12 +45,18 @@ const TalentMaterials = props => {
 								// 	.slice(57, -4)
 								// 	.replaceAll('_', ' ')
 								// );
+
 								return (
 									<TalentMaterial
 										level={level}
 										key={index}
 										talentBookImage={talentBookImage}
-										talentBookName={props.data.talentBook.slice(16)}
+										talentBookName={
+											talentBookImage
+												.replaceAll(props.data.talentBook, '')
+												.replaceAll('_', ' ')
+												.slice(51, -4) + props.data.talentBook
+										}
 										talentBookAmount={talentBookAmount}
 										commonMaterialImage={commonMaterialImage}
 										commonMaterialName={material.commonMaterialImage
