@@ -72,7 +72,7 @@ const Teams = props => {
 	// console.log(teamsLocalStorage);
 
 	//* <----- Sort teams - display newest first ----->
-	const sortedTeams =
+	const sortByDate =
 		user && teamsDatabase.sort((a, b) => b.lastModified - a.lastModified);
 
 	// console.log(sortedTeams);
@@ -83,6 +83,21 @@ const Teams = props => {
 	// sortedTeams
 	// 	.filter(owner => owner.owner === user.uid)
 	// 	.map(team => team.teamMembers.map(teamMember => console.log(teamMember)));
+
+	// console.log('<----- sorted ----->');
+	// sortByName.map(team => console.log(team.name));
+
+	// const sortByName =
+	// 	user &&
+	// 	teamsDatabase.sort(function (a, b) {
+	// 		let nameA = a.name.toLowerCase(),
+	// 			nameB = b.name.toLowerCase();
+	// 		if (nameA < nameB)
+	// 			//sort string ascending
+	// 			return -1;
+	// 		if (nameA > nameB) return 1;
+	// 		return 0; //default return value (no sorting)
+	// 	});
 
 	return (
 		<Container>
@@ -116,7 +131,7 @@ const Teams = props => {
 				</Modal>
 				<section className=''>
 					{/* <pre>{JSON.stringify(teamsDatabase, undefined, 2)}</pre> */}
-					<div className='d-flex align-items-center justify-content-lg-start ms-2 pt-1'>
+					<div className='d-flex align-items-center justify-content-start ms-2 pt-1'>
 						<Link className='btn btn-primary' to='/team-builder/teams/add/'>
 							Add Team
 						</Link>
@@ -124,7 +139,7 @@ const Teams = props => {
 					<div className='mx-2'>
 						<hr />
 					</div>
-					<section className='m-2'>
+					<section className='mx-2 mb-3'>
 						<input
 							type='text'
 							className='form-control'
@@ -139,7 +154,7 @@ const Teams = props => {
 					) : (
 						<section className='d-flex flex-wrap mx-2 bg-primary-dark rounded'>
 							{user &&
-								sortedTeams
+								sortByDate
 									.filter(owner => owner.owner === user.uid)
 									.filter(value => {
 										if (value.name === '') {
