@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 
 //? <----- Router ----->
 import { useHistory, useParams } from 'react-router-dom';
@@ -90,8 +90,6 @@ const EditCharacter = props => {
 		crown,
 	} = character;
 
-	let previousCharacter = useRef({});
-
 	const { id } = useParams();
 
 	useEffect(() => {
@@ -101,7 +99,7 @@ const EditCharacter = props => {
 		};
 		getCharacterDatabase(id);
 		// getCharactersDatabase();
-	}, [id]);
+	}, [id, CharacterDataService, setCharacter]);
 
 	//* <----- character level up switch ----->
 	useEffect(() => {

@@ -100,8 +100,7 @@ const AddCharacter = props => {
 			// console.log(data.data().name);
 		};
 		getCharacterDatabase(id);
-	}, [id, CharacterDataService]);
-	console.log(character);
+	}, [id, CharacterDataService, setCharacter]);
 
 	//* <----- character level up switch ----->
 	useEffect(() => {
@@ -285,7 +284,7 @@ const AddCharacter = props => {
 	const onSubmit = async e => {
 		e.preventDefault();
 
-		console.log(character);
+		// console.log(character);
 		console.log('submitted');
 
 		try {

@@ -107,7 +107,7 @@ const Materials = props => {
 	}
 
 	const totalMora = moraCharacter + moraTalent;
-	const moraLeyLines = Math.round(totalMora / 20000);
+	const moraLeyLines = Math.round(totalMora / 60000);
 	const moraResin = moraLeyLines * 20;
 	const moraDays = round(moraResin / 180, 1);
 
