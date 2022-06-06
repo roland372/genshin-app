@@ -40,11 +40,12 @@ const Talents = props => {
 								<div className='me-2'>Select level</div>
 								<select
 									className='btn btn-sm btn-light text-start mx-2'
+									// defaultValue={levelLow}
 									value={levelLow}
 									onChange={e => {
 										const value = parseInt(e.target.value);
 										setLevelLow(value);
-										console.log(value);
+										// console.log(value);
 									}}
 								>
 									{levelOptions.map(o => (
@@ -57,10 +58,11 @@ const Talents = props => {
 								<select
 									className='btn btn-sm btn-light text-start mx-2'
 									value={levelHigh}
+									// defaultValue={levelHigh}
 									onChange={e => {
 										const value = parseInt(e.target.value);
 										setLevelHigh(value);
-										console.log(value);
+										// console.log(value);
 									}}
 								>
 									{levelOptions.map(o => (
@@ -103,6 +105,7 @@ const Talents = props => {
 								<div className='d-flex'>
 									<select
 										className='btn btn-sm btn-light text-start'
+										// defaultValue={NALow}
 										value={NALow}
 										onChange={e => {
 											const value = parseInt(e.target.value);
@@ -118,6 +121,7 @@ const Talents = props => {
 									<div className='mx-1'>-</div>
 									<select
 										className='btn btn-sm btn-light text-start'
+										// defaultValue={NAHigh}
 										value={NAHigh}
 										onChange={e => {
 											const value = parseInt(e.target.value);
@@ -160,6 +164,7 @@ const Talents = props => {
 									<select
 										className='btn btn-sm btn-light text-start'
 										value={ESLow}
+										// defaultValue={ESLow}
 										onChange={e => {
 											const value = parseInt(e.target.value);
 											setESLow(value);
@@ -175,6 +180,7 @@ const Talents = props => {
 									<select
 										className='btn btn-sm btn-light text-start'
 										value={ESHigh}
+										// defaultValue={ESHigh}
 										onChange={e => {
 											const value = parseInt(e.target.value);
 											setESHigh(value);
@@ -216,6 +222,7 @@ const Talents = props => {
 									<select
 										className='btn btn-sm btn-light text-start'
 										value={EBLow}
+										// defaultValue={EBLow}
 										onChange={e => {
 											const value = parseInt(e.target.value);
 											setEBLow(value);
@@ -231,6 +238,7 @@ const Talents = props => {
 									<select
 										className='btn btn-sm btn-light text-start'
 										value={EBHigh}
+										// defaultValue={EBHigh}
 										onChange={e => {
 											const value = parseInt(e.target.value);
 											setEBHigh(value);

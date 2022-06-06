@@ -1,12 +1,12 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 //? <----- Router ----->
-import { useHistory } from 'react-router-dom';
+import { useHistory, useParams } from 'react-router-dom';
 
 //? <----- Components ----->
 import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
-import Form from '../components/Form';
+import EditForm from '../components/EditForm';
 import BackButton from '../components/BackButton';
 import ScrollToTopRouter from '../../Layout/ScrollToTopRouter';
 import { toast } from 'react-toastify';
@@ -15,15 +15,13 @@ import { toast } from 'react-toastify';
 import levelOptions from '../utils/levelOptions';
 import talentOptions from '../utils/talentOptions';
 
-const AddCharacter = props => {
+const EditCharacter = props => {
 	const { useDocumentTitle, CharacterDataService } = props;
 
-	useDocumentTitle('Add Character');
+	useDocumentTitle('Edit Character');
 
-	const history = useHistory();
-
-	const characterAddedNotification = () =>
-		toast.success('Character Added', {
+	const characterEditedNotification = () =>
+		toast.success('Character Edited', {
 			position: 'top-center',
 			autoClose: 2000,
 			hideProgressBar: false,
@@ -33,61 +31,77 @@ const AddCharacter = props => {
 			progress: '',
 		});
 
+	let history = useHistory();
+
 	let {
 		//* <----- authenicated user uid ----->
 		owner,
 		//* <----- characters data ----->
 		charactersData,
 		characters,
-		characterNames,
 		//* <----- character state ----->
 		character,
 		setCharacter,
-		//* <----- select state ----->
+		// //* <----- select state ----->
 		levelLow,
 		setLevelLow,
-		levelHigh,
 		setLevelHigh,
 		NALow,
 		setNALow,
-		NAHigh,
 		setNAHigh,
 		ESLow,
 		setESLow,
-		ESHigh,
 		setESHigh,
 		EBLow,
 		setEBLow,
-		EBHigh,
 		setEBHigh,
-		characterSelect,
-		setCharacterSelect,
-		//* <----- character level up state ----->
-		moraCharacter,
+		// //* <----- character level up state ----->
 		setMoraCharacter,
-		expBooks,
-		localSpeciality,
-		characterCommonMaterial1,
-		characterCommonMaterial2,
-		characterCommonMaterial3,
-		sliver,
-		fragments,
-		chunks,
-		gemstones,
-		bossAscensionMaterial,
-		moraTalent,
-		bronzeTalentBooks,
-		silverTalentBooks,
-		goldTalentBooks,
-		talentCommonMaterial1,
-		talentCommonMaterial2,
-		talentCommonMaterial3,
-		bossMaterial,
-		crown,
 		//* functions to set character and talent values
 		setCharacterLevelUp,
 		setTalentLevelUp,
 	} = props;
+
+	let {
+		name,
+		levelHigh,
+		NAHigh,
+		ESHigh,
+		EBHigh,
+		moraCharacter,
+		moraTalent,
+		expBooks,
+		localSpeciality,
+		characterCommonMaterial1,
+		talentCommonMaterial1,
+		characterCommonMaterial2,
+		talentCommonMaterial2,
+		characterCommonMaterial3,
+		talentCommonMaterial3,
+		bossAscensionMaterial,
+		sliver,
+		fragments,
+		chunks,
+		gemstones,
+		bronzeTalentBooks,
+		silverTalentBooks,
+		goldTalentBooks,
+		bossMaterial,
+		crown,
+	} = character;
+
+	let previousCharacter = useRef({});
+
+	const { id } = useParams();
+
+	useEffect(() => {
+		const getCharacterDatabase = async id => {
+			const data = await CharacterDataService.getCharacter(id);
+			setCharacter(data.data());
+		};
+		getCharacterDatabase(id);
+		// getCharactersDatabase();
+	}, [id]);
 
 	//* <----- character level up switch ----->
 	useEffect(() => {
@@ -178,31 +192,33 @@ const AddCharacter = props => {
 	});
 
 	//* <----- prevent negative select values ----->
-	// if (levelLow > levelHigh) {
-	// 	levelHigh = levelLow;
-	// 	setLevelHigh(levelHigh);
-	// }
+	if (levelLow > levelHigh) {
+		levelHigh = levelLow;
+		setLevelHigh(levelHigh);
+	}
 
-	// if (NALow > NAHigh) {
-	// 	NAHigh = NALow;
-	// 	setNAHigh(NAHigh);
-	// }
+	if (NALow > NAHigh) {
+		NAHigh = NALow;
+		setNAHigh(NAHigh);
+	}
 
-	// if (ESLow > ESHigh) {
-	// 	ESHigh = ESLow;
-	// 	setESHigh(ESHigh);
-	// }
+	if (ESLow > ESHigh) {
+		ESHigh = ESLow;
+		setESHigh(ESHigh);
+	}
 
-	// if (EBLow > EBHigh) {
-	// 	EBHigh = EBLow;
-	// 	setEBHigh(EBHigh);
-	// }
+	if (EBLow > EBHigh) {
+		EBHigh = EBLow;
+		setEBHigh(EBHigh);
+	}
+
+	console.log(levelHigh);
 
 	//* update character with selected values
 	useEffect(() => {
 		setCharacter({
 			...character,
-			name: characterSelect,
+			name: name,
 			owner: owner,
 			lastModified: Date.now(),
 			levelLow: levelLow,
@@ -237,7 +253,6 @@ const AddCharacter = props => {
 		// there's no need to for dependency character, it will cause rerendering loop
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [
-		characterSelect,
 		levelLow,
 		levelHigh,
 		NALow,
@@ -271,22 +286,19 @@ const AddCharacter = props => {
 	const onSubmit = async e => {
 		e.preventDefault();
 
-		console.log(character);
-		console.log('submitted');
+		// console.log(character);
+		// console.log('submitted');
 
-		try {
-			await CharacterDataService.addCharacter(character);
-			console.log('character added to database');
-			characterAddedNotification();
-			history.push('/farming-planner/');
-		} catch (err) {
-			console.log(err);
-		}
+		await CharacterDataService.updateCharacter(id, character);
+
+		characterEditedNotification();
+		history.push('/farming-planner/');
 	};
 
-	//* clean inputs when component unmounts
+	// console.log(character.levelHigh);
+
+	//* clean input values when component unmounts
 	useEffect(() => {
-		setCharacterSelect('');
 		setLevelLow(1);
 		setLevelHigh(1);
 		setNALow(1);
@@ -296,7 +308,6 @@ const AddCharacter = props => {
 		setEBLow(1);
 		setEBHigh(1);
 	}, [
-		setCharacterSelect,
 		setLevelLow,
 		setLevelHigh,
 		setNALow,
@@ -309,16 +320,16 @@ const AddCharacter = props => {
 
 	return (
 		<Container>
-			<CardComponent title='Add Character'>
+			<CardComponent title='Edit Character'>
 				<ScrollToTopRouter />
 				<BackButton />
 				<section className='mx-2'>
-					<Form
+					<EditForm
 						characters={characters}
 						levelOptions={levelOptions}
 						charactersData={charactersData}
 						talentOptions={talentOptions}
-						characterSelect={characterSelect}
+						characterSelect={name}
 						levelLow={levelLow}
 						setLevelLow={setLevelLow}
 						levelHigh={levelHigh}
@@ -357,14 +368,10 @@ const AddCharacter = props => {
 						bossMaterial={bossMaterial}
 						crown={crown}
 						onSubmit={onSubmit}
-						characterNames={characterNames}
-						selectValues={characterSelect}
-						setCharacterSelect={setCharacterSelect}
-						// onInputChange={onInputChange}
 						formErrors
-						//* submit button
-						color={'primary'}
-						text={'Add Character'}
+						// submit button
+						color={'warning'}
+						text={'Edit Character'}
 					/>
 				</section>
 			</CardComponent>
@@ -372,4 +379,4 @@ const AddCharacter = props => {
 	);
 };
 
-export default AddCharacter;
+export default EditCharacter;

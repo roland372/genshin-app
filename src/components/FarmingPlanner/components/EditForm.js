@@ -7,7 +7,7 @@ import SubmitButton from './SubmitButton';
 import Talents from './Talents';
 import Templates from './Templates';
 
-const Form = props => {
+const EditForm = props => {
 	const {
 		levelOptions,
 		charactersData,
@@ -83,6 +83,7 @@ const Form = props => {
 					EBLow={EBLow}
 					setEBLow={setEBLow}
 					setEBHigh={setEBHigh}
+					// onChange={e => onInputChange(e)}
 				/>
 				<Materials
 					charactersData={charactersData}
@@ -129,4 +130,4 @@ const Form = props => {
 	);
 };
 
-export default Form;
+export default EditForm;

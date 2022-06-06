@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 //? <----- Components ----->
 import Characters from './Characters';
 import AddCharacter from './AddCharacter';
-// import EditCharacter from './EditCharacter';
+import EditCharacter from './EditCharacter';
 import CharacterInfo from '../components/CharacterInfo';
 
 //? <----- Firebase ----->
@@ -245,6 +245,27 @@ const FarmingPlanner = () => {
 		);
 	};
 
+	//* <----- prevent negative select values ----->
+	if (levelLow > levelHigh) {
+		levelHigh = levelLow;
+		setLevelHigh(levelHigh);
+	}
+
+	if (NALow > NAHigh) {
+		NAHigh = NALow;
+		setNAHigh(NAHigh);
+	}
+
+	if (ESLow > ESHigh) {
+		ESHigh = ESLow;
+		setESHigh(ESHigh);
+	}
+
+	if (EBLow > EBHigh) {
+		EBHigh = EBLow;
+		setEBHigh(EBHigh);
+	}
+
 	//* filter characters so only characters that were added by user are displayed
 	const filterCharacters = charactersArray => {
 		const filteredCharacters = characters.characters.filter(character =>
@@ -413,9 +434,9 @@ const FarmingPlanner = () => {
 						setTalentLevelUp={setTalentLevelUp}
 					/>
 				</Route>
-				{/* <Route exact path='/farming-planner/characters/edit/:id'>
+				<Route exact path='/farming-planner/characters/edit/:id'>
 					<EditCharacter
-					CharacterDataService={CharacterDataService}
+						CharacterDataService={CharacterDataService}
 						useDocumentTitle={useDocumentTitle}
 						filterCharacters={filterCharacters}
 						//* <----- authenicated user uid ----->
@@ -425,8 +446,8 @@ const FarmingPlanner = () => {
 						charactersData={charactersData}
 						characterNames={characterNames}
 						//* <----- character state ----->
-						character={character}
-						setCharacter={setCharacter}
+						// character={character}
+						// setCharacter={setCharacter}
 						//* <----- select state ----->
 						levelLow={levelLow}
 						setLevelLow={setLevelLow}
@@ -492,7 +513,7 @@ const FarmingPlanner = () => {
 						setCharacterLevelUp={setCharacterLevelUp}
 						setTalentLevelUp={setTalentLevelUp}
 					/>
-				</Route> */}
+				</Route>
 				<Route exact path='/farming-planner/characters/:id'>
 					<CharacterInfo
 						CharacterDataService={CharacterDataService}
