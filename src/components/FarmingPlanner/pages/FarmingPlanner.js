@@ -36,12 +36,12 @@ const FarmingPlanner = () => {
 	//* <----- fetch characters from database ----->
 	const [charactersDatabase, setCharactersDatabase] = useState([]);
 	useEffect(() => {
-		user && getCharactersDatabase();
+		user && getCharactersDatabase(user?.uid);
 	}, [user]);
 
-	const getCharactersDatabase = async () => {
+	const getCharactersDatabase = async userId => {
 		setLoading(true);
-		const data = await CharacterDataService.getAllCharacters();
+		const data = await CharacterDataService.getAllCharacters(userId);
 		setCharactersDatabase(
 			data.docs.map(doc => ({ ...doc.data(), id: doc.id }))
 		);
@@ -287,38 +287,40 @@ const FarmingPlanner = () => {
 	// });
 
 	const characterNames = [];
-	characters.characters.map(c => {
-		// console.log(c);
-		return characterNames.push({
-			value: c.name,
-			label: (
-				<div className='d-flex align-items-center'>
-					<img
-						className='mx-1'
-						alt={c.name}
-						src={c.image}
-						height='50px'
-						width='50px'
-					/>
-					<img
-						className='mx-1 bg-primary-dark rounded p-1'
-						alt={c.name}
-						src={c.elementImage}
-						height='45px'
-						width='45px'
-					/>
-					<img
-						className='mx-1'
-						alt={c.name}
-						src={c.weaponImage}
-						height='45px'
-						width='45px'
-					/>
-					<h5>{c.name}</h5>
-				</div>
-			),
+	characters.characters
+		.sort((a, b) => a.name.localeCompare(b.name))
+		.map(c => {
+			// console.log(c);
+			return characterNames.push({
+				value: c.name,
+				label: (
+					<div className='d-flex align-items-center'>
+						<img
+							className='mx-1'
+							alt={c.name}
+							src={c.image}
+							height='50px'
+							width='50px'
+						/>
+						<img
+							className='mx-1 bg-primary-dark rounded p-1'
+							alt={c.name}
+							src={c.elementImage}
+							height='45px'
+							width='45px'
+						/>
+						<img
+							className='mx-1'
+							alt={c.name}
+							src={c.weaponImage}
+							height='45px'
+							width='45px'
+						/>
+						<h5>{c.name}</h5>
+					</div>
+				),
+			});
 		});
-	});
 
 	// console.log(user.uid);
 	// console.log(charactersDatabase);

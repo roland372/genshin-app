@@ -48,7 +48,7 @@ const Characters = props => {
 	} = props;
 
 	useEffect(() => {
-		user && getCharactersDatabase();
+		user && getCharactersDatabase(user?.uid);
 		// eslint-disable-next-line
 	}, [user]);
 
@@ -61,7 +61,7 @@ const Characters = props => {
 	const deleteCharacter = async id => {
 		await CharacterDataService.deleteCharacter(id);
 		characterDeletedNotification();
-		getCharactersDatabase();
+		getCharactersDatabase(user?.uid);
 	};
 
 	//* merge arrays, one filtered by names that has select values, and second containing images and other properties

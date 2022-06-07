@@ -65,13 +65,13 @@ const EditTeam = props => {
 
 	useEffect(() => {
 		getTeamDatabase(id);
-		getTeamsDatabase();
+		getTeamsDatabase(user?.uid);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [id]);
+	}, [id, user]);
 
-	const getTeamsDatabase = async () => {
+	const getTeamsDatabase = async userId => {
 		if (user) {
-			const data = await TeamDataService.getAllTeams();
+			const data = await TeamDataService.getAllTeams(userId);
 			// console.log(data.docs);
 			setTeamsDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
 		} else {

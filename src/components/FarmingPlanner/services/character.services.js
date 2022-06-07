@@ -8,6 +8,8 @@ import {
 	updateDoc,
 	deleteDoc,
 	doc,
+	query,
+	where,
 } from 'firebase/firestore';
 
 const characterCollectionRef = collection(db, 'characters');
@@ -29,8 +31,13 @@ class CharacterDataService {
 		return deleteDoc(characterDoc);
 	};
 
-	getAllCharacters = () => {
-		return getDocs(characterCollectionRef);
+	// getAllCharacters = () => {
+	// 	return getDocs(characterCollectionRef);
+	// };
+
+	getAllCharacters = userId => {
+		const q = query(characterCollectionRef, where('owner', '==', userId));
+		return getDocs(q);
 	};
 
 	getCharacter = id => {

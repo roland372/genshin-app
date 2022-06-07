@@ -50,11 +50,11 @@ const TeamBuilder = () => {
 
 	// select options
 	const characterNames = [];
-	characters.characters.map(c => {
-		return characterNames.push({ value: c.name, label: c.name });
-	});
-
-	// console.log(characterNames);
+	characters.characters
+		.sort((a, b) => a.name.localeCompare(b.name))
+		.map(c => {
+			return characterNames.push({ value: c.name, label: c.name });
+		});
 
 	return (
 		<Switch>

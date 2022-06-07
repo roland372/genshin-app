@@ -271,7 +271,7 @@ const AddCharacter = props => {
 	const onSubmit = async e => {
 		e.preventDefault();
 
-		console.log(character);
+		// console.log(character);
 		console.log('submitted');
 
 		try {

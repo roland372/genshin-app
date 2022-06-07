@@ -49,13 +49,13 @@ const Teams = props => {
 	const [teamsDatabase, setTeamsDatabase] = useState([]);
 
 	useEffect(() => {
-		user && getTeamsDatabase();
+		user && getTeamsDatabase(user?.uid);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [user]);
 
-	const getTeamsDatabase = async () => {
+	const getTeamsDatabase = async userId => {
 		setLoading(true);
-		const data = await TeamDataService.getAllTeams();
+		const data = await TeamDataService.getAllTeams(userId);
 		setTeamsDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
 		setLoading(false);
 	};
@@ -63,7 +63,7 @@ const Teams = props => {
 	const deleteTeam = async id => {
 		await TeamDataService.deleteTeam(id);
 		teamDeletedNotification();
-		getTeamsDatabase();
+		getTeamsDatabase(user?.uid);
 	};
 
 	// console.log(teamsLocalStorage);
@@ -98,6 +98,9 @@ const Teams = props => {
 	// 		if (nameA > nameB) return 1;
 	// 		return 0; //default return value (no sorting)
 	// 	});
+
+	// console.log(teamsDatabase); // 41
+	// console.log(teamsDatabase.filter(owner => owner.owner === user.uid)); //38
 
 	return (
 		<Container>

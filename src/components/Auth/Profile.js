@@ -123,10 +123,10 @@ const Profile = () => {
 
 	//* <----- Fetch user data from database ----->
 	useEffect(() => {
-		user && getTeamsDatabase();
-		user && getCharactersDatabase();
-		user && getNotesDatabase();
-		user && getUsersDatabase();
+		user && getTeamsDatabase(user?.uid);
+		user && getCharactersDatabase(user?.uid);
+		user && getNotesDatabase(user?.uid);
+		user && getUsersDatabase(user?.uid);
 		// user && getCurrentUser();
 		// if (user && user.photoURL) {
 		// 	setPhotoURL(user.photoURL);
@@ -138,8 +138,8 @@ const Profile = () => {
 	}, [user]);
 
 	//* <----- Get currently logged in user ----->
-	const getUsersDatabase = async () => {
-		const data = await UserDataService.getAllUsers();
+	const getUsersDatabase = async userId => {
+		const data = await UserDataService.getAllUsers(userId);
 		setUsersDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
 	};
 
@@ -156,20 +156,20 @@ const Profile = () => {
 	}, [usersDatabase, user.uid]);
 
 	//* <----- Get user collections from database ----->
-	const getTeamsDatabase = async () => {
-		const data = await TeamDataService.getAllTeams();
+	const getTeamsDatabase = async userId => {
+		const data = await TeamDataService.getAllTeams(userId);
 		setTeamsDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
 	};
 
-	const getCharactersDatabase = async () => {
-		const data = await CharacterDataService.getAllCharacters();
+	const getCharactersDatabase = async userId => {
+		const data = await CharacterDataService.getAllCharacters(userId);
 		setCharactersDatabase(
 			data.docs.map(doc => ({ ...doc.data(), id: doc.id }))
 		);
 	};
 
-	const getNotesDatabase = async () => {
-		const data = await NotesDataService.getAllNotes();
+	const getNotesDatabase = async userId => {
+		const data = await NotesDataService.getAllNotes(userId);
 		setNotesDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
 	};
 

@@ -8,6 +8,8 @@ import {
 	doc,
 	deleteDoc,
 	addDoc,
+	query,
+	where,
 } from 'firebase/firestore';
 
 //* create reference to users collection
@@ -30,8 +32,13 @@ class UserDataService {
 		return deleteDoc(userDoc);
 	};
 
-	getAllUsers = () => {
-		return getDocs(userCollectionRef);
+	// getAllUsers = () => {
+	// 	return getDocs(userCollectionRef);
+	// };
+
+	getAllUsers = userId => {
+		const q = query(userCollectionRef, where('uid', '==', userId));
+		return getDocs(q);
 	};
 
 	getUser = id => {

@@ -8,6 +8,8 @@ import {
 	updateDoc,
 	deleteDoc,
 	doc,
+	query,
+	where,
 } from 'firebase/firestore';
 
 const teamCollectionRef = collection(db, 'teams');
@@ -29,8 +31,13 @@ class TeamDataService {
 		return deleteDoc(teamDoc);
 	};
 
-	getAllTeams = () => {
-		return getDocs(teamCollectionRef);
+	// getAllTeams = () => {
+	// 	return getDocs(teamCollectionRef);
+	// };
+
+	getAllTeams = userId => {
+		const q = query(teamCollectionRef, where('owner', '==', userId));
+		return getDocs(q);
 	};
 
 	getTeam = id => {

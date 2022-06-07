@@ -56,12 +56,12 @@ const Notes = () => {
 
 	//* fetch notes from database when page loads
 	useEffect(() => {
-		getNotesDatabase();
-	}, []);
+		getNotesDatabase(user?.uid);
+	}, [user?.uid]);
 
-	const getNotesDatabase = async () => {
+	const getNotesDatabase = async userId => {
 		setLoading(true);
-		const data = await NotesDataService.getAllNotes();
+		const data = await NotesDataService.getAllNotes(userId);
 		setNotesDatabase(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
 		setLoading(false);
 	};
@@ -84,7 +84,7 @@ const Notes = () => {
 		try {
 			await NotesDataService.addNote(newNote);
 			console.log('note added to database');
-			await getNotesDatabase();
+			await getNotesDatabase(user?.uid);
 		} catch (err) {
 			console.log(err);
 		}
@@ -99,6 +99,7 @@ const Notes = () => {
 		await NotesDataService.deleteNote(noteId);
 		setNotesDatabase(notesDatabase.filter(({ id }) => id !== noteId));
 		noteDeletedNotification();
+		getNotesDatabase(user?.uid);
 	};
 
 	//* when click update note

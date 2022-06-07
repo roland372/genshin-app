@@ -8,6 +8,8 @@ import {
 	updateDoc,
 	deleteDoc,
 	doc,
+	query,
+	where,
 } from 'firebase/firestore';
 
 const notesCollectionRef = collection(db, 'notes');
@@ -29,8 +31,13 @@ class NotesDataService {
 		return deleteDoc(noteDoc);
 	};
 
-	getAllNotes = () => {
-		return getDocs(notesCollectionRef);
+	// getAllNotes = () => {
+	// 	return getDocs(notesCollectionRef);
+	// };
+
+	getAllNotes = userId => {
+		const q = query(notesCollectionRef, where('owner', '==', userId));
+		return getDocs(q);
 	};
 
 	getNote = id => {
