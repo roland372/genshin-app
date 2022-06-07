@@ -48,12 +48,12 @@ const TalentMaterials = props => {
 										talentBookImage={talentBookImage}
 										talentBookName={
 											props.data.name === 'Traveler (Anemo)' ||
-											'Traveler (Geo)' ||
-											'Traveler (Electro)' ||
-											'Traveler (Dendro)' ||
-											'Traveler (Hydro)' ||
-											'Traveler (Pyro)' ||
-											'Traveler (Cryo)'
+											props.data.name === 'Traveler (Geo)' ||
+											props.data.name === 'Traveler (Electro)' ||
+											props.data.name === 'Traveler (Dendro)' ||
+											props.data.name === 'Traveler (Hydro)' ||
+											props.data.name === 'Traveler (Pyro)' ||
+											props.data.name === 'Traveler (Cryo)'
 												? material.talentBookName
 												: talentBookImage
 														.replaceAll(props.data.talentBook, '')
