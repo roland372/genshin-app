@@ -43,6 +43,30 @@ import './App.css';
 import ScrollToTopRouter from './components/Layout/ScrollToTopRouter';
 
 function App() {
+	// fetch('https://enka.shinshin.moe/u/700684214')
+	// 	.then(function (response) {
+	// 		// When the page is loaded convert it to text
+	// 		return response.text();
+	// 	})
+	// 	.then(function (html) {
+	// 		// Initialize the DOM parser
+	// 		var parser = new DOMParser();
+	// 		// Parse the text
+	// 		var doc = parser.parseFromString(html, 'text/html');
+	// 		// You can now even select part of that html as you would in the regular DOM
+	// 		// Example:
+	// 		// console.log(doc);
+	// 		var script = doc.querySelector('script:nth-child(3)').innerHTML;
+	// 		// let main = doc.querySelector('main').innerHTML;
+	// 		// JSON.stringify(script);
+	// 		console.log(script);
+	// 		const obj = JSON.parse(script);
+	// 		console.log(obj.playerInfo);
+	// 	})
+	// 	.catch(function (err) {
+	// 		console.log('Failed to fetch page: ', err);
+	// 	});
+
 	return (
 		<Fragment>
 			<Router>
