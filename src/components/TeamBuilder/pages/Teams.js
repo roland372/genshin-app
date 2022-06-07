@@ -75,11 +75,6 @@ const Teams = props => {
 	const sortByDate =
 		user && teamsDatabase.sort((a, b) => b.lastModified - a.lastModified);
 
-	// console.log(sortedTeams);
-	// sortedTeams
-	// 	.filter(owner => owner.owner === user.uid)
-	// 	.map(team => console.log(team.name));
-
 	// sortedTeams
 	// 	.filter(owner => owner.owner === user.uid)
 	// 	.map(team => team.teamMembers.map(teamMember => console.log(teamMember)));
@@ -101,6 +96,56 @@ const Teams = props => {
 
 	// console.log(teamsDatabase); // 41
 	// console.log(teamsDatabase.filter(owner => owner.owner === user.uid)); //38
+
+	// console.log(sortedTeams);
+	// sortByDate
+	// 	.map(team => team.teamMembers.map(teamMember => console.log(teamMember)));
+
+	// const filterByCharacterName = sortByDate
+	// 	.filter(owner => owner.owner === user.uid)
+	// 	.filter(team => {
+	// 		if (searchTerm === '') {
+	// 			return team;
+	// 		} else if (
+	// 			team.teamMembers
+	// 				.map(member => member.toLowerCase())
+	// 				.includes(searchTerm.toLowerCase())
+	// 		) {
+	// 			return team;
+	// 		}
+	// 		return 0;
+	// 	});
+
+	// const filterByTeamName = sortByDate
+	// 	.filter(owner => owner.owner === user.uid)
+	// 	.filter(team => {
+	// 		if (searchTerm === '') {
+	// 			return team;
+	// 		} else if (
+	// 			team.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
+	// 		) {
+	// 			return team;
+	// 		}
+	// 		return 0;
+	// 	});
+
+	const filterSearch = sortByDate
+		.filter(owner => owner.owner === user.uid)
+		.filter(team => {
+			if (searchTerm === '') {
+				return team;
+			} else if (
+				team.name
+					.toLocaleLowerCase()
+					.includes(searchTerm.toLocaleLowerCase()) ||
+				team.teamMembers
+					.map(member => member.toLowerCase())
+					.includes(searchTerm.toLowerCase())
+			) {
+				return team;
+			}
+			return 0;
+		});
 
 	return (
 		<Container>
@@ -146,7 +191,7 @@ const Teams = props => {
 						<input
 							type='text'
 							className='form-control'
-							placeholder='Search for a team'
+							placeholder='Search for a team (team name or character full name)'
 							onChange={event => {
 								setSearchTerm(event.target.value);
 							}}
@@ -157,58 +202,44 @@ const Teams = props => {
 					) : (
 						<section className='d-flex flex-wrap mx-2 bg-primary-dark rounded'>
 							{user &&
-								sortByDate
-									.filter(owner => owner.owner === user.uid)
-									.filter(value => {
-										if (value.name === '') {
-											return value;
-										} else if (
-											value.name
-												.toLocaleLowerCase()
-												.includes(searchTerm.toLocaleLowerCase())
-										) {
-											return value;
-										}
-										return 0;
-									})
-									.map((team, index) => (
-										<section
-											key={index}
-											className='p-3 col-lg-4 col-md-6 col-sm-12'
-										>
-											<CharactersHeading heading={team.name} />
-											<Characters
-												filterCharacters={filterCharacters}
-												array={team.teamMembers}
-												heading='Team Members:'
-											/>
-											<div className='d-flex justify-content-start align-items-center ms-2 mt-2 pt-1'>
-												<Link
-													className='btn btn-outline-primary me-2'
-													to={`/team-builder/teams/${team.id}`}
-												>
-													View
-												</Link>
-												<Link
-													className='btn btn-outline-warning me-2'
-													to={`/team-builder/teams/edit/${team.id}`}
-												>
-													Edit
-												</Link>
-												<button
-													className='btn btn-outline-danger'
-													// onClick={() => deleteTeam(team.id)}
-													// onClick={() => console.log(team.id)}
-													onClick={() => {
-														handleShow();
-														setTeamId(team.id);
-													}}
-												>
-													Delete
-												</button>
-											</div>
-										</section>
-									))}
+								filterSearch.map((team, index) => (
+									<section
+										key={index}
+										className='p-3 col-lg-4 col-md-6 col-sm-12'
+									>
+										<CharactersHeading heading={team.name} />
+										<Characters
+											filterCharacters={filterCharacters}
+											array={team.teamMembers}
+											heading='Team Members:'
+										/>
+										<div className='d-flex justify-content-start align-items-center ms-2 mt-2 pt-1'>
+											<Link
+												className='btn btn-outline-primary me-2'
+												to={`/team-builder/teams/${team.id}`}
+											>
+												View
+											</Link>
+											<Link
+												className='btn btn-outline-warning me-2'
+												to={`/team-builder/teams/edit/${team.id}`}
+											>
+												Edit
+											</Link>
+											<button
+												className='btn btn-outline-danger'
+												// onClick={() => deleteTeam(team.id)}
+												// onClick={() => console.log(team.id)}
+												onClick={() => {
+													handleShow();
+													setTeamId(team.id);
+												}}
+											>
+												Delete
+											</button>
+										</div>
+									</section>
+								))}
 						</section>
 					)}
 				</section>
