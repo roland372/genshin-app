@@ -22,7 +22,7 @@
   "affiliation":"Honorary Knight",
   "specialDish":"None",
   "description":"A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
-  "talentBook":"Freedom",
+  "talentBook":"Prosperity",
   "talentBookImage": "/images/Materials/Character Materials/Talents/Prosperity/Item_Teachings_of_Prosperity.png",
   "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Brilliant_Diamond_Sliver.png",
   "ascensionMaterial2": "",
@@ -618,6 +618,7 @@
     {
       "level": "1 → 2",
       "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Teachings_of_Prosperity.png",
+      "talentBookName": "Teachings of Prosperity",
       "talentBookAmount": 3,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
       "commonMaterialAmount": 6,
@@ -631,6 +632,7 @@
     {
       "level": "2 → 3",
       "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookName": "Guide to Diligence",
       "talentBookAmount": 2,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
       "commonMaterialAmount": 3,
@@ -644,6 +646,7 @@
     {
       "level": "3 → 4",
       "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Guide_to_Gold.png",
+      "talentBookName": "Guide to Gold",
       "talentBookAmount": 4,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
       "commonMaterialAmount": 4,
@@ -657,6 +660,7 @@
     {
       "level": "4 → 5",
       "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Guide_to_Prosperity.png",
+      "talentBookName": "Guide to Prosperity",
       "talentBookAmount": 6,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
       "commonMaterialAmount": 6,
@@ -670,6 +674,7 @@
     {
       "level": "5 → 6",
       "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Guide_to_Diligence.png",
+      "talentBookName": "Guide to Diligence",
       "talentBookAmount": 9,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
       "commonMaterialAmount": 9,
@@ -683,6 +688,7 @@
     {
       "level": "6 → 7",
       "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookName": "Philosophies of Gold",
       "talentBookAmount": 4,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
       "commonMaterialAmount": 4,
@@ -696,6 +702,7 @@
     {
       "level": "7 → 8",
       "talentBookImage": "images/Materials/Character Materials/Talents/Prosperity/Item_Philosophies_of_Prosperity.png",
+      "talentBookName": "Philosophies of Prosperity",
       "talentBookAmount": 6,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
       "commonMaterialAmount": 6,
@@ -709,6 +716,7 @@
     {
       "level": "8 → 9",
       "talentBookImage": "images/Materials/Character Materials/Talents/Diligence/Item_Philosophies_of_Diligence.png",
+      "talentBookName": "Philosophies of Diligence",
       "talentBookAmount": 12,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
       "commonMaterialAmount": 9,
@@ -722,6 +730,7 @@
     {
       "level": "9 → 10",
       "talentBookImage": "images/Materials/Character Materials/Talents/Gold/Item_Philosophies_of_Gold.png",
+      "talentBookName": "Philosophies of Gold",
       "talentBookAmount": 16,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
       "commonMaterialAmount": 12,

@@ -40,11 +40,6 @@ const TalentMaterials = props => {
 									moraImage,
 									moraAmount,
 								} = material;
-								// console.log(
-								// 	material.talentBookImage
-								// 	.slice(57, -4)
-								// 	.replaceAll('_', ' ')
-								// );
 
 								return (
 									<TalentMaterial
@@ -52,10 +47,18 @@ const TalentMaterials = props => {
 										key={index}
 										talentBookImage={talentBookImage}
 										talentBookName={
-											talentBookImage
-												.replaceAll(props.data.talentBook, '')
-												.replaceAll('_', ' ')
-												.slice(51, -4) + props.data.talentBook
+											props.data.name === 'Traveler (Anemo)' ||
+											'Traveler (Geo)' ||
+											'Traveler (Electro)' ||
+											'Traveler (Dendro)' ||
+											'Traveler (Hydro)' ||
+											'Traveler (Pyro)' ||
+											'Traveler (Cryo)'
+												? material.talentBookName
+												: talentBookImage
+														.replaceAll(props.data.talentBook, '')
+														.replaceAll('_', ' ')
+														.slice(51, -4) + props.data.talentBook
 										}
 										talentBookAmount={talentBookAmount}
 										commonMaterialImage={commonMaterialImage}

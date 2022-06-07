@@ -682,6 +682,7 @@
     {
       "level": "1 → 2",
       "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Teachings_of_Freedom.png",
+      "talentBookName": "Teachings of Freedom",
       "talentBookAmount": 3,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
       "commonMaterialAmount": 6,
@@ -695,6 +696,7 @@
     {
       "level": "2 → 3",
       "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookName": "Guide to Resistance",
       "talentBookAmount": 2,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
       "commonMaterialAmount": 3,
@@ -708,6 +710,7 @@
     {
       "level": "3 → 4",
       "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Guide_to_Ballad.png",
+      "talentBookName": "Guide to Ballad",
       "talentBookAmount": 4,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
       "commonMaterialAmount": 4,
@@ -721,6 +724,7 @@
     {
       "level": "4 → 5",
       "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookName": "Guide to Freedom",
       "talentBookAmount": 6,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
       "commonMaterialAmount": 6,
@@ -734,6 +738,7 @@
     {
       "level": "5 → 6",
       "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Guide_to_Resistance.png",
+      "talentBookName": "Guide to Resistance",
       "talentBookAmount": 9,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
       "commonMaterialAmount": 9,
@@ -747,6 +752,7 @@
     {
       "level": "6 → 7",
       "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookName": "Philosophies of Ballad",
       "talentBookAmount": 4,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
       "commonMaterialAmount": 4,
@@ -760,6 +766,7 @@
     {
       "level": "7 → 8",
       "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookName": "Philosophies of Freedom",
       "talentBookAmount": 6,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
       "commonMaterialAmount": 6,
@@ -773,6 +780,7 @@
     {
       "level": "8 → 9",
       "talentBookImage": "images/Materials/Character Materials/Talents/Resistance/Item_Philosophies_of_Resistance.png",
+      "talentBookName": "Philosophies of Resistance",
       "talentBookAmount": 12,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
       "commonMaterialAmount": 9,
@@ -786,6 +794,7 @@
     {
       "level": "9 → 10",
       "talentBookImage": "images/Materials/Character Materials/Talents/Ballad/Item_Philosophies_of_Ballad.png",
+      "talentBookName": "Philosophies of Ballad",
       "talentBookAmount": 16,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
       "commonMaterialAmount": 12,
