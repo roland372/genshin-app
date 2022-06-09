@@ -330,9 +330,7 @@ const Materials = props => {
 								<OverlayTrigger
 									placement='top'
 									overlay={
-										<Tooltip>{`Teachings of ${c.data.talentBook.substring(
-											13
-										)}`}</Tooltip>
+										<Tooltip>{`Teachings of ${c.data.talentBook}`}</Tooltip>
 									}
 								>
 									<img
@@ -346,11 +344,7 @@ const Materials = props => {
 							<div>
 								<OverlayTrigger
 									placement='top'
-									overlay={
-										<Tooltip>{`Guide to ${c.data.talentBook.substring(
-											13
-										)}`}</Tooltip>
-									}
+									overlay={<Tooltip>{`Guide to ${c.data.talentBook}`}</Tooltip>}
 								>
 									<img
 										src={c.data.talentMaterials[1].talentBookImage}
@@ -364,9 +358,7 @@ const Materials = props => {
 								<OverlayTrigger
 									placement='top'
 									overlay={
-										<Tooltip>{`Philosophies of ${c.data.talentBook.substring(
-											13
-										)}`}</Tooltip>
+										<Tooltip>{`Philosophies of ${c.data.talentBook}`}</Tooltip>
 									}
 								>
 									<img
