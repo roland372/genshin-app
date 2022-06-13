@@ -16,7 +16,7 @@ import levelOptions from '../utils/levelOptions';
 import talentOptions from '../utils/talentOptions';
 import { useParams } from 'react-router-dom';
 
-const AddCharacter = props => {
+const EditCharacter = props => {
 	const { useDocumentTitle, CharacterDataService } = props;
 
 	useDocumentTitle('Edit Character');
@@ -387,4 +387,4 @@ const AddCharacter = props => {
 	);
 };
 
-export default AddCharacter;
+export default EditCharacter;
