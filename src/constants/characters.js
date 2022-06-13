@@ -22,6 +22,7 @@ import KamisatoAyato from '../components/Characters/Character/Kamisato Ayato/Kam
 import Keqing from '../components/Characters/Character/Keqing/Keqing';
 import Klee from '../components/Characters/Character/Klee/Klee';
 import KujouSara from '../components/Characters/Character/Kujou Sara/KujouSara';
+import KukiShinobu from '../components/Characters/Character/Kuki Shinobu/KukiShinobu';
 import Lisa from '../components/Characters/Character/Lisa/Lisa';
 import Mona from '../components/Characters/Character/Mona/Mona';
 import Ningguang from '../components/Characters/Character/Ningguang/Ningguang';
@@ -50,8 +51,7 @@ import Yoimiya from '../components/Characters/Character/Yoimiya/Yoimiya';
 import YunJin from '../components/Characters/Character/Yun Jin/YunJin';
 import Zhongli from '../components/Characters/Character/Zhongli/Zhongli';
 
-// <----- Character data ----->
-
+//? <----- Character data ----->
 import AlbedoData from '../assets/data/Characters/Albedo.json';
 import AloyData from '../assets/data/Characters/Aloy.json';
 import AmberData from '../assets/data/Characters/Amber.json';
@@ -75,6 +75,7 @@ import KamisatoAyatoData from '../assets/data/Characters/Kamisato Ayato.json';
 import KeqingData from '../assets/data/Characters/Keqing.json';
 import KleeData from '../assets/data/Characters/Klee.json';
 import KujouSaraData from '../assets/data/Characters/Kujou Sara.json';
+import KukiShinobuData from '../assets/data/Characters/Kuki Shinobu.json';
 import LisaData from '../assets/data/Characters/Lisa.json';
 import MonaData from '../assets/data/Characters/Mona.json';
 import NingguangData from '../assets/data/Characters/Ningguang.json';
@@ -195,6 +196,10 @@ const charactersImports = [
 	{
 		component: KujouSara,
 		data: KujouSaraData,
+	},
+	{
+		component: KukiShinobu,
+		data: KukiShinobuData,
 	},
 	{
 		component: Lisa,

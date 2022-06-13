@@ -507,6 +507,28 @@
       "image": "/images/Characters/inazuma/Kujou Sara/images/Character_Kujou_Sara_Thumb.png"
     },
     {
+      "name": "Kuki Shinobu",
+      "url": "Kuki_Shinobu",
+      "rarity": 4,
+      "rarityImage": "/images/Rarity icons/Icon_4_Stars.png",
+      "element": "Electro",
+      "elementImage": "/images/Elements/Element_Electro.png",
+      "weapon": "Sword",
+      "weaponImage": "/images/Weapon icons/Weapon-class-sword-icon.png",
+      "sex": "Female",
+      "nation": "Inazuma",
+      "HP": 12289,
+      "ATK": 212,
+      "DEF": 751,
+      "ascension": "HP%",
+      "talentBook": "Elegance",
+      "ascensionMaterial": "Vajrada Amethyst",
+      "bossMaterial": "Runic Fang",
+      "localSpeciality": "Dendrobium",
+      "commonMaterial": "Naku Weed",
+      "image": "/images/Characters/inazuma/Kuki Shinobu/images/Character_Kuki_Shinobu_Thumb.png"
+    },
+    {
       "name": "Lisa",
       "url": "Lisa",
       "rarity": 4,
