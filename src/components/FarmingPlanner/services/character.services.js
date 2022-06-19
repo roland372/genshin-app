@@ -36,7 +36,10 @@ class CharacterDataService {
 	// };
 
 	getAllCharacters = userId => {
-		const q = query(characterCollectionRef, where('owner', '==', userId));
+		const q = query(
+			characterCollectionRef,
+			where('owner', '==', userId || null)
+		);
 		return getDocs(q);
 	};
 

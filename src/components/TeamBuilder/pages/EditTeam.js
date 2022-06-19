@@ -84,8 +84,6 @@ const EditTeam = props => {
 		previousTeam.current = [...data.data().teamMembers];
 	};
 
-	console.log(previousTeam);
-
 	// console.log('previous team: ', previousTeam.current);
 	// console.log('new team: ', select);
 

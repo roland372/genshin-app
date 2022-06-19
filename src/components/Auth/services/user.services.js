@@ -37,7 +37,7 @@ class UserDataService {
 	// };
 
 	getAllUsers = userId => {
-		const q = query(userCollectionRef, where('uid', '==', userId));
+		const q = query(userCollectionRef, where('uid', '==', userId || null));
 		return getDocs(q);
 	};
 

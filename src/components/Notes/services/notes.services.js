@@ -36,7 +36,7 @@ class NotesDataService {
 	// };
 
 	getAllNotes = userId => {
-		const q = query(notesCollectionRef, where('owner', '==', userId));
+		const q = query(notesCollectionRef, where('owner', '==', userId || null));
 		return getDocs(q);
 	};
 

@@ -36,7 +36,7 @@ class TeamDataService {
 	// };
 
 	getAllTeams = userId => {
-		const q = query(teamCollectionRef, where('owner', '==', userId));
+		const q = query(teamCollectionRef, where('owner', '==', userId || null));
 		return getDocs(q);
 	};
 
