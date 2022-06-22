@@ -19,14 +19,11 @@ const Talents = props => {
 				normalAttack='Perform up to 5 consecutive shots with a bow.'
 				chargedAttack={
 					<div>
-						Perform a more precise Aimed Shot with increased DMG.
-						<br />
-						While aiming, flames will accumulate on the arrowhead. A fully
-						charged flaming arrow will deal
-						<b className='text-pyro'> Pyro DMG</b>.
+						Consumes a certain amount of Stamina to unleash 2 rapid sword
+						strikes.
 					</div>
 				}
-				plungingAttack='Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.'
+				plungingAttack='Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.'
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>
@@ -35,19 +32,24 @@ const Talents = props => {
 				image={props.elementalSkillImage}
 				description={
 					<div>
-						<b>Barron Bunny</b>
-						<ul>
-							<li>Continuously taunts the enemy, drawing their fire.</li>
-							<li>Baron Bunny's HP scales with Amber's Max HP.</li>
-							<li>
-								When destroyed or when its timer expires, Baron Bunny explodes,
-								dealing
-								<b className='text-pyro'> AoE Pyro DMG</b>.
-							</li>
-						</ul>
-						<b>Hold</b>
-						<div>Adjusts the throwing direction of Baron Bunny.</div>
-						<div>The longer the button is held, the further the throw.</div>
+						Creates a Grass Ring of Sanctification at the cost of part of her
+						HP, dealing <b className='text-electro'>Electro DMG</b> to nearby
+						opponents.
+						<br />
+						<br />
+						<b>Grass Ring of Sanctification</b>
+						<div>
+							Follows your current active character around. Deals{' '}
+							<b className='text-electro'>Electro DMG</b> to nearby opponents
+							every 1.5s and restores HP for the active character(s) within the
+							ring's AoE based on Kuki Shinobu's Max HP.
+							<br />
+							<br />
+							<div>
+								The HP consumption from using this skill can only bring her to
+								20% HP.
+							</div>
+						</div>
 					</div>
 				}
 			>
@@ -58,8 +60,13 @@ const Talents = props => {
 				image={props.elementalBurstImage}
 				description={
 					<p>
-						Fires of a shower of arrows, dealing continuous
-						<b className='text-pyro'> AoE Pyro DMG</b>.
+						Stabs an evil-excoriating blade into the ground, creating a field
+						that cleanses the area of all that is foul, dealing continuous
+						Electro DMG to opponents within its AoE based on Shinobu's Max HP.
+						<br />
+						<br />
+						If Shinobu's HP is less than or equal to 50% when this skill is
+						used, the field will last longer.
 					</p>
 				}
 			>
@@ -72,8 +79,8 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 1'
 				description={
 					<div>
-						Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by
-						30%.
+						When Shinobu's HP is not higher than 50%, her Healing Bonus is
+						increased by 15%.
 					</div>
 				}
 			/>
@@ -83,7 +90,16 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 4'
 				description={
 					<div>
-						Aimed Shot hits on weak spots increase Base ATK by 15% for 10s.
+						Sanctifying Ring's abilities will be boosted based on Shinobu's
+						Elemental Mastery:
+						<br />
+						<br />
+						<ul>
+							<li>
+								Healing amount will be increased by 75% of Elemental Mastery.
+							</li>
+							<li>DMG dealt is increased by 25% of Elemental Mastery.</li>
+						</ul>
 					</div>
 				}
 			/>
@@ -93,12 +109,8 @@ const Talents = props => {
 				unlocked='Unlocked Automatically'
 				description={
 					<div>
-						<div>
-							Decreases all party members' gliding Stamina Consumption by 20%.
-						</div>
-						<div>
-							The greatest effect out of all Talents of the same type prevails.
-						</div>
+						Gains 25% more rewards when dispatched on an Inazuma Expedition for
+						20 hours.
 					</div>
 				}
 			/>
