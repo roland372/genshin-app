@@ -17,7 +17,7 @@
     {
       "name": "The Almighty Arataki Great and Glorious Drumalong Festival",
       "link": "https://genshin.hoyoverse.com/en/news/detail/21261",
-      "image": "images/Events/current/The_Almight_Arataki_Great_and_Glorious_Drumalong_Festival.png",
+      "image": "images/Events/current/The_Almighty_Arataki_Great_and_Glorious_Drumalong_Festival.png",
       "startDate": "June 13, 2022",
       "endDate": "July 04, 2022"
     },
@@ -25,15 +25,22 @@
       "name": "A Muddy Bizarre Adventure",
       "link": "https://genshin-impact.fandom.com/wiki/A_Muddy_Bizarre_Adventure",
       "image": "images/Events/current/A_Muddy_Bizarre_Adventure.png",
-      "startDate": "TBA",
-      "endDate": "TBA"
+      "startDate": "June 22, 2022",
+      "endDate": "July 04, 2022"
     },
     {
       "name": "Core of the Apparatus",
       "link": "https://genshin-impact.fandom.com/wiki/Core_of_the_Apparatus",
       "image": "images/Events/current/Core_of_the_Apparatus.png",
-      "startDate": "TBA",
-      "endDate": "TBA"
+      "startDate": "June 29, 2022",
+      "endDate": "July 11, 2022"
+    },
+    {
+      "name": "Ley Line Overflow",
+      "link": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/2022-07-04",
+      "image": "images/Events/current/Ley_Line_Overflow.png",
+      "startDate": "July 04, 2022",
+      "endDate": "July 11, 2022"
     }
   ],
   "upcomingEvents": [
@@ -64,7 +71,7 @@
       {
         "name": "The Almighty Arataki Great and Glorious Drumalong Festival",
         "link": "https://genshin.hoyoverse.com/en/news/detail/21261",
-        "image": "images/Events/current/The_Almight_Arataki_Great_and_Glorious_Drumalong_Festival.png",
+        "image": "images/Events/current/The_Almighty_Arataki_Great_and_Glorious_Drumalong_Festival.png",
         "startDate": "June 13, 2022",
         "endDate": "July 04, 2022"
       },
@@ -72,15 +79,22 @@
         "name": "A Muddy Bizarre Adventure",
         "link": "https://genshin-impact.fandom.com/wiki/A_Muddy_Bizarre_Adventure",
         "image": "images/Events/current/A_Muddy_Bizarre_Adventure.png",
-        "startDate": "TBA",
-        "endDate": "TBA"
+        "startDate": "June 22, 2022",
+        "endDate": "July 04, 2022"
       },
       {
         "name": "Core of the Apparatus",
         "link": "https://genshin-impact.fandom.com/wiki/Core_of_the_Apparatus",
         "image": "images/Events/current/Core_of_the_Apparatus.png",
-        "startDate": "TBA",
-        "endDate": "TBA"
+        "startDate": "June 29, 2022",
+        "endDate": "July 11, 2022"
+      },
+      {
+        "name": "Ley Line Overflow",
+        "link": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/2022-07-04",
+        "image": "images/Events/current/Ley_Line_Overflow.png",
+        "startDate": "July 04, 2022",
+        "endDate": "July 11, 2022"
       }
     ],
     "version 2.6" : [
