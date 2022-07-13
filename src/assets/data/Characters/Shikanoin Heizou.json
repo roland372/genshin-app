@@ -1,0 +1,813 @@
+{
+  "name":"Shikanoin Heizou",
+  "url":"Shikanoin_Heizou",
+  "avatar": "images/Characters/Inazuma/Shikanoin Heizou/images/Character_Shikanoin_Heizou_Avatar.png",
+  "card" : "images/Characters/Inazuma/Shikanoin Heizou/images/Character_Shikanoin_Heizou_Card.png",
+  "portrait" : "images/Characters/Inazuma/Shikanoin Heizou/images/Character_Shikanoin_Heizou_Portrait.png",
+  "thumbnail" : "images/Characters/Inazuma/Shikanoin Heizou/images/Character_Shikanoin_Heizou_Thumb.png",
+  "thumbnailBg" : "images/Characters/Inazuma/Shikanoin Heizou/images/Item_Shikanoin_Heizou.png",
+  "wish" : "images/Characters/Inazuma/Shikanoin Heizou/images/Character_Shikanoin_Heizou_Wish.png",
+  "namecard" : "images/Characters/Inazuma/Shikanoin Heizou/images/Namecard_Background_Shikanoin_Heizou_Bunny.png",
+  "title":"Analytical Harmony",
+  "rarity":4,
+  "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
+  "element":"Anemo",
+  "elementImage": "images/Elements/Element_Anemo.png",
+  "weapon":"Catalyst",
+  "weaponImage": "images/Weapon icons/Weapon-class-Catalyst-icon.png",
+  "sex":"Male",
+  "birthday":"July 24th",
+  "constellation":"Cervus Minor",
+  "nation":"Inazuma",
+  "affiliation":"Tenryou Commission",
+  "specialDish":"The Only Truth",
+  "description":"A young prodigy detective from the Tenryou Commission. His senses are sharp and his thoughts are clear",
+  "talentBook":"Transience",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Transience/Item_Teachings_of_Transience.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Runic_Fang.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Inazuma/Item_Onikabuto.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+  "ascensionStat": "Anemo DMG Bonus",
+  "characterAscension":[
+   {
+     "ascensionPhase": "0 → 1",
+     "level": 20,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Sliver.png",
+       "amount": 1
+     },
+     "bossMaterial": {
+       "name": null,
+       "image" :null,
+       "amount": null
+     },
+     "localSpeciality": {
+       "name": "Onikabuto",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Onikabuto.png",
+       "amount": 3
+     },
+     "commonMaterial": {
+       "name": "Treasure Hoarder Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+       "amount": 3
+     },
+     "moraCost": "20,000"
+   }, 
+   {
+     "ascensionPhase": "1 → 2",
+     "level": 40,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Fragment.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Runic Fang",
+       "image": "images/Materials/Character Materials/Ascension/Item_Runic_Fang.png",
+       "amount": 2
+     },
+     "localSpeciality": {
+       "name": "Onikabuto",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Onikabuto.png",
+       "amount": 10
+     },
+     "commonMaterial": {
+       "name": "Treasure Hoarder Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+       "amount": 15
+     },
+     "moraCost": "40,000"
+   }, 
+   {
+     "ascensionPhase": "2 → 3",
+     "level": 50,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Fragment.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Runic Fang",
+       "image": "images/Materials/Character Materials/Ascension/Item_Runic_Fang.png",
+       "amount": 4
+     },
+     "localSpeciality": {
+       "name": "Onikabuto",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Onikabuto.png",
+       "amount": 20
+     },
+     "commonMaterial": {
+       "name": "Silver Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "60,000"
+   }, 
+   {
+     "ascensionPhase": "3 → 4",
+     "level": 60,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Chunk.png",
+       "amount": 3
+     },
+     "bossMaterial": {
+       "name": "Runic Fang",
+       "image": "images/Materials/Character Materials/Ascension/Item_Runic_Fang.png",
+       "amount": 8
+     },
+     "localSpeciality": {
+       "name": "Onikabuto",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Onikabuto.png",
+       "amount": 30
+     },
+     "commonMaterial": {
+       "name": "Silver Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+       "amount": 18
+     },
+     "moraCost": "80,000"
+   }, 
+   {
+     "ascensionPhase": "4 → 5",
+     "level": 70,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Chunk.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Runic Fang",
+       "image": "images/Materials/Character Materials/Ascension/Item_Runic_Fang.png",
+       "amount": 12
+     },
+     "localSpeciality": {
+       "name": "Onikabuto",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Onikabuto.png",
+       "amount": 45
+     },
+     "commonMaterial": {
+       "name": "Golden Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+       "amount": 12
+     },
+     "moraCost": "100,000"
+   },
+   {
+     "ascensionPhase": "5 → 6",
+     "level": 80,
+     "ascensionMaterial": {
+       "name": "Vayuda Turquoise Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vayuda_Turquoise_Gemstone.png",
+       "amount": 6
+     },
+     "bossMaterial": {
+       "name": "Runic Fang",
+       "image": "images/Materials/Character Materials/Ascension/Item_Runic_Fang.png",
+       "amount": 20
+     },
+     "localSpeciality": {
+       "name": "Onikabuto",
+       "image": "images/Materials/Local Specialties/Inazuma/Item_Onikabuto.png",
+       "amount": 60
+     },
+     "commonMaterial": {
+       "name": "Golden Raven Insignia",
+       "image": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+       "amount": 24
+     },
+     "moraCost": "120,000"
+   }
+  ],
+  "stats": [
+    {
+      "ASC": 0,
+      "LVL": 1,
+      "HP": 894,
+      "ATK": 19,
+      "DEF": 57,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 0,
+      "LVL": 20,
+      "HP": 2296,
+      "ATK": 48,
+      "DEF": 147,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 20,
+      "HP": 2963,
+      "ATK": 63,
+      "DEF": 190,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 1,
+      "LVL": 40,
+      "HP": 4438,
+      "ATK": 94,
+      "DEF": 285,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "0%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 40,
+      "HP": 4913,
+      "ATK": 104,
+      "DEF": 315,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 2,
+      "LVL": 50,
+      "HP": 5651,
+      "ATK": 119,
+      "DEF": 363,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "6%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 50,
+      "HP": 6283,
+      "ATK": 133,
+      "DEF": 403,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 3,
+      "LVL": 60,
+      "HP": 7021,
+      "ATK": 148,
+      "DEF": 451,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 60,
+      "HP": 7495,
+      "ATK": 158,
+      "DEF": 481,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 4,
+      "LVL": 70,
+      "HP": 8233,
+      "ATK": 174,
+      "DEF": 528,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "12%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 70,
+      "HP": 8707,
+      "ATK": 184,
+      "DEF": 559,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 5,
+      "LVL": 80,
+      "HP": 9445,
+      "ATK": 200,
+      "DEF": 606,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "18%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 80,
+      "HP": 9919,
+      "ATK": 210,
+      "DEF": 637,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    },
+    {
+      "ASC": 6,
+      "LVL": 90,
+      "HP": 10657,
+      "ATK": 225,
+      "DEF": 684,
+      "CRIT Rate": "5%",
+      "CRIT DMG": "50%",
+      "ascensionStat": "24%"
+    }
+   ],
+  "skillTalents":[
+    {
+      "name":"Fudou Style Martial Arts",
+      "image": "images/Characters/Inazuma/Shikanoin Heizou/talents/Catalyst_Anemo.png",
+      "type":"Normal Attack",
+      "attributeScaling": [
+        {
+          "LVL": "1-Hit DMG",
+          "1": "37.5%",
+          "2": "40.3%",
+          "3": "43.1%",
+          "4": "46.8%",
+          "5": "49.7%",
+          "6": "52.5%",
+          "7": "56.2%",
+          "8": "60%",
+          "9": "63.7%",
+          "10": "67.5%",
+          "11": "71.2%",
+          "12": "74.9%",
+          "13": "79.6%"
+        },
+        {
+          "LVL": "2-Hit DMG",
+          "1": "36.9%",
+          "2": "39.6%",
+          "3": "42.4%",
+          "4": "46.1%",
+          "5": "48.8%",
+          "6": "51.6%",
+          "7": "55.3%",
+          "8": "59%",
+          "9": "62.6%",
+          "10": "66.3%",
+          "11": "70%",
+          "12": "73.7%",
+          "13": "78.3%"
+        },
+        {
+          "LVL": "3-Hit DMG",
+          "1": "51.1%",
+          "2": "54.9%",
+          "3": "58.7%",
+          "4": "63.8%",
+          "5": "67.7%",
+          "6": "71.5%",
+          "7": "76.6%",
+          "8": "81.7%",
+          "9": "86.8%",
+          "10": "91.9%",
+          "11": "97%",
+          "12": "102.1%",
+          "13": "108.5%"
+        },
+        {
+          "LVL": "4-Hit DMG",
+          "1": "14.8% +16.3% +19.2%",
+          "2": "15.9% +17.5% +20.7%",
+          "3": "17% +18.7% +22.1%",
+          "4": "18.5% +20.3% +24%",
+          "5": "19.6% +21.5% +25.5%",
+          "6": "20.7% +22.8% +26.9%",
+          "7": "22.2% +24.4% +28.8%",
+          "8": "23.7% +26% +30.7%",
+          "9": "25.1% +27.6% +32.7%",
+          "10": "26.6% +29.3% +34.6%",
+          "11": "28.1% +30.9% +36.5%",
+          "12": "29.6% +32.5% +38.4%",
+          "13": "31.4% +34.6% +40.8%"
+        },
+        {
+          "LVL": "5-Hit DMG",
+          "1": "61.4%",
+          "2": "66.1%",
+          "3": "70.7%",
+          "4": "76.8%",
+          "5": "81.4%",
+          "6": "86%",
+          "7": "92.2%",
+          "8": "98.3%",
+          "9": "104.5%",
+          "10": "110.6%",
+          "11": "116.8%",
+          "12": "122.9%",
+          "13": "130.6%"
+        },
+        {
+          "LVL": "Charged Attack",
+          "1": "73%",
+          "2": "78.5%",
+          "3": "84%",
+          "4": "91.3%",
+          "5": "96.7%",
+          "6": "102.2%",
+          "7": "109.5%",
+          "8": "116.8%",
+          "9": "124.1%",
+          "10": "131.4%",
+          "11": "138.7%",
+          "12": "146%",
+          "13": "155.1%"
+        },
+        {
+          "LVL": "Charged Attack Stamina Cost",
+          "1": "25",
+          "2": "25",
+          "3": "25",
+          "4": "25",
+          "5": "25",
+          "6": "25",
+          "7": "25",
+          "8": "25",
+          "9": "25",
+          "10": "25",
+          "11": "25",
+          "12": "25",
+          "13": "25"
+        },
+        {
+          "LVL": "Plunge DMG",
+          "1": "56.8%",
+          "2": "61.5%",
+          "3": "66.1%",
+          "4": "72.7%",
+          "5": "77.3%",
+          "6": "82.6%",
+          "7": "89.9%",
+          "8": "97.1%",
+          "9": "104.4%",
+          "10": "112.3%",
+          "11": "120.3%",
+          "12": "128.2%",
+          "13": "136.1%"
+        },
+        {
+          "LVL": "Low/High Plunge DMG",
+          "1": "114% /142%",
+          "2": "123% /153%",
+          "3": "132% /165%",
+          "4": "145% /182%",
+          "5": "155% /193%",
+          "6": "165% /206%",
+          "7": "180% /224%",
+          "8": "194% /243%",
+          "9": "209% /261%",
+          "10": "225% /281%",
+          "11": "240% /300%",
+          "12": "256% /320%",
+          "13": "272% /340%"
+        }
+       ]
+    },
+    {
+      "name":"Heartstopper Strike",
+      "image": "images/Characters/Inazuma/Shikanoin Heizou/talents/Talent_Heartstopper_Strike.png",
+      "type":"Elemental Skill",
+      "attributeScaling": [
+        {
+          "LVL": "Skill DMG",
+          "1": "227.5%",
+          "2": "244.6%",
+          "3": "261.6%",
+          "4": "284.4%",
+          "5": "301.5%",
+          "6": "318.5%",
+          "7": "341.3%",
+          "8": "364%",
+          "9": "386.8%",
+          "10": "409.5%",
+          "11": "432.3%",
+          "12": "455%",
+          "13": "483.5%"
+        },
+        {
+          "LVL": "Declension DMG Bonus",
+          "1": "56.9%/stack",
+          "2": "61.1%/stack",
+          "3": "65.4%/stack",
+          "4": "71.1%/stack",
+          "5": "75.4%/stack",
+          "6": "79.6%/stack",
+          "7": "85.3%/stack",
+          "8": "91%/stack",
+          "9": "96.7%/stack",
+          "10": "102.4%/stack",
+          "11": "108.1%/stack",
+          "12": "113.8%/stack",
+          "13": "120.9%/stack"
+        },
+        {
+          "LVL": "Conviction DMG Bonus",
+          "1": "113.8%",
+          "2": "122.3%",
+          "3": "130.8%",
+          "4": "142.2%",
+          "5": "150.7%",
+          "6": "159.3%",
+          "7": "170.6%",
+          "8": "182%",
+          "9": "193.4%",
+          "10": "204.8%",
+          "11": "216.1%",
+          "12": "227.5%",
+          "13": "241.7%"
+        },
+        {
+          "LVL": "Declension Duration",
+          "1": "60s",
+          "2": "60s",
+          "3": "60s",
+          "4": "60s",
+          "5": "60s",
+          "6": "60s",
+          "7": "60s",
+          "8": "60s",
+          "9": "60s",
+          "10": "60s",
+          "11": "60s",
+          "12": "60s",
+          "13": "60s"
+        },
+        {
+          "LVL": "CD",
+          "1": "10s",
+          "2": "10s",
+          "3": "10s",
+          "4": "10s",
+          "5": "10s",
+          "6": "10s",
+          "7": "10s",
+          "8": "10s",
+          "9": "10s",
+          "10": "10s",
+          "11": "10s",
+          "12": "10s",
+          "13": "10s"
+        }
+       ]
+    },
+    {
+      "name":"Windmuster Kick",
+      "image": "images/Characters/Inazuma/Shikanoin Heizou/talents/Talent_Windmuster_Kick.png",
+      "type":"Elemental Burst",
+      "attributeScaling": [
+        {
+          "LVL": "Fudou Style Vacuum Slugger DMG",
+          "1": "314.7%",
+          "2": "338.3%",
+          "3": "361.9%",
+          "4": "393.4%",
+          "5": "417%",
+          "6": "440.6%",
+          "7": "472%",
+          "8": "503.5%",
+          "9": "535%",
+          "10": "566.4%",
+          "11": "597.9%",
+          "12": "629.4%",
+          "13": "668.7%"
+        },
+        {
+          "LVL": "Windmuster Iris DMG",
+          "1": "21.5%",
+          "2": "23.1%",
+          "3": "24.7%",
+          "4": "26.8%",
+          "5": "28.4%",
+          "6": "30%",
+          "7": "32.2%",
+          "8": "34.3%",
+          "9": "36.5%",
+          "10": "38.6%",
+          "11": "40.8%",
+          "12": "42.9%",
+          "13": "45.6%"
+        },
+        {
+          "LVL": "CD",
+          "1": "12s",
+          "2": "12s",
+          "3": "12s",
+          "4": "12s",
+          "5": "12s",
+          "6": "12s",
+          "7": "12s",
+          "8": "12s",
+          "9": "12s",
+          "10": "12s",
+          "11": "12s",
+          "12": "12s",
+          "13": "12s"
+        },
+        {
+          "LVL": "Energy Cost",
+          "1": "40",
+          "2": "40",
+          "3": "40",
+          "4": "40",
+          "5": "40",
+          "6": "40",
+          "7": "40",
+          "8": "40",
+          "9": "40",
+          "10": "40",
+          "11": "40",
+          "12": "40",
+          "13": "40"
+        }
+       ]
+    }
+  ],
+  "passiveTalents":[
+    {
+      "name":"Paradoxical Practice",
+      "image": "images/Characters/Inazuma/Shikanoin Heizou/talents/Talent_Paradoxical_Practice.png",
+      "description":""
+    },
+    {
+      "name":"Penetrative Reasoning",
+      "image": "images/Characters/Inazuma/Shikanoin Heizou/talents/Talent_Penetrative_Reasoning.png",
+      "description":""
+    },
+    {
+      "name":"Pre-Existing Guilt",
+      "image": "images/Characters/Inazuma/Shikanoin Heizou/talents/Talent_Cloud_Strider.png",
+      "description":""
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": "1 → 2",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Teachings_of_Transience.png",
+      "talentBookAmount": 3,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "12,500"
+    },
+    {
+      "level": "2 → 3",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Guide_to_Transience.png",
+      "talentBookAmount": 2,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 3,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "17,500"
+    },
+    {
+      "level": "3 → 4",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Guide_to_Transience.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "25,000"
+    },
+    {
+      "level": "4 → 5",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Guide_to_Transience.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "30,000"
+    },
+    {
+      "level": "5 → 6",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Guide_to_Transience.png",
+      "talentBookAmount": 9,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Silver_Raven_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "",
+      "bossMaterialAmount": "",
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "37,500"
+    },
+    {
+      "level": "6 → 7",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Philosophies_of_Transience.png",
+      "talentBookAmount": 4,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 4,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_The_Meaning_of_Aeons.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "120,000"
+    },
+    {
+      "level": "7 → 8",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Philosophies_of_Transience.png",
+      "talentBookAmount": 6,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 6,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_The_Meaning_of_Aeons.png",
+      "bossMaterialAmount": 1,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "260,000"
+    },
+    {
+      "level": "8 → 9",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Philosophies_of_Transience.png",
+      "talentBookAmount": 12,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 9,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_The_Meaning_of_Aeons.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "",
+      "crownAmount": "",
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "450,000"
+    },
+    {
+      "level": "9 → 10",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Transience/Item_Philosophies_of_Transience.png",
+      "talentBookAmount": 16,
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Golden_Raven_Insignia.png",
+      "commonMaterialAmount": 12,
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_The_Meaning_of_Aeons.png",
+      "bossMaterialAmount": 2,
+      "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
+      "crownAmount": 1,
+      "moraImage": "images/Materials/Item_Mora.png",
+      "moraAmount": "700,000"
+    }
+  ],
+  "constellations":[
+    {
+      "level":1,
+      "name":"Named Juvenile Casebook",
+      "image": "images/Characters/Inazuma/Shikanoin Heizou/constellations/Constellation_Named_Juvenile_Casebook.png",
+      "description":""
+    },
+    {
+      "level":2,
+      "name":"Investigative Collection",
+      "image": "images/Characters/Inazuma/Shikanoin Heizou/constellations/Constellation_Investigative_Collection.png",
+      "description":""
+    },
+    {
+      "level":3,
+      "name":"Esoteric Puzzle Book",
+      "image": "images/Characters/Inazuma/Shikanoin Heizou/constellations/Constellation_Esoteric_Puzzle_Book.png",
+      "description":""
+    },
+    {
+      "level":4,
+      "name":"Tome of Lies",
+      "image": "images/Characters/Inazuma/Shikanoin Heizou/constellations/Constellation_Tome_of_Lies.png",
+      "description":""
+    },
+    {
+      "level":5,
+      "name":"Secret Archive",
+      "image": "images/Characters/Inazuma/Shikanoin Heizou/constellations/Constellation_Secret_Archive.png",
+      "description":""
+    },
+    {
+      "level":6,
+      "name":"Curious Casefiles",
+      "image": "images/Characters/Inazuma/Shikanoin Heizou/constellations/Constellation_Curious_Casefiles.png",
+      "description":""
+    }
+  ]
+}
+
+

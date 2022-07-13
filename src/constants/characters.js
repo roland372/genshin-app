@@ -34,6 +34,7 @@ import Rosaria from '../components/Characters/Character/Rosaria/Rosaria';
 import SangonomiyaKokomi from '../components/Characters/Character/Sangonomiya Kokomi/SangonomiyaKokomi';
 import Sayu from '../components/Characters/Character/Sayu/Sayu';
 import Shenhe from '../components/Characters/Character/Shenhe/Shenhe';
+import ShikanoinHeizou from '../components/Characters/Character/Shikanoin Heizou/ShikanoinHeizou';
 import Sucrose from '../components/Characters/Character/Sucrose/Sucrose';
 import Tartaglia from '../components/Characters/Character/Tartaglia/Tartaglia';
 import TravelerAnemo from '../components/Characters/Character/Traveler/Anemo/TravelerAnemo';
@@ -87,6 +88,7 @@ import RosariaData from '../assets/data/Characters/Rosaria.json';
 import SangonomiyaKokomiData from '../assets/data/Characters/Sangonomiya Kokomi.json';
 import SayuData from '../assets/data/Characters/Sayu.json';
 import ShenheData from '../assets/data/Characters/Shenhe.json';
+import ShikanoinHeizouData from '../assets/data/Characters/Shikanoin Heizou.json';
 import SucroseData from '../assets/data/Characters/Sucrose.json';
 import TartagliaData from '../assets/data/Characters/Tartaglia.json';
 import TravelerAnemoData from '../assets/data/Characters/Traveler Anemo.json';
@@ -244,6 +246,10 @@ const charactersImports = [
 	{
 		component: Shenhe,
 		data: ShenheData,
+	},
+	{
+		component: ShikanoinHeizou,
+		data: ShikanoinHeizouData,
 	},
 	{
 		component: Sucrose,

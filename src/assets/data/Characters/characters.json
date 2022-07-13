@@ -771,6 +771,28 @@
       "image": "/images/Characters/liyue/Shenhe/images/Character_Shenhe_Thumb.png"
     },
     {
+      "name": "Shikanoin Heizou",
+      "url": "Shikanoin_Heizou",
+      "rarity": 4,
+      "rarityImage": "/images/Rarity icons/Icon_4_Stars.png",
+      "element": "Anemo",
+      "elementImage": "/images/Elements/Element_Anemo.png",
+      "weapon": "Catalyst",
+      "weaponImage": "/images/Weapon icons/Weapon-class-catalyst-icon.png",
+      "sex": "Male",
+      "nation": "Inazuma",
+      "HP": 10657,
+      "ATK": 225,
+      "DEF": 684,
+      "ascension": "Anemo DMG Bonus",
+      "talentBook": "Transience",
+      "ascensionMaterial": "Vayuda Turquoise",
+      "bossMaterial": "Runic Fang",
+      "localSpeciality": "Onikabuto",
+      "commonMaterial": "Treasure Hoarder Insignia",
+      "image": "/images/Characters/inazuma/Shikanoin Heizou/images/Character_Shikanoin_Heizou_Thumb.png"
+    },
+    {
       "name": "Sucrose",
       "url": "Sucrose",
       "rarity": 4,
