@@ -1,46 +1,46 @@
 {
   "currentEvents": [
     {
-      "name": "Gorge Sunset",
-      "link": "Gorge Sunset",
-      "image": "images/Events/current/Battle_Pass_Gorge_Sunset.png",
-      "startDate": "May 31, 2022",
-      "endDate": "July 11, 2022"
+      "name": "Azure Main",
+      "link": "https://www.hoyolab.com/article/5916190",
+      "image": "images/Events/current/Battle_Pass_Azure_Main.png",
+      "startDate": "July 13, 2022",
+      "endDate": "August 22, 2022"
     },
     {
-      "name": "Perilous Trail",
-      "link": "https://www.hoyolab.com/article/4998732",
-      "image": "images/Events/current/Perilous_Trail.png",
-      "startDate": "May 31, 2022",
-      "endDate": "June 13, 2022"
+      "name": "Summertime Odyssey",
+      "link": "https://www.hoyolab.com/article/5958494",
+      "image": "images/Events/current/Summertime_Odyssey.png",
+      "startDate": "July 15, 2022",
+      "endDate": "August 14, 2022"
     },
     {
-      "name": "The Almighty Arataki Great and Glorious Drumalong Festival",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/21261",
-      "image": "images/Events/current/The_Almighty_Arataki_Great_and_Glorious_Drumalong_Festival.png",
-      "startDate": "June 13, 2022",
-      "endDate": "July 04, 2022"
+      "name": "Resonating Visions",
+      "link": "https://www.hoyolab.com/article/5958498",
+      "image": "images/Events/current/Resonating_Visions.png",
+      "startDate": "July 15, 2022",
+      "endDate": "August 24, 2022"
     },
     {
-      "name": "A Muddy Bizarre Adventure",
-      "link": "https://genshin-impact.fandom.com/wiki/A_Muddy_Bizarre_Adventure",
-      "image": "images/Events/current/A_Muddy_Bizarre_Adventure.png",
-      "startDate": "June 22, 2022",
-      "endDate": "July 04, 2022"
+      "name": "Hidden Strife",
+      "link": "https://www.hoyolab.com/article/5916190",
+      "image": "images/Events/current/Hidden_Strife.png",
+      "startDate": "July 27, 2022",
+      "endDate": "August 15, 2022"
     },
     {
-      "name": "Core of the Apparatus",
-      "link": "https://genshin-impact.fandom.com/wiki/Core_of_the_Apparatus",
-      "image": "images/Events/current/Core_of_the_Apparatus.png",
-      "startDate": "June 29, 2022",
-      "endDate": "July 11, 2022"
+      "name": "Reminiscent Regimen",
+      "link": "https://genshin-impact.fandom.com/wiki/Reminiscent_Regimen",
+      "image": "images/Events/current/Reminiscent_Regimen.png",
+      "startDate": "TBA",
+      "endDate": "TBA"
     },
     {
-      "name": "Ley Line Overflow",
-      "link": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/2022-07-04",
-      "image": "images/Events/current/Ley_Line_Overflow.png",
-      "startDate": "July 04, 2022",
-      "endDate": "July 11, 2022"
+      "name": "Evermotion Mechanical Painting",
+      "link": "https://genshin-impact.fandom.com/wiki/Evermotion_Mechanical_Painting",
+      "image": "images/Events/current/Evermotion_Mechanical_Painting.png",
+      "startDate": "TBA",
+      "endDate": "TBA"
     }
   ],
   "upcomingEvents": [
@@ -53,46 +53,90 @@
     }
   ],
   "pastEvents": {
+    "version 2.8" : [
+      {
+        "name": "Azure Main",
+        "link": "https://www.hoyolab.com/article/5916190",
+        "image": "images/Events/current/Battle_Pass_Azure_Main.png",
+        "startDate": "July 13, 2022",
+        "endDate": "August 22, 2022"
+      },
+      {
+        "name": "Summertime Odyssey",
+        "link": "https://www.hoyolab.com/article/5958494",
+        "image": "images/Events/current/Summertime_Odyssey.png",
+        "startDate": "July 15, 2022",
+        "endDate": "August 14, 2022"
+      },
+      {
+        "name": "Resonating Visions",
+        "link": "https://www.hoyolab.com/article/5958498",
+        "image": "images/Events/current/Resonating_Visions.png",
+        "startDate": "July 15, 2022",
+        "endDate": "August 24, 2022"
+      },
+      {
+        "name": "Hidden Strife",
+        "link": "https://www.hoyolab.com/article/5916190",
+        "image": "images/Events/current/Hidden_Strife.png",
+        "startDate": "July 27, 2022",
+        "endDate": "August 15, 2022"
+      },
+      {
+        "name": "Reminiscent Regimen",
+        "link": "https://genshin-impact.fandom.com/wiki/Reminiscent_Regimen",
+        "image": "images/Events/current/Reminiscent_Regimen.png",
+        "startDate": "TBA",
+        "endDate": "TBA"
+      },
+      {
+        "name": "Evermotion Mechanical Painting",
+        "link": "https://genshin-impact.fandom.com/wiki/Evermotion_Mechanical_Painting",
+        "image": "images/Events/current/Evermotion_Mechanical_Painting.png",
+        "startDate": "TBA",
+        "endDate": "TBA"
+      }
+    ],
     "version 2.7" : [
       {
         "name": "Gorge Sunset",
         "link": "Gorge Sunset",
-        "image": "images/Events/current/Battle_Pass_Gorge_Sunset.png",
+        "image": "images/Events/2.7/Battle_Pass_Gorge_Sunset.png",
         "startDate": "May 31, 2022",
         "endDate": "July 11, 2022"
       },
       {
         "name": "Perilous Trail",
         "link": "https://www.hoyolab.com/article/4998732",
-        "image": "images/Events/current/Perilous_Trail.png",
+        "image": "images/Events/2.7/Perilous_Trail.png",
         "startDate": "May 31, 2022",
         "endDate": "June 13, 2022"
       },
       {
         "name": "The Almighty Arataki Great and Glorious Drumalong Festival",
         "link": "https://genshin.hoyoverse.com/en/news/detail/21261",
-        "image": "images/Events/current/The_Almighty_Arataki_Great_and_Glorious_Drumalong_Festival.png",
+        "image": "images/Events/2.7/The_Almighty_Arataki_Great_and_Glorious_Drumalong_Festival.png",
         "startDate": "June 13, 2022",
         "endDate": "July 04, 2022"
       },
       {
         "name": "A Muddy Bizarre Adventure",
         "link": "https://genshin-impact.fandom.com/wiki/A_Muddy_Bizarre_Adventure",
-        "image": "images/Events/current/A_Muddy_Bizarre_Adventure.png",
+        "image": "images/Events/2.7/A_Muddy_Bizarre_Adventure.png",
         "startDate": "June 22, 2022",
         "endDate": "July 04, 2022"
       },
       {
         "name": "Core of the Apparatus",
         "link": "https://genshin-impact.fandom.com/wiki/Core_of_the_Apparatus",
-        "image": "images/Events/current/Core_of_the_Apparatus.png",
+        "image": "images/Events/2.7/Core_of_the_Apparatus.png",
         "startDate": "June 29, 2022",
         "endDate": "July 11, 2022"
       },
       {
         "name": "Ley Line Overflow",
         "link": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/2022-07-04",
-        "image": "images/Events/current/Ley_Line_Overflow.png",
+        "image": "images/Events/2.7/Ley_Line_Overflow.png",
         "startDate": "July 04, 2022",
         "endDate": "July 11, 2022"
       }
