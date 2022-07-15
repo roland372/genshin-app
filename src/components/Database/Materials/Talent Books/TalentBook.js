@@ -7,6 +7,8 @@ import { Link } from 'react-router-dom';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 const TalentBook = props => {
+	let rarityColor = '';
+
 	return (
 		<tr className='text-color'>
 			<td className='ps-4'>
@@ -26,28 +28,29 @@ const TalentBook = props => {
 			</td>
 			<td className='pe-4'>
 				<div className='d-flex justify-content-center  flex-wrap'>
-					{props.charactersData.characters.map(character =>
-						character.talentBook === props.talentBook ? (
+					{props.charactersData.characters.map(character => {
+						character.rarity === 5
+							? (rarityColor = 'rarity5bg')
+							: (rarityColor = 'rarity4bg');
+						return character.talentBook === props.talentBook ? (
 							<OverlayTrigger
 								key={character.name}
 								placement='top'
 								overlay={<Tooltip>{character.name}</Tooltip>}
 							>
-								<div>
+								<div className='m-1'>
 									<Link to={`characters/${character.url}`}>
 										<img
-											// key={character.name}
-											className='img'
+											className={`img-fluid img-thumbnail ${rarityColor}`}
 											src={character.image}
 											width='60px'
 											alt={character.name}
-											// title={character.name}
 										/>
 									</Link>
 								</div>
 							</OverlayTrigger>
-						) : null
-					)}
+						) : null;
+					})}
 				</div>
 			</td>
 		</tr>
