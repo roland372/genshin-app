@@ -9,7 +9,7 @@ It contains database where you have easy and quick access to the most useful inf
 npm install
 ```
 
-2. Set up your own firestore firebase at
+2. Set up your own firestore database at
 https://console.firebase.google.com/u/0/
 
 3. Create .env file in your project root directory with the following code:
@@ -23,4 +23,4 @@ REACT_APP_messagingSenderId=xxx
 REACT_APP_appId=xxx
 REACT_APP_measurementId=xxx
 ```
-and replace 'xxx' with your own firestore fireabse config.
+and replace 'xxx' with your own firestore database config.
