@@ -2,8 +2,15 @@ import React from 'react';
 
 //? <----- Components ----->
 import CardComponent from '../Layout/CardComponent';
+import { motion } from 'framer-motion/dist/framer-motion';
 
 const CurrentEvents = props => {
+	//* Animation variables
+	const initial = { x: 20 };
+	const initialReverse = { x: -20 };
+	const animate = { x: 0 };
+
+	//* get current date and format it
 	let today;
 	let objToday = new Date();
 	let dayOfMonth =
@@ -54,31 +61,39 @@ const CurrentEvents = props => {
 											width: '400px',
 										}}
 									>
-										<img src={e.image} className='img-fluid' alt='' />
+										<motion.div initial={initialReverse} animate={animate}>
+											<img src={e.image} className='img-fluid' alt='' />
+										</motion.div>
 									</td>
 									<td>
-										<h6>
-											<a
-												href={e.link}
-												target='_blank'
-												rel='noreferrer'
-												className='link-color'
-											>
-												{e.name}
-											</a>
-										</h6>
+										<motion.div initial={initial} animate={animate}>
+											<h6>
+												<a
+													href={e.link}
+													target='_blank'
+													rel='noreferrer'
+													className='link-color'
+												>
+													{e.name}
+												</a>
+											</h6>
+										</motion.div>
 									</td>
 									<td>
-										<h6>{e.startDate}</h6>
+										<motion.div initial={initial} animate={animate}>
+											<h6>{e.startDate}</h6>
+										</motion.div>
 									</td>
 									<td>
-										<h6>
-											{Date.parse(today) > Date.parse(e.endDate) ? (
-												<div className='text-pyro'>Event Ended</div>
-											) : (
-												<div className='text-anemo'>{e.endDate}</div>
-											)}
-										</h6>
+										<motion.div initial={initial} animate={animate}>
+											<h6>
+												{Date.parse(today) > Date.parse(e.endDate) ? (
+													<div className='text-pyro'>Event Ended</div>
+												) : (
+													<div className='text-anemo'>{e.endDate}</div>
+												)}
+											</h6>
+										</motion.div>
 									</td>
 								</tr>
 							);

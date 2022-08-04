@@ -17,9 +17,9 @@ const Homepage = props => {
 	useDocumentTitle('Home');
 
 	//* Animation variables
-	const initialX = { x: 25 };
-	const initialXReverse = { x: -25 };
-	const animateX = { x: 0 };
+	const initial = { y: -10 };
+	const initialReverse = { y: 10 };
+	const animate = { y: 0 };
 	const delay = 0.1;
 	const type = 'spring';
 	const bounce = 0.5;
@@ -28,43 +28,43 @@ const Homepage = props => {
 	return (
 		<Container>
 			<motion.div
-				initial={initialX}
-				animate={animateX}
+				initial={initial}
+				animate={animate}
 				transition={{ delay: delay, type: type, bounce: bounce }}
 			>
 				<GeneralInfo />
 			</motion.div>
 			<motion.div
-				initial={initialXReverse}
-				animate={animateX}
+				initial={initialReverse}
+				animate={animate}
 				transition={{ delay: delay, type: type, bounce: bounce }}
 			>
 				<CharacterDomains />
 			</motion.div>
 			<motion.div
-				initial={initialX}
-				animate={animateX}
+				initial={initial}
+				animate={animate}
 				transition={{ delay: delay, type: type, bounce: bounce }}
 			>
 				<WeaponDomains />
 			</motion.div>
 			<motion.div
-				initial={initialXReverse}
-				animate={animateX}
+				initial={initialReverse}
+				animate={animate}
 				transition={{ delay: delay, type: type, bounce: bounce }}
 			>
 				<CurrentBanners bannersData={props.bannersData} />
 			</motion.div>
 			<motion.div
-				initial={initialX}
-				animate={animateX}
+				initial={initial}
+				animate={animate}
 				transition={{ delay: delay, type: type, bounce: bounce }}
 			>
 				<CurrentEvents eventsData={props.eventsData} />
 			</motion.div>
 			<motion.div
-				initial={initialXReverse}
-				animate={animateX}
+				initial={initialReverse}
+				animate={animate}
 				transition={{ delay: delay, type: type, bounce: bounce }}
 			>
 				<Links />

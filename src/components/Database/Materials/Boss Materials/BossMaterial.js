@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 //? <----- Components ----->
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { motion } from 'framer-motion/dist/framer-motion';
 
 const BossMaterial = props => {
 	const { bossMaterial, bossName, characters } = props;
@@ -12,18 +13,24 @@ const BossMaterial = props => {
 	return (
 		<tr className='text-color'>
 			<td className='ps-4'>
-				<OverlayTrigger
-					placement='top'
-					overlay={<Tooltip>{bossMaterial}</Tooltip>}
+				<motion.div
+					whileHover={{ scale: 1.2 }}
+					initial={{ x: -50 }}
+					animate={{ x: 0 }}
 				>
-					<img
-						src={`/images/Materials/Character Materials/Talents/Boss Drops/Item_${bossMaterial
-							.split(' ')
-							.join('_')}.png`}
-						width='60px'
-						alt={bossMaterial}
-					/>
-				</OverlayTrigger>
+					<OverlayTrigger
+						placement='top'
+						overlay={<Tooltip>{bossMaterial}</Tooltip>}
+					>
+						<img
+							src={`/images/Materials/Character Materials/Talents/Boss Drops/Item_${bossMaterial
+								.split(' ')
+								.join('_')}.png`}
+							width='60px'
+							alt={bossMaterial}
+						/>
+					</OverlayTrigger>
+				</motion.div>
 			</td>
 			<td style={{ maxWidth: '70px' }}>
 				<h6>{bossName}</h6>
@@ -35,22 +42,28 @@ const BossMaterial = props => {
 							.slice(61, -4)
 							.split('_')
 							.join(' ') === bossMaterial ? (
-							<OverlayTrigger
+							<motion.div
+								whileHover={{ scale: 1.1 }}
+								initial={{ x: 20 }}
+								animate={{ x: 0 }}
 								key={character.data.name}
-								placement='top'
-								overlay={<Tooltip>{character.data.name}</Tooltip>}
 							>
-								<div>
-									<Link to={`characters/${character.data.url}`}>
-										<img
-											className='img'
-											src={character.data.thumbnail}
-											width='60px'
-											alt={character.data.name}
-										/>
-									</Link>
-								</div>
-							</OverlayTrigger>
+								<OverlayTrigger
+									placement='top'
+									overlay={<Tooltip>{character.data.name}</Tooltip>}
+								>
+									<div>
+										<Link to={`characters/${character.data.url}`}>
+											<img
+												className='img'
+												src={character.data.thumbnail}
+												width='60px'
+												alt={character.data.name}
+											/>
+										</Link>
+									</div>
+								</OverlayTrigger>
+							</motion.div>
 						) : null
 					)}
 				</div>
