@@ -20,6 +20,20 @@
       "image": "images/Banners/weapon/Epitome_Invocation_2022-07-13.png",
       "startDate": "July 13, 2022",
       "endDate": "August 02, 2022"
+    },
+    {
+      "name": "Tapestry of Golden Flames",
+      "link": "https://genshin.hoyoverse.com/en/news/detail/22492",
+      "image": "images/Banners/character/Tapestry_of_Golden_Flames_2022-08-02.png",
+      "startDate": "August 2, 2022",
+      "endDate": "August 23, 2022"
+    },
+    {
+      "name": "Epitome Invocation",
+      "link": "https://genshin.hoyoverse.com/en/news/detail/22500",
+      "image": "images/Banners/weapon/Epitome_Invocation_2022-08-02.png",
+      "startDate": "August 2, 2022",
+      "endDate": "August 23, 2022"
     }
   ],
   "pastBanners": {
@@ -44,6 +58,20 @@
         "image": "images/Banners/weapon/Epitome_Invocation_2022-07-13.png",
         "startDate": "July 13, 2022",
         "endDate": "August 02, 2022"
+      },
+      {
+        "name": "Tapestry of Golden Flames",
+        "link": "https://genshin.hoyoverse.com/en/news/detail/22492",
+        "image": "images/Banners/character/Tapestry_of_Golden_Flames_2022-08-02.png",
+        "startDate": "August 2, 2022",
+        "endDate": "August 23, 2022"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.hoyoverse.com/en/news/detail/22500",
+        "image": "images/Banners/weapon/Epitome_Invocation_2022-08-02.png",
+        "startDate": "August 2, 2022",
+        "endDate": "August 23, 2022"
       }
     ],
     "version 2.7" : [
