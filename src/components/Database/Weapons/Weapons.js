@@ -8,6 +8,7 @@ import Container from '../../Layout/Container';
 import CardComponent from '../../Layout/CardComponent';
 import Weapon from './Weapon';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { motion } from 'framer-motion/dist/framer-motion';
 
 //? <----- Data ----->
 import data from '../../../assets/data/Weapons/weapons.json';
@@ -17,6 +18,15 @@ import useDocumentTitle from '../../../hooks/useDocumentTitle';
 
 const Weapons = () => {
 	useDocumentTitle('Weapons');
+
+	//* Animation variables
+	const initial = { x: -10 };
+	const initialReverse = { x: 10 };
+	const animate = { x: 0 };
+	const delay = 0.1;
+	const type = 'spring';
+	const bounce = 0.5;
+	const whileHover = { scale: 1.1 };
 
 	const { weapons } = data;
 
@@ -60,7 +70,12 @@ const Weapons = () => {
 			<CardComponent title='Weapons'>
 				<div className='d-xl-flex justify-content-lg-between align-middle mx-2'>
 					{/* //* <----- Weapon filtering -----> */}
-					<section className=''>
+					<motion.div
+						className=''
+						initial={initial}
+						animate={animate}
+						transition={{ delay: delay, type: type, bounce: bounce }}
+					>
 						{weaponType.map((type, index) => {
 							return (
 								<button
@@ -69,26 +84,32 @@ const Weapons = () => {
 									key={index}
 									onClick={() => filterWeaponTypes(type)}
 								>
-									<OverlayTrigger
-										placement='top'
-										overlay={
-											<Tooltip>
-												<div className='text-capitalize'>{type}</div>
-											</Tooltip>
-										}
-									>
-										<img
-											src={`images/Weapon icons/Weapon-class-${type}-icon.png`}
-											alt={type}
-											className='img-fluid'
-											width='30px'
-										/>
-									</OverlayTrigger>
+									<motion.div whileHover={whileHover}>
+										<OverlayTrigger
+											placement='top'
+											overlay={
+												<Tooltip>
+													<div className='text-capitalize'>{type}</div>
+												</Tooltip>
+											}
+										>
+											<img
+												src={`images/Weapon icons/Weapon-class-${type}-icon.png`}
+												alt={type}
+												className='img-fluid'
+												width='30px'
+											/>
+										</OverlayTrigger>
+									</motion.div>
 								</button>
 							);
 						})}
-					</section>
-					<section>
+					</motion.div>
+					<motion.div
+						initial={{ y: -10 }}
+						animate={{ y: 0 }}
+						transition={{ delay: delay, type: type, bounce: bounce }}
+					>
 						{rarityType.map((type, index) => {
 							let rarityColor = '';
 							if (type === 5) {
@@ -105,19 +126,25 @@ const Weapons = () => {
 									key={index}
 									onClick={() => filterRarities(type)}
 								>
-									<OverlayTrigger
-										placement='top'
-										overlay={<Tooltip>{type}</Tooltip>}
-									>
-										<div className={rarityColor}>
-											<AiOutlineStar className={rarityColor} size={30} />
-										</div>
-									</OverlayTrigger>
+									<motion.div whileHover={whileHover}>
+										<OverlayTrigger
+											placement='top'
+											overlay={<Tooltip>{type}</Tooltip>}
+										>
+											<div className={rarityColor}>
+												<AiOutlineStar className={rarityColor} size={30} />
+											</div>
+										</OverlayTrigger>
+									</motion.div>
 								</button>
 							);
 						})}
-					</section>
-					<section>
+					</motion.div>
+					<motion.div
+						initial={initialReverse}
+						animate={animate}
+						transition={{ delay: delay, type: type, bounce: bounce }}
+					>
 						<input
 							type='text'
 							className='form-control dark-blue'
@@ -127,7 +154,7 @@ const Weapons = () => {
 								// console.log(event.target.value);
 							}}
 						/>
-					</section>
+					</motion.div>
 				</div>
 				{menuItems
 					.filter(value => {

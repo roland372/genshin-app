@@ -10,6 +10,7 @@ import CardComponent from '../Layout/CardComponent';
 import SingleCharacter from './SingleCharacter';
 import SingleCharacterGrid from './SingleCharacterGrid';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { motion } from 'framer-motion/dist/framer-motion';
 
 //? <----- Data ----->
 import data from '../../assets/data/Characters/characters.json';
@@ -21,6 +22,15 @@ const { characters } = data;
 
 const Characters = () => {
 	useDocumentTitle('Characters');
+
+	//* Animation variables
+	const initial = { x: -10 };
+	const initialReverse = { x: 10 };
+	const animate = { x: 0 };
+	const delay = 0.1;
+	const type = 'spring';
+	const bounce = 0.5;
+	const whileHover = { scale: 1.1 };
 
 	// elements filtering
 	// const allElements = [
@@ -101,7 +111,13 @@ const Characters = () => {
 		<Container>
 			<CardComponent title='Playable Characters'>
 				<div className='d-xl-flex align-items-center justify-content-lg-between align-middle'>
-					<section className='ms-2'>
+					<motion.div
+						className='ms-2'
+						initial={initial}
+						animate={animate}
+						transition={{ delay: delay, type: type, bounce: bounce }}
+						whileHover={whileHover}
+					>
 						<button
 							className='btn btn-warning'
 							onClick={() => setCharactersDisplay(!charactersDisplay)}
@@ -112,9 +128,14 @@ const Characters = () => {
 								<FaThList size={20} />
 							)}
 						</button>
-					</section>
+					</motion.div>
 					{/* elements filtering */}
-					<section className='ps-2'>
+					<motion.div
+						className='ps-2'
+						initial={initial}
+						animate={animate}
+						transition={{ delay: delay, type: type, bounce: bounce }}
+					>
 						{elements.map((element, index) => {
 							return (
 								<button
@@ -123,25 +144,32 @@ const Characters = () => {
 									key={index + element}
 									onClick={() => filterElements(element)}
 								>
-									<OverlayTrigger
-										placement='top'
-										overlay={<Tooltip>{element}</Tooltip>}
-									>
-										<img
-											src={`images/Elements/Element_${element}.png`}
-											alt={element}
-											className='img-fluid'
-											width='40px'
-										/>
-									</OverlayTrigger>
+									<motion.div whileHover={whileHover}>
+										<OverlayTrigger
+											placement='top'
+											overlay={<Tooltip>{element}</Tooltip>}
+										>
+											<img
+												src={`images/Elements/Element_${element}.png`}
+												alt={element}
+												className='img-fluid'
+												width='40px'
+											/>
+										</OverlayTrigger>
+									</motion.div>
 
 									{/* {element} */}
 								</button>
 							);
 						})}
-					</section>
+					</motion.div>
 					{/* weapon filtering */}
-					<section className=''>
+					<motion.div
+						className=''
+						initial={initialReverse}
+						animate={animate}
+						transition={{ delay: delay, type: type, bounce: bounce }}
+					>
 						{weapons.map((weapon, index) => {
 							return (
 								<button
@@ -150,25 +178,32 @@ const Characters = () => {
 									key={weapon}
 									onClick={() => filterWeapons(weapon)}
 								>
-									<OverlayTrigger
-										placement='top'
-										overlay={<Tooltip>{weapon}</Tooltip>}
-									>
-										<img
-											src={`images/Weapon icons/Weapon-class-${weapon}-icon.png`}
-											alt={weapon}
-											className='img-fluid'
-											width='40px'
-										/>
-									</OverlayTrigger>
+									<motion.div whileHover={whileHover}>
+										<OverlayTrigger
+											placement='top'
+											overlay={<Tooltip>{weapon}</Tooltip>}
+										>
+											<img
+												src={`images/Weapon icons/Weapon-class-${weapon}-icon.png`}
+												alt={weapon}
+												className='img-fluid'
+												width='40px'
+											/>
+										</OverlayTrigger>
+									</motion.div>
 
 									{/* {weapon} */}
 								</button>
 							);
 						})}
-					</section>
+					</motion.div>
 					{/* searching input */}
-					<section className='mx-2'>
+					<motion.div
+						className='mx-2'
+						initial={initialReverse}
+						animate={animate}
+						transition={{ delay: delay, type: type, bounce: bounce }}
+					>
 						<form>
 							<div className='text-start'>
 								{/* <label htmlFor='searchForCharacter'>Search for character</label> */}
@@ -183,7 +218,7 @@ const Characters = () => {
 								}}
 							/>
 						</form>
-					</section>
+					</motion.div>
 				</div>
 				<div className='border border-bottom-0 mx-2 mt-3'></div>
 				{charactersDisplay ? (

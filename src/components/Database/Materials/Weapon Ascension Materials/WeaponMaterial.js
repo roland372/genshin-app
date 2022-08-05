@@ -35,15 +35,15 @@ const WeaponMaterial = props => {
 					{props.weaponsData.weapons.map(weapon =>
 						weapon.ascensionMaterial1.slice(49, -4).replaceAll('_', ' ') ===
 						props.ascensionMaterial ? (
-							<OverlayTrigger
-								placement='top'
-								overlay={<Tooltip>{weapon.name}</Tooltip>}
+							<motion.div
+								whileHover={{ scale: 1.1 }}
+								initial={{ x: 20 }}
+								animate={{ x: 0 }}
+								key={weapon.name}
 							>
-								<motion.div
-									whileHover={{ scale: 1.1 }}
-									initial={{ x: 20 }}
-									animate={{ x: 0 }}
-									key={weapon.name}
+								<OverlayTrigger
+									placement='top'
+									overlay={<Tooltip>{weapon.name}</Tooltip>}
 								>
 									<img
 										// key={weapon.name}
@@ -53,8 +53,8 @@ const WeaponMaterial = props => {
 										alt={weapon.name}
 										// title={weapon.name}
 									/>
-								</motion.div>
-							</OverlayTrigger>
+								</OverlayTrigger>
+							</motion.div>
 						) : null
 					)}
 				</div>

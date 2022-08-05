@@ -5,15 +5,31 @@ import { Link } from 'react-router-dom';
 
 //? <----- Components ----->
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { motion } from 'framer-motion/dist/framer-motion';
 
 const SingleCharacterGrid = props => {
+	//* Animation variables
+	const initial = { y: -10 };
+	// const initialReverse = { y: 10 };
+	const animate = { y: 0 };
+	const delay = 0.1;
+	const type = 'spring';
+	const bounce = 0.5;
+	const whileHover = { scale: 1.1 };
+
 	let rarityColor = '';
 	props.rarity === 5
 		? (rarityColor = 'rarity5bg')
 		: (rarityColor = 'rarity4bg');
 
 	return (
-		<div className='col-xl-1 col-md-2 col-3 mt-3'>
+		<motion.div
+			className='col-xl-1 col-md-2 col-3 mt-3'
+			initial={initial}
+			animate={animate}
+			transition={{ delay: delay, type: type, bounce: bounce }}
+			whileHover={whileHover}
+		>
 			<OverlayTrigger
 				placement='top'
 				overlay={
@@ -78,7 +94,7 @@ const SingleCharacterGrid = props => {
 			<td>{props.ATK}</td>
 			<td>{props.DEF}</td>
 			<td>{props.ascension}</td> */}
-		</div>
+		</motion.div>
 	);
 };
 
