@@ -107,6 +107,8 @@ const Characters = () => {
 		setMenuItems(newData);
 	};
 
+	// console.log(data.characters.length);
+
 	return (
 		<Container>
 			<CardComponent title='Playable Characters'>

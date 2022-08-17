@@ -29,6 +29,7 @@ const SingleCharacterGrid = props => {
 			animate={animate}
 			transition={{ delay: delay, type: type, bounce: bounce }}
 			whileHover={whileHover}
+			data-testid='character-container'
 		>
 			<OverlayTrigger
 				placement='top'
@@ -50,7 +51,7 @@ const SingleCharacterGrid = props => {
 						<img
 							src={props.icon}
 							width='100px'
-							alt=''
+							alt={props.name}
 							className={`img-fluid img-thumbnail ${rarityColor}`}
 						/>
 					</Link>
