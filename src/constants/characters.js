@@ -7,8 +7,10 @@ import Barbara from '../components/Characters/Character/Barbara/Barbara';
 import Beidou from '../components/Characters/Character/Beidou/Beidou';
 import Bennett from '../components/Characters/Character/Bennett/Bennett';
 import Chongyun from '../components/Characters/Character/Chongyun/Chongyun';
+import Collei from '../components/Characters/Character/Collei/Collei';
 import Diluc from '../components/Characters/Character/Diluc/Diluc';
 import Diona from '../components/Characters/Character/Diona/Diona';
+import Dori from '../components/Characters/Character/Dori/Dori';
 import Eula from '../components/Characters/Character/Eula/Eula';
 import Fischl from '../components/Characters/Character/Fischl/Fischl';
 import Ganyu from '../components/Characters/Character/Ganyu/Ganyu';
@@ -37,9 +39,11 @@ import Shenhe from '../components/Characters/Character/Shenhe/Shenhe';
 import ShikanoinHeizou from '../components/Characters/Character/Shikanoin Heizou/ShikanoinHeizou';
 import Sucrose from '../components/Characters/Character/Sucrose/Sucrose';
 import Tartaglia from '../components/Characters/Character/Tartaglia/Tartaglia';
+import Tighnari from '../components/Characters/Character/Tighnari/Tighnari';
 import TravelerAnemo from '../components/Characters/Character/Traveler/Anemo/TravelerAnemo';
-import TravelerGeo from '../components/Characters/Character/Traveler/Geo/TravelerGeo';
+import TravelerDendro from '../components/Characters/Character/Traveler/Dendro/TravelerDendro';
 import TravelerElectro from '../components/Characters/Character/Traveler/Electro/TravelerElectro';
+import TravelerGeo from '../components/Characters/Character/Traveler/Geo/TravelerGeo';
 import Venti from '../components/Characters/Character/Venti/Venti';
 import Xiangling from '../components/Characters/Character/Xiangling/Xiangling';
 import Xiao from '../components/Characters/Character/Xiao/Xiao';
@@ -61,8 +65,10 @@ import BarbaraData from '../assets/data/Characters/Barbara.json';
 import BeidouData from '../assets/data/Characters/Beidou.json';
 import BennettData from '../assets/data/Characters/Bennett.json';
 import ChongyunData from '../assets/data/Characters/Chongyun.json';
+import ColleiData from '../assets/data/Characters/Collei.json';
 import DilucData from '../assets/data/Characters/Diluc.json';
 import DionaData from '../assets/data/Characters/Diona.json';
+import DoriData from '../assets/data/Characters/Dori.json';
 import EulaData from '../assets/data/Characters/Eula.json';
 import FischlData from '../assets/data/Characters/Fischl.json';
 import GanyuData from '../assets/data/Characters/Ganyu.json';
@@ -91,9 +97,11 @@ import ShenheData from '../assets/data/Characters/Shenhe.json';
 import ShikanoinHeizouData from '../assets/data/Characters/Shikanoin Heizou.json';
 import SucroseData from '../assets/data/Characters/Sucrose.json';
 import TartagliaData from '../assets/data/Characters/Tartaglia.json';
+import TighnariData from '../assets/data/Characters/Tighnari.json';
 import TravelerAnemoData from '../assets/data/Characters/Traveler Anemo.json';
-import TravelerGeoData from '../assets/data/Characters/Traveler Geo.json';
+import TravelerDendroData from '../assets/data/Characters/Traveler Dendro.json';
 import TravelerElectroData from '../assets/data/Characters/Traveler Electro.json';
+import TravelerGeoData from '../assets/data/Characters/Traveler Geo.json';
 import VentiData from '../assets/data/Characters/Venti.json';
 import XianglingData from '../assets/data/Characters/Xiangling.json';
 import XiaoData from '../assets/data/Characters/Xiao.json';
@@ -140,12 +148,20 @@ const charactersImports = [
 		data: ChongyunData,
 	},
 	{
+		component: Collei,
+		data: ColleiData,
+	},
+	{
 		component: Diluc,
 		data: DilucData,
 	},
 	{
 		component: Diona,
 		data: DionaData,
+	},
+	{
+		component: Dori,
+		data: DoriData,
 	},
 	{
 		component: Eula,
@@ -260,16 +276,24 @@ const charactersImports = [
 		data: TartagliaData,
 	},
 	{
+		component: Tighnari,
+		data: TighnariData,
+	},
+	{
 		component: TravelerAnemo,
 		data: TravelerAnemoData,
 	},
 	{
-		component: TravelerGeo,
-		data: TravelerGeoData,
+		component: TravelerDendro,
+		data: TravelerDendroData,
 	},
 	{
 		component: TravelerElectro,
 		data: TravelerElectroData,
+	},
+	{
+		component: TravelerGeo,
+		data: TravelerGeoData,
 	},
 	{
 		component: Venti,
