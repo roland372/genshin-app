@@ -1,46 +1,46 @@
 {
   "currentEvents": [
     {
-      "name": "Azure Main",
-      "link": "https://www.hoyolab.com/article/5916190",
-      "image": "images/Events/current/Battle_Pass_Azure_Main.png",
-      "startDate": "July 13, 2022",
-      "endDate": "August 22, 2022"
+      "name": "Luxuriant Woodlands",
+      "link": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Luxuriant_Woodlands",
+      "image": "images/Events/current/Battle_Pass_Luxuriant_Woodlands.png",
+      "startDate": "August 24, 2022",
+      "endDate": "September 26, 2022"
     },
     {
-      "name": "Summertime Odyssey",
-      "link": "https://www.hoyolab.com/article/5958494",
-      "image": "images/Events/current/Summertime_Odyssey.png",
-      "startDate": "July 15, 2022",
-      "endDate": "August 14, 2022"
+      "name": "Graven Innocence",
+      "link": "https://genshin-impact.fandom.com/wiki/Graven_Innocence",
+      "image": "images/Events/current/Graven_Innocence.png",
+      "startDate": "August 24, 202",
+      "endDate": "September 28, 2022"
     },
     {
-      "name": "Resonating Visions",
-      "link": "https://www.hoyolab.com/article/5958498",
-      "image": "images/Events/current/Resonating_Visions.png",
-      "startDate": "July 15, 2022",
-      "endDate": "August 24, 2022"
+      "name": "Lost Riches 2022-09-02",
+      "link": "https://genshin-impact.fandom.com/wiki/Lost_Riches/2022-09-02",
+      "image": "images/Events/current/Lost_Riches_2022-09-02.png",
+      "startDate": "September 02, 2022",
+      "endDate": "September 19, 2022"
     },
     {
-      "name": "Hidden Strife",
-      "link": "https://www.hoyolab.com/article/5916190",
-      "image": "images/Events/current/Hidden_Strife.png",
-      "startDate": "July 27, 2022",
-      "endDate": "August 15, 2022"
+      "name": "Fayz Trials",
+      "link": "https://genshin-impact.fandom.com/wiki/Fayz_Trials",
+      "image": "images/Events/current/Fayz_Trials.png",
+      "startDate": "September 08, 2022",
+      "endDate": "September 26, 2022"
     },
     {
-      "name": "Reminiscent Regimen",
-      "link": "https://genshin-impact.fandom.com/wiki/Reminiscent_Regimen",
-      "image": "images/Events/current/Reminiscent_Regimen.png",
-      "startDate": "August 04, 2022",
-      "endDate": "August 15, 2022"
+      "name": "Tablet Analytics",
+      "link": "https://genshin-impact.fandom.com/wiki/Tablet_Analytics",
+      "image": "images/Events/current/Tablet_Analytics.png",
+      "startDate": "TBA",
+      "endDate": "TBA"
     },
     {
-      "name": "Evermotion Mechanical Painting",
-      "link": "https://genshin-impact.fandom.com/wiki/Evermotion_Mechanical_Painting",
-      "image": "images/Events/current/Evermotion_Mechanical_Painting.png",
-      "startDate": "August 12, 2022",
-      "endDate": "August 22, 2022"
+      "name": "Ley Line Overflow 3.0",
+      "link": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/3.0",
+      "image": "images/Events/current/Ley_Line_Overflow.png",
+      "startDate": "TBA",
+      "endDate": "TBA"
     }
   ],
   "upcomingEvents": [
@@ -53,6 +53,50 @@
     }
   ],
   "pastEvents": {
+    "version 3.0" : [
+      {
+        "name": "Azure Main",
+        "link": "https://www.hoyolab.com/article/5916190",
+        "image": "images/Events/current/Battle_Pass_Azure_Main.png",
+        "startDate": "July 13, 2022",
+        "endDate": "August 22, 2022"
+      },
+      {
+        "name": "Summertime Odyssey",
+        "link": "https://www.hoyolab.com/article/5958494",
+        "image": "images/Events/current/Summertime_Odyssey.png",
+        "startDate": "July 15, 2022",
+        "endDate": "August 14, 2022"
+      },
+      {
+        "name": "Resonating Visions",
+        "link": "https://www.hoyolab.com/article/5958498",
+        "image": "images/Events/current/Resonating_Visions.png",
+        "startDate": "July 15, 2022",
+        "endDate": "August 24, 2022"
+      },
+      {
+        "name": "Hidden Strife",
+        "link": "https://www.hoyolab.com/article/5916190",
+        "image": "images/Events/current/Hidden_Strife.png",
+        "startDate": "July 27, 2022",
+        "endDate": "August 15, 2022"
+      },
+      {
+        "name": "Reminiscent Regimen",
+        "link": "https://genshin-impact.fandom.com/wiki/Reminiscent_Regimen",
+        "image": "images/Events/current/Reminiscent_Regimen.png",
+        "startDate": "August 04, 2022",
+        "endDate": "August 15, 2022"
+      },
+      {
+        "name": "Evermotion Mechanical Painting",
+        "link": "https://genshin-impact.fandom.com/wiki/Evermotion_Mechanical_Painting",
+        "image": "images/Events/current/Evermotion_Mechanical_Painting.png",
+        "startDate": "August 12, 2022",
+        "endDate": "August 22, 2022"
+      }
+    ],
     "version 2.8" : [
       {
         "name": "Azure Main",
@@ -86,15 +130,15 @@
         "name": "Reminiscent Regimen",
         "link": "https://genshin-impact.fandom.com/wiki/Reminiscent_Regimen",
         "image": "images/Events/current/Reminiscent_Regimen.png",
-        "startDate": "TBA",
-        "endDate": "TBA"
+        "startDate": "August 04, 2022",
+        "endDate": "August 15, 2022"
       },
       {
         "name": "Evermotion Mechanical Painting",
         "link": "https://genshin-impact.fandom.com/wiki/Evermotion_Mechanical_Painting",
         "image": "images/Events/current/Evermotion_Mechanical_Painting.png",
-        "startDate": "TBA",
-        "endDate": "TBA"
+        "startDate": "August 12, 2022",
+        "endDate": "August 22, 2022"
       }
     ],
     "version 2.7" : [
