@@ -7,7 +7,9 @@ import Barbara from '../components/Characters/Character/Barbara/Barbara';
 import Beidou from '../components/Characters/Character/Beidou/Beidou';
 import Bennett from '../components/Characters/Character/Bennett/Bennett';
 import Chongyun from '../components/Characters/Character/Chongyun/Chongyun';
+import Candace from '../components/Characters/Character/Candace/Candace';
 import Collei from '../components/Characters/Character/Collei/Collei';
+import Cyno from '../components/Characters/Character/Cyno/Cyno';
 import Diluc from '../components/Characters/Character/Diluc/Diluc';
 import Diona from '../components/Characters/Character/Diona/Diona';
 import Dori from '../components/Characters/Character/Dori/Dori';
@@ -27,6 +29,7 @@ import KujouSara from '../components/Characters/Character/Kujou Sara/KujouSara';
 import KukiShinobu from '../components/Characters/Character/Kuki Shinobu/KukiShinobu';
 import Lisa from '../components/Characters/Character/Lisa/Lisa';
 import Mona from '../components/Characters/Character/Mona/Mona';
+import Nilou from '../components/Characters/Character/Nilou/Nilou';
 import Ningguang from '../components/Characters/Character/Ningguang/Ningguang';
 import Noelle from '../components/Characters/Character/Noelle/Noelle';
 import Qiqi from '../components/Characters/Character/Qiqi/Qiqi';
@@ -64,8 +67,10 @@ import AratakiIttoData from '../assets/data/Characters/Arataki Itto.json';
 import BarbaraData from '../assets/data/Characters/Barbara.json';
 import BeidouData from '../assets/data/Characters/Beidou.json';
 import BennettData from '../assets/data/Characters/Bennett.json';
+import CandaceData from '../assets/data/Characters/Candace.json';
 import ChongyunData from '../assets/data/Characters/Chongyun.json';
 import ColleiData from '../assets/data/Characters/Collei.json';
+import CynoData from '../assets/data/Characters/Cyno.json';
 import DilucData from '../assets/data/Characters/Diluc.json';
 import DionaData from '../assets/data/Characters/Diona.json';
 import DoriData from '../assets/data/Characters/Dori.json';
@@ -86,6 +91,7 @@ import KukiShinobuData from '../assets/data/Characters/Kuki Shinobu.json';
 import LisaData from '../assets/data/Characters/Lisa.json';
 import MonaData from '../assets/data/Characters/Mona.json';
 import NingguangData from '../assets/data/Characters/Ningguang.json';
+import NilouData from '../assets/data/Characters/Nilou.json';
 import NoelleData from '../assets/data/Characters/Noelle.json';
 import QiqiData from '../assets/data/Characters/Qiqi.json';
 import RaidenShogunData from '../assets/data/Characters/Raiden Shogun.json';
@@ -144,12 +150,20 @@ const charactersImports = [
 		data: BennettData,
 	},
 	{
+		component: Candace,
+		data: CandaceData,
+	},
+	{
 		component: Chongyun,
 		data: ChongyunData,
 	},
 	{
 		component: Collei,
 		data: ColleiData,
+	},
+	{
+		component: Cyno,
+		data: CynoData,
 	},
 	{
 		component: Diluc,
@@ -226,6 +240,10 @@ const charactersImports = [
 	{
 		component: Mona,
 		data: MonaData,
+	},
+	{
+		component: Nilou,
+		data: NilouData,
 	},
 	{
 		component: Ningguang,

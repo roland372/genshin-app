@@ -1,41 +1,41 @@
 {
-  "name":"Amber",
-  "url":"Amber",
-  "avatar": "images/Characters/mondstadt/Amber/images/Character_Amber_Avatar.png",
-  "card" : "images/Characters/mondstadt/Amber/images/Character_Amber_Card.png",
-  "portrait" : "images/Characters/mondstadt/Amber/images/Character_Amber_Portrait.png",
-  "thumbnail" : "images/Characters/mondstadt/Amber/images/Character_Amber_Thumb.png",
-  "thumbnailBg" : "images/Characters/mondstadt/Amber/images/Item_Amber.png",
-  "wish" : "images/Characters/mondstadt/Amber/images/Character_Amber_Wish.png",
-  "namecard" : "images/Characters/mondstadt/Amber/images/Namecard_Background_Amber_Bunny.png",
+  "name":"Cyno",
+  "url":"Cyno",
+  "avatar": "images/Characters/sumeru/Cyno/images/Character_Cyno_Avatar.png",
+  "card" : "images/Characters/sumeru/Cyno/images/Character_Cyno_Card.png",
+  "portrait" : "images/Characters/sumeru/Cyno/images/Character_Cyno_Portrait.png",
+  "thumbnail" : "images/Characters/sumeru/Cyno/images/Character_Cyno_Thumb.png",
+  "thumbnailBg" : "images/Characters/sumeru/Cyno/images/Item_Cyno.png",
+  "wish" : "images/Characters/sumeru/Cyno/images/Character_Cyno_Wish.png",
+  "namecard" : "images/Characters/sumeru/Cyno/images/Namecard_Background_Cyno_Bunny.png",
   "title":"Gliding Champion",
   "rarity":4,
   "rarityImage": "images/Rarity icons/Icon_4_Stars.png",
-  "element":"Pyro",
-  "elementImage": "images/Elements/Element_Pyro.png",
-  "weapon":"Bow",
-  "weaponImage": "images/Weapon icons/Weapon-class-bow-icon.png",
+  "element":"electro",
+  "elementImage": "images/Elements/Element_electro.png",
+  "weapon":"polearm",
+  "weaponImage": "images/Weapon icons/Weapon-class-polearm-icon.png",
   "sex":"Female",
   "birthday":"August 10th",
   "constellation":"Lepus",
-  "nation":"Mondstadt",
+  "nation":"sumeru",
   "affiliation":"Knights of Favonius",
   "specialDish":"Outrider's Champion Steak!",
-  "description":"Always enenergetic and full of life, Amber's the best - albeit only - Outrider of the Knights of Favonius.",
-  "talentBook":"Freedom",
-  "talentBookImage": "/images/Materials/Character Materials/Talents/Freedom/Item_Teachings_of_Freedom.png",
-  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
-  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
-  "ascensionMaterial3": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
-  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
+  "description":"Always enenergetic and full of life, Cyno's the best - albeit only - Outrider of the Knights of Favonius.",
+  "talentBook":"Admonition",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Admonition/Item_Teachings_of_Admonition.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Thunderclap_Fruitcore.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/sumeru/Item_Scarab.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
   "ascensionStat": "ATK%",
   "characterAscension":[
    {
      "ascensionPhase": "0 → 1",
      "level": 20,
      "ascensionMaterial": {
-       "name": "Agnidus Agate Sliver",
-       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
+       "name": "Vajrada Amethyst Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Sliver.png",
        "amount": 1
      },
      "bossMaterial": {
@@ -44,13 +44,13 @@
        "amount": null
      },
      "localSpeciality": {
-       "name": "Small Lamp Grass",
-       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "name": "Scarab",
+       "image": "images/Materials/Local Specialties/sumeru/Item_Scarab.png",
        "amount": 3
      },
      "commonMaterial": {
-       "name": "Firm Arrowhead",
-       "image": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
+       "name": "Divining Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
        "amount": 3
      },
      "moraCost": "20,000"
@@ -59,23 +59,23 @@
      "ascensionPhase": "1 → 2",
      "level": 40,
      "ascensionMaterial": {
-       "name": "Agnidus Agate Fragment",
-       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "name": "Vajrada Amethyst Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
        "amount": 3
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Thunderclap Fruitcore",
+       "image": "images/Materials/Character Materials/Ascension/Item_Thunderclap_Fruitcore.png",
        "amount": 2
      },
      "localSpeciality": {
-       "name": "Small Lamp Grass",
-       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "name": "Scarab",
+       "image": "images/Materials/Local Specialties/sumeru/Item_Scarab.png",
        "amount": 10
      },
      "commonMaterial": {
-       "name": "Firm Arrowhead",
-       "image": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
+       "name": "Divining Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
        "amount": 15
      },
      "moraCost": "40,000"
@@ -84,23 +84,23 @@
      "ascensionPhase": "2 → 3",
      "level": 50,
      "ascensionMaterial": {
-       "name": "Agnidus Agate Fragment",
-       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "name": "Vajrada Amethyst Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Fragment.png",
        "amount": 6
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Thunderclap Fruitcore",
+       "image": "images/Materials/Character Materials/Ascension/Item_Thunderclap_Fruitcore.png",
        "amount": 4
      },
      "localSpeciality": {
-       "name": "Small Lamp Grass",
-       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "name": "Scarab",
+       "image": "images/Materials/Local Specialties/sumeru/Item_Scarab.png",
        "amount": 20
      },
      "commonMaterial": {
-       "name": "Sharp Arrowhead",
-       "image": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+       "name": "Sealed Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
        "amount": 12
      },
      "moraCost": "60,000"
@@ -109,23 +109,23 @@
      "ascensionPhase": "3 → 4",
      "level": 60,
      "ascensionMaterial": {
-       "name": "Agnidus Agate Chunk",
-       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "name": "Vajrada Amethyst Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
        "amount": 3
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Thunderclap Fruitcore",
+       "image": "images/Materials/Character Materials/Ascension/Item_Thunderclap_Fruitcore.png",
        "amount": 8
      },
      "localSpeciality": {
-       "name": "Small Lamp Grass",
-       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "name": "Scarab",
+       "image": "images/Materials/Local Specialties/sumeru/Item_Scarab.png",
        "amount": 30
      },
      "commonMaterial": {
-       "name": "Sharp Arrowhead",
-       "image": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+       "name": "Sealed Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
        "amount": 18
      },
      "moraCost": "80,000"
@@ -134,23 +134,23 @@
      "ascensionPhase": "4 → 5",
      "level": 70,
      "ascensionMaterial": {
-       "name": "Agnidus Agate Chunk",
-       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "name": "Vajrada Amethyst Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Chunk.png",
        "amount": 6
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Thunderclap Fruitcore",
+       "image": "images/Materials/Character Materials/Ascension/Item_Thunderclap_Fruitcore.png",
        "amount": 12
      },
      "localSpeciality": {
-       "name": "Small Lamp Grass",
-       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "name": "Scarab",
+       "image": "images/Materials/Local Specialties/sumeru/Item_Scarab.png",
        "amount": 45
      },
      "commonMaterial": {
-       "name": "Weathered Arrowhead",
-       "image": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+       "name": "Forbidden Curse Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
        "amount": 12
      },
      "moraCost": "100,000"
@@ -159,23 +159,23 @@
      "ascensionPhase": "5 → 6",
      "level": 80,
      "ascensionMaterial": {
-       "name": "Agnidus Agate Gemstone",
-       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Gemstone.png",
+       "name": "Vajrada Amethyst Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Vajrada_Amethyst_Gemstone.png",
        "amount": 6
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Thunderclap Fruitcore",
+       "image": "images/Materials/Character Materials/Ascension/Item_Thunderclap_Fruitcore.png",
        "amount": 20
      },
      "localSpeciality": {
-       "name": "Small Lamp Grass",
-       "image": "images/Materials/Local Specialties/Mondstadt/Item_Small_Lamp_Grass.png",
+       "name": "Scarab",
+       "image": "images/Materials/Local Specialties/sumeru/Item_Scarab.png",
        "amount": 60
      },
      "commonMaterial": {
-       "name": "Weathered Arrowhead",
-       "image": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+       "name": "Forbidden Curse Scroll",
+       "image": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
        "amount": 24
      },
      "moraCost": "120,000"
@@ -326,7 +326,7 @@
   "skillTalents":[
     {
       "name":"Sharpshooter",
-      "image": "images/Characters/mondstadt/Amber/talents/Talent_Sharpshooter.png",
+      "image": "images/Characters/sumeru/Cyno/talents/Talent_Sharpshooter.png",
       "type":"Normal Attack",
       "attributeScaling": [
         {
@@ -477,7 +477,7 @@
     },
     {
       "name":"Explosive Puppet",
-      "image": "images/Characters/mondstadt/Amber/talents/Talent_Explosive_Puppet.png",
+      "image": "images/Characters/sumeru/Cyno/talents/Talent_Explosive_Puppet.png",
       "type":"Elemental Skill",
       "attributeScaling": [
         {
@@ -532,7 +532,7 @@
     },
     {
       "name":"Fiery Rain",
-      "image": "images/Characters/mondstadt/Amber/talents/Talent_Fiery_Rain.png",
+      "image": "images/Characters/sumeru/Cyno/talents/Talent_Fiery_Rain.png",
       "type":"Elemental Burst",
       "attributeScaling": [
         {
@@ -621,26 +621,26 @@
   "passiveTalents":[
     {
       "name":"Every Arrow Finds Its Target",
-      "image": "images/Characters/mondstadt/Amber/talents/Talent_Every_Arrow_Finds_Its_Target.png",
+      "image": "images/Characters/sumeru/Cyno/talents/Talent_Every_Arrow_Finds_Its_Target.png",
       "description":""
     },
     {
       "name":"Precise Shot",
-      "image": "images/Characters/mondstadt/Amber/talents/Talent_Precise_Shot.png",
+      "image": "images/Characters/sumeru/Cyno/talents/Talent_Precise_Shot.png",
       "description":""
     },
     {
       "name":"Gliding Champion",
-      "image": "images/Characters/mondstadt/Amber/talents/Talent_Gliding_Champion.png",
+      "image": "images/Characters/sumeru/Cyno/talents/Talent_Gliding_Champion.png",
       "description":""
     }
   ],
   "talentMaterials": [
     {
       "level": "1 → 2",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Teachings_of_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Admonition/Item_Teachings_of_Admonition.png",
       "talentBookAmount": 3,
-      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
       "commonMaterialAmount": 6,
       "bossMaterialImage": "",
       "bossMaterialAmount": "",
@@ -651,9 +651,9 @@
     },
     {
       "level": "2 → 3",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Admonition/Item_Guide_to_Admonition.png",
       "talentBookAmount": 2,
-      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
       "commonMaterialAmount": 3,
       "bossMaterialImage": "",
       "bossMaterialAmount": "",
@@ -664,9 +664,9 @@
     },
     {
       "level": "3 → 4",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Admonition/Item_Guide_to_Admonition.png",
       "talentBookAmount": 4,
-      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
       "commonMaterialAmount": 4,
       "bossMaterialImage": "",
       "bossMaterialAmount": "",
@@ -677,9 +677,9 @@
     },
     {
       "level": "4 → 5",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Admonition/Item_Guide_to_Admonition.png",
       "talentBookAmount": 6,
-      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
       "commonMaterialAmount": 6,
       "bossMaterialImage": "",
       "bossMaterialAmount": "",
@@ -690,9 +690,9 @@
     },
     {
       "level": "5 → 6",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Admonition/Item_Guide_to_Admonition.png",
       "talentBookAmount": 9,
-      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sealed_Scroll.png",
       "commonMaterialAmount": 9,
       "bossMaterialImage": "",
       "bossMaterialAmount": "",
@@ -703,11 +703,11 @@
     },
     {
       "level": "6 → 7",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Admonition/Item_Philosophies_of_Admonition.png",
       "talentBookAmount": 4,
-      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
       "commonMaterialAmount": 4,
-      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Mudra_of_the_Malefic_General.png",
       "bossMaterialAmount": 1,
       "crownImage": "",
       "crownAmount": "",
@@ -716,11 +716,11 @@
     },
     {
       "level": "7 → 8",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Admonition/Item_Philosophies_of_Admonition.png",
       "talentBookAmount": 6,
-      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
       "commonMaterialAmount": 6,
-      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Mudra_of_the_Malefic_General.png",
       "bossMaterialAmount": 1,
       "crownImage": "",
       "crownAmount": "",
@@ -729,11 +729,11 @@
     },
     {
       "level": "8 → 9",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Admonition/Item_Philosophies_of_Admonition.png",
       "talentBookAmount": 12,
-      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
       "commonMaterialAmount": 9,
-      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Mudra_of_the_Malefic_General.png",
       "bossMaterialAmount": 2,
       "crownImage": "",
       "crownAmount": "",
@@ -742,11 +742,11 @@
     },
     {
       "level": "9 → 10",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Admonition/Item_Philosophies_of_Admonition.png",
       "talentBookAmount": 16,
-      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Forbidden_Curse_Scroll.png",
       "commonMaterialAmount": 12,
-      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Mudra_of_the_Malefic_General.png",
       "bossMaterialAmount": 2,
       "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
       "crownAmount": 1,
@@ -758,38 +758,40 @@
     {
       "level":1,
       "name":"One Arrow to Rule Them All",
-      "image": "images/Characters/mondstadt/Amber/constellations/Constellation_One_Arrow_to_Rule_Them_All.png",
+      "image": "images/Characters/sumeru/Cyno/constellations/Constellation_One_Arrow_to_Rule_Them_All.png",
       "description":""
     },
     {
       "level":2,
       "name":"Bunny Triggered",
-      "image": "images/Characters/mondstadt/Amber/constellations/Constellation_Bunny_Triggered.png",
+      "image": "images/Characters/sumeru/Cyno/constellations/Constellation_Bunny_Triggered.png",
       "description":""
     },
     {
       "level":3,
       "name":"It Burns!",
-      "image": "images/Characters/mondstadt/Amber/constellations/Constellation_It_Burns.png",
+      "image": "images/Characters/sumeru/Cyno/constellations/Constellation_It_Burns.png",
       "description":""
     },
     {
       "level":4,
       "name":"It's Not Just Any Doll...",
-      "image": "images/Characters/mondstadt/Amber/constellations/Constellation_It's_Not_Just_Any_Doll....png",
+      "image": "images/Characters/sumeru/Cyno/constellations/Constellation_It's_Not_Just_Any_Doll....png",
       "description":""
     },
     {
       "level":5,
       "name":"It's Baron Bunny!",
-      "image": "images/Characters/mondstadt/Amber/constellations/Constellation_It's_Baron_Bunny.png",
+      "image": "images/Characters/sumeru/Cyno/constellations/Constellation_It's_Baron_Bunny.png",
       "description":""
     },
     {
       "level":6,
       "name":"Wildfire",
-      "image": "images/Characters/mondstadt/Amber/constellations/Constellation_Wildfire.png",
+      "image": "images/Characters/sumeru/Cyno/constellations/Constellation_Wildfire.png",
       "description":""
     }
   ]
 }
+
+
