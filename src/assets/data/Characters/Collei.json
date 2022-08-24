@@ -22,11 +22,11 @@
   "affiliation":"Knights of Favonius",
   "specialDish":"Outrider's Champion Steak!",
   "description":"Always enenergetic and full of life, Collei's the best - albeit only - Outrider of the Knights of Favonius.",
-  "talentBook":"Freedom",
-  "talentBookImage": "/images/Materials/Character Materials/Talents/Freedom/Item_Teachings_of_Freedom.png",
-  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
-  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
-  "ascensionMaterial3": "images/Materials/Local Specialties/Sumeru/Item_Small_Lamp_Grass.png",
+  "talentBook":"Praxis",
+  "talentBookImage": "/images/Materials/Character Materials/Talents/Praxis/Item_Teachings_of_Praxis.png",
+  "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Nagadus_Emerald_Sliver.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Majestic_Hooked_Beak.png",
+  "ascensionMaterial3": "images/Materials/Local Specialties/Sumeru/Item_Rukkhashava_Mushrooms.png",
   "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
   "ascensionStat": "ATK%",
   "characterAscension":[
@@ -34,8 +34,8 @@
      "ascensionPhase": "0 → 1",
      "level": 20,
      "ascensionMaterial": {
-       "name": "Agnidus Agate Sliver",
-       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Sliver.png",
+       "name": "Nagadus Emerald Sliver",
+       "image": "images/Materials/Character Materials/Ascension/Item_Nagadus_Emerald_Sliver.png",
        "amount": 1
      },
      "bossMaterial": {
@@ -44,8 +44,8 @@
        "amount": null
      },
      "localSpeciality": {
-       "name": "Small Lamp Grass",
-       "image": "images/Materials/Local Specialties/Sumeru/Item_Small_Lamp_Grass.png",
+       "name": "Rukkhashava Mushrooms",
+       "image": "images/Materials/Local Specialties/Sumeru/Item_Rukkhashava_Mushrooms.png",
        "amount": 3
      },
      "commonMaterial": {
@@ -59,18 +59,18 @@
      "ascensionPhase": "1 → 2",
      "level": 40,
      "ascensionMaterial": {
-       "name": "Agnidus Agate Fragment",
-       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "name": "Nagadus Emerald Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Nagadus_Emerald_Fragment.png",
        "amount": 3
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Majestic Hooked Beak",
+       "image": "images/Materials/Character Materials/Ascension/Item_Majestic_Hooked_Beak.png",
        "amount": 2
      },
      "localSpeciality": {
-       "name": "Small Lamp Grass",
-       "image": "images/Materials/Local Specialties/Sumeru/Item_Small_Lamp_Grass.png",
+       "name": "Rukkhashava Mushrooms",
+       "image": "images/Materials/Local Specialties/Sumeru/Item_Rukkhashava_Mushrooms.png",
        "amount": 10
      },
      "commonMaterial": {
@@ -84,18 +84,18 @@
      "ascensionPhase": "2 → 3",
      "level": 50,
      "ascensionMaterial": {
-       "name": "Agnidus Agate Fragment",
-       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Fragment.png",
+       "name": "Nagadus Emerald Fragment",
+       "image": "images/Materials/Character Materials/Ascension/Item_Nagadus_Emerald_Fragment.png",
        "amount": 6
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Majestic Hooked Beak",
+       "image": "images/Materials/Character Materials/Ascension/Item_Majestic_Hooked_Beak.png",
        "amount": 4
      },
      "localSpeciality": {
-       "name": "Small Lamp Grass",
-       "image": "images/Materials/Local Specialties/Sumeru/Item_Small_Lamp_Grass.png",
+       "name": "Rukkhashava Mushrooms",
+       "image": "images/Materials/Local Specialties/Sumeru/Item_Rukkhashava_Mushrooms.png",
        "amount": 20
      },
      "commonMaterial": {
@@ -109,18 +109,18 @@
      "ascensionPhase": "3 → 4",
      "level": 60,
      "ascensionMaterial": {
-       "name": "Agnidus Agate Chunk",
-       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "name": "Nagadus Emerald Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Nagadus_Emerald_Chunk.png",
        "amount": 3
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Majestic Hooked Beak",
+       "image": "images/Materials/Character Materials/Ascension/Item_Majestic_Hooked_Beak.png",
        "amount": 8
      },
      "localSpeciality": {
-       "name": "Small Lamp Grass",
-       "image": "images/Materials/Local Specialties/Sumeru/Item_Small_Lamp_Grass.png",
+       "name": "Rukkhashava Mushrooms",
+       "image": "images/Materials/Local Specialties/Sumeru/Item_Rukkhashava_Mushrooms.png",
        "amount": 30
      },
      "commonMaterial": {
@@ -134,18 +134,18 @@
      "ascensionPhase": "4 → 5",
      "level": 70,
      "ascensionMaterial": {
-       "name": "Agnidus Agate Chunk",
-       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Chunk.png",
+       "name": "Nagadus Emerald Chunk",
+       "image": "images/Materials/Character Materials/Ascension/Item_Nagadus_Emerald_Chunk.png",
        "amount": 6
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Majestic Hooked Beak",
+       "image": "images/Materials/Character Materials/Ascension/Item_Majestic_Hooked_Beak.png",
        "amount": 12
      },
      "localSpeciality": {
-       "name": "Small Lamp Grass",
-       "image": "images/Materials/Local Specialties/Sumeru/Item_Small_Lamp_Grass.png",
+       "name": "Rukkhashava Mushrooms",
+       "image": "images/Materials/Local Specialties/Sumeru/Item_Rukkhashava_Mushrooms.png",
        "amount": 45
      },
      "commonMaterial": {
@@ -159,18 +159,18 @@
      "ascensionPhase": "5 → 6",
      "level": 80,
      "ascensionMaterial": {
-       "name": "Agnidus Agate Gemstone",
-       "image": "images/Materials/Character Materials/Ascension/Item_Agnidus_Agate_Gemstone.png",
+       "name": "Nagadus Emerald Gemstone",
+       "image": "images/Materials/Character Materials/Ascension/Item_Nagadus_Emerald_Gemstone.png",
        "amount": 6
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Majestic Hooked Beak",
+       "image": "images/Materials/Character Materials/Ascension/Item_Majestic_Hooked_Beak.png",
        "amount": 20
      },
      "localSpeciality": {
-       "name": "Small Lamp Grass",
-       "image": "images/Materials/Local Specialties/Sumeru/Item_Small_Lamp_Grass.png",
+       "name": "Rukkhashava Mushrooms",
+       "image": "images/Materials/Local Specialties/Sumeru/Item_Rukkhashava_Mushrooms.png",
        "amount": 60
      },
      "commonMaterial": {
@@ -638,7 +638,7 @@
   "talentMaterials": [
     {
       "level": "1 → 2",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Teachings_of_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Praxis/Item_Teachings_of_Praxis.png",
       "talentBookAmount": 3,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
       "commonMaterialAmount": 6,
@@ -651,7 +651,7 @@
     },
     {
       "level": "2 → 3",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Praxis/Item_Guide_to_Praxis.png",
       "talentBookAmount": 2,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
       "commonMaterialAmount": 3,
@@ -664,7 +664,7 @@
     },
     {
       "level": "3 → 4",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Praxis/Item_Guide_to_Praxis.png",
       "talentBookAmount": 4,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
       "commonMaterialAmount": 4,
@@ -677,7 +677,7 @@
     },
     {
       "level": "4 → 5",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Praxis/Item_Guide_to_Praxis.png",
       "talentBookAmount": 6,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
       "commonMaterialAmount": 6,
@@ -690,7 +690,7 @@
     },
     {
       "level": "5 → 6",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Guide_to_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Praxis/Item_Guide_to_Praxis.png",
       "talentBookAmount": 9,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Sharp_Arrowhead.png",
       "commonMaterialAmount": 9,
@@ -703,11 +703,11 @@
     },
     {
       "level": "6 → 7",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Praxis/Item_Philosophies_of_Praxis.png",
       "talentBookAmount": 4,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
       "commonMaterialAmount": 4,
-      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tears_of_the_Calamitous_God.png",
       "bossMaterialAmount": 1,
       "crownImage": "",
       "crownAmount": "",
@@ -716,11 +716,11 @@
     },
     {
       "level": "7 → 8",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Praxis/Item_Philosophies_of_Praxis.png",
       "talentBookAmount": 6,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
       "commonMaterialAmount": 6,
-      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tears_of_the_Calamitous_God.png",
       "bossMaterialAmount": 1,
       "crownImage": "",
       "crownAmount": "",
@@ -729,11 +729,11 @@
     },
     {
       "level": "8 → 9",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Praxis/Item_Philosophies_of_Praxis.png",
       "talentBookAmount": 12,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
       "commonMaterialAmount": 9,
-      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tears_of_the_Calamitous_God.png",
       "bossMaterialAmount": 2,
       "crownImage": "",
       "crownAmount": "",
@@ -742,11 +742,11 @@
     },
     {
       "level": "9 → 10",
-      "talentBookImage": "images/Materials/Character Materials/Talents/Freedom/Item_Philosophies_of_Freedom.png",
+      "talentBookImage": "images/Materials/Character Materials/Talents/Praxis/Item_Philosophies_of_Praxis.png",
       "talentBookAmount": 16,
       "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Weathered_Arrowhead.png",
       "commonMaterialAmount": 12,
-      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Dvalin's_Sigh.png",
+      "bossMaterialImage": "images/Materials/Character Materials/Talents/Boss Drops/Item_Tears_of_the_Calamitous_God.png",
       "bossMaterialAmount": 2,
       "crownImage": "images/Materials/Character Materials/Talents/Special/Item_Crown_of_Insight.png",
       "crownAmount": 1,
@@ -793,5 +793,7 @@
     }
   ]
 }
+
+
 
 
