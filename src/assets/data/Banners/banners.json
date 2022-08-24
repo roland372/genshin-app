@@ -1,42 +1,51 @@
 {
   "currentBanners": [
     {
-      "name": "Leaves in the Wind",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/22114",
-      "image": "images/Banners/character/Leaves_in_the_Wind_2022-07-13.png",
-      "startDate": "July 13, 2022",
-      "endDate": "August 02, 2022"
+      "name": "Viridescent Vigil",
+      "link": "https://genshin-impact.fandom.com/wiki/Viridescent_Vigil/2022-08-244",
+      "image": "images/Banners/character/Viridescent_Vigil_2022-08-24.png",
+      "startDate": "August 24, 2022",
+      "endDate": "September 9, 2022"
     },
     {
-      "name": "Sparkling Steps",
-      "link": "https://www.hoyolab.com/article/5915988",
-      "image": "images/Banners/character/Sparkling_Steps_2022-07-13.png",
-      "startDate": "July 13, 2022",
-      "endDate": "August 02, 2022"
-    },
-    {
-      "name": "Epitome Invocation",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/22084",
-      "image": "images/Banners/weapon/Epitome_Invocation_2022-07-13.png",
-      "startDate": "July 13, 2022",
-      "endDate": "August 02, 2022"
-    },
-    {
-      "name": "Tapestry of Golden Flames",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/22492",
-      "image": "images/Banners/character/Tapestry_of_Golden_Flames_2022-08-02.png",
-      "startDate": "August 2, 2022",
-      "endDate": "August 23, 2022"
+      "name": "Gentry of Hermitage",
+      "link": "https://genshin-impact.fandom.com/wiki/Gentry_of_Hermitage/2022-08-24",
+      "image": "images/Banners/character/Gentry_of_Hermitage_2022-08-24.png",
+      "startDate": "August 24, 2022",
+      "endDate": "September 9, 2022"
     },
     {
       "name": "Epitome Invocation",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/22500",
-      "image": "images/Banners/weapon/Epitome_Invocation_2022-08-02.png",
-      "startDate": "August 2, 2022",
-      "endDate": "August 23, 2022"
+      "link": "https://genshin-impact.fandom.com/wiki/Epitome_Invocation/2022-08-24",
+      "image": "images/Banners/weapon/Epitome_Invocation_2022-08-24.png",
+      "startDate": "August 24, 2022",
+      "endDate": "September 9, 2022"
     }
   ],
   "pastBanners": {
+    "version 3.0" : [
+      {
+        "name": "Viridescent Vigil",
+        "link": "https://genshin-impact.fandom.com/wiki/Viridescent_Vigil/2022-08-244",
+        "image": "images/Banners/character/Viridescent_Vigil_2022-08-24.png",
+        "startDate": "August 24, 2022",
+        "endDate": "September 9, 2022"
+      },
+      {
+        "name": "Gentry of Hermitage",
+        "link": "https://genshin-impact.fandom.com/wiki/Gentry_of_Hermitage/2022-08-24",
+        "image": "images/Banners/character/Gentry_of_Hermitage_2022-08-24.png",
+        "startDate": "August 24, 2022",
+        "endDate": "September 9, 2022"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin-impact.fandom.com/wiki/Epitome_Invocation/2022-08-24",
+        "image": "images/Banners/weapon/Epitome_Invocation_2022-08-24.png",
+        "startDate": "August 24, 2022",
+        "endDate": "September 9, 2022"
+      }
+    ],
     "version 2.8" : [
       {
         "name": "Leaves in the Wind",
