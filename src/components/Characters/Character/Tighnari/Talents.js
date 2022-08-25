@@ -16,17 +16,30 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack='Perform up to 5 consecutive shots with a bow.'
+				normalAttack='Perform up to 4 consecutive shots with a bow.
+				'
 				chargedAttack={
 					<div>
 						Perform a more precise Aimed Shot with increased DMG.
 						<br />
-						While aiming, flames will accumulate on the arrowhead. A fully
-						charged flaming arrow will deal
-						<b className='text-pyro'> Pyro DMG</b>.
+						While aiming, the power of Dendro will accumulate on the arrowhead
+						before the arrow is fired. Has different effects based on how long
+						the energy has been charged:
+						<ul>
+							<li>
+								Charge Level 1: Tighnari fires a Dendro-infused arrow that deals
+								Dendro DMG.
+							</li>
+							<li>
+								Charge Level 2: Tighnari fires a Wreath Arrow that deals Dendro
+								DMG. Upon hit, the Wreath Arrow will create 4 Clusterbloom
+								Arrows that will track nearby opponents automatically and deal
+								Dendro DMG.
+							</li>
+						</ul>
 					</div>
 				}
-				plungingAttack='Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.'
+				plungingAttack='Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG on impact.'
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>
@@ -35,19 +48,15 @@ const Talents = props => {
 				image={props.elementalSkillImage}
 				description={
 					<div>
-						<b>Barron Bunny</b>
-						<ul>
-							<li>Continuously taunts the enemy, drawing their fire.</li>
-							<li>Baron Bunny's HP scales with Amber's Max HP.</li>
-							<li>
-								When destroyed or when its timer expires, Baron Bunny explodes,
-								dealing
-								<b className='text-pyro'> AoE Pyro DMG</b>.
-							</li>
-						</ul>
-						<b>Hold</b>
-						<div>Adjusts the throwing direction of Baron Bunny.</div>
-						<div>The longer the button is held, the further the throw.</div>
+						Tighnari throws a Vijnana Stormheart ahead of him that deals AoE
+						Dendro DMG and creates a Vijnana-Khanda Field, which summons strange
+						illusions to taunt enemies and draw their fire.
+						<br />
+						<br />
+						Additionally, Tighnari gains the Vijnana Suffusion effect, which
+						will decrease the Wreath Arrow's charging time by 2.4s. This effect
+						will dissipate once the skill duration ends or after Tighnari has
+						fired 3 Wreath Arrows.
 					</div>
 				}
 			>
@@ -57,10 +66,15 @@ const Talents = props => {
 				name={props.data.skillTalents[2].name}
 				image={props.elementalBurstImage}
 				description={
-					<p>
-						Fires of a shower of arrows, dealing continuous
-						<b className='text-pyro'> AoE Pyro DMG</b>.
-					</p>
+					<div>
+						Combines the power of all seeds to fire 6 Tanglevine Shafts that can
+						track opponents and deal Dendro DMG.
+						<br />
+						<br />
+						After they hit, the Tanglevine Shafts will create a secondary wave
+						of Tanglevine Shafts that can also track opponents and deal Dendro
+						DMG on hit.
+					</div>
 				}
 			>
 				<AttributeScaling data={elementalBurst} />
@@ -72,8 +86,8 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 1'
 				description={
 					<div>
-						Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by
-						30%.
+						After Tighnari fires a Wreath Arrow, his Elemental Mastery is
+						increased by 50 for 4s.
 					</div>
 				}
 			/>
@@ -83,7 +97,10 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 4'
 				description={
 					<div>
-						Aimed Shot hits on weak spots increase Base ATK by 15% for 10s.
+						For every point of Elemental Mastery Tighnari possesses, his Charged
+						Attack and Fashioner's Tanglevine Shaft DMG are increased by 0.06%.
+						<br />
+						The maximum DMG Bonus obtainable this way is 60%.
 					</div>
 				}
 			/>
@@ -93,12 +110,8 @@ const Talents = props => {
 				unlocked='Unlocked Automatically'
 				description={
 					<div>
-						<div>
-							Decreases all party members' gliding Stamina Consumption by 20%.
-						</div>
-						<div>
-							The greatest effect out of all Talents of the same type prevails.
-						</div>
+						Displays the location of nearby resources unique to Sumeru on the
+						mini-map.
 					</div>
 				}
 			/>

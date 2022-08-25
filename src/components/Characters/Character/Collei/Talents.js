@@ -16,14 +16,13 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack='Perform up to 5 consecutive shots with a bow.'
+				normalAttack='Perform up to 4 consecutive shots with a bow.'
 				chargedAttack={
 					<div>
-						Perform a more precise Aimed Shot with increased DMG.
+						Performs a more precise Aimed Shot with increased DMG.
 						<br />
-						While aiming, flames will accumulate on the arrowhead. A fully
-						charged flaming arrow will deal
-						<b className='text-pyro'> Pyro DMG</b>.
+						While aiming, Dendro energy will accumulate on the arrowhead. A
+						fully charged arrow will deal Dendro DMG.
 					</div>
 				}
 				plungingAttack='Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.'
@@ -35,19 +34,14 @@ const Talents = props => {
 				image={props.elementalSkillImage}
 				description={
 					<div>
-						<b>Barron Bunny</b>
-						<ul>
-							<li>Continuously taunts the enemy, drawing their fire.</li>
-							<li>Baron Bunny's HP scales with Amber's Max HP.</li>
-							<li>
-								When destroyed or when its timer expires, Baron Bunny explodes,
-								dealing
-								<b className='text-pyro'> AoE Pyro DMG</b>.
-							</li>
-						</ul>
-						<b>Hold</b>
-						<div>Adjusts the throwing direction of Baron Bunny.</div>
-						<div>The longer the button is held, the further the throw.</div>
+						<div>
+							Throws out a Floral Ring that deals 1 instance of Dendro DMG to
+							targets it comes into contact with.
+						</div>
+						<div>
+							The Floral Ring will return after a set time, dealing Dendro DMG
+							once again.
+						</div>
 					</div>
 				}
 			>
@@ -58,8 +52,12 @@ const Talents = props => {
 				image={props.elementalBurstImage}
 				description={
 					<p>
-						Fires of a shower of arrows, dealing continuous
-						<b className='text-pyro'> AoE Pyro DMG</b>.
+						<div>Trusty Cuilein-Anbar comes to save the day!</div>
+						<div>
+							Throws the doll named Cuilein-Anbar, causing an explosion that
+							deals AoE Dendro DMG, creating a Cuilein-Anbar Zone. Cuilein-Anbar
+							will bounce around within this zone, dealing AoE Dendro DMG.
+						</div>
 					</p>
 				}
 			>
@@ -72,8 +70,18 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 1'
 				description={
 					<div>
-						Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by
-						30%.
+						<div>
+							If one of your party members has triggered Burning, Quicken,
+							Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions before
+							the Floral Ring returns, it will grant the character the Sprout
+							effect upon return, which will continuously deal Dendro DMG
+							equivalent to 40% of Collei's ATK to nearby opponents for 3s.
+						</div>
+						<div>
+							If another Sprout effect is triggered during its initial duration,
+							the initial effect will be removed. DMG dealt by Sprout is
+							considered Elemental Skill DMG.
+						</div>
 					</div>
 				}
 			/>
@@ -83,7 +91,12 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 4'
 				description={
 					<div>
-						Aimed Shot hits on weak spots increase Base ATK by 15% for 10s.
+						<div>
+							When a character within the Cuilein-Anbar Zone triggers Burning,
+							Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon
+							reactions, the Zone's duration will be increased by 1s.
+						</div>
+						<div>A single Trump-Card Kitty can be extended by up to 3s.</div>
 					</div>
 				}
 			/>
@@ -94,10 +107,12 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Decreases all party members' gliding Stamina Consumption by 20%.
+							Decreases gliding Stamina consumption for your own party members
+							by 20%.
 						</div>
 						<div>
-							The greatest effect out of all Talents of the same type prevails.
+							Not stackable with Passive Talents that provide the exact same
+							effects.
 						</div>
 					</div>
 				}

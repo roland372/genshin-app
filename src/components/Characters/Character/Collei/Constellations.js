@@ -9,8 +9,7 @@ const Constellations = props => {
 				level='1'
 				image={props.constellation1Image}
 				name={props.data.constellations[0].name}
-				description="Fires 2 arrows per Aimed Shot. The second arrow deals 20% of
-            the first arrow's DMG."
+				description="When in the party and not on the field, Collei's Energy Recharge is increased by 20%."
 			/>
 			<Constellation
 				level='2'
@@ -18,12 +17,26 @@ const Constellations = props => {
 				name={props.data.constellations[1].name}
 				description={
 					<div>
+						<div>The Passive Talent Floral Sidewinder is changed to this:</div>
 						<div>
-							Baron Bunny, new and improved! Hitting Baron Bunny's foot with a
-							fully-charged Aimed Shot manually detonates it.
+							The Floral Ring will grant the character the Sprout effect from
+							Floral Sidewinder upon return, dealing 40% of Collei's ATK as
+							Dendro DMG to nearby opponents for 3s.
 						</div>
 						<div>
-							Explosion via manual detonation deals 200% additional DMG.
+							From the moment of using Floral Brush to the moment when this
+							instance of Sprout effect ends, if any of your party members
+							triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom,
+							or Burgeon reactions, the Sprout effect will be extended by 3s.
+						</div>
+						<div>
+							The Sprout effect can only be extended this way once. If another
+							Sprout effect is triggered during its initial duration, the
+							initial effect will be removed.
+						</div>
+						<div>
+							Requires you to have unlocked the Floral Sidewinder Passive
+							Talent.
 						</div>
 					</div>
 				}
@@ -34,7 +47,7 @@ const Constellations = props => {
 				name={props.data.constellations[2].name}
 				description={
 					<div>
-						<div>Increases the Level of Fiery Rain by 3.</div>
+						<div>Increases the Level of Floral Brush by 3.</div>
 						<div>Maximum upgrade level is 15.</div>
 					</div>
 				}
@@ -43,7 +56,7 @@ const Constellations = props => {
 				level='4'
 				image={props.constellation4Image}
 				name={props.data.constellations[3].name}
-				description="Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge."
+				description="Using Trump-Card Kitty will increase all nearby characters' Elemental Mastery by 60 for 12s (not including Collei herself)."
 			/>
 			<Constellation
 				level='5'
@@ -51,7 +64,7 @@ const Constellations = props => {
 				name={props.data.constellations[4].name}
 				description={
 					<div>
-						<div>Increases the Level of Explosive Puppet by 3.</div>
+						<div>Increases the Level of Trump-Card Kitty by 3.</div>
 						<div>Maximum upgrade level is 15.</div>
 					</div>
 				}
@@ -60,7 +73,18 @@ const Constellations = props => {
 				level='6'
 				image={props.constellation6Image}
 				name={props.data.constellations[5].name}
-				description="Fiery Rain increases all party members' Movement SPD by 15% and ATK by 15% for 10s."
+				description={
+					<div>
+						<div>
+							When the Floral Ring hits, it will create a miniature
+							Cuilein-Anbar that will deal 200% of Collei's ATK as Dendro DMG.
+						</div>
+						<div>
+							Each Floral Brush can only create one such miniature
+							Cuilein-Anbar.
+						</div>
+					</div>
+				}
 			/>
 		</ConstellationsWrapper>
 	);
