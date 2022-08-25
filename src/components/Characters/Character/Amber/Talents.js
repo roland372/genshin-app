@@ -16,7 +16,7 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack='Perform up to 5 consecutive shots with a bow.'
+				normalAttack={<div>Perform up to 5 consecutive shots with a bow.</div>}
 				chargedAttack={
 					<div>
 						Perform a more precise Aimed Shot with increased DMG.
@@ -26,7 +26,12 @@ const Talents = props => {
 						<b className='text-pyro'> Pyro DMG</b>.
 					</div>
 				}
-				plungingAttack='Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.'
+				plungingAttack={
+					<div>
+						Fires off a shower of arrows in mid-air before falling and striking
+						the ground, dealing AoE DMG upon impact.
+					</div>
+				}
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>
@@ -57,10 +62,10 @@ const Talents = props => {
 				name={props.data.skillTalents[2].name}
 				image={props.elementalBurstImage}
 				description={
-					<p>
+					<div>
 						Fires of a shower of arrows, dealing continuous
 						<b className='text-pyro'> AoE Pyro DMG</b>.
-					</p>
+					</div>
 				}
 			>
 				<AttributeScaling data={elementalBurst} />
@@ -93,12 +98,9 @@ const Talents = props => {
 				unlocked='Unlocked Automatically'
 				description={
 					<div>
-						<div>
-							Decreases all party members' gliding Stamina Consumption by 20%.
-						</div>
-						<div>
-							The greatest effect out of all Talents of the same type prevails.
-						</div>
+						Decreases all party members' gliding Stamina Consumption by 20%.
+						<br />
+						The greatest effect out of all Talents of the same type prevails.
 					</div>
 				}
 			/>
