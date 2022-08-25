@@ -16,14 +16,19 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack='Perform up to 5 consecutive strikes.'
+				normalAttack={<div>Perform up to 5 consecutive strikes.</div>}
 				chargedAttack={
 					<div>
 						Drains Stamina over time to perform continuous slashes. At the end
 						of the sequence, perform a more powerful slash.
 					</div>
 				}
-				plungingAttack='Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.'
+				plungingAttack={
+					<div>
+						Plunges from mid-air to strike the ground, damaging opponents along
+						the path and dealing AoE DMG upon impact.
+					</div>
+				}
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>

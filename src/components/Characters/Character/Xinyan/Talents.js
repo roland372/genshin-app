@@ -16,7 +16,7 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack='Performs up to 4 consecutive strikes.'
+				normalAttack={<div>Performs up to 4 consecutive strikes.</div>}
 				chargedAttack={
 					<div>
 						Drains Stamina over time to perform continuous spinning attacks
@@ -25,7 +25,12 @@ const Talents = props => {
 						At the end of the sequence, perform a more powerful slash.
 					</div>
 				}
-				plungingAttack='Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.'
+				plungingAttack={
+					<div>
+						Plunges from mid-air to strike the ground below, damaging opponents
+						along the path and dealing AoE DMG upon impact.
+					</div>
+				}
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>

@@ -16,7 +16,7 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack='Perform up to 5 rapid strikes.'
+				normalAttack={<div>Perform up to 5 rapid strikes.</div>}
 				chargedAttack={
 					<div>
 						Consumes a certain amount of Stamina to unleash 2 rapid sword

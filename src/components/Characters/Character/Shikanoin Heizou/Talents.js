@@ -16,15 +16,25 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack='Performs up to 5 fisticuffs empowered by a mighty wind, dealing Anemo DMG.
-'
+				normalAttack={
+					<div>
+						Performs up to 5 fisticuffs empowered by a mighty wind, dealing
+						Anemo DMG.
+					</div>
+				}
 				chargedAttack={
 					<div>
 						Consumes a set amount of Stamina to perform a sweeping kick, dealing
 						Anemo DMG.
 					</div>
 				}
-				plungingAttack='Calling upon the surging wind, Heizou plunges towards the ground from mid-air, damaging all opponents in his path. Deals AoE Anemo DMG upon impact with the ground.'
+				plungingAttack={
+					<div>
+						Calling upon the surging wind, Heizou plunges towards the ground
+						from mid-air, damaging all opponents in his path. Deals AoE Anemo
+						DMG upon impact with the ground.
+					</div>
+				}
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>

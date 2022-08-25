@@ -16,7 +16,7 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack='Perform up to 4 consecutive shots with a bow.'
+				normalAttack={<div>Perform up to 4 consecutive shots with a bow.</div>}
 				chargedAttack={
 					<div>
 						Perform a more precise Aimed Shot with increased DMG. While aiming,
@@ -28,12 +28,21 @@ const Talents = props => {
 							Yelan will enter a "Breakthrough" state after spending 5s out of
 							combat, which will cause her next Charged Aimed Shot to have 80%
 							decreased charge time, and once charged, she can fire a
-							"Breakthrough Barb" that will deal <b className='text-hydro'> Aoe <b className='text-hydro'> Hydro DMG</b></b> based on Yelan's
-							Max HP.
+							"Breakthrough Barb" that will deal{' '}
+							<b className='text-hydro'>
+								{' '}
+								Aoe <b className='text-hydro'> Hydro DMG</b>
+							</b>{' '}
+							based on Yelan's Max HP.
 						</div>
 					</div>
 				}
-				plungingAttack='Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.'
+				plungingAttack={
+					<div>
+						Fires off a shower of arrows in mid-air before falling and striking
+						the ground, dealing AoE DMG upon impact.
+					</div>
+				}
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>
@@ -48,7 +57,8 @@ const Talents = props => {
 						</div>
 						<div>
 							When this rapid movement ends, the Lifeline will explode, dealing
-							<b className='text-hydro'> Hydro DMG</b> to the marked opponents based on Yelan's Max HP.
+							<b className='text-hydro'> Hydro DMG</b> to the marked opponents
+							based on Yelan's Max HP.
 						</div>
 						<br />
 						<b>Press</b>
@@ -76,15 +86,19 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Deals <b className='text-hydro'> Aoe <b className='text-hydro'> Hydro DMG</b></b> and creates an "Exquisite Throw," which aids
-							her in battle.
+							Deals{' '}
+							<b className='text-hydro'>
+								{' '}
+								Aoe <b className='text-hydro'> Hydro DMG</b>
+							</b>{' '}
+							and creates an "Exquisite Throw," which aids her in battle.
 						</div>
 						<br />
 						<b>Exquisite Throw</b>
 						<div>
 							This follows the character around and will initiate a coordinated
-							attack under the following circumstances, dealing <b className='text-hydro'> Hydro DMG</b> based
-							on Yelan's Max HP:
+							attack under the following circumstances, dealing{' '}
+							<b className='text-hydro'> Hydro DMG</b> based on Yelan's Max HP:
 						</div>
 						<ul>
 							<li>
@@ -143,5 +157,3 @@ const Talents = props => {
 };
 
 export default Talents;
-
-

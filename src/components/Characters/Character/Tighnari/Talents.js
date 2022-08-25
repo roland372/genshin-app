@@ -16,8 +16,7 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack='Perform up to 4 consecutive shots with a bow.
-				'
+				normalAttack={<div>Perform up to 4 consecutive shots with a bow.</div>}
 				chargedAttack={
 					<div>
 						Perform a more precise Aimed Shot with increased DMG.
@@ -39,7 +38,12 @@ const Talents = props => {
 						</ul>
 					</div>
 				}
-				plungingAttack='Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG on impact.'
+				plungingAttack={
+					<div>
+						Fires off a shower of arrows in mid-air before falling and striking
+						the ground, dealing AoE DMG on impact.
+					</div>
+				}
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>

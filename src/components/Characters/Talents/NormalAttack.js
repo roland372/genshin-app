@@ -21,6 +21,7 @@ const Talent = props => {
 				<b>Charged Attack</b>
 				<br />
 				{props.chargedAttack}
+				<br />
 				<b>Plunging Attack</b>
 				<br />
 				{props.plungingAttack}

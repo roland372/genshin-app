@@ -44,7 +44,12 @@ const Talents = props => {
 						perform a single Saichimonji Slash.
 					</div>
 				}
-				plungingAttack='Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.'
+				plungingAttack={
+					<div>
+						Plunges from mid-air to strike the ground, damaging opponents along
+						the path and dealing AoE DMG upon impact.
+					</div>
+				}
 			>
 				<AttributeScaling data={normalAttack} />
 			</NormalAttack>
