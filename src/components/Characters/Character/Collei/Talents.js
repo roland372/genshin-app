@@ -22,7 +22,8 @@ const Talents = props => {
 						Performs a more precise Aimed Shot with increased DMG.
 						<br />
 						While aiming, Dendro energy will accumulate on the arrowhead. A
-						fully charged arrow will deal Dendro DMG.
+						fully charged arrow will deal{' '}
+						<b className='text-dendro'> Dendro DMG</b>.
 					</div>
 				}
 				plungingAttack={
@@ -40,11 +41,13 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Throws out a Floral Ring that deals 1 instance of Dendro DMG to
-							targets it comes into contact with.
+							Throws out a Floral Ring that deals 1 instance of{' '}
+							<b className='text-dendro'> Dendro DMG</b> to targets it comes
+							into contact with.
 						</div>
 						<div>
-							The Floral Ring will return after a set time, dealing Dendro DMG
+							The Floral Ring will return after a set time, dealing{' '}
+							<b className='text-dendro'> Dendro DMG </b>
 							once again.
 						</div>
 					</div>
@@ -60,8 +63,18 @@ const Talents = props => {
 						<div>Trusty Cuilein-Anbar comes to save the day!</div>
 						<div>
 							Throws the doll named Cuilein-Anbar, causing an explosion that
-							deals AoE Dendro DMG, creating a Cuilein-Anbar Zone. Cuilein-Anbar
-							will bounce around within this zone, dealing AoE Dendro DMG.
+							deals{' '}
+							<b className='text-dendro'>
+								{' '}
+								AoE <b className='text-dendro'> Dendro DMG</b>
+							</b>
+							, creating a Cuilein-Anbar Zone. Cuilein-Anbar will bounce around
+							within this zone, dealing{' '}
+							<b className='text-dendro'>
+								{' '}
+								AoE <b className='text-dendro'> Dendro DMG</b>
+							</b>
+							.
 						</div>
 					</p>
 				}
@@ -79,7 +92,8 @@ const Talents = props => {
 							If one of your party members has triggered Burning, Quicken,
 							Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions before
 							the Floral Ring returns, it will grant the character the Sprout
-							effect upon return, which will continuously deal Dendro DMG
+							effect upon return, which will continuously deal{' '}
+							<b className='text-dendro'> Dendro DMG </b>
 							equivalent to 40% of Collei's ATK to nearby opponents for 3s.
 						</div>
 						<div>

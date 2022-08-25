@@ -21,7 +21,7 @@ const Constellations = props => {
 						<div>
 							The Floral Ring will grant the character the Sprout effect from
 							Floral Sidewinder upon return, dealing 40% of Collei's ATK as
-							Dendro DMG to nearby opponents for 3s.
+							<b className='text-dendro'> Dendro DMG</b> to nearby opponents for 3s.
 						</div>
 						<div>
 							From the moment of using Floral Brush to the moment when this
@@ -77,7 +77,7 @@ const Constellations = props => {
 					<div>
 						<div>
 							When the Floral Ring hits, it will create a miniature
-							Cuilein-Anbar that will deal 200% of Collei's ATK as Dendro DMG.
+							Cuilein-Anbar that will deal 200% of Collei's ATK as <b className='text-dendro'> Dendro DMG</b>.
 						</div>
 						<div>
 							Each Floral Brush can only create one such miniature
@@ -91,3 +91,6 @@ const Constellations = props => {
 };
 
 export default Constellations;
+
+
+

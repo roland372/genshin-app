@@ -19,20 +19,21 @@ const Talents = props => {
 				normalAttack={
 					<div>
 						Performs up to 5 fisticuffs empowered by a mighty wind, dealing
-						Anemo DMG.
+						<b className='text-anemo'> Anemo DMG</b>.
 					</div>
 				}
 				chargedAttack={
 					<div>
 						Consumes a set amount of Stamina to perform a sweeping kick, dealing
-						Anemo DMG.
+						<b className='text-anemo'> Anemo DMG</b>.
 					</div>
 				}
 				plungingAttack={
 					<div>
 						Calling upon the surging wind, Heizou plunges towards the ground
-						from mid-air, damaging all opponents in his path. Deals AoE Anemo
-						DMG upon impact with the ground.
+						from mid-air, damaging all opponents in his path. Deals{' '}
+						<b className='text-anemo'> AoE Anemo DMG</b> upon impact with the
+						ground.
 					</div>
 				}
 			>
@@ -46,7 +47,7 @@ const Talents = props => {
 						<b>Press</b>
 						<br />
 						Wields the swift winds to launch a Heartstopper Strike that deals
-						Anemo DMG.
+						<b className='text-anemo'> Anemo DMG</b>.
 						<br />
 						<br />
 						<b>Hold</b>
@@ -54,10 +55,12 @@ const Talents = props => {
 						Charges energy to unleash an even stronger blow. He will obtain the
 						Declension effect while charging, which will increase the power of
 						the Heartstopper Strike. When the skill button is released or the
-						skill duration ends, he will strike forward, dealing Anemo DMG.
+						skill duration ends, he will strike forward, dealing{' '}
+						<b className='text-anemo'> Anemo DMG</b>.
 						<br />
 						<br />
 						<b>Declension</b>
+						<br />
 						Increases the power of the next Heartstopper Strike. Max 4 stacks.
 						When you possess 4 Declension stacks, the Conviction effect will be
 						produced, which will cause the next Heartstopper Strike to be even
@@ -75,13 +78,21 @@ const Talents = props => {
 						Leaps into the air and uses the Fudou Style Vacuum Slugger and kicks
 						his opponent. The Vacuum Slugger will explode upon hit and create an
 						Arresting Windtunnel that pulls in nearby objects and opponents,
-						dealing AoE Anemo DMG.
+						dealing{' '}
+						<b className='text-anemo'>
+							{' '}
+							Aoe <b className='text-anemo'> Anemo DMG</b>
+						</b>
+						.
 						<br />
 						<br />
-						When Fudou Style Vacuum Slugger hits enemies affected by Hydro,
-						Pyro, Cryo or Electro, it afflicts them with Windmuster Iris.
-						Moments later, Windmuster Iris explodes and dissipates, dealing AoE
-						DMG of the corresponding elemental type.
+						When Fudou Style Vacuum Slugger hits enemies affected by{' '}
+						<b className='text-hydro'> Hydro</b>,{' '}
+						<b className='text-pyro'> Pyro</b>,{' '}
+						<b className='text-cryo'> Cryo</b> or{' '}
+						<b className='text-electro'> Electro</b>, it afflicts them with
+						Windmuster Iris. Moments later, Windmuster Iris explodes and
+						dissipates, dealing AoE DMG of the corresponding elemental type.
 						<br />
 						<br />
 						Fudou Style Vacuum Slugger can afflict a maximum of four enemies

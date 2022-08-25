@@ -21,19 +21,24 @@ const Talents = props => {
 					<div>
 						Perform a more precise Aimed Shot with increased DMG.
 						<br />
-						While aiming, the power of Dendro will accumulate on the arrowhead
-						before the arrow is fired. Has different effects based on how long
-						the energy has been charged:
+						While aiming, the power of <b className='text-dendro'>
+							{' '}
+							Dendro
+						</b>{' '}
+						will accumulate on the arrowhead before the arrow is fired. Has
+						different effects based on how long the energy has been charged:
 						<ul>
 							<li>
-								Charge Level 1: Tighnari fires a Dendro-infused arrow that deals
-								Dendro DMG.
+								Charge Level 1: Tighnari fires a{' '}
+								<b className='text-dendro'> Dendro-infused</b> arrow that deals
+								<b className='text-dendro'> Dendro</b> DMG.
 							</li>
 							<li>
-								Charge Level 2: Tighnari fires a Wreath Arrow that deals Dendro
-								DMG. Upon hit, the Wreath Arrow will create 4 Clusterbloom
-								Arrows that will track nearby opponents automatically and deal
-								Dendro DMG.
+								Charge Level 2: Tighnari fires a Wreath Arrow that deals{' '}
+								<b className='text-dendro'> Dendro DMG</b>. Upon hit, the Wreath
+								Arrow will create 4 Clusterbloom Arrows that will track nearby
+								opponents automatically and deal
+								<b className='text-dendro'> Dendro DMG</b>.
 							</li>
 						</ul>
 					</div>
@@ -53,8 +58,9 @@ const Talents = props => {
 				description={
 					<div>
 						Tighnari throws a Vijnana Stormheart ahead of him that deals AoE
-						Dendro DMG and creates a Vijnana-Khanda Field, which summons strange
-						illusions to taunt enemies and draw their fire.
+						<b className='text-dendro'> Dendro DMG</b> and creates a
+						Vijnana-Khanda Field, which summons strange illusions to taunt
+						enemies and draw their fire.
 						<br />
 						<br />
 						Additionally, Tighnari gains the Vijnana Suffusion effect, which
@@ -72,12 +78,14 @@ const Talents = props => {
 				description={
 					<div>
 						Combines the power of all seeds to fire 6 Tanglevine Shafts that can
-						track opponents and deal Dendro DMG.
+						track opponents and deal <b className='text-dendro'> Dendro DMG</b>{' '}
+						.
 						<br />
 						<br />
 						After they hit, the Tanglevine Shafts will create a secondary wave
-						of Tanglevine Shafts that can also track opponents and deal Dendro
-						DMG on hit.
+						of Tanglevine Shafts that can also track opponents and deal{' '}
+						<b className='text-dendro'> Dendro DMG </b>
+						on hit.
 					</div>
 				}
 			>
