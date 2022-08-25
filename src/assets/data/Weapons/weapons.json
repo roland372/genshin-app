@@ -1,271 +1,70 @@
 {
   "weapons": [
-    {
-      "image": "/images/Weapons/Swords/Weapon_Mistsplitter_Reforged_2nd.png",
-      "name": "Mistsplitter Reforged",
-      "type": "sword",
-      "rarity": 5,
-      "baseAtk": 48,
-      "maxAtk": 674,
-      "secondStatType": "CRIT DMG",
-      "secondStatMin": 9.6,
-      "secondStatMax": 44.1,
-      "description": "Mistsplitter's Edge\n Gain a 12~24% Elemental DMG Bonus for every element and receive the might of Mistsplitter's Emblem. At stack levels 1/2/3, Mistsplitter's Emblem provides a 8/16/28~16/32/56% Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
-      "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Coral_Branch_of_a_Distant_Sea.png",
-      "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Chaos_Gear.png",
+  {
+    "image": "/images/Weapons/Swords/Weapon_Haran_Geppaku_Futsu_2nd.png",
+    "name": "Haran Geppaku Futsu",
+    "type": "sword",
+    "rarity": 5,
+    "baseAtk": 46,
+    "maxAtk":608,
+    "secondStatType": "CRIT Rate",
+    "secondStatMin": 7.2,
+    "secondStatMax": 33.1,
+    "description": "Honed Flow\n Obtain 12~24% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by 20~40% for 8s.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Narukami's_Wisdom.png",
+      "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Gloomy_Statuette.png",
       "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
-      "stats": [
-      {
-        "LVL": 1,
-        "Base ATK": 48,
-        "Ascension Stat": "9.60%"
-      },
-      {
-        "LVL": 5,
-        "Base ATK": 69,
-        "Ascension Stat": "11.20%"
-      },
-      {
-        "LVL": 10,
-        "Base ATK": 92,
-        "Ascension Stat": "13.10%"
-      },
-      {
-        "LVL": 15,
-        "Base ATK": 115,
-        "Ascension Stat": "15%"
-      },
-      {
-        "LVL": 20,
-        "Base ATK": 133,
-        "Ascension Stat": "17%"
-      },
-      {
-        "LVL": 20,
-        "Base ATK": 164,
-        "Ascension Stat": "17%"
-      },
-      {
-        "LVL": 25,
-        "Base ATK": 188,
-        "Ascension Stat": "18.90%"
-      },
-      {
-        "LVL": 30,
-        "Base ATK": 212,
-        "Ascension Stat": "20.80%"
-      },
-      {
-        "LVL": 35,
-        "Base ATK": 236,
-        "Ascension Stat": "22.80%"
-      },
-      {
-        "LVL": 40,
-        "Base ATK": 261,
-        "Ascension Stat": "24.70%"
-      },
-      {
-        "LVL": 40,
-        "Base ATK": 292,
-        "Ascension Stat": "24.70%"
-      },
-      {
-        "LVL": 45,
-        "Base ATK": 316,
-        "Ascension Stat": "26.70%"
-      },
-      {
-        "LVL": 50,
-        "Base ATK": 341,
-        "Ascension Stat": "28.60%"
-      },
-      {
-        "LVL": 50,
-        "Base ATK": 373,
-        "Ascension Stat": "28.60%"
-      },
-      {
-        "LVL": 55,
-        "Base ATK": 398,
-        "Ascension Stat": "30.50%"
-      },
-      {
-        "LVL": 60,
-        "Base ATK": 423,
-        "Ascension Stat": "32.50%"
-      },
-      {
-        "LVL": 60,
-        "Base ATK": 455,
-        "Ascension Stat": "32.50%"
-      },
-      {
-        "LVL": 65,
-        "Base ATK": 480,
-        "Ascension Stat": "34.40%"
-      },
-      {
-        "LVL": 70,
-        "Base ATK": 506,
-        "Ascension Stat": "36.30%"
-      },
-      {
-        "LVL": 70,
-        "Base ATK": 537,
-        "Ascension Stat": "36.30%"
-      },
-      {
-        "LVL": 75,
-        "Base ATK": 563,
-        "Ascension Stat": "38.30%"
-      },
-      {
-        "LVL": 80,
-        "Base ATK": 590,
-        "Ascension Stat": "40.20%"
-      },
-      {
-        "LVL": 80,
-        "Base ATK": 621,
-        "Ascension Stat": "40.20%"
-      },
-      {
-        "LVL": 85,
-        "Base ATK": 648,
-        "Ascension Stat": "42.20%"
-      },
-      {
-        "LVL": 90,
-        "Base ATK": 674,
-        "Ascension Stat": "44.10%"
-      }
-      ],
-      "weaponAscension": [
-      {
-        "ascensionMaterial1": {
-          "name": "Coral Branch of a Distant Sea",
-          "image": "images/Materials/Weapon Materials/Ascension/Item_Coral_Branch_of_a_Distant_Sea.png",
-          "amount": "5"
-        },
-        "ascensionMaterial2": {
-          "name": "Chaos Gear",
-          "image": "images/Materials/Common Ascension Materials/Item_Chaos_Gear.png",
-          "amount": "5"
-        },
-        "ascensionMaterial3": {
-          "name": "Old Handguard",
-          "image": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
-          "amount": "3"
-        },
-        "moraCost": "10,000"
-      },
-      {
-        "ascensionMaterial1": {
-          "name": "Jeweled Branch of a Distant Sea",
-          "image": "images/Materials/Weapon Materials/Ascension/Item_Jeweled_Branch_of_a_Distant_Sea.png",
-          "amount": "5"
-        },
-        "ascensionMaterial2": {
-          "name": "Chaos Gear",
-          "image": "images/Materials/Common Ascension Materials/Item_Chaos_Gear.png",
-          "amount": "18"
-        },
-        "ascensionMaterial3": {
-          "name": "Old Handguard",
-          "image": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
-          "amount": "12"
-        },
-        "moraCost": "20,000"
-      },
-      {
-        "ascensionMaterial1": {
-          "name": "Jeweled Branch of a Distant Sea",
-          "image": "images/Materials/Weapon Materials/Ascension/Item_Jeweled_Branch_of_a_Distant_Sea.png",
-          "amount": "9"
-        },
-        "ascensionMaterial2": {
-          "name": "Chaos Axis",
-          "image": "images/Materials/Common Ascension Materials/Item_Chaos_Axis.png",
-          "amount": "9"
-        },
-        "ascensionMaterial3": {
-          "name": "Kageuchi Handguard",
-          "image": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
-          "amount": "9"
-        },
-        "moraCost": "30,000"
-      },
-      {
-        "ascensionMaterial1": {
-          "name": "Jade Branch of a Distant Sea",
-          "image": "images/Materials/Weapon Materials/Ascension/Item_Jade_Branch_of_a_Distant_Sea.png",
-          "amount": "5"
-        },
-        "ascensionMaterial2": {
-          "name": "Chaos Axis",
-          "image": "images/Materials/Common Ascension Materials/Item_Chaos_Axis.png",
-          "amount": "18"
-        },
-        "ascensionMaterial3": {
-          "name": "Kageuchi Handguard",
-          "image": "images/Materials/Common Ascension Materials/Item_Kageuchi_Handguard.png",
-          "amount": "14"
-        },
-        "moraCost": "45,000"
-      },
-      {
-        "ascensionMaterial1": {
-          "name": "Jade Branch of a Distant Sea",
-          "image": "images/Materials/Weapon Materials/Ascension/Item_Jade_Branch_of_a_Distant_Sea.png",
-          "amount": "9"
-        },
-        "ascensionMaterial2": {
-          "name": "Chaos Oculus",
-          "image": "images/Materials/Common Ascension Materials/Item_Chaos_Oculus.png",
-          "amount": "14"
-        },
-        "ascensionMaterial3": {
-          "name": "Famed Handguard",
-          "image": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
-          "amount": "9"
-        },
-        "moraCost": "55,000"
-      },
-      {
-        "ascensionMaterial1": {
-          "name": "Coral Branch of a Distant Sea",
-          "image": "images/Materials/Weapon Materials/Ascension/Item_Coral_Branch_of_a_Distant_Sea.png",
-          "amount": "6"
-        },
-        "ascensionMaterial2": {
-          "name": "Chaos Oculus",
-          "image": "images/Materials/Common Ascension Materials/Item_Chaos_Oculus.png",
-          "amount": "27"
-        },
-        "ascensionMaterial3": {
-          "name": "Famed Handguard",
-          "image": "images/Materials/Common Ascension Materials/Item_Famed_Handguard.png",
-          "amount": "18"
-        },
-        "moraCost": "65,000"
-      }
-      ]
-    },
-    {
-    "image": "/images/Weapons/Swords/Weapon_Aquila_Favonia_2nd.png",
-    "name": "Aquila Favonia",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
+    "image": "/images/Weapons/Swords/Weapon_Mistsplitter_Reforged_2nd.png",
+    "name": "Mistsplitter Reforged",
     "type": "sword",
     "rarity": 5,
     "baseAtk": 48,
     "maxAtk": 674,
-    "secondStatType": "Physical DMG Bonus",
-    "secondStatMin": "9",
-    "secondStatMax": "41.3",
-    "description": "Falcon's Defiance\n ATK is increased by 20/25/30/35/40%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of the resistance aloft, regenerating HP equal to 100/115/130/145/160% of ATK and dealing 200/230/260/290/320% of ATK as DMG to surrounding enemies. This effect can only occur once every 15s.",
-    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Tile_of_Decarabian's_Tower.png",
-      "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Heavy_Horn.png",
-      "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
+    "secondStatType": "CRIT DMG",
+    "secondStatMin": 9.6,
+    "secondStatMax": 44.1,
+    "description": "Mistsplitter's Edge\n Gain a 12~24% Elemental DMG Bonus for every element and receive the might of Mistsplitter's Emblem. At stack levels 1/2/3, Mistsplitter's Emblem provides a 8/16/28~16/32/56% Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Coral_Branch_of_a_Distant_Sea.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Chaos_Gear.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
+    "image": "/images/Weapons/Swords/Weapon_Freedom-Sworn_2nd.png",
+    "name": "Freedom-Sworn",
+    "type": "sword",
+    "rarity": 5,
+    "baseAtk": 46,
+    "maxAtk":608,
+    "secondStatType": "Elemental Mastery",
+    "secondStatMin": 43,
+    "secondStatMax": 198,
+    "description": "Revolutionary Chorale\n A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by 10~20%. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field.\n When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged, and Plunging Attack DMG by 16~32% and increases ATK by 20~40%. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s.\n Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Fetters_of_the_Dandelion_Gladiator.png",
+      "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Chaos_Device.png",
+      "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
+    "image": "/images/Weapons/Swords/Weapon_Primordial_Jade_Cutter_2nd.png",
+    "name": "Primordial Jade Cutter",
+    "type": "sword",
+    "rarity": 5,
+    "baseAtk": 44,
+    "maxAtk":542,
+    "secondStatType": "CRIT Rate",
+    "secondStatMin": 9.6,
+    "secondStatMax": 44.1,
+    "description": "Protector's Virtue\n HP increased by 20~40%. Additionally, provides an ATK Bonus based on 1.2~2.4% of the wielder's Max HP.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Mist_Veiled_Lead_Elixir.png",
+      "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Mist_Grass_Pollen.png",
+      "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
     "stats": [],
     "weaponAscension": []
   },
@@ -304,53 +103,36 @@
     "weaponAscension": []
   },
   {
-    "image": "/images/Weapons/Swords/Weapon_Freedom-Sworn_2nd.png",
-    "name": "Freedom-Sworn",
+    "image": "/images/Weapons/Swords/Weapon_Aquila_Favonia_2nd.png",
+    "name": "Aquila Favonia",
     "type": "sword",
     "rarity": 5,
-    "baseAtk": 46,
-    "maxAtk":608,
-    "secondStatType": "Elemental Mastery",
-    "secondStatMin": 43,
-    "secondStatMax": 198,
-    "description": "Revolutionary Chorale\n A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by 10~20%. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field.\n When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged, and Plunging Attack DMG by 16~32% and increases ATK by 20~40%. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s.\n Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
-    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Fetters_of_the_Dandelion_Gladiator.png",
-      "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Chaos_Device.png",
-      "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
+    "baseAtk": 48,
+    "maxAtk": 674,
+    "secondStatType": "Physical DMG Bonus",
+    "secondStatMin": "9",
+    "secondStatMax": "41.3",
+    "description": "Falcon's Defiance\n ATK is increased by 20/25/30/35/40%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of the resistance aloft, regenerating HP equal to 100/115/130/145/160% of ATK and dealing 200/230/260/290/320% of ATK as DMG to surrounding enemies. This effect can only occur once every 15s.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Tile_of_Decarabian's_Tower.png",
+      "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Heavy_Horn.png",
+      "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
     "stats": [],
     "weaponAscension": []
   },
   {
-    "image": "/images/Weapons/Swords/Weapon_Haran_Geppaku_Futsu_2nd.png",
-    "name": "Haran Geppaku Futsu",
+    "image": "/images/Weapons/Swords/Weapon_Sapwood_Blade_2nd.png",
+    "name": "Sapwood Blade",
     "type": "sword",
-    "rarity": 5,
-    "baseAtk": 46,
-    "maxAtk":608,
-    "secondStatType": "CRIT Rate",
-    "secondStatMin": 7.2,
-    "secondStatMax": 33.1,
-    "description": "Honed Flow\n Obtain 12~24% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by 20~40% for 8s.",
-    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Narukami's_Wisdom.png",
-      "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Gloomy_Statuette.png",
-      "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
-    "stats": [],
-    "weaponAscension": []
-  },
-  {
-    "image": "/images/Weapons/Swords/Weapon_Primordial_Jade_Cutter_2nd.png",
-    "name": "Primordial Jade Cutter",
-    "type": "sword",
-    "rarity": 5,
+    "rarity": 4,
     "baseAtk": 44,
-    "maxAtk":542,
-    "secondStatType": "CRIT Rate",
-    "secondStatMin": 9.6,
-    "secondStatMax": 44.1,
-    "description": "Protector's Virtue\n HP increased by 20~40%. Additionally, provides an ATK Bonus based on 1.2~2.4% of the wielder's Max HP.",
-    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Mist_Veiled_Lead_Elixir.png",
-      "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Mist_Grass_Pollen.png",
-      "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+    "maxAtk": 565,
+    "secondStatType": "Energy Recharge",
+    "secondStatMin": 6.7,
+    "secondStatMax": 30.6,
+    "description": "Forest Sanctuary\n After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60-120 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Mask_of_the_Wicked_Lieutenant.png",
+      "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Gloomy_Statuette.png",
+      "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Spectral_Husk.png",
     "stats": [],
     "weaponAscension": []
   },
@@ -372,121 +154,19 @@
     "weaponAscension": []
   },
   {
-    "image": "/images/Weapons/Swords/Weapon_The_Flute_2nd.png",
-    "name": "The Flute",
-    "type": "sword",
-    "rarity": 4,
-    "baseAtk": 42,
-    "maxAtk": 510,
-    "secondStatType": "ATK",
-    "secondStatMin": 9,
-    "secondStatMax": 41.3,
-    "description": "Chord\n Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals 100~200% ATK DMG to surrounding enemies. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
-    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Boreal_Wolf's_Milk_Tooth.png",
-      "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Dead_Ley_Line_Branch.png",
-      "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
-    "stats": [],
-    "weaponAscension": []
-  },
-  {
-    "image": "/images/Weapons/Swords/Weapon_The_Black_Sword_2nd.png",
-    "name": "The Black Sword",
-    "type": "sword",
-    "rarity": 4,
-    "baseAtk": 42,
-    "maxAtk": 510,
-    "secondStatType": "CRIT Rate",
-    "secondStatMin": 6,
-    "secondStatMax": 27.6,
-    "description": "Justice\n Increases DMG dealt by Normal and Charged Attacks by 20~40%. Additionally, regenerates 60~100% of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
-    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Boreal_Wolf's_Milk_Tooth.png",
-    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Dead_Ley_Line_Branch.png",
-    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
-    "stats": [],
-    "weaponAscension": []
-  },
-  {
-    "image": "/images/Weapons/Swords/Weapon_The_Alley_Flash_2nd.png",
-    "name": "The Alley Flash",
-    "type": "sword",
-    "rarity": 4,
-    "baseAtk": 45,
-    "maxAtk": 620,
-    "secondStatType": "Elemental Mastery",
-    "secondStatMin": 12,
-    "secondStatMax": 55,
-    "description": "Itinerant Hero\n Increases DMG dealt by the character equipping this weapon by 12~24%. Taking DMG disables this effect for 5s.",
-    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Tile_of_Decarabian's_Tower.png",
-    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Heavy_Horn.png",
-    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
-    "stats": [],
-    "weaponAscension": []
-  },
-  {
-    "image": "/images/Weapons/Swords/Weapon_Sword_of_Descension_2nd.png",
-    "name": "Sword of Descension",
-    "type": "sword",
-    "rarity": 4,
-    "baseAtk": 39,
-    "maxAtk": 440,
-    "secondStatType": "ATK",
-    "secondStatMin": 7.7,
-    "secondStatMax": 35.2,
-    "description": "Descension\n Effective only on the following platform: \"PlayStation Network\"\n Hitting enemies with Normal or Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66.",
-    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Boreal_Wolf's_Milk_Tooth.png",
-    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Dead_Ley_Line_Branch.png",
-    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
-    "stats": [],
-    "weaponAscension": []
-  },
-  {
-    "image": "/images/Weapons/Swords/Weapon_Sacrificial_Sword_2nd.png",
-    "name": "Sacrificial Sword",
+    "image": "/images/Weapons/Swords/Weapon_Cinnabar_Spindle_2nd.png",
+    "name": "Cinnabar Spindle",
     "type": "sword",
     "rarity": 4,
     "baseAtk": 41,
     "maxAtk": 454,
-    "secondStatType": "Energy Recharge",
-    "secondStatMin": 13.3,
-    "secondStatMax": 61.3,
-    "description": "Composed\n After dealing damage to an opponent with an Elemental Skill, the skill has a 40~80% chance to end its own CD. Can only occur once every 30~16s.",
-    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Fetters_of_the_Dandelion_Gladiator.png",
-    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Chaos_Device.png",
-    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
-    "stats": [],
-    "weaponAscension": []
-  },
-  {
-    "image": "/images/Weapons/Swords/Weapon_Royal_Longsword_2nd.png",
-    "name": "Royal Longsword",
-    "type": "sword",
-    "rarity": 4,
-    "baseAtk": 42,
-    "maxAtk": 510,
-    "secondStatType": "ATK",
-    "secondStatMin": 9,
-    "secondStatMax": 41.3,
-    "description": "Focus\n Upon dealing damage to an opponent, increases CRIT Rate by 8~16%. Max 5 stacks. A CRIT hit removes all existing stacks.",
+    "secondStatType": "DEF",
+    "secondStatMin": 15,
+    "secondStatMax": 69.0,
+    "description": "Spotless Heart\n Elemental Skill DMG is increased by 40~80% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
     "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Tile_of_Decarabian's_Tower.png",
-    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Heavy_Horn.png",
-    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
-    "stats": [],
-    "weaponAscension": []
-  },
-  {
-    "image": "/images/Weapons/Swords/Weapon_Prototype_Rancour_2nd.png",
-    "name": "Prototype Rancour",
-    "type": "sword",
-    "rarity": 4,
-    "baseAtk": 44,
-    "maxAtk": 565,
-    "secondStatType": "Physical DMG Bonus",
-    "secondStatMin": 7.5,
-    "secondStatMax": 34.5,
-    "description": "Smashed Stone\n On hit, Normal or Charged Attacks increase ATK and DEF by 4~8% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
-    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Mist_Veiled_Lead_Elixir.png",
-    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Mist_Grass_Pollen.png",
-    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Recruit's_Insignia.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Chaos_Device.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
     "stats": [],
     "weaponAscension": []
   },
@@ -508,40 +188,6 @@
     "weaponAscension": []
   },
   {
-    "image": "/images/Weapons/Swords/Weapon_Lion's_Roar_2nd.png",
-    "name": "Lion's Roar",
-    "type": "sword",
-    "rarity": 4,
-    "baseAtk": 42,
-    "maxAtk": 510,
-    "secondStatType": "ATK",
-    "secondStatMin": 9,
-    "secondStatMax": 41.3,
-    "description": "Bane of Fire and Thunder\n Increases DMG against enemies affected by Pyro or Electro by 20~36%.",
-    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Luminous_Sands_from_Guyun.png",
-    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Inspector's_Sacrificial_Knife.png",
-    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
-    "stats": [],
-    "weaponAscension": []
-  },
-  {
-    "image": "/images/Weapons/Swords/Weapon_Iron_Sting_2nd.png",
-    "name": "Iron Sting",
-    "type": "sword",
-    "rarity": 4,
-    "baseAtk": 42,
-    "maxAtk": 510,
-    "secondStatType": "Elemental Mastery",
-    "secondStatMin": 36,
-    "secondStatMax": 165,
-    "description": "Infusion Stinger\n Dealing Elemental DMG increases all DMG by 6~12% for 6s. Max 2 stacks. Can only occur once every 1s.",
-    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Grain_of_Aerosiderite.png",
-    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Fragile_Bone_Shard.png",
-    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
-    "stats": [],
-    "weaponAscension": []
-  },
-  {
     "image": "/images/Weapons/Swords/Weapon_Festering_Desire_2nd.png",
     "name": "Festering Desire",
     "type": "sword",
@@ -559,36 +205,53 @@
     "weaponAscension": []
   },
   {
-    "image": "/images/Weapons/Swords/Weapon_Favonius_Sword_2nd.png",
-    "name": "Favonius Sword",
+    "image": "/images/Weapons/Swords/Weapon_Sword_of_Descension_2nd.png",
+    "name": "Sword of Descension",
     "type": "sword",
     "rarity": 4,
-    "baseAtk": 41,
-    "maxAtk": 454,
-    "secondStatType": "Energy Recharge",
-    "secondStatMin": 13.3,
-    "secondStatMax": 61.3,
-    "description": "Windfall\n CRIT hits have a 60~100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12~6s.",
-    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Tile_of_Decarabian's_Tower.png",
-    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Heavy_Horn.png",
-    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
+    "baseAtk": 39,
+    "maxAtk": 440,
+    "secondStatType": "ATK",
+    "secondStatMin": 7.7,
+    "secondStatMax": 35.2,
+    "description": "Descension\n Effective only on the following platform: \"PlayStation Network\"\n Hitting enemies with Normal or Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Boreal_Wolf's_Milk_Tooth.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Dead_Ley_Line_Branch.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
     "stats": [],
     "weaponAscension": []
   },
   {
-    "image": "/images/Weapons/Swords/Weapon_Cinnabar_Spindle_2nd.png",
-    "name": "Cinnabar Spindle",
+    "image": "/images/Weapons/Swords/Weapon_The_Alley_Flash_2nd.png",
+    "name": "The Alley Flash",
     "type": "sword",
     "rarity": 4,
-    "baseAtk": 41,
-    "maxAtk": 454,
-    "secondStatType": "DEF",
-    "secondStatMin": 15,
-    "secondStatMax": 69.0,
-    "description": "Spotless Heart\n Elemental Skill DMG is increased by 40~80% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+    "baseAtk": 45,
+    "maxAtk": 620,
+    "secondStatType": "Elemental Mastery",
+    "secondStatMin": 12,
+    "secondStatMax": 55,
+    "description": "Itinerant Hero\n Increases DMG dealt by the character equipping this weapon by 12~24%. Taking DMG disables this effect for 5s.",
     "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Tile_of_Decarabian's_Tower.png",
-    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Chaos_Device.png",
-    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Heavy_Horn.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
+    "image": "/images/Weapons/Swords/Weapon_The_Black_Sword_2nd.png",
+    "name": "The Black Sword",
+    "type": "sword",
+    "rarity": 4,
+    "baseAtk": 42,
+    "maxAtk": 510,
+    "secondStatType": "CRIT Rate",
+    "secondStatMin": 6,
+    "secondStatMax": 27.6,
+    "description": "Justice\n Increases DMG dealt by Normal and Charged Attacks by 20~40%. Additionally, regenerates 60~100% of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Boreal_Wolf's_Milk_Tooth.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Dead_Ley_Line_Branch.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
     "stats": [],
     "weaponAscension": []
   },
@@ -610,36 +273,121 @@
     "weaponAscension": []
   },
   {
-    "image": "/images/Weapons/Swords/Weapon_Harbinger_of_Dawn_2nd.png",
-    "name": "Harbinger of Dawn",
+    "image": "/images/Weapons/Swords/Weapon_Iron_Sting_2nd.png",
+    "name": "Iron Sting",
     "type": "sword",
-    "rarity": 3,
-    "baseAtk": 39,
-    "maxAtk": 401,
-    "secondStatType": "CRIT DMG",
-    "secondStatMin": 10.2,
-    "secondStatMax": 46.9,
-    "description": "Vigorous\n When HP is above 90%, increases CRIT Rate by 14~28%.",
-    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Boreal_Wolf's_Milk_Tooth.png",
-    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Dead_Ley_Line_Branch.png",
-    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+    "rarity": 4,
+    "baseAtk": 42,
+    "maxAtk": 510,
+    "secondStatType": "Elemental Mastery",
+    "secondStatMin": 36,
+    "secondStatMax": 165,
+    "description": "Infusion Stinger\n Dealing Elemental DMG increases all DMG by 6~12% for 6s. Max 2 stacks. Can only occur once every 1s.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Grain_of_Aerosiderite.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Fragile_Bone_Shard.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Whopperflower_Nectar.png",
     "stats": [],
     "weaponAscension": []
   },
   {
-    "image": "/images/Weapons/Swords/Weapon_Fillet_Blade_2nd.png",
-    "name": "Fillet Blade",
+    "image": "/images/Weapons/Swords/Weapon_Prototype_Rancour_2nd.png",
+    "name": "Prototype Rancour",
     "type": "sword",
-    "rarity": 3,
-    "baseAtk": 39,
-    "maxAtk": 401,
-    "secondStatType": "ATK",
-    "secondStatMin": 7.7,
-    "secondStatMax": 35.2,
-    "description": "Gash\n On hit, has 50% chance to deal 240~400% ATK DMG to a single enemy. Can only occur once every 15~11s.",
+    "rarity": 4,
+    "baseAtk": 44,
+    "maxAtk": 565,
+    "secondStatType": "Physical DMG Bonus",
+    "secondStatMin": 7.5,
+    "secondStatMax": 34.5,
+    "description": "Smashed Stone\n On hit, Normal or Charged Attacks increase ATK and DEF by 4~8% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
     "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Mist_Veiled_Lead_Elixir.png",
     "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Mist_Grass_Pollen.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Recruit's_Insignia.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
+    "image": "/images/Weapons/Swords/Weapon_Lion's_Roar_2nd.png",
+    "name": "Lion's Roar",
+    "type": "sword",
+    "rarity": 4,
+    "baseAtk": 42,
+    "maxAtk": 510,
+    "secondStatType": "ATK",
+    "secondStatMin": 9,
+    "secondStatMax": 41.3,
+    "description": "Bane of Fire and Thunder\n Increases DMG against enemies affected by Pyro or Electro by 20~36%.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Luminous_Sands_from_Guyun.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Inspector's_Sacrificial_Knife.png",
     "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
+    "image": "/images/Weapons/Swords/Weapon_Royal_Longsword_2nd.png",
+    "name": "Royal Longsword",
+    "type": "sword",
+    "rarity": 4,
+    "baseAtk": 42,
+    "maxAtk": 510,
+    "secondStatType": "ATK",
+    "secondStatMin": 9,
+    "secondStatMax": 41.3,
+    "description": "Focus\n Upon dealing damage to an opponent, increases CRIT Rate by 8~16%. Max 5 stacks. A CRIT hit removes all existing stacks.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Tile_of_Decarabian's_Tower.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Heavy_Horn.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
+    "image": "/images/Weapons/Swords/Weapon_Sacrificial_Sword_2nd.png",
+    "name": "Sacrificial Sword",
+    "type": "sword",
+    "rarity": 4,
+    "baseAtk": 41,
+    "maxAtk": 454,
+    "secondStatType": "Energy Recharge",
+    "secondStatMin": 13.3,
+    "secondStatMax": 61.3,
+    "description": "Composed\n After dealing damage to an opponent with an Elemental Skill, the skill has a 40~80% chance to end its own CD. Can only occur once every 30~16s.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Fetters_of_the_Dandelion_Gladiator.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Chaos_Device.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
+    "image": "/images/Weapons/Swords/Weapon_The_Flute_2nd.png",
+    "name": "The Flute",
+    "type": "sword",
+    "rarity": 4,
+    "baseAtk": 42,
+    "maxAtk": 510,
+    "secondStatType": "ATK",
+    "secondStatMin": 9,
+    "secondStatMax": 41.3,
+    "description": "Chord\n Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals 100~200% ATK DMG to surrounding enemies. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Boreal_Wolf's_Milk_Tooth.png",
+      "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Dead_Ley_Line_Branch.png",
+      "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
+    "image": "/images/Weapons/Swords/Weapon_Favonius_Sword_2nd.png",
+    "name": "Favonius Sword",
+    "type": "sword",
+    "rarity": 4,
+    "baseAtk": 41,
+    "maxAtk": 454,
+    "secondStatType": "Energy Recharge",
+    "secondStatMin": 13.3,
+    "secondStatMax": 61.3,
+    "description": "Windfall\n CRIT hits have a 60~100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12~6s.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Tile_of_Decarabian's_Tower.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Heavy_Horn.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
     "stats": [],
     "weaponAscension": []
   },
@@ -661,6 +409,23 @@
     "weaponAscension": []
   },
   {
+    "image": "/images/Weapons/Swords/Weapon_Fillet_Blade_2nd.png",
+    "name": "Fillet Blade",
+    "type": "sword",
+    "rarity": 3,
+    "baseAtk": 39,
+    "maxAtk": 401,
+    "secondStatType": "ATK",
+    "secondStatMin": 7.7,
+    "secondStatMax": 35.2,
+    "description": "Gash\n On hit, has 50% chance to deal 240~400% ATK DMG to a single enemy. Can only occur once every 15~11s.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Mist_Veiled_Lead_Elixir.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Mist_Grass_Pollen.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Treasure_Hoarder_Insignia.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
     "image": "/images/Weapons/Swords/Weapon_Dark_Iron_Sword_2nd.png",
     "name": "Dark Iron Sword",
     "type": "sword",
@@ -678,23 +443,6 @@
     "weaponAscension": []
   },
   {
-    "image": "/images/Weapons/Swords/Weapon_Cool_Steel_2nd.png",
-    "name": "Cool Steel",
-    "type": "sword",
-    "rarity": 3,
-    "baseAtk": 39,
-    "maxAtk": 401,
-    "secondStatType": "ATK",
-    "secondStatMin": 7.7,
-    "secondStatMax": 35.2,
-    "description": "Bane of Water and Ice\n Increases DMG against opponents affected by Hydro or Cryo by 12~24%.",
-    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Tile_of_Decarabian's_Tower.png",
-    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Heavy_Horn.png",
-    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
-    "stats": [],
-    "weaponAscension": []
-  },
-  {
     "image": "/images/Weapons/Swords/Weapon_Traveler's_Handy_Sword_2nd.png",
     "name": "Traveler's Handy Sword",
     "type": "sword",
@@ -708,6 +456,40 @@
     "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Fetters_of_the_Dandelion_Gladiator.png",
     "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Chaos_Device.png",
     "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
+    "image": "/images/Weapons/Swords/Weapon_Harbinger_of_Dawn_2nd.png",
+    "name": "Harbinger of Dawn",
+    "type": "sword",
+    "rarity": 3,
+    "baseAtk": 39,
+    "maxAtk": 401,
+    "secondStatType": "CRIT DMG",
+    "secondStatMin": 10.2,
+    "secondStatMax": 46.9,
+    "description": "Vigorous\n When HP is above 90%, increases CRIT Rate by 14~28%.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Boreal_Wolf's_Milk_Tooth.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Dead_Ley_Line_Branch.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
+    "image": "/images/Weapons/Swords/Weapon_Cool_Steel_2nd.png",
+    "name": "Cool Steel",
+    "type": "sword",
+    "rarity": 3,
+    "baseAtk": 39,
+    "maxAtk": 401,
+    "secondStatType": "ATK",
+    "secondStatMin": 7.7,
+    "secondStatMax": 35.2,
+    "description": "Bane of Water and Ice\n Increases DMG against opponents affected by Hydro or Cryo by 12~24%.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Tile_of_Decarabian's_Tower.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Heavy_Horn.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Firm_Arrowhead.png",
     "stats": [],
     "weaponAscension": []
   },
@@ -791,6 +573,23 @@
     "secondStatMax": 88.2,
     "description": "Gokadaiou Otogibanashi\n DEF is increased by 28~56%. Normal and Charged Attack DMG is increased by 40~80% of DEF.",
     "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Narukami's_Wisdom.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Concealed_Claw.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
+    "stats": [],
+    "weaponAscension": []
+  }, 
+  {
+    "image": "/images/Weapons/Claymores/Weapon_Forest_Regalia_2nd.png",
+    "name": "Forest Regalia",
+    "type": "claymore",
+    "rarity": 4,
+    "baseAtk": 44,
+    "maxAtk": 565,
+    "secondStatType": "Energy Recharge",
+    "secondStatMin": 6.7,
+    "secondStatMax": 30.6,
+    "description": "Forest Sanctuary\n After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60-120 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Coral_Branch_of_a_Distant_Sea.png",
     "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Concealed_Claw.png",
     "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Old_Handguard.png",
     "stats": [],
@@ -1222,6 +1021,23 @@
     "weaponAscension": []
   },
   {
+    "image": "/images/Weapons/Polearms/Weapon_Moonpiercer_2nd.png",
+    "name": "Moonpiercer",
+    "type": "polearm",
+    "rarity": 4,
+    "baseAtk": 44,
+    "maxAtk": 565,
+    "secondStatType": "Elemental Mastery",
+    "secondStatMin": 24,
+    "secondStatMax": 110,
+    "description": "Stillwood Moonshadow\n After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 16%-32% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Grain_of_Aerosiderite.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Fragile_Bone_Shard.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Damaged_Mask.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
     "image": "/images/Weapons/Polearms/Weapon_Prototype_Grudge_2nd.png",
     "name": "Prototype Starglitter",
     "type": "polearm",
@@ -1562,6 +1378,23 @@
     "weaponAscension": []
   },
   {
+    "image": "/images/Weapons/Catalysts/Weapon_Fruit_of_Fulfillment_2nd.png",
+    "name": "Fruit of Fulfillment",
+    "type": "catalyst",
+    "rarity": 4,
+    "baseAtk": 42,
+    "maxAtk": 510,
+    "secondStatType": "Energy Recharge",
+    "secondStatMin": 10.0,
+    "secondStatMax": 45.9,
+    "description": "Full Circle\n Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining 24-36 Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Boreal_Wolf's_Milk_Tooth.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Dead_Ley_Line_Branch.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
     "image": "/images/Weapons/Catalysts/Weapon_Wine_and_Song_2nd.png",
     "name": "Wine and Song",
     "type": "catalyst",
@@ -1885,6 +1718,23 @@
     "weaponAscension": []
   },
   {
+    "image": "/images/Weapons/Bows/Weapon_Hunters_Path_2nd.png",
+    "name": "Hunter's Path",
+    "type": "bow",
+    "rarity": 5,
+    "baseAtk": 44,
+    "maxAtk": 542,
+    "secondStatType": "CRIT Rate",
+    "secondStatMin": 9.6,
+    "secondStatMax": 44.1,
+    "description": "At the End of the Beast-Paths\n Gain 12%-24% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by 160%-320% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Luminous_Sands_from_Guyun.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Gloomy_Statuette.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Spectral_Husk.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
     "image": "/images/Weapons/Bows/Weapon_Aqua_Simulacra_2nd.png",
     "name": "Aqua Simulacra",
     "type": "bow",
@@ -1983,6 +1833,40 @@
     "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Fetters_of_the_Dandelion_Gladiator.png",
     "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Chaos_Device.png",
     "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Slime_Condensate.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
+    "image": "/images/Weapons/Bows/Weapon_End_of_the_Line_2nd.png",
+    "name": "End of the Line",
+    "type": "bow",
+    "rarity": 4,
+    "baseAtk": 42,
+    "maxAtk": 510,
+    "secondStatType": "Energy Recharge",
+    "secondStatMin": 10.0,
+    "secondStatMax": 45.9,
+    "description": "Net Snapper\n Triggers the Flowrider effect after using an Elemental Skill, dealing 80%-160% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Grain_of_Aerosiderite.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Inspector's_Sacrificial_Knife.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
+    "stats": [],
+    "weaponAscension": []
+  },
+  {
+    "image": "/images/Weapons/Bows/Weapon_Kings_Squire_2nd.png",
+    "name": "King's Squire",
+    "type": "bow",
+    "rarity": 4,
+    "baseAtk": 41,
+    "maxAtk": 454,
+    "secondStatType": "ATK",
+    "secondStatMin": 12,
+    "secondStatMax": 55.1,
+    "description": "Labyrinth Lord's Instruction\n Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by 60-140  for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 100%-180% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
+    "ascensionMaterial1": "images/Materials/Weapon Materials/Ascension/Item_Grain_of_Aerosiderite.png",
+    "ascensionMaterial2": "images/Materials/Common Ascension Materials/Item_Inspector's_Sacrificial_Knife.png",
+    "ascensionMaterial3": "images/Materials/Common Ascension Materials/Item_Divining_Scroll.png",
     "stats": [],
     "weaponAscension": []
   },
