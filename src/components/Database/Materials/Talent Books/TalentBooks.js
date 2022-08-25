@@ -59,6 +59,23 @@ const TalentBooks = props => {
 					days='Wednesday, Saturday'
 				/>
 			</Table>
+			<Table nation='Sumeru' days='Days'>
+				<TalentBook
+					charactersData={props.charactersData}
+					talentBook='Admonition'
+					days='Monday, Thursday'
+				/>
+				<TalentBook
+					charactersData={props.charactersData}
+					talentBook='Ingenuity'
+					days='Tuesday, Friday'
+				/>
+				<TalentBook
+					charactersData={props.charactersData}
+					talentBook='Praxis'
+					days='Wednesday, Saturday'
+				/>
+			</Table>
 		</CardComponent>
 	);
 };

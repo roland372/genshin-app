@@ -25,6 +25,11 @@ const TalentBooksSunday = props => {
 				/>
 				<TalentBook
 					charactersData={props.charactersData}
+					talentBook='Admonition'
+					days='Steeple of Ignorance'
+				/>
+				<TalentBook
+					charactersData={props.charactersData}
 					talentBook='Resistance'
 					days='Forsaken Rift'
 				/>
@@ -40,6 +45,11 @@ const TalentBooksSunday = props => {
 				/>
 				<TalentBook
 					charactersData={props.charactersData}
+					talentBook='Ingenuity'
+					days='Steeple of Ignorance'
+				/>
+				<TalentBook
+					charactersData={props.charactersData}
 					talentBook='Ballad'
 					days='Forsaken Rift'
 				/>
@@ -52,6 +62,11 @@ const TalentBooksSunday = props => {
 					charactersData={props.charactersData}
 					talentBook='Light'
 					days='Violet Court'
+				/>
+				<TalentBook
+					charactersData={props.charactersData}
+					talentBook='Praxis'
+					days='Steeple of Ignorance'
 				/>
 			</Table>
 		</section>

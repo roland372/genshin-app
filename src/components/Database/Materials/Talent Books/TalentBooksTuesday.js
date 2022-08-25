@@ -23,6 +23,11 @@ const TalentBooksTuesday = props => {
 					talentBook='Elegance'
 					days='Violet Court'
 				/>
+				<TalentBook
+					charactersData={props.charactersData}
+					talentBook='Ingenuity'
+					days='Steeple of Ignorance'
+				/>
 			</Table>
 		</section>
 	);
