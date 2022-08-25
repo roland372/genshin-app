@@ -25,9 +25,9 @@
   "talentBook":"Admonition",
   "talentBookImage": "/images/Materials/Character Materials/Talents/Admonition/Item_Teachings_of_Admonition.png",
   "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Sliver.png",
-  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Light_Guiding_Tetrahedron.png",
   "ascensionMaterial3": "images/Materials/Local Specialties/sumeru/Item_Redcrest.png",
-  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Faded_Red_Silk.png",
+  "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Faded_Red_Satin.png",
   "ascensionStat": "ATK%",
   "characterAscension":[
    {
@@ -49,8 +49,8 @@
        "amount": 3
      },
      "commonMaterial": {
-       "name": "Faded Red Silk",
-       "image": "images/Materials/Common Ascension Materials/Item_Faded_Red_Silk.png",
+       "name": "Faded Red Satin",
+       "image": "images/Materials/Common Ascension Materials/Item_Faded_Red_Satin.png",
        "amount": 3
      },
      "moraCost": "20,000"
@@ -64,8 +64,8 @@
        "amount": 3
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Light Guiding Tetrahedron",
+       "image": "images/Materials/Character Materials/Ascension/Item_Light_Guiding_Tetrahedron.png",
        "amount": 2
      },
      "localSpeciality": {
@@ -74,8 +74,8 @@
        "amount": 10
      },
      "commonMaterial": {
-       "name": "Faded Red Silk",
-       "image": "images/Materials/Common Ascension Materials/Item_Faded_Red_Silk.png",
+       "name": "Faded Red Satin",
+       "image": "images/Materials/Common Ascension Materials/Item_Faded_Red_Satin.png",
        "amount": 15
      },
      "moraCost": "40,000"
@@ -89,8 +89,8 @@
        "amount": 6
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Light Guiding Tetrahedron",
+       "image": "images/Materials/Character Materials/Ascension/Item_Light_Guiding_Tetrahedron.png",
        "amount": 4
      },
      "localSpeciality": {
@@ -114,8 +114,8 @@
        "amount": 3
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Light Guiding Tetrahedron",
+       "image": "images/Materials/Character Materials/Ascension/Item_Light_Guiding_Tetrahedron.png",
        "amount": 8
      },
      "localSpeciality": {
@@ -139,8 +139,8 @@
        "amount": 6
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Light Guiding Tetrahedron",
+       "image": "images/Materials/Character Materials/Ascension/Item_Light_Guiding_Tetrahedron.png",
        "amount": 12
      },
      "localSpeciality": {
@@ -164,8 +164,8 @@
        "amount": 6
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Light Guiding Tetrahedron",
+       "image": "images/Materials/Character Materials/Ascension/Item_Light_Guiding_Tetrahedron.png",
        "amount": 20
      },
      "localSpeciality": {
@@ -640,7 +640,7 @@
       "level": "1 → 2",
       "talentBookImage": "images/Materials/Character Materials/Talents/Admonition/Item_Teachings_of_Admonition.png",
       "talentBookAmount": 3,
-      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Faded_Red_Silk.png",
+      "commonMaterialImage": "images/Materials/Common Ascension Materials/Item_Faded_Red_Satin.png",
       "commonMaterialAmount": 6,
       "bossMaterialImage": "",
       "bossMaterialAmount": "",
@@ -793,5 +793,9 @@
     }
   ]
 }
+
+
+
+
 
 

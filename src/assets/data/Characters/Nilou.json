@@ -25,7 +25,7 @@
   "talentBook":"Praxis",
   "talentBookImage": "/images/Materials/Character Materials/Talents/Praxis/Item_Teachings_of_Praxis.png",
   "ascensionMaterial1": "images/Materials/Character Materials/Ascension/Item_Varunada_Lazurite_Sliver.png",
-  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+  "ascensionMaterial2": "images/Materials/Character Materials/Ascension/Item_Perpetual_Caliber.png",
   "ascensionMaterial3": "images/Materials/Local Specialties/sumeru/Item_Padisarah.png",
   "ascensionMaterial4": "images/Materials/Common Ascension Materials/Item_Fungal_Spores.png",
   "ascensionStat": "ATK%",
@@ -64,8 +64,8 @@
        "amount": 3
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Perpetual Caliber",
+       "image": "images/Materials/Character Materials/Ascension/Item_Perpetual_Caliber.png",
        "amount": 2
      },
      "localSpeciality": {
@@ -89,8 +89,8 @@
        "amount": 6
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Perpetual Caliber",
+       "image": "images/Materials/Character Materials/Ascension/Item_Perpetual_Caliber.png",
        "amount": 4
      },
      "localSpeciality": {
@@ -114,8 +114,8 @@
        "amount": 3
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Perpetual Caliber",
+       "image": "images/Materials/Character Materials/Ascension/Item_Perpetual_Caliber.png",
        "amount": 8
      },
      "localSpeciality": {
@@ -139,8 +139,8 @@
        "amount": 6
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Perpetual Caliber",
+       "image": "images/Materials/Character Materials/Ascension/Item_Perpetual_Caliber.png",
        "amount": 12
      },
      "localSpeciality": {
@@ -164,8 +164,8 @@
        "amount": 6
      },
      "bossMaterial": {
-       "name": "Everflame Seed",
-       "image": "images/Materials/Character Materials/Ascension/Item_Everflame_Seed.png",
+       "name": "Perpetual Caliber",
+       "image": "images/Materials/Character Materials/Ascension/Item_Perpetual_Caliber.png",
        "amount": 20
      },
      "localSpeciality": {
@@ -793,5 +793,7 @@
     }
   ]
 }
+
+
 
 
