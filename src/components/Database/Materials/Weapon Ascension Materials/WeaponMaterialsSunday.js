@@ -25,6 +25,11 @@ const WeaponMaterialsSunday = props => {
 				/>
 				<WeaponMaterial
 					weaponsData={props.weaponsData}
+					ascensionMaterial='Copper Talisman of the Forest Dew'
+					days='Tower of Abject Pride'
+				/>
+				<WeaponMaterial
+					weaponsData={props.weaponsData}
 					ascensionMaterial="Boreal Wolf's Milk Tooth"
 					days='Cecilia Garden'
 				/>
@@ -40,6 +45,11 @@ const WeaponMaterialsSunday = props => {
 				/>
 				<WeaponMaterial
 					weaponsData={props.weaponsData}
+					ascensionMaterial="Oasis Garden's Reminiscence"
+					days='Tower of Abject Pride'
+				/>
+				<WeaponMaterial
+					weaponsData={props.weaponsData}
 					ascensionMaterial='Fetters of the Dandelion Gladiator'
 					days='Cecilia Garden'
 				/>
@@ -52,6 +62,11 @@ const WeaponMaterialsSunday = props => {
 					weaponsData={props.weaponsData}
 					ascensionMaterial='Mask of the Wicked Lieutenant'
 					days='Court of Flowing Sand'
+				/>
+				<WeaponMaterial
+					weaponsData={props.weaponsData}
+					ascensionMaterial='Echo of Scorching Might'
+					days='Tower of Abject Pride'
 				/>
 			</Table>
 		</section>

@@ -23,6 +23,11 @@ const WeaponMaterialsWednesday = props => {
 					ascensionMaterial='Mask of the Wicked Lieutenant'
 					days='Court of Flowing Sand'
 				/>
+				<WeaponMaterial
+					weaponsData={props.weaponsData}
+					ascensionMaterial='Echo of Scorching Might'
+					days='Tower of Abject Pride'
+				/>
 			</Table>
 		</section>
 	);

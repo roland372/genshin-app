@@ -23,6 +23,11 @@ const WeaponMaterialsTuesday = props => {
 					ascensionMaterial="Narukami's Wisdom"
 					days='Court of Flowing Sand'
 				/>
+				<WeaponMaterial
+					weaponsData={props.weaponsData}
+					ascensionMaterial="Oasis Garden's Reminiscence"
+					days='Tower of Abject Pride'
+				/>
 			</Table>
 		</section>
 	);

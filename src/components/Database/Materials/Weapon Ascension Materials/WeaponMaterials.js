@@ -59,6 +59,23 @@ const WeaponMaterials = props => {
 					days='Wednesday, Saturday'
 				/>
 			</Table>
+			<Table nation='Sumeru' days='Days'>
+				<WeaponMaterial
+					weaponsData={props.weaponsData}
+					ascensionMaterial='Copper Talisman of the Forest Dew'
+					days='Monday, Thursday'
+				/>
+				<WeaponMaterial
+					weaponsData={props.weaponsData}
+					ascensionMaterial="Oasis Garden's Reminiscence"
+					days='Tuesday, Friday'
+				/>
+				<WeaponMaterial
+					weaponsData={props.weaponsData}
+					ascensionMaterial='Echo of Scorching Might'
+					days='Wednesday, Saturday'
+				/>
+			</Table>
 		</CardComponent>
 	);
 };
