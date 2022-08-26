@@ -9,13 +9,13 @@ const Constellations = props => {
 				level='1'
 				image={props.constellation1Image}
 				name={props.data.constellations[0].name}
-				description='Palm Vortex pulls in opponents and objects within a 5m radius.'
+				description='After Razorgrass Blade hits an opponent, it will regenerate 3.5 Energy for the Traveler.'
 			/>
 			<Constellation
 				level='2'
 				image={props.constellation2Image}
 				name={props.data.constellations[1].name}
-				description={<div>Increases Energy Recharge by 16%.</div>}
+				description={<div>Lea Lotus Lamp's duration is increased by 3s.</div>}
 			/>
 			<Constellation
 				level='3'
@@ -23,7 +23,7 @@ const Constellations = props => {
 				name={props.data.constellations[2].name}
 				description={
 					<div>
-						<div>Increases the Level of Gust Surge by 3.</div>
+						<div>Increases the Level of Razorgrass Blade by 3.</div>
 						<div>Maximum upgrade level is 15.</div>
 					</div>
 				}
@@ -32,7 +32,15 @@ const Constellations = props => {
 				level='4'
 				image={props.constellation4Image}
 				name={props.data.constellations[3].name}
-				description='Reduces DMG taken while casting Palm Vortex by 10%.'
+				description={
+					<div>
+						After the Lea Lotus Lamp triggers a Lotuslight Transfiguration, it
+						will obtain 5 stacks of the Overflowing Lotuslight effect from the
+						Passive Talent "Verdant Overgrowth."
+						<br />
+						You must have unlocked this Passive Talent first.
+					</div>
+				}
 			/>
 			<Constellation
 				level='5'
@@ -40,7 +48,7 @@ const Constellations = props => {
 				name={props.data.constellations[4].name}
 				description={
 					<div>
-						<div>Increases the Level of Palm Vortex by 3.</div>
+						<div>Increases the Level of Surgent Manifestation by 3.</div>
 						<div>Maximum upgrade level is 15.</div>
 					</div>
 				}
@@ -51,15 +59,11 @@ const Constellations = props => {
 				name={props.data.constellations[5].name}
 				description={
 					<div>
-						<div>
-							Targets who take DMG from Gust Surge have their Anemo RES
-							decreased by 20%.
-						</div>
-						<div>
-							If an Elemental Absorption occurred, then their
-							<b className='text-anemo'> Anemo RES </b>
-							towards the corresponding Element is also decreased by 20%.
-						</div>
+						The <b className='text-dendro'> Dendro DMG Bonus</b> of the
+						character under the effect of Overflowing Lotuslight as created by
+						the Lea Lotus Lamp is increased by 12%. If the Lamp has experienced
+						a Lotuslight Transfiguration previously, the character will also
+						gain 12% DMG Bonus for the corresponding element.
 					</div>
 				}
 			/>

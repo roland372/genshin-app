@@ -16,7 +16,7 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack={<div>Perform up to 5 rapid strikes.</div>}
+				normalAttack={<div>Performs up to 5 rapid strikes.</div>}
 				chargedAttack={
 					<div>
 						Consumes a certain amount of Stamina to unleash 2 rapid sword
@@ -37,32 +37,8 @@ const Talents = props => {
 				image={props.elementalSkillImage}
 				description={
 					<div>
-						<div>
-							Grasping the wind's might, you form a vortex of vacuum in your
-							palm, causing continuous
-							<b className='text-anemo'> Anemo DMG </b>
-							to opponents in front of you.
-						</div>
-						<div>
-							The vacuum vortex explodes when the skill duration ends, causing a
-							greater amount of
-							<b className='text-anemo'> Anemo DMG </b>
-							over a larger area.
-						</div>
-						<br />
-						<b>Hold</b>
-						<div>DMG and AoE will gradually increase.</div>
-						<br />
-						<b>Elemental Absorption</b>
-						<div>
-							If the vortex comes into contact with
-							<b className='text-hydro'> Hydro</b>/
-							<b className='text-pyro'>Pyro</b>/
-							<b className='text-cryo'>Cryo</b>/
-							<b className='text-electro'>Electro</b>, it will deal additional
-							elemental DMG of that type.
-						</div>
-						<div>Elemental Absorption may only occur once per use.</div>
+						With a flourish of your blade, you unleash a spray of razor-sharp
+						leaves that go before you and deal <b className='text-dendro'> Dendro</b> DMG.
 					</div>
 				}
 			>
@@ -73,23 +49,29 @@ const Talents = props => {
 				image={props.elementalBurstImage}
 				description={
 					<div>
-						<div>
-							Guiding the path of the wind currents, you summon a forward-moving
-							tornado that pulls objects and opponents towards itself, dealing
-							continuous
-							<b className='text-anemo'> Anemo DMG</b>.
-						</div>
+						Calling upon the might of the flora all around you, you create a Lea
+						Lotus Lamp. This Lamp will deal continuous <b className='text-dendro'> Dendro</b> DMG to opponents
+						within its AoE.
 						<br />
-						<b>Elemental Absorption</b>
-						<div>
-							If the tornado comes into contact with
-							<b className='text-hydro'> Hydro</b>/
-							<b className='text-pyro'>Pyro</b>/
-							<b className='text-cryo'>Cryo</b>/
-							<b className='text-electro'>Electro</b>, it will deal additional
-							elemental DMG of that type.
-						</div>
-						<div>Elemental Absorption may only occur once per use.</div>
+						<br />
+						<b>Lotuslight Transfiguration</b>
+						<br />
+						The Lea Lotus Lamp will undergo the following changes after it comes
+						into contact with <b className='text-hydro'> Hydro</b>/<b className='text-electro'> Electro</b>/<b className='text-pyro'> Pyro</b>:
+						<li>
+							<b className='text-hydro'> Hydro</b>: the Lamp's AoE and the AoE of its attacks are increased.
+						</li>
+						<li><b className='text-electro'> Electro</b>: the Lamp's ATK SPD is increased.</li>
+						<li>
+							<b className='text-pyro'> Pyro</b>: the Lamp will explode after a short delay and then
+							disappear, dealing  <b className='text-dendro'> AoE Dendro DMG</b>.
+						</li>
+						<br />
+						The Lea Lotus Lamp can only undergo one Lotuslight Transfiguration
+						in its duration.
+						<br />
+						<br />
+						Only one Lamp created by the Traveler can exist at any one time.
 					</div>
 				}
 			>
@@ -102,10 +84,10 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 1'
 				description={
 					<div>
-						The last hit of a Normal Attack combo unleashes a wind blade,
-						dealing 60% of ATK as
-						<b className='text-anemo'> Anemo DMG </b>
-						to all opponents in its path.
+						Lea Lotus Lamp will obtain one level of Overflowing Lotuslight every
+						second it is on the field, increasing the Elemental Mastery of
+						active character(s) within its AoE by 6. Overflowing Lotuslight has
+						a maximum of 10 stacks.
 					</div>
 				}
 			/>
@@ -115,8 +97,9 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 4'
 				description={
 					<div>
-						Palm Vortex kills regenerate 2% HP for 5s. This effect can only
-						occur once every 5s.
+						Every point of Elemental Mastery the Traveler possesses increases
+						the DMG dealt by Razorgrass Blade by 0.15% and the DMG dealt by
+						Surgent Manifestation by 0.1%.
 					</div>
 				}
 			/>
@@ -125,3 +108,6 @@ const Talents = props => {
 };
 
 export default Talents;
+
+
+
