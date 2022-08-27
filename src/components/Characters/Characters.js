@@ -121,7 +121,7 @@ const Characters = () => {
 						whileHover={whileHover}
 					>
 						<button
-							className='btn btn-warning'
+							className='btn btn-warning shadow-none'
 							onClick={() => setCharactersDisplay(!charactersDisplay)}
 						>
 							{charactersDisplay ? (
@@ -142,7 +142,7 @@ const Characters = () => {
 							return (
 								<button
 									type='button'
-									className='btn btn-sm m-1 p-1'
+									className='btn btn-sm m-1 p-1 shadow-none'
 									key={index + element}
 									onClick={() => filterElements(element)}
 								>
@@ -176,7 +176,7 @@ const Characters = () => {
 							return (
 								<button
 									type='button'
-									className='btn btn-sm m-1 p-1'
+									className='btn btn-sm m-1 p-1 shadow-none'
 									key={weapon}
 									onClick={() => filterWeapons(weapon)}
 								>

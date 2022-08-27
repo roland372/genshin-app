@@ -80,7 +80,7 @@ const Weapons = () => {
 							return (
 								<button
 									type='button'
-									className='btn btn-sm m-1 p-1'
+									className='btn btn-sm m-1 p-1 shadow-none'
 									key={index}
 									onClick={() => filterWeaponTypes(type)}
 								>
@@ -122,7 +122,7 @@ const Weapons = () => {
 							return (
 								<button
 									type='button'
-									className='btn btn-sm m-1 p-1'
+									className='btn btn-sm m-1 p-1 shadow-none'
 									key={index}
 									onClick={() => filterRarities(type)}
 								>

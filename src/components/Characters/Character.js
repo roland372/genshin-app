@@ -12,11 +12,15 @@ import CharacterInfoSmall from './CharacterInfoSmall';
 import Stats from './Stats';
 import TalentMaterials from './TalentMaterials';
 import Ascensions from './Ascensions';
+import { motion } from 'framer-motion/dist/framer-motion';
 
 //? <----- Custom Hooks ----->
 import useDocumentTitle from '../../hooks/useDocumentTitle';
 
 const Character = props => {
+	//* Animation variables
+	const whileHover = { scale: 1.1 };
+
 	//* Reference to components
 	const infoSection = useRef(null);
 	const statsSection = useRef(null);
@@ -153,34 +157,55 @@ const Character = props => {
 
 			{/* <----- Table of contents -----> */}
 			<CardComponent title='Table of contents'>
-				<div className='mx-1'>
-					<button className='btn btn-warning m-1' onClick={gotoInfoSection}>
-						Info
-					</button>
-					<button className='btn btn-warning m-1' onClick={gotoStatsSection}>
-						Stats
-					</button>
-					<button className='btn btn-warning m-1' onClick={gotoTalentsSection}>
-						Talents
-					</button>
-					<button
-						className='btn btn-warning m-1'
-						onClick={gotoTalentMaterialsSection}
-					>
-						Talent Materials
-					</button>
-					<button
-						className='btn btn-warning m-1'
-						onClick={gotoConstellationsSection}
-					>
-						Constellations
-					</button>
-					<button
-						className='btn btn-warning m-1'
-						onClick={gotoAscensionsSection}
-					>
-						Ascensions
-					</button>
+				<div className='mx-1 d-flex justify-content-center'>
+					<motion.div whileHover={whileHover}>
+						<button
+							className='btn btn-warning m-1 shadow-none'
+							onClick={gotoInfoSection}
+						>
+							Info
+						</button>
+					</motion.div>
+					<motion.div whileHover={whileHover}>
+						<button
+							className='btn btn-warning m-1 shadow-none'
+							onClick={gotoStatsSection}
+						>
+							Stats
+						</button>
+					</motion.div>
+					<motion.div whileHover={whileHover}>
+						<button
+							className='btn btn-warning m-1 shadow-none'
+							onClick={gotoTalentsSection}
+						>
+							Talents
+						</button>
+					</motion.div>
+					<motion.div whileHover={whileHover}>
+						<button
+							className='btn btn-warning m-1 shadow-none'
+							onClick={gotoTalentMaterialsSection}
+						>
+							Talent Materials
+						</button>
+					</motion.div>
+					<motion.div whileHover={whileHover}>
+						<button
+							className='btn btn-warning m-1 shadow-none'
+							onClick={gotoConstellationsSection}
+						>
+							Constellations
+						</button>
+					</motion.div>
+					<motion.div whileHover={whileHover}>
+						<button
+							className='btn btn-warning m-1 shadow-none'
+							onClick={gotoAscensionsSection}
+						>
+							Ascensions
+						</button>
+					</motion.div>
 				</div>
 			</CardComponent>
 
