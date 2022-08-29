@@ -24,7 +24,7 @@ const SingleCharacterGrid = props => {
 
 	return (
 		<motion.div
-			className='col-xl-1 col-md-2 col-3 mt-3'
+			className='col-xl-2 col-lg-2 col-md-3 col-4 mt-3'
 			initial={initial}
 			animate={animate}
 			transition={{ delay: delay, type: type, bounce: bounce }}
@@ -35,24 +35,36 @@ const SingleCharacterGrid = props => {
 				placement='top'
 				overlay={
 					<Tooltip>
-						<img
+						{/* <img
 							src={props.elementImage}
 							width='20px'
 							alt=''
 							className='me-1'
-						/>
-						<img src={props.weaponImage} width='20px' alt='' className='me-1' />
+						/> */}
+						{/* <img src={props.weaponImage} width='20px' alt='' className='me-1' /> */}
 						{props.name}
 					</Tooltip>
 				}
 			>
-				<div>
+				<div className='position-relative'>
 					<Link className='link-color' to={`characters/${props.url}`}>
 						<img
 							src={props.icon}
-							width='100px'
+							// width='100px'
 							alt={props.name}
-							className={`img-fluid img-thumbnail ${rarityColor}`}
+							className={`img-fluid rounded ${rarityColor}`}
+						/>
+						<img
+							src={props.elementImage}
+							width='30px'
+							alt={props.name}
+							className='position-absolute top-0 start-0'
+						/>
+						<img
+							src={props.weaponImage}
+							width='30px'
+							alt=''
+							className='position-absolute top-0 end-0'
 						/>
 					</Link>
 				</div>

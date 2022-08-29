@@ -321,7 +321,8 @@ const Characters = () => {
 					</div>
 				) : (
 					//* <----- Display characters as grid ----->
-					<div className='row justify-content-center align-items-center px-2'>
+					// <div className='row justify-content-center align-items-center px-2'>
+					<div className='row px-2'>
 						{menuItems
 							.filter(value => {
 								if (searchTerm === '') {
