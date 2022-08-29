@@ -59,7 +59,7 @@ const Talents = props => {
 				name={props.data.skillTalents[2].name}
 				image={props.elementalBurstImage}
 				description={
-					<p>
+					<div>
 						<div>Trusty Cuilein-Anbar comes to save the day!</div>
 						<div>
 							Throws the doll named Cuilein-Anbar, causing an explosion that
@@ -76,7 +76,7 @@ const Talents = props => {
 							</b>
 							.
 						</div>
-					</p>
+					</div>
 				}
 			>
 				<AttributeScaling data={elementalBurst} />
