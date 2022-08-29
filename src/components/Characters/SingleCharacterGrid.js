@@ -52,7 +52,7 @@ const SingleCharacterGrid = props => {
 							src={props.icon}
 							// width='100px'
 							alt={props.name}
-							className={`img-fluid rounded ${rarityColor}`}
+							className={`img-fluid img-thumbnail rounded ${rarityColor}`}
 						/>
 						<img
 							src={props.elementImage}
