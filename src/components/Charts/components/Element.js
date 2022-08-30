@@ -21,6 +21,7 @@ const Element = props => {
 					'#bf2818',
 					'#0b4dda',
 					'#9336b0',
+					'#7bb42d',
 					'#26a684',
 				],
 				backgroundColor: [
@@ -29,6 +30,7 @@ const Element = props => {
 					'#bf2818',
 					'#0b4dda',
 					'#9336b0',
+					'#7bb42d',
 					'#26a684',
 				],
 			},

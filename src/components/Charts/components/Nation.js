@@ -25,12 +25,20 @@ const Nation = props => {
 								c.data.nation.includes(u)
 						).length
 				),
-				borderColor: ['#26a684', '#CFCFC4', '#9336b0', '#b68d07', '#4878a8'],
+				borderColor: [
+					'#26a684',
+					'#CFCFC4',
+					'#9336b0',
+					'#b68d07',
+					'#7bb42d',
+					'#4878a8',
+				],
 				backgroundColor: [
 					'#26a684',
 					'#CFCFC4',
 					'#9336b0',
 					'#b68d07',
+					'#7bb42d',
 					'#4878a8',
 				],
 			},

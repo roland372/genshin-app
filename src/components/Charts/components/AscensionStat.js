@@ -31,6 +31,7 @@ const AscensionStat = props => {
 					'#ffffff',
 					'#0b4dda',
 					'#26a684',
+					'#7bb42d',
 				],
 				backgroundColor: [
 					'#b68d07',
@@ -48,6 +49,7 @@ const AscensionStat = props => {
 					'#ffffff',
 					'#0b4dda',
 					'#26a684',
+					'#7bb42d',
 				],
 			},
 		],
