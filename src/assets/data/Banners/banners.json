@@ -20,6 +20,27 @@
       "image": "images/Banners/weapon/Epitome_Invocation_2022-08-24.png",
       "startDate": "August 24, 2022",
       "endDate": "September 9, 2022"
+    },
+    {
+      "name": "Adrift in the Harbor",
+      "link": "https://www.hoyolab.com/article/8554614",
+      "image": "images/Banners/character/Adrift_in_the_Harbor_2022-09-09.png",
+      "startDate": "September 09, 2022",
+      "endDate": "September 27, 2022"
+    },
+    {
+      "name": "Drifting Luminescence",
+      "link": "https://genshin.hoyoverse.com/en/news/detail/23576",
+      "image": "images/Banners/character/Drifting_Luminescence_2022-09-09.png",
+      "startDate": "September 09, 2022",
+      "endDate": "September 27, 2022"
+    },
+    {
+      "name": "Epitome Invocation",
+      "link": "https://genshin.hoyoverse.com/en/news/detail/23569",
+      "image": "images/Banners/weapon/Epitome_Invocation_2022-09-09.png",
+      "startDate": "September 09, 2022",
+      "endDate": "September 27, 2022"
     }
   ],
   "pastBanners": {
@@ -44,6 +65,27 @@
         "image": "images/Banners/weapon/Epitome_Invocation_2022-08-24.png",
         "startDate": "August 24, 2022",
         "endDate": "September 9, 2022"
+      },
+      {
+        "name": "Adrift in the Harbor",
+        "link": "https://www.hoyolab.com/article/8554614",
+        "image": "images/Banners/character/Adrift_in_the_Harbor_2022-09-09.png",
+        "startDate": "September 09, 2022",
+        "endDate": "September 27, 2022"
+      },
+      {
+        "name": "Drifting Luminescence",
+        "link": "https://genshin.hoyoverse.com/en/news/detail/23576",
+        "image": "images/Banners/character/Drifting_Luminescence_2022-09-09.png",
+        "startDate": "September 09, 2022",
+        "endDate": "September 27, 2022"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin.hoyoverse.com/en/news/detail/23569",
+        "image": "images/Banners/weapon/Epitome_Invocation_2022-09-09.png",
+        "startDate": "September 09, 2022",
+        "endDate": "September 27, 2022"
       }
     ],
     "version 2.8" : [
