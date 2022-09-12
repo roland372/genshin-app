@@ -16,20 +16,18 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack={<div>Perform up to 5 consecutive shots with a bow.</div>}
+				normalAttack={<div>Perform up to 3 consecutive strikes.</div>}
 				chargedAttack={
 					<div>
-						Perform a more precise Aimed Shot with increased DMG.
-						<br />
-						While aiming, flames will accumulate on the arrowhead. A fully
-						charged flaming arrow will deal
-						<b className='text-pyro'> Pyro DMG</b>.
+						Drains Stamina over time to perform continuous spinning attacks
+						against all nearby opponents. At the end of the sequence, performs a
+						more powerful slash.
 					</div>
 				}
 				plungingAttack={
 					<div>
-						Fires off a shower of arrows in mid-air before falling and striking
-						the ground, dealing AoE DMG upon impact.
+						Plunges from mid-air to strike the ground below, damaging opponents
+						along the path and dealing AoE DMG upon impact.
 					</div>
 				}
 			>
@@ -40,19 +38,12 @@ const Talents = props => {
 				image={props.elementalSkillImage}
 				description={
 					<div>
-						<b>Barron Bunny</b>
-						<ul>
-							<li>Continuously taunts the enemy, drawing their fire.</li>
-							<li>Baron Bunny's HP scales with Amber's Max HP.</li>
-							<li>
-								When destroyed or when its timer expires, Baron Bunny explodes,
-								dealing
-								<b className='text-pyro'> AoE Pyro DMG</b>.
-							</li>
-						</ul>
-						<b>Hold</b>
-						<div>Adjusts the throwing direction of Baron Bunny.</div>
-						<div>The longer the button is held, the further the throw.</div>
+						Directs a Spirit-Warding Lamp to fire off Troubleshooter Shots at
+						opponents, dealing <b className='text-electro'> Electro DMG.</b>
+						<br />
+						When Troubleshooter Shots hit opponents, they will create 2
+						After-Sales Service Rounds that will automatically track opponents
+						and deal <b className='text-electro'> Electro DMG.</b>
 					</div>
 				}
 			>
@@ -62,10 +53,26 @@ const Talents = props => {
 				name={props.data.skillTalents[2].name}
 				image={props.elementalBurstImage}
 				description={
-					<p>
-						Fires of a shower of arrows, dealing continuous
-						<b className='text-pyro'> AoE Pyro DMG</b>.
-					</p>
+					<div>
+						Summons forth the Jinni within the lamp to give the client various
+						kinds of aid.
+						<br />
+						<br />
+						<b>Jinni</b>
+						<br />
+						Connects to a nearby character. The connected character will:
+						<li>Continuously restore HP based on Dori's Max HP.</li>
+						<li>Continuously regenerate Energy.</li>
+						<li>
+							Be affected by <b className='text-electro'> Electro</b>.
+						</li>
+						<br />
+						When the connector between the Jinni and the character touches
+						opponents, it will deal one instance of{' '}
+						<b className='text-electro'> Electro DMG</b> to them every 0.4s.
+						<br />
+						Only one Jinni can exist at one time.
+					</div>
 				}
 			>
 				<AttributeScaling data={elementalBurst} />
@@ -77,8 +84,12 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 1'
 				description={
 					<div>
-						Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by
-						30%.
+						After a character connected to the Jinni triggers an
+						Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate,
+						Hyperbloom, or an Electro Swirl or Crystallize reaction, the CD of
+						Spirit-Warding Lamp: Troubleshooter Cannon is decreased by 1s.
+						<br />
+						This effect can be triggered once every 3s.
 					</div>
 				}
 			/>
@@ -88,7 +99,13 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 4'
 				description={
 					<div>
-						Aimed Shot hits on weak spots increase Base ATK by 15% for 10s.
+						When the Troubleshooter Shots or After-Sales Service Rounds from
+						Spirit-Warding Lamp: Troubleshooter Cannon hit opponents, Dori will
+						restore 5 Elemental Energy for every 100% Energy Recharge possessed.
+						<br />
+						Per Spirit-Warding Lamp: Troubleshooter Cannon, only one instance of
+						Energy restoration can be triggered and a maximum of 15 Energy can
+						be restored this way.
 					</div>
 				}
 			/>
@@ -98,12 +115,8 @@ const Talents = props => {
 				unlocked='Unlocked Automatically'
 				description={
 					<div>
-						<div>
-							Decreases all party members' gliding Stamina Consumption by 20%.
-						</div>
-						<div>
-							The greatest effect out of all Talents of the same type prevails.
-						</div>
+						When Dori crafts Character and Weapon Enhancement Materials, she has
+						a chance to refund a portion of the crafting materials used.
 					</div>
 				}
 			/>
