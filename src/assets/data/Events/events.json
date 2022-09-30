@@ -1,46 +1,60 @@
 {
   "currentEvents": [
     {
-      "name": "Luxuriant Woodlands",
-      "link": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Luxuriant_Woodlands",
-      "image": "images/Events/current/Battle_Pass_Luxuriant_Woodlands.png",
-      "startDate": "August 24, 2022",
-      "endDate": "September 26, 2022"
+      "name": "Canvas of Starlight Memories",
+      "link": "https://genshin-impact.fandom.com/wiki/Canvas_of_Starlight_Memories",
+      "image": "images/Events/current/Canvas_of_Starlight_Memories.png",
+      "startDate": "September 28, 2022",
+      "endDate": "October 12, 2022"
     },
     {
-      "name": "Graven Innocence",
-      "link": "https://genshin-impact.fandom.com/wiki/Graven_Innocence",
-      "image": "images/Events/current/Graven_Innocence.png",
-      "startDate": "August 24, 202",
-      "endDate": "September 28, 2022"
+      "name": "Returning Winds",
+      "link": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Returning_Winds",
+      "image": "images/Events/current/Battle_Pass_Returning_Winds.png",
+      "startDate": "September 28, 2022",
+      "endDate": "October 31, 2022"
     },
     {
-      "name": "Lost Riches 2022-09-02",
-      "link": "https://genshin-impact.fandom.com/wiki/Lost_Riches/2022-09-02",
-      "image": "images/Events/current/Lost_Riches_2022-09-02.png",
-      "startDate": "September 02, 2022",
-      "endDate": "September 19, 2022"
+      "name": "Of Travels and Treasures: A Thank-You Gift",
+      "link": "https://genshin-impact.fandom.com/wiki/Of_Travels_and_Treasures:_A_Thank-You_Gift",
+      "image": "images/Events/current/Of_Travels_and_Treasures_A_Thank-You_Gift.png",
+      "startDate": "September 28, 2022",
+      "endDate": "November 02, 2022"
     },
     {
-      "name": "Fayz Trials",
-      "link": "https://genshin-impact.fandom.com/wiki/Fayz_Trials",
-      "image": "images/Events/current/Fayz_Trials.png",
-      "startDate": "September 08, 2022",
-      "endDate": "September 26, 2022"
+      "name": "Of Ballads and Brews",
+      "link": "https://genshin-impact.fandom.com/wiki/Of_Ballads_and_Brews",
+      "image": "images/Events/current/Of_Ballads_and_Brews.png",
+      "startDate": "September 29, 2022",
+      "endDate": "October 17, 2022"
     },
     {
-      "name": "Tablet Analytics",
-      "link": "https://genshin-impact.fandom.com/wiki/Tablet_Analytics",
-      "image": "images/Events/current/Tablet_Analytics.png",
-      "startDate": "September 15, 2022",
-      "endDate": "September 26, 2022"
+      "name": "Hyakunin Ikki 2022-10-10",
+      "link": "https://genshin-impact.fandom.com/wiki/Hyakunin_Ikki/2022-10-10",
+      "image": "images/Events/current/Hyakunin_Ikki.png",
+      "startDate": "October 10, 2022",
+      "endDate": "October 24, 2022"
     },
     {
-      "name": "Ley Line Overflow 3.0",
-      "link": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/3.0",
-      "image": "images/Events/current/Ley_Line_Overflow.png",
-      "startDate": "September 20, 2022",
-      "endDate": "September 27, 2022"
+      "name": "Path of Gleaming Jade",
+      "link": "https://genshin-impact.fandom.com/wiki/Path_of_Gleaming_Jade",
+      "image": "images/Events/current/Path_of_Gleaming_Jade.png",
+      "startDate": "October 14, 2022",
+      "endDate": "October 31, 2022"
+    },
+    {
+      "name": "Star-Seeker's Sojourn",
+      "link": "https://genshin-impact.fandom.com/wiki/Star-Seeker%27s_Sojourn",
+      "image": "images/Events/current/Star-Seeker's_Sojourn.png",
+      "startDate": "TBA",
+      "endDate": "TBA"
+    },
+    {
+      "name": "Wind Chaser",
+      "link": "https://genshin-impact.fandom.com/wiki/Wind_Chaser",
+      "image": "images/Events/current/Wind_Chaser.png",
+      "startDate": "TBA",
+      "endDate": "TBA"
     }
   ],
   "upcomingEvents": [
@@ -57,42 +71,42 @@
       {
         "name": "Luxuriant Woodlands",
         "link": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Luxuriant_Woodlands",
-        "image": "images/Events/current/Battle_Pass_Luxuriant_Woodlands.png",
+        "image": "images/Events/3.0/Battle_Pass_Luxuriant_Woodlands.png",
         "startDate": "August 24, 2022",
         "endDate": "September 26, 2022"
       },
       {
         "name": "Graven Innocence",
         "link": "https://genshin-impact.fandom.com/wiki/Graven_Innocence",
-        "image": "images/Events/current/Graven_Innocence.png",
+        "image": "images/Events/3.0/Graven_Innocence.png",
         "startDate": "August 24, 202",
         "endDate": "September 28, 2022"
       },
       {
         "name": "Lost Riches 2022-09-02",
         "link": "https://genshin-impact.fandom.com/wiki/Lost_Riches/2022-09-02",
-        "image": "images/Events/current/Lost_Riches_2022-09-02.png",
+        "image": "images/Events/3.0/Lost_Riches_2022-09-02.png",
         "startDate": "September 02, 2022",
         "endDate": "September 19, 2022"
       },
       {
         "name": "Fayz Trials",
         "link": "https://genshin-impact.fandom.com/wiki/Fayz_Trials",
-        "image": "images/Events/current/Fayz_Trials.png",
+        "image": "images/Events/3.0/Fayz_Trials.png",
         "startDate": "September 08, 2022",
         "endDate": "September 26, 2022"
       },
       {
         "name": "Tablet Analytics",
         "link": "https://genshin-impact.fandom.com/wiki/Tablet_Analytics",
-        "image": "images/Events/current/Tablet_Analytics.png",
+        "image": "images/Events/3.0/Tablet_Analytics.png",
         "startDate": "September 15, 2022",
         "endDate": "September 26, 2022"
       },
       {
         "name": "Ley Line Overflow 3.0",
         "link": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/3.0",
-        "image": "images/Events/current/Ley_Line_Overflow.png",
+        "image": "images/Events/3.0/Ley_Line_Overflow.png",
         "startDate": "September 20, 2022",
         "endDate": "September 27, 2022"
       }
