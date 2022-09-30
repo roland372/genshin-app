@@ -947,6 +947,28 @@
       "image": "/images/Characters/snezhnaya/Tartaglia/images/Character_Tartaglia_Thumb.png"
     },
     {
+      "name": "Thoma",
+      "url": "Thoma",
+      "rarity": 4,
+      "rarityImage": "/images/Rarity icons/Icon_4_Stars.png",
+      "element": "Pyro",
+      "elementImage": "/images/Elements/Element_Pyro.png",
+      "weapon": "Polearm",
+      "weaponImage": "/images/Weapon icons/Weapon-class-polearm-icon.png",
+      "sex": "Male",
+      "nation": "Inazuma",
+      "HP": 10331,
+      "ATK": 202,
+      "DEF": 751,
+      "ascension": "ATK%",
+      "talentBook": "Transience",
+      "ascensionMaterial": "Agnidus Agate",
+      "bossMaterial": "Smoldering Pearl",
+      "localSpeciality": "Fluorescent Fungus",
+      "commonMaterial": "Treasure Hoarder Insignia",
+      "image": "/images/Characters/inazuma/Thoma/images/Character_Thoma_Thumb.png"
+    },
+    {
       "name": "Tighnari",
       "url": "Tighnari",
       "rarity": 5,

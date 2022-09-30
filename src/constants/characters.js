@@ -42,6 +42,7 @@ import Shenhe from '../components/Characters/Character/Shenhe/Shenhe';
 import ShikanoinHeizou from '../components/Characters/Character/Shikanoin Heizou/ShikanoinHeizou';
 import Sucrose from '../components/Characters/Character/Sucrose/Sucrose';
 import Tartaglia from '../components/Characters/Character/Tartaglia/Tartaglia';
+import Thoma from '../components/Characters/Character/Thoma/Thoma';
 import Tighnari from '../components/Characters/Character/Tighnari/Tighnari';
 import TravelerAnemo from '../components/Characters/Character/Traveler/Anemo/TravelerAnemo';
 import TravelerDendro from '../components/Characters/Character/Traveler/Dendro/TravelerDendro';
@@ -103,6 +104,7 @@ import ShenheData from '../assets/data/Characters/Shenhe.json';
 import ShikanoinHeizouData from '../assets/data/Characters/Shikanoin Heizou.json';
 import SucroseData from '../assets/data/Characters/Sucrose.json';
 import TartagliaData from '../assets/data/Characters/Tartaglia.json';
+import ThomaData from '../assets/data/Characters/Thoma.json';
 import TighnariData from '../assets/data/Characters/Tighnari.json';
 import TravelerAnemoData from '../assets/data/Characters/Traveler Anemo.json';
 import TravelerDendroData from '../assets/data/Characters/Traveler Dendro.json';
@@ -292,6 +294,10 @@ const charactersImports = [
 	{
 		component: Tartaglia,
 		data: TartagliaData,
+	},
+	{
+		component: Thoma,
+		data: ThomaData,
 	},
 	{
 		component: Tighnari,
