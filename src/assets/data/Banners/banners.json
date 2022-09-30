@@ -1,49 +1,51 @@
 {
   "currentBanners": [
     {
-      "name": "Viridescent Vigil",
-      "link": "https://genshin-impact.fandom.com/wiki/Viridescent_Vigil/2022-08-244",
-      "image": "images/Banners/character/Viridescent_Vigil_2022-08-24.png",
-      "startDate": "August 24, 2022",
-      "endDate": "September 9, 2022"
+      "name": "Twilight Arbiter",
+      "link": "https://www.hoyolab.com/article/9331354",
+      "image": "images/Banners/character/Twilight_Arbiter_2022-09-28.png",
+      "startDate": "September 28, 2022",
+      "endDate": "October 14, 2022"
     },
     {
-      "name": "Gentry of Hermitage",
-      "link": "https://genshin-impact.fandom.com/wiki/Gentry_of_Hermitage/2022-08-24",
-      "image": "images/Banners/character/Gentry_of_Hermitage_2022-08-24.png",
-      "startDate": "August 24, 2022",
-      "endDate": "September 9, 2022"
-    },
-    {
-      "name": "Epitome Invocation",
-      "link": "https://genshin-impact.fandom.com/wiki/Epitome_Invocation/2022-08-24",
-      "image": "images/Banners/weapon/Epitome_Invocation_2022-08-24.png",
-      "startDate": "August 24, 2022",
-      "endDate": "September 9, 2022"
-    },
-    {
-      "name": "Adrift in the Harbor",
-      "link": "https://www.hoyolab.com/article/8554614",
-      "image": "images/Banners/character/Adrift_in_the_Harbor_2022-09-09.png",
-      "startDate": "September 09, 2022",
-      "endDate": "September 27, 2022"
-    },
-    {
-      "name": "Drifting Luminescence",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/23576",
-      "image": "images/Banners/character/Drifting_Luminescence_2022-09-09.png",
-      "startDate": "September 09, 2022",
-      "endDate": "September 27, 2022"
+      "name": "Ballad in Goblets",
+      "link": "https://www.hoyolab.com/article/9331369",
+      "image": "images/Banners/character/Ballad_in_Goblets_2022-09-28.png",
+      "startDate": "September 28, 2022",
+      "endDate": "October 14, 2022"
     },
     {
       "name": "Epitome Invocation",
-      "link": "https://genshin.hoyoverse.com/en/news/detail/23569",
-      "image": "images/Banners/weapon/Epitome_Invocation_2022-09-09.png",
-      "startDate": "September 09, 2022",
-      "endDate": "September 27, 2022"
+      "link": "https://www.hoyolab.com/article/9331357",
+      "image": "images/Banners/weapon/Epitome_Invocation_2022-09-28.png",
+      "startDate": "September 28, 2022",
+      "endDate": "October 14, 2022"
     }
   ],
   "pastBanners": {
+    "version 3.1" : [
+      {
+        "name": "Twilight Arbiter",
+        "link": "https://www.hoyolab.com/article/9331354",
+        "image": "images/Banners/character/Twilight_Arbiter_2022-09-28.png",
+        "startDate": "September 28, 2022",
+        "endDate": "October 14, 2022"
+      },
+      {
+        "name": "Ballad in Goblets",
+        "link": "https://www.hoyolab.com/article/9331369",
+        "image": "images/Banners/character/Ballad_in_Goblets_2022-09-28.png",
+        "startDate": "September 28, 2022",
+        "endDate": "October 14, 2022"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://www.hoyolab.com/article/9331357",
+        "image": "images/Banners/weapon/Epitome_Invocation_2022-09-28.png",
+        "startDate": "September 28, 2022",
+        "endDate": "October 14, 2022"
+      }
+    ],
     "version 3.0" : [
       {
         "name": "Viridescent Vigil",

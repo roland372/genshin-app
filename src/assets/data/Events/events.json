@@ -67,6 +67,64 @@
     }
   ],
   "pastEvents": {
+    "version 3.1" : [
+      {
+        "name": "Canvas of Starlight Memories",
+        "link": "https://genshin-impact.fandom.com/wiki/Canvas_of_Starlight_Memories",
+        "image": "images/Events/current/Canvas_of_Starlight_Memories.png",
+        "startDate": "September 28, 2022",
+        "endDate": "October 12, 2022"
+      },
+      {
+        "name": "Returning Winds",
+        "link": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Returning_Winds",
+        "image": "images/Events/current/Battle_Pass_Returning_Winds.png",
+        "startDate": "September 28, 2022",
+        "endDate": "October 31, 2022"
+      },
+      {
+        "name": "Of Travels and Treasures: A Thank-You Gift",
+        "link": "https://genshin-impact.fandom.com/wiki/Of_Travels_and_Treasures:_A_Thank-You_Gift",
+        "image": "images/Events/current/Of_Travels_and_Treasures_A_Thank-You_Gift.png",
+        "startDate": "September 28, 2022",
+        "endDate": "November 02, 2022"
+      },
+      {
+        "name": "Of Ballads and Brews",
+        "link": "https://genshin-impact.fandom.com/wiki/Of_Ballads_and_Brews",
+        "image": "images/Events/current/Of_Ballads_and_Brews.png",
+        "startDate": "September 29, 2022",
+        "endDate": "October 17, 2022"
+      },
+      {
+        "name": "Hyakunin Ikki 2022-10-10",
+        "link": "https://genshin-impact.fandom.com/wiki/Hyakunin_Ikki/2022-10-10",
+        "image": "images/Events/current/Hyakunin_Ikki.png",
+        "startDate": "October 10, 2022",
+        "endDate": "October 24, 2022"
+      },
+      {
+        "name": "Path of Gleaming Jade",
+        "link": "https://genshin-impact.fandom.com/wiki/Path_of_Gleaming_Jade",
+        "image": "images/Events/current/Path_of_Gleaming_Jade.png",
+        "startDate": "October 14, 2022",
+        "endDate": "October 31, 2022"
+      },
+      {
+        "name": "Star-Seeker's Sojourn",
+        "link": "https://genshin-impact.fandom.com/wiki/Star-Seeker%27s_Sojourn",
+        "image": "images/Events/current/Star-Seeker's_Sojourn.png",
+        "startDate": "TBA",
+        "endDate": "TBA"
+      },
+      {
+        "name": "Wind Chaser",
+        "link": "https://genshin-impact.fandom.com/wiki/Wind_Chaser",
+        "image": "images/Events/current/Wind_Chaser.png",
+        "startDate": "TBA",
+        "endDate": "TBA"
+      }
+    ],
     "version 3.0" : [
       {
         "name": "Luxuriant Woodlands",
