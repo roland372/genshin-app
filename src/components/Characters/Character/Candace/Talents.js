@@ -16,20 +16,17 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack={<div>Perform up to 5 consecutive shots with a bow.</div>}
+				normalAttack={<div>Performs up to four consecutive spear strikes.</div>}
 				chargedAttack={
 					<div>
-						Perform a more precise Aimed Shot with increased DMG.
-						<br />
-						While aiming, flames will accumulate on the arrowhead. A fully
-						charged flaming arrow will deal
-						<b className='text-pyro'> Pyro DMG</b>.
+						Consumes a certain amount of Stamina to lunge forward, dealing
+						damage to enemies along the way.
 					</div>
 				}
 				plungingAttack={
 					<div>
-						Fires off a shower of arrows in mid-air before falling and striking
-						the ground, dealing AoE DMG upon impact.
+						Plunges from mid-air to strike the ground below, damaging opponents
+						along the path and dealing AoE DMG upon impact.
 					</div>
 				}
 			>
@@ -40,19 +37,23 @@ const Talents = props => {
 				image={props.elementalSkillImage}
 				description={
 					<div>
-						<b>Barron Bunny</b>
-						<ul>
-							<li>Continuously taunts the enemy, drawing their fire.</li>
-							<li>Baron Bunny's HP scales with Amber's Max HP.</li>
-							<li>
-								When destroyed or when its timer expires, Baron Bunny explodes,
-								dealing
-								<b className='text-pyro'> AoE Pyro DMG</b>.
-							</li>
-						</ul>
+						<b>Tap</b>
+						<br />
+						Rushes forward with her shield, dealing <b className='text-hydro'> Hydro DMG</b>  to opponents in
+						front of her.
+						<br />
+						<br />
 						<b>Hold</b>
-						<div>Adjusts the throwing direction of Baron Bunny.</div>
-						<div>The longer the button is held, the further the throw.</div>
+						<br />
+						Raises her shield to block incoming attacks from nearby opponents,
+						forming a barrier that absorbs DMG based on her Max HP and absorbs
+						<b className='text-hydro'> Hydro DMG</b>  250% more effectively. This barrier lasts until the
+						Elemental Skill is unleashed.
+						<br />
+						After holding for a certain period of time, Candace will finish
+						charging, and when the skill button is released, the skill duration
+						expires, or when the barrier is broken, she will perform a leaping
+						strike that deals <b className='text-hydro'> Hydro DMG</b>  to opponents in front of her.
 					</div>
 				}
 			>
@@ -62,10 +63,32 @@ const Talents = props => {
 				name={props.data.skillTalents[2].name}
 				image={props.elementalBurstImage}
 				description={
-					<p>
-						Fires of a shower of arrows, dealing continuous
-						<b className='text-pyro'> AoE Pyro DMG</b>.
-					</p>
+					<div>
+						Raising her weapon high, Candace calls upon a divine blessing that
+						deals  <b className='text-hydro'>AoE Hydro DMG</b>  based on her Max HP and continuously confers the
+						Prayer of the Crimson Crown on your active character.
+						<br />
+						<br />
+						<b>Prayer of the Crimson Crown</b>
+						<br />
+						This effect has the following properties:
+						<ul>
+							<li>
+								Characters deal increased Elemental DMG with their Normal
+								Attacks.
+							</li>
+							<li>
+								Whenever a character takes the field, they will unleash a
+								rippling wave of water that deals <b className='text-hydro'> Hydro DMG</b>  to nearby opponents.
+								There is a limited number of waves that can be triggered in the
+								duration of this skill.
+							</li>
+							<li>
+								Sword, Claymore, and Polearm-wielding characters under this
+								effect will obtain a <b className='text-hydro'> Hydro Infusion</b>.
+							</li>
+						</ul>
+					</div>
 				}
 			>
 				<AttributeScaling data={elementalBurst} />
@@ -77,8 +100,8 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 1'
 				description={
 					<div>
-						Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by
-						30%.
+						If Candace is hit by an attack in the Hold duration of Sacred Rite:
+						Heron's Sanctum, that skill will finish charging instantly.
 					</div>
 				}
 			/>
@@ -88,7 +111,10 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 4'
 				description={
 					<div>
-						Aimed Shot hits on weak spots increase Base ATK by 15% for 10s.
+						Characters affected by the Prayer of the Crimson Crown caused by
+						Sacred Rite: Wagtail's Tide will deal 0.5% increased DMG to
+						opponents for every 1,000 points of Candace's Max HP when they deal
+						Elemental DMG with their Normal Attacks.
 					</div>
 				}
 			/>
@@ -99,10 +125,12 @@ const Talents = props => {
 				description={
 					<div>
 						<div>
-							Decreases all party members' gliding Stamina Consumption by 20%.
+							Decreases climbing Stamina consumption for your own party members
+							by 20%.
 						</div>
 						<div>
-							The greatest effect out of all Talents of the same type prevails.
+							Not stackable with Passive Talents that provide the exact same
+							effects.
 						</div>
 					</div>
 				}
