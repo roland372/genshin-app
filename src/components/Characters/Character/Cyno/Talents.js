@@ -16,20 +16,17 @@ const Talents = props => {
 			<NormalAttack
 				name={props.data.skillTalents[0].name}
 				image={props.normalAttackImage}
-				normalAttack={<div>Perform up to 5 consecutive shots with a bow.</div>}
+				normalAttack={<div>Performs up to four consecutive spear strikes.</div>}
 				chargedAttack={
 					<div>
-						Perform a more precise Aimed Shot with increased DMG.
-						<br />
-						While aiming, flames will accumulate on the arrowhead. A fully
-						charged flaming arrow will deal
-						<b className='text-pyro'> Pyro DMG</b>.
+						Consumes a certain amount of Stamina to lunge forward, dealing
+						damage to enemies along the way.
 					</div>
 				}
 				plungingAttack={
 					<div>
-						Fires off a shower of arrows in mid-air before falling and striking
-						the ground, dealing AoE DMG upon impact.
+						Plunges from mid-air to strike the ground below, damaging opponents
+						along the path and dealing AoE DMG upon impact.
 					</div>
 				}
 			>
@@ -40,19 +37,13 @@ const Talents = props => {
 				image={props.elementalSkillImage}
 				description={
 					<div>
-						<b>Barron Bunny</b>
-						<ul>
-							<li>Continuously taunts the enemy, drawing their fire.</li>
-							<li>Baron Bunny's HP scales with Amber's Max HP.</li>
-							<li>
-								When destroyed or when its timer expires, Baron Bunny explodes,
-								dealing
-								<b className='text-pyro'> AoE Pyro DMG</b>.
-							</li>
-						</ul>
-						<b>Hold</b>
-						<div>Adjusts the throwing direction of Baron Bunny.</div>
-						<div>The longer the button is held, the further the throw.</div>
+						Performs a swift thrust, dealing <b className='text-electro'> Electro DMG</b>  to opponents along the
+						path.
+						<br />
+						When Cyno is under the Pathsworn Pathclearer state triggered by the
+						Elemental Burst "Sacred Rite: Wolf's Swiftness," he will instead
+						unleash a Mortuary Rite that deals thunderous  <b className='text-electro'> AoE Electro DMG</b>  and
+						extends the duration of Pathsworn Pathclearer.
 					</div>
 				}
 			>
@@ -62,10 +53,19 @@ const Talents = props => {
 				name={props.data.skillTalents[2].name}
 				image={props.elementalBurstImage}
 				description={
-					<p>
-						Fires of a shower of arrows, dealing continuous
-						<b className='text-pyro'> AoE Pyro DMG</b>.
-					</p>
+					<div>
+						Calls upon a divine spirit to indwell him, morphing into the
+						Pactsworn Pathclearer.
+						<br />
+						<br />
+						<b>Pactsworn Pathclearer</b>
+						<br />
+						Cyno's Normal, Charged, and Plunging Attacks will be converted to
+						<b className='text-electro'> Electro DMG</b>  that cannot be overridden. Cyno's Elemental Mastery and
+						resistance to interruption will increase, and he gains immunity to
+						<b className='text-electro'> Electro-Charged DMG</b>. This effect will be canceled when Cyno leaves
+						the field and lasts a maximum of 18s.
+					</div>
 				}
 			>
 				<AttributeScaling data={elementalBurst} />
@@ -77,8 +77,16 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 1'
 				description={
 					<div>
-						Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by
-						30%.
+						When Cyno is in the Pactsworn Pathclearer state activated by Sacred
+						Rite: Wolf's Swiftness, Cyno will enter the Endseer stance at
+						intervals. If he activates Secret Rite: Chasmic Soulfarer while
+						affected by this stance, he will activate the Judication effect,
+						increasing the DMG of this Secret Rite: Chasmic Soulfarer by 35%,
+						and firing off 3 Duststalker Bolts that deal 100% of Cyno's ATK as
+						<b className='text-electro'> Electro</b> DMG.
+						<br />
+						<br />
+						Duststalker Bolt DMG is considered Elemental Skill DMG.
 					</div>
 				}
 			/>
@@ -88,7 +96,18 @@ const Talents = props => {
 				unlocked='Unlocked at Ascension 4'
 				description={
 					<div>
-						Aimed Shot hits on weak spots increase Base ATK by 15% for 10s.
+						Cyno's DMG values will be increased based on his Elemental Mastery
+						as follows:
+						<ul>
+							<li>
+								Pactsworn Pathclearer's Normal Attack DMG is increased by 125%
+								of his Elemental Mastery.
+							</li>
+							<li>
+								Duststalker Bolt DMG from his Passive Talent Featherfall
+								Judgment is increased by 250% of his Elemental Mastery.
+							</li>
+						</ul>
 					</div>
 				}
 			/>
@@ -98,12 +117,8 @@ const Talents = props => {
 				unlocked='Unlocked Automatically'
 				description={
 					<div>
-						<div>
-							Decreases all party members' gliding Stamina Consumption by 20%.
-						</div>
-						<div>
-							The greatest effect out of all Talents of the same type prevails.
-						</div>
+						Gains 25% more rewards when dispatched on a Sumeru Expedition for 20
+						hours.
 					</div>
 				}
 			/>
