@@ -157,7 +157,7 @@ const Character = props => {
 
 			{/* <----- Table of contents -----> */}
 			<CardComponent title='Table of contents'>
-				<div className='mx-1 d-flex justify-content-center'>
+				<div className='mx-1 d-flex justify-content-center flex-wrap'>
 					<motion.div whileHover={whileHover}>
 						<button
 							className='btn btn-warning m-1 shadow-none'
