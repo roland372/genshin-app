@@ -9,8 +9,15 @@ const Constellations = props => {
 				level='1'
 				image={props.constellation1Image}
 				name={props.data.constellations[0].name}
-				description="Fires 2 arrows per Aimed Shot. The second arrow deals 20% of
-            the first arrow's DMG."
+				description={
+					<div>
+						Dance of Haftkarsvar will be enhanced as follows:
+						<ul>
+							<li>Luminous Illusion DMG is increased by 65%.</li>
+							<li>The Tranquility Aura's duration is extended by 6s.</li>
+						</ul>
+					</div>
+				}
 			/>
 			<Constellation
 				level='2'
@@ -19,11 +26,14 @@ const Constellations = props => {
 				description={
 					<div>
 						<div>
-							Baron Bunny, new and improved! Hitting Baron Bunny's foot with a
-							fully-charged Aimed Shot manually detonates it.
+							After characters affected by the Golden Chalice's Bounty deal
+							Hydro DMG to an opponent, that opponent's Hydro RES will be
+							decreased by 35% for 10s. After a triggered Bloom reaction deals
+							DMG to opponents, their Dendro RES will be decreased by 35% for
+							10s.
 						</div>
 						<div>
-							Explosion via manual detonation deals 200% additional DMG.
+							You need to have unlocked the "Court of Dancing Petals" Talent.
 						</div>
 					</div>
 				}
@@ -34,7 +44,10 @@ const Constellations = props => {
 				name={props.data.constellations[2].name}
 				description={
 					<div>
-						<div>Increases the Level of Fiery Rain by 3.</div>
+						<div>
+							Increases the Level of Dance of Abzendegi: Distant Dreams,
+							Listening Spring by 3.
+						</div>
 						<div>Maximum upgrade level is 15.</div>
 					</div>
 				}
@@ -43,7 +56,14 @@ const Constellations = props => {
 				level='4'
 				image={props.constellation4Image}
 				name={props.data.constellations[3].name}
-				description="Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge."
+				description={
+					<div>
+						After the third dance step of Dance of Haftkarsvar's Pirouette hits
+						opponents, Nilou will gain 15 Elemental Energy, and DMG from her
+						Dance of Abzendegi: Distant Dreams, Listening Spring will be
+						increased by 50% for 8s.
+					</div>
+				}
 			/>
 			<Constellation
 				level='5'
@@ -51,7 +71,7 @@ const Constellations = props => {
 				name={props.data.constellations[4].name}
 				description={
 					<div>
-						<div>Increases the Level of Explosive Puppet by 3.</div>
+						<div>Increases the Level of Dance of Haftkarsvar by 3.</div>
 						<div>Maximum upgrade level is 15.</div>
 					</div>
 				}
@@ -60,7 +80,15 @@ const Constellations = props => {
 				level='6'
 				image={props.constellation6Image}
 				name={props.data.constellations[5].name}
-				description="Fiery Rain increases all party members' Movement SPD by 15% and ATK by 15% for 10s."
+				description={
+					<div>
+						For every 1,000 points of Max HP, Nilou's CRIT Rate and CRIT DMG
+						will increase by 0.6% and 1.2% respectively.
+						<br />
+						The maximum increase in CRIT Rate and CRIT DMG via this method is
+						30% and 60% respectively.
+					</div>
+				}
 			/>
 		</ConstellationsWrapper>
 	);

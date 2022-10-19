@@ -46,15 +46,15 @@
       "name": "Star-Seeker's Sojourn",
       "link": "https://genshin-impact.fandom.com/wiki/Star-Seeker%27s_Sojourn",
       "image": "images/Events/current/Star-Seeker's_Sojourn.png",
-      "startDate": "TBA",
-      "endDate": "TBA"
+      "startDate": "October 21, 2022",
+      "endDate": "October 31, 2022"
     },
     {
       "name": "Wind Chaser",
       "link": "https://genshin-impact.fandom.com/wiki/Wind_Chaser",
       "image": "images/Events/current/Wind_Chaser.png",
-      "startDate": "TBA",
-      "endDate": "TBA"
+      "startDate": "October 17, 2022",
+      "endDate": "October 31, 2022"
     }
   ],
   "upcomingEvents": [
@@ -114,15 +114,15 @@
         "name": "Star-Seeker's Sojourn",
         "link": "https://genshin-impact.fandom.com/wiki/Star-Seeker%27s_Sojourn",
         "image": "images/Events/current/Star-Seeker's_Sojourn.png",
-        "startDate": "TBA",
-        "endDate": "TBA"
+        "startDate": "October 21, 2022",
+        "endDate": "October 31, 2022"
       },
       {
         "name": "Wind Chaser",
         "link": "https://genshin-impact.fandom.com/wiki/Wind_Chaser",
         "image": "images/Events/current/Wind_Chaser.png",
-        "startDate": "TBA",
-        "endDate": "TBA"
+        "startDate": "October 17, 2022",
+        "endDate": "October 31, 2022"
       }
     ],
     "version 3.0" : [

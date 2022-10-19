@@ -20,6 +20,27 @@
       "image": "images/Banners/weapon/Epitome_Invocation_2022-09-28.png",
       "startDate": "September 28, 2022",
       "endDate": "October 14, 2022"
+    },
+    {
+      "name": "Twirling Lotus",
+      "link": "https://www.hoyolab.com/article/9331354",
+      "image": "images/Banners/character/Twirling_Lotus_2022-10-14.png",
+      "startDate": "October 14, 2022",
+      "endDate": "October 31, 2022"
+    },
+    {
+      "name": "Secretum Secretorum",
+      "link": "https://genshin-impact.fandom.com/wiki/Secretum_Secretorum/2022-10-14",
+      "image": "images/Banners/character/Secretum_Secretorum_2022-10-14.png",
+      "startDate": "October 14, 2022",
+      "endDate": "October 31, 2022"
+    },
+    {
+      "name": "Epitome Invocation",
+      "link": "https://genshin-impact.fandom.com/wiki/Epitome_Invocation/2022-10-14",
+      "image": "images/Banners/weapon/Epitome_Invocation_2022-10-14.png",
+      "startDate": "October 14, 2022",
+      "endDate": "October 31, 2022"
     }
   ],
   "pastBanners": {
@@ -44,6 +65,27 @@
         "image": "images/Banners/weapon/Epitome_Invocation_2022-09-28.png",
         "startDate": "September 28, 2022",
         "endDate": "October 14, 2022"
+      },
+      {
+        "name": "Twirling Lotus",
+        "link": "https://www.hoyolab.com/article/9331354",
+        "image": "images/Banners/character/Twirling_Lotus_2022-10-14.png",
+        "startDate": "October 14, 2022",
+        "endDate": "October 31, 2022"
+      },
+      {
+        "name": "Secretum Secretorum",
+        "link": "https://genshin-impact.fandom.com/wiki/Secretum_Secretorum/2022-10-14",
+        "image": "images/Banners/character/Secretum_Secretorum_2022-10-14.png",
+        "startDate": "October 14, 2022",
+        "endDate": "October 31, 2022"
+      },
+      {
+        "name": "Epitome Invocation",
+        "link": "https://genshin-impact.fandom.com/wiki/Epitome_Invocation/2022-10-14",
+        "image": "images/Banners/weapon/Epitome_Invocation_2022-10-14.png",
+        "startDate": "October 14, 2022",
+        "endDate": "October 31, 2022"
       }
     ],
     "version 3.0" : [
